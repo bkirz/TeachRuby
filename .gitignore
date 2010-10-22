@@ -1,0 +1,12 @@
+.omakedb
+.omakedb.lock
+
+*.omc
+*.cmx
+*.cma
+*.cmxa
+*.cmi
+*.cmo
+*.o
+
+*.output

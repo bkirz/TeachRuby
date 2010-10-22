@@ -1,0 +1,39 @@
+
+include config.omake
+
+VERSION=0.20090726
+
+OCAMLFLAGS += -dtypes
+
+#OCAMLOPTFLAGS += -p
+#OCAML_NATIVE_LINK_FLAGS += -p
+
+if $(defined BISECT)
+  OCAMLINCLUDES += $(BISECT)
+  OCAML_OTHER_LIBS += bisect
+  export
+
+#OCAMLOPTFLAGS += -g
+#OCAML_NATIVE_LINK_FLAGS += -g
+#OCAMLCFLAGS += -g
+#OCAML_BYTE_LINK_FLAGS += -g
+
+.PHONY: install uninstall clean config
+
+.SUBDIRS: src dypgen-20070627
+
+SITE_FILES = $`(ls R, lib/druby) # `
+install_site: $(SITE_FILES)
+	mkdir -p $(DESTDIR)$(DRUBYSITELIB)
+        # OMake's cp doesn't handling existing directories
+	/bin/cp -rf lib/druby/* $(DESTDIR)$(DRUBYSITELIB)
+
+ALL_FILES = $`(ls R, .) #`
+ALL_TARGETS = $`(filter-targets $(ALL_FILES))) #`
+TARGETS = $`(filter-proper-targets $(ALL_TARGETS)) #`
+ANNOTS = $`(filter-exists $(replacesuffixes .ml, .annot, \
+	                      $(filter %.ml, $(ALL_TARGETS)))) #`
+clean:
+	rm -f $(TARGETS)
+	rm -f $(ANNOTS)
+

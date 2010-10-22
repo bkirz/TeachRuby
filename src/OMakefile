@@ -1,0 +1,45 @@
+#OCAMLOPTFLAGS += -p
+#OCAML_NATIVE_LINK_FLAGS += -p
+OCAMLFLAGS += -for-pack Ril
+
+build_vars.ml: :value: $(SYSCONFDIR) $(VERSION)
+	echo "(* AUTO GENERATED FILE, DO NOT EDIT *)" > $@
+	echo "let sysconfdir = \"$(SYSCONFDIR)\"" >> $@
+	echo "let version = \"$(VERSION)\"" >> $@
+
+if $(defined BISECT)
+  OCAMLOPTFLAGS += -pp 'camlp4o $(BISECT)/instrument.cma'
+  export
+
+FILES[] = 
+	build_vars
+	dQueue
+	log
+	utils
+	config
+	visitor
+
+.SUBDIRS: parser
+	include OMakefile
+	export FILES
+
+OCAMLINCLUDES += parser
+
+DRUBY_LIB = $(OCamlLibrary druby, $(FILES))
+section 
+	OCAMLFLAGS = $(filter-out -for-pack %, $(OCAMLFLAGS))
+	RIL = $(OCamlPackage ril, $(FILES))
+	export RIL
+
+OCAMLINCLUDES += $(DYP_LIB) $(GETOPT_DIR) $(OCAMLGRAPH_DIR)
+OCAML_OTHER_LIBS += nums unix str getopt graph
+OCAML_LIBS = $(DYP_LIB)/dyp druby
+
+SAFE_EVAL_PROG = $(OCamlProgram safe_eval, safe_eval)
+PRINT_PROG = $(OCamlProgram print_cfg, print_cfg)
+TEACH_RUBY_PROG = $(OCamlProgram teach_ruby, main)
+
+TAGS: $(addsuffix .ml, $(FILES))
+	otags $+
+
+.DEFAULT: $(DRUBY_LIB) $(TEACH_RUBY_PROG)
