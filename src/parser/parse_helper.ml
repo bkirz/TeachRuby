@@ -70,7 +70,7 @@ let rec parse_ruby_lexbuf_with_state ?env state lexbuf =
         | l -> failwith "ambiguous parse"
       end
   with Dyp.Syntax_error ->
-    let msg = Printf.sprintf "parse error in file %s, line: %d, token: '%s'\n"
+    let msg = Printf.sprintf "parse error in file %s, line: %d, token: '%s'"
       lexbuf.Lexing.lex_curr_p.Lexing.pos_fname
       lexbuf.Lexing.lex_curr_p.Lexing.pos_lnum
       (Lexing.lexeme lexbuf)

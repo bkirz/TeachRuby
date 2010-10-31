@@ -19,6 +19,7 @@ FILES[] +=
    parser/ast
    parser/ast_printer
    parser/annotation
+   parser/syntax
 
 TEST[] = 
    rat_test

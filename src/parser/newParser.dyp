@@ -635,17 +635,16 @@
   let class_annot = build_annot TypeAnnotParser.e_class
   let expr_annot = build_annot TypeAnnotParser.e_expr
 
-(* ------------------------------------------------------------ *)
+(* -------------------------------------------------------------- *)
 
-open Syntax
+  open Syntax
 
-let gup_illegal construct =
-	if (List.assoc construct syntax_feature_list)
-		then ()
-		else (raise Dyp.Giveup)
+  let gup_illegal construct = 
+    if (List.assoc construct syntax_feature_list)
+	then ()
+	else raise Dyp.Giveup
 
-(* ------------------------------------------------------------ *)
-
+(* -------------------------------------------------------------- *)
 
 }
 
@@ -795,39 +794,39 @@ stmt_list:
       { dyp.Dyp.will_shift <- false; s:: ss }
 
 assign_op: 
-  | T_ASSIGN { gup_illegal "assign_var"; Op_ASSIGN}
-  | T_OP_ASGN[op,pos] { gup_illegal "assign_op_equals"; Op_OP_ASGN (binary_op_of_string op) }
+  | T_ASSIGN {Op_ASSIGN}
+  | T_OP_ASGN[op,pos] { gup_illegal "op_equals"; Op_OP_ASGN (binary_op_of_string op) }
 
 /* tokens that need to reduce immediately to guide the lexer */
-scope_begin:  K_BEGIN[pos] {enter_scope dyp;pos}
-scope_end:    K_END[pos]   {enter_scope dyp;pos}
-scope_def:    K_DEF[pos]   {enter_scope dyp;pos}
-scope_class:  K_CLASS[t_info,pos]  {enter_scope dyp;t_info,pos}
-scope_module: K_MODULE[t_info,pos] {enter_scope dyp;t_info,pos}
+scope_begin:  K_BEGIN[pos] { enter_scope dyp;pos}
+scope_end:    K_END[pos]   { enter_scope dyp;pos}
+scope_def:    K_DEF[pos]   { enter_scope dyp;pos}
+scope_class:  K_CLASS[t_info,pos]  { enter_scope dyp;t_info,pos}
+scope_module: K_MODULE[t_info,pos] { enter_scope dyp;t_info,pos}
 seen_id: identifier[i] {seen dyp i;i}
 
 stmt:
   | T_CAST[annot,e,pos]
-      { gup_illegal "stmt_cast"; expr_annot (E_Identifier(ID_Lowercase,e,pos)) annot pos}
+      { expr_annot (E_Identifier(ID_Lowercase,e,pos)) annot pos}
 
-  | K_ALIAS[pos] meth_or_atom[e1] meth_or_atom[e2] { gup_illegal "stmt_alias"; E_Alias(e1,e2,pos) }
-  | K_UNDEF[pos] meth_or_atom_list[e1] { gup_illegal "stmt_undef"; E_Undef(e1,pos) }
+  | K_ALIAS[pos] meth_or_atom[e1] meth_or_atom[e2] { E_Alias(e1,e2,pos) }
+  | K_UNDEF[pos] meth_or_atom_list[e1] { E_Undef(e1,pos) }
   | stmt[s] K_IF[pos]     eols stmt[guard] 
-      { gup_illegal "stmt_postfix_if";
+      { gup_illegal "if"; gup_illegal "postfix_conds";
 	if is_cond_modifier guard then raise Dyp.Giveup; E_If(guard, [s], [],pos) }
   | stmt[s] K_UNLESS[pos] eols stmt[guard]
-      { gup_illegal "stmt_postfix_unless";
+      { gup_illegal "unless"; gup_illegal "postfix_conds";
 	if is_cond_modifier guard then raise Dyp.Giveup; E_Unless(guard, [s], [],pos) }
   | stmt[s] K_UNTIL[pos]  eols stmt[guard] 
-      { gup_illegal "stmt_postfix_until";
+      { gup_illegal "until"; gup_illegal "postfix_conds";
 	if is_cond_modifier guard then raise Dyp.Giveup; 
 	E_Until(is_exnblock s,guard, [s],pos) }
   | stmt[s] K_WHILE[pos]  eols stmt[guard]
-      { gup_illegal "stmt_postfix_while";
+      { gup_illegal "while"; gup_illegal "postfix_conds";
 	if is_cond_modifier guard then raise Dyp.Giveup;
 	E_While(is_exnblock s,guard, [s],pos) }
   | stmt[s] K_RESCUE[pos] eols stmt[guard]
-      { gup_illegal "stmt_rescue_1";
+      { gup_illegal "exceptions";
 	if is_cond_modifier guard then raise Dyp.Giveup;
 	E_ExnBlock({body_exprs = [s]; rescue_exprs = [(E_Empty,guard)];
 		    ensure_expr = []; else_expr = []}, pos)}
@@ -836,26 +835,26 @@ stmt:
 	just the rhs, not the full assignment (unlike the other modifiers)
       */
   | lhs_assign_op[l,op] eols arg[r] K_RESCUE[pos] eols stmt[guard]
-      { gup_illegal "stmt_rescue_2";
+      { gup_illegal "exceptions";
 	if is_cond_modifier guard then raise Dyp.Giveup;
 	let r' = E_ExnBlock({body_exprs = [r]; rescue_exprs = [(E_Empty,guard)];
 			     ensure_expr = []; else_expr = []}, pos)
 	in (*prune_binop l op r'*) E_Binop(l,op,r',pos)}
 
   | scope_begin[pos] eols T_LBRACE eols stmt_list[body] T_RBRACE
-      { gup_illegal "stmt_begin_block"; leave_scope dyp; E_BeginBlock(body,pos)}
+      { gup_illegal "begin/end"; leave_scope dyp; E_BeginBlock(body,pos)}
   | scope_end[pos] eols T_LBRACE eols stmt_list[body] T_RBRACE
-      { gup_illegal "stmt_end_block"; leave_scope dyp; E_EndBlock(body,pos)}
+      { gup_illegal "begin/end"; leave_scope dyp; E_EndBlock(body,pos)}
 
-  | topcall[c] { gup_illegal "stmt_topcall"; c }
+  | topcall[c] { c }
   | mlhs_assign_op[l,op] eols mrhs[r]
-      { gup_illegal "stmt_parallel_assign";
+      { gup_illegal "mult_assign";
 	(*prune_binop (tuple l) op (tuple r)*) 
 	let lhs = tuple l in
 	  E_Binop(lhs,op,(tuple r),(pos_of lhs))
       }
-  | expr[e] { gup_illegal "stmt_expr"; e }
-  | T_USTAR[pos] primary[e] { gup_illegal "stmt_unary_star"; E_Unary(Op_UStar,e,pos) }
+  | expr[e] { e }
+  | T_USTAR[pos] primary[e] { E_Unary(Op_UStar,e,pos) }
 
 lhs_assign_op: lhs[l] assign_op[op] {seen dyp l; l,op}
 mlhs_assign_op: mlhs[l] assign_op[op] {List.iter (seen dyp) l; l,op}
@@ -969,83 +968,78 @@ expr:
 primary:
   | T_LPAREN[pos] eols stmt_list[ss] T_RPAREN
       { (* don't collapse the block here to prevent the disambiguation
-	  rules from erroneously firing	*) 
-	gup_illegal "primary_block"; E_Block(ss,pos) }
-  | constant[c] { gup_illegal "primary_constant"; c }
-  | identifier[id] { gup_illegal "primary_identifier"; id }
-  | command_name[c] { gup_illegal "primary_meth_call"; methodcall c [] None (pos_of c)}
-  | command_name[c] code_block[cb] { gup_illegal "primary_meth_call_with_block"; command_codeblock c cb }
-  | primary[p] T_SCOPE identifier[id] { gup_illegal "primary_scope"; scope p id }
-  | T_USCOPE[pos] identifier[id] { gup_illegal "primary_unary_scope"; E_Unary(Op_UScope,id,pos) }
+	  rules from erroneously firing	*) E_Block(ss,pos) }
+  | constant[c] { c }
+  | identifier[id] { id }
+  | command_name[c] { methodcall c [] None (pos_of c)}
+  | command_name[c] code_block[cb] { command_codeblock c cb }
+  | primary[p] T_SCOPE identifier[id] { scope p id }
+  | T_USCOPE[pos] identifier[id] { E_Unary(Op_UScope,id,pos) }
   | primary[p] T_LBRACK_ARG[pos1] eols arg_comma_list_trail[args] eols T_RBRACK
-      { gup_illegal "primary_array_assign"; methodcall (E_Binop(p,Op_DOT,E_Operator(Op_AREF,pos1),pos_of p)) args None (pos_of p)}
+      { methodcall (E_Binop(p,Op_DOT,E_Operator(Op_AREF,pos1),pos_of p)) args None (pos_of p)}
 
-  | T_LBRACK[pos] eols array_body[body] eols T_RBRACK { gup_illegal "primary_array_access"; E_Array(body,pos) }
-  | T_LBRACE[pos] eols array_body[body] eols T_RBRACE { gup_illegal "primary_hash_access"; E_Hash(true,body,pos) }
-  | K_RETURN[pos] { gup_illegal "primary_return_nil"; E_Return([],pos)}
-
+  | T_LBRACK[pos] eols array_body[body] eols T_RBRACK { E_Array(body,pos) }
+  | T_LBRACE[pos] eols array_body[body] eols T_RBRACE { E_Hash(true,body,pos) }
+  | K_RETURN[pos] { E_Return([],pos)}
 /*  | K_RETURN[pos] T_LPAREN eols call_args[args] eols T_RPAREN { E_Return(args,pos)}
-  | K_RETURN[pos] lparen eols expr[arg] eols T_RPAREN { E_Return([arg],pos)} */
+  | K_RETURN[pos] lparen eols expr[arg] eols T_RPAREN { E_Return([arg],pos)}*/
+  | K_YIELD[pos] { E_Yield([],pos)}
+  | K_YIELD[pos] lparen eols call_args[args] eols T_RPAREN { E_Yield(args,pos)}
+  | K_YIELD[pos] lparen eols expr[arg] eols T_RPAREN { E_Yield([arg],pos)}
 
-  | K_YIELD[pos] { gup_illegal "primary_yield_1"; E_Yield([],pos)}
-  | K_YIELD[pos] lparen eols call_args[args] eols T_RPAREN { gup_illegal "primary_yield_2"; E_Yield(args,pos)}
-  | K_YIELD[pos] lparen eols expr[arg] eols T_RPAREN { gup_illegal "primary_yield_3"; E_Yield([arg],pos)}
-
-  | func[f] { gup_illegal "primary_func_call"; f }
-  | func[f] code_block[cb] {
-	gup_illegal "primary_func_call_with_block";
-	match f with
+  | func[f] { f }
+  | func[f] code_block[cb] {match f with
       | E_MethodCall(m,args,None,pos) -> methodcall m args (Some cb) pos
       | _ -> methodcall f [] (Some cb) (pos_of f)}
 
   | K_IF[pos] expr[guard] then_sep stmt_list[body] if_else_clauses[else_e] K_lEND
-    { gup_illegal "primary_if"; E_If(guard,body,else_e,pos) }
+    { gup_illegal "if"; E_If(guard,body,else_e,pos) }
 
   | K_UNLESS[pos] expr[guard] then_sep stmt_list[body] case_else[else_e] K_lEND
-    { gup_illegal "primary_unless"; E_Unless(guard,body, else_e,pos) }
+    { gup_illegal "unless"; E_Unless(guard,body, else_e,pos) }
 
   | K_WHILE[pos] expr[guard] do_sep stmt_list[body] K_lEND
-    { gup_illegal "primary_while"; well_formed_do guard body; E_While(false,guard,body,pos) }
+    { gup_illegal "while"; well_formed_do guard body; E_While(false,guard,body,pos) }
 
   | K_UNTIL[pos] expr[guard] do_sep stmt_list[body] K_lEND
-    { gup_illegal "primary_until"; well_formed_do guard body;E_Until(false,guard,body,pos) }
+    { gup_illegal "until"; well_formed_do guard body;E_Until(false,guard,body,pos) }
 
   | K_CASE[pos] some_eols when_clauses[whens] case_else[else_e] K_lEND
-    { gup_illegal "primary_case_1"; E_Case({case_guard = E_Empty; case_whens = whens; case_else = else_e},pos) }
+    { gup_illegal "case/when"; E_Case({case_guard = E_Empty; case_whens = whens; case_else = else_e},pos) }
 
   | K_CASE[pos] eols expr[e] eols when_clauses[whens] case_else[else_e] K_lEND
-    { gup_illegal "primary_case_2"; E_Case({case_guard = e; case_whens = whens; case_else = else_e},pos) }
+    { gup_illegal "case/when"; E_Case({case_guard = e; case_whens = whens; case_else = else_e},pos) }
 
   | K_CASE[pos] eols expr[e] T_SEMICOLON eols when_clauses[whens] case_else[else_e] K_lEND
-    { gup_illegal "primary_case_3"; E_Case({case_guard = e; case_whens = whens; case_else = else_e},pos) }
+    { gup_illegal "case/when"; E_Case({case_guard = e; case_whens = whens; case_else = else_e},pos) }
 
   | K_FOR[pos] formal_arg_list[vars] K_IN arg[range] do_sep stmt_list[body] K_lEND
-    { gup_illegal "primary_for_in"; well_formed_do range body; E_For(vars,range,body,pos) }
+    { gup_illegal "for/in"; well_formed_do range body; E_For(vars,range,body,pos) }
 
-  | K_lBEGIN[pos] eols body_exn[body]  K_lEND { gup_illegal "primary_begin_end"; E_ExnBlock(body,pos) }
+  | K_lBEGIN[pos] eols body_exn[body]  K_lEND { gup_illegal "exceptions"; E_ExnBlock(body,pos) }
 
   | scope_class[t_info, pos] eols scoped_id[class_name] class_inheritance[inh] do_sep
       body_exn[body] K_lEND
-      { gup_illegal "primary_class_def";
+      { gup_illegal "class_def";
 	leave_scope dyp;
         class_annot (E_ClassDef(class_name, inh, body, pos)) t_info pos}
 
   | scope_class[t_info, pos] T_LSHFT arg[id] eols body_exn[body] K_lEND
-      { gup_illegal "primary_anonymous_class_def";
+      { gup_illegal "class_def";
 	leave_scope dyp;
         let t = E_ClassDef(E_Empty, Some (Inst_Inherit id), body, pos) in
           class_annot t t_info pos
       }
 
   | scope_module[t_info, pos] scoped_id[name] eols body_exn[body] K_lEND 
-      { gup_illegal "primary_module_def";
+      { gup_illegal "module_def";
 	leave_scope dyp;
         class_annot (E_ModuleDef (name,body, pos)) t_info pos
       }
 
   | scope_def[t_info,pos] method_name[meth_name] method_formals[formals] eols
       body_exn[body] K_lEND
-      { gup_illegal "primary_method_def";
+      { gup_illegal "method_def";
 	leave_scope dyp;
         let t = E_MethodDef (meth_name, formals, body, pos) in
           method_annot t t_info pos
@@ -1368,8 +1362,9 @@ one_string:
   | T_USER_BEG[m,pos] interp_str[str] { process_user_string m str pos }
 
 string:
-  | one_string[s] {s} /* ("abc" 'def') is the string "abcdef" */
+  | one_string[s] {s}
 
+  /* ("abc" 'def') is the string "abcdef" */
   | string[s1] one_string[s2] { merge_string_lits s1 s2 }
 
 constant:
