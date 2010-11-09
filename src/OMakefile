@@ -19,11 +19,11 @@ FILES[] =
 	config
 	visitor
 
-.SUBDIRS: parser
+.SUBDIRS: parser cfg
 	include OMakefile
 	export FILES
 
-OCAMLINCLUDES += parser
+OCAMLINCLUDES += parser cfg
 
 DRUBY_LIB = $(OCamlLibrary druby, $(FILES))
 section 
