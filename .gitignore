@@ -1,6 +1,7 @@
 .omakedb
 .omakedb.lock
 
+*.annot
 *.omc
 *.cmx
 *.cma
