@@ -1,0 +1,8817 @@
+"config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+type(
+  config
+)
+ident(
+  def conf "config.ml" 73 2047 2047 --
+)
+"config.ml" 39 1224 1234 "config.ml" 39 1224 1239
+type(
+  bool
+)
+"config.ml" 40 1241 1263 "config.ml" 40 1241 1267
+type(
+  bool
+)
+"config.ml" 41 1269 1286 "config.ml" 41 1269 1291
+type(
+  bool
+)
+"config.ml" 42 1293 1315 "config.ml" 42 1293 1320
+type(
+  bool
+)
+"config.ml" 43 1322 1338 "config.ml" 43 1322 1339
+type(
+  int
+)
+"config.ml" 44 1341 1362 "config.ml" 44 1341 1367
+type(
+  bool
+)
+"config.ml" 45 1369 1382 "config.ml" 45 1369 1396
+type(
+  string
+)
+"config.ml" 46 1398 1417 "config.ml" 46 1398 1422
+type(
+  bool
+)
+"config.ml" 47 1424 1442 "config.ml" 47 1424 1446
+type(
+  string option
+)
+"config.ml" 48 1448 1466 "config.ml" 48 1448 1470
+type(
+  bool
+)
+"config.ml" 49 1472 1492 "config.ml" 49 1472 1497
+type(
+  bool
+)
+"config.ml" 50 1499 1519 "config.ml" 50 1499 1524
+type(
+  bool
+)
+"config.ml" 51 1526 1538 "config.ml" 51 1526 1543
+type(
+  bool
+)
+"config.ml" 52 1545 1560 "config.ml" 52 1545 1578
+type(
+  string
+)
+"config.ml" 53 1580 1594 "config.ml" 53 1580 1599
+type(
+  bool
+)
+"config.ml" 54 1601 1620 "config.ml" 54 1601 1624
+type(
+  bool
+)
+"config.ml" 55 1626 1640 "config.ml" 55 1626 1642
+type(
+  string list
+)
+"config.ml" 56 1644 1658 "config.ml" 56 1644 1660
+type(
+  string
+)
+"config.ml" 57 1662 1679 "config.ml" 57 1662 1681
+type(
+  string list
+)
+"config.ml" 58 1683 1696 "config.ml" 58 1683 1701
+type(
+  bool
+)
+"config.ml" 59 1703 1717 "config.ml" 59 1703 1722
+type(
+  bool
+)
+"config.ml" 60 1724 1741 "config.ml" 60 1724 1745
+type(
+  bool
+)
+"config.ml" 61 1747 1767 "config.ml" 61 1747 1771
+type(
+  bool
+)
+"config.ml" 62 1773 1792 "config.ml" 62 1773 1796
+type(
+  bool
+)
+"config.ml" 63 1798 1817 "config.ml" 63 1798 1822
+type(
+  bool
+)
+"config.ml" 64 1844 1864 "config.ml" 64 1844 1869
+type(
+  bool
+)
+"config.ml" 65 1871 1894 "config.ml" 65 1871 1899
+type(
+  bool
+)
+"config.ml" 66 1901 1916 "config.ml" 66 1901 1918
+type(
+  string list
+)
+"config.ml" 67 1933 1946 "config.ml" 67 1933 1948
+type(
+  string list
+)
+"config.ml" 68 1963 1978 "config.ml" 68 1963 1983
+type(
+  bool
+)
+"config.ml" 69 1985 2004 "config.ml" 69 1985 2008
+type(
+  bool
+)
+"config.ml" 38 1211 1222 "config.ml" 70 2010 2011
+type(
+  config
+)
+"config.ml" 73 2047 2051 "config.ml" 73 2047 2056
+type(
+  string
+)
+ident(
+  def usage "config.ml" 77 2131 2131 --
+)
+"config.ml" 74 2060 2062 "config.ml" 74 2060 2069
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"config.ml" 74 2060 2070 "config.ml" 74 2060 2113
+type(
+  (string -> string, unit, string) format
+)
+"config.ml" 75 2114 2116 "config.ml" 75 2114 2124
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"config.ml" 75 2114 2126 "config.ml" 75 2114 2127
+type(
+  int
+)
+"config.ml" 75 2114 2116 "config.ml" 75 2114 2128
+type(
+  string
+)
+"config.ml" 74 2060 2062 "config.ml" 75 2114 2128
+type(
+  string
+)
+"config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+type(
+  bool -> string
+)
+ident(
+  def s_of_b "config.ml" 78 2159 2159 --
+)
+"config.ml" 77 2131 2144 "config.ml" 77 2131 2158
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"config.ml" 78 2159 2163 "config.ml" 78 2159 2169
+type(
+  int -> string
+)
+ident(
+  def s_of_i "config.ml" 81 2266 2266 --
+)
+"config.ml" 78 2159 2172 "config.ml" 78 2159 2185
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"config.ml" 81 2266 2270 "config.ml" 81 2266 2288
+type(
+  (string * string * string * string option) list
+)
+ident(
+  def druby_excl_options "config.ml" 137 4803 4803 --
+)
+"config.ml" 82 2293 2296 "config.ml" 82 2293 2298
+type(
+  string
+)
+"config.ml" 82 2293 2300 "config.ml" 82 2293 2310
+type(
+  string
+)
+"config.ml" 82 2293 2312 "config.ml" 82 2293 2338
+type(
+  string
+)
+"config.ml" 82 2293 2345 "config.ml" 82 2293 2351
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 82 2293 2352 "config.ml" 82 2293 2356
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 82 2293 2352 "config.ml" 82 2293 2362
+type(
+  bool
+)
+"config.ml" 82 2293 2344 "config.ml" 82 2293 2363
+type(
+  string
+)
+"config.ml" 82 2293 2340 "config.ml" 82 2293 2363
+type(
+  string option
+)
+"config.ml" 82 2293 2295 "config.ml" 82 2293 2364
+type(
+  string * string * string * string option
+)
+"config.ml" 83 2366 2369 "config.ml" 83 2366 2371
+type(
+  string
+)
+"config.ml" 83 2366 2373 "config.ml" 83 2366 2395
+type(
+  string
+)
+"config.ml" 83 2366 2397 "config.ml" 83 2366 2421
+type(
+  string
+)
+"config.ml" 84 2424 2433 "config.ml" 84 2424 2439
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 84 2424 2440 "config.ml" 84 2424 2444
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 84 2424 2440 "config.ml" 84 2424 2462
+type(
+  bool
+)
+"config.ml" 84 2424 2432 "config.ml" 84 2424 2463
+type(
+  string
+)
+"config.ml" 84 2424 2428 "config.ml" 84 2424 2463
+type(
+  string option
+)
+"config.ml" 83 2366 2368 "config.ml" 84 2424 2464
+type(
+  string * string * string * string option
+)
+"config.ml" 85 2466 2469 "config.ml" 85 2466 2471
+type(
+  string
+)
+"config.ml" 85 2466 2473 "config.ml" 85 2466 2490
+type(
+  string
+)
+"config.ml" 85 2466 2492 "config.ml" 85 2466 2514
+type(
+  string
+)
+"config.ml" 86 2517 2526 "config.ml" 86 2517 2532
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 86 2517 2533 "config.ml" 86 2517 2537
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 86 2517 2533 "config.ml" 86 2517 2550
+type(
+  bool
+)
+"config.ml" 86 2517 2525 "config.ml" 86 2517 2551
+type(
+  string
+)
+"config.ml" 86 2517 2521 "config.ml" 86 2517 2551
+type(
+  string option
+)
+"config.ml" 85 2466 2468 "config.ml" 86 2517 2552
+type(
+  string * string * string * string option
+)
+"config.ml" 87 2554 2557 "config.ml" 87 2554 2559
+type(
+  string
+)
+"config.ml" 87 2554 2561 "config.ml" 87 2554 2572
+type(
+  string
+)
+"config.ml" 87 2554 2574 "config.ml" 87 2554 2594
+type(
+  string
+)
+"config.ml" 87 2554 2596 "config.ml" 87 2554 2600
+type(
+  string option
+)
+"config.ml" 87 2554 2556 "config.ml" 87 2554 2601
+type(
+  string * string * string * string option
+)
+"config.ml" 88 2603 2606 "config.ml" 88 2603 2608
+type(
+  string
+)
+"config.ml" 88 2603 2610 "config.ml" 88 2603 2632
+type(
+  string
+)
+"config.ml" 88 2603 2634 "config.ml" 88 2603 2672
+type(
+  string
+)
+"config.ml" 89 2674 2683 "config.ml" 89 2674 2689
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 89 2674 2690 "config.ml" 89 2674 2694
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 89 2674 2690 "config.ml" 89 2674 2712
+type(
+  bool
+)
+"config.ml" 89 2674 2682 "config.ml" 89 2674 2713
+type(
+  string
+)
+"config.ml" 89 2674 2678 "config.ml" 89 2674 2713
+type(
+  string option
+)
+"config.ml" 88 2603 2605 "config.ml" 89 2674 2714
+type(
+  string * string * string * string option
+)
+"config.ml" 90 2716 2719 "config.ml" 90 2716 2721
+type(
+  string
+)
+"config.ml" 90 2716 2723 "config.ml" 90 2716 2739
+type(
+  string
+)
+"config.ml" 90 2716 2741 "config.ml" 90 2716 2754
+type(
+  string
+)
+"config.ml" 90 2716 2761 "config.ml" 90 2716 2767
+type(
+  int -> string
+)
+ident(
+  int_ref s_of_i "config.ml" 78 2159 2163 "config.ml" 78 2159 2169
+)
+"config.ml" 90 2716 2768 "config.ml" 90 2716 2772
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 90 2716 2768 "config.ml" 90 2716 2784
+type(
+  int
+)
+"config.ml" 90 2716 2760 "config.ml" 90 2716 2785
+type(
+  string
+)
+"config.ml" 90 2716 2756 "config.ml" 90 2716 2785
+type(
+  string option
+)
+"config.ml" 90 2716 2718 "config.ml" 90 2716 2786
+type(
+  string * string * string * string option
+)
+"config.ml" 91 2788 2791 "config.ml" 91 2788 2793
+type(
+  string
+)
+"config.ml" 91 2788 2795 "config.ml" 91 2788 2816
+type(
+  string
+)
+"config.ml" 91 2788 2818 "config.ml" 91 2788 2844
+type(
+  string
+)
+"config.ml" 92 2847 2856 "config.ml" 92 2847 2862
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 92 2847 2863 "config.ml" 92 2847 2867
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 92 2847 2863 "config.ml" 92 2847 2884
+type(
+  bool
+)
+"config.ml" 92 2847 2855 "config.ml" 92 2847 2885
+type(
+  string
+)
+"config.ml" 92 2847 2851 "config.ml" 92 2847 2885
+type(
+  string option
+)
+"config.ml" 91 2788 2790 "config.ml" 92 2847 2886
+type(
+  string * string * string * string option
+)
+"config.ml" 93 2888 2891 "config.ml" 93 2888 2893
+type(
+  string
+)
+"config.ml" 93 2888 2895 "config.ml" 93 2888 2908
+type(
+  string
+)
+"config.ml" 94 2911 2914 "config.ml" 94 2911 3004
+type(
+  string
+)
+"config.ml" 94 2911 3006 "config.ml" 94 2911 3010
+type(
+  string option
+)
+"config.ml" 93 2888 2890 "config.ml" 94 2911 3011
+type(
+  string * string * string * string option
+)
+"config.ml" 95 3013 3016 "config.ml" 95 3013 3018
+type(
+  string
+)
+"config.ml" 95 3013 3020 "config.ml" 95 3013 3038
+type(
+  string
+)
+"config.ml" 96 3041 3045 "config.ml" 96 3041 3099
+type(
+  string
+)
+"config.ml" 97 3102 3111 "config.ml" 97 3102 3117
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 97 3102 3118 "config.ml" 97 3102 3122
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 97 3102 3118 "config.ml" 97 3102 3136
+type(
+  bool
+)
+"config.ml" 97 3102 3110 "config.ml" 97 3102 3137
+type(
+  string
+)
+"config.ml" 97 3102 3106 "config.ml" 97 3102 3137
+type(
+  string option
+)
+"config.ml" 95 3013 3015 "config.ml" 97 3102 3138
+type(
+  string * string * string * string option
+)
+"config.ml" 98 3140 3143 "config.ml" 98 3140 3145
+type(
+  string
+)
+"config.ml" 98 3140 3147 "config.ml" 98 3140 3167
+type(
+  string
+)
+"config.ml" 98 3140 3169 "config.ml" 98 3140 3210
+type(
+  string
+)
+"config.ml" 99 3213 3222 "config.ml" 99 3213 3228
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 99 3213 3229 "config.ml" 99 3213 3233
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 99 3213 3229 "config.ml" 99 3213 3249
+type(
+  bool
+)
+"config.ml" 99 3213 3221 "config.ml" 99 3213 3250
+type(
+  string
+)
+"config.ml" 99 3213 3217 "config.ml" 99 3213 3250
+type(
+  string option
+)
+"config.ml" 98 3140 3142 "config.ml" 99 3213 3251
+type(
+  string * string * string * string option
+)
+"config.ml" 100 3253 3256 "config.ml" 100 3253 3258
+type(
+  string
+)
+"config.ml" 100 3253 3260 "config.ml" 100 3253 3280
+type(
+  string
+)
+"config.ml" 100 3253 3282 "config.ml" 100 3253 3322
+type(
+  string
+)
+"config.ml" 101 3324 3333 "config.ml" 101 3324 3339
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 101 3324 3340 "config.ml" 101 3324 3344
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 101 3324 3340 "config.ml" 101 3324 3360
+type(
+  bool
+)
+"config.ml" 101 3324 3332 "config.ml" 101 3324 3361
+type(
+  string
+)
+"config.ml" 101 3324 3328 "config.ml" 101 3324 3361
+type(
+  string option
+)
+"config.ml" 100 3253 3255 "config.ml" 101 3324 3362
+type(
+  string * string * string * string option
+)
+"config.ml" 102 3364 3367 "config.ml" 102 3364 3369
+type(
+  string
+)
+"config.ml" 102 3364 3371 "config.ml" 102 3364 3383
+type(
+  string
+)
+"config.ml" 103 3386 3390 "config.ml" 103 3386 3446
+type(
+  string
+)
+"config.ml" 104 3448 3457 "config.ml" 104 3448 3463
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 104 3448 3464 "config.ml" 104 3448 3468
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 104 3448 3464 "config.ml" 104 3448 3476
+type(
+  bool
+)
+"config.ml" 104 3448 3456 "config.ml" 104 3448 3477
+type(
+  string
+)
+"config.ml" 104 3448 3452 "config.ml" 104 3448 3477
+type(
+  string option
+)
+"config.ml" 102 3364 3366 "config.ml" 104 3448 3478
+type(
+  string * string * string * string option
+)
+"config.ml" 105 3480 3483 "config.ml" 105 3480 3485
+type(
+  string
+)
+"config.ml" 105 3480 3487 "config.ml" 105 3480 3502
+type(
+  string
+)
+"config.ml" 106 3505 3509 "config.ml" 106 3505 3564
+type(
+  string
+)
+"config.ml" 107 3566 3575 "config.ml" 107 3566 3579
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 107 3566 3575 "config.ml" 107 3566 3590
+type(
+  string
+)
+"config.ml" 107 3566 3570 "config.ml" 107 3566 3590
+type(
+  string option
+)
+"config.ml" 105 3480 3482 "config.ml" 107 3566 3591
+type(
+  string * string * string * string option
+)
+"config.ml" 108 3593 3596 "config.ml" 108 3593 3598
+type(
+  string
+)
+"config.ml" 108 3593 3600 "config.ml" 108 3593 3614
+type(
+  string
+)
+"config.ml" 109 3617 3621 "config.ml" 109 3617 3666
+type(
+  string
+)
+"config.ml" 110 3668 3677 "config.ml" 110 3668 3683
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 110 3668 3684 "config.ml" 110 3668 3688
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 110 3668 3684 "config.ml" 110 3668 3698
+type(
+  bool
+)
+"config.ml" 110 3668 3676 "config.ml" 110 3668 3699
+type(
+  string
+)
+"config.ml" 110 3668 3672 "config.ml" 110 3668 3699
+type(
+  string option
+)
+"config.ml" 108 3593 3595 "config.ml" 110 3668 3700
+type(
+  string * string * string * string option
+)
+"config.ml" 111 3702 3705 "config.ml" 111 3702 3707
+type(
+  string
+)
+"config.ml" 111 3702 3709 "config.ml" 111 3702 3728
+type(
+  string
+)
+"config.ml" 111 3702 3730 "config.ml" 111 3702 3770
+type(
+  string
+)
+"config.ml" 112 3773 3782 "config.ml" 112 3773 3788
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 112 3773 3789 "config.ml" 112 3773 3793
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 112 3773 3789 "config.ml" 112 3773 3808
+type(
+  bool
+)
+"config.ml" 112 3773 3781 "config.ml" 112 3773 3809
+type(
+  string
+)
+"config.ml" 112 3773 3777 "config.ml" 112 3773 3809
+type(
+  string option
+)
+"config.ml" 111 3702 3704 "config.ml" 112 3773 3810
+type(
+  string * string * string * string option
+)
+"config.ml" 113 3812 3815 "config.ml" 113 3812 3817
+type(
+  string
+)
+"config.ml" 113 3812 3819 "config.ml" 113 3812 3832
+type(
+  string
+)
+"config.ml" 113 3812 3834 "config.ml" 113 3812 3869
+type(
+  string
+)
+"config.ml" 114 3872 3881 "config.ml" 114 3872 3887
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 114 3872 3888 "config.ml" 114 3872 3892
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 114 3872 3888 "config.ml" 114 3872 3901
+type(
+  bool
+)
+"config.ml" 114 3872 3880 "config.ml" 114 3872 3902
+type(
+  string
+)
+"config.ml" 114 3872 3876 "config.ml" 114 3872 3902
+type(
+  string option
+)
+"config.ml" 113 3812 3814 "config.ml" 114 3872 3903
+type(
+  string * string * string * string option
+)
+"config.ml" 115 3905 3908 "config.ml" 115 3905 3910
+type(
+  string
+)
+"config.ml" 115 3905 3912 "config.ml" 115 3905 3926
+type(
+  string
+)
+"config.ml" 115 3905 3928 "config.ml" 115 3905 3967
+type(
+  string
+)
+"config.ml" 116 3970 3979 "config.ml" 116 3970 3985
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 116 3970 3986 "config.ml" 116 3970 3990
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 116 3970 3986 "config.ml" 116 3970 4000
+type(
+  bool
+)
+"config.ml" 116 3970 3978 "config.ml" 116 3970 4001
+type(
+  string
+)
+"config.ml" 116 3970 3974 "config.ml" 116 3970 4001
+type(
+  string option
+)
+"config.ml" 115 3905 3907 "config.ml" 116 3970 4002
+type(
+  string * string * string * string option
+)
+"config.ml" 117 4004 4007 "config.ml" 117 4004 4009
+type(
+  string
+)
+"config.ml" 117 4004 4011 "config.ml" 117 4004 4028
+type(
+  string
+)
+"config.ml" 117 4004 4030 "config.ml" 117 4004 4078
+type(
+  string
+)
+"config.ml" 118 4080 4089 "config.ml" 118 4080 4095
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 118 4080 4096 "config.ml" 118 4080 4100
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 118 4080 4096 "config.ml" 118 4080 4113
+type(
+  bool
+)
+"config.ml" 118 4080 4088 "config.ml" 118 4080 4114
+type(
+  string
+)
+"config.ml" 118 4080 4084 "config.ml" 118 4080 4114
+type(
+  string option
+)
+"config.ml" 117 4004 4006 "config.ml" 118 4080 4115
+type(
+  string * string * string * string option
+)
+"config.ml" 119 4117 4120 "config.ml" 119 4117 4122
+type(
+  string
+)
+"config.ml" 119 4117 4124 "config.ml" 119 4117 4144
+type(
+  string
+)
+"config.ml" 119 4117 4146 "config.ml" 119 4117 4168
+type(
+  string
+)
+"config.ml" 120 4171 4180 "config.ml" 120 4171 4186
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 120 4171 4187 "config.ml" 120 4171 4191
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 120 4171 4187 "config.ml" 120 4171 4207
+type(
+  bool
+)
+"config.ml" 120 4171 4179 "config.ml" 120 4171 4208
+type(
+  string
+)
+"config.ml" 120 4171 4175 "config.ml" 120 4171 4208
+type(
+  string option
+)
+"config.ml" 119 4117 4119 "config.ml" 120 4171 4209
+type(
+  string * string * string * string option
+)
+"config.ml" 121 4211 4214 "config.ml" 121 4211 4216
+type(
+  string
+)
+"config.ml" 121 4211 4218 "config.ml" 121 4211 4237
+type(
+  string
+)
+"config.ml" 121 4211 4239 "config.ml" 121 4211 4286
+type(
+  string
+)
+"config.ml" 122 4288 4297 "config.ml" 122 4288 4303
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 122 4288 4304 "config.ml" 122 4288 4308
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 122 4288 4304 "config.ml" 122 4288 4323
+type(
+  bool
+)
+"config.ml" 122 4288 4296 "config.ml" 122 4288 4324
+type(
+  string
+)
+"config.ml" 122 4288 4292 "config.ml" 122 4288 4324
+type(
+  string option
+)
+"config.ml" 121 4211 4213 "config.ml" 122 4288 4325
+type(
+  string * string * string * string option
+)
+"config.ml" 123 4327 4330 "config.ml" 123 4327 4332
+type(
+  string
+)
+"config.ml" 123 4327 4334 "config.ml" 123 4327 4354
+type(
+  string
+)
+"config.ml" 124 4357 4361 "config.ml" 124 4357 4411
+type(
+  string
+)
+"config.ml" 125 4413 4422 "config.ml" 125 4413 4428
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 125 4413 4429 "config.ml" 125 4413 4433
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 125 4413 4429 "config.ml" 125 4413 4449
+type(
+  bool
+)
+"config.ml" 125 4413 4421 "config.ml" 125 4413 4450
+type(
+  string
+)
+"config.ml" 125 4413 4417 "config.ml" 125 4413 4450
+type(
+  string option
+)
+"config.ml" 123 4327 4329 "config.ml" 125 4413 4451
+type(
+  string * string * string * string option
+)
+"config.ml" 126 4453 4456 "config.ml" 126 4453 4458
+type(
+  string
+)
+"config.ml" 126 4453 4460 "config.ml" 126 4453 4483
+type(
+  string
+)
+"config.ml" 127 4486 4490 "config.ml" 127 4486 4534
+type(
+  string
+)
+"config.ml" 128 4536 4545 "config.ml" 128 4536 4551
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 128 4536 4552 "config.ml" 128 4536 4556
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 128 4536 4552 "config.ml" 128 4536 4575
+type(
+  bool
+)
+"config.ml" 128 4536 4544 "config.ml" 128 4536 4576
+type(
+  string
+)
+"config.ml" 128 4536 4540 "config.ml" 128 4536 4576
+type(
+  string option
+)
+"config.ml" 126 4453 4455 "config.ml" 128 4536 4577
+type(
+  string * string * string * string option
+)
+"config.ml" 129 4579 4582 "config.ml" 129 4579 4584
+type(
+  string
+)
+"config.ml" 129 4579 4586 "config.ml" 129 4579 4601
+type(
+  string
+)
+"config.ml" 130 4604 4608 "config.ml" 130 4604 4655
+type(
+  string
+)
+"config.ml" 131 4657 4666 "config.ml" 131 4657 4672
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 131 4657 4673 "config.ml" 131 4657 4677
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 131 4657 4673 "config.ml" 131 4657 4688
+type(
+  bool
+)
+"config.ml" 131 4657 4665 "config.ml" 131 4657 4689
+type(
+  string
+)
+"config.ml" 131 4657 4661 "config.ml" 131 4657 4689
+type(
+  string option
+)
+"config.ml" 129 4579 4581 "config.ml" 131 4657 4690
+type(
+  string * string * string * string option
+)
+"config.ml" 132 4692 4695 "config.ml" 132 4692 4697
+type(
+  string
+)
+"config.ml" 132 4692 4699 "config.ml" 132 4692 4718
+type(
+  string
+)
+"config.ml" 133 4721 4725 "config.ml" 133 4721 4759
+type(
+  string
+)
+"config.ml" 134 4761 4770 "config.ml" 134 4761 4776
+type(
+  bool -> string
+)
+ident(
+  int_ref s_of_b "config.ml" 77 2131 2135 "config.ml" 77 2131 2141
+)
+"config.ml" 134 4761 4777 "config.ml" 134 4761 4781
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 134 4761 4777 "config.ml" 134 4761 4796
+type(
+  bool
+)
+"config.ml" 134 4761 4769 "config.ml" 134 4761 4797
+type(
+  string
+)
+"config.ml" 134 4761 4765 "config.ml" 134 4761 4797
+type(
+  string option
+)
+"config.ml" 132 4692 4694 "config.ml" 134 4761 4798
+type(
+  string * string * string * string option
+)
+"config.ml" 81 2266 2291 "config.ml" 135 4800 4801
+type(
+  (string * string * string * string option) list
+)
+"config.ml" 137 4803 4807 "config.ml" 137 4803 4821
+type(
+  (string * string * string * 'a option) list
+)
+ident(
+  def shared_options "config.ml" 146 5071 5071 --
+)
+"config.ml" 138 4826 4829 "config.ml" 138 4826 4841
+type(
+  string
+)
+"config.ml" 138 4826 4843 "config.ml" 138 4826 4845
+type(
+  string
+)
+"config.ml" 139 4848 4852 "config.ml" 139 4848 4918
+type(
+  string
+)
+"config.ml" 140 4921 4925 "config.ml" 140 4921 4929
+type(
+  'a option
+)
+"config.ml" 138 4826 4828 "config.ml" 140 4921 4930
+type(
+  string * string * string * 'a option
+)
+"config.ml" 141 4932 4935 "config.ml" 141 4932 4945
+type(
+  string
+)
+"config.ml" 141 4932 4947 "config.ml" 141 4932 4949
+type(
+  string
+)
+"config.ml" 141 4932 4951 "config.ml" 141 4932 5002
+type(
+  string
+)
+"config.ml" 142 5005 5009 "config.ml" 142 5005 5013
+type(
+  'a option
+)
+"config.ml" 141 4932 4934 "config.ml" 142 5005 5014
+type(
+  string * string * string * 'a option
+)
+"config.ml" 143 5016 5019 "config.ml" 143 5016 5022
+type(
+  string
+)
+"config.ml" 143 5016 5024 "config.ml" 143 5016 5030
+type(
+  string
+)
+"config.ml" 143 5016 5032 "config.ml" 143 5016 5059
+type(
+  string
+)
+"config.ml" 143 5016 5061 "config.ml" 143 5016 5065
+type(
+  'a option
+)
+"config.ml" 143 5016 5018 "config.ml" 143 5016 5066
+type(
+  string * string * string * 'a option
+)
+"config.ml" 137 4803 4824 "config.ml" 144 5068 5069
+type(
+  (string * string * string * 'a option) list
+)
+"config.ml" 146 5071 5075 "config.ml" 146 5071 5092
+type(
+  (string * string * string * 'a option) list
+)
+ident(
+  def ruby_excl_options "config.ml" 173 6536 6536 --
+)
+"config.ml" 147 5097 5100 "config.ml" 147 5097 5110
+type(
+  string
+)
+"config.ml" 147 5097 5112 "config.ml" 147 5097 5114
+type(
+  string
+)
+"config.ml" 147 5097 5116 "config.ml" 147 5097 5164
+type(
+  string
+)
+"config.ml" 147 5097 5166 "config.ml" 147 5097 5170
+type(
+  'a option
+)
+"config.ml" 147 5097 5099 "config.ml" 147 5097 5171
+type(
+  string * string * string * 'a option
+)
+"config.ml" 148 5173 5176 "config.ml" 148 5173 5179
+type(
+  string
+)
+"config.ml" 148 5173 5181 "config.ml" 148 5173 5183
+type(
+  string
+)
+"config.ml" 148 5173 5185 "config.ml" 148 5173 5235
+type(
+  string
+)
+"config.ml" 148 5173 5237 "config.ml" 148 5173 5241
+type(
+  'a option
+)
+"config.ml" 148 5173 5175 "config.ml" 148 5173 5242
+type(
+  string * string * string * 'a option
+)
+"config.ml" 149 5244 5247 "config.ml" 149 5244 5250
+type(
+  string
+)
+"config.ml" 149 5244 5252 "config.ml" 149 5244 5254
+type(
+  string
+)
+"config.ml" 149 5244 5256 "config.ml" 149 5244 5275
+type(
+  string
+)
+"config.ml" 149 5244 5277 "config.ml" 149 5244 5281
+type(
+  'a option
+)
+"config.ml" 149 5244 5246 "config.ml" 149 5244 5282
+type(
+  string * string * string * 'a option
+)
+"config.ml" 150 5284 5287 "config.ml" 150 5284 5299
+type(
+  string
+)
+"config.ml" 150 5284 5301 "config.ml" 150 5284 5303
+type(
+  string
+)
+"config.ml" 150 5284 5305 "config.ml" 150 5284 5352
+type(
+  string
+)
+"config.ml" 150 5284 5354 "config.ml" 150 5284 5358
+type(
+  'a option
+)
+"config.ml" 150 5284 5286 "config.ml" 150 5284 5359
+type(
+  string * string * string * 'a option
+)
+"config.ml" 151 5361 5364 "config.ml" 151 5361 5367
+type(
+  string
+)
+"config.ml" 151 5361 5369 "config.ml" 151 5361 5371
+type(
+  string
+)
+"config.ml" 151 5361 5373 "config.ml" 151 5361 5415
+type(
+  string
+)
+"config.ml" 151 5361 5417 "config.ml" 151 5361 5421
+type(
+  'a option
+)
+"config.ml" 151 5361 5363 "config.ml" 151 5361 5422
+type(
+  string * string * string * 'a option
+)
+"config.ml" 152 5424 5427 "config.ml" 152 5424 5440
+type(
+  string
+)
+"config.ml" 152 5424 5442 "config.ml" 152 5424 5444
+type(
+  string
+)
+"config.ml" 153 5446 5450 "config.ml" 153 5446 5512
+type(
+  string
+)
+"config.ml" 153 5446 5514 "config.ml" 153 5446 5518
+type(
+  'a option
+)
+"config.ml" 152 5424 5426 "config.ml" 153 5446 5519
+type(
+  string * string * string * 'a option
+)
+"config.ml" 154 5521 5524 "config.ml" 154 5521 5534
+type(
+  string
+)
+"config.ml" 154 5521 5536 "config.ml" 154 5521 5538
+type(
+  string
+)
+"config.ml" 154 5521 5540 "config.ml" 154 5521 5576
+type(
+  string
+)
+"config.ml" 154 5521 5578 "config.ml" 154 5521 5582
+type(
+  'a option
+)
+"config.ml" 154 5521 5523 "config.ml" 154 5521 5583
+type(
+  string * string * string * 'a option
+)
+"config.ml" 155 5585 5588 "config.ml" 155 5585 5602
+type(
+  string
+)
+"config.ml" 155 5585 5604 "config.ml" 155 5585 5606
+type(
+  string
+)
+"config.ml" 156 5608 5612 "config.ml" 156 5608 5674
+type(
+  string
+)
+"config.ml" 156 5608 5676 "config.ml" 156 5608 5680
+type(
+  'a option
+)
+"config.ml" 155 5585 5587 "config.ml" 156 5608 5681
+type(
+  string * string * string * 'a option
+)
+"config.ml" 157 5683 5686 "config.ml" 157 5683 5694
+type(
+  string
+)
+"config.ml" 157 5683 5696 "config.ml" 157 5683 5698
+type(
+  string
+)
+"config.ml" 157 5683 5700 "config.ml" 157 5683 5737
+type(
+  string
+)
+"config.ml" 157 5683 5739 "config.ml" 157 5683 5743
+type(
+  'a option
+)
+"config.ml" 157 5683 5685 "config.ml" 157 5683 5744
+type(
+  string * string * string * 'a option
+)
+"config.ml" 158 5746 5749 "config.ml" 158 5746 5752
+type(
+  string
+)
+"config.ml" 158 5746 5754 "config.ml" 158 5746 5756
+type(
+  string
+)
+"config.ml" 158 5746 5758 "config.ml" 158 5746 5789
+type(
+  string
+)
+"config.ml" 158 5746 5791 "config.ml" 158 5746 5795
+type(
+  'a option
+)
+"config.ml" 158 5746 5748 "config.ml" 158 5746 5796
+type(
+  string * string * string * 'a option
+)
+"config.ml" 159 5798 5801 "config.ml" 159 5798 5804
+type(
+  string
+)
+"config.ml" 159 5798 5806 "config.ml" 159 5798 5808
+type(
+  string
+)
+"config.ml" 159 5798 5810 "config.ml" 159 5798 5866
+type(
+  string
+)
+"config.ml" 159 5798 5868 "config.ml" 159 5798 5872
+type(
+  'a option
+)
+"config.ml" 159 5798 5800 "config.ml" 159 5798 5873
+type(
+  string * string * string * 'a option
+)
+"config.ml" 160 5875 5878 "config.ml" 160 5875 5881
+type(
+  string
+)
+"config.ml" 160 5875 5883 "config.ml" 160 5875 5885
+type(
+  string
+)
+"config.ml" 160 5875 5887 "config.ml" 160 5875 5937
+type(
+  string
+)
+"config.ml" 160 5875 5939 "config.ml" 160 5875 5943
+type(
+  'a option
+)
+"config.ml" 160 5875 5877 "config.ml" 160 5875 5944
+type(
+  string * string * string * 'a option
+)
+"config.ml" 161 5946 5949 "config.ml" 161 5946 5952
+type(
+  string
+)
+"config.ml" 161 5946 5954 "config.ml" 161 5946 5956
+type(
+  string
+)
+"config.ml" 161 5946 5958 "config.ml" 161 5946 6017
+type(
+  string
+)
+"config.ml" 161 5946 6019 "config.ml" 161 5946 6023
+type(
+  'a option
+)
+"config.ml" 161 5946 5948 "config.ml" 161 5946 6024
+type(
+  string * string * string * 'a option
+)
+"config.ml" 162 6026 6029 "config.ml" 162 6026 6032
+type(
+  string
+)
+"config.ml" 162 6026 6034 "config.ml" 162 6026 6036
+type(
+  string
+)
+"config.ml" 162 6026 6038 "config.ml" 162 6026 6091
+type(
+  string
+)
+"config.ml" 162 6026 6093 "config.ml" 162 6026 6097
+type(
+  'a option
+)
+"config.ml" 162 6026 6028 "config.ml" 162 6026 6098
+type(
+  string * string * string * 'a option
+)
+"config.ml" 163 6100 6103 "config.ml" 163 6100 6113
+type(
+  string
+)
+"config.ml" 163 6100 6115 "config.ml" 163 6100 6117
+type(
+  string
+)
+"config.ml" 163 6100 6119 "config.ml" 163 6100 6144
+type(
+  string
+)
+"config.ml" 163 6100 6146 "config.ml" 163 6100 6150
+type(
+  'a option
+)
+"config.ml" 163 6100 6102 "config.ml" 163 6100 6151
+type(
+  string * string * string * 'a option
+)
+"config.ml" 164 6153 6156 "config.ml" 164 6153 6159
+type(
+  string
+)
+"config.ml" 164 6153 6161 "config.ml" 164 6153 6163
+type(
+  string
+)
+"config.ml" 164 6153 6165 "config.ml" 164 6153 6214
+type(
+  string
+)
+"config.ml" 164 6153 6216 "config.ml" 164 6153 6220
+type(
+  'a option
+)
+"config.ml" 164 6153 6155 "config.ml" 164 6153 6221
+type(
+  string * string * string * 'a option
+)
+"config.ml" 165 6223 6226 "config.ml" 165 6223 6229
+type(
+  string
+)
+"config.ml" 165 6223 6231 "config.ml" 165 6223 6233
+type(
+  string
+)
+"config.ml" 165 6223 6235 "config.ml" 165 6223 6269
+type(
+  string
+)
+"config.ml" 165 6223 6271 "config.ml" 165 6223 6275
+type(
+  'a option
+)
+"config.ml" 165 6223 6225 "config.ml" 165 6223 6276
+type(
+  string * string * string * 'a option
+)
+"config.ml" 166 6278 6281 "config.ml" 166 6278 6291
+type(
+  string
+)
+"config.ml" 166 6278 6293 "config.ml" 166 6278 6295
+type(
+  string
+)
+"config.ml" 167 6297 6303 "config.ml" 167 6297 6364
+type(
+  string
+)
+"config.ml" 167 6297 6366 "config.ml" 167 6297 6370
+type(
+  'a option
+)
+"config.ml" 166 6278 6280 "config.ml" 167 6297 6371
+type(
+  string * string * string * 'a option
+)
+"config.ml" 168 6373 6376 "config.ml" 168 6373 6390
+type(
+  string
+)
+"config.ml" 168 6373 6392 "config.ml" 168 6373 6394
+type(
+  string
+)
+"config.ml" 169 6396 6402 "config.ml" 169 6396 6465
+type(
+  string
+)
+"config.ml" 169 6396 6467 "config.ml" 169 6396 6471
+type(
+  'a option
+)
+"config.ml" 168 6373 6375 "config.ml" 169 6396 6472
+type(
+  string * string * string * 'a option
+)
+"config.ml" 146 5071 5095 "config.ml" 170 6474 6475
+type(
+  (string * string * string * 'a option) list
+)
+"config.ml" 173 6536 6540 "config.ml" 173 6536 6555
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+ident(
+  def refined_options "config.ml" 187 7078 7078 --
+)
+"config.ml" 174 6558 6564 "config.ml" 174 6558 6570
+type(
+  ('a -> String.t) -> 'a -> 'a -> int
+)
+"config.ml" 174 6558 6571 "config.ml" 174 6558 6572
+type(
+  'a -> String.t
+)
+ident(
+  def f "config.ml" 174 6558 6573 "config.ml" 174 6558 6609
+)
+"config.ml" 174 6558 6573 "config.ml" 174 6558 6575
+type(
+  'a
+)
+ident(
+  def t1 "config.ml" 174 6558 6576 "config.ml" 174 6558 6609
+)
+"config.ml" 174 6558 6576 "config.ml" 174 6558 6578
+type(
+  'a
+)
+ident(
+  def t2 "config.ml" 174 6558 6581 "config.ml" 174 6558 6609
+)
+"config.ml" 174 6558 6581 "config.ml" 174 6558 6595
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"config.ml" 174 6558 6597 "config.ml" 174 6558 6598
+type(
+  'a -> String.t
+)
+ident(
+  int_ref f "config.ml" 174 6558 6571 "config.ml" 174 6558 6572
+)
+"config.ml" 174 6558 6599 "config.ml" 174 6558 6601
+type(
+  'a
+)
+ident(
+  int_ref t1 "config.ml" 174 6558 6573 "config.ml" 174 6558 6575
+)
+"config.ml" 174 6558 6596 "config.ml" 174 6558 6602
+type(
+  String.t
+)
+"config.ml" 174 6558 6604 "config.ml" 174 6558 6605
+type(
+  'a -> String.t
+)
+ident(
+  int_ref f "config.ml" 174 6558 6571 "config.ml" 174 6558 6572
+)
+"config.ml" 174 6558 6606 "config.ml" 174 6558 6608
+type(
+  'a
+)
+ident(
+  int_ref t2 "config.ml" 174 6558 6576 "config.ml" 174 6558 6578
+)
+"config.ml" 174 6558 6603 "config.ml" 174 6558 6609
+type(
+  String.t
+)
+"config.ml" 174 6558 6581 "config.ml" 174 6558 6609
+type(
+  int
+)
+"config.ml" 175 6613 6619 "config.ml" 175 6613 6630
+type(
+  'b * 'c * 'd * 'e -> 'b
+)
+"config.ml" 175 6613 6632 "config.ml" 175 6613 6633
+type(
+  'b
+)
+ident(
+  def x "config.ml" 175 6613 6646 "config.ml" 175 6613 6647
+)
+"config.ml" 175 6613 6635 "config.ml" 175 6613 6636
+type(
+  'c
+)
+"config.ml" 175 6613 6638 "config.ml" 175 6613 6639
+type(
+  'd
+)
+"config.ml" 175 6613 6641 "config.ml" 175 6613 6642
+type(
+  'e
+)
+"config.ml" 175 6613 6631 "config.ml" 175 6613 6643
+type(
+  'b * 'c * 'd * 'e
+)
+"config.ml" 175 6613 6646 "config.ml" 175 6613 6647
+type(
+  'b
+)
+ident(
+  int_ref x "config.ml" 175 6613 6632 "config.ml" 175 6613 6633
+)
+"config.ml" 176 6651 6657 "config.ml" 176 6651 6668
+type(
+  'f * 'g * 'h * 'i -> 'g
+)
+"config.ml" 176 6651 6669 "config.ml" 176 6651 6670
+type(
+  'f
+)
+"config.ml" 176 6651 6671 "config.ml" 176 6651 6672
+type(
+  'g
+)
+ident(
+  def x "config.ml" 176 6651 6680 "config.ml" 176 6651 6681
+)
+"config.ml" 176 6651 6673 "config.ml" 176 6651 6674
+type(
+  'h
+)
+"config.ml" 176 6651 6675 "config.ml" 176 6651 6676
+type(
+  'i
+)
+"config.ml" 176 6651 6668 "config.ml" 176 6651 6677
+type(
+  'f * 'g * 'h * 'i
+)
+"config.ml" 176 6651 6680 "config.ml" 176 6651 6681
+type(
+  'g
+)
+ident(
+  int_ref x "config.ml" 176 6651 6671 "config.ml" 176 6651 6672
+)
+"config.ml" 177 6685 6691 "config.ml" 177 6685 6704
+type(
+  (string * String.t * string * string option) list
+)
+"config.ml" 177 6685 6707 "config.ml" 177 6685 6716
+type(
+  (string * String.t * string * string option ->
+   string * String.t * string * string option -> int) ->
+  (string * String.t * string * string option) list ->
+  (string * String.t * string * string option) list
+)
+ident(
+  ext_ref List.sort
+)
+"config.ml" 177 6685 6718 "config.ml" 177 6685 6724
+type(
+  (string * String.t * string * string option -> String.t) ->
+  string * String.t * string * string option ->
+  string * String.t * string * string option -> int
+)
+ident(
+  int_ref sort_f "config.ml" 174 6558 6564 "config.ml" 174 6558 6570
+)
+"config.ml" 177 6685 6725 "config.ml" 177 6685 6736
+type(
+  string * String.t * string * string option -> String.t
+)
+ident(
+  int_ref snd_of_four "config.ml" 176 6651 6657 "config.ml" 176 6651 6668
+)
+"config.ml" 177 6685 6717 "config.ml" 177 6685 6737
+type(
+  string * String.t * string * string option ->
+  string * String.t * string * string option -> int
+)
+"config.ml" 177 6685 6738 "config.ml" 177 6685 6756
+type(
+  (string * String.t * string * string option) list
+)
+ident(
+  int_ref druby_excl_options "config.ml" 81 2266 2270 "config.ml" 81 2266 2288
+)
+"config.ml" 177 6685 6707 "config.ml" 177 6685 6756
+type(
+  (string * String.t * string * string option) list
+)
+"config.ml" 178 6760 6766 "config.ml" 178 6760 6780
+type(
+  (String.t * string * string * 'j option) list
+)
+"config.ml" 178 6760 6783 "config.ml" 178 6760 6792
+type(
+  (String.t * string * string * 'j option ->
+   String.t * string * string * 'j option -> int) ->
+  (String.t * string * string * 'j option) list ->
+  (String.t * string * string * 'j option) list
+)
+ident(
+  ext_ref List.sort
+)
+"config.ml" 178 6760 6794 "config.ml" 178 6760 6800
+type(
+  (String.t * string * string * 'j option -> String.t) ->
+  String.t * string * string * 'j option ->
+  String.t * string * string * 'j option -> int
+)
+ident(
+  int_ref sort_f "config.ml" 174 6558 6564 "config.ml" 174 6558 6570
+)
+"config.ml" 178 6760 6801 "config.ml" 178 6760 6812
+type(
+  String.t * string * string * 'j option -> String.t
+)
+ident(
+  int_ref fst_of_four "config.ml" 175 6613 6619 "config.ml" 175 6613 6630
+)
+"config.ml" 178 6760 6793 "config.ml" 178 6760 6813
+type(
+  String.t * string * string * 'j option ->
+  String.t * string * string * 'j option -> int
+)
+"config.ml" 178 6760 6814 "config.ml" 178 6760 6828
+type(
+  (String.t * string * string * 'j option) list
+)
+ident(
+  int_ref shared_options "config.ml" 137 4803 4807 "config.ml" 137 4803 4821
+)
+"config.ml" 178 6760 6783 "config.ml" 178 6760 6828
+type(
+  (String.t * string * string * 'j option) list
+)
+"config.ml" 179 6832 6838 "config.ml" 179 6832 6850
+type(
+  (String.t * string * string * 'k option) list
+)
+"config.ml" 179 6832 6853 "config.ml" 179 6832 6862
+type(
+  (String.t * string * string * 'k option ->
+   String.t * string * string * 'k option -> int) ->
+  (String.t * string * string * 'k option) list ->
+  (String.t * string * string * 'k option) list
+)
+ident(
+  ext_ref List.sort
+)
+"config.ml" 179 6832 6864 "config.ml" 179 6832 6870
+type(
+  (String.t * string * string * 'k option -> String.t) ->
+  String.t * string * string * 'k option ->
+  String.t * string * string * 'k option -> int
+)
+ident(
+  int_ref sort_f "config.ml" 174 6558 6564 "config.ml" 174 6558 6570
+)
+"config.ml" 179 6832 6871 "config.ml" 179 6832 6882
+type(
+  String.t * string * string * 'k option -> String.t
+)
+ident(
+  int_ref fst_of_four "config.ml" 175 6613 6619 "config.ml" 175 6613 6630
+)
+"config.ml" 179 6832 6863 "config.ml" 179 6832 6883
+type(
+  String.t * string * string * 'k option ->
+  String.t * string * string * 'k option -> int
+)
+"config.ml" 179 6832 6884 "config.ml" 179 6832 6901
+type(
+  (String.t * string * string * 'k option) list
+)
+ident(
+  int_ref ruby_excl_options "config.ml" 146 5071 5075 "config.ml" 146 5071 5092
+)
+"config.ml" 179 6832 6853 "config.ml" 179 6832 6901
+type(
+  (String.t * string * string * 'k option) list
+)
+"config.ml" 181 6911 6918 "config.ml" 181 6911 6933
+type(
+  string
+)
+"config.ml" 181 6911 6935 "config.ml" 181 6911 6948
+type(
+  (String.t * String.t * string * string option) list
+)
+ident(
+  int_ref druby_options "config.ml" 177 6685 6691 "config.ml" 177 6685 6704
+)
+"config.ml" 181 6911 6917 "config.ml" 181 6911 6949
+type(
+  string * (String.t * String.t * string * string option) list
+)
+"config.ml" 182 6951 6958 "config.ml" 182 6951 6974
+type(
+  string
+)
+"config.ml" 182 6951 6976 "config.ml" 182 6951 6990
+type(
+  (String.t * String.t * string * string option) list
+)
+ident(
+  int_ref shared_options "config.ml" 178 6760 6766 "config.ml" 178 6760 6780
+)
+"config.ml" 182 6951 6957 "config.ml" 182 6951 6991
+type(
+  string * (String.t * String.t * string * string option) list
+)
+"config.ml" 183 6993 7000 "config.ml" 183 6993 7014
+type(
+  string
+)
+"config.ml" 183 6993 7016 "config.ml" 183 6993 7028
+type(
+  (String.t * String.t * string * string option) list
+)
+ident(
+  int_ref ruby_options "config.ml" 179 6832 6838 "config.ml" 179 6832 6850
+)
+"config.ml" 183 6993 6999 "config.ml" 183 6993 7029
+type(
+  string * (String.t * String.t * string * string option) list
+)
+"config.ml" 180 6905 6909 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 179 6832 6834 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 178 6760 6762 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 177 6685 6687 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 176 6651 6653 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 175 6613 6615 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 174 6558 6560 "config.ml" 184 7031 7036
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+"config.ml" 187 7078 7082 "config.ml" 187 7078 7090
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def show_msg "config.ml" 195 7213 7213 --
+)
+"config.ml" 187 7078 7091 "config.ml" 187 7078 7094
+type(
+  Format.formatter
+)
+ident(
+  def ppf "config.ml" 187 7078 7095 "config.ml" 193 7206 7211
+)
+"config.ml" 187 7078 7095 "config.ml" 187 7078 7096
+type(
+  string
+)
+ident(
+  def m "config.ml" 188 7099 7101 "config.ml" 193 7206 7211
+)
+"config.ml" 188 7099 7101 "config.ml" 188 7099 7112
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"config.ml" 189 7114 7122 "config.ml" 189 7114 7125
+type(
+  char
+)
+ident(
+  def c "config.ml" 190 7130 7136 "config.ml" 191 7170 7199
+)
+"config.ml" 190 7130 7139 "config.ml" 190 7130 7140
+type(
+  char
+)
+ident(
+  int_ref c "config.ml" 189 7114 7122 "config.ml" 189 7114 7125
+)
+"config.ml" 190 7130 7141 "config.ml" 190 7130 7142
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 190 7130 7143 "config.ml" 190 7130 7146
+type(
+  char
+)
+"config.ml" 190 7130 7139 "config.ml" 190 7130 7146
+type(
+  bool
+)
+"config.ml" 190 7130 7152 "config.ml" 190 7130 7159
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 190 7130 7160 "config.ml" 190 7130 7163
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 187 7078 7091 "config.ml" 187 7078 7094
+)
+"config.ml" 190 7130 7164 "config.ml" 190 7130 7168
+type(
+  (unit, Format.formatter, unit) format
+)
+"config.ml" 190 7130 7152 "config.ml" 190 7130 7168
+type(
+  unit
+)
+"config.ml" 191 7170 7181 "config.ml" 191 7170 7188
+type(
+  Format.formatter ->
+  (char -> unit, Format.formatter, unit) format -> char -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 191 7170 7189 "config.ml" 191 7170 7192
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 187 7078 7091 "config.ml" 187 7078 7094
+)
+"config.ml" 191 7170 7193 "config.ml" 191 7170 7197
+type(
+  (char -> unit, Format.formatter, unit) format
+)
+"config.ml" 191 7170 7198 "config.ml" 191 7170 7199
+type(
+  char
+)
+ident(
+  int_ref c "config.ml" 189 7114 7122 "config.ml" 189 7114 7125
+)
+"config.ml" 191 7170 7181 "config.ml" 191 7170 7199
+type(
+  unit
+)
+"config.ml" 190 7130 7136 "config.ml" 191 7170 7199
+type(
+  unit
+)
+"config.ml" 189 7114 7118 "config.ml" 192 7200 7205
+type(
+  char -> unit
+)
+"config.ml" 193 7206 7210 "config.ml" 193 7206 7211
+type(
+  string
+)
+ident(
+  int_ref m "config.ml" 187 7078 7095 "config.ml" 187 7078 7096
+)
+"config.ml" 188 7099 7101 "config.ml" 193 7206 7211
+type(
+  unit
+)
+"config.ml" 195 7213 7217 "config.ml" 195 7213 7229
+type(
+  Format.formatter -> string option -> unit
+)
+ident(
+  def show_default "config.ml" 200 7356 7356 --
+)
+"config.ml" 195 7213 7230 "config.ml" 195 7213 7233
+type(
+  Format.formatter
+)
+ident(
+  def ppf "config.ml" 195 7213 7236 "config.ml" 197 7273 7324
+)
+"config.ml" 196 7245 7249 "config.ml" 196 7245 7253
+type(
+  string option
+)
+"config.ml" 196 7245 7257 "config.ml" 196 7245 7264
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 196 7245 7265 "config.ml" 196 7245 7268
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 195 7213 7230 "config.ml" 195 7213 7233
+)
+"config.ml" 196 7245 7269 "config.ml" 196 7245 7272
+type(
+  (unit, Format.formatter, unit) format
+)
+"config.ml" 196 7245 7257 "config.ml" 196 7245 7272
+type(
+  unit
+)
+"config.ml" 197 7273 7281 "config.ml" 197 7273 7284
+type(
+  string
+)
+ident(
+  def d "config.ml" 197 7273 7288 "config.ml" 197 7273 7324
+)
+"config.ml" 197 7273 7277 "config.ml" 197 7273 7284
+type(
+  string option
+)
+"config.ml" 197 7273 7288 "config.ml" 197 7273 7295
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 197 7273 7296 "config.ml" 197 7273 7299
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 195 7213 7230 "config.ml" 195 7213 7233
+)
+"config.ml" 197 7273 7300 "config.ml" 197 7273 7322
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"config.ml" 197 7273 7323 "config.ml" 197 7273 7324
+type(
+  string
+)
+ident(
+  int_ref d "config.ml" 197 7273 7281 "config.ml" 197 7273 7284
+)
+"config.ml" 197 7273 7288 "config.ml" 197 7273 7324
+type(
+  unit
+)
+"config.ml" 195 7213 7236 "config.ml" 197 7273 7324
+type(
+  string option -> unit
+)
+"config.ml" 200 7356 7360 "config.ml" 200 7356 7371
+type(
+  Format.formatter -> string * string * string * string option -> unit
+)
+ident(
+  def show_option "config.ml" 211 7797 7797 --
+)
+"config.ml" 200 7356 7372 "config.ml" 200 7356 7375
+type(
+  Format.formatter
+)
+ident(
+  def ppf "config.ml" 200 7356 7378 "config.ml" 208 7736 7758
+)
+"config.ml" 201 7387 7392 "config.ml" 201 7387 7394
+type(
+  string
+)
+"config.ml" 201 7387 7396 "config.ml" 201 7387 7398
+type(
+  string
+)
+"config.ml" 201 7387 7400 "config.ml" 201 7387 7401
+type(
+  string
+)
+"config.ml" 201 7387 7403 "config.ml" 201 7387 7404
+type(
+  string option
+)
+"config.ml" 201 7387 7391 "config.ml" 201 7387 7405
+type(
+  string * string * string * string option
+)
+"config.ml" 201 7387 7409 "config.ml" 201 7387 7417
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"config.ml" 201 7387 7418 "config.ml" 201 7387 7438
+type(
+  string
+)
+"config.ml" 201 7387 7409 "config.ml" 201 7387 7438
+type(
+  unit
+)
+"config.ml" 202 7439 7444 "config.ml" 202 7439 7445
+type(
+  string
+)
+ident(
+  def s "config.ml" 203 7461 7467 "config.ml" 203 7461 7539
+)
+"config.ml" 202 7439 7447 "config.ml" 202 7439 7449
+type(
+  string
+)
+"config.ml" 202 7439 7451 "config.ml" 202 7439 7452
+type(
+  string
+)
+ident(
+  def m "config.ml" 203 7461 7467 "config.ml" 203 7461 7539
+)
+"config.ml" 202 7439 7454 "config.ml" 202 7439 7455
+type(
+  string option
+)
+ident(
+  def d "config.ml" 203 7461 7467 "config.ml" 203 7461 7539
+)
+"config.ml" 202 7439 7443 "config.ml" 202 7439 7456
+type(
+  string * string * string * string option
+)
+"config.ml" 203 7461 7467 "config.ml" 203 7461 7474
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string option -> unit) -> string option -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> string option -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 203 7461 7475 "config.ml" 203 7461 7478
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 200 7356 7372 "config.ml" 200 7356 7375
+)
+"config.ml" 203 7461 7479 "config.ml" 203 7461 7511
+type(
+  (string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string option -> unit) -> string option -> unit,
+   Format.formatter, unit)
+  format
+)
+"config.ml" 203 7461 7512 "config.ml" 203 7461 7513
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 202 7439 7444 "config.ml" 202 7439 7445
+)
+"config.ml" 203 7461 7514 "config.ml" 203 7461 7522
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref show_msg "config.ml" 187 7078 7082 "config.ml" 187 7078 7090
+)
+"config.ml" 203 7461 7523 "config.ml" 203 7461 7524
+type(
+  string
+)
+ident(
+  int_ref m "config.ml" 202 7439 7451 "config.ml" 202 7439 7452
+)
+"config.ml" 203 7461 7525 "config.ml" 203 7461 7537
+type(
+  Format.formatter -> string option -> unit
+)
+ident(
+  int_ref show_default "config.ml" 195 7213 7217 "config.ml" 195 7213 7229
+)
+"config.ml" 203 7461 7538 "config.ml" 203 7461 7539
+type(
+  string option
+)
+ident(
+  int_ref d "config.ml" 202 7439 7454 "config.ml" 202 7439 7455
+)
+"config.ml" 203 7461 7467 "config.ml" 203 7461 7539
+type(
+  unit
+)
+"config.ml" 204 7540 7545 "config.ml" 204 7540 7547
+type(
+  string
+)
+"config.ml" 204 7540 7549 "config.ml" 204 7540 7550
+type(
+  string
+)
+ident(
+  def l "config.ml" 205 7562 7568 "config.ml" 205 7562 7641
+)
+"config.ml" 204 7540 7552 "config.ml" 204 7540 7553
+type(
+  string
+)
+ident(
+  def m "config.ml" 205 7562 7568 "config.ml" 205 7562 7641
+)
+"config.ml" 204 7540 7555 "config.ml" 204 7540 7556
+type(
+  string option
+)
+ident(
+  def d "config.ml" 205 7562 7568 "config.ml" 205 7562 7641
+)
+"config.ml" 204 7540 7544 "config.ml" 204 7540 7557
+type(
+  string * string * string * string option
+)
+"config.ml" 205 7562 7568 "config.ml" 205 7562 7575
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string option -> unit) -> string option -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> string option -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 205 7562 7576 "config.ml" 205 7562 7579
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 200 7356 7372 "config.ml" 200 7356 7375
+)
+"config.ml" 205 7562 7580 "config.ml" 205 7562 7613
+type(
+  (string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string option -> unit) -> string option -> unit,
+   Format.formatter, unit)
+  format
+)
+"config.ml" 205 7562 7614 "config.ml" 205 7562 7615
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 204 7540 7549 "config.ml" 204 7540 7550
+)
+"config.ml" 205 7562 7616 "config.ml" 205 7562 7624
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref show_msg "config.ml" 187 7078 7082 "config.ml" 187 7078 7090
+)
+"config.ml" 205 7562 7625 "config.ml" 205 7562 7626
+type(
+  string
+)
+ident(
+  int_ref m "config.ml" 204 7540 7552 "config.ml" 204 7540 7553
+)
+"config.ml" 205 7562 7627 "config.ml" 205 7562 7639
+type(
+  Format.formatter -> string option -> unit
+)
+ident(
+  int_ref show_default "config.ml" 195 7213 7217 "config.ml" 195 7213 7229
+)
+"config.ml" 205 7562 7640 "config.ml" 205 7562 7641
+type(
+  string option
+)
+ident(
+  int_ref d "config.ml" 204 7540 7555 "config.ml" 204 7540 7556
+)
+"config.ml" 205 7562 7568 "config.ml" 205 7562 7641
+type(
+  unit
+)
+"config.ml" 206 7642 7647 "config.ml" 206 7642 7648
+type(
+  string
+)
+ident(
+  def s "config.ml" 207 7663 7669 "config.ml" 208 7736 7758
+)
+"config.ml" 206 7642 7650 "config.ml" 206 7642 7651
+type(
+  string
+)
+ident(
+  def l "config.ml" 207 7663 7669 "config.ml" 208 7736 7758
+)
+"config.ml" 206 7642 7653 "config.ml" 206 7642 7654
+type(
+  string
+)
+ident(
+  def m "config.ml" 207 7663 7669 "config.ml" 208 7736 7758
+)
+"config.ml" 206 7642 7656 "config.ml" 206 7642 7657
+type(
+  string option
+)
+ident(
+  def d "config.ml" 207 7663 7669 "config.ml" 208 7736 7758
+)
+"config.ml" 206 7642 7646 "config.ml" 206 7642 7658
+type(
+  string * string * string * string option
+)
+"config.ml" 207 7663 7669 "config.ml" 207 7663 7676
+type(
+  Format.formatter ->
+  (string ->
+   string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string option -> unit) -> string option -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> string option -> unit) -> string option -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"config.ml" 207 7663 7677 "config.ml" 207 7663 7680
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "config.ml" 200 7356 7372 "config.ml" 200 7356 7375
+)
+"config.ml" 207 7663 7681 "config.ml" 207 7663 7720
+type(
+  (string ->
+   string ->
+   (Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> string option -> unit) -> string option -> unit,
+   Format.formatter, unit)
+  format
+)
+"config.ml" 207 7663 7721 "config.ml" 207 7663 7722
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 206 7642 7647 "config.ml" 206 7642 7648
+)
+"config.ml" 207 7663 7723 "config.ml" 207 7663 7724
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 206 7642 7650 "config.ml" 206 7642 7651
+)
+"config.ml" 207 7663 7725 "config.ml" 207 7663 7733
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref show_msg "config.ml" 187 7078 7082 "config.ml" 187 7078 7090
+)
+"config.ml" 207 7663 7734 "config.ml" 207 7663 7735
+type(
+  string
+)
+ident(
+  int_ref m "config.ml" 206 7642 7653 "config.ml" 206 7642 7654
+)
+"config.ml" 208 7736 7744 "config.ml" 208 7736 7756
+type(
+  Format.formatter -> string option -> unit
+)
+ident(
+  int_ref show_default "config.ml" 195 7213 7217 "config.ml" 195 7213 7229
+)
+"config.ml" 208 7736 7757 "config.ml" 208 7736 7758
+type(
+  string option
+)
+ident(
+  int_ref d "config.ml" 206 7642 7656 "config.ml" 206 7642 7657
+)
+"config.ml" 207 7663 7669 "config.ml" 208 7736 7758
+type(
+  unit
+)
+"config.ml" 200 7356 7378 "config.ml" 208 7736 7758
+type(
+  string * string * string * string option -> unit
+)
+"config.ml" 211 7797 7801 "config.ml" 211 7797 7811
+type(
+  unit -> 'a
+)
+ident(
+  def show_usage "config.ml" 226 8205 8205 --
+)
+"config.ml" 211 7797 7812 "config.ml" 211 7797 7814
+type(
+  unit
+)
+"config.ml" 212 7818 7820 "config.ml" 212 7818 7833
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"config.ml" 212 7818 7834 "config.ml" 212 7818 7839
+type(
+  string
+)
+ident(
+  int_ref usage "config.ml" 73 2047 2051 "config.ml" 73 2047 2056
+)
+"config.ml" 212 7818 7820 "config.ml" 212 7818 7839
+type(
+  unit
+)
+"config.ml" 213 7841 7851 "config.ml" 213 7841 7863
+type(
+  (string * (string * string * string * string option) list) list -> unit
+)
+"config.ml" 214 7875 7881 "config.ml" 214 7875 7883
+type(
+  (string * (string * string * string * string option) list) list
+)
+"config.ml" 214 7875 7887 "config.ml" 214 7875 7889
+type(
+  unit
+)
+"config.ml" 215 7890 7897 "config.ml" 215 7890 7902
+type(
+  string
+)
+ident(
+  def title "config.ml" 216 7916 7924 "config.ml" 218 8004 8026
+)
+"config.ml" 215 7890 7904 "config.ml" 215 7890 7907
+type(
+  (string * string * string * string option) list
+)
+ident(
+  def ops "config.ml" 216 7916 7924 "config.ml" 218 8004 8026
+)
+"config.ml" 215 7890 7896 "config.ml" 215 7890 7908
+type(
+  string * (string * string * string * string option) list
+)
+"config.ml" 215 7890 7910 "config.ml" 215 7890 7911
+type(
+  (string * (string * string * string * string option) list) list
+)
+ident(
+  def t "config.ml" 216 7916 7924 "config.ml" 218 8004 8026
+)
+"config.ml" 215 7890 7896 "config.ml" 215 7890 7911
+type(
+  (string * (string * string * string * string option) list) list
+)
+"config.ml" 216 7916 7924 "config.ml" 216 7916 7937
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"config.ml" 216 7916 7939 "config.ml" 216 7916 7944
+type(
+  string
+)
+ident(
+  int_ref title "config.ml" 215 7890 7897 "config.ml" 215 7890 7902
+)
+"config.ml" 216 7916 7945 "config.ml" 216 7916 7946
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 216 7916 7947 "config.ml" 216 7916 7950
+type(
+  string
+)
+"config.ml" 216 7916 7938 "config.ml" 216 7916 7951
+type(
+  string
+)
+"config.ml" 216 7916 7924 "config.ml" 216 7916 7951
+type(
+  unit
+)
+"config.ml" 217 7953 7961 "config.ml" 217 7953 7970
+type(
+  (string * string * string * string option -> unit) ->
+  (string * string * string * string option) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"config.ml" 217 7953 7972 "config.ml" 217 7953 7983
+type(
+  Format.formatter -> string * string * string * string option -> unit
+)
+ident(
+  int_ref show_option "config.ml" 200 7356 7360 "config.ml" 200 7356 7371
+)
+"config.ml" 217 7953 7984 "config.ml" 217 7953 7997
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.std_formatter
+)
+"config.ml" 217 7953 7971 "config.ml" 217 7953 7998
+type(
+  string * string * string * string option -> unit
+)
+"config.ml" 217 7953 7999 "config.ml" 217 7953 8002
+type(
+  (string * string * string * string option) list
+)
+ident(
+  int_ref ops "config.ml" 215 7890 7904 "config.ml" 215 7890 7907
+)
+"config.ml" 217 7953 7961 "config.ml" 217 7953 8002
+type(
+  unit
+)
+"config.ml" 218 8004 8012 "config.ml" 218 8004 8024
+type(
+  (string * (string * string * string * string option) list) list -> unit
+)
+ident(
+  int_ref show_options "config.ml" 213 7841 7851 "config.ml" 213 7841 7863
+)
+"config.ml" 218 8004 8025 "config.ml" 218 8004 8026
+type(
+  (string * (string * string * string * string option) list) list
+)
+ident(
+  int_ref t "config.ml" 215 7890 7910 "config.ml" 215 7890 7911
+)
+"config.ml" 218 8004 8012 "config.ml" 218 8004 8026
+type(
+  unit
+)
+"config.ml" 217 7953 7961 "config.ml" 218 8004 8026
+type(
+  unit
+)
+"config.ml" 216 7916 7924 "config.ml" 218 8004 8026
+type(
+  unit
+)
+"config.ml" 213 7841 7866 "config.ml" 218 8004 8026
+type(
+  (string * (string * string * string * string option) list) list -> unit
+)
+"config.ml" 220 8032 8036 "config.ml" 220 8032 8048
+type(
+  (string * (String.t * String.t * string * string option) list) list -> unit
+)
+ident(
+  int_ref show_options "config.ml" 213 7841 7851 "config.ml" 213 7841 7863
+)
+"config.ml" 220 8032 8049 "config.ml" 220 8032 8064
+type(
+  (string * (String.t * String.t * string * string option) list) list
+)
+ident(
+  int_ref refined_options "config.ml" 173 6536 6540 "config.ml" 173 6536 6555
+)
+"config.ml" 220 8032 8036 "config.ml" 220 8032 8064
+type(
+  unit
+)
+"config.ml" 221 8066 8070 "config.ml" 221 8066 8074
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"config.ml" 221 8066 8074 "config.ml" 221 8066 8077
+type(
+  int
+)
+"config.ml" 221 8066 8070 "config.ml" 221 8066 8077
+type(
+  'a
+)
+"config.ml" 220 8032 8036 "config.ml" 221 8066 8077
+type(
+  'a
+)
+"config.ml" 213 7841 7843 "config.ml" 221 8066 8077
+type(
+  'a
+)
+"config.ml" 212 7818 7820 "config.ml" 221 8066 8077
+type(
+  'a
+)
+"config.ml" 226 8205 8209 "config.ml" 226 8205 8225
+type(
+  unit -> 'a
+)
+ident(
+  def generate_manpage "config.ml" 266 9442 9442 --
+)
+"config.ml" 226 8205 8226 "config.ml" 226 8205 8228
+type(
+  unit
+)
+"config.ml" 227 8231 8237 "config.ml" 227 8231 8241
+type(
+  string
+)
+"config.ml" 227 8231 8244 "config.ml" 227 8231 8270
+type(
+  string
+)
+"config.ml" 228 8274 8280 "config.ml" 228 8274 8291
+type(
+  string
+)
+"config.ml" 229 8294 8294 "config.ml" 231 8447 8518
+type(
+  string
+)
+"config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+type(
+  string -> string -> unit
+)
+"config.ml" 233 8524 8537 "config.ml" 233 8524 8540
+type(
+  string
+)
+ident(
+  def tag "config.ml" 233 8524 8541 "config.ml" 233 8524 8572
+)
+"config.ml" 233 8524 8541 "config.ml" 233 8524 8544
+type(
+  string
+)
+ident(
+  def str "config.ml" 233 8524 8547 "config.ml" 233 8524 8572
+)
+"config.ml" 233 8524 8547 "config.ml" 233 8524 8553
+type(
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"config.ml" 233 8524 8554 "config.ml" 233 8524 8564
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"config.ml" 233 8524 8565 "config.ml" 233 8524 8568
+type(
+  string
+)
+ident(
+  int_ref tag "config.ml" 233 8524 8537 "config.ml" 233 8524 8540
+)
+"config.ml" 233 8524 8569 "config.ml" 233 8524 8572
+type(
+  string
+)
+ident(
+  int_ref str "config.ml" 233 8524 8541 "config.ml" 233 8524 8544
+)
+"config.ml" 233 8524 8547 "config.ml" 233 8524 8572
+type(
+  unit
+)
+"config.ml" 234 8576 8582 "config.ml" 234 8576 8588
+type(
+  string -> string -> string -> unit
+)
+"config.ml" 234 8576 8589 "config.ml" 234 8576 8592
+type(
+  string
+)
+ident(
+  def tag "config.ml" 234 8576 8593 "config.ml" 234 8576 8638
+)
+"config.ml" 234 8576 8593 "config.ml" 234 8576 8597
+type(
+  string
+)
+ident(
+  def head "config.ml" 234 8576 8598 "config.ml" 234 8576 8638
+)
+"config.ml" 234 8576 8598 "config.ml" 234 8576 8601
+type(
+  string
+)
+ident(
+  def str "config.ml" 234 8576 8604 "config.ml" 234 8576 8638
+)
+"config.ml" 234 8576 8604 "config.ml" 234 8576 8610
+type(
+  (string -> string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"config.ml" 234 8576 8611 "config.ml" 234 8576 8625
+type(
+  (string -> string -> string -> unit, Format.formatter, unit) format
+)
+"config.ml" 234 8576 8626 "config.ml" 234 8576 8629
+type(
+  string
+)
+ident(
+  int_ref tag "config.ml" 234 8576 8589 "config.ml" 234 8576 8592
+)
+"config.ml" 234 8576 8630 "config.ml" 234 8576 8634
+type(
+  string
+)
+ident(
+  int_ref head "config.ml" 234 8576 8593 "config.ml" 234 8576 8597
+)
+"config.ml" 234 8576 8635 "config.ml" 234 8576 8638
+type(
+  string
+)
+ident(
+  int_ref str "config.ml" 234 8576 8598 "config.ml" 234 8576 8601
+)
+"config.ml" 234 8576 8604 "config.ml" 234 8576 8638
+type(
+  unit
+)
+"config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+type(
+  string -> unit
+)
+"config.ml" 235 8642 8655 "config.ml" 235 8642 8658
+type(
+  string
+)
+ident(
+  def str "config.ml" 235 8642 8661 "config.ml" 235 8642 8678
+)
+"config.ml" 235 8642 8661 "config.ml" 235 8642 8667
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.printf
+)
+"config.ml" 235 8642 8668 "config.ml" 235 8642 8674
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"config.ml" 235 8642 8675 "config.ml" 235 8642 8678
+type(
+  string
+)
+ident(
+  int_ref str "config.ml" 235 8642 8655 "config.ml" 235 8642 8658
+)
+"config.ml" 235 8642 8661 "config.ml" 235 8642 8678
+type(
+  unit
+)
+"config.ml" 236 8682 8692 "config.ml" 236 8682 8701
+type(
+  ('b * string * string * string option) list -> unit
+)
+"config.ml" 237 8713 8719 "config.ml" 237 8713 8721
+type(
+  ('b * string * string * string option) list
+)
+"config.ml" 237 8713 8725 "config.ml" 237 8713 8727
+type(
+  unit
+)
+"config.ml" 238 8728 8735 "config.ml" 238 8728 8736
+type(
+  'b
+)
+"config.ml" 238 8728 8738 "config.ml" 238 8728 8739
+type(
+  string
+)
+ident(
+  def l "config.ml" 239 8754 8762 "config.ml" 247 8974 8993
+)
+"config.ml" 238 8728 8741 "config.ml" 238 8728 8742
+type(
+  string
+)
+ident(
+  def m "config.ml" 239 8754 8762 "config.ml" 247 8974 8993
+)
+"config.ml" 238 8728 8744 "config.ml" 238 8728 8745
+type(
+  string option
+)
+ident(
+  def d "config.ml" 239 8754 8762 "config.ml" 247 8974 8993
+)
+"config.ml" 238 8728 8734 "config.ml" 238 8728 8746
+type(
+  'b * string * string * string option
+)
+"config.ml" 238 8728 8748 "config.ml" 238 8728 8749
+type(
+  ('b * string * string * string option) list
+)
+ident(
+  def t "config.ml" 239 8754 8762 "config.ml" 247 8974 8993
+)
+"config.ml" 238 8728 8734 "config.ml" 238 8728 8749
+type(
+  ('b * string * string * string option) list
+)
+"config.ml" 239 8754 8762 "config.ml" 239 8754 8768
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 239 8754 8769 "config.ml" 239 8754 8773
+type(
+  string
+)
+"config.ml" 239 8754 8774 "config.ml" 239 8754 8776
+type(
+  string
+)
+"config.ml" 239 8754 8762 "config.ml" 239 8754 8776
+type(
+  unit
+)
+"config.ml" 240 8778 8786 "config.ml" 240 8778 8792
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 240 8778 8794 "config.ml" 240 8778 8798
+type(
+  string
+)
+"config.ml" 240 8778 8799 "config.ml" 240 8778 8800
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 240 8778 8801 "config.ml" 240 8778 8802
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 238 8728 8738 "config.ml" 238 8728 8739
+)
+"config.ml" 240 8778 8793 "config.ml" 240 8778 8803
+type(
+  string
+)
+"config.ml" 240 8778 8786 "config.ml" 240 8778 8803
+type(
+  unit
+)
+"config.ml" 241 8807 8821 "config.ml" 241 8807 8822
+type(
+  string option
+)
+ident(
+  int_ref d "config.ml" 238 8728 8744 "config.ml" 238 8728 8745
+)
+"config.ml" 242 8829 8841 "config.ml" 242 8829 8845
+type(
+  string option
+)
+"config.ml" 242 8829 8849 "config.ml" 242 8829 8855
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 242 8829 8856 "config.ml" 242 8829 8857
+type(
+  string
+)
+ident(
+  int_ref m "config.ml" 238 8728 8741 "config.ml" 238 8728 8742
+)
+"config.ml" 242 8829 8849 "config.ml" 242 8829 8857
+type(
+  unit
+)
+"config.ml" 243 8858 8874 "config.ml" 243 8858 8877
+type(
+  string
+)
+ident(
+  def d "config.ml" 244 8881 8895 "config.ml" 245 8928 8962
+)
+"config.ml" 243 8858 8870 "config.ml" 243 8858 8877
+type(
+  string option
+)
+"config.ml" 244 8881 8895 "config.ml" 244 8881 8901
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 244 8881 8903 "config.ml" 244 8881 8904
+type(
+  string
+)
+ident(
+  int_ref m "config.ml" 238 8728 8741 "config.ml" 238 8728 8742
+)
+"config.ml" 244 8881 8905 "config.ml" 244 8881 8906
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 244 8881 8907 "config.ml" 244 8881 8925
+type(
+  string
+)
+"config.ml" 244 8881 8902 "config.ml" 244 8881 8926
+type(
+  string
+)
+"config.ml" 244 8881 8895 "config.ml" 244 8881 8926
+type(
+  unit
+)
+"config.ml" 245 8928 8942 "config.ml" 245 8928 8948
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 245 8928 8949 "config.ml" 245 8928 8952
+type(
+  string
+)
+"config.ml" 245 8928 8954 "config.ml" 245 8928 8955
+type(
+  string
+)
+ident(
+  int_ref d "config.ml" 243 8858 8874 "config.ml" 243 8858 8877
+)
+"config.ml" 245 8928 8956 "config.ml" 245 8928 8957
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 245 8928 8958 "config.ml" 245 8928 8961
+type(
+  string
+)
+"config.ml" 245 8928 8953 "config.ml" 245 8928 8962
+type(
+  string
+)
+"config.ml" 245 8928 8942 "config.ml" 245 8928 8962
+type(
+  unit
+)
+"config.ml" 244 8881 8895 "config.ml" 245 8928 8962
+type(
+  unit
+)
+"config.ml" 240 8778 8805 "config.ml" 246 8963 8972
+type(
+  unit
+)
+"config.ml" 247 8974 8982 "config.ml" 247 8974 8991
+type(
+  ('b * string * string * string option) list -> unit
+)
+ident(
+  int_ref do_option "config.ml" 236 8682 8692 "config.ml" 236 8682 8701
+)
+"config.ml" 247 8974 8992 "config.ml" 247 8974 8993
+type(
+  ('b * string * string * string option) list
+)
+ident(
+  int_ref t "config.ml" 238 8728 8748 "config.ml" 238 8728 8749
+)
+"config.ml" 247 8974 8982 "config.ml" 247 8974 8993
+type(
+  unit
+)
+"config.ml" 240 8778 8805 "config.ml" 247 8974 8993
+type(
+  unit
+)
+"config.ml" 240 8778 8786 "config.ml" 247 8974 8993
+type(
+  unit
+)
+"config.ml" 239 8754 8762 "config.ml" 247 8974 8993
+type(
+  unit
+)
+"config.ml" 236 8682 8704 "config.ml" 247 8974 8993
+type(
+  ('b * string * string * string option) list -> unit
+)
+"config.ml" 249 8999 9003 "config.ml" 249 8999 9009
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 249 8999 9010 "config.ml" 249 8999 9014
+type(
+  string
+)
+"config.ml" 249 8999 9015 "config.ml" 249 8999 9024
+type(
+  string
+)
+"config.ml" 249 8999 9003 "config.ml" 249 8999 9024
+type(
+  unit
+)
+"config.ml" 250 9026 9030 "config.ml" 250 9026 9036
+type(
+  string -> string -> string -> unit
+)
+ident(
+  int_ref ml_tag "config.ml" 234 8576 8582 "config.ml" 234 8576 8588
+)
+"config.ml" 250 9026 9037 "config.ml" 250 9026 9041
+type(
+  string
+)
+"config.ml" 250 9026 9042 "config.ml" 250 9026 9048
+type(
+  string
+)
+"config.ml" 250 9026 9049 "config.ml" 250 9026 9053
+type(
+  string
+)
+ident(
+  int_ref name "config.ml" 227 8231 8237 "config.ml" 227 8231 8241
+)
+"config.ml" 250 9026 9030 "config.ml" 250 9026 9053
+type(
+  unit
+)
+"config.ml" 251 9055 9059 "config.ml" 251 9055 9065
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 251 9055 9066 "config.ml" 251 9055 9070
+type(
+  string
+)
+"config.ml" 251 9055 9071 "config.ml" 251 9055 9081
+type(
+  string
+)
+"config.ml" 251 9055 9059 "config.ml" 251 9055 9081
+type(
+  unit
+)
+"config.ml" 252 9083 9087 "config.ml" 252 9083 9093
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 252 9083 9094 "config.ml" 252 9083 9097
+type(
+  string
+)
+"config.ml" 252 9083 9098 "config.ml" 252 9083 9105
+type(
+  string
+)
+"config.ml" 252 9083 9087 "config.ml" 252 9083 9105
+type(
+  unit
+)
+"config.ml" 253 9107 9111 "config.ml" 253 9107 9117
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 253 9107 9118 "config.ml" 253 9107 9121
+type(
+  string
+)
+"config.ml" 253 9107 9111 "config.ml" 253 9107 9121
+type(
+  unit
+)
+"config.ml" 254 9123 9127 "config.ml" 254 9123 9133
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 254 9123 9134 "config.ml" 254 9123 9137
+type(
+  string
+)
+"config.ml" 254 9123 9138 "config.ml" 254 9123 9147
+type(
+  string
+)
+"config.ml" 254 9123 9127 "config.ml" 254 9123 9147
+type(
+  unit
+)
+"config.ml" 255 9149 9153 "config.ml" 255 9149 9159
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 255 9149 9160 "config.ml" 255 9149 9172
+type(
+  string
+)
+"config.ml" 255 9149 9153 "config.ml" 255 9149 9172
+type(
+  unit
+)
+"config.ml" 256 9174 9178 "config.ml" 256 9174 9184
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 256 9174 9185 "config.ml" 256 9174 9188
+type(
+  string
+)
+"config.ml" 256 9174 9189 "config.ml" 256 9174 9195
+type(
+  string
+)
+"config.ml" 256 9174 9178 "config.ml" 256 9174 9195
+type(
+  unit
+)
+"config.ml" 257 9197 9201 "config.ml" 257 9197 9207
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 257 9197 9208 "config.ml" 257 9197 9211
+type(
+  string
+)
+"config.ml" 257 9197 9201 "config.ml" 257 9197 9211
+type(
+  unit
+)
+"config.ml" 258 9213 9217 "config.ml" 258 9213 9223
+type(
+  string -> string -> string -> unit
+)
+ident(
+  int_ref ml_tag "config.ml" 234 8576 8582 "config.ml" 234 8576 8588
+)
+"config.ml" 258 9213 9224 "config.ml" 258 9213 9228
+type(
+  string
+)
+"config.ml" 258 9213 9229 "config.ml" 258 9213 9242
+type(
+  string
+)
+"config.ml" 258 9213 9243 "config.ml" 258 9213 9254
+type(
+  string
+)
+ident(
+  int_ref description "config.ml" 228 8274 8280 "config.ml" 228 8274 8291
+)
+"config.ml" 258 9213 9217 "config.ml" 258 9213 9254
+type(
+  unit
+)
+"config.ml" 259 9256 9260 "config.ml" 259 9256 9266
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 259 9256 9267 "config.ml" 259 9256 9271
+type(
+  string
+)
+"config.ml" 259 9256 9272 "config.ml" 259 9256 9298
+type(
+  string
+)
+"config.ml" 259 9256 9260 "config.ml" 259 9256 9298
+type(
+  unit
+)
+"config.ml" 260 9300 9304 "config.ml" 260 9300 9313
+type(
+  (string * string * string * string option) list -> unit
+)
+ident(
+  int_ref do_option "config.ml" 236 8682 8692 "config.ml" 236 8682 8701
+)
+"config.ml" 260 9300 9314 "config.ml" 260 9300 9332
+type(
+  (string * string * string * string option) list
+)
+ident(
+  int_ref druby_excl_options "config.ml" 81 2266 2270 "config.ml" 81 2266 2288
+)
+"config.ml" 260 9300 9304 "config.ml" 260 9300 9332
+type(
+  unit
+)
+"config.ml" 261 9334 9338 "config.ml" 261 9334 9344
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref sl_tag "config.ml" 233 8524 8530 "config.ml" 233 8524 8536
+)
+"config.ml" 261 9334 9345 "config.ml" 261 9334 9349
+type(
+  string
+)
+"config.ml" 261 9334 9350 "config.ml" 261 9334 9358
+type(
+  string
+)
+"config.ml" 261 9334 9338 "config.ml" 261 9334 9358
+type(
+  unit
+)
+"config.ml" 262 9360 9364 "config.ml" 262 9360 9370
+type(
+  string -> unit
+)
+ident(
+  int_ref no_tag "config.ml" 235 8642 8648 "config.ml" 235 8642 8654
+)
+"config.ml" 262 9360 9371 "config.ml" 262 9360 9404
+type(
+  string
+)
+"config.ml" 262 9360 9364 "config.ml" 262 9360 9404
+type(
+  unit
+)
+"config.ml" 263 9406 9410 "config.ml" 263 9406 9414
+type(
+  int -> 'a
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"config.ml" 263 9406 9414 "config.ml" 263 9406 9417
+type(
+  int
+)
+"config.ml" 263 9406 9410 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 262 9360 9364 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 261 9334 9338 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 260 9300 9304 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 259 9256 9260 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 258 9213 9217 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 257 9197 9201 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 256 9174 9178 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 255 9149 9153 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 254 9123 9127 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 253 9107 9111 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 252 9083 9087 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 251 9055 9059 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 250 9026 9030 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 249 8999 9003 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 236 8682 8684 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 235 8642 8644 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 234 8576 8578 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 233 8524 8526 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 228 8274 8276 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 227 8231 8233 "config.ml" 263 9406 9417
+type(
+  'a
+)
+"config.ml" 266 9442 9446 "config.ml" 266 9442 9452
+type(
+  string -> string -> int
+)
+ident(
+  def s_to_i "config.ml" 271 9579 9579 --
+)
+"config.ml" 266 9442 9453 "config.ml" 266 9442 9458
+type(
+  string
+)
+ident(
+  def fname "config.ml" 266 9442 9459 "config.ml" 269 9506 9573
+)
+"config.ml" 266 9442 9459 "config.ml" 266 9442 9460
+type(
+  string
+)
+ident(
+  def s "config.ml" 267 9463 9465 "config.ml" 269 9506 9573
+)
+"config.ml" 267 9463 9469 "config.ml" 267 9463 9482
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"config.ml" 267 9463 9483 "config.ml" 267 9463 9484
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 266 9442 9459 "config.ml" 266 9442 9460
+)
+"config.ml" 267 9463 9469 "config.ml" 267 9463 9484
+type(
+  int
+)
+"config.ml" 268 9486 9501 "config.ml" 268 9486 9502
+type(
+  string
+)
+"config.ml" 268 9486 9493 "config.ml" 268 9486 9502
+type(
+  exn
+)
+"config.ml" 269 9506 9510 "config.ml" 269 9506 9515
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"config.ml" 269 9506 9531 "config.ml" 269 9506 9538
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"config.ml" 269 9506 9539 "config.ml" 269 9506 9563
+type(
+  (string -> string -> string, unit, string) format
+)
+"config.ml" 269 9506 9564 "config.ml" 269 9506 9569
+type(
+  string
+)
+ident(
+  int_ref fname "config.ml" 266 9442 9453 "config.ml" 266 9442 9458
+)
+"config.ml" 269 9506 9570 "config.ml" 269 9506 9571
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 266 9442 9459 "config.ml" 266 9442 9460
+)
+"config.ml" 269 9506 9530 "config.ml" 269 9506 9572
+type(
+  string
+)
+"config.ml" 269 9506 9516 "config.ml" 269 9506 9573
+type(
+  exn
+)
+"config.ml" 269 9506 9510 "config.ml" 269 9506 9573
+type(
+  int
+)
+"config.ml" 267 9463 9465 "config.ml" 269 9506 9573
+type(
+  int
+)
+"config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+type(
+  string -> string -> bool
+)
+ident(
+  def s_to_b "config.ml" 276 9713 9713 --
+)
+"config.ml" 271 9579 9590 "config.ml" 271 9579 9595
+type(
+  string
+)
+ident(
+  def fname "config.ml" 271 9579 9596 "config.ml" 274 9644 9711
+)
+"config.ml" 271 9579 9596 "config.ml" 271 9579 9597
+type(
+  string
+)
+ident(
+  def s "config.ml" 272 9600 9602 "config.ml" 274 9644 9711
+)
+"config.ml" 272 9600 9606 "config.ml" 272 9600 9620
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.bool_of_string
+)
+"config.ml" 272 9600 9621 "config.ml" 272 9600 9622
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 271 9579 9596 "config.ml" 271 9579 9597
+)
+"config.ml" 272 9600 9606 "config.ml" 272 9600 9622
+type(
+  bool
+)
+"config.ml" 273 9624 9639 "config.ml" 273 9624 9640
+type(
+  string
+)
+"config.ml" 273 9624 9631 "config.ml" 273 9624 9640
+type(
+  exn
+)
+"config.ml" 274 9644 9648 "config.ml" 274 9644 9653
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"config.ml" 274 9644 9669 "config.ml" 274 9644 9676
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"config.ml" 274 9644 9677 "config.ml" 274 9644 9701
+type(
+  (string -> string -> string, unit, string) format
+)
+"config.ml" 274 9644 9702 "config.ml" 274 9644 9707
+type(
+  string
+)
+ident(
+  int_ref fname "config.ml" 271 9579 9590 "config.ml" 271 9579 9595
+)
+"config.ml" 274 9644 9708 "config.ml" 274 9644 9709
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 271 9579 9596 "config.ml" 271 9579 9597
+)
+"config.ml" 274 9644 9668 "config.ml" 274 9644 9710
+type(
+  string
+)
+"config.ml" 274 9644 9654 "config.ml" 274 9644 9711
+type(
+  exn
+)
+"config.ml" 274 9644 9648 "config.ml" 274 9644 9711
+type(
+  bool
+)
+"config.ml" 272 9600 9602 "config.ml" 274 9644 9711
+type(
+  bool
+)
+"config.ml" 276 9713 9717 "config.ml" 276 9713 9726
+type(
+  string -> unit
+)
+ident(
+  def set_cache "config.ml" 277 9765 9765 --
+)
+"config.ml" 276 9713 9727 "config.ml" 276 9713 9728
+type(
+  string
+)
+ident(
+  def s "config.ml" 276 9713 9731 "config.ml" 276 9713 9764
+)
+"config.ml" 276 9713 9731 "config.ml" 276 9713 9735
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 276 9713 9745 "config.ml" 276 9713 9751
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 276 9713 9752 "config.ml" 276 9713 9762
+type(
+  string
+)
+"config.ml" 276 9713 9763 "config.ml" 276 9713 9764
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 276 9713 9727 "config.ml" 276 9713 9728
+)
+"config.ml" 276 9713 9745 "config.ml" 276 9713 9764
+type(
+  bool
+)
+"config.ml" 276 9713 9731 "config.ml" 276 9713 9764
+type(
+  unit
+)
+"config.ml" 277 9765 9769 "config.ml" 277 9765 9785
+type(
+  string -> unit
+)
+ident(
+  def set_clean_cached "config.ml" 278 9838 9838 --
+)
+"config.ml" 277 9765 9786 "config.ml" 277 9765 9787
+type(
+  string
+)
+ident(
+  def s "config.ml" 277 9765 9790 "config.ml" 277 9765 9837
+)
+"config.ml" 277 9765 9790 "config.ml" 277 9765 9794
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 277 9765 9811 "config.ml" 277 9765 9817
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 277 9765 9818 "config.ml" 277 9765 9835
+type(
+  string
+)
+"config.ml" 277 9765 9836 "config.ml" 277 9765 9837
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 277 9765 9786 "config.ml" 277 9765 9787
+)
+"config.ml" 277 9765 9811 "config.ml" 277 9765 9837
+type(
+  bool
+)
+"config.ml" 277 9765 9790 "config.ml" 277 9765 9837
+type(
+  unit
+)
+"config.ml" 278 9838 9842 "config.ml" 278 9838 9857
+type(
+  string -> unit
+)
+ident(
+  def set_debug_level "config.ml" 279 9908 9908 --
+)
+"config.ml" 278 9838 9858 "config.ml" 278 9838 9859
+type(
+  string
+)
+ident(
+  def s "config.ml" 278 9838 9862 "config.ml" 278 9838 9907
+)
+"config.ml" 278 9838 9862 "config.ml" 278 9838 9866
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 278 9838 9882 "config.ml" 278 9838 9888
+type(
+  string -> string -> int
+)
+ident(
+  int_ref s_to_i "config.ml" 266 9442 9446 "config.ml" 266 9442 9452
+)
+"config.ml" 278 9838 9889 "config.ml" 278 9838 9905
+type(
+  string
+)
+"config.ml" 278 9838 9906 "config.ml" 278 9838 9907
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 278 9838 9858 "config.ml" 278 9838 9859
+)
+"config.ml" 278 9838 9882 "config.ml" 278 9838 9907
+type(
+  int
+)
+"config.ml" 278 9838 9862 "config.ml" 278 9838 9907
+type(
+  unit
+)
+"config.ml" 279 9908 9912 "config.ml" 279 9908 9932
+type(
+  string -> unit
+)
+ident(
+  def set_error_raises_exc "config.ml" 281 9996 9996 --
+)
+"config.ml" 279 9908 9933 "config.ml" 279 9908 9934
+type(
+  string
+)
+ident(
+  def s "config.ml" 280 9938 9940 "config.ml" 280 9938 9995
+)
+"config.ml" 280 9938 9940 "config.ml" 280 9938 9944
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 280 9938 9965 "config.ml" 280 9938 9971
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 280 9938 9972 "config.ml" 280 9938 9993
+type(
+  string
+)
+"config.ml" 280 9938 9994 "config.ml" 280 9938 9995
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 279 9908 9933 "config.ml" 279 9908 9934
+)
+"config.ml" 280 9938 9965 "config.ml" 280 9938 9995
+type(
+  bool
+)
+"config.ml" 280 9938 9940 "config.ml" 280 9938 9995
+type(
+  unit
+)
+"config.ml" 281 9996 10000 "config.ml" 281 9996 10011
+type(
+  string -> unit
+)
+ident(
+  def set_profile "config.ml" 282 10054 10054 --
+)
+"config.ml" 281 9996 10012 "config.ml" 281 9996 10013
+type(
+  string
+)
+ident(
+  def s "config.ml" 281 9996 10016 "config.ml" 281 9996 10053
+)
+"config.ml" 281 9996 10016 "config.ml" 281 9996 10020
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 281 9996 10032 "config.ml" 281 9996 10038
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 281 9996 10039 "config.ml" 281 9996 10051
+type(
+  string
+)
+"config.ml" 281 9996 10052 "config.ml" 281 9996 10053
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 281 9996 10012 "config.ml" 281 9996 10013
+)
+"config.ml" 281 9996 10032 "config.ml" 281 9996 10053
+type(
+  bool
+)
+"config.ml" 281 9996 10016 "config.ml" 281 9996 10053
+type(
+  unit
+)
+"config.ml" 282 10054 10058 "config.ml" 282 10054 10072
+type(
+  string -> unit
+)
+ident(
+  def set_profile_db "config.ml" 283 10098 10098 --
+)
+"config.ml" 282 10054 10073 "config.ml" 282 10054 10074
+type(
+  string
+)
+ident(
+  def s "config.ml" 282 10054 10077 "config.ml" 282 10054 10097
+)
+"config.ml" 282 10054 10077 "config.ml" 282 10054 10081
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 282 10054 10096 "config.ml" 282 10054 10097
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 282 10054 10073 "config.ml" 282 10054 10074
+)
+"config.ml" 282 10054 10077 "config.ml" 282 10054 10097
+type(
+  unit
+)
+"config.ml" 283 10098 10102 "config.ml" 283 10098 10115
+type(
+  string -> unit
+)
+ident(
+  def set_transform "config.ml" 284 10162 10162 --
+)
+"config.ml" 283 10098 10116 "config.ml" 283 10098 10117
+type(
+  string
+)
+ident(
+  def s "config.ml" 283 10098 10120 "config.ml" 283 10098 10161
+)
+"config.ml" 283 10098 10120 "config.ml" 283 10098 10124
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 283 10098 10138 "config.ml" 283 10098 10144
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 283 10098 10145 "config.ml" 283 10098 10159
+type(
+  string
+)
+"config.ml" 283 10098 10160 "config.ml" 283 10098 10161
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 283 10098 10116 "config.ml" 283 10098 10117
+)
+"config.ml" 283 10098 10138 "config.ml" 283 10098 10161
+type(
+  bool
+)
+"config.ml" 283 10098 10120 "config.ml" 283 10098 10161
+type(
+  unit
+)
+"config.ml" 284 10162 10166 "config.ml" 284 10162 10185
+type(
+  string -> unit
+)
+ident(
+  def set_use_annotations "config.ml" 286 10247 10247 --
+)
+"config.ml" 284 10162 10186 "config.ml" 284 10162 10187
+type(
+  string
+)
+ident(
+  def s "config.ml" 285 10191 10193 "config.ml" 285 10191 10246
+)
+"config.ml" 285 10191 10193 "config.ml" 285 10191 10197
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 285 10191 10217 "config.ml" 285 10191 10223
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 285 10191 10224 "config.ml" 285 10191 10244
+type(
+  string
+)
+"config.ml" 285 10191 10245 "config.ml" 285 10191 10246
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 284 10162 10186 "config.ml" 284 10162 10187
+)
+"config.ml" 285 10191 10217 "config.ml" 285 10191 10246
+type(
+  bool
+)
+"config.ml" 285 10191 10193 "config.ml" 285 10191 10246
+type(
+  unit
+)
+"config.ml" 286 10247 10251 "config.ml" 286 10247 10272
+type(
+  string -> unit
+)
+ident(
+  def set_check_annotations "config.ml" 288 10338 10338 --
+)
+"config.ml" 286 10247 10273 "config.ml" 286 10247 10274
+type(
+  string
+)
+ident(
+  def s "config.ml" 287 10278 10280 "config.ml" 287 10278 10337
+)
+"config.ml" 287 10278 10280 "config.ml" 287 10278 10284
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 287 10278 10306 "config.ml" 287 10278 10312
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 287 10278 10313 "config.ml" 287 10278 10335
+type(
+  string
+)
+"config.ml" 287 10278 10336 "config.ml" 287 10278 10337
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 286 10247 10273 "config.ml" 286 10247 10274
+)
+"config.ml" 287 10278 10306 "config.ml" 287 10278 10337
+type(
+  bool
+)
+"config.ml" 287 10278 10280 "config.ml" 287 10278 10337
+type(
+  unit
+)
+"config.ml" 288 10338 10342 "config.ml" 288 10338 10354
+type(
+  string -> unit
+)
+ident(
+  def set_stub_dir "config.ml" 289 10382 10382 --
+)
+"config.ml" 288 10338 10355 "config.ml" 288 10338 10358
+type(
+  string
+)
+ident(
+  def str "config.ml" 288 10338 10361 "config.ml" 288 10338 10381
+)
+"config.ml" 288 10338 10361 "config.ml" 288 10338 10365
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 288 10338 10378 "config.ml" 288 10338 10381
+type(
+  string
+)
+ident(
+  int_ref str "config.ml" 288 10338 10355 "config.ml" 288 10338 10358
+)
+"config.ml" 288 10338 10361 "config.ml" 288 10338 10381
+type(
+  unit
+)
+"config.ml" 289 10382 10386 "config.ml" 289 10382 10404
+type(
+  string -> unit
+)
+ident(
+  def set_use_base_types "config.ml" 290 10461 10461 --
+)
+"config.ml" 289 10382 10405 "config.ml" 289 10382 10406
+type(
+  string
+)
+ident(
+  def s "config.ml" 289 10382 10409 "config.ml" 289 10382 10460
+)
+"config.ml" 289 10382 10409 "config.ml" 289 10382 10413
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 289 10382 10432 "config.ml" 289 10382 10438
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 289 10382 10439 "config.ml" 289 10382 10458
+type(
+  string
+)
+"config.ml" 289 10382 10459 "config.ml" 289 10382 10460
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 289 10382 10405 "config.ml" 289 10382 10406
+)
+"config.ml" 289 10382 10432 "config.ml" 289 10382 10460
+type(
+  bool
+)
+"config.ml" 289 10382 10409 "config.ml" 289 10382 10460
+type(
+  unit
+)
+"config.ml" 290 10461 10465 "config.ml" 290 10461 10483
+type(
+  string -> unit
+)
+ident(
+  def set_mine_dyn_feats "config.ml" 292 10543 10543 --
+)
+"config.ml" 290 10461 10484 "config.ml" 290 10461 10485
+type(
+  string
+)
+ident(
+  def s "config.ml" 291 10489 10491 "config.ml" 291 10489 10542
+)
+"config.ml" 291 10489 10491 "config.ml" 291 10489 10495
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 291 10489 10514 "config.ml" 291 10489 10520
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 291 10489 10521 "config.ml" 291 10489 10540
+type(
+  string
+)
+"config.ml" 291 10489 10541 "config.ml" 291 10489 10542
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 290 10461 10484 "config.ml" 290 10461 10485
+)
+"config.ml" 291 10489 10514 "config.ml" 291 10489 10542
+type(
+  bool
+)
+"config.ml" 291 10489 10491 "config.ml" 291 10489 10542
+type(
+  unit
+)
+"config.ml" 292 10543 10547 "config.ml" 292 10543 10564
+type(
+  string -> unit
+)
+ident(
+  def set_mining_output "config.ml" 294 10601 10601 --
+)
+"config.ml" 292 10543 10565 "config.ml" 292 10543 10566
+type(
+  string
+)
+ident(
+  def s "config.ml" 293 10570 10572 "config.ml" 293 10570 10600
+)
+"config.ml" 293 10570 10572 "config.ml" 293 10570 10576
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 293 10570 10599 "config.ml" 293 10570 10600
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 292 10543 10565 "config.ml" 292 10543 10566
+)
+"config.ml" 293 10570 10594 "config.ml" 293 10570 10600
+type(
+  string option
+)
+"config.ml" 293 10570 10572 "config.ml" 293 10570 10600
+type(
+  unit
+)
+"config.ml" 294 10601 10605 "config.ml" 294 10601 10624
+type(
+  string -> unit
+)
+ident(
+  def set_print_error_ctx "config.ml" 296 10686 10686 --
+)
+"config.ml" 294 10601 10625 "config.ml" 294 10601 10626
+type(
+  string
+)
+ident(
+  def s "config.ml" 295 10630 10632 "config.ml" 295 10630 10685
+)
+"config.ml" 295 10630 10632 "config.ml" 295 10630 10636
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 295 10630 10656 "config.ml" 295 10630 10662
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 295 10630 10663 "config.ml" 295 10630 10683
+type(
+  string
+)
+"config.ml" 295 10630 10684 "config.ml" 295 10630 10685
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 294 10601 10625 "config.ml" 294 10601 10626
+)
+"config.ml" 295 10630 10656 "config.ml" 295 10630 10685
+type(
+  bool
+)
+"config.ml" 295 10630 10632 "config.ml" 295 10630 10685
+type(
+  unit
+)
+"config.ml" 296 10686 10690 "config.ml" 296 10686 10707
+type(
+  string -> unit
+)
+ident(
+  def set_no_dup_errors "config.ml" 297 10762 10762 --
+)
+"config.ml" 296 10686 10708 "config.ml" 296 10686 10709
+type(
+  string
+)
+ident(
+  def s "config.ml" 296 10686 10712 "config.ml" 296 10686 10761
+)
+"config.ml" 296 10686 10712 "config.ml" 296 10686 10716
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 296 10686 10734 "config.ml" 296 10686 10740
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 296 10686 10741 "config.ml" 296 10686 10759
+type(
+  string
+)
+"config.ml" 296 10686 10760 "config.ml" 296 10686 10761
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 296 10686 10708 "config.ml" 296 10686 10709
+)
+"config.ml" 296 10686 10734 "config.ml" 296 10686 10761
+type(
+  bool
+)
+"config.ml" 296 10686 10712 "config.ml" 296 10686 10761
+type(
+  unit
+)
+"config.ml" 297 10762 10766 "config.ml" 297 10762 10785
+type(
+  string -> unit
+)
+ident(
+  def set_print_filenames "config.ml" 299 10847 10847 --
+)
+"config.ml" 297 10762 10786 "config.ml" 297 10762 10787
+type(
+  string
+)
+ident(
+  def s "config.ml" 298 10791 10793 "config.ml" 298 10791 10846
+)
+"config.ml" 298 10791 10793 "config.ml" 298 10791 10797
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 298 10791 10817 "config.ml" 298 10791 10823
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 298 10791 10824 "config.ml" 298 10791 10844
+type(
+  string
+)
+"config.ml" 298 10791 10845 "config.ml" 298 10791 10846
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 297 10762 10786 "config.ml" 297 10762 10787
+)
+"config.ml" 298 10791 10817 "config.ml" 298 10791 10846
+type(
+  bool
+)
+"config.ml" 298 10791 10793 "config.ml" 298 10791 10846
+type(
+  unit
+)
+"config.ml" 299 10847 10851 "config.ml" 299 10847 10872
+type(
+  string -> unit
+)
+ident(
+  def set_debug_constraints "config.ml" 301 10938 10938 --
+)
+"config.ml" 299 10847 10873 "config.ml" 299 10847 10874
+type(
+  string
+)
+ident(
+  def s "config.ml" 300 10878 10880 "config.ml" 300 10878 10937
+)
+"config.ml" 300 10878 10880 "config.ml" 300 10878 10884
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 300 10878 10906 "config.ml" 300 10878 10912
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 300 10878 10913 "config.ml" 300 10878 10935
+type(
+  string
+)
+"config.ml" 300 10878 10936 "config.ml" 300 10878 10937
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 299 10847 10873 "config.ml" 299 10847 10874
+)
+"config.ml" 300 10878 10906 "config.ml" 300 10878 10937
+type(
+  bool
+)
+"config.ml" 300 10878 10880 "config.ml" 300 10878 10937
+type(
+  unit
+)
+"config.ml" 301 10938 10942 "config.ml" 301 10938 10960
+type(
+  string -> unit
+)
+ident(
+  def set_resolve_scopes "config.ml" 302 11017 11017 --
+)
+"config.ml" 301 10938 10961 "config.ml" 301 10938 10962
+type(
+  string
+)
+ident(
+  def s "config.ml" 301 10938 10965 "config.ml" 301 10938 11016
+)
+"config.ml" 301 10938 10965 "config.ml" 301 10938 10969
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 301 10938 10988 "config.ml" 301 10938 10994
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 301 10938 10995 "config.ml" 301 10938 11014
+type(
+  string
+)
+"config.ml" 301 10938 11015 "config.ml" 301 10938 11016
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 301 10938 10961 "config.ml" 301 10938 10962
+)
+"config.ml" 301 10938 10988 "config.ml" 301 10938 11016
+type(
+  bool
+)
+"config.ml" 301 10938 10965 "config.ml" 301 10938 11016
+type(
+  unit
+)
+"config.ml" 302 11017 11021 "config.ml" 302 11017 11033
+type(
+  string -> unit
+)
+ident(
+  def set_run_ruby "config.ml" 303 11078 11078 --
+)
+"config.ml" 302 11017 11034 "config.ml" 302 11017 11035
+type(
+  string
+)
+ident(
+  def s "config.ml" 302 11017 11038 "config.ml" 302 11017 11077
+)
+"config.ml" 302 11017 11038 "config.ml" 302 11017 11042
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 302 11017 11055 "config.ml" 302 11017 11061
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 302 11017 11062 "config.ml" 302 11017 11075
+type(
+  string
+)
+"config.ml" 302 11017 11076 "config.ml" 302 11017 11077
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 302 11017 11034 "config.ml" 302 11017 11035
+)
+"config.ml" 302 11017 11055 "config.ml" 302 11017 11077
+type(
+  bool
+)
+"config.ml" 302 11017 11038 "config.ml" 302 11017 11077
+type(
+  unit
+)
+"config.ml" 303 11078 11082 "config.ml" 303 11078 11096
+type(
+  string -> unit
+)
+ident(
+  def set_idirectory "config.ml" 304 11142 11142 --
+)
+"config.ml" 303 11078 11097 "config.ml" 303 11078 11098
+type(
+  string
+)
+ident(
+  def s "config.ml" 303 11078 11101 "config.ml" 303 11078 11141
+)
+"config.ml" 303 11078 11101 "config.ml" 303 11078 11105
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 303 11078 11120 "config.ml" 303 11078 11124
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 303 11078 11120 "config.ml" 303 11078 11135
+type(
+  string list
+)
+"config.ml" 303 11078 11136 "config.ml" 303 11078 11137
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"config.ml" 303 11078 11139 "config.ml" 303 11078 11140
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 303 11078 11097 "config.ml" 303 11078 11098
+)
+"config.ml" 303 11078 11138 "config.ml" 303 11078 11141
+type(
+  string list
+)
+"config.ml" 303 11078 11120 "config.ml" 303 11078 11141
+type(
+  string list
+)
+"config.ml" 303 11078 11101 "config.ml" 303 11078 11141
+type(
+  unit
+)
+"config.ml" 304 11142 11146 "config.ml" 304 11142 11158
+type(
+  string -> unit
+)
+ident(
+  def set_rlibrary "config.ml" 305 11200 11200 --
+)
+"config.ml" 304 11142 11159 "config.ml" 304 11142 11160
+type(
+  string
+)
+ident(
+  def s "config.ml" 304 11142 11163 "config.ml" 304 11142 11199
+)
+"config.ml" 304 11142 11163 "config.ml" 304 11142 11167
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 304 11142 11180 "config.ml" 304 11142 11184
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 304 11142 11180 "config.ml" 304 11142 11193
+type(
+  string list
+)
+"config.ml" 304 11142 11194 "config.ml" 304 11142 11195
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"config.ml" 304 11142 11197 "config.ml" 304 11142 11198
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 304 11142 11159 "config.ml" 304 11142 11160
+)
+"config.ml" 304 11142 11196 "config.ml" 304 11142 11199
+type(
+  string list
+)
+"config.ml" 304 11142 11180 "config.ml" 304 11142 11199
+type(
+  string list
+)
+"config.ml" 304 11142 11163 "config.ml" 304 11142 11199
+type(
+  unit
+)
+"config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+type(
+  string -> string -> unit
+)
+ident(
+  def set_ruby_options "config.ml" 307 11278 11278 --
+)
+"config.ml" 305 11200 11221 "config.ml" 305 11200 11222
+type(
+  string
+)
+ident(
+  def n "config.ml" 305 11200 11223 "config.ml" 306 11227 11277
+)
+"config.ml" 305 11200 11223 "config.ml" 305 11200 11224
+type(
+  string
+)
+ident(
+  def s "config.ml" 306 11227 11229 "config.ml" 306 11227 11277
+)
+"config.ml" 306 11227 11229 "config.ml" 306 11227 11233
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 306 11227 11250 "config.ml" 306 11227 11254
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 306 11227 11250 "config.ml" 306 11227 11267
+type(
+  string list
+)
+"config.ml" 306 11227 11268 "config.ml" 306 11227 11269
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"config.ml" 306 11227 11271 "config.ml" 306 11227 11272
+type(
+  string
+)
+ident(
+  int_ref n "config.ml" 305 11200 11221 "config.ml" 305 11200 11222
+)
+"config.ml" 306 11227 11273 "config.ml" 306 11227 11274
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 306 11227 11275 "config.ml" 306 11227 11276
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 305 11200 11223 "config.ml" 305 11200 11224
+)
+"config.ml" 306 11227 11271 "config.ml" 306 11227 11276
+type(
+  string
+)
+"config.ml" 306 11227 11270 "config.ml" 306 11227 11277
+type(
+  string list
+)
+"config.ml" 306 11227 11250 "config.ml" 306 11227 11277
+type(
+  string list
+)
+"config.ml" 306 11227 11229 "config.ml" 306 11227 11277
+type(
+  unit
+)
+"config.ml" 307 11278 11282 "config.ml" 307 11278 11295
+type(
+  string -> unit
+)
+ident(
+  def set_ruby_args "config.ml" 308 11339 11339 --
+)
+"config.ml" 307 11278 11296 "config.ml" 307 11278 11297
+type(
+  string
+)
+ident(
+  def s "config.ml" 307 11278 11300 "config.ml" 307 11278 11338
+)
+"config.ml" 307 11278 11300 "config.ml" 307 11278 11304
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 307 11278 11318 "config.ml" 307 11278 11322
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 307 11278 11318 "config.ml" 307 11278 11332
+type(
+  string list
+)
+"config.ml" 307 11278 11333 "config.ml" 307 11278 11334
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"config.ml" 307 11278 11336 "config.ml" 307 11278 11337
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 307 11278 11296 "config.ml" 307 11278 11297
+)
+"config.ml" 307 11278 11335 "config.ml" 307 11278 11338
+type(
+  string list
+)
+"config.ml" 307 11278 11318 "config.ml" 307 11278 11338
+type(
+  string list
+)
+"config.ml" 307 11278 11300 "config.ml" 307 11278 11338
+type(
+  unit
+)
+"config.ml" 308 11339 11343 "config.ml" 308 11339 11359
+type(
+  string -> unit
+)
+ident(
+  def set_single_entry "config.ml" 309 11412 11412 --
+)
+"config.ml" 308 11339 11360 "config.ml" 308 11339 11361
+type(
+  string
+)
+ident(
+  def s "config.ml" 308 11339 11364 "config.ml" 308 11339 11411
+)
+"config.ml" 308 11339 11364 "config.ml" 308 11339 11368
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 308 11339 11385 "config.ml" 308 11339 11391
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 308 11339 11392 "config.ml" 308 11339 11409
+type(
+  string
+)
+"config.ml" 308 11339 11410 "config.ml" 308 11339 11411
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 308 11339 11360 "config.ml" 308 11339 11361
+)
+"config.ml" 308 11339 11385 "config.ml" 308 11339 11411
+type(
+  bool
+)
+"config.ml" 308 11339 11364 "config.ml" 308 11339 11411
+type(
+  unit
+)
+"config.ml" 309 11412 11416 "config.ml" 309 11412 11429
+type(
+  string -> unit
+)
+ident(
+  def set_show_time "config.ml" 310 11476 11476 --
+)
+"config.ml" 309 11412 11430 "config.ml" 309 11412 11431
+type(
+  string
+)
+ident(
+  def b "config.ml" 309 11412 11434 "config.ml" 309 11412 11475
+)
+"config.ml" 309 11412 11434 "config.ml" 309 11412 11438
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 309 11412 11452 "config.ml" 309 11412 11458
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 309 11412 11459 "config.ml" 309 11412 11473
+type(
+  string
+)
+"config.ml" 309 11412 11474 "config.ml" 309 11412 11475
+type(
+  string
+)
+ident(
+  int_ref b "config.ml" 309 11412 11430 "config.ml" 309 11412 11431
+)
+"config.ml" 309 11412 11452 "config.ml" 309 11412 11475
+type(
+  bool
+)
+"config.ml" 309 11412 11434 "config.ml" 309 11412 11475
+type(
+  unit
+)
+"config.ml" 310 11476 11480 "config.ml" 310 11476 11499
+type(
+  string -> unit
+)
+ident(
+  def set_warn_empty_body "config.ml" 312 11561 11561 --
+)
+"config.ml" 310 11476 11500 "config.ml" 310 11476 11501
+type(
+  string
+)
+ident(
+  def b "config.ml" 311 11505 11507 "config.ml" 311 11505 11560
+)
+"config.ml" 311 11505 11507 "config.ml" 311 11505 11511
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 311 11505 11531 "config.ml" 311 11505 11537
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 311 11505 11538 "config.ml" 311 11505 11558
+type(
+  string
+)
+"config.ml" 311 11505 11559 "config.ml" 311 11505 11560
+type(
+  string
+)
+ident(
+  int_ref b "config.ml" 310 11476 11500 "config.ml" 310 11476 11501
+)
+"config.ml" 311 11505 11531 "config.ml" 311 11505 11560
+type(
+  bool
+)
+"config.ml" 311 11505 11507 "config.ml" 311 11505 11560
+type(
+  unit
+)
+"config.ml" 312 11561 11565 "config.ml" 312 11561 11587
+type(
+  string -> unit
+)
+ident(
+  def set_emit_runtime_casts "config.ml" 314 11655 11655 --
+)
+"config.ml" 312 11561 11588 "config.ml" 312 11561 11589
+type(
+  string
+)
+ident(
+  def b "config.ml" 313 11593 11595 "config.ml" 313 11593 11654
+)
+"config.ml" 313 11593 11595 "config.ml" 313 11593 11599
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 313 11593 11622 "config.ml" 313 11593 11628
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 313 11593 11629 "config.ml" 313 11593 11652
+type(
+  string
+)
+"config.ml" 313 11593 11653 "config.ml" 313 11593 11654
+type(
+  string
+)
+ident(
+  int_ref b "config.ml" 312 11561 11588 "config.ml" 312 11561 11589
+)
+"config.ml" 313 11593 11622 "config.ml" 313 11593 11654
+type(
+  bool
+)
+"config.ml" 313 11593 11595 "config.ml" 313 11593 11654
+type(
+  unit
+)
+"config.ml" 314 11655 11659 "config.ml" 314 11655 11673
+type(
+  string -> unit
+)
+ident(
+  def set_save_temps "config.ml" 315 11722 11722 --
+)
+"config.ml" 314 11655 11674 "config.ml" 314 11655 11675
+type(
+  string
+)
+ident(
+  def b "config.ml" 314 11655 11678 "config.ml" 314 11655 11721
+)
+"config.ml" 314 11655 11678 "config.ml" 314 11655 11682
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 314 11655 11697 "config.ml" 314 11655 11703
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 314 11655 11704 "config.ml" 314 11655 11719
+type(
+  string
+)
+"config.ml" 314 11655 11720 "config.ml" 314 11655 11721
+type(
+  string
+)
+ident(
+  int_ref b "config.ml" 314 11655 11674 "config.ml" 314 11655 11675
+)
+"config.ml" 314 11655 11697 "config.ml" 314 11655 11721
+type(
+  bool
+)
+"config.ml" 314 11655 11678 "config.ml" 314 11655 11721
+type(
+  unit
+)
+"config.ml" 315 11722 11726 "config.ml" 315 11722 11744
+type(
+  string -> unit
+)
+ident(
+  def set_type_inference "config.ml" 320 12012 12012 --
+)
+"config.ml" 315 11722 11745 "config.ml" 315 11722 11746
+type(
+  string
+)
+ident(
+  def b "config.ml" 315 11722 11749 "config.ml" 315 11722 11800
+)
+"config.ml" 315 11722 11749 "config.ml" 315 11722 11753
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 315 11722 11772 "config.ml" 315 11722 11778
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref s_to_b "config.ml" 271 9579 9583 "config.ml" 271 9579 9589
+)
+"config.ml" 315 11722 11779 "config.ml" 315 11722 11798
+type(
+  string
+)
+"config.ml" 315 11722 11799 "config.ml" 315 11722 11800
+type(
+  string
+)
+ident(
+  int_ref b "config.ml" 315 11722 11745 "config.ml" 315 11722 11746
+)
+"config.ml" 315 11722 11772 "config.ml" 315 11722 11800
+type(
+  bool
+)
+"config.ml" 315 11722 11749 "config.ml" 315 11722 11800
+type(
+  unit
+)
+"config.ml" 320 12012 12016 "config.ml" 320 12012 12020
+type(
+  (string -> unit) ->
+  (char * string * (unit -> unit) option * (string -> unit) option) list
+)
+ident(
+  def opts "config.ml" 420 16227 16227 --
+)
+"config.ml" 320 12012 12021 "config.ml" 320 12012 12033
+type(
+  string -> unit
+)
+ident(
+  def parse_config "config.ml" 320 12012 12036 "config.ml" 418 16224 16225
+)
+"config.ml" 321 12038 12041 "config.ml" 321 12038 12047
+type(
+  char
+)
+"config.ml" 321 12038 12049 "config.ml" 321 12038 12059
+type(
+  string
+)
+"config.ml" 321 12038 12070 "config.ml" 321 12038 12072
+type(
+  unit
+)
+"config.ml" 321 12038 12077 "config.ml" 321 12038 12086
+type(
+  string -> unit
+)
+ident(
+  int_ref set_cache "config.ml" 276 9713 9717 "config.ml" 276 9713 9726
+)
+"config.ml" 321 12038 12087 "config.ml" 321 12038 12093
+type(
+  string
+)
+"config.ml" 321 12038 12077 "config.ml" 321 12038 12093
+type(
+  unit
+)
+"config.ml" 321 12038 12066 "config.ml" 321 12038 12094
+type(
+  unit -> unit
+)
+"config.ml" 321 12038 12061 "config.ml" 321 12038 12094
+type(
+  (unit -> unit) option
+)
+"config.ml" 321 12038 12101 "config.ml" 321 12038 12110
+type(
+  string -> unit
+)
+ident(
+  int_ref set_cache "config.ml" 276 9713 9717 "config.ml" 276 9713 9726
+)
+"config.ml" 321 12038 12096 "config.ml" 321 12038 12110
+type(
+  (string -> unit) option
+)
+"config.ml" 321 12038 12040 "config.ml" 321 12038 12111
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 322 12113 12116 "config.ml" 322 12113 12122
+type(
+  char
+)
+"config.ml" 322 12113 12124 "config.ml" 322 12113 12135
+type(
+  string
+)
+"config.ml" 322 12113 12137 "config.ml" 322 12113 12141
+type(
+  (unit -> unit) option
+)
+"config.ml" 323 12144 12159 "config.ml" 323 12144 12162
+type(
+  string
+)
+ident(
+  def s "config.ml" 323 12144 12166 "config.ml" 323 12144 12209
+)
+"config.ml" 323 12144 12166 "config.ml" 323 12144 12170
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 323 12144 12189 "config.ml" 323 12144 12193
+type(
+  bool
+)
+"config.ml" 323 12144 12166 "config.ml" 323 12144 12193
+type(
+  unit
+)
+"config.ml" 323 12144 12195 "config.ml" 323 12144 12207
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_config "config.ml" 320 12012 12021 "config.ml" 320 12012 12033
+)
+"config.ml" 323 12144 12208 "config.ml" 323 12144 12209
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 323 12144 12159 "config.ml" 323 12144 12162
+)
+"config.ml" 323 12144 12195 "config.ml" 323 12144 12209
+type(
+  unit
+)
+"config.ml" 323 12144 12166 "config.ml" 323 12144 12209
+type(
+  unit
+)
+"config.ml" 323 12144 12155 "config.ml" 323 12144 12210
+type(
+  string -> unit
+)
+"config.ml" 323 12144 12150 "config.ml" 323 12144 12210
+type(
+  (string -> unit) option
+)
+"config.ml" 322 12113 12115 "config.ml" 323 12144 12211
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 324 12213 12216 "config.ml" 324 12213 12222
+type(
+  char
+)
+"config.ml" 324 12213 12224 "config.ml" 324 12213 12240
+type(
+  string
+)
+"config.ml" 324 12213 12251 "config.ml" 324 12213 12253
+type(
+  unit
+)
+"config.ml" 324 12213 12258 "config.ml" 324 12213 12273
+type(
+  string -> unit
+)
+ident(
+  int_ref set_debug_level "config.ml" 278 9838 9842 "config.ml" 278 9838 9857
+)
+"config.ml" 324 12213 12274 "config.ml" 324 12213 12277
+type(
+  string
+)
+"config.ml" 324 12213 12258 "config.ml" 324 12213 12277
+type(
+  unit
+)
+"config.ml" 324 12213 12247 "config.ml" 324 12213 12278
+type(
+  unit -> unit
+)
+"config.ml" 324 12213 12242 "config.ml" 324 12213 12278
+type(
+  (unit -> unit) option
+)
+"config.ml" 325 12281 12292 "config.ml" 325 12281 12307
+type(
+  string -> unit
+)
+ident(
+  int_ref set_debug_level "config.ml" 278 9838 9842 "config.ml" 278 9838 9857
+)
+"config.ml" 325 12281 12287 "config.ml" 325 12281 12307
+type(
+  (string -> unit) option
+)
+"config.ml" 324 12213 12215 "config.ml" 325 12281 12308
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 326 12310 12313 "config.ml" 326 12310 12319
+type(
+  char
+)
+"config.ml" 326 12310 12321 "config.ml" 326 12310 12342
+type(
+  string
+)
+"config.ml" 326 12310 12353 "config.ml" 326 12310 12355
+type(
+  unit
+)
+"config.ml" 326 12310 12360 "config.ml" 326 12310 12380
+type(
+  string -> unit
+)
+ident(
+  int_ref set_error_raises_exc "config.ml" 279 9908 9912 "config.ml" 279 9908 9932
+)
+"config.ml" 326 12310 12381 "config.ml" 326 12310 12387
+type(
+  string
+)
+"config.ml" 326 12310 12360 "config.ml" 326 12310 12387
+type(
+  unit
+)
+"config.ml" 326 12310 12349 "config.ml" 326 12310 12388
+type(
+  unit -> unit
+)
+"config.ml" 326 12310 12344 "config.ml" 326 12310 12388
+type(
+  (unit -> unit) option
+)
+"config.ml" 327 12391 12402 "config.ml" 327 12391 12422
+type(
+  string -> unit
+)
+ident(
+  int_ref set_error_raises_exc "config.ml" 279 9908 9912 "config.ml" 279 9908 9932
+)
+"config.ml" 327 12391 12397 "config.ml" 327 12391 12422
+type(
+  (string -> unit) option
+)
+"config.ml" 326 12310 12312 "config.ml" 327 12391 12423
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 328 12425 12428 "config.ml" 328 12425 12434
+type(
+  char
+)
+"config.ml" 328 12425 12436 "config.ml" 328 12425 12448
+type(
+  string
+)
+"config.ml" 328 12425 12459 "config.ml" 328 12425 12461
+type(
+  unit
+)
+"config.ml" 328 12425 12466 "config.ml" 328 12425 12477
+type(
+  string -> unit
+)
+ident(
+  int_ref set_profile "config.ml" 281 9996 10000 "config.ml" 281 9996 10011
+)
+"config.ml" 328 12425 12478 "config.ml" 328 12425 12484
+type(
+  string
+)
+"config.ml" 328 12425 12466 "config.ml" 328 12425 12484
+type(
+  unit
+)
+"config.ml" 328 12425 12455 "config.ml" 328 12425 12485
+type(
+  unit -> unit
+)
+"config.ml" 328 12425 12450 "config.ml" 328 12425 12485
+type(
+  (unit -> unit) option
+)
+"config.ml" 329 12487 12498 "config.ml" 329 12487 12509
+type(
+  string -> unit
+)
+ident(
+  int_ref set_profile "config.ml" 281 9996 10000 "config.ml" 281 9996 10011
+)
+"config.ml" 329 12487 12493 "config.ml" 329 12487 12509
+type(
+  (string -> unit) option
+)
+"config.ml" 328 12425 12427 "config.ml" 329 12487 12510
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 330 12512 12515 "config.ml" 330 12512 12521
+type(
+  char
+)
+"config.ml" 330 12512 12523 "config.ml" 330 12512 12538
+type(
+  string
+)
+"config.ml" 330 12512 12540 "config.ml" 330 12512 12544
+type(
+  (unit -> unit) option
+)
+"config.ml" 330 12512 12551 "config.ml" 330 12512 12565
+type(
+  string -> unit
+)
+ident(
+  int_ref set_profile_db "config.ml" 282 10054 10058 "config.ml" 282 10054 10072
+)
+"config.ml" 330 12512 12546 "config.ml" 330 12512 12565
+type(
+  (string -> unit) option
+)
+"config.ml" 330 12512 12514 "config.ml" 330 12512 12566
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 331 12568 12571 "config.ml" 331 12568 12577
+type(
+  char
+)
+"config.ml" 331 12568 12579 "config.ml" 331 12568 12593
+type(
+  string
+)
+"config.ml" 331 12568 12604 "config.ml" 331 12568 12606
+type(
+  unit
+)
+"config.ml" 331 12568 12611 "config.ml" 331 12568 12624
+type(
+  string -> unit
+)
+ident(
+  int_ref set_transform "config.ml" 283 10098 10102 "config.ml" 283 10098 10115
+)
+"config.ml" 331 12568 12625 "config.ml" 331 12568 12631
+type(
+  string
+)
+"config.ml" 331 12568 12611 "config.ml" 331 12568 12631
+type(
+  unit
+)
+"config.ml" 331 12568 12600 "config.ml" 331 12568 12632
+type(
+  unit -> unit
+)
+"config.ml" 331 12568 12595 "config.ml" 331 12568 12632
+type(
+  (unit -> unit) option
+)
+"config.ml" 332 12634 12645 "config.ml" 332 12634 12658
+type(
+  string -> unit
+)
+ident(
+  int_ref set_transform "config.ml" 283 10098 10102 "config.ml" 283 10098 10115
+)
+"config.ml" 332 12634 12640 "config.ml" 332 12634 12658
+type(
+  (string -> unit) option
+)
+"config.ml" 331 12568 12570 "config.ml" 332 12634 12659
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 333 12661 12664 "config.ml" 333 12661 12670
+type(
+  char
+)
+"config.ml" 333 12661 12672 "config.ml" 333 12661 12692
+type(
+  string
+)
+"config.ml" 333 12661 12703 "config.ml" 333 12661 12705
+type(
+  unit
+)
+"config.ml" 333 12661 12710 "config.ml" 333 12661 12729
+type(
+  string -> unit
+)
+ident(
+  int_ref set_use_annotations "config.ml" 284 10162 10166 "config.ml" 284 10162 10185
+)
+"config.ml" 333 12661 12730 "config.ml" 333 12661 12736
+type(
+  string
+)
+"config.ml" 333 12661 12710 "config.ml" 333 12661 12736
+type(
+  unit
+)
+"config.ml" 333 12661 12699 "config.ml" 333 12661 12737
+type(
+  unit -> unit
+)
+"config.ml" 333 12661 12694 "config.ml" 333 12661 12737
+type(
+  (unit -> unit) option
+)
+"config.ml" 334 12740 12751 "config.ml" 334 12740 12770
+type(
+  string -> unit
+)
+ident(
+  int_ref set_use_annotations "config.ml" 284 10162 10166 "config.ml" 284 10162 10185
+)
+"config.ml" 334 12740 12746 "config.ml" 334 12740 12770
+type(
+  (string -> unit) option
+)
+"config.ml" 333 12661 12663 "config.ml" 334 12740 12771
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 335 12773 12776 "config.ml" 335 12773 12782
+type(
+  char
+)
+"config.ml" 335 12773 12784 "config.ml" 335 12773 12806
+type(
+  string
+)
+"config.ml" 336 12809 12824 "config.ml" 336 12809 12826
+type(
+  unit
+)
+"config.ml" 336 12809 12831 "config.ml" 336 12809 12852
+type(
+  string -> unit
+)
+ident(
+  int_ref set_check_annotations "config.ml" 286 10247 10251 "config.ml" 286 10247 10272
+)
+"config.ml" 336 12809 12853 "config.ml" 336 12809 12859
+type(
+  string
+)
+"config.ml" 336 12809 12831 "config.ml" 336 12809 12859
+type(
+  unit
+)
+"config.ml" 336 12809 12820 "config.ml" 336 12809 12860
+type(
+  unit -> unit
+)
+"config.ml" 336 12809 12815 "config.ml" 336 12809 12860
+type(
+  (unit -> unit) option
+)
+"config.ml" 337 12863 12874 "config.ml" 337 12863 12895
+type(
+  string -> unit
+)
+ident(
+  int_ref set_check_annotations "config.ml" 286 10247 10251 "config.ml" 286 10247 10272
+)
+"config.ml" 337 12863 12869 "config.ml" 337 12863 12895
+type(
+  (string -> unit) option
+)
+"config.ml" 335 12773 12775 "config.ml" 337 12863 12896
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 338 12898 12901 "config.ml" 338 12898 12907
+type(
+  char
+)
+"config.ml" 338 12898 12909 "config.ml" 338 12898 12922
+type(
+  string
+)
+"config.ml" 338 12898 12924 "config.ml" 338 12898 12928
+type(
+  (unit -> unit) option
+)
+"config.ml" 338 12898 12935 "config.ml" 338 12898 12947
+type(
+  string -> unit
+)
+ident(
+  int_ref set_stub_dir "config.ml" 288 10338 10342 "config.ml" 288 10338 10354
+)
+"config.ml" 338 12898 12930 "config.ml" 338 12898 12947
+type(
+  (string -> unit) option
+)
+"config.ml" 338 12898 12900 "config.ml" 338 12898 12948
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 339 12950 12953 "config.ml" 339 12950 12959
+type(
+  char
+)
+"config.ml" 339 12950 12961 "config.ml" 339 12950 12980
+type(
+  string
+)
+"config.ml" 339 12950 12991 "config.ml" 339 12950 12993
+type(
+  unit
+)
+"config.ml" 339 12950 12998 "config.ml" 339 12950 13016
+type(
+  string -> unit
+)
+ident(
+  int_ref set_use_base_types "config.ml" 289 10382 10386 "config.ml" 289 10382 10404
+)
+"config.ml" 339 12950 13017 "config.ml" 339 12950 13023
+type(
+  string
+)
+"config.ml" 339 12950 12998 "config.ml" 339 12950 13023
+type(
+  unit
+)
+"config.ml" 339 12950 12987 "config.ml" 339 12950 13024
+type(
+  unit -> unit
+)
+"config.ml" 339 12950 12982 "config.ml" 339 12950 13024
+type(
+  (unit -> unit) option
+)
+"config.ml" 340 13027 13038 "config.ml" 340 13027 13056
+type(
+  string -> unit
+)
+ident(
+  int_ref set_use_base_types "config.ml" 289 10382 10386 "config.ml" 289 10382 10404
+)
+"config.ml" 340 13027 13033 "config.ml" 340 13027 13056
+type(
+  (string -> unit) option
+)
+"config.ml" 339 12950 12952 "config.ml" 340 13027 13057
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 341 13059 13062 "config.ml" 341 13059 13068
+type(
+  char
+)
+"config.ml" 341 13059 13070 "config.ml" 341 13059 13089
+type(
+  string
+)
+"config.ml" 342 13091 13106 "config.ml" 342 13091 13108
+type(
+  unit
+)
+"config.ml" 342 13091 13112 "config.ml" 342 13091 13130
+type(
+  string -> unit
+)
+ident(
+  int_ref set_mine_dyn_feats "config.ml" 290 10461 10465 "config.ml" 290 10461 10483
+)
+"config.ml" 342 13091 13131 "config.ml" 342 13091 13137
+type(
+  string
+)
+"config.ml" 342 13091 13112 "config.ml" 342 13091 13137
+type(
+  unit
+)
+"config.ml" 342 13091 13102 "config.ml" 342 13091 13138
+type(
+  unit -> unit
+)
+"config.ml" 342 13091 13097 "config.ml" 342 13091 13138
+type(
+  (unit -> unit) option
+)
+"config.ml" 343 13140 13151 "config.ml" 343 13140 13169
+type(
+  string -> unit
+)
+ident(
+  int_ref set_mine_dyn_feats "config.ml" 290 10461 10465 "config.ml" 290 10461 10483
+)
+"config.ml" 343 13140 13146 "config.ml" 343 13140 13169
+type(
+  (string -> unit) option
+)
+"config.ml" 341 13059 13061 "config.ml" 343 13140 13170
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 344 13172 13175 "config.ml" 344 13172 13181
+type(
+  char
+)
+"config.ml" 344 13172 13183 "config.ml" 344 13172 13200
+type(
+  string
+)
+"config.ml" 345 13203 13218 "config.ml" 345 13203 13220
+type(
+  unit
+)
+"config.ml" 345 13203 13224 "config.ml" 345 13203 13240
+type(
+  string -> unit
+)
+ident(
+  int_ref set_clean_cached "config.ml" 277 9765 9769 "config.ml" 277 9765 9785
+)
+"config.ml" 345 13203 13241 "config.ml" 345 13203 13247
+type(
+  string
+)
+"config.ml" 345 13203 13224 "config.ml" 345 13203 13247
+type(
+  unit
+)
+"config.ml" 345 13203 13214 "config.ml" 345 13203 13248
+type(
+  unit -> unit
+)
+"config.ml" 345 13203 13209 "config.ml" 345 13203 13248
+type(
+  (unit -> unit) option
+)
+"config.ml" 345 13203 13250 "config.ml" 345 13203 13254
+type(
+  (string -> unit) option
+)
+"config.ml" 344 13172 13174 "config.ml" 345 13203 13255
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 346 13257 13260 "config.ml" 346 13257 13266
+type(
+  char
+)
+"config.ml" 346 13257 13268 "config.ml" 346 13257 13288
+type(
+  string
+)
+"config.ml" 347 13291 13306 "config.ml" 347 13291 13308
+type(
+  unit
+)
+"config.ml" 347 13291 13313 "config.ml" 347 13291 13332
+type(
+  string -> unit
+)
+ident(
+  int_ref set_print_error_ctx "config.ml" 294 10601 10605 "config.ml" 294 10601 10624
+)
+"config.ml" 347 13291 13333 "config.ml" 347 13291 13339
+type(
+  string
+)
+"config.ml" 347 13291 13313 "config.ml" 347 13291 13339
+type(
+  unit
+)
+"config.ml" 347 13291 13302 "config.ml" 347 13291 13340
+type(
+  unit -> unit
+)
+"config.ml" 347 13291 13297 "config.ml" 347 13291 13340
+type(
+  (unit -> unit) option
+)
+"config.ml" 348 13343 13354 "config.ml" 348 13343 13373
+type(
+  string -> unit
+)
+ident(
+  int_ref set_print_error_ctx "config.ml" 294 10601 10605 "config.ml" 294 10601 10624
+)
+"config.ml" 348 13343 13349 "config.ml" 348 13343 13373
+type(
+  (string -> unit) option
+)
+"config.ml" 346 13257 13259 "config.ml" 348 13343 13374
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 349 13376 13379 "config.ml" 349 13376 13385
+type(
+  char
+)
+"config.ml" 349 13376 13387 "config.ml" 349 13376 13405
+type(
+  string
+)
+"config.ml" 350 13408 13423 "config.ml" 350 13408 13425
+type(
+  unit
+)
+"config.ml" 350 13408 13430 "config.ml" 350 13408 13447
+type(
+  string -> unit
+)
+ident(
+  int_ref set_no_dup_errors "config.ml" 296 10686 10690 "config.ml" 296 10686 10707
+)
+"config.ml" 350 13408 13448 "config.ml" 350 13408 13454
+type(
+  string
+)
+"config.ml" 350 13408 13430 "config.ml" 350 13408 13454
+type(
+  unit
+)
+"config.ml" 350 13408 13419 "config.ml" 350 13408 13455
+type(
+  unit -> unit
+)
+"config.ml" 350 13408 13414 "config.ml" 350 13408 13455
+type(
+  (unit -> unit) option
+)
+"config.ml" 351 13458 13469 "config.ml" 351 13458 13486
+type(
+  string -> unit
+)
+ident(
+  int_ref set_no_dup_errors "config.ml" 296 10686 10690 "config.ml" 296 10686 10707
+)
+"config.ml" 351 13458 13464 "config.ml" 351 13458 13486
+type(
+  (string -> unit) option
+)
+"config.ml" 349 13376 13378 "config.ml" 351 13458 13487
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 352 13489 13492 "config.ml" 352 13489 13498
+type(
+  char
+)
+"config.ml" 352 13489 13500 "config.ml" 352 13489 13520
+type(
+  string
+)
+"config.ml" 353 13523 13538 "config.ml" 353 13523 13540
+type(
+  unit
+)
+"config.ml" 353 13523 13545 "config.ml" 353 13523 13564
+type(
+  string -> unit
+)
+ident(
+  int_ref set_print_filenames "config.ml" 297 10762 10766 "config.ml" 297 10762 10785
+)
+"config.ml" 353 13523 13565 "config.ml" 353 13523 13571
+type(
+  string
+)
+"config.ml" 353 13523 13545 "config.ml" 353 13523 13571
+type(
+  unit
+)
+"config.ml" 353 13523 13534 "config.ml" 353 13523 13572
+type(
+  unit -> unit
+)
+"config.ml" 353 13523 13529 "config.ml" 353 13523 13572
+type(
+  (unit -> unit) option
+)
+"config.ml" 354 13575 13586 "config.ml" 354 13575 13605
+type(
+  string -> unit
+)
+ident(
+  int_ref set_print_filenames "config.ml" 297 10762 10766 "config.ml" 297 10762 10785
+)
+"config.ml" 354 13575 13581 "config.ml" 354 13575 13605
+type(
+  (string -> unit) option
+)
+"config.ml" 352 13489 13491 "config.ml" 354 13575 13606
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 355 13608 13611 "config.ml" 355 13608 13617
+type(
+  char
+)
+"config.ml" 355 13608 13619 "config.ml" 355 13608 13641
+type(
+  string
+)
+"config.ml" 356 13644 13659 "config.ml" 356 13644 13661
+type(
+  unit
+)
+"config.ml" 356 13644 13666 "config.ml" 356 13644 13687
+type(
+  string -> unit
+)
+ident(
+  int_ref set_debug_constraints "config.ml" 299 10847 10851 "config.ml" 299 10847 10872
+)
+"config.ml" 356 13644 13688 "config.ml" 356 13644 13694
+type(
+  string
+)
+"config.ml" 356 13644 13666 "config.ml" 356 13644 13694
+type(
+  unit
+)
+"config.ml" 356 13644 13655 "config.ml" 356 13644 13695
+type(
+  unit -> unit
+)
+"config.ml" 356 13644 13650 "config.ml" 356 13644 13695
+type(
+  (unit -> unit) option
+)
+"config.ml" 357 13698 13709 "config.ml" 357 13698 13730
+type(
+  string -> unit
+)
+ident(
+  int_ref set_debug_constraints "config.ml" 299 10847 10851 "config.ml" 299 10847 10872
+)
+"config.ml" 357 13698 13704 "config.ml" 357 13698 13730
+type(
+  (string -> unit) option
+)
+"config.ml" 355 13608 13610 "config.ml" 357 13698 13731
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 358 13733 13736 "config.ml" 358 13733 13742
+type(
+  char
+)
+"config.ml" 358 13733 13744 "config.ml" 358 13733 13763
+type(
+  string
+)
+"config.ml" 359 13766 13781 "config.ml" 359 13766 13783
+type(
+  unit
+)
+"config.ml" 359 13766 13788 "config.ml" 359 13766 13806
+type(
+  string -> unit
+)
+ident(
+  int_ref set_resolve_scopes "config.ml" 301 10938 10942 "config.ml" 301 10938 10960
+)
+"config.ml" 359 13766 13807 "config.ml" 359 13766 13813
+type(
+  string
+)
+"config.ml" 359 13766 13788 "config.ml" 359 13766 13813
+type(
+  unit
+)
+"config.ml" 359 13766 13777 "config.ml" 359 13766 13814
+type(
+  unit -> unit
+)
+"config.ml" 359 13766 13772 "config.ml" 359 13766 13814
+type(
+  (unit -> unit) option
+)
+"config.ml" 360 13817 13828 "config.ml" 360 13817 13846
+type(
+  string -> unit
+)
+ident(
+  int_ref set_resolve_scopes "config.ml" 301 10938 10942 "config.ml" 301 10938 10960
+)
+"config.ml" 360 13817 13823 "config.ml" 360 13817 13846
+type(
+  (string -> unit) option
+)
+"config.ml" 358 13733 13735 "config.ml" 360 13817 13847
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 361 13849 13852 "config.ml" 361 13849 13858
+type(
+  char
+)
+"config.ml" 361 13849 13860 "config.ml" 361 13849 13873
+type(
+  string
+)
+"config.ml" 362 13876 13891 "config.ml" 362 13876 13893
+type(
+  unit
+)
+"config.ml" 362 13876 13898 "config.ml" 362 13876 13910
+type(
+  string -> unit
+)
+ident(
+  int_ref set_run_ruby "config.ml" 302 11017 11021 "config.ml" 302 11017 11033
+)
+"config.ml" 362 13876 13911 "config.ml" 362 13876 13917
+type(
+  string
+)
+"config.ml" 362 13876 13898 "config.ml" 362 13876 13917
+type(
+  unit
+)
+"config.ml" 362 13876 13887 "config.ml" 362 13876 13918
+type(
+  unit -> unit
+)
+"config.ml" 362 13876 13882 "config.ml" 362 13876 13918
+type(
+  (unit -> unit) option
+)
+"config.ml" 363 13921 13932 "config.ml" 363 13921 13944
+type(
+  string -> unit
+)
+ident(
+  int_ref set_run_ruby "config.ml" 302 11017 11021 "config.ml" 302 11017 11033
+)
+"config.ml" 363 13921 13927 "config.ml" 363 13921 13944
+type(
+  (string -> unit) option
+)
+"config.ml" 361 13849 13851 "config.ml" 363 13921 13945
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 364 13947 13950 "config.ml" 364 13947 13956
+type(
+  char
+)
+"config.ml" 364 13947 13958 "config.ml" 364 13947 13972
+type(
+  string
+)
+"config.ml" 365 13974 13989 "config.ml" 365 13974 13991
+type(
+  unit
+)
+"config.ml" 365 13974 13996 "config.ml" 365 13974 14009
+type(
+  string -> unit
+)
+ident(
+  int_ref set_show_time "config.ml" 309 11412 11416 "config.ml" 309 11412 11429
+)
+"config.ml" 365 13974 14010 "config.ml" 365 13974 14016
+type(
+  string
+)
+"config.ml" 365 13974 13996 "config.ml" 365 13974 14016
+type(
+  unit
+)
+"config.ml" 365 13974 13985 "config.ml" 365 13974 14017
+type(
+  unit -> unit
+)
+"config.ml" 365 13974 13980 "config.ml" 365 13974 14017
+type(
+  (unit -> unit) option
+)
+"config.ml" 366 14019 14030 "config.ml" 366 14019 14043
+type(
+  string -> unit
+)
+ident(
+  int_ref set_show_time "config.ml" 309 11412 11416 "config.ml" 309 11412 11429
+)
+"config.ml" 366 14019 14025 "config.ml" 366 14019 14043
+type(
+  (string -> unit) option
+)
+"config.ml" 364 13947 13949 "config.ml" 366 14019 14044
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 367 14046 14049 "config.ml" 367 14046 14055
+type(
+  char
+)
+"config.ml" 367 14046 14057 "config.ml" 367 14046 14077
+type(
+  string
+)
+"config.ml" 368 14079 14094 "config.ml" 368 14079 14096
+type(
+  unit
+)
+"config.ml" 368 14079 14101 "config.ml" 368 14079 14120
+type(
+  string -> unit
+)
+ident(
+  int_ref set_warn_empty_body "config.ml" 310 11476 11480 "config.ml" 310 11476 11499
+)
+"config.ml" 368 14079 14121 "config.ml" 368 14079 14127
+type(
+  string
+)
+"config.ml" 368 14079 14101 "config.ml" 368 14079 14127
+type(
+  unit
+)
+"config.ml" 368 14079 14090 "config.ml" 368 14079 14128
+type(
+  unit -> unit
+)
+"config.ml" 368 14079 14085 "config.ml" 368 14079 14128
+type(
+  (unit -> unit) option
+)
+"config.ml" 369 14130 14141 "config.ml" 369 14130 14160
+type(
+  string -> unit
+)
+ident(
+  int_ref set_warn_empty_body "config.ml" 310 11476 11480 "config.ml" 310 11476 11499
+)
+"config.ml" 369 14130 14136 "config.ml" 369 14130 14160
+type(
+  (string -> unit) option
+)
+"config.ml" 367 14046 14048 "config.ml" 369 14130 14161
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 370 14163 14166 "config.ml" 370 14163 14172
+type(
+  char
+)
+"config.ml" 370 14163 14174 "config.ml" 370 14163 14197
+type(
+  string
+)
+"config.ml" 371 14199 14214 "config.ml" 371 14199 14216
+type(
+  unit
+)
+"config.ml" 371 14199 14221 "config.ml" 371 14199 14243
+type(
+  string -> unit
+)
+ident(
+  int_ref set_emit_runtime_casts "config.ml" 312 11561 11565 "config.ml" 312 11561 11587
+)
+"config.ml" 371 14199 14244 "config.ml" 371 14199 14250
+type(
+  string
+)
+"config.ml" 371 14199 14221 "config.ml" 371 14199 14250
+type(
+  unit
+)
+"config.ml" 371 14199 14210 "config.ml" 371 14199 14251
+type(
+  unit -> unit
+)
+"config.ml" 371 14199 14205 "config.ml" 371 14199 14251
+type(
+  (unit -> unit) option
+)
+"config.ml" 372 14253 14264 "config.ml" 372 14253 14286
+type(
+  string -> unit
+)
+ident(
+  int_ref set_emit_runtime_casts "config.ml" 312 11561 11565 "config.ml" 312 11561 11587
+)
+"config.ml" 372 14253 14259 "config.ml" 372 14253 14286
+type(
+  (string -> unit) option
+)
+"config.ml" 370 14163 14165 "config.ml" 372 14253 14287
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 373 14289 14292 "config.ml" 373 14289 14298
+type(
+  char
+)
+"config.ml" 373 14289 14300 "config.ml" 373 14289 14317
+type(
+  string
+)
+"config.ml" 374 14320 14335 "config.ml" 374 14320 14337
+type(
+  unit
+)
+"config.ml" 374 14320 14342 "config.ml" 374 14320 14358
+type(
+  string -> unit
+)
+ident(
+  int_ref set_single_entry "config.ml" 308 11339 11343 "config.ml" 308 11339 11359
+)
+"config.ml" 374 14320 14359 "config.ml" 374 14320 14365
+type(
+  string
+)
+"config.ml" 374 14320 14342 "config.ml" 374 14320 14365
+type(
+  unit
+)
+"config.ml" 374 14320 14331 "config.ml" 374 14320 14366
+type(
+  unit -> unit
+)
+"config.ml" 374 14320 14326 "config.ml" 374 14320 14366
+type(
+  (unit -> unit) option
+)
+"config.ml" 375 14369 14380 "config.ml" 375 14369 14396
+type(
+  string -> unit
+)
+ident(
+  int_ref set_single_entry "config.ml" 308 11339 11343 "config.ml" 308 11339 11359
+)
+"config.ml" 375 14369 14375 "config.ml" 375 14369 14396
+type(
+  (string -> unit) option
+)
+"config.ml" 373 14289 14291 "config.ml" 375 14369 14397
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 376 14399 14402 "config.ml" 376 14399 14408
+type(
+  char
+)
+"config.ml" 376 14399 14410 "config.ml" 376 14399 14425
+type(
+  string
+)
+"config.ml" 377 14428 14443 "config.ml" 377 14428 14445
+type(
+  unit
+)
+"config.ml" 377 14428 14450 "config.ml" 377 14428 14464
+type(
+  string -> unit
+)
+ident(
+  int_ref set_save_temps "config.ml" 314 11655 11659 "config.ml" 314 11655 11673
+)
+"config.ml" 377 14428 14465 "config.ml" 377 14428 14471
+type(
+  string
+)
+"config.ml" 377 14428 14450 "config.ml" 377 14428 14471
+type(
+  unit
+)
+"config.ml" 377 14428 14439 "config.ml" 377 14428 14472
+type(
+  unit -> unit
+)
+"config.ml" 377 14428 14434 "config.ml" 377 14428 14472
+type(
+  (unit -> unit) option
+)
+"config.ml" 378 14475 14486 "config.ml" 378 14475 14500
+type(
+  string -> unit
+)
+ident(
+  int_ref set_save_temps "config.ml" 314 11655 11659 "config.ml" 314 11655 11673
+)
+"config.ml" 378 14475 14481 "config.ml" 378 14475 14500
+type(
+  (string -> unit) option
+)
+"config.ml" 376 14399 14401 "config.ml" 378 14475 14501
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 379 14503 14506 "config.ml" 379 14503 14512
+type(
+  char
+)
+"config.ml" 379 14503 14514 "config.ml" 379 14503 14533
+type(
+  string
+)
+"config.ml" 380 14536 14551 "config.ml" 380 14536 14553
+type(
+  unit
+)
+"config.ml" 380 14536 14558 "config.ml" 380 14536 14576
+type(
+  string -> unit
+)
+ident(
+  int_ref set_type_inference "config.ml" 315 11722 11726 "config.ml" 315 11722 11744
+)
+"config.ml" 380 14536 14577 "config.ml" 380 14536 14583
+type(
+  string
+)
+"config.ml" 380 14536 14558 "config.ml" 380 14536 14583
+type(
+  unit
+)
+"config.ml" 380 14536 14547 "config.ml" 380 14536 14584
+type(
+  unit -> unit
+)
+"config.ml" 380 14536 14542 "config.ml" 380 14536 14584
+type(
+  (unit -> unit) option
+)
+"config.ml" 381 14587 14598 "config.ml" 381 14587 14616
+type(
+  string -> unit
+)
+ident(
+  int_ref set_type_inference "config.ml" 315 11722 11726 "config.ml" 315 11722 11744
+)
+"config.ml" 381 14587 14593 "config.ml" 381 14587 14616
+type(
+  (string -> unit) option
+)
+"config.ml" 379 14503 14505 "config.ml" 381 14587 14617
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 382 14619 14622 "config.ml" 382 14619 14625
+type(
+  char
+)
+"config.ml" 382 14619 14627 "config.ml" 382 14619 14633
+type(
+  string
+)
+"config.ml" 382 14619 14640 "config.ml" 382 14619 14650
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_usage "config.ml" 211 7797 7801 "config.ml" 211 7797 7811
+)
+"config.ml" 382 14619 14635 "config.ml" 382 14619 14650
+type(
+  (unit -> unit) option
+)
+"config.ml" 382 14619 14652 "config.ml" 382 14619 14656
+type(
+  (string -> unit) option
+)
+"config.ml" 382 14619 14621 "config.ml" 382 14619 14657
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 384 14684 14687 "config.ml" 384 14684 14690
+type(
+  char
+)
+"config.ml" 384 14684 14692 "config.ml" 384 14684 14694
+type(
+  string
+)
+"config.ml" 384 14684 14696 "config.ml" 384 14684 14700
+type(
+  (unit -> unit) option
+)
+"config.ml" 384 14684 14707 "config.ml" 384 14684 14721
+type(
+  string -> unit
+)
+ident(
+  int_ref set_idirectory "config.ml" 303 11078 11082 "config.ml" 303 11078 11096
+)
+"config.ml" 384 14684 14702 "config.ml" 384 14684 14721
+type(
+  (string -> unit) option
+)
+"config.ml" 384 14684 14686 "config.ml" 384 14684 14722
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 385 14724 14727 "config.ml" 385 14724 14730
+type(
+  char
+)
+"config.ml" 385 14724 14732 "config.ml" 385 14724 14734
+type(
+  string
+)
+"config.ml" 385 14724 14736 "config.ml" 385 14724 14740
+type(
+  (unit -> unit) option
+)
+"config.ml" 385 14724 14747 "config.ml" 385 14724 14759
+type(
+  string -> unit
+)
+ident(
+  int_ref set_rlibrary "config.ml" 304 11142 11146 "config.ml" 304 11142 11158
+)
+"config.ml" 385 14724 14742 "config.ml" 385 14724 14759
+type(
+  (string -> unit) option
+)
+"config.ml" 385 14724 14726 "config.ml" 385 14724 14760
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 387 14782 14785 "config.ml" 387 14782 14788
+type(
+  char
+)
+"config.ml" 387 14782 14790 "config.ml" 387 14782 14792
+type(
+  string
+)
+"config.ml" 388 14795 14810 "config.ml" 388 14795 14812
+type(
+  unit
+)
+"config.ml" 388 14795 14818 "config.ml" 388 14795 14834
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 388 14795 14835 "config.ml" 388 14795 14839
+type(
+  string
+)
+"config.ml" 388 14795 14817 "config.ml" 388 14795 14840
+type(
+  string -> unit
+)
+"config.ml" 388 14795 14841 "config.ml" 388 14795 14843
+type(
+  string
+)
+"config.ml" 388 14795 14817 "config.ml" 388 14795 14843
+type(
+  unit
+)
+"config.ml" 388 14795 14806 "config.ml" 388 14795 14844
+type(
+  unit -> unit
+)
+"config.ml" 388 14795 14801 "config.ml" 388 14795 14844
+type(
+  (unit -> unit) option
+)
+"config.ml" 389 14846 14858 "config.ml" 389 14846 14874
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 389 14846 14875 "config.ml" 389 14846 14879
+type(
+  string
+)
+"config.ml" 389 14846 14857 "config.ml" 389 14846 14880
+type(
+  string -> unit
+)
+"config.ml" 389 14846 14852 "config.ml" 389 14846 14880
+type(
+  (string -> unit) option
+)
+"config.ml" 387 14782 14784 "config.ml" 389 14846 14881
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 390 14883 14886 "config.ml" 390 14883 14889
+type(
+  char
+)
+"config.ml" 390 14883 14891 "config.ml" 390 14883 14893
+type(
+  string
+)
+"config.ml" 390 14883 14904 "config.ml" 390 14883 14906
+type(
+  unit
+)
+"config.ml" 390 14883 14912 "config.ml" 390 14883 14928
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 390 14883 14929 "config.ml" 390 14883 14933
+type(
+  string
+)
+"config.ml" 390 14883 14911 "config.ml" 390 14883 14934
+type(
+  string -> unit
+)
+"config.ml" 390 14883 14935 "config.ml" 390 14883 14937
+type(
+  string
+)
+"config.ml" 390 14883 14911 "config.ml" 390 14883 14937
+type(
+  unit
+)
+"config.ml" 390 14883 14900 "config.ml" 390 14883 14938
+type(
+  unit -> unit
+)
+"config.ml" 390 14883 14895 "config.ml" 390 14883 14938
+type(
+  (unit -> unit) option
+)
+"config.ml" 390 14883 14940 "config.ml" 390 14883 14944
+type(
+  (string -> unit) option
+)
+"config.ml" 390 14883 14885 "config.ml" 390 14883 14945
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 391 14947 14950 "config.ml" 391 14947 14953
+type(
+  char
+)
+"config.ml" 391 14947 14955 "config.ml" 391 14947 14957
+type(
+  string
+)
+"config.ml" 391 14947 14968 "config.ml" 391 14947 14970
+type(
+  unit
+)
+"config.ml" 391 14947 14976 "config.ml" 391 14947 14992
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 391 14947 14993 "config.ml" 391 14947 14997
+type(
+  string
+)
+"config.ml" 391 14947 14975 "config.ml" 391 14947 14998
+type(
+  string -> unit
+)
+"config.ml" 391 14947 14999 "config.ml" 391 14947 15001
+type(
+  string
+)
+"config.ml" 391 14947 14975 "config.ml" 391 14947 15001
+type(
+  unit
+)
+"config.ml" 391 14947 14964 "config.ml" 391 14947 15002
+type(
+  unit -> unit
+)
+"config.ml" 391 14947 14959 "config.ml" 391 14947 15002
+type(
+  (unit -> unit) option
+)
+"config.ml" 391 14947 15004 "config.ml" 391 14947 15008
+type(
+  (string -> unit) option
+)
+"config.ml" 391 14947 14949 "config.ml" 391 14947 15009
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 392 15011 15014 "config.ml" 392 15011 15017
+type(
+  char
+)
+"config.ml" 392 15011 15019 "config.ml" 392 15011 15021
+type(
+  string
+)
+"config.ml" 392 15011 15023 "config.ml" 392 15011 15027
+type(
+  (unit -> unit) option
+)
+"config.ml" 392 15011 15034 "config.ml" 392 15011 15050
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 392 15011 15051 "config.ml" 392 15011 15055
+type(
+  string
+)
+"config.ml" 392 15011 15033 "config.ml" 392 15011 15056
+type(
+  string -> unit
+)
+"config.ml" 392 15011 15029 "config.ml" 392 15011 15056
+type(
+  (string -> unit) option
+)
+"config.ml" 392 15011 15013 "config.ml" 392 15011 15057
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 393 15059 15062 "config.ml" 393 15059 15065
+type(
+  char
+)
+"config.ml" 393 15059 15067 "config.ml" 393 15059 15069
+type(
+  string
+)
+"config.ml" 393 15059 15080 "config.ml" 393 15059 15082
+type(
+  unit
+)
+"config.ml" 393 15059 15088 "config.ml" 393 15059 15104
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 393 15059 15105 "config.ml" 393 15059 15109
+type(
+  string
+)
+"config.ml" 393 15059 15087 "config.ml" 393 15059 15110
+type(
+  string -> unit
+)
+"config.ml" 393 15059 15111 "config.ml" 393 15059 15113
+type(
+  string
+)
+"config.ml" 393 15059 15087 "config.ml" 393 15059 15113
+type(
+  unit
+)
+"config.ml" 393 15059 15076 "config.ml" 393 15059 15114
+type(
+  unit -> unit
+)
+"config.ml" 393 15059 15071 "config.ml" 393 15059 15114
+type(
+  (unit -> unit) option
+)
+"config.ml" 393 15059 15116 "config.ml" 393 15059 15120
+type(
+  (string -> unit) option
+)
+"config.ml" 393 15059 15061 "config.ml" 393 15059 15121
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 394 15123 15126 "config.ml" 394 15123 15129
+type(
+  char
+)
+"config.ml" 394 15123 15131 "config.ml" 394 15123 15133
+type(
+  string
+)
+"config.ml" 394 15123 15135 "config.ml" 394 15123 15139
+type(
+  (unit -> unit) option
+)
+"config.ml" 394 15123 15147 "config.ml" 394 15123 15163
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 394 15123 15164 "config.ml" 394 15123 15169
+type(
+  string
+)
+"config.ml" 394 15123 15146 "config.ml" 394 15123 15170
+type(
+  string -> unit
+)
+"config.ml" 394 15123 15141 "config.ml" 394 15123 15170
+type(
+  (string -> unit) option
+)
+"config.ml" 394 15123 15125 "config.ml" 394 15123 15171
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 395 15197 15200 "config.ml" 395 15197 15203
+type(
+  char
+)
+"config.ml" 395 15197 15205 "config.ml" 395 15197 15207
+type(
+  string
+)
+"config.ml" 395 15197 15209 "config.ml" 395 15197 15213
+type(
+  (unit -> unit) option
+)
+"config.ml" 395 15197 15221 "config.ml" 395 15197 15237
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 395 15197 15238 "config.ml" 395 15197 15242
+type(
+  string
+)
+"config.ml" 395 15197 15220 "config.ml" 395 15197 15243
+type(
+  string -> unit
+)
+"config.ml" 395 15197 15215 "config.ml" 395 15197 15243
+type(
+  (string -> unit) option
+)
+"config.ml" 395 15197 15199 "config.ml" 395 15197 15244
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 396 15246 15249 "config.ml" 396 15246 15252
+type(
+  char
+)
+"config.ml" 396 15246 15254 "config.ml" 396 15246 15256
+type(
+  string
+)
+"config.ml" 397 15259 15274 "config.ml" 397 15259 15276
+type(
+  unit
+)
+"config.ml" 397 15259 15282 "config.ml" 397 15259 15298
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 397 15259 15299 "config.ml" 397 15259 15303
+type(
+  string
+)
+"config.ml" 397 15259 15281 "config.ml" 397 15259 15304
+type(
+  string -> unit
+)
+"config.ml" 397 15259 15305 "config.ml" 397 15259 15307
+type(
+  string
+)
+"config.ml" 397 15259 15281 "config.ml" 397 15259 15307
+type(
+  unit
+)
+"config.ml" 397 15259 15270 "config.ml" 397 15259 15308
+type(
+  unit -> unit
+)
+"config.ml" 397 15259 15265 "config.ml" 397 15259 15308
+type(
+  (unit -> unit) option
+)
+"config.ml" 398 15311 15323 "config.ml" 398 15311 15339
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 398 15311 15340 "config.ml" 398 15311 15344
+type(
+  string
+)
+"config.ml" 398 15311 15322 "config.ml" 398 15311 15345
+type(
+  string -> unit
+)
+"config.ml" 398 15311 15317 "config.ml" 398 15311 15345
+type(
+  (string -> unit) option
+)
+"config.ml" 396 15246 15248 "config.ml" 398 15311 15346
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 399 15348 15351 "config.ml" 399 15348 15354
+type(
+  char
+)
+"config.ml" 399 15348 15356 "config.ml" 399 15348 15358
+type(
+  string
+)
+"config.ml" 399 15348 15360 "config.ml" 399 15348 15364
+type(
+  (unit -> unit) option
+)
+"config.ml" 399 15348 15372 "config.ml" 399 15348 15388
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 399 15348 15389 "config.ml" 399 15348 15393
+type(
+  string
+)
+"config.ml" 399 15348 15371 "config.ml" 399 15348 15394
+type(
+  string -> unit
+)
+"config.ml" 399 15348 15366 "config.ml" 399 15348 15394
+type(
+  (string -> unit) option
+)
+"config.ml" 399 15348 15350 "config.ml" 399 15348 15395
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 400 15397 15400 "config.ml" 400 15397 15403
+type(
+  char
+)
+"config.ml" 400 15397 15405 "config.ml" 400 15397 15407
+type(
+  string
+)
+"config.ml" 400 15397 15418 "config.ml" 400 15397 15420
+type(
+  unit
+)
+"config.ml" 400 15397 15426 "config.ml" 400 15397 15442
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 400 15397 15443 "config.ml" 400 15397 15447
+type(
+  string
+)
+"config.ml" 400 15397 15425 "config.ml" 400 15397 15448
+type(
+  string -> unit
+)
+"config.ml" 400 15397 15449 "config.ml" 400 15397 15451
+type(
+  string
+)
+"config.ml" 400 15397 15425 "config.ml" 400 15397 15451
+type(
+  unit
+)
+"config.ml" 400 15397 15414 "config.ml" 400 15397 15452
+type(
+  unit -> unit
+)
+"config.ml" 400 15397 15409 "config.ml" 400 15397 15452
+type(
+  (unit -> unit) option
+)
+"config.ml" 400 15397 15454 "config.ml" 400 15397 15458
+type(
+  (string -> unit) option
+)
+"config.ml" 400 15397 15399 "config.ml" 400 15397 15459
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 401 15461 15464 "config.ml" 401 15461 15467
+type(
+  char
+)
+"config.ml" 401 15461 15469 "config.ml" 401 15461 15471
+type(
+  string
+)
+"config.ml" 401 15461 15482 "config.ml" 401 15461 15484
+type(
+  unit
+)
+"config.ml" 401 15461 15490 "config.ml" 401 15461 15506
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 401 15461 15507 "config.ml" 401 15461 15511
+type(
+  string
+)
+"config.ml" 401 15461 15489 "config.ml" 401 15461 15512
+type(
+  string -> unit
+)
+"config.ml" 401 15461 15513 "config.ml" 401 15461 15515
+type(
+  string
+)
+"config.ml" 401 15461 15489 "config.ml" 401 15461 15515
+type(
+  unit
+)
+"config.ml" 401 15461 15478 "config.ml" 401 15461 15516
+type(
+  unit -> unit
+)
+"config.ml" 401 15461 15473 "config.ml" 401 15461 15516
+type(
+  (unit -> unit) option
+)
+"config.ml" 401 15461 15518 "config.ml" 401 15461 15522
+type(
+  (string -> unit) option
+)
+"config.ml" 401 15461 15463 "config.ml" 401 15461 15523
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 402 15525 15528 "config.ml" 402 15525 15531
+type(
+  char
+)
+"config.ml" 402 15525 15533 "config.ml" 402 15525 15535
+type(
+  string
+)
+"config.ml" 402 15525 15546 "config.ml" 402 15525 15548
+type(
+  unit
+)
+"config.ml" 402 15525 15554 "config.ml" 402 15525 15570
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 402 15525 15571 "config.ml" 402 15525 15575
+type(
+  string
+)
+"config.ml" 402 15525 15553 "config.ml" 402 15525 15576
+type(
+  string -> unit
+)
+"config.ml" 402 15525 15577 "config.ml" 402 15525 15579
+type(
+  string
+)
+"config.ml" 402 15525 15553 "config.ml" 402 15525 15579
+type(
+  unit
+)
+"config.ml" 402 15525 15542 "config.ml" 402 15525 15580
+type(
+  unit -> unit
+)
+"config.ml" 402 15525 15537 "config.ml" 402 15525 15580
+type(
+  (unit -> unit) option
+)
+"config.ml" 402 15525 15582 "config.ml" 402 15525 15586
+type(
+  (string -> unit) option
+)
+"config.ml" 402 15525 15527 "config.ml" 402 15525 15587
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 403 15589 15592 "config.ml" 403 15589 15595
+type(
+  char
+)
+"config.ml" 403 15589 15597 "config.ml" 403 15589 15599
+type(
+  string
+)
+"config.ml" 403 15589 15610 "config.ml" 403 15589 15612
+type(
+  unit
+)
+"config.ml" 403 15589 15618 "config.ml" 403 15589 15634
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 403 15589 15635 "config.ml" 403 15589 15639
+type(
+  string
+)
+"config.ml" 403 15589 15617 "config.ml" 403 15589 15640
+type(
+  string -> unit
+)
+"config.ml" 403 15589 15641 "config.ml" 403 15589 15643
+type(
+  string
+)
+"config.ml" 403 15589 15617 "config.ml" 403 15589 15643
+type(
+  unit
+)
+"config.ml" 403 15589 15606 "config.ml" 403 15589 15644
+type(
+  unit -> unit
+)
+"config.ml" 403 15589 15601 "config.ml" 403 15589 15644
+type(
+  (unit -> unit) option
+)
+"config.ml" 403 15589 15646 "config.ml" 403 15589 15650
+type(
+  (string -> unit) option
+)
+"config.ml" 403 15589 15591 "config.ml" 403 15589 15651
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 404 15653 15656 "config.ml" 404 15653 15659
+type(
+  char
+)
+"config.ml" 404 15653 15661 "config.ml" 404 15653 15663
+type(
+  string
+)
+"config.ml" 404 15653 15674 "config.ml" 404 15653 15676
+type(
+  unit
+)
+"config.ml" 404 15653 15682 "config.ml" 404 15653 15698
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 404 15653 15699 "config.ml" 404 15653 15703
+type(
+  string
+)
+"config.ml" 404 15653 15681 "config.ml" 404 15653 15704
+type(
+  string -> unit
+)
+"config.ml" 404 15653 15705 "config.ml" 404 15653 15707
+type(
+  string
+)
+"config.ml" 404 15653 15681 "config.ml" 404 15653 15707
+type(
+  unit
+)
+"config.ml" 404 15653 15670 "config.ml" 404 15653 15708
+type(
+  unit -> unit
+)
+"config.ml" 404 15653 15665 "config.ml" 404 15653 15708
+type(
+  (unit -> unit) option
+)
+"config.ml" 404 15653 15710 "config.ml" 404 15653 15714
+type(
+  (string -> unit) option
+)
+"config.ml" 404 15653 15655 "config.ml" 404 15653 15715
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 405 15717 15720 "config.ml" 405 15717 15723
+type(
+  char
+)
+"config.ml" 405 15717 15725 "config.ml" 405 15717 15727
+type(
+  string
+)
+"config.ml" 406 15730 15745 "config.ml" 406 15730 15747
+type(
+  unit
+)
+"config.ml" 406 15730 15753 "config.ml" 406 15730 15769
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 406 15730 15770 "config.ml" 406 15730 15774
+type(
+  string
+)
+"config.ml" 406 15730 15752 "config.ml" 406 15730 15775
+type(
+  string -> unit
+)
+"config.ml" 406 15730 15776 "config.ml" 406 15730 15778
+type(
+  string
+)
+"config.ml" 406 15730 15752 "config.ml" 406 15730 15778
+type(
+  unit
+)
+"config.ml" 406 15730 15741 "config.ml" 406 15730 15779
+type(
+  unit -> unit
+)
+"config.ml" 406 15730 15736 "config.ml" 406 15730 15779
+type(
+  (unit -> unit) option
+)
+"config.ml" 407 15782 15794 "config.ml" 407 15782 15810
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 407 15782 15811 "config.ml" 407 15782 15815
+type(
+  string
+)
+"config.ml" 407 15782 15793 "config.ml" 407 15782 15816
+type(
+  string -> unit
+)
+"config.ml" 407 15782 15788 "config.ml" 407 15782 15816
+type(
+  (string -> unit) option
+)
+"config.ml" 405 15717 15719 "config.ml" 407 15782 15817
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 408 15819 15822 "config.ml" 408 15819 15825
+type(
+  char
+)
+"config.ml" 408 15819 15827 "config.ml" 408 15819 15829
+type(
+  string
+)
+"config.ml" 408 15819 15840 "config.ml" 408 15819 15842
+type(
+  unit
+)
+"config.ml" 408 15819 15848 "config.ml" 408 15819 15864
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 408 15819 15865 "config.ml" 408 15819 15869
+type(
+  string
+)
+"config.ml" 408 15819 15847 "config.ml" 408 15819 15870
+type(
+  string -> unit
+)
+"config.ml" 408 15819 15871 "config.ml" 408 15819 15873
+type(
+  string
+)
+"config.ml" 408 15819 15847 "config.ml" 408 15819 15873
+type(
+  unit
+)
+"config.ml" 408 15819 15836 "config.ml" 408 15819 15874
+type(
+  unit -> unit
+)
+"config.ml" 408 15819 15831 "config.ml" 408 15819 15874
+type(
+  (unit -> unit) option
+)
+"config.ml" 408 15819 15876 "config.ml" 408 15819 15880
+type(
+  (string -> unit) option
+)
+"config.ml" 408 15819 15821 "config.ml" 408 15819 15881
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 409 15883 15886 "config.ml" 409 15883 15889
+type(
+  char
+)
+"config.ml" 409 15883 15891 "config.ml" 409 15883 15893
+type(
+  string
+)
+"config.ml" 409 15883 15904 "config.ml" 409 15883 15906
+type(
+  unit
+)
+"config.ml" 409 15883 15912 "config.ml" 409 15883 15928
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 409 15883 15929 "config.ml" 409 15883 15933
+type(
+  string
+)
+"config.ml" 409 15883 15911 "config.ml" 409 15883 15934
+type(
+  string -> unit
+)
+"config.ml" 409 15883 15935 "config.ml" 409 15883 15937
+type(
+  string
+)
+"config.ml" 409 15883 15911 "config.ml" 409 15883 15937
+type(
+  unit
+)
+"config.ml" 409 15883 15900 "config.ml" 409 15883 15938
+type(
+  unit -> unit
+)
+"config.ml" 409 15883 15895 "config.ml" 409 15883 15938
+type(
+  (unit -> unit) option
+)
+"config.ml" 409 15883 15940 "config.ml" 409 15883 15944
+type(
+  (string -> unit) option
+)
+"config.ml" 409 15883 15885 "config.ml" 409 15883 15945
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 410 15947 15950 "config.ml" 410 15947 15953
+type(
+  char
+)
+"config.ml" 410 15947 15955 "config.ml" 410 15947 15957
+type(
+  string
+)
+"config.ml" 411 15960 15975 "config.ml" 411 15960 15977
+type(
+  unit
+)
+"config.ml" 411 15960 15983 "config.ml" 411 15960 15999
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 411 15960 16000 "config.ml" 411 15960 16004
+type(
+  string
+)
+"config.ml" 411 15960 15982 "config.ml" 411 15960 16005
+type(
+  string -> unit
+)
+"config.ml" 411 15960 16006 "config.ml" 411 15960 16008
+type(
+  string
+)
+"config.ml" 411 15960 15982 "config.ml" 411 15960 16008
+type(
+  unit
+)
+"config.ml" 411 15960 15971 "config.ml" 411 15960 16009
+type(
+  unit -> unit
+)
+"config.ml" 411 15960 15966 "config.ml" 411 15960 16009
+type(
+  (unit -> unit) option
+)
+"config.ml" 412 16011 16023 "config.ml" 412 16011 16039
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 412 16011 16040 "config.ml" 412 16011 16044
+type(
+  string
+)
+"config.ml" 412 16011 16022 "config.ml" 412 16011 16045
+type(
+  string -> unit
+)
+"config.ml" 412 16011 16017 "config.ml" 412 16011 16045
+type(
+  (string -> unit) option
+)
+"config.ml" 410 15947 15949 "config.ml" 412 16011 16046
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 413 16048 16051 "config.ml" 413 16048 16054
+type(
+  char
+)
+"config.ml" 413 16048 16056 "config.ml" 413 16048 16058
+type(
+  string
+)
+"config.ml" 414 16061 16076 "config.ml" 414 16061 16078
+type(
+  unit
+)
+"config.ml" 414 16061 16084 "config.ml" 414 16061 16100
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 414 16061 16101 "config.ml" 414 16061 16105
+type(
+  string
+)
+"config.ml" 414 16061 16083 "config.ml" 414 16061 16106
+type(
+  string -> unit
+)
+"config.ml" 414 16061 16107 "config.ml" 414 16061 16109
+type(
+  string
+)
+"config.ml" 414 16061 16083 "config.ml" 414 16061 16109
+type(
+  unit
+)
+"config.ml" 414 16061 16072 "config.ml" 414 16061 16110
+type(
+  unit -> unit
+)
+"config.ml" 414 16061 16067 "config.ml" 414 16061 16110
+type(
+  (unit -> unit) option
+)
+"config.ml" 415 16112 16124 "config.ml" 415 16112 16140
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref set_ruby_options "config.ml" 305 11200 11204 "config.ml" 305 11200 11220
+)
+"config.ml" 415 16112 16141 "config.ml" 415 16112 16145
+type(
+  string
+)
+"config.ml" 415 16112 16123 "config.ml" 415 16112 16146
+type(
+  string -> unit
+)
+"config.ml" 415 16112 16118 "config.ml" 415 16112 16146
+type(
+  (string -> unit) option
+)
+"config.ml" 413 16048 16050 "config.ml" 415 16112 16147
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 417 16164 16167 "config.ml" 417 16164 16173
+type(
+  char
+)
+"config.ml" 417 16164 16175 "config.ml" 417 16164 16191
+type(
+  string
+)
+"config.ml" 417 16164 16197 "config.ml" 417 16164 16215
+type(
+  unit -> unit
+)
+ident(
+  int_ref generate_manpage "config.ml" 226 8205 8209 "config.ml" 226 8205 8225
+)
+"config.ml" 417 16164 16193 "config.ml" 417 16164 16215
+type(
+  (unit -> unit) option
+)
+"config.ml" 417 16164 16217 "config.ml" 417 16164 16221
+type(
+  (string -> unit) option
+)
+"config.ml" 417 16164 16166 "config.ml" 417 16164 16222
+type(
+  char * string * (unit -> unit) option * (string -> unit) option
+)
+"config.ml" 320 12012 12036 "config.ml" 418 16224 16225
+type(
+  (char * string * (unit -> unit) option * (string -> unit) option) list
+)
+"config.ml" 420 16227 16231 "config.ml" 420 16227 16233
+type(
+  Str.regexp
+)
+ident(
+  def re "config.ml" 421 16299 16299 --
+)
+"config.ml" 420 16227 16236 "config.ml" 420 16227 16246
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"config.ml" 420 16227 16247 "config.ml" 420 16227 16298
+type(
+  string
+)
+"config.ml" 420 16227 16236 "config.ml" 420 16227 16298
+type(
+  Str.regexp
+)
+"config.ml" 421 16299 16303 "config.ml" 421 16299 16308
+type(
+  Str.regexp
+)
+ident(
+  def ws_re "config.ml" 422 16335 16335 --
+)
+"config.ml" 421 16299 16311 "config.ml" 421 16299 16321
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"config.ml" 421 16299 16322 "config.ml" 421 16299 16334
+type(
+  string
+)
+"config.ml" 421 16299 16311 "config.ml" 421 16299 16334
+type(
+  Str.regexp
+)
+"config.ml" 422 16335 16339 "config.ml" 422 16335 16349
+type(
+  Str.regexp
+)
+ident(
+  def comment_re "config.ml" 425 16446 16446 --
+)
+"config.ml" 422 16335 16352 "config.ml" 422 16335 16362
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"config.ml" 422 16335 16363 "config.ml" 422 16335 16374
+type(
+  string
+)
+"config.ml" 422 16335 16352 "config.ml" 422 16335 16374
+type(
+  Str.regexp
+)
+"config.ml" 425 16446 16450 "config.ml" 425 16446 16462
+type(
+  string -> unit
+)
+ident(
+  def parse_config "config.ml" 468 17926 17926 --
+)
+"config.ml" 425 16446 16463 "config.ml" 425 16446 16472
+type(
+  string
+)
+ident(
+  def conf_file "config.ml" 427 16528 16530 "config.ml" 465 17838 17854
+)
+"config.ml" 427 16528 16534 "config.ml" 427 16528 16544
+type(
+  string Queue.t -> string -> unit
+)
+"config.ml" 427 16528 16545 "config.ml" 427 16528 16546
+type(
+  string Queue.t
+)
+ident(
+  def q "config.ml" 427 16528 16547 "config.ml" 439 16896 16970
+)
+"config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+type(
+  string
+)
+ident(
+  def l "config.ml" 428 16552 16556 "config.ml" 439 16896 16970
+)
+"config.ml" 428 16552 16559 "config.ml" 428 16552 16575
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"config.ml" 428 16552 16576 "config.ml" 428 16552 16578
+type(
+  Str.regexp
+)
+ident(
+  int_ref re "config.ml" 420 16227 16231 "config.ml" 420 16227 16233
+)
+"config.ml" 428 16552 16579 "config.ml" 428 16552 16580
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+)
+"config.ml" 428 16552 16581 "config.ml" 428 16552 16582
+type(
+  int
+)
+"config.ml" 428 16552 16559 "config.ml" 428 16552 16582
+type(
+  bool
+)
+"config.ml" 430 16592 16602 "config.ml" 430 16592 16605
+type(
+  string
+)
+ident(
+  def arg "config.ml" 433 16690 16723 "config.ml" 433 16690 16739
+)
+"config.ml" 431 16609 16617 "config.ml" 431 16609 16621
+type(
+  string
+)
+"config.ml" 431 16609 16622 "config.ml" 431 16609 16623
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 431 16609 16625 "config.ml" 431 16609 16642
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"config.ml" 431 16609 16643 "config.ml" 431 16609 16644
+type(
+  int
+)
+"config.ml" 431 16609 16645 "config.ml" 431 16609 16646
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+)
+"config.ml" 431 16609 16624 "config.ml" 431 16609 16647
+type(
+  string
+)
+"config.ml" 431 16609 16648 "config.ml" 431 16609 16649
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 431 16609 16650 "config.ml" 431 16609 16653
+type(
+  string
+)
+"config.ml" 431 16609 16654 "config.ml" 431 16609 16655
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 431 16609 16657 "config.ml" 431 16609 16674
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref Str.matched_group
+)
+"config.ml" 431 16609 16675 "config.ml" 431 16609 16676
+type(
+  int
+)
+"config.ml" 431 16609 16677 "config.ml" 431 16609 16678
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+)
+"config.ml" 431 16609 16656 "config.ml" 431 16609 16679
+type(
+  string
+)
+"config.ml" 431 16609 16650 "config.ml" 431 16609 16679
+type(
+  string
+)
+"config.ml" 431 16609 16624 "config.ml" 431 16609 16679
+type(
+  string
+)
+"config.ml" 431 16609 16617 "config.ml" 431 16609 16679
+type(
+  string
+)
+"config.ml" 433 16690 16723 "config.ml" 433 16690 16733
+type(
+  string -> string Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"config.ml" 433 16690 16734 "config.ml" 433 16690 16737
+type(
+  string
+)
+ident(
+  int_ref arg "config.ml" 430 16592 16602 "config.ml" 430 16592 16605
+)
+"config.ml" 433 16690 16738 "config.ml" 433 16690 16739
+type(
+  string Queue.t
+)
+ident(
+  int_ref q "config.ml" 427 16528 16545 "config.ml" 427 16528 16546
+)
+"config.ml" 433 16690 16723 "config.ml" 433 16690 16739
+type(
+  unit
+)
+"config.ml" 430 16592 16598 "config.ml" 433 16690 16739
+type(
+  unit
+)
+"config.ml" 435 16789 16801 "config.ml" 435 16789 16817
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"config.ml" 435 16789 16818 "config.ml" 435 16789 16823
+type(
+  Str.regexp
+)
+ident(
+  int_ref ws_re "config.ml" 421 16299 16303 "config.ml" 421 16299 16308
+)
+"config.ml" 435 16789 16824 "config.ml" 435 16789 16825
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+)
+"config.ml" 435 16789 16826 "config.ml" 435 16789 16827
+type(
+  int
+)
+"config.ml" 435 16789 16801 "config.ml" 435 16789 16827
+type(
+  bool
+)
+"config.ml" 436 16828 16837 "config.ml" 436 16828 16839
+type(
+  unit
+)
+"config.ml" 437 16840 16852 "config.ml" 437 16840 16868
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"config.ml" 437 16840 16869 "config.ml" 437 16840 16879
+type(
+  Str.regexp
+)
+ident(
+  int_ref comment_re "config.ml" 422 16335 16339 "config.ml" 422 16335 16349
+)
+"config.ml" 437 16840 16880 "config.ml" 437 16840 16881
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+)
+"config.ml" 437 16840 16882 "config.ml" 437 16840 16883
+type(
+  int
+)
+"config.ml" 437 16840 16852 "config.ml" 437 16840 16883
+type(
+  bool
+)
+"config.ml" 438 16884 16893 "config.ml" 438 16884 16895
+type(
+  unit
+)
+"config.ml" 439 16896 16906 "config.ml" 439 16896 16920
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"config.ml" 439 16896 16921 "config.ml" 439 16896 16960
+type(
+  (string -> unit, out_channel, unit) format
+)
+"config.ml" 439 16896 16961 "config.ml" 439 16896 16962
+type(
+  string
+)
+ident(
+  int_ref l "config.ml" 427 16528 16547 "config.ml" 427 16528 16548
+)
+"config.ml" 439 16896 16906 "config.ml" 439 16896 16962
+type(
+  unit
+)
+"config.ml" 439 16896 16963 "config.ml" 439 16896 16967
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"config.ml" 439 16896 16968 "config.ml" 439 16896 16969
+type(
+  int
+)
+"config.ml" 439 16896 16963 "config.ml" 439 16896 16969
+type(
+  unit
+)
+"config.ml" 439 16896 16905 "config.ml" 439 16896 16970
+type(
+  unit
+)
+"config.ml" 437 16840 16849 "config.ml" 439 16896 16970
+type(
+  unit
+)
+"config.ml" 435 16789 16798 "config.ml" 439 16896 16970
+type(
+  unit
+)
+"config.ml" 428 16552 16556 "config.ml" 439 16896 16970
+type(
+  unit
+)
+"config.ml" 442 17028 17034 "config.ml" 442 17028 17043
+type(
+  in_channel -> string Queue.t
+)
+"config.ml" 442 17028 17044 "config.ml" 442 17028 17046
+type(
+  in_channel
+)
+ident(
+  def ic "config.ml" 443 17050 17054 "config.ml" 448 17173 17198
+)
+"config.ml" 443 17050 17058 "config.ml" 443 17050 17059
+type(
+  string Queue.t
+)
+"config.ml" 443 17050 17062 "config.ml" 443 17050 17074
+type(
+  unit -> string Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"config.ml" 443 17050 17075 "config.ml" 443 17050 17077
+type(
+  unit
+)
+"config.ml" 443 17050 17062 "config.ml" 443 17050 17077
+type(
+  string Queue.t
+)
+"config.ml" 444 17081 17097 "config.ml" 444 17081 17101
+type(
+  bool
+)
+"config.ml" 445 17105 17113 "config.ml" 445 17105 17123
+type(
+  string Queue.t -> string -> unit
+)
+ident(
+  int_ref parse_line "config.ml" 427 16528 16534 "config.ml" 427 16528 16544
+)
+"config.ml" 445 17105 17124 "config.ml" 445 17105 17125
+type(
+  string Queue.t
+)
+ident(
+  int_ref q "config.ml" 443 17050 17058 "config.ml" 443 17050 17059
+)
+"config.ml" 445 17105 17127 "config.ml" 445 17105 17137
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"config.ml" 445 17105 17138 "config.ml" 445 17105 17140
+type(
+  in_channel
+)
+ident(
+  int_ref ic "config.ml" 442 17028 17044 "config.ml" 442 17028 17046
+)
+"config.ml" 445 17105 17126 "config.ml" 445 17105 17141
+type(
+  string
+)
+"config.ml" 445 17105 17113 "config.ml" 445 17105 17141
+type(
+  unit
+)
+"config.ml" 444 17081 17091 "config.ml" 446 17142 17152
+type(
+  unit
+)
+"config.ml" 447 17154 17160 "config.ml" 447 17154 17172
+type(
+  string Queue.t
+)
+"config.ml" 444 17081 17091 "config.ml" 447 17154 17172
+type(
+  string Queue.t
+)
+"config.ml" 448 17173 17182 "config.ml" 448 17173 17193
+type(
+  exn
+)
+"config.ml" 448 17173 17197 "config.ml" 448 17173 17198
+type(
+  string Queue.t
+)
+ident(
+  int_ref q "config.ml" 443 17050 17058 "config.ml" 443 17050 17059
+)
+"config.ml" 444 17081 17087 "config.ml" 448 17173 17198
+type(
+  string Queue.t
+)
+"config.ml" 443 17050 17054 "config.ml" 448 17173 17198
+type(
+  string Queue.t
+)
+"config.ml" 451 17213 17223 "config.ml" 451 17213 17225
+type(
+  in_channel
+)
+ident(
+  def ic "config.ml" 452 17249 17255 "config.ml" 461 17634 17721
+)
+"config.ml" 451 17213 17228 "config.ml" 451 17213 17235
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"config.ml" 451 17213 17236 "config.ml" 451 17213 17245
+type(
+  string
+)
+ident(
+  int_ref conf_file "config.ml" 425 16446 16463 "config.ml" 425 16446 16472
+)
+"config.ml" 451 17213 17228 "config.ml" 451 17213 17245
+type(
+  in_channel
+)
+"config.ml" 452 17249 17259 "config.ml" 452 17249 17260
+type(
+  string Queue.t
+)
+ident(
+  def q "config.ml" 453 17279 17285 "config.ml" 461 17634 17721
+)
+"config.ml" 452 17249 17263 "config.ml" 452 17249 17272
+type(
+  in_channel -> string Queue.t
+)
+ident(
+  int_ref parse_all "config.ml" 442 17028 17034 "config.ml" 442 17028 17043
+)
+"config.ml" 452 17249 17273 "config.ml" 452 17249 17275
+type(
+  in_channel
+)
+ident(
+  int_ref ic "config.ml" 451 17213 17223 "config.ml" 451 17213 17225
+)
+"config.ml" 452 17249 17263 "config.ml" 452 17249 17275
+type(
+  string Queue.t
+)
+"config.ml" 453 17279 17289 "config.ml" 453 17279 17290
+type(
+  int
+)
+ident(
+  def l "config.ml" 454 17311 17317 "config.ml" 461 17634 17721
+)
+"config.ml" 453 17279 17293 "config.ml" 453 17279 17305
+type(
+  string Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"config.ml" 453 17279 17306 "config.ml" 453 17279 17307
+type(
+  string Queue.t
+)
+ident(
+  int_ref q "config.ml" 452 17249 17259 "config.ml" 452 17249 17260
+)
+"config.ml" 453 17279 17293 "config.ml" 453 17279 17307
+type(
+  int
+)
+"config.ml" 454 17311 17321 "config.ml" 454 17311 17324
+type(
+  string array
+)
+ident(
+  def ary "config.ml" 455 17366 17372 "config.ml" 461 17634 17721
+)
+"config.ml" 454 17311 17327 "config.ml" 454 17311 17337
+type(
+  int -> (int -> string) -> string array
+)
+ident(
+  ext_ref Array.init
+)
+"config.ml" 454 17311 17338 "config.ml" 454 17311 17339
+type(
+  int
+)
+ident(
+  int_ref l "config.ml" 453 17279 17289 "config.ml" 453 17279 17290
+)
+"config.ml" 454 17311 17345 "config.ml" 454 17311 17346
+type(
+  int
+)
+"config.ml" 454 17311 17350 "config.ml" 454 17311 17359
+type(
+  string Queue.t -> string
+)
+ident(
+  ext_ref Queue.pop
+)
+"config.ml" 454 17311 17360 "config.ml" 454 17311 17361
+type(
+  string Queue.t
+)
+ident(
+  int_ref q "config.ml" 452 17249 17259 "config.ml" 452 17249 17260
+)
+"config.ml" 454 17311 17350 "config.ml" 454 17311 17361
+type(
+  string
+)
+"config.ml" 454 17311 17340 "config.ml" 454 17311 17362
+type(
+  int -> string
+)
+"config.ml" 454 17311 17327 "config.ml" 454 17311 17362
+type(
+  string array
+)
+"config.ml" 455 17366 17376 "config.ml" 455 17366 17386
+type(
+  'a -> 'b
+)
+ident(
+  def fail_parse "config.ml" 458 17474 17480 "config.ml" 461 17634 17721
+)
+"config.ml" 455 17366 17387 "config.ml" 455 17366 17388
+type(
+  'a
+)
+"config.ml" 456 17392 17400 "config.ml" 456 17392 17408
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"config.ml" 456 17392 17409 "config.ml" 456 17392 17463
+type(
+  string
+)
+"config.ml" 456 17392 17400 "config.ml" 456 17392 17463
+type(
+  'b
+)
+"config.ml" 458 17474 17484 "config.ml" 458 17474 17488
+type(
+  'c -> 'd
+)
+ident(
+  def anon "config.ml" 459 17534 17542 "config.ml" 461 17634 17721
+)
+"config.ml" 458 17474 17489 "config.ml" 458 17474 17490
+type(
+  'c
+)
+"config.ml" 458 17474 17493 "config.ml" 458 17474 17501
+type(
+  string -> 'd
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"config.ml" 458 17474 17502 "config.ml" 458 17474 17530
+type(
+  string
+)
+"config.ml" 458 17474 17493 "config.ml" 458 17474 17530
+type(
+  'd
+)
+"config.ml" 459 17534 17542 "config.ml" 459 17534 17550
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"config.ml" 459 17534 17551 "config.ml" 459 17534 17553
+type(
+  in_channel
+)
+ident(
+  int_ref ic "config.ml" 451 17213 17223 "config.ml" 451 17213 17225
+)
+"config.ml" 459 17534 17542 "config.ml" 459 17534 17553
+type(
+  unit
+)
+"config.ml" 460 17555 17567 "config.ml" 460 17555 17579
+type(
+  Getopt.opt list -> (string -> unit) -> string array -> int -> int -> unit
+)
+ident(
+  ext_ref Getopt.parse
+)
+"config.ml" 460 17555 17581 "config.ml" 460 17555 17585
+type(
+  (string -> unit) -> Getopt.opt list
+)
+ident(
+  int_ref opts "config.ml" 320 12012 12016 "config.ml" 320 12012 12020
+)
+"config.ml" 460 17555 17586 "config.ml" 460 17555 17596
+type(
+  string -> unit
+)
+ident(
+  int_ref fail_parse "config.ml" 455 17366 17376 "config.ml" 455 17366 17386
+)
+"config.ml" 460 17555 17580 "config.ml" 460 17555 17597
+type(
+  Getopt.opt list
+)
+"config.ml" 460 17555 17598 "config.ml" 460 17555 17602
+type(
+  string -> unit
+)
+ident(
+  int_ref anon "config.ml" 458 17474 17484 "config.ml" 458 17474 17488
+)
+"config.ml" 460 17555 17603 "config.ml" 460 17555 17606
+type(
+  string array
+)
+ident(
+  int_ref ary "config.ml" 454 17311 17321 "config.ml" 454 17311 17324
+)
+"config.ml" 460 17555 17607 "config.ml" 460 17555 17608
+type(
+  int
+)
+"config.ml" 460 17555 17611 "config.ml" 460 17555 17623
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"config.ml" 460 17555 17624 "config.ml" 460 17555 17627
+type(
+  string array
+)
+ident(
+  int_ref ary "config.ml" 454 17311 17321 "config.ml" 454 17311 17324
+)
+"config.ml" 460 17555 17610 "config.ml" 460 17555 17628
+type(
+  int
+)
+"config.ml" 460 17555 17629 "config.ml" 460 17555 17630
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"config.ml" 460 17555 17631 "config.ml" 460 17555 17632
+type(
+  int
+)
+"config.ml" 460 17555 17609 "config.ml" 460 17555 17633
+type(
+  int
+)
+"config.ml" 460 17555 17567 "config.ml" 460 17555 17633
+type(
+  unit
+)
+"config.ml" 461 17634 17655 "config.ml" 461 17634 17656
+type(
+  string
+)
+ident(
+  def s "config.ml" 461 17634 17660 "config.ml" 461 17634 17721
+)
+"config.ml" 461 17634 17647 "config.ml" 461 17634 17656
+type(
+  exn
+)
+"config.ml" 461 17634 17660 "config.ml" 461 17634 17674
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"config.ml" 461 17634 17675 "config.ml" 461 17634 17711
+type(
+  (string -> unit, out_channel, unit) format
+)
+"config.ml" 461 17634 17712 "config.ml" 461 17634 17713
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 461 17634 17655 "config.ml" 461 17634 17656
+)
+"config.ml" 461 17634 17660 "config.ml" 461 17634 17713
+type(
+  unit
+)
+"config.ml" 461 17634 17715 "config.ml" 461 17634 17719
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"config.ml" 461 17634 17720 "config.ml" 461 17634 17721
+type(
+  int
+)
+"config.ml" 461 17634 17715 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 461 17634 17660 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 460 17555 17563 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 459 17534 17542 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 458 17474 17480 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 455 17366 17372 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 454 17311 17317 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 453 17279 17285 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 452 17249 17255 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 451 17213 17219 "config.ml" 461 17634 17721
+type(
+  unit
+)
+"config.ml" 463 17731 17749 "config.ml" 463 17731 17750
+type(
+  string
+)
+"config.ml" 463 17731 17739 "config.ml" 463 17731 17750
+type(
+  exn
+)
+"config.ml" 464 17754 17764 "config.ml" 464 17754 17778
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"config.ml" 464 17754 17779 "config.ml" 464 17754 17826
+type(
+  (string -> unit, out_channel, unit) format
+)
+"config.ml" 464 17754 17827 "config.ml" 464 17754 17836
+type(
+  string
+)
+ident(
+  int_ref conf_file "config.ml" 425 16446 16463 "config.ml" 425 16446 16472
+)
+"config.ml" 464 17754 17764 "config.ml" 464 17754 17836
+type(
+  unit
+)
+"config.ml" 465 17838 17848 "config.ml" 465 17838 17852
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"config.ml" 465 17838 17853 "config.ml" 465 17838 17854
+type(
+  int
+)
+"config.ml" 465 17838 17848 "config.ml" 465 17838 17854
+type(
+  unit
+)
+"config.ml" 464 17754 17764 "config.ml" 465 17838 17854
+type(
+  unit
+)
+"config.ml" 450 17204 17208 "config.ml" 465 17838 17854
+type(
+  unit
+)
+"config.ml" 442 17028 17030 "config.ml" 465 17838 17854
+type(
+  unit
+)
+"config.ml" 427 16528 16530 "config.ml" 465 17838 17854
+type(
+  unit
+)
+"config.ml" 468 17926 17930 "config.ml" 468 17926 17943
+type(
+  unit -> unit
+)
+ident(
+  def parse_cmdline "config.ml" 487 18577 18650 --
+)
+"config.ml" 468 17926 17944 "config.ml" 468 17926 17946
+type(
+  unit
+)
+"config.ml" 470 17964 17970 "config.ml" 470 17964 17976
+type(
+  string
+)
+"config.ml" 470 17964 18023 "config.ml" 470 17964 18035
+type(
+  string
+)
+"config.ml" 471 18039 18045 "config.ml" 471 18039 18052
+type(
+  string
+)
+"config.ml" 472 18056 18065 "config.ml" 472 18056 18075
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"config.ml" 472 18056 18076 "config.ml" 472 18056 18082
+type(
+  string
+)
+"config.ml" 472 18056 18064 "config.ml" 472 18056 18083
+type(
+  string
+)
+"config.ml" 472 18056 18084 "config.ml" 472 18056 18085
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 472 18056 18086 "config.ml" 472 18056 18100
+type(
+  string
+)
+"config.ml" 472 18056 18064 "config.ml" 472 18056 18100
+type(
+  string
+)
+"config.ml" 473 18101 18110 "config.ml" 473 18101 18119
+type(
+  exn
+)
+"config.ml" 473 18101 18123 "config.ml" 473 18101 18125
+type(
+  string
+)
+"config.ml" 472 18056 18060 "config.ml" 473 18101 18125
+type(
+  string
+)
+"config.ml" 475 18131 18137 "config.ml" 475 18131 18143
+type(
+  string
+)
+"config.ml" 475 18131 18147 "config.ml" 475 18131 18157
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"config.ml" 475 18131 18158 "config.ml" 475 18131 18160
+type(
+  unit
+)
+"config.ml" 475 18131 18146 "config.ml" 475 18131 18161
+type(
+  string
+)
+"config.ml" 475 18131 18162 "config.ml" 475 18131 18163
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"config.ml" 475 18131 18164 "config.ml" 475 18131 18177
+type(
+  string
+)
+"config.ml" 475 18131 18146 "config.ml" 475 18131 18177
+type(
+  string
+)
+"config.ml" 476 18181 18187 "config.ml" 476 18181 18189
+type(
+  unit
+)
+"config.ml" 477 18192 18200 "config.ml" 477 18192 18215
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"config.ml" 477 18192 18216 "config.ml" 477 18192 18222
+type(
+  string
+)
+ident(
+  int_ref etc_cf "config.ml" 470 17964 17970 "config.ml" 470 17964 17976
+)
+"config.ml" 477 18192 18199 "config.ml" 477 18192 18223
+type(
+  bool
+)
+"config.ml" 477 18192 18229 "config.ml" 477 18192 18241
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_config "config.ml" 425 16446 16450 "config.ml" 425 16446 16462
+)
+"config.ml" 477 18192 18242 "config.ml" 477 18192 18248
+type(
+  string
+)
+ident(
+  int_ref etc_cf "config.ml" 470 17964 17970 "config.ml" 470 17964 17976
+)
+"config.ml" 477 18192 18229 "config.ml" 477 18192 18248
+type(
+  unit
+)
+"config.ml" 477 18192 18196 "config.ml" 477 18192 18248
+type(
+  unit
+)
+"config.ml" 478 18250 18258 "config.ml" 478 18250 18273
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"config.ml" 478 18250 18274 "config.ml" 478 18250 18281
+type(
+  string
+)
+ident(
+  int_ref home_cf "config.ml" 471 18039 18045 "config.ml" 471 18039 18052
+)
+"config.ml" 478 18250 18257 "config.ml" 478 18250 18282
+type(
+  bool
+)
+"config.ml" 478 18250 18288 "config.ml" 478 18250 18300
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_config "config.ml" 425 16446 16450 "config.ml" 425 16446 16462
+)
+"config.ml" 478 18250 18301 "config.ml" 478 18250 18308
+type(
+  string
+)
+ident(
+  int_ref home_cf "config.ml" 471 18039 18045 "config.ml" 471 18039 18052
+)
+"config.ml" 478 18250 18288 "config.ml" 478 18250 18308
+type(
+  unit
+)
+"config.ml" 478 18250 18254 "config.ml" 478 18250 18308
+type(
+  unit
+)
+"config.ml" 479 18310 18318 "config.ml" 479 18310 18333
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"config.ml" 479 18310 18334 "config.ml" 479 18310 18340
+type(
+  string
+)
+ident(
+  int_ref cwd_cf "config.ml" 475 18131 18137 "config.ml" 475 18131 18143
+)
+"config.ml" 479 18310 18317 "config.ml" 479 18310 18341
+type(
+  bool
+)
+"config.ml" 479 18310 18347 "config.ml" 479 18310 18359
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_config "config.ml" 425 16446 16450 "config.ml" 425 16446 16462
+)
+"config.ml" 479 18310 18360 "config.ml" 479 18310 18366
+type(
+  string
+)
+ident(
+  int_ref cwd_cf "config.ml" 475 18131 18137 "config.ml" 475 18131 18143
+)
+"config.ml" 479 18310 18347 "config.ml" 479 18310 18366
+type(
+  unit
+)
+"config.ml" 479 18310 18314 "config.ml" 479 18310 18366
+type(
+  unit
+)
+"config.ml" 478 18250 18254 "config.ml" 479 18310 18366
+type(
+  unit
+)
+"config.ml" 477 18192 18196 "config.ml" 479 18310 18366
+type(
+  unit
+)
+"config.ml" 481 18372 18378 "config.ml" 481 18372 18382
+type(
+  string -> unit
+)
+"config.ml" 481 18372 18383 "config.ml" 481 18372 18384
+type(
+  string
+)
+ident(
+  def s "config.ml" 482 18388 18392 "config.ml" 483 18440 18487
+)
+"config.ml" 482 18388 18395 "config.ml" 482 18388 18399
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 482 18388 18395 "config.ml" 482 18388 18409
+type(
+  string
+)
+"config.ml" 482 18388 18410 "config.ml" 482 18388 18411
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 482 18388 18412 "config.ml" 482 18388 18414
+type(
+  string
+)
+"config.ml" 482 18388 18395 "config.ml" 482 18388 18414
+type(
+  bool
+)
+"config.ml" 482 18388 18420 "config.ml" 482 18388 18424
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 482 18388 18438 "config.ml" 482 18388 18439
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 481 18372 18383 "config.ml" 481 18372 18384
+)
+"config.ml" 482 18388 18420 "config.ml" 482 18388 18439
+type(
+  unit
+)
+"config.ml" 483 18440 18449 "config.ml" 483 18440 18453
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 483 18440 18467 "config.ml" 483 18440 18471
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 483 18440 18467 "config.ml" 483 18440 18481
+type(
+  string list
+)
+"config.ml" 483 18440 18482 "config.ml" 483 18440 18483
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"config.ml" 483 18440 18485 "config.ml" 483 18440 18486
+type(
+  string
+)
+ident(
+  int_ref s "config.ml" 481 18372 18383 "config.ml" 481 18372 18384
+)
+"config.ml" 483 18440 18484 "config.ml" 483 18440 18487
+type(
+  string list
+)
+"config.ml" 483 18440 18467 "config.ml" 483 18440 18487
+type(
+  string list
+)
+"config.ml" 483 18440 18449 "config.ml" 483 18440 18487
+type(
+  unit
+)
+"config.ml" 482 18388 18392 "config.ml" 483 18440 18487
+type(
+  unit
+)
+"config.ml" 485 18493 18497 "config.ml" 485 18493 18517
+type(
+  Getopt.opt list -> (string -> unit) -> unit
+)
+ident(
+  ext_ref Getopt.parse_cmdline
+)
+"config.ml" 485 18493 18519 "config.ml" 485 18493 18523
+type(
+  (string -> unit) -> Getopt.opt list
+)
+ident(
+  int_ref opts "config.ml" 320 12012 12016 "config.ml" 320 12012 12020
+)
+"config.ml" 485 18493 18524 "config.ml" 485 18493 18536
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_config "config.ml" 425 16446 16450 "config.ml" 425 16446 16462
+)
+"config.ml" 485 18493 18518 "config.ml" 485 18493 18537
+type(
+  Getopt.opt list
+)
+"config.ml" 485 18493 18538 "config.ml" 485 18493 18542
+type(
+  string -> unit
+)
+ident(
+  int_ref anon "config.ml" 481 18372 18378 "config.ml" 481 18372 18382
+)
+"config.ml" 485 18493 18497 "config.ml" 485 18493 18542
+type(
+  unit
+)
+"config.ml" 486 18544 18551 "config.ml" 486 18544 18555
+type(
+  config
+)
+ident(
+  int_ref conf "config.ml" 38 1211 1215 "config.ml" 38 1211 1219
+)
+"config.ml" 486 18544 18551 "config.ml" 486 18544 18565
+type(
+  string
+)
+"config.ml" 486 18544 18566 "config.ml" 486 18544 18567
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"config.ml" 486 18544 18568 "config.ml" 486 18544 18570
+type(
+  string
+)
+"config.ml" 486 18544 18551 "config.ml" 486 18544 18570
+type(
+  bool
+)
+"config.ml" 487 18577 18584 "config.ml" 487 18577 18597
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"config.ml" 487 18577 18598 "config.ml" 487 18577 18634
+type(
+  string
+)
+"config.ml" 487 18577 18584 "config.ml" 487 18577 18634
+type(
+  unit
+)
+"config.ml" 487 18577 18636 "config.ml" 487 18577 18646
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_usage "config.ml" 211 7797 7801 "config.ml" 211 7797 7811
+)
+"config.ml" 487 18577 18647 "config.ml" 487 18577 18649
+type(
+  unit
+)
+"config.ml" 487 18577 18636 "config.ml" 487 18577 18649
+type(
+  unit
+)
+"config.ml" 487 18577 18583 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 486 18544 18548 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 485 18493 18497 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 481 18372 18374 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 476 18181 18183 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 475 18131 18133 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 471 18039 18041 "config.ml" 487 18577 18650
+type(
+  unit
+)
+"config.ml" 470 17964 17966 "config.ml" 487 18577 18650
+type(
+  unit
+)

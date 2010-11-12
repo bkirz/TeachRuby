@@ -1,0 +1,8488 @@
+"cfg_scope.ml" 16 197 201 "cfg_scope.ml" 16 197 209
+type(
+  Ant.type_ident -> Cfg.identifier
+)
+ident(
+  def to_ident "cfg_scope.ml" 18 250 250 --
+)
+"cfg_scope.ml" 16 197 210 "cfg_scope.ml" 16 197 211
+type(
+  Ant.type_ident
+)
+ident(
+  def x "cfg_scope.ml" 16 197 214 "cfg_scope.ml" 16 197 248
+)
+"cfg_scope.ml" 16 197 215 "cfg_scope.ml" 16 197 216
+type(
+  Cfg.identifier
+)
+type(
+  Ant.type_ident
+)
+ident(
+  int_ref x "cfg_scope.ml" 16 197 210 "cfg_scope.ml" 16 197 211
+)
+"cfg_scope.ml" 18 250 254 "cfg_scope.ml" 18 250 271
+type(
+  string -> string
+)
+ident(
+  def special_case_yaml "cfg_scope.ml" 31 683 683 --
+)
+"cfg_scope.ml" 18 250 272 "cfg_scope.ml" 18 250 273
+type(
+  string
+)
+ident(
+  def f "cfg_scope.ml" 19 277 279 "cfg_scope.ml" 29 671 681
+)
+"cfg_scope.ml" 19 277 283 "cfg_scope.ml" 19 277 286
+type(
+  string
+)
+"cfg_scope.ml" 19 277 289 "cfg_scope.ml" 19 277 299
+type(
+  string
+)
+"cfg_scope.ml" 20 303 309 "cfg_scope.ml" 20 303 313
+type(
+  int
+)
+"cfg_scope.ml" 20 303 316 "cfg_scope.ml" 20 303 329
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"cfg_scope.ml" 20 303 330 "cfg_scope.ml" 20 303 333
+type(
+  string
+)
+ident(
+  int_ref yml "cfg_scope.ml" 19 277 283 "cfg_scope.ml" 19 277 286
+)
+"cfg_scope.ml" 20 303 316 "cfg_scope.ml" 20 303 333
+type(
+  int
+)
+"cfg_scope.ml" 21 337 343 "cfg_scope.ml" 21 337 346
+type(
+  int
+)
+"cfg_scope.ml" 21 337 349 "cfg_scope.ml" 21 337 362
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"cfg_scope.ml" 21 337 363 "cfg_scope.ml" 21 337 364
+type(
+  string
+)
+ident(
+  int_ref f "cfg_scope.ml" 18 250 272 "cfg_scope.ml" 18 250 273
+)
+"cfg_scope.ml" 21 337 349 "cfg_scope.ml" 21 337 364
+type(
+  int
+)
+"cfg_scope.ml" 22 368 375 "cfg_scope.ml" 22 368 378
+type(
+  int
+)
+ident(
+  int_ref len "cfg_scope.ml" 21 337 343 "cfg_scope.ml" 21 337 346
+)
+"cfg_scope.ml" 22 368 379 "cfg_scope.ml" 22 368 381
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"cfg_scope.ml" 22 368 382 "cfg_scope.ml" 22 368 386
+type(
+  int
+)
+ident(
+  int_ref ylen "cfg_scope.ml" 20 303 309 "cfg_scope.ml" 20 303 313
+)
+"cfg_scope.ml" 22 368 375 "cfg_scope.ml" 22 368 386
+type(
+  bool
+)
+"cfg_scope.ml" 26 556 565 "cfg_scope.ml" 26 556 575
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"cfg_scope.ml" 26 556 576 "cfg_scope.ml" 26 556 577
+type(
+  string
+)
+ident(
+  int_ref f "cfg_scope.ml" 18 250 272 "cfg_scope.ml" 18 250 273
+)
+"cfg_scope.ml" 26 556 579 "cfg_scope.ml" 26 556 582
+type(
+  int
+)
+ident(
+  int_ref len "cfg_scope.ml" 21 337 343 "cfg_scope.ml" 21 337 346
+)
+"cfg_scope.ml" 26 556 582 "cfg_scope.ml" 26 556 583
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"cfg_scope.ml" 26 556 583 "cfg_scope.ml" 26 556 587
+type(
+  int
+)
+ident(
+  int_ref ylen "cfg_scope.ml" 20 303 309 "cfg_scope.ml" 20 303 313
+)
+"cfg_scope.ml" 26 556 578 "cfg_scope.ml" 26 556 588
+type(
+  int
+)
+"cfg_scope.ml" 26 556 589 "cfg_scope.ml" 26 556 593
+type(
+  int
+)
+ident(
+  int_ref ylen "cfg_scope.ml" 20 303 309 "cfg_scope.ml" 20 303 313
+)
+"cfg_scope.ml" 26 556 565 "cfg_scope.ml" 26 556 593
+type(
+  string
+)
+"cfg_scope.ml" 26 556 594 "cfg_scope.ml" 26 556 595
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"cfg_scope.ml" 26 556 596 "cfg_scope.ml" 26 556 599
+type(
+  string
+)
+ident(
+  int_ref yml "cfg_scope.ml" 19 277 283 "cfg_scope.ml" 19 277 286
+)
+"cfg_scope.ml" 26 556 565 "cfg_scope.ml" 26 556 599
+type(
+  bool
+)
+"cfg_scope.ml" 27 600 611 "cfg_scope.ml" 27 600 626
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"cfg_scope.ml" 27 600 627 "cfg_scope.ml" 27 600 631
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"cfg_scope.ml" 27 600 627 "cfg_scope.ml" 27 600 640
+type(
+  string
+)
+"cfg_scope.ml" 27 600 641 "cfg_scope.ml" 27 600 657
+type(
+  string
+)
+"cfg_scope.ml" 27 600 611 "cfg_scope.ml" 27 600 657
+type(
+  string
+)
+"cfg_scope.ml" 28 658 669 "cfg_scope.ml" 28 658 670
+type(
+  string
+)
+ident(
+  int_ref f "cfg_scope.ml" 18 250 272 "cfg_scope.ml" 18 250 273
+)
+"cfg_scope.ml" 26 556 562 "cfg_scope.ml" 28 658 670
+type(
+  string
+)
+"cfg_scope.ml" 29 671 680 "cfg_scope.ml" 29 671 681
+type(
+  string
+)
+ident(
+  int_ref f "cfg_scope.ml" 18 250 272 "cfg_scope.ml" 18 250 273
+)
+"cfg_scope.ml" 22 368 372 "cfg_scope.ml" 29 671 681
+type(
+  string
+)
+"cfg_scope.ml" 21 337 339 "cfg_scope.ml" 29 671 681
+type(
+  string
+)
+"cfg_scope.ml" 20 303 305 "cfg_scope.ml" 29 671 681
+type(
+  string
+)
+"cfg_scope.ml" 19 277 279 "cfg_scope.ml" 29 671 681
+type(
+  string
+)
+"cfg_scope.ml" 31 683 687 "cfg_scope.ml" 31 683 698
+type(
+  NS.scope -> 'a NS.cursor -> Log.pos -> unit
+)
+ident(
+  def valid_scope "cfg_scope.ml" 38 872 872 --
+)
+"cfg_scope.ml" 31 683 699 "cfg_scope.ml" 31 683 701
+type(
+  NS.scope
+)
+ident(
+  def sc "cfg_scope.ml" 31 683 702 "cfg_scope.ml" 36 841 870
+)
+"cfg_scope.ml" 31 683 702 "cfg_scope.ml" 31 683 706
+type(
+  'a NS.cursor
+)
+ident(
+  def curs "cfg_scope.ml" 31 683 707 "cfg_scope.ml" 36 841 870
+)
+"cfg_scope.ml" 31 683 707 "cfg_scope.ml" 31 683 710
+type(
+  Log.pos
+)
+ident(
+  def pos "cfg_scope.ml" 32 714 716 "cfg_scope.ml" 36 841 870
+)
+"cfg_scope.ml" 32 714 720 "cfg_scope.ml" 32 714 726
+type(
+  NS.scope -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 32 714 727 "cfg_scope.ml" 32 714 742
+type(
+  NS.scope -> 'a NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.lookup_scope
+)
+"cfg_scope.ml" 32 714 743 "cfg_scope.ml" 32 714 745
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 31 683 699 "cfg_scope.ml" 31 683 701
+)
+"cfg_scope.ml" 32 714 746 "cfg_scope.ml" 32 714 750
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref curs "cfg_scope.ml" 31 683 702 "cfg_scope.ml" 31 683 706
+)
+"cfg_scope.ml" 32 714 726 "cfg_scope.ml" 32 714 751
+type(
+  NS.scope
+)
+"cfg_scope.ml" 32 714 720 "cfg_scope.ml" 32 714 751
+type(
+  unit
+)
+"cfg_scope.ml" 33 752 759 "cfg_scope.ml" 33 752 768
+type(
+  exn
+)
+"cfg_scope.ml" 34 772 776 "cfg_scope.ml" 34 772 785
+type(
+  Log.ctx ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Log.fatal
+)
+"cfg_scope.ml" 34 772 787 "cfg_scope.ml" 34 772 797
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"cfg_scope.ml" 34 772 798 "cfg_scope.ml" 34 772 801
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 31 683 707 "cfg_scope.ml" 31 683 710
+)
+"cfg_scope.ml" 34 772 786 "cfg_scope.ml" 34 772 802
+type(
+  Log.ctx
+)
+"cfg_scope.ml" 35 803 809 "cfg_scope.ml" 35 803 840
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"cfg_scope.ml" 36 841 848 "cfg_scope.ml" 36 841 866
+type(
+  NS.scope -> string
+)
+ident(
+  ext_ref NS.string_of_scope
+)
+"cfg_scope.ml" 36 841 867 "cfg_scope.ml" 36 841 869
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 31 683 699 "cfg_scope.ml" 31 683 701
+)
+"cfg_scope.ml" 36 841 847 "cfg_scope.ml" 36 841 870
+type(
+  string
+)
+"cfg_scope.ml" 34 772 776 "cfg_scope.ml" 36 841 870
+type(
+  unit
+)
+"cfg_scope.ml" 32 714 716 "cfg_scope.ml" 36 841 870
+type(
+  unit
+)
+"cfg_scope.ml" 38 872 876 "cfg_scope.ml" 38 872 885
+type(
+  Utils.StrSet.t ->
+  File_loader.t ->
+  string ->
+  [< `Load | `Require ] -> 'a -> (string -> Cfg.stmt -> unit) -> unit
+)
+ident(
+  def load_file "cfg_scope.ml" 51 1330 1330 --
+)
+"cfg_scope.ml" 38 872 886 "cfg_scope.ml" 38 872 890
+type(
+  Utils.StrSet.t
+)
+ident(
+  def seen "cfg_scope.ml" 38 872 891 "cfg_scope.ml" 49 1306 1328
+)
+"cfg_scope.ml" 38 872 891 "cfg_scope.ml" 38 872 897
+type(
+  File_loader.t
+)
+ident(
+  def loader "cfg_scope.ml" 38 872 898 "cfg_scope.ml" 49 1306 1328
+)
+"cfg_scope.ml" 38 872 898 "cfg_scope.ml" 38 872 903
+type(
+  string
+)
+ident(
+  def fname "cfg_scope.ml" 38 872 904 "cfg_scope.ml" 49 1306 1328
+)
+"cfg_scope.ml" 38 872 904 "cfg_scope.ml" 38 872 906
+type(
+  [< `Load | `Require ] as 'b
+)
+ident(
+  def rl "cfg_scope.ml" 38 872 907 "cfg_scope.ml" 49 1306 1328
+)
+"cfg_scope.ml" 38 872 907 "cfg_scope.ml" 38 872 910
+type(
+  'a
+)
+ident(
+  def pos "cfg_scope.ml" 38 872 911 "cfg_scope.ml" 49 1306 1328
+)
+"cfg_scope.ml" 38 872 911 "cfg_scope.ml" 38 872 915
+type(
+  string -> Cfg.stmt -> unit
+)
+ident(
+  def func "cfg_scope.ml" 39 919 921 "cfg_scope.ml" 49 1306 1328
+)
+"cfg_scope.ml" 40 925 933 "cfg_scope.ml" 40 925 938
+type(
+  string
+)
+ident(
+  def fname "cfg_scope.ml" 41 968 972 "cfg_scope.ml" 48 1278 1305
+)
+"cfg_scope.ml" 40 925 941 "cfg_scope.ml" 40 925 958
+type(
+  string -> string
+)
+ident(
+  int_ref special_case_yaml "cfg_scope.ml" 18 250 254 "cfg_scope.ml" 18 250 271
+)
+"cfg_scope.ml" 40 925 959 "cfg_scope.ml" 40 925 964
+type(
+  string
+)
+ident(
+  int_ref fname "cfg_scope.ml" 38 872 898 "cfg_scope.ml" 38 872 903
+)
+"cfg_scope.ml" 40 925 941 "cfg_scope.ml" 40 925 964
+type(
+  string
+)
+"cfg_scope.ml" 41 968 976 "cfg_scope.ml" 41 968 982
+type(
+  bool
+)
+ident(
+  def no_ext "cfg_scope.ml" 42 1036 1040 "cfg_scope.ml" 48 1278 1305
+)
+"cfg_scope.ml" 41 968 991 "cfg_scope.ml" 41 968 993
+type(
+  'b
+)
+ident(
+  int_ref rl "cfg_scope.ml" 38 872 904 "cfg_scope.ml" 38 872 906
+)
+"cfg_scope.ml" 41 968 999 "cfg_scope.ml" 41 968 1007
+type(
+  'b
+)
+"cfg_scope.ml" 41 968 1011 "cfg_scope.ml" 41 968 1016
+type(
+  bool
+)
+"cfg_scope.ml" 41 968 1019 "cfg_scope.ml" 41 968 1024
+type(
+  'b
+)
+"cfg_scope.ml" 41 968 1028 "cfg_scope.ml" 41 968 1032
+type(
+  bool
+)
+"cfg_scope.ml" 41 968 985 "cfg_scope.ml" 41 968 1032
+type(
+  bool
+)
+"cfg_scope.ml" 42 1036 1044 "cfg_scope.ml" 42 1036 1053
+type(
+  string
+)
+ident(
+  def full_name "cfg_scope.ml" 43 1101 1107 "cfg_scope.ml" 48 1278 1305
+)
+"cfg_scope.ml" 42 1036 1056 "cfg_scope.ml" 42 1036 1064
+type(
+  File_loader.src_file -> string
+)
+ident(
+  ext_ref File_loader.src_name
+)
+"cfg_scope.ml" 42 1036 1066 "cfg_scope.ml" 42 1036 1075
+type(
+  ?no_ext:bool ->
+  ?no_iface:bool -> File_loader.t -> string -> File_loader.src_file
+)
+ident(
+  ext_ref File_loader.find_file
+)
+"cfg_scope.ml" 42 1036 1077 "cfg_scope.ml" 42 1036 1083
+type(
+  bool
+)
+ident(
+  int_ref no_ext "cfg_scope.ml" 41 968 976 "cfg_scope.ml" 41 968 982
+)
+"cfg_scope.ml" 42 1036 1084 "cfg_scope.ml" 42 1036 1090
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "cfg_scope.ml" 38 872 891 "cfg_scope.ml" 38 872 897
+)
+"cfg_scope.ml" 42 1036 1091 "cfg_scope.ml" 42 1036 1096
+type(
+  string
+)
+ident(
+  int_ref fname "cfg_scope.ml" 40 925 933 "cfg_scope.ml" 40 925 938
+)
+"cfg_scope.ml" 42 1036 1065 "cfg_scope.ml" 42 1036 1097
+type(
+  File_loader.src_file
+)
+"cfg_scope.ml" 42 1036 1056 "cfg_scope.ml" 42 1036 1097
+type(
+  string
+)
+"cfg_scope.ml" 43 1101 1110 "cfg_scope.ml" 43 1101 1120
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> bool
+)
+ident(
+  ext_ref Utils.StrSet.mem
+)
+"cfg_scope.ml" 43 1101 1121 "cfg_scope.ml" 43 1101 1130
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref full_name "cfg_scope.ml" 42 1036 1044 "cfg_scope.ml" 42 1036 1053
+)
+"cfg_scope.ml" 43 1101 1131 "cfg_scope.ml" 43 1101 1135
+type(
+  Utils.StrSet.t
+)
+ident(
+  int_ref seen "cfg_scope.ml" 38 872 886 "cfg_scope.ml" 38 872 890
+)
+"cfg_scope.ml" 43 1101 1110 "cfg_scope.ml" 43 1101 1135
+type(
+  bool
+)
+"cfg_scope.ml" 43 1101 1141 "cfg_scope.ml" 43 1101 1143
+type(
+  unit
+)
+"cfg_scope.ml" 45 1156 1170 "cfg_scope.ml" 45 1156 1179
+type(
+  File_loader.t ->
+  ?mod_ast_f:(Ast.expr list -> Ast.expr list) ->
+  ?no_ext:bool -> ?no_iface:bool -> string -> File_loader.load_result
+)
+ident(
+  ext_ref File_loader.load_file
+)
+"cfg_scope.ml" 45 1156 1180 "cfg_scope.ml" 45 1156 1186
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "cfg_scope.ml" 38 872 891 "cfg_scope.ml" 38 872 897
+)
+"cfg_scope.ml" 45 1156 1187 "cfg_scope.ml" 45 1156 1192
+type(
+  string
+)
+ident(
+  int_ref fname "cfg_scope.ml" 40 925 933 "cfg_scope.ml" 40 925 938
+)
+"cfg_scope.ml" 45 1156 1194 "cfg_scope.ml" 45 1156 1200
+type(
+  bool
+)
+ident(
+  int_ref no_ext "cfg_scope.ml" 41 968 976 "cfg_scope.ml" 41 968 982
+)
+"cfg_scope.ml" 45 1156 1170 "cfg_scope.ml" 45 1156 1200
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 46 1206 1222 "cfg_scope.ml" 46 1206 1227
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "cfg_scope.ml" 47 1229 1259 "cfg_scope.ml" 47 1229 1277
+)
+"cfg_scope.ml" 46 1206 1218 "cfg_scope.ml" 46 1206 1227
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 47 1229 1250 "cfg_scope.ml" 47 1229 1255
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg "cfg_scope.ml" 47 1229 1259 "cfg_scope.ml" 47 1229 1277
+)
+"cfg_scope.ml" 47 1229 1241 "cfg_scope.ml" 47 1229 1255
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 46 1206 1218 "cfg_scope.ml" 47 1229 1255
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 47 1229 1259 "cfg_scope.ml" 47 1229 1263
+type(
+  string -> Cfg.stmt -> unit
+)
+ident(
+  int_ref func "cfg_scope.ml" 38 872 911 "cfg_scope.ml" 38 872 915
+)
+"cfg_scope.ml" 47 1229 1264 "cfg_scope.ml" 47 1229 1273
+type(
+  string
+)
+ident(
+  int_ref full_name "cfg_scope.ml" 42 1036 1044 "cfg_scope.ml" 42 1036 1053
+)
+"cfg_scope.ml" 47 1229 1274 "cfg_scope.ml" 47 1229 1277
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "cfg_scope.ml" 46 1206 1222 "cfg_scope.ml" 46 1206 1227
+)
+"cfg_scope.ml" 47 1229 1259 "cfg_scope.ml" 47 1229 1277
+type(
+  unit
+)
+"cfg_scope.ml" 48 1278 1296 "cfg_scope.ml" 48 1278 1299
+type(
+  string
+)
+ident(
+  def s "cfg_scope.ml" 48 1278 1303 "cfg_scope.ml" 48 1278 1305
+)
+"cfg_scope.ml" 48 1278 1290 "cfg_scope.ml" 48 1278 1299
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 48 1278 1303 "cfg_scope.ml" 48 1278 1305
+type(
+  unit
+)
+"cfg_scope.ml" 45 1156 1164 "cfg_scope.ml" 48 1278 1305
+type(
+  unit
+)
+"cfg_scope.ml" 43 1101 1107 "cfg_scope.ml" 48 1278 1305
+type(
+  unit
+)
+"cfg_scope.ml" 42 1036 1040 "cfg_scope.ml" 48 1278 1305
+type(
+  unit
+)
+"cfg_scope.ml" 41 968 972 "cfg_scope.ml" 48 1278 1305
+type(
+  unit
+)
+"cfg_scope.ml" 40 925 929 "cfg_scope.ml" 48 1278 1305
+type(
+  unit
+)
+"cfg_scope.ml" 49 1306 1313 "cfg_scope.ml" 49 1306 1322
+type(
+  exn
+)
+"cfg_scope.ml" 49 1306 1326 "cfg_scope.ml" 49 1306 1328
+type(
+  unit
+)
+"cfg_scope.ml" 39 919 921 "cfg_scope.ml" 49 1306 1328
+type(
+  unit
+)
+"cfg_scope.ml" 51 1330 1338 "cfg_scope.ml" 51 1330 1350
+type(
+  unit NS.cursor -> Log.pos -> Cfg.lhs -> unit NS.cursor
+)
+ident(
+  def add_constant "cfg_scope.ml" 51 1330 1330 --
+)
+"cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+type(
+  unit NS.cursor
+)
+ident(
+  def ns "cfg_scope.ml" 51 1330 1354 "cfg_scope.ml" 64 1779 1843
+)
+"cfg_scope.ml" 51 1330 1354 "cfg_scope.ml" 51 1330 1357
+type(
+  Log.pos
+)
+ident(
+  def pos "cfg_scope.ml" 51 1330 1358 "cfg_scope.ml" 64 1779 1843
+)
+"cfg_scope.ml" 51 1330 1358 "cfg_scope.ml" 51 1330 1361
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "cfg_scope.ml" 51 1330 1364 "cfg_scope.ml" 64 1779 1843
+)
+"cfg_scope.ml" 51 1330 1370 "cfg_scope.ml" 51 1330 1373
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "cfg_scope.ml" 51 1330 1358 "cfg_scope.ml" 51 1330 1361
+)
+"cfg_scope.ml" 52 1379 1391 "cfg_scope.ml" 52 1379 1404
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 52 1379 1405 "cfg_scope.ml" 52 1379 1409
+type(
+  string
+)
+ident(
+  def name "cfg_scope.ml" 53 1414 1420 "cfg_scope.ml" 53 1414 1437
+)
+"cfg_scope.ml" 52 1379 1390 "cfg_scope.ml" 52 1379 1410
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 52 1379 1383 "cfg_scope.ml" 52 1379 1410
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 53 1414 1420 "cfg_scope.ml" 53 1414 1426
+type(
+  string -> unit -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add
+)
+"cfg_scope.ml" 53 1414 1427 "cfg_scope.ml" 53 1414 1431
+type(
+  string
+)
+ident(
+  int_ref name "cfg_scope.ml" 52 1379 1405 "cfg_scope.ml" 52 1379 1409
+)
+"cfg_scope.ml" 53 1414 1432 "cfg_scope.ml" 53 1414 1434
+type(
+  unit
+)
+"cfg_scope.ml" 53 1414 1435 "cfg_scope.ml" 53 1414 1437
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+)
+"cfg_scope.ml" 53 1414 1420 "cfg_scope.ml" 53 1414 1437
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 54 1438 1453 "cfg_scope.ml" 54 1438 1454
+type(
+  Cfg.identifier * string
+)
+"cfg_scope.ml" 54 1438 1443 "cfg_scope.ml" 54 1438 1454
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 55 1455 1472 "cfg_scope.ml" 55 1455 1473
+type(
+  string
+)
+"cfg_scope.ml" 55 1455 1461 "cfg_scope.ml" 55 1455 1473
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 54 1438 1443 "cfg_scope.ml" 55 1455 1473
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 54 1438 1442 "cfg_scope.ml" 55 1455 1480
+type(
+  Cfg.lhs
+)
+ident(
+  def id "cfg_scope.ml" 56 1485 1491 "cfg_scope.ml" 58 1571 1615
+)
+"cfg_scope.ml" 56 1485 1495 "cfg_scope.ml" 56 1485 1497
+type(
+  NS.scope
+)
+"cfg_scope.ml" 56 1485 1498 "cfg_scope.ml" 56 1485 1501
+type(
+  string
+)
+"cfg_scope.ml" 56 1485 1495 "cfg_scope.ml" 56 1485 1501
+type(
+  NS.scope * string
+)
+"cfg_scope.ml" 56 1485 1504 "cfg_scope.ml" 56 1485 1532
+type(
+  Cfg.identifier -> NS.scope * string
+)
+ident(
+  ext_ref NS.scope_of_identifier_split
+)
+"cfg_scope.ml" 56 1485 1533 "cfg_scope.ml" 56 1485 1535
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 54 1438 1442 "cfg_scope.ml" 55 1455 1480
+)
+"cfg_scope.ml" 56 1485 1504 "cfg_scope.ml" 56 1485 1535
+type(
+  NS.scope * string
+)
+"cfg_scope.ml" 57 1540 1548 "cfg_scope.ml" 57 1540 1559
+type(
+  NS.scope -> unit NS.cursor -> Log.pos -> unit
+)
+ident(
+  int_ref valid_scope "cfg_scope.ml" 31 683 687 "cfg_scope.ml" 31 683 698
+)
+"cfg_scope.ml" 57 1540 1560 "cfg_scope.ml" 57 1540 1562
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 56 1485 1495 "cfg_scope.ml" 56 1485 1497
+)
+"cfg_scope.ml" 57 1540 1563 "cfg_scope.ml" 57 1540 1565
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+)
+"cfg_scope.ml" 57 1540 1566 "cfg_scope.ml" 57 1540 1569
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 51 1330 1354 "cfg_scope.ml" 51 1330 1357
+)
+"cfg_scope.ml" 57 1540 1548 "cfg_scope.ml" 57 1540 1569
+type(
+  unit
+)
+"cfg_scope.ml" 58 1571 1579 "cfg_scope.ml" 58 1571 1593
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 58 1571 1595 "cfg_scope.ml" 58 1571 1601
+type(
+  string -> unit -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add
+)
+"cfg_scope.ml" 58 1571 1602 "cfg_scope.ml" 58 1571 1605
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 56 1485 1498 "cfg_scope.ml" 56 1485 1501
+)
+"cfg_scope.ml" 58 1571 1606 "cfg_scope.ml" 58 1571 1608
+type(
+  unit
+)
+"cfg_scope.ml" 58 1571 1594 "cfg_scope.ml" 58 1571 1609
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 58 1571 1610 "cfg_scope.ml" 58 1571 1612
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 56 1485 1495 "cfg_scope.ml" 56 1485 1497
+)
+"cfg_scope.ml" 58 1571 1613 "cfg_scope.ml" 58 1571 1615
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+)
+"cfg_scope.ml" 58 1571 1579 "cfg_scope.ml" 58 1571 1615
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 57 1540 1548 "cfg_scope.ml" 58 1571 1615
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 56 1485 1491 "cfg_scope.ml" 58 1571 1615
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 60 1627 1639 "cfg_scope.ml" 60 1627 1640
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 60 1627 1631 "cfg_scope.ml" 60 1627 1640
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1643 "cfg_scope.ml" 60 1627 1651
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1631 "cfg_scope.ml" 60 1627 1651
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1654 "cfg_scope.ml" 60 1627 1661
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1631 "cfg_scope.ml" 60 1627 1661
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1664 "cfg_scope.ml" 60 1627 1672
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1631 "cfg_scope.ml" 60 1627 1672
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1675 "cfg_scope.ml" 60 1627 1684
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1631 "cfg_scope.ml" 60 1627 1684
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 60 1627 1688 "cfg_scope.ml" 60 1627 1690
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+)
+"cfg_scope.ml" 62 1692 1703 "cfg_scope.ml" 62 1692 1706
+type(
+  Cfg.lhs list
+)
+ident(
+  def lst "cfg_scope.ml" 63 1711 1717 "cfg_scope.ml" 63 1711 1778
+)
+"cfg_scope.ml" 62 1692 1696 "cfg_scope.ml" 62 1692 1706
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 63 1711 1717 "cfg_scope.ml" 63 1711 1731
+type(
+  (unit NS.cursor -> Cfg.lhs -> unit NS.cursor) ->
+  unit NS.cursor -> Cfg.lhs list -> unit NS.cursor
+)
+ident(
+  ext_ref List.fold_left
+)
+"cfg_scope.ml" 63 1711 1737 "cfg_scope.ml" 63 1711 1739
+type(
+  unit NS.cursor
+)
+ident(
+  def ns "cfg_scope.ml" 63 1711 1740 "cfg_scope.ml" 63 1711 1770
+)
+"cfg_scope.ml" 63 1711 1740 "cfg_scope.ml" 63 1711 1743
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "cfg_scope.ml" 63 1711 1747 "cfg_scope.ml" 63 1711 1770
+)
+"cfg_scope.ml" 63 1711 1747 "cfg_scope.ml" 63 1711 1759
+type(
+  unit NS.cursor -> Log.pos -> Cfg.lhs -> unit NS.cursor
+)
+ident(
+  int_ref add_constant "cfg_scope.ml" 51 1330 1338 "cfg_scope.ml" 51 1330 1350
+)
+"cfg_scope.ml" 63 1711 1760 "cfg_scope.ml" 63 1711 1762
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 63 1711 1737 "cfg_scope.ml" 63 1711 1739
+)
+"cfg_scope.ml" 63 1711 1763 "cfg_scope.ml" 63 1711 1766
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 51 1330 1354 "cfg_scope.ml" 51 1330 1357
+)
+"cfg_scope.ml" 63 1711 1767 "cfg_scope.ml" 63 1711 1770
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "cfg_scope.ml" 63 1711 1740 "cfg_scope.ml" 63 1711 1743
+)
+"cfg_scope.ml" 63 1711 1747 "cfg_scope.ml" 63 1711 1770
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 63 1711 1732 "cfg_scope.ml" 63 1711 1771
+type(
+  unit NS.cursor -> Cfg.lhs -> unit NS.cursor
+)
+"cfg_scope.ml" 63 1711 1772 "cfg_scope.ml" 63 1711 1774
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+)
+"cfg_scope.ml" 63 1711 1775 "cfg_scope.ml" 63 1711 1778
+type(
+  Cfg.lhs list
+)
+ident(
+  int_ref lst "cfg_scope.ml" 62 1692 1703 "cfg_scope.ml" 62 1692 1706
+)
+"cfg_scope.ml" 63 1711 1717 "cfg_scope.ml" 63 1711 1778
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 64 1779 1790 "cfg_scope.ml" 64 1779 1801
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 64 1779 1789 "cfg_scope.ml" 64 1779 1808
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 64 1779 1812 "cfg_scope.ml" 64 1779 1843
+)
+"cfg_scope.ml" 64 1779 1783 "cfg_scope.ml" 64 1779 1808
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 64 1779 1812 "cfg_scope.ml" 64 1779 1824
+type(
+  unit NS.cursor -> Log.pos -> Cfg.lhs -> unit NS.cursor
+)
+ident(
+  int_ref add_constant "cfg_scope.ml" 51 1330 1338 "cfg_scope.ml" 51 1330 1350
+)
+"cfg_scope.ml" 64 1779 1825 "cfg_scope.ml" 64 1779 1827
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 51 1330 1351 "cfg_scope.ml" 51 1330 1353
+)
+"cfg_scope.ml" 64 1779 1828 "cfg_scope.ml" 64 1779 1831
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 51 1330 1354 "cfg_scope.ml" 51 1330 1357
+)
+"cfg_scope.ml" 64 1779 1833 "cfg_scope.ml" 64 1779 1835
+type(
+  Cfg.lhs
+)
+type(
+  _[< `ID_False
+    | `ID_Nil
+    | `ID_Scope of Cfg.identifier * string
+    | `ID_Self
+    | `ID_True
+    | `ID_UScope of string
+    | `ID_Var of Cfg.var_kind * string
+    | `Star of _[< Cfg.identifier ]
+    | `Tuple of Cfg.lhs list
+    > `ID_False `ID_Nil `ID_Scope `ID_Self `ID_True `ID_UScope `ID_Var ]
+)
+ident(
+  int_ref id "cfg_scope.ml" 64 1779 1789 "cfg_scope.ml" 64 1779 1808
+)
+"cfg_scope.ml" 64 1779 1812 "cfg_scope.ml" 64 1779 1843
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 51 1330 1364 "cfg_scope.ml" 64 1779 1843
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 66 1845 1849 "cfg_scope.ml" 66 1845 1864
+type(
+  Log.pos -> 'a NS.cursor -> NS.scope -> 'a NS.cursor
+)
+ident(
+  def add_parent_link "cfg_scope.ml" 75 2124 2124 --
+)
+"cfg_scope.ml" 66 1845 1865 "cfg_scope.ml" 66 1845 1868
+type(
+  Log.pos
+)
+ident(
+  def pos "cfg_scope.ml" 66 1845 1869 "cfg_scope.ml" 73 2116 2122
+)
+"cfg_scope.ml" 66 1845 1869 "cfg_scope.ml" 66 1845 1871
+type(
+  'a NS.cursor
+)
+ident(
+  def ns "cfg_scope.ml" 66 1845 1872 "cfg_scope.ml" 73 2116 2122
+)
+"cfg_scope.ml" 66 1845 1872 "cfg_scope.ml" 66 1845 1877
+type(
+  NS.scope
+)
+ident(
+  def scope "cfg_scope.ml" 67 1880 1882 "cfg_scope.ml" 73 2116 2122
+)
+"cfg_scope.ml" 68 1886 1894 "cfg_scope.ml" 68 1886 1903
+type(
+  NS.scope
+)
+ident(
+  def abs_scope "cfg_scope.ml" 69 1934 1940 "cfg_scope.ml" 69 1934 1964
+)
+"cfg_scope.ml" 68 1886 1906 "cfg_scope.ml" 68 1886 1921
+type(
+  NS.scope -> 'a NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.lookup_scope
+)
+"cfg_scope.ml" 68 1886 1922 "cfg_scope.ml" 68 1886 1927
+type(
+  NS.scope
+)
+ident(
+  int_ref scope "cfg_scope.ml" 66 1845 1872 "cfg_scope.ml" 66 1845 1877
+)
+"cfg_scope.ml" 68 1886 1928 "cfg_scope.ml" 68 1886 1930
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 66 1845 1869 "cfg_scope.ml" 66 1845 1871
+)
+"cfg_scope.ml" 68 1886 1906 "cfg_scope.ml" 68 1886 1930
+type(
+  NS.scope
+)
+"cfg_scope.ml" 69 1934 1940 "cfg_scope.ml" 69 1934 1951
+type(
+  NS.scope -> 'a NS.cursor -> 'a NS.cursor
+)
+ident(
+  ext_ref NS.add_link
+)
+"cfg_scope.ml" 69 1934 1952 "cfg_scope.ml" 69 1934 1961
+type(
+  NS.scope
+)
+ident(
+  int_ref abs_scope "cfg_scope.ml" 68 1886 1894 "cfg_scope.ml" 68 1886 1903
+)
+"cfg_scope.ml" 69 1934 1962 "cfg_scope.ml" 69 1934 1964
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 66 1845 1869 "cfg_scope.ml" 66 1845 1871
+)
+"cfg_scope.ml" 69 1934 1940 "cfg_scope.ml" 69 1934 1964
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 68 1886 1890 "cfg_scope.ml" 69 1934 1964
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 70 1965 1972 "cfg_scope.ml" 70 1965 1981
+type(
+  exn
+)
+"cfg_scope.ml" 71 1985 1989 "cfg_scope.ml" 71 1985 1996
+type(
+  ?ctx:Log.ctx ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Log.err
+)
+"cfg_scope.ml" 71 1985 1997 "cfg_scope.ml" 71 1985 2058
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"cfg_scope.ml" 72 2060 2067 "cfg_scope.ml" 72 2060 2085
+type(
+  NS.scope -> string
+)
+ident(
+  ext_ref NS.string_of_scope
+)
+"cfg_scope.ml" 72 2060 2086 "cfg_scope.ml" 72 2060 2091
+type(
+  NS.scope
+)
+ident(
+  int_ref scope "cfg_scope.ml" 66 1845 1872 "cfg_scope.ml" 66 1845 1877
+)
+"cfg_scope.ml" 72 2060 2066 "cfg_scope.ml" 72 2060 2092
+type(
+  string
+)
+"cfg_scope.ml" 72 2060 2099 "cfg_scope.ml" 72 2060 2109
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"cfg_scope.ml" 72 2060 2110 "cfg_scope.ml" 72 2060 2113
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 66 1845 1865 "cfg_scope.ml" 66 1845 1868
+)
+"cfg_scope.ml" 72 2060 2098 "cfg_scope.ml" 72 2060 2114
+type(
+  Log.ctx
+)
+"cfg_scope.ml" 71 1985 1989 "cfg_scope.ml" 72 2060 2114
+type(
+  unit
+)
+"cfg_scope.ml" 73 2116 2120 "cfg_scope.ml" 73 2116 2122
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 66 1845 1869 "cfg_scope.ml" 66 1845 1871
+)
+"cfg_scope.ml" 71 1985 1989 "cfg_scope.ml" 73 2116 2122
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 67 1880 1882 "cfg_scope.ml" 73 2116 2122
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 75 2124 2128 "cfg_scope.ml" 75 2124 2140
+type(
+  Log.pos -> 'a NS.cursor -> Cfg.star_expr list -> 'a NS.cursor
+)
+ident(
+  def add_includes "cfg_scope.ml" 88 2556 2556 --
+)
+"cfg_scope.ml" 75 2124 2141 "cfg_scope.ml" 75 2124 2144
+type(
+  Log.pos
+)
+ident(
+  def pos "cfg_scope.ml" 75 2124 2145 "cfg_scope.ml" 86 2541 2554
+)
+"cfg_scope.ml" 75 2124 2145 "cfg_scope.ml" 75 2124 2147
+type(
+  'a NS.cursor
+)
+ident(
+  def ns "cfg_scope.ml" 75 2124 2148 "cfg_scope.ml" 86 2541 2554
+)
+"cfg_scope.ml" 75 2124 2148 "cfg_scope.ml" 75 2124 2152
+type(
+  Cfg.star_expr list
+)
+ident(
+  def incs "cfg_scope.ml" 76 2156 2158 "cfg_scope.ml" 86 2541 2554
+)
+"cfg_scope.ml" 76 2156 2158 "cfg_scope.ml" 76 2156 2172
+type(
+  ('a NS.cursor -> Cfg.star_expr -> 'a NS.cursor) ->
+  'a NS.cursor -> Cfg.star_expr list -> 'a NS.cursor
+)
+ident(
+  ext_ref List.fold_left
+)
+"cfg_scope.ml" 77 2173 2182 "cfg_scope.ml" 77 2173 2184
+type(
+  'a NS.cursor
+)
+ident(
+  def ns "cfg_scope.ml" 77 2173 2185 "cfg_scope.ml" 85 2527 2540
+)
+"cfg_scope.ml" 77 2173 2185 "cfg_scope.ml" 77 2173 2186
+type(
+  Cfg.star_expr
+)
+ident(
+  def e "cfg_scope.ml" 77 2173 2190 "cfg_scope.ml" 85 2527 2540
+)
+"cfg_scope.ml" 77 2173 2196 "cfg_scope.ml" 77 2173 2197
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref e "cfg_scope.ml" 77 2173 2185 "cfg_scope.ml" 77 2173 2186
+)
+"cfg_scope.ml" 78 2203 2221 "cfg_scope.ml" 78 2203 2234
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 78 2203 2235 "cfg_scope.ml" 78 2203 2236
+type(
+  string
+)
+"cfg_scope.ml" 78 2203 2220 "cfg_scope.ml" 78 2203 2237
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 78 2203 2213 "cfg_scope.ml" 78 2203 2237
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 78 2203 2250 "cfg_scope.ml" 78 2203 2251
+type(
+  Cfg.identifier * string
+)
+"cfg_scope.ml" 78 2203 2240 "cfg_scope.ml" 78 2203 2251
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 78 2203 2213 "cfg_scope.ml" 78 2203 2251
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 78 2203 2265 "cfg_scope.ml" 78 2203 2266
+type(
+  string
+)
+"cfg_scope.ml" 78 2203 2254 "cfg_scope.ml" 78 2203 2266
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 78 2203 2212 "cfg_scope.ml" 78 2203 2268
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 78 2203 2212 "cfg_scope.ml" 78 2203 2274
+type(
+  Cfg.star_expr
+)
+ident(
+  def id "cfg_scope.ml" 79 2279 2290 "cfg_scope.ml" 80 2328 2366
+)
+"cfg_scope.ml" 79 2279 2294 "cfg_scope.ml" 79 2279 2296
+type(
+  NS.scope
+)
+"cfg_scope.ml" 79 2279 2299 "cfg_scope.ml" 79 2279 2321
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 79 2279 2322 "cfg_scope.ml" 79 2279 2324
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 78 2203 2212 "cfg_scope.ml" 78 2203 2274
+)
+"cfg_scope.ml" 79 2279 2299 "cfg_scope.ml" 79 2279 2324
+type(
+  NS.scope
+)
+"cfg_scope.ml" 80 2328 2341 "cfg_scope.ml" 80 2328 2356
+type(
+  Log.pos -> 'a NS.cursor -> NS.scope -> 'a NS.cursor
+)
+ident(
+  int_ref add_parent_link "cfg_scope.ml" 66 1845 1849 "cfg_scope.ml" 66 1845 1864
+)
+"cfg_scope.ml" 80 2328 2357 "cfg_scope.ml" 80 2328 2360
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 75 2124 2141 "cfg_scope.ml" 75 2124 2144
+)
+"cfg_scope.ml" 80 2328 2361 "cfg_scope.ml" 80 2328 2363
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 77 2173 2182 "cfg_scope.ml" 77 2173 2184
+)
+"cfg_scope.ml" 80 2328 2364 "cfg_scope.ml" 80 2328 2366
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 79 2279 2294 "cfg_scope.ml" 79 2279 2296
+)
+"cfg_scope.ml" 80 2328 2341 "cfg_scope.ml" 80 2328 2366
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 79 2279 2290 "cfg_scope.ml" 80 2328 2366
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 81 2367 2376 "cfg_scope.ml" 81 2367 2377
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 81 2367 2376 "cfg_scope.ml" 81 2367 2384
+type(
+  Cfg.star_expr
+)
+ident(
+  def arg "cfg_scope.ml" 82 2389 2400 "cfg_scope.ml" 85 2527 2540
+)
+"cfg_scope.ml" 82 2389 2400 "cfg_scope.ml" 82 2389 2407
+type(
+  ?ctx:Log.ctx ->
+  ((Format.formatter -> Cfg.star_expr -> unit) -> Cfg.star_expr -> unit,
+   Format.formatter, unit, unit)
+  format4 ->
+  (Format.formatter -> Cfg.star_expr -> unit) -> Cfg.star_expr -> unit
+)
+ident(
+  ext_ref Log.err
+)
+"cfg_scope.ml" 82 2389 2414 "cfg_scope.ml" 82 2389 2424
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"cfg_scope.ml" 82 2389 2425 "cfg_scope.ml" 82 2389 2428
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 75 2124 2141 "cfg_scope.ml" 75 2124 2144
+)
+"cfg_scope.ml" 82 2389 2413 "cfg_scope.ml" 82 2389 2429
+type(
+  Log.ctx
+)
+"cfg_scope.ml" 83 2430 2443 "cfg_scope.ml" 83 2430 2491
+type(
+  ((Format.formatter -> Cfg.star_expr -> unit) -> Cfg.star_expr -> unit,
+   Format.formatter, unit, unit)
+  format4
+)
+"cfg_scope.ml" 84 2492 2505 "cfg_scope.ml" 84 2492 2521
+type(
+  Format.formatter -> Cfg.star_expr -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.format_star_expr
+)
+"cfg_scope.ml" 84 2492 2522 "cfg_scope.ml" 84 2492 2525
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref arg "cfg_scope.ml" 81 2367 2376 "cfg_scope.ml" 81 2367 2384
+)
+"cfg_scope.ml" 82 2389 2400 "cfg_scope.ml" 84 2492 2525
+type(
+  unit
+)
+"cfg_scope.ml" 85 2527 2538 "cfg_scope.ml" 85 2527 2540
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 77 2173 2182 "cfg_scope.ml" 77 2173 2184
+)
+"cfg_scope.ml" 82 2389 2400 "cfg_scope.ml" 85 2527 2540
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 77 2173 2190 "cfg_scope.ml" 85 2527 2540
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 77 2173 2177 "cfg_scope.ml" 86 2541 2546
+type(
+  'a NS.cursor -> Cfg.star_expr -> 'a NS.cursor
+)
+"cfg_scope.ml" 86 2541 2547 "cfg_scope.ml" 86 2541 2549
+type(
+  'a NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 75 2124 2145 "cfg_scope.ml" 75 2124 2147
+)
+"cfg_scope.ml" 86 2541 2550 "cfg_scope.ml" 86 2541 2554
+type(
+  Cfg.star_expr list
+)
+ident(
+  int_ref incs "cfg_scope.ml" 75 2124 2148 "cfg_scope.ml" 75 2124 2152
+)
+"cfg_scope.ml" 76 2156 2158 "cfg_scope.ml" 86 2541 2554
+type(
+  'a NS.cursor
+)
+"cfg_scope.ml" 88 2556 2560 "cfg_scope.ml" 88 2556 2575
+type(
+  NS.scope -> ([> `ID_Scope of 'a * string | `ID_UScope of string ] as 'a)
+)
+ident(
+  def id_of_abs_scope "cfg_scope.ml" 103 3004 3004 --
+)
+"cfg_scope.ml" 88 2556 2576 "cfg_scope.ml" 88 2556 2578
+type(
+  NS.scope
+)
+ident(
+  def sc "cfg_scope.ml" 89 2582 2584 "cfg_scope.ml" 101 2978 3002
+)
+"cfg_scope.ml" 89 2582 2592 "cfg_scope.ml" 89 2582 2598
+type(
+  ([> `ID_Scope of 'b * string ] as 'b) -> string list -> 'b
+)
+"cfg_scope.ml" 89 2582 2599 "cfg_scope.ml" 89 2582 2602
+type(
+  'b
+)
+ident(
+  def acc "cfg_scope.ml" 89 2582 2605 "cfg_scope.ml" 93 2676 2712
+)
+"cfg_scope.ml" 90 2614 2620 "cfg_scope.ml" 90 2614 2622
+type(
+  string list
+)
+"cfg_scope.ml" 90 2614 2626 "cfg_scope.ml" 90 2614 2629
+type(
+  'b
+)
+ident(
+  int_ref acc "cfg_scope.ml" 89 2582 2599 "cfg_scope.ml" 89 2582 2602
+)
+"cfg_scope.ml" 91 2630 2636 "cfg_scope.ml" 91 2630 2637
+type(
+  string
+)
+ident(
+  def x "cfg_scope.ml" 92 2646 2654 "cfg_scope.ml" 93 2676 2712
+)
+"cfg_scope.ml" 91 2630 2639 "cfg_scope.ml" 91 2630 2641
+type(
+  string list
+)
+ident(
+  def xs "cfg_scope.ml" 92 2646 2654 "cfg_scope.ml" 93 2676 2712
+)
+"cfg_scope.ml" 91 2630 2636 "cfg_scope.ml" 91 2630 2641
+type(
+  string list
+)
+"cfg_scope.ml" 92 2646 2661 "cfg_scope.ml" 92 2646 2671
+type(
+  string -> bool
+)
+ident(
+  ext_ref Utils.is_capital
+)
+"cfg_scope.ml" 92 2646 2672 "cfg_scope.ml" 92 2646 2673
+type(
+  string
+)
+ident(
+  int_ref x "cfg_scope.ml" 91 2630 2636 "cfg_scope.ml" 91 2630 2637
+)
+"cfg_scope.ml" 92 2646 2660 "cfg_scope.ml" 92 2646 2674
+type(
+  bool
+)
+"cfg_scope.ml" 92 2646 2654 "cfg_scope.ml" 92 2646 2674
+type(
+  unit
+)
+"cfg_scope.ml" 93 2676 2684 "cfg_scope.ml" 93 2676 2690
+type(
+  'b -> string list -> 'b
+)
+ident(
+  int_ref helper "cfg_scope.ml" 89 2582 2592 "cfg_scope.ml" 89 2582 2598
+)
+"cfg_scope.ml" 93 2676 2702 "cfg_scope.ml" 93 2676 2705
+type(
+  'b
+)
+ident(
+  int_ref acc "cfg_scope.ml" 89 2582 2599 "cfg_scope.ml" 89 2582 2602
+)
+"cfg_scope.ml" 93 2676 2706 "cfg_scope.ml" 93 2676 2707
+type(
+  string
+)
+ident(
+  int_ref x "cfg_scope.ml" 91 2630 2636 "cfg_scope.ml" 91 2630 2637
+)
+"cfg_scope.ml" 93 2676 2701 "cfg_scope.ml" 93 2676 2708
+type(
+  'b * string
+)
+"cfg_scope.ml" 93 2676 2691 "cfg_scope.ml" 93 2676 2709
+type(
+  'b
+)
+"cfg_scope.ml" 93 2676 2710 "cfg_scope.ml" 93 2676 2712
+type(
+  string list
+)
+ident(
+  int_ref xs "cfg_scope.ml" 91 2630 2639 "cfg_scope.ml" 91 2630 2641
+)
+"cfg_scope.ml" 93 2676 2684 "cfg_scope.ml" 93 2676 2712
+type(
+  'b
+)
+"cfg_scope.ml" 92 2646 2654 "cfg_scope.ml" 93 2676 2712
+type(
+  'b
+)
+"cfg_scope.ml" 89 2582 2605 "cfg_scope.ml" 93 2676 2712
+type(
+  string list -> 'b
+)
+"cfg_scope.ml" 94 2713 2724 "cfg_scope.ml" 94 2713 2726
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 88 2556 2576 "cfg_scope.ml" 88 2556 2578
+)
+"cfg_scope.ml" 95 2732 2756 "cfg_scope.ml" 95 2732 2757
+type(
+  string list
+)
+"cfg_scope.ml" 95 2732 2738 "cfg_scope.ml" 95 2732 2757
+type(
+  NS.scope
+)
+"cfg_scope.ml" 96 2762 2770 "cfg_scope.ml" 96 2762 2779
+type(
+  Log.ctx -> ('a, Format.formatter, unit, 'a) format4 -> 'a
+)
+ident(
+  ext_ref Log.fatal
+)
+"cfg_scope.ml" 96 2762 2780 "cfg_scope.ml" 96 2762 2789
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"cfg_scope.ml" 96 2762 2790 "cfg_scope.ml" 96 2762 2832
+type(
+  ('a, Format.formatter, unit, 'a) format4
+)
+"cfg_scope.ml" 96 2762 2770 "cfg_scope.ml" 96 2762 2832
+type(
+  'a
+)
+"cfg_scope.ml" 97 2834 2858 "cfg_scope.ml" 97 2834 2860
+type(
+  string list
+)
+"cfg_scope.ml" 97 2834 2840 "cfg_scope.ml" 97 2834 2860
+type(
+  NS.scope
+)
+"cfg_scope.ml" 97 2834 2864 "cfg_scope.ml" 97 2834 2876
+type(
+  'a
+)
+"cfg_scope.ml" 98 2877 2902 "cfg_scope.ml" 98 2877 2903
+type(
+  string
+)
+ident(
+  def x "cfg_scope.ml" 99 2913 2921 "cfg_scope.ml" 101 2978 3002
+)
+"cfg_scope.ml" 98 2877 2905 "cfg_scope.ml" 98 2877 2907
+type(
+  string list
+)
+ident(
+  def tl "cfg_scope.ml" 99 2913 2921 "cfg_scope.ml" 101 2978 3002
+)
+"cfg_scope.ml" 98 2877 2901 "cfg_scope.ml" 98 2877 2908
+type(
+  string list
+)
+"cfg_scope.ml" 98 2877 2883 "cfg_scope.ml" 98 2877 2908
+type(
+  NS.scope
+)
+"cfg_scope.ml" 99 2913 2928 "cfg_scope.ml" 99 2913 2938
+type(
+  string -> bool
+)
+ident(
+  ext_ref Utils.is_capital
+)
+"cfg_scope.ml" 99 2913 2939 "cfg_scope.ml" 99 2913 2940
+type(
+  string
+)
+ident(
+  int_ref x "cfg_scope.ml" 98 2877 2902 "cfg_scope.ml" 98 2877 2903
+)
+"cfg_scope.ml" 99 2913 2927 "cfg_scope.ml" 99 2913 2941
+type(
+  bool
+)
+"cfg_scope.ml" 99 2913 2921 "cfg_scope.ml" 99 2913 2941
+type(
+  unit
+)
+"cfg_scope.ml" 100 2943 2955 "cfg_scope.ml" 100 2943 2959
+type(
+  [> `ID_UScope of string ]
+)
+"cfg_scope.ml" 100 2943 2973 "cfg_scope.ml" 100 2943 2974
+type(
+  string
+)
+ident(
+  int_ref x "cfg_scope.ml" 98 2877 2902 "cfg_scope.ml" 98 2877 2903
+)
+"cfg_scope.ml" 100 2943 2962 "cfg_scope.ml" 100 2943 2974
+type(
+  [> `ID_UScope of string ] as 'c
+)
+"cfg_scope.ml" 101 2978 2988 "cfg_scope.ml" 101 2978 2994
+type(
+  'a -> string list -> 'a
+)
+ident(
+  int_ref helper "cfg_scope.ml" 89 2582 2592 "cfg_scope.ml" 89 2582 2598
+)
+"cfg_scope.ml" 101 2978 2995 "cfg_scope.ml" 101 2978 2999
+type(
+  'a
+)
+ident(
+  int_ref root "cfg_scope.ml" 100 2943 2955 "cfg_scope.ml" 100 2943 2959
+)
+"cfg_scope.ml" 101 2978 3000 "cfg_scope.ml" 101 2978 3002
+type(
+  string list
+)
+ident(
+  int_ref tl "cfg_scope.ml" 98 2877 2905 "cfg_scope.ml" 98 2877 2907
+)
+"cfg_scope.ml" 101 2978 2988 "cfg_scope.ml" 101 2978 3002
+type(
+  'a
+)
+"cfg_scope.ml" 100 2943 2951 "cfg_scope.ml" 101 2978 3002
+type(
+  'a
+)
+"cfg_scope.ml" 99 2913 2921 "cfg_scope.ml" 101 2978 3002
+type(
+  'a
+)
+"cfg_scope.ml" 94 2713 2718 "cfg_scope.ml" 101 2978 3002
+type(
+  'a
+)
+"cfg_scope.ml" 89 2582 2584 "cfg_scope.ml" 101 2978 3002
+type(
+  'a
+)
+"cfg_scope.ml" 103 3004 3008 "cfg_scope.ml" 103 3004 3022
+type(
+  'a -> unit NS.cursor -> NS.scope list -> string -> NS.scope
+)
+ident(
+  def lexical_lookup "cfg_scope.ml" 116 3472 3472 --
+)
+"cfg_scope.ml" 103 3004 3023 "cfg_scope.ml" 103 3004 3026
+type(
+  'a
+)
+ident(
+  def pos "cfg_scope.ml" 103 3004 3027 "cfg_scope.ml" 114 3448 3470
+)
+"cfg_scope.ml" 103 3004 3027 "cfg_scope.ml" 103 3004 3031
+type(
+  unit NS.cursor
+)
+ident(
+  def curs "cfg_scope.ml" 103 3004 3032 "cfg_scope.ml" 114 3448 3470
+)
+"cfg_scope.ml" 103 3004 3032 "cfg_scope.ml" 103 3004 3042
+type(
+  NS.scope list
+)
+ident(
+  def lex_scopes "cfg_scope.ml" 103 3004 3043 "cfg_scope.ml" 114 3448 3470
+)
+"cfg_scope.ml" 103 3004 3043 "cfg_scope.ml" 103 3004 3046
+type(
+  string
+)
+ident(
+  def str "cfg_scope.ml" 104 3050 3052 "cfg_scope.ml" 114 3448 3470
+)
+"cfg_scope.ml" 104 3050 3058 "cfg_scope.ml" 104 3050 3071
+type(
+  string -> unit NS.cursor -> unit option
+)
+ident(
+  ext_ref NS.find_local
+)
+"cfg_scope.ml" 104 3050 3072 "cfg_scope.ml" 104 3050 3075
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 103 3004 3043 "cfg_scope.ml" 103 3004 3046
+)
+"cfg_scope.ml" 104 3050 3076 "cfg_scope.ml" 104 3050 3080
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs "cfg_scope.ml" 103 3004 3027 "cfg_scope.ml" 103 3004 3031
+)
+"cfg_scope.ml" 104 3050 3058 "cfg_scope.ml" 104 3050 3080
+type(
+  unit option
+)
+"cfg_scope.ml" 105 3086 3097 "cfg_scope.ml" 105 3086 3099
+type(
+  unit
+)
+"cfg_scope.ml" 105 3086 3092 "cfg_scope.ml" 105 3086 3099
+type(
+  unit option
+)
+"cfg_scope.ml" 105 3086 3103 "cfg_scope.ml" 105 3086 3119
+type(
+  unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.current_scope
+)
+"cfg_scope.ml" 105 3086 3121 "cfg_scope.ml" 105 3086 3135
+type(
+  string -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.enter_scope
+)
+"cfg_scope.ml" 105 3086 3136 "cfg_scope.ml" 105 3086 3139
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 103 3004 3043 "cfg_scope.ml" 103 3004 3046
+)
+"cfg_scope.ml" 105 3086 3140 "cfg_scope.ml" 105 3086 3144
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs "cfg_scope.ml" 103 3004 3027 "cfg_scope.ml" 103 3004 3031
+)
+"cfg_scope.ml" 105 3086 3120 "cfg_scope.ml" 105 3086 3145
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 105 3086 3103 "cfg_scope.ml" 105 3086 3145
+type(
+  NS.scope
+)
+"cfg_scope.ml" 106 3146 3152 "cfg_scope.ml" 106 3146 3156
+type(
+  unit option
+)
+"cfg_scope.ml" 107 3161 3169 "cfg_scope.ml" 107 3161 3177
+type(
+  (NS.scope -> NS.scope) -> NS.scope list -> NS.scope
+)
+ident(
+  ext_ref Utils.try_each
+)
+"cfg_scope.ml" 108 3178 3193 "cfg_scope.ml" 108 3178 3198
+type(
+  NS.scope
+)
+ident(
+  def scope "cfg_scope.ml" 109 3203 3216 "cfg_scope.ml" 113 3405 3447
+)
+"cfg_scope.ml" 109 3203 3220 "cfg_scope.ml" 109 3203 3225
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 109 3203 3228 "cfg_scope.ml" 109 3203 3244
+type(
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.move_to_scope
+)
+"cfg_scope.ml" 109 3203 3245 "cfg_scope.ml" 109 3203 3250
+type(
+  NS.scope
+)
+ident(
+  int_ref scope "cfg_scope.ml" 108 3178 3193 "cfg_scope.ml" 108 3178 3198
+)
+"cfg_scope.ml" 109 3203 3251 "cfg_scope.ml" 109 3203 3255
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs "cfg_scope.ml" 103 3004 3027 "cfg_scope.ml" 103 3004 3031
+)
+"cfg_scope.ml" 109 3203 3228 "cfg_scope.ml" 109 3203 3255
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 110 3259 3280 "cfg_scope.ml" 110 3259 3293
+type(
+  string -> unit NS.cursor -> unit option
+)
+ident(
+  ext_ref NS.find_local
+)
+"cfg_scope.ml" 110 3259 3294 "cfg_scope.ml" 110 3259 3297
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 103 3004 3043 "cfg_scope.ml" 103 3004 3046
+)
+"cfg_scope.ml" 110 3259 3298 "cfg_scope.ml" 110 3259 3303
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs' "cfg_scope.ml" 109 3203 3220 "cfg_scope.ml" 109 3203 3225
+)
+"cfg_scope.ml" 110 3259 3280 "cfg_scope.ml" 110 3259 3303
+type(
+  unit option
+)
+"cfg_scope.ml" 111 3309 3333 "cfg_scope.ml" 111 3309 3335
+type(
+  unit
+)
+"cfg_scope.ml" 111 3309 3328 "cfg_scope.ml" 111 3309 3335
+type(
+  unit option
+)
+"cfg_scope.ml" 112 3340 3361 "cfg_scope.ml" 112 3340 3377
+type(
+  unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.current_scope
+)
+"cfg_scope.ml" 112 3340 3379 "cfg_scope.ml" 112 3340 3393
+type(
+  string -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.enter_scope
+)
+"cfg_scope.ml" 112 3340 3394 "cfg_scope.ml" 112 3340 3397
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 103 3004 3043 "cfg_scope.ml" 103 3004 3046
+)
+"cfg_scope.ml" 112 3340 3398 "cfg_scope.ml" 112 3340 3403
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs' "cfg_scope.ml" 109 3203 3220 "cfg_scope.ml" 109 3203 3225
+)
+"cfg_scope.ml" 112 3340 3378 "cfg_scope.ml" 112 3340 3404
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 112 3340 3361 "cfg_scope.ml" 112 3340 3404
+type(
+  NS.scope
+)
+"cfg_scope.ml" 113 3405 3424 "cfg_scope.ml" 113 3405 3428
+type(
+  unit option
+)
+"cfg_scope.ml" 113 3405 3432 "cfg_scope.ml" 113 3405 3437
+type(
+  exn -> NS.scope
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"cfg_scope.ml" 113 3405 3438 "cfg_scope.ml" 113 3405 3447
+type(
+  exn
+)
+"cfg_scope.ml" 113 3405 3432 "cfg_scope.ml" 113 3405 3447
+type(
+  NS.scope
+)
+"cfg_scope.ml" 110 3259 3274 "cfg_scope.ml" 113 3405 3447
+type(
+  NS.scope
+)
+"cfg_scope.ml" 109 3203 3216 "cfg_scope.ml" 113 3405 3447
+type(
+  NS.scope
+)
+"cfg_scope.ml" 108 3178 3188 "cfg_scope.ml" 114 3448 3459
+type(
+  NS.scope -> NS.scope
+)
+"cfg_scope.ml" 114 3448 3460 "cfg_scope.ml" 114 3448 3470
+type(
+  NS.scope list
+)
+ident(
+  int_ref lex_scopes "cfg_scope.ml" 103 3004 3032 "cfg_scope.ml" 103 3004 3042
+)
+"cfg_scope.ml" 107 3161 3169 "cfg_scope.ml" 114 3448 3470
+type(
+  NS.scope
+)
+"cfg_scope.ml" 104 3050 3052 "cfg_scope.ml" 114 3448 3470
+type(
+  NS.scope
+)
+"cfg_scope.ml" 116 3472 3476 "cfg_scope.ml" 116 3472 3486
+type(
+  Log.pos ->
+  env ->
+  NS.scope ->
+  ([> `ID_Scope of 'a * string | `ID_UScope of string ] as 'a) option
+)
+ident(
+  def find_scope "cfg_scope.ml" 131 4154 4154 --
+)
+"cfg_scope.ml" 116 3472 3487 "cfg_scope.ml" 116 3472 3490
+type(
+  Log.pos
+)
+ident(
+  def pos "cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 129 4144 4152
+)
+"cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 116 3472 3494
+type(
+  env
+)
+ident(
+  def env "cfg_scope.ml" 116 3472 3495 "cfg_scope.ml" 129 4144 4152
+)
+"cfg_scope.ml" 116 3472 3495 "cfg_scope.ml" 116 3472 3497
+type(
+  NS.scope
+)
+ident(
+  def sc "cfg_scope.ml" 117 3501 3503 "cfg_scope.ml" 129 4144 4152
+)
+"cfg_scope.ml" 117 3501 3519 "cfg_scope.ml" 117 3501 3521
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 116 3472 3495 "cfg_scope.ml" 116 3472 3497
+)
+"cfg_scope.ml" 118 3527 3551 "cfg_scope.ml" 118 3527 3552
+type(
+  string list
+)
+"cfg_scope.ml" 118 3527 3533 "cfg_scope.ml" 118 3527 3552
+type(
+  NS.scope
+)
+"cfg_scope.ml" 118 3527 3562 "cfg_scope.ml" 118 3527 3577
+type(
+  NS.scope -> 'a
+)
+ident(
+  int_ref id_of_abs_scope "cfg_scope.ml" 88 2556 2560 "cfg_scope.ml" 88 2556 2575
+)
+"cfg_scope.ml" 118 3527 3579 "cfg_scope.ml" 118 3527 3594
+type(
+  NS.scope -> unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.lookup_scope
+)
+"cfg_scope.ml" 118 3527 3595 "cfg_scope.ml" 118 3527 3597
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 116 3472 3495 "cfg_scope.ml" 116 3472 3497
+)
+"cfg_scope.ml" 118 3527 3598 "cfg_scope.ml" 118 3527 3601
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 116 3472 3494
+)
+"cfg_scope.ml" 118 3527 3598 "cfg_scope.ml" 118 3527 3606
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 118 3527 3578 "cfg_scope.ml" 118 3527 3607
+type(
+  NS.scope
+)
+"cfg_scope.ml" 118 3527 3561 "cfg_scope.ml" 118 3527 3608
+type(
+  'a
+)
+"cfg_scope.ml" 118 3527 3556 "cfg_scope.ml" 118 3527 3608
+type(
+  'a option
+)
+"cfg_scope.ml" 119 3609 3633 "cfg_scope.ml" 119 3609 3635
+type(
+  string list
+)
+"cfg_scope.ml" 119 3609 3615 "cfg_scope.ml" 119 3609 3635
+type(
+  NS.scope
+)
+"cfg_scope.ml" 119 3609 3639 "cfg_scope.ml" 119 3609 3651
+type(
+  'a option
+)
+"cfg_scope.ml" 120 3652 3677 "cfg_scope.ml" 120 3652 3678
+type(
+  string
+)
+ident(
+  def x "cfg_scope.ml" 121 3687 3695 "cfg_scope.ml" 124 3887 3929
+)
+"cfg_scope.ml" 120 3652 3680 "cfg_scope.ml" 120 3652 3682
+type(
+  string list
+)
+ident(
+  def xs "cfg_scope.ml" 121 3687 3695 "cfg_scope.ml" 124 3887 3929
+)
+"cfg_scope.ml" 120 3652 3676 "cfg_scope.ml" 120 3652 3683
+type(
+  string list
+)
+"cfg_scope.ml" 120 3652 3658 "cfg_scope.ml" 120 3652 3683
+type(
+  NS.scope
+)
+"cfg_scope.ml" 121 3687 3699 "cfg_scope.ml" 121 3687 3705
+type(
+  NS.scope
+)
+"cfg_scope.ml" 121 3687 3708 "cfg_scope.ml" 121 3687 3722
+type(
+  Log.pos -> unit NS.cursor -> NS.scope list -> string -> NS.scope
+)
+ident(
+  int_ref lexical_lookup "cfg_scope.ml" 103 3004 3008 "cfg_scope.ml" 103 3004 3022
+)
+"cfg_scope.ml" 121 3687 3723 "cfg_scope.ml" 121 3687 3726
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 116 3472 3487 "cfg_scope.ml" 116 3472 3490
+)
+"cfg_scope.ml" 121 3687 3727 "cfg_scope.ml" 121 3687 3730
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 116 3472 3494
+)
+"cfg_scope.ml" 121 3687 3727 "cfg_scope.ml" 121 3687 3735
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 121 3687 3736 "cfg_scope.ml" 121 3687 3739
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 116 3472 3494
+)
+"cfg_scope.ml" 121 3687 3736 "cfg_scope.ml" 121 3687 3749
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 121 3687 3750 "cfg_scope.ml" 121 3687 3751
+type(
+  string
+)
+ident(
+  int_ref x "cfg_scope.ml" 120 3652 3677 "cfg_scope.ml" 120 3652 3678
+)
+"cfg_scope.ml" 121 3687 3708 "cfg_scope.ml" 121 3687 3751
+type(
+  NS.scope
+)
+"cfg_scope.ml" 122 3755 3767 "cfg_scope.ml" 122 3755 3777
+type(
+  NS.scope
+)
+"cfg_scope.ml" 122 3755 3780 "cfg_scope.ml" 122 3755 3794
+type(
+  (NS.scope -> string -> NS.scope) -> NS.scope -> string list -> NS.scope
+)
+ident(
+  ext_ref List.fold_left
+)
+"cfg_scope.ml" 122 3755 3795 "cfg_scope.ml" 122 3755 3810
+type(
+  NS.scope -> string -> NS.scope
+)
+ident(
+  ext_ref NS.append_scope
+)
+"cfg_scope.ml" 122 3755 3811 "cfg_scope.ml" 122 3755 3817
+type(
+  NS.scope
+)
+ident(
+  int_ref lscope "cfg_scope.ml" 121 3687 3699 "cfg_scope.ml" 121 3687 3705
+)
+"cfg_scope.ml" 122 3755 3818 "cfg_scope.ml" 122 3755 3820
+type(
+  string list
+)
+ident(
+  int_ref xs "cfg_scope.ml" 120 3652 3680 "cfg_scope.ml" 120 3652 3682
+)
+"cfg_scope.ml" 122 3755 3780 "cfg_scope.ml" 122 3755 3820
+type(
+  NS.scope
+)
+"cfg_scope.ml" 123 3824 3836 "cfg_scope.ml" 123 3824 3845
+type(
+  NS.scope
+)
+"cfg_scope.ml" 123 3824 3848 "cfg_scope.ml" 123 3824 3863
+type(
+  NS.scope -> unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.lookup_scope
+)
+"cfg_scope.ml" 123 3824 3864 "cfg_scope.ml" 123 3824 3874
+type(
+  NS.scope
+)
+ident(
+  int_ref full_scope "cfg_scope.ml" 122 3755 3767 "cfg_scope.ml" 122 3755 3777
+)
+"cfg_scope.ml" 123 3824 3875 "cfg_scope.ml" 123 3824 3878
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 116 3472 3494
+)
+"cfg_scope.ml" 123 3824 3875 "cfg_scope.ml" 123 3824 3883
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 123 3824 3848 "cfg_scope.ml" 123 3824 3883
+type(
+  NS.scope
+)
+"cfg_scope.ml" 124 3887 3903 "cfg_scope.ml" 124 3887 3918
+type(
+  NS.scope -> 'a
+)
+ident(
+  int_ref id_of_abs_scope "cfg_scope.ml" 88 2556 2560 "cfg_scope.ml" 88 2556 2575
+)
+"cfg_scope.ml" 124 3887 3919 "cfg_scope.ml" 124 3887 3928
+type(
+  NS.scope
+)
+ident(
+  int_ref abs_scope "cfg_scope.ml" 123 3824 3836 "cfg_scope.ml" 123 3824 3845
+)
+"cfg_scope.ml" 124 3887 3902 "cfg_scope.ml" 124 3887 3929
+type(
+  'a
+)
+"cfg_scope.ml" 124 3887 3897 "cfg_scope.ml" 124 3887 3929
+type(
+  'a option
+)
+"cfg_scope.ml" 123 3824 3832 "cfg_scope.ml" 124 3887 3929
+type(
+  'a option
+)
+"cfg_scope.ml" 122 3755 3763 "cfg_scope.ml" 124 3887 3929
+type(
+  'a option
+)
+"cfg_scope.ml" 121 3687 3695 "cfg_scope.ml" 124 3887 3929
+type(
+  'a option
+)
+"cfg_scope.ml" 117 3501 3507 "cfg_scope.ml" 125 3930 3935
+type(
+  'a option
+)
+"cfg_scope.ml" 125 3930 3941 "cfg_scope.ml" 125 3930 3950
+type(
+  exn
+)
+"cfg_scope.ml" 126 3955 3959 "cfg_scope.ml" 126 3955 3966
+type(
+  ?ctx:Log.ctx ->
+  (string -> string -> unit, Format.formatter, unit, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Log.err
+)
+"cfg_scope.ml" 126 3955 3973 "cfg_scope.ml" 126 3955 3983
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"cfg_scope.ml" 126 3955 3984 "cfg_scope.ml" 126 3955 3987
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 116 3472 3487 "cfg_scope.ml" 116 3472 3490
+)
+"cfg_scope.ml" 126 3955 3972 "cfg_scope.ml" 126 3955 3988
+type(
+  Log.ctx
+)
+"cfg_scope.ml" 127 3989 3995 "cfg_scope.ml" 127 3989 4062
+type(
+  (string -> string -> unit, Format.formatter, unit, unit) format4
+)
+"cfg_scope.ml" 128 4064 4071 "cfg_scope.ml" 128 4064 4089
+type(
+  NS.scope -> string
+)
+ident(
+  ext_ref NS.string_of_scope
+)
+"cfg_scope.ml" 128 4064 4090 "cfg_scope.ml" 128 4064 4092
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 116 3472 3495 "cfg_scope.ml" 116 3472 3497
+)
+"cfg_scope.ml" 128 4064 4070 "cfg_scope.ml" 128 4064 4093
+type(
+  string
+)
+"cfg_scope.ml" 128 4064 4095 "cfg_scope.ml" 128 4064 4113
+type(
+  NS.scope -> string
+)
+ident(
+  ext_ref NS.string_of_scope
+)
+"cfg_scope.ml" 128 4064 4115 "cfg_scope.ml" 128 4064 4131
+type(
+  unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.current_scope
+)
+"cfg_scope.ml" 128 4064 4132 "cfg_scope.ml" 128 4064 4135
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 116 3472 3491 "cfg_scope.ml" 116 3472 3494
+)
+"cfg_scope.ml" 128 4064 4132 "cfg_scope.ml" 128 4064 4140
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 128 4064 4114 "cfg_scope.ml" 128 4064 4141
+type(
+  NS.scope
+)
+"cfg_scope.ml" 128 4064 4094 "cfg_scope.ml" 128 4064 4142
+type(
+  string
+)
+"cfg_scope.ml" 126 3955 3959 "cfg_scope.ml" 128 4064 4142
+type(
+  unit
+)
+"cfg_scope.ml" 129 4144 4148 "cfg_scope.ml" 129 4144 4152
+type(
+  'a option
+)
+"cfg_scope.ml" 126 3955 3959 "cfg_scope.ml" 129 4144 4152
+type(
+  'a option
+)
+"cfg_scope.ml" 117 3501 3503 "cfg_scope.ml" 129 4144 4152
+type(
+  'a option
+)
+"cfg_scope.ml" 141 4328 4354 "cfg_scope.ml" 141 4328 4360
+type(
+  File_loader.t
+)
+"cfg_scope.ml" 141 4328 4361 "cfg_scope.ml" 141 4328 4362
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 142 4382 4388 "cfg_scope.ml" 142 4382 4394
+type(
+  < get_cursor : unit NS.cursor; get_entry : (string, unit) Hashtbl.t;
+    visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"cfg_scope.ml" 145 4435 4456 "cfg_scope.ml" 145 4435 4457
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref c "cfg_scope.ml" 141 4328 4361 "cfg_scope.ml" 141 4328 4362
+)
+"cfg_scope.ml" 146 4458 4480 "cfg_scope.ml" 146 4458 4484
+type(
+  unit NS.cursor
+)
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 147 4485 4505 "cfg_scope.ml" 147 4485 4519
+type(
+  int -> (string, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"cfg_scope.ml" 147 4485 4520 "cfg_scope.ml" 147 4485 4523
+type(
+  int
+)
+"cfg_scope.ml" 147 4485 4505 "cfg_scope.ml" 147 4485 4523
+type(
+  (string, unit) Hashtbl.t
+)
+"cfg_scope.ml" 148 4524 4545 "cfg_scope.ml" 148 4524 4556
+type(
+  (string, unit) Hashtbl.t
+)
+type(
+  (string, unit) Hashtbl.t
+)
+"cfg_scope.ml" 149 4557 4582 "cfg_scope.ml" 149 4557 4593
+type(
+  Utils.StrSet.elt
+)
+"cfg_scope.ml" 150 4594 4621 "cfg_scope.ml" 150 4594 4633
+type(
+  Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.empty
+)
+"cfg_scope.ml" 151 4634 4655 "cfg_scope.ml" 151 4634 4659
+type(
+  Cfg.pos option
+)
+"cfg_scope.ml" 153 4661 4688 "cfg_scope.ml" 153 4661 4691
+type(
+  Log.pos
+)
+ident(
+  def pos "cfg_scope.ml" 153 4661 4692 "cfg_scope.ml" 176 5393 5421
+)
+"cfg_scope.ml" 153 4661 4692 "cfg_scope.ml" 153 4661 4695
+type(
+  Cfg.star_expr
+)
+ident(
+  def arg "cfg_scope.ml" 153 4661 4696 "cfg_scope.ml" 176 5393 5421
+)
+"cfg_scope.ml" 153 4661 4696 "cfg_scope.ml" 153 4661 4698
+type(
+  [ `Load | `Require ]
+)
+ident(
+  def rl "cfg_scope.ml" 154 4701 4705 "cfg_scope.ml" 176 5393 5421
+)
+"cfg_scope.ml" 154 4701 4709 "cfg_scope.ml" 154 4701 4722
+type(
+  ('a -> 'b -> 'c) -> 'a -> 'b -> Utils.StrSet.elt -> unit
+)
+"cfg_scope.ml" 154 4701 4723 "cfg_scope.ml" 154 4701 4724
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "cfg_scope.ml" 154 4701 4725 "cfg_scope.ml" 167 5082 5105
+)
+"cfg_scope.ml" 154 4701 4725 "cfg_scope.ml" 154 4701 4729
+type(
+  'a
+)
+ident(
+  def vtor "cfg_scope.ml" 154 4701 4730 "cfg_scope.ml" 167 5082 5105
+)
+"cfg_scope.ml" 154 4701 4730 "cfg_scope.ml" 154 4701 4731
+type(
+  'b
+)
+ident(
+  def x "cfg_scope.ml" 154 4701 4732 "cfg_scope.ml" 167 5082 5105
+)
+"cfg_scope.ml" 154 4701 4732 "cfg_scope.ml" 154 4701 4736
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def name "cfg_scope.ml" 155 4739 4745 "cfg_scope.ml" 167 5082 5105
+)
+"cfg_scope.ml" 155 4739 4759 "cfg_scope.ml" 155 4739 4769
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.add
+)
+"cfg_scope.ml" 155 4739 4770 "cfg_scope.ml" 155 4739 4774
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref name "cfg_scope.ml" 154 4701 4732 "cfg_scope.ml" 154 4701 4736
+)
+"cfg_scope.ml" 155 4739 4775 "cfg_scope.ml" 155 4739 4785
+type(
+  Utils.StrSet.t
+)
+"cfg_scope.ml" 155 4739 4759 "cfg_scope.ml" 155 4739 4785
+type(
+  Utils.StrSet.t
+)
+"cfg_scope.ml" 155 4739 4745 "cfg_scope.ml" 155 4739 4785
+type(
+  unit
+)
+"cfg_scope.ml" 156 4787 4797 "cfg_scope.ml" 156 4787 4803
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 157 4806 4814 "cfg_scope.ml" 157 4806 4828
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 158 4829 4844 "cfg_scope.ml" 158 4829 4850
+type(
+  unit NS.cursor
+)
+ident(
+  def cursor "cfg_scope.ml" 159 4854 4867 "cfg_scope.ml" 164 5028 5047
+)
+"cfg_scope.ml" 159 4854 4871 "cfg_scope.ml" 159 4854 4879
+type(
+  Utils.StrSet.elt
+)
+"cfg_scope.ml" 159 4854 4882 "cfg_scope.ml" 159 4854 4890
+type(
+  Utils.StrSet.elt
+)
+"cfg_scope.ml" 160 4894 4917 "cfg_scope.ml" 160 4894 4923
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 158 4829 4844 "cfg_scope.ml" 158 4829 4850
+)
+"cfg_scope.ml" 160 4894 4909 "cfg_scope.ml" 160 4894 4923
+type(
+  unit
+)
+"cfg_scope.ml" 161 4925 4952 "cfg_scope.ml" 161 4925 4956
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref name "cfg_scope.ml" 154 4701 4732 "cfg_scope.ml" 154 4701 4736
+)
+"cfg_scope.ml" 161 4925 4940 "cfg_scope.ml" 161 4925 4956
+type(
+  unit
+)
+"cfg_scope.ml" 162 4958 4973 "cfg_scope.ml" 162 4958 4979
+type(
+  'c -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 162 4958 4980 "cfg_scope.ml" 162 4958 4981
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "cfg_scope.ml" 154 4701 4723 "cfg_scope.ml" 154 4701 4724
+)
+"cfg_scope.ml" 162 4958 4982 "cfg_scope.ml" 162 4958 4986
+type(
+  'a
+)
+ident(
+  int_ref vtor "cfg_scope.ml" 154 4701 4725 "cfg_scope.ml" 154 4701 4729
+)
+"cfg_scope.ml" 162 4958 4987 "cfg_scope.ml" 162 4958 4988
+type(
+  'b
+)
+ident(
+  int_ref x "cfg_scope.ml" 154 4701 4730 "cfg_scope.ml" 154 4701 4731
+)
+"cfg_scope.ml" 162 4958 4979 "cfg_scope.ml" 162 4958 4989
+type(
+  'c
+)
+"cfg_scope.ml" 162 4958 4973 "cfg_scope.ml" 162 4958 4989
+type(
+  unit
+)
+"cfg_scope.ml" 163 4991 5018 "cfg_scope.ml" 163 4991 5026
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref old_file "cfg_scope.ml" 159 4854 4871 "cfg_scope.ml" 159 4854 4879
+)
+"cfg_scope.ml" 163 4991 5006 "cfg_scope.ml" 163 4991 5026
+type(
+  unit
+)
+"cfg_scope.ml" 164 5028 5043 "cfg_scope.ml" 164 5028 5047
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 163 4991 5006 "cfg_scope.ml" 164 5028 5047
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 162 4958 4973 "cfg_scope.ml" 164 5028 5047
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 161 4925 4940 "cfg_scope.ml" 164 5028 5047
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 160 4894 4909 "cfg_scope.ml" 164 5028 5047
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 159 4854 4867 "cfg_scope.ml" 164 5028 5047
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 158 4829 4839 "cfg_scope.ml" 165 5048 5059
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 165 5048 5060 "cfg_scope.ml" 165 5048 5067
+type(
+  NS.scope
+)
+ident(
+  ext_ref NS.root
+)
+"cfg_scope.ml" 165 5048 5068 "cfg_scope.ml" 165 5048 5072
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 157 4806 4814 "cfg_scope.ml" 165 5048 5072
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 167 5082 5098 "cfg_scope.ml" 167 5082 5104
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 156 4787 4797 "cfg_scope.ml" 156 4787 4803
+)
+"cfg_scope.ml" 167 5082 5090 "cfg_scope.ml" 167 5082 5105
+type(
+  unit
+)
+"cfg_scope.ml" 156 4787 4793 "cfg_scope.ml" 167 5082 5105
+type(
+  unit
+)
+"cfg_scope.ml" 155 4739 4745 "cfg_scope.ml" 167 5082 5105
+type(
+  unit
+)
+"cfg_scope.ml" 169 5113 5123 "cfg_scope.ml" 169 5113 5126
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref arg "cfg_scope.ml" 153 4661 4692 "cfg_scope.ml" 153 4661 4695
+)
+"cfg_scope.ml" 170 5132 5150 "cfg_scope.ml" 170 5132 5155
+type(
+  string
+)
+ident(
+  def fname "cfg_scope.ml" 171 5159 5167 "cfg_scope.ml" 173 5298 5309
+)
+"cfg_scope.ml" 170 5132 5138 "cfg_scope.ml" 170 5132 5155
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 171 5159 5167 "cfg_scope.ml" 171 5159 5176
+type(
+  Utils.StrSet.t ->
+  File_loader.t ->
+  string ->
+  [ `Load | `Require ] ->
+  Log.pos -> (Utils.StrSet.elt -> Cfg.stmt -> unit) -> unit
+)
+ident(
+  int_ref load_file "cfg_scope.ml" 38 872 876 "cfg_scope.ml" 38 872 885
+)
+"cfg_scope.ml" 171 5159 5177 "cfg_scope.ml" 171 5159 5187
+type(
+  Utils.StrSet.t
+)
+"cfg_scope.ml" 171 5159 5188 "cfg_scope.ml" 171 5159 5194
+type(
+  File_loader.t
+)
+"cfg_scope.ml" 171 5159 5195 "cfg_scope.ml" 171 5159 5200
+type(
+  string
+)
+ident(
+  int_ref fname "cfg_scope.ml" 170 5132 5150 "cfg_scope.ml" 170 5132 5155
+)
+"cfg_scope.ml" 171 5159 5201 "cfg_scope.ml" 171 5159 5203
+type(
+  [ `Load | `Require ]
+)
+ident(
+  int_ref rl "cfg_scope.ml" 153 4661 4696 "cfg_scope.ml" 153 4661 4698
+)
+"cfg_scope.ml" 171 5159 5204 "cfg_scope.ml" 171 5159 5207
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 153 4661 4688 "cfg_scope.ml" 153 4661 4691
+)
+"cfg_scope.ml" 171 5159 5218 "cfg_scope.ml" 171 5159 5222
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def name "cfg_scope.ml" 171 5159 5223 "cfg_scope.ml" 172 5232 5297
+)
+"cfg_scope.ml" 171 5159 5223 "cfg_scope.ml" 171 5159 5227
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 172 5232 5242 "cfg_scope.ml" 172 5232 5297
+)
+"cfg_scope.ml" 172 5232 5242 "cfg_scope.ml" 172 5232 5255
+type(
+  (Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt) ->
+  Cfg.cfg_visitor -> Cfg.stmt -> Utils.StrSet.elt -> unit
+)
+ident(
+  int_ref visit_at_root "cfg_scope.ml" 154 4701 4709 "cfg_scope.ml" 154 4701 4722
+)
+"cfg_scope.ml" 172 5232 5256 "cfg_scope.ml" 172 5232 5266
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 172 5232 5268 "cfg_scope.ml" 172 5232 5272
+type(
+  Cfg.cfg_visitor
+)
+type(
+  < get_cursor : unit NS.cursor; get_entry : (string, unit) Hashtbl.t;
+    visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+  as 'd
+)
+"cfg_scope.ml" 172 5232 5287 "cfg_scope.ml" 172 5232 5291
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 171 5159 5223 "cfg_scope.ml" 171 5159 5227
+)
+"cfg_scope.ml" 172 5232 5292 "cfg_scope.ml" 172 5232 5296
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref name "cfg_scope.ml" 171 5159 5218 "cfg_scope.ml" 171 5159 5222
+)
+"cfg_scope.ml" 172 5232 5242 "cfg_scope.ml" 172 5232 5297
+type(
+  unit
+)
+"cfg_scope.ml" 171 5159 5208 "cfg_scope.ml" 173 5298 5309
+type(
+  Utils.StrSet.elt -> Cfg.stmt -> unit
+)
+"cfg_scope.ml" 171 5159 5167 "cfg_scope.ml" 173 5298 5309
+type(
+  unit
+)
+"cfg_scope.ml" 174 5311 5317 "cfg_scope.ml" 174 5311 5318
+type(
+  Cfg.star_expr
+)
+ident(
+  def e "cfg_scope.ml" 175 5323 5331 "cfg_scope.ml" 176 5393 5421
+)
+"cfg_scope.ml" 175 5323 5331 "cfg_scope.ml" 175 5323 5338
+type(
+  ?ctx:Log.ctx ->
+  ((Format.formatter -> Cfg.star_expr -> unit) -> Cfg.star_expr -> unit,
+   Format.formatter, unit, unit)
+  format4 ->
+  (Format.formatter -> Cfg.star_expr -> unit) -> Cfg.star_expr -> unit
+)
+ident(
+  ext_ref Log.err
+)
+"cfg_scope.ml" 175 5323 5345 "cfg_scope.ml" 175 5323 5355
+type(
+  Log.pos -> Log.ctx
+)
+ident(
+  ext_ref Log.of_loc
+)
+"cfg_scope.ml" 175 5323 5356 "cfg_scope.ml" 175 5323 5359
+type(
+  Log.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 153 4661 4688 "cfg_scope.ml" 153 4661 4691
+)
+"cfg_scope.ml" 175 5323 5344 "cfg_scope.ml" 175 5323 5360
+type(
+  Log.ctx
+)
+"cfg_scope.ml" 175 5323 5361 "cfg_scope.ml" 175 5323 5392
+type(
+  ((Format.formatter -> Cfg.star_expr -> unit) -> Cfg.star_expr -> unit,
+   Format.formatter, unit, unit)
+  format4
+)
+"cfg_scope.ml" 176 5393 5403 "cfg_scope.ml" 176 5393 5419
+type(
+  Format.formatter -> Cfg.star_expr -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.format_star_expr
+)
+"cfg_scope.ml" 176 5393 5420 "cfg_scope.ml" 176 5393 5421
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref e "cfg_scope.ml" 174 5311 5317 "cfg_scope.ml" 174 5311 5318
+)
+"cfg_scope.ml" 175 5323 5331 "cfg_scope.ml" 176 5393 5421
+type(
+  unit
+)
+"cfg_scope.ml" 169 5113 5117 "cfg_scope.ml" 176 5393 5421
+type(
+  unit
+)
+"cfg_scope.ml" 154 4701 4705 "cfg_scope.ml" 176 5393 5421
+type(
+  unit
+)
+"cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 179 5451 5455 "cfg_scope.ml" 282 9667 9688
+)
+"cfg_scope.ml" 179 5451 5468 "cfg_scope.ml" 179 5451 5472
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 179 5451 5468 "cfg_scope.ml" 179 5451 5476
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 179 5451 5463 "cfg_scope.ml" 179 5451 5476
+type(
+  Cfg.pos option
+)
+"cfg_scope.ml" 179 5451 5455 "cfg_scope.ml" 179 5451 5476
+type(
+  unit
+)
+"cfg_scope.ml" 180 5478 5488 "cfg_scope.ml" 180 5478 5492
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 180 5478 5488 "cfg_scope.ml" 180 5478 5498
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 181 5504 5523 "cfg_scope.ml" 181 5504 5528
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+)
+"cfg_scope.ml" 181 5504 5557 "cfg_scope.ml" 181 5504 5566
+type(
+  string
+)
+"cfg_scope.ml" 181 5504 5567 "cfg_scope.ml" 181 5504 5573
+type(
+  string
+)
+"cfg_scope.ml" 181 5504 5557 "cfg_scope.ml" 181 5504 5573
+type(
+  string
+)
+"cfg_scope.ml" 181 5504 5556 "cfg_scope.ml" 181 5504 5579
+type(
+  string
+)
+ident(
+  def m "cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+)
+"cfg_scope.ml" 181 5504 5541 "cfg_scope.ml" 181 5504 5579
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 182 5581 5619 "cfg_scope.ml" 182 5581 5623
+type(
+  Cfg.star_expr
+)
+ident(
+  def file "cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+)
+"cfg_scope.ml" 182 5581 5625 "cfg_scope.ml" 182 5581 5626
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 182 5581 5619 "cfg_scope.ml" 182 5581 5626
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 183 5628 5664 "cfg_scope.ml" 183 5628 5668
+type(
+  Cfg.codeblock option
+)
+"cfg_scope.ml" 181 5504 5529 "cfg_scope.ml" 183 5628 5670
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 181 5504 5512 "cfg_scope.ml" 183 5628 5671
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 184 5672 5691 "cfg_scope.ml" 184 5672 5696
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+)
+"cfg_scope.ml" 184 5672 5725 "cfg_scope.ml" 184 5672 5739
+type(
+  string
+)
+"cfg_scope.ml" 184 5672 5740 "cfg_scope.ml" 184 5672 5751
+type(
+  string
+)
+"cfg_scope.ml" 184 5672 5725 "cfg_scope.ml" 184 5672 5751
+type(
+  string
+)
+"cfg_scope.ml" 184 5672 5724 "cfg_scope.ml" 184 5672 5757
+type(
+  string
+)
+ident(
+  def m "cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+)
+"cfg_scope.ml" 184 5672 5709 "cfg_scope.ml" 184 5672 5757
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 185 5759 5797 "cfg_scope.ml" 185 5759 5798
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 185 5759 5800 "cfg_scope.ml" 185 5759 5804
+type(
+  Cfg.star_expr
+)
+ident(
+  def file "cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+)
+"cfg_scope.ml" 185 5759 5806 "cfg_scope.ml" 185 5759 5807
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 185 5759 5800 "cfg_scope.ml" 185 5759 5807
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 185 5759 5797 "cfg_scope.ml" 185 5759 5807
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 186 5809 5845 "cfg_scope.ml" 186 5809 5849
+type(
+  Cfg.codeblock option
+)
+"cfg_scope.ml" 184 5672 5697 "cfg_scope.ml" 186 5809 5851
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 184 5672 5680 "cfg_scope.ml" 186 5809 5852
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 181 5504 5512 "cfg_scope.ml" 186 5809 5852
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 187 5856 5870 "cfg_scope.ml" 187 5856 5872
+type(
+  [> `Load | `Require ]
+)
+"cfg_scope.ml" 187 5856 5878 "cfg_scope.ml" 187 5856 5879
+type(
+  string
+)
+ident(
+  int_ref m "cfg_scope.ml" 181 5504 5556 "cfg_scope.ml" 181 5504 5579
+)
+"cfg_scope.ml" 187 5856 5880 "cfg_scope.ml" 187 5856 5881
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"cfg_scope.ml" 187 5856 5882 "cfg_scope.ml" 187 5856 5896
+type(
+  string
+)
+"cfg_scope.ml" 187 5856 5878 "cfg_scope.ml" 187 5856 5896
+type(
+  bool
+)
+"cfg_scope.ml" 187 5856 5897 "cfg_scope.ml" 187 5856 5899
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"cfg_scope.ml" 187 5856 5900 "cfg_scope.ml" 187 5856 5901
+type(
+  string
+)
+ident(
+  int_ref m "cfg_scope.ml" 181 5504 5556 "cfg_scope.ml" 181 5504 5579
+)
+"cfg_scope.ml" 187 5856 5902 "cfg_scope.ml" 187 5856 5903
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"cfg_scope.ml" 187 5856 5904 "cfg_scope.ml" 187 5856 5913
+type(
+  string
+)
+"cfg_scope.ml" 187 5856 5900 "cfg_scope.ml" 187 5856 5913
+type(
+  bool
+)
+"cfg_scope.ml" 187 5856 5878 "cfg_scope.ml" 187 5856 5913
+type(
+  bool
+)
+"cfg_scope.ml" 187 5856 5919 "cfg_scope.ml" 187 5856 5927
+type(
+  [> `Load | `Require ] as 'e
+)
+"cfg_scope.ml" 187 5856 5933 "cfg_scope.ml" 187 5856 5938
+type(
+  'e
+)
+"cfg_scope.ml" 187 5856 5875 "cfg_scope.ml" 187 5856 5938
+type(
+  'e
+)
+"cfg_scope.ml" 188 5942 5954 "cfg_scope.ml" 188 5942 5958
+type(
+  'd
+)
+"cfg_scope.ml" 188 5942 5954 "cfg_scope.ml" 188 5942 5968
+type(
+  Log.pos -> Cfg.star_expr -> [ `Load | `Require ] -> unit
+)
+"cfg_scope.ml" 188 5942 5969 "cfg_scope.ml" 188 5942 5973
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 188 5942 5969 "cfg_scope.ml" 188 5942 5977
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 188 5942 5978 "cfg_scope.ml" 188 5942 5982
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref file "cfg_scope.ml" 182 5581 5619 "cfg_scope.ml" 182 5581 5623
+)
+"cfg_scope.ml" 188 5942 5983 "cfg_scope.ml" 188 5942 5985
+type(
+  [ `Load | `Require ]
+)
+ident(
+  int_ref rl "cfg_scope.ml" 187 5856 5870 "cfg_scope.ml" 187 5856 5872
+)
+"cfg_scope.ml" 188 5942 5954 "cfg_scope.ml" 188 5942 5985
+type(
+  unit
+)
+"cfg_scope.ml" 189 5987 5999 "cfg_scope.ml" 189 5987 6009
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 188 5942 5954 "cfg_scope.ml" 189 5987 6009
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 187 5856 5866 "cfg_scope.ml" 189 5987 6009
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 191 6011 6044 "cfg_scope.ml" 191 6011 6054
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 191 6011 6055 "cfg_scope.ml" 191 6011 6058
+type(
+  string
+)
+ident(
+  def var "cfg_scope.ml" 195 6225 6260 "cfg_scope.ml" 197 6328 6350
+)
+"cfg_scope.ml" 191 6011 6043 "cfg_scope.ml" 191 6011 6059
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 191 6011 6035 "cfg_scope.ml" 191 6011 6060
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 191 6011 6030 "cfg_scope.ml" 191 6011 6060
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 192 6062 6112 "cfg_scope.ml" 192 6062 6113
+type(
+  string
+)
+ident(
+  def s "cfg_scope.ml" 195 6225 6260 "cfg_scope.ml" 197 6328 6350
+)
+"cfg_scope.ml" 192 6062 6099 "cfg_scope.ml" 192 6062 6114
+type(
+  Cfg.expr
+)
+"cfg_scope.ml" 192 6062 6094 "cfg_scope.ml" 192 6062 6114
+type(
+  Cfg.expr option
+)
+"cfg_scope.ml" 193 6116 6158 "cfg_scope.ml" 193 6116 6163
+type(
+  Cfg.binary_op
+)
+"cfg_scope.ml" 193 6116 6145 "cfg_scope.ml" 193 6116 6163
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 194 6165 6204 "cfg_scope.ml" 194 6165 6216
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 194 6165 6217 "cfg_scope.ml" 194 6165 6221
+type(
+  string
+)
+"cfg_scope.ml" 194 6165 6203 "cfg_scope.ml" 194 6165 6222
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 194 6165 6196 "cfg_scope.ml" 194 6165 6222
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 194 6165 6195 "cfg_scope.ml" 194 6165 6223
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 195 6225 6253 "cfg_scope.ml" 195 6225 6257
+type(
+  Cfg.codeblock option
+)
+"cfg_scope.ml" 192 6062 6081 "cfg_scope.ml" 195 6225 6258
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 191 6011 6019 "cfg_scope.ml" 195 6225 6259
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 195 6225 6265 "cfg_scope.ml" 195 6225 6269
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"cfg_scope.ml" 195 6225 6265 "cfg_scope.ml" 195 6225 6282
+type(
+  bool
+)
+"cfg_scope.ml" 196 6286 6296 "cfg_scope.ml" 196 6286 6307
+type(
+  (string, unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"cfg_scope.ml" 196 6286 6308 "cfg_scope.ml" 196 6286 6319
+type(
+  (string, unit) Hashtbl.t
+)
+"cfg_scope.ml" 196 6286 6320 "cfg_scope.ml" 196 6286 6323
+type(
+  string
+)
+ident(
+  int_ref var "cfg_scope.ml" 191 6011 6055 "cfg_scope.ml" 191 6011 6058
+)
+"cfg_scope.ml" 196 6286 6324 "cfg_scope.ml" 196 6286 6326
+type(
+  unit
+)
+"cfg_scope.ml" 196 6286 6296 "cfg_scope.ml" 196 6286 6326
+type(
+  unit
+)
+"cfg_scope.ml" 197 6328 6338 "cfg_scope.ml" 197 6328 6350
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 196 6286 6296 "cfg_scope.ml" 197 6328 6350
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 195 6225 6260 "cfg_scope.ml" 197 6328 6350
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 199 6366 6383 "cfg_scope.ml" 199 6366 6384
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 199 6366 6398 "cfg_scope.ml" 199 6366 6402
+type(
+  Cfg.expr option
+)
+"cfg_scope.ml" 199 6366 6427 "cfg_scope.ml" 199 6366 6436
+type(
+  string
+)
+"cfg_scope.ml" 199 6366 6412 "cfg_scope.ml" 199 6366 6436
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 200 6438 6468 "cfg_scope.ml" 200 6438 6472
+type(
+  Cfg.star_expr list
+)
+ident(
+  def args "cfg_scope.ml" 201 6492 6500 "cfg_scope.ml" 202 6541 6559
+)
+"cfg_scope.ml" 200 6438 6481 "cfg_scope.ml" 200 6438 6485
+type(
+  Cfg.codeblock option
+)
+"cfg_scope.ml" 199 6366 6385 "cfg_scope.ml" 200 6438 6486
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 199 6366 6372 "cfg_scope.ml" 200 6438 6487
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 201 6492 6508 "cfg_scope.ml" 201 6492 6520
+type(
+  Log.pos -> unit NS.cursor -> Cfg.star_expr list -> unit NS.cursor
+)
+ident(
+  int_ref add_includes "cfg_scope.ml" 75 2124 2128 "cfg_scope.ml" 75 2124 2140
+)
+"cfg_scope.ml" 201 6492 6521 "cfg_scope.ml" 201 6492 6525
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 201 6492 6521 "cfg_scope.ml" 201 6492 6529
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 201 6492 6530 "cfg_scope.ml" 201 6492 6534
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 201 6492 6535 "cfg_scope.ml" 201 6492 6539
+type(
+  Cfg.star_expr list
+)
+ident(
+  int_ref args "cfg_scope.ml" 200 6438 6468 "cfg_scope.ml" 200 6438 6472
+)
+"cfg_scope.ml" 201 6492 6508 "cfg_scope.ml" 201 6492 6539
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 201 6492 6500 "cfg_scope.ml" 201 6492 6539
+type(
+  unit
+)
+"cfg_scope.ml" 202 6541 6549 "cfg_scope.ml" 202 6541 6559
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 201 6492 6500 "cfg_scope.ml" 202 6541 6559
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 204 6561 6578 "cfg_scope.ml" 204 6561 6579
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 204 6561 6607 "cfg_scope.ml" 204 6561 6618
+type(
+  string
+)
+"cfg_scope.ml" 204 6561 6592 "cfg_scope.ml" 204 6561 6618
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 205 6620 6650 "cfg_scope.ml" 205 6620 6653
+type(
+  string
+)
+ident(
+  def lhs "cfg_scope.ml" 206 6687 6695 "cfg_scope.ml" 212 6967 6987
+)
+"cfg_scope.ml" 205 6620 6640 "cfg_scope.ml" 205 6620 6653
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 205 6620 6666 "cfg_scope.ml" 205 6620 6669
+type(
+  string
+)
+ident(
+  def lhs "cfg_scope.ml" 206 6687 6695 "cfg_scope.ml" 212 6967 6987
+)
+"cfg_scope.ml" 205 6620 6654 "cfg_scope.ml" 205 6620 6669
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 205 6620 6639 "cfg_scope.ml" 205 6620 6670
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 205 6620 6671 "cfg_scope.ml" 205 6620 6672
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 205 6620 6638 "cfg_scope.ml" 205 6620 6673
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 204 6561 6582 "cfg_scope.ml" 205 6620 6674
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 204 6561 6581 "cfg_scope.ml" 205 6620 6681
+type(
+  Cfg.method_call
+)
+ident(
+  def mc "cfg_scope.ml" 206 6687 6695 "cfg_scope.ml" 212 6967 6987
+)
+"cfg_scope.ml" 204 6561 6567 "cfg_scope.ml" 205 6620 6682
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 206 6687 6699 "cfg_scope.ml" 206 6687 6704
+type(
+  [> `ID_Scope of [> Cfg.identifier ] * string
+   | `ID_Var of [> `Var_Constant ] * string ]
+)
+"cfg_scope.ml" 206 6687 6713 "cfg_scope.ml" 206 6687 6715
+type(
+  Cfg.method_call
+)
+ident(
+  int_ref mc "cfg_scope.ml" 204 6561 6581 "cfg_scope.ml" 205 6620 6681
+)
+"cfg_scope.ml" 206 6687 6713 "cfg_scope.ml" 206 6687 6725
+type(
+  Cfg.expr option
+)
+"cfg_scope.ml" 207 6731 6743 "cfg_scope.ml" 207 6731 6747
+type(
+  Cfg.expr option
+)
+"cfg_scope.ml" 207 6731 6759 "cfg_scope.ml" 207 6731 6772
+type(
+  [> `Var_Constant ] as 'f
+)
+"cfg_scope.ml" 207 6731 6773 "cfg_scope.ml" 207 6731 6776
+type(
+  string
+)
+ident(
+  int_ref lhs "cfg_scope.ml" 205 6620 6650 "cfg_scope.ml" 205 6620 6653
+)
+"cfg_scope.ml" 207 6731 6758 "cfg_scope.ml" 207 6731 6777
+type(
+  'f * string
+)
+"cfg_scope.ml" 207 6731 6751 "cfg_scope.ml" 207 6731 6777
+type(
+  [> `ID_Scope of [> Cfg.identifier ] * string | `ID_Var of 'f * string ]
+  as 'g
+)
+"cfg_scope.ml" 208 6778 6796 "cfg_scope.ml" 208 6778 6807
+type(
+  Cfg.expr
+)
+"cfg_scope.ml" 208 6778 6795 "cfg_scope.ml" 208 6778 6813
+type(
+  Cfg.expr
+)
+ident(
+  def e "cfg_scope.ml" 208 6778 6817 "cfg_scope.ml" 208 6778 6833
+)
+"cfg_scope.ml" 208 6778 6790 "cfg_scope.ml" 208 6778 6813
+type(
+  Cfg.expr option
+)
+"cfg_scope.ml" 208 6778 6827 "cfg_scope.ml" 208 6778 6828
+type(
+  [> Cfg.identifier ] as 'h
+)
+ident(
+  int_ref e "cfg_scope.ml" 208 6778 6795 "cfg_scope.ml" 208 6778 6813
+)
+"cfg_scope.ml" 208 6778 6829 "cfg_scope.ml" 208 6778 6832
+type(
+  string
+)
+ident(
+  int_ref lhs "cfg_scope.ml" 205 6620 6650 "cfg_scope.ml" 205 6620 6653
+)
+"cfg_scope.ml" 208 6778 6826 "cfg_scope.ml" 208 6778 6833
+type(
+  'h * string
+)
+"cfg_scope.ml" 208 6778 6817 "cfg_scope.ml" 208 6778 6833
+type(
+  'g
+)
+"cfg_scope.ml" 209 6834 6846 "cfg_scope.ml" 209 6834 6847
+type(
+  Cfg.expr option
+)
+"cfg_scope.ml" 209 6834 6851 "cfg_scope.ml" 209 6834 6860
+type(
+  Log.ctx -> ('g, Format.formatter, unit, 'g) format4 -> 'g
+)
+ident(
+  ext_ref Log.fatal
+)
+"cfg_scope.ml" 209 6834 6861 "cfg_scope.ml" 209 6834 6870
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"cfg_scope.ml" 209 6834 6871 "cfg_scope.ml" 209 6834 6903
+type(
+  ('g, Format.formatter, unit, 'g) format4
+)
+"cfg_scope.ml" 209 6834 6851 "cfg_scope.ml" 209 6834 6903
+type(
+  'g
+)
+"cfg_scope.ml" 206 6687 6707 "cfg_scope.ml" 209 6834 6903
+type(
+  'g
+)
+"cfg_scope.ml" 211 6915 6933 "cfg_scope.ml" 211 6915 6945
+type(
+  unit NS.cursor -> Log.pos -> Cfg.lhs -> unit NS.cursor
+)
+ident(
+  int_ref add_constant "cfg_scope.ml" 51 1330 1338 "cfg_scope.ml" 51 1330 1350
+)
+"cfg_scope.ml" 211 6915 6946 "cfg_scope.ml" 211 6915 6950
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 211 6915 6951 "cfg_scope.ml" 211 6915 6955
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 211 6915 6951 "cfg_scope.ml" 211 6915 6959
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 211 6915 6960 "cfg_scope.ml" 211 6915 6965
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref const "cfg_scope.ml" 206 6687 6699 "cfg_scope.ml" 206 6687 6704
+)
+"cfg_scope.ml" 211 6915 6933 "cfg_scope.ml" 211 6915 6965
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 211 6915 6925 "cfg_scope.ml" 211 6915 6965
+type(
+  unit
+)
+"cfg_scope.ml" 212 6967 6977 "cfg_scope.ml" 212 6967 6987
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 211 6915 6925 "cfg_scope.ml" 212 6967 6987
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 206 6687 6695 "cfg_scope.ml" 212 6967 6987
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 214 6999 7016 "cfg_scope.ml" 214 6999 7026
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 214 6999 7027 "cfg_scope.ml" 214 6999 7030
+type(
+  string
+)
+ident(
+  def var "cfg_scope.ml" 215 7042 7050 "cfg_scope.ml" 217 7129 7152
+)
+"cfg_scope.ml" 214 6999 7015 "cfg_scope.ml" 214 6999 7031
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 214 6999 7008 "cfg_scope.ml" 214 6999 7031
+type(
+  Cfg.expr
+)
+"cfg_scope.ml" 214 6999 7033 "cfg_scope.ml" 214 6999 7034
+type(
+  Cfg.stmt
+)
+ident(
+  def t "cfg_scope.ml" 215 7042 7050 "cfg_scope.ml" 217 7129 7152
+)
+"cfg_scope.ml" 214 6999 7036 "cfg_scope.ml" 214 6999 7037
+type(
+  Cfg.stmt
+)
+ident(
+  def f "cfg_scope.ml" 215 7042 7050 "cfg_scope.ml" 217 7129 7152
+)
+"cfg_scope.ml" 214 6999 7005 "cfg_scope.ml" 214 6999 7038
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 215 7042 7053 "cfg_scope.ml" 215 7042 7057
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"cfg_scope.ml" 215 7042 7053 "cfg_scope.ml" 215 7042 7070
+type(
+  bool
+)
+"cfg_scope.ml" 215 7042 7071 "cfg_scope.ml" 215 7042 7073
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 215 7042 7074 "cfg_scope.ml" 215 7042 7085
+type(
+  (string, unit) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"cfg_scope.ml" 215 7042 7086 "cfg_scope.ml" 215 7042 7097
+type(
+  (string, unit) Hashtbl.t
+)
+"cfg_scope.ml" 215 7042 7098 "cfg_scope.ml" 215 7042 7101
+type(
+  string
+)
+ident(
+  int_ref var "cfg_scope.ml" 214 6999 7027 "cfg_scope.ml" 214 6999 7030
+)
+"cfg_scope.ml" 215 7042 7074 "cfg_scope.ml" 215 7042 7101
+type(
+  bool
+)
+"cfg_scope.ml" 215 7042 7053 "cfg_scope.ml" 215 7042 7101
+type(
+  bool
+)
+"cfg_scope.ml" 216 7103 7116 "cfg_scope.ml" 216 7103 7128
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 217 7129 7142 "cfg_scope.ml" 217 7129 7152
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 215 7042 7050 "cfg_scope.ml" 217 7129 7152
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 219 7154 7170 "cfg_scope.ml" 219 7154 7175
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 220 7208 7216 "cfg_scope.ml" 242 8204 8226
+)
+"cfg_scope.ml" 219 7154 7190 "cfg_scope.ml" 219 7154 7192
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 220 7208 7216 "cfg_scope.ml" 242 8204 8226
+)
+"cfg_scope.ml" 219 7154 7193 "cfg_scope.ml" 219 7154 7196
+type(
+  Cfg.identifier option
+)
+ident(
+  def inh "cfg_scope.ml" 220 7208 7216 "cfg_scope.ml" 242 8204 8226
+)
+"cfg_scope.ml" 219 7154 7177 "cfg_scope.ml" 219 7154 7197
+type(
+  Cfg.class_kind
+)
+"cfg_scope.ml" 219 7154 7199 "cfg_scope.ml" 219 7154 7203
+type(
+  Cfg.stmt
+)
+ident(
+  def body "cfg_scope.ml" 220 7208 7216 "cfg_scope.ml" 242 8204 8226
+)
+"cfg_scope.ml" 219 7154 7160 "cfg_scope.ml" 219 7154 7204
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 220 7208 7220 "cfg_scope.ml" 220 7208 7222
+type(
+  NS.scope
+)
+"cfg_scope.ml" 220 7208 7223 "cfg_scope.ml" 220 7208 7226
+type(
+  string
+)
+"cfg_scope.ml" 220 7208 7220 "cfg_scope.ml" 220 7208 7226
+type(
+  NS.scope * string
+)
+"cfg_scope.ml" 220 7208 7229 "cfg_scope.ml" 220 7208 7257
+type(
+  Cfg.identifier -> NS.scope * string
+)
+ident(
+  ext_ref NS.scope_of_identifier_split
+)
+"cfg_scope.ml" 220 7208 7258 "cfg_scope.ml" 220 7208 7260
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 219 7154 7190 "cfg_scope.ml" 219 7154 7192
+)
+"cfg_scope.ml" 220 7208 7229 "cfg_scope.ml" 220 7208 7260
+type(
+  NS.scope * string
+)
+"cfg_scope.ml" 221 7264 7276 "cfg_scope.ml" 221 7264 7278
+type(
+  unit
+)
+"cfg_scope.ml" 221 7264 7281 "cfg_scope.ml" 221 7264 7292
+type(
+  NS.scope -> unit NS.cursor -> Log.pos -> unit
+)
+ident(
+  int_ref valid_scope "cfg_scope.ml" 31 683 687 "cfg_scope.ml" 31 683 698
+)
+"cfg_scope.ml" 221 7264 7293 "cfg_scope.ml" 221 7264 7295
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 220 7208 7220 "cfg_scope.ml" 220 7208 7222
+)
+"cfg_scope.ml" 221 7264 7296 "cfg_scope.ml" 221 7264 7300
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 221 7264 7301 "cfg_scope.ml" 221 7264 7305
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 221 7264 7301 "cfg_scope.ml" 221 7264 7309
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 221 7264 7281 "cfg_scope.ml" 221 7264 7309
+type(
+  unit
+)
+"cfg_scope.ml" 222 7313 7325 "cfg_scope.ml" 222 7313 7331
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 223 7335 7345 "cfg_scope.ml" 223 7335 7359
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 224 7360 7377 "cfg_scope.ml" 224 7360 7383
+type(
+  unit NS.cursor
+)
+ident(
+  def cursor "cfg_scope.ml" 225 7388 7403 "cfg_scope.ml" 237 8012 8054
+)
+"cfg_scope.ml" 225 7388 7407 "cfg_scope.ml" 225 7388 7419
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 225 7388 7422 "cfg_scope.ml" 225 7388 7428
+type(
+  string -> unit -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add
+)
+"cfg_scope.ml" 225 7388 7429 "cfg_scope.ml" 225 7388 7432
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 220 7208 7223 "cfg_scope.ml" 220 7208 7226
+)
+"cfg_scope.ml" 225 7388 7433 "cfg_scope.ml" 225 7388 7435
+type(
+  unit
+)
+"cfg_scope.ml" 225 7388 7436 "cfg_scope.ml" 225 7388 7442
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 224 7360 7377 "cfg_scope.ml" 224 7360 7383
+)
+"cfg_scope.ml" 225 7388 7422 "cfg_scope.ml" 225 7388 7442
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 226 7446 7465 "cfg_scope.ml" 226 7446 7473
+type(
+  NS.scope
+)
+"cfg_scope.ml" 226 7446 7495 "cfg_scope.ml" 226 7446 7498
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 220 7208 7223 "cfg_scope.ml" 220 7208 7226
+)
+"cfg_scope.ml" 226 7446 7494 "cfg_scope.ml" 226 7446 7499
+type(
+  string list
+)
+"cfg_scope.ml" 226 7446 7476 "cfg_scope.ml" 226 7446 7499
+type(
+  NS.scope
+)
+"cfg_scope.ml" 227 7503 7520 "cfg_scope.ml" 227 7503 7534
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 228 7535 7559 "cfg_scope.ml" 228 7535 7565
+type(
+  unit NS.cursor
+)
+ident(
+  def cursor "cfg_scope.ml" 229 7570 7592 "cfg_scope.ml" 236 7983 8011
+)
+"cfg_scope.ml" 229 7570 7596 "cfg_scope.ml" 229 7570 7602
+type(
+  NS.scope
+)
+"cfg_scope.ml" 229 7570 7611 "cfg_scope.ml" 229 7570 7614
+type(
+  Cfg.identifier option
+)
+ident(
+  int_ref inh "cfg_scope.ml" 219 7154 7193 "cfg_scope.ml" 219 7154 7196
+)
+"cfg_scope.ml" 230 7620 7646 "cfg_scope.ml" 230 7620 7650
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 230 7620 7673 "cfg_scope.ml" 230 7620 7681
+type(
+  string
+)
+"cfg_scope.ml" 230 7620 7672 "cfg_scope.ml" 230 7620 7682
+type(
+  string list
+)
+"cfg_scope.ml" 230 7620 7654 "cfg_scope.ml" 230 7620 7682
+type(
+  NS.scope
+)
+"cfg_scope.ml" 231 7683 7714 "cfg_scope.ml" 231 7683 7722
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 231 7683 7709 "cfg_scope.ml" 231 7683 7722
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 231 7683 7726 "cfg_scope.ml" 231 7683 7742
+type(
+  unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.current_scope
+)
+"cfg_scope.ml" 231 7683 7743 "cfg_scope.ml" 231 7683 7755
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref outer_cursor "cfg_scope.ml" 225 7388 7407 "cfg_scope.ml" 225 7388 7419
+)
+"cfg_scope.ml" 231 7683 7726 "cfg_scope.ml" 231 7683 7755
+type(
+  NS.scope
+)
+"cfg_scope.ml" 232 7756 7787 "cfg_scope.ml" 232 7756 7788
+type(
+  Cfg.identifier
+)
+ident(
+  def e "cfg_scope.ml" 232 7756 7792 "cfg_scope.ml" 232 7756 7816
+)
+"cfg_scope.ml" 232 7756 7782 "cfg_scope.ml" 232 7756 7788
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 232 7756 7792 "cfg_scope.ml" 232 7756 7814
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 232 7756 7815 "cfg_scope.ml" 232 7756 7816
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref e "cfg_scope.ml" 232 7756 7787 "cfg_scope.ml" 232 7756 7788
+)
+"cfg_scope.ml" 232 7756 7792 "cfg_scope.ml" 232 7756 7816
+type(
+  NS.scope
+)
+"cfg_scope.ml" 229 7570 7605 "cfg_scope.ml" 232 7756 7816
+type(
+  NS.scope
+)
+"cfg_scope.ml" 234 7842 7874 "cfg_scope.ml" 234 7842 7889
+type(
+  Log.pos -> unit NS.cursor -> NS.scope -> unit NS.cursor
+)
+ident(
+  int_ref add_parent_link "cfg_scope.ml" 66 1845 1849 "cfg_scope.ml" 66 1845 1864
+)
+"cfg_scope.ml" 234 7842 7890 "cfg_scope.ml" 234 7842 7894
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 234 7842 7890 "cfg_scope.ml" 234 7842 7898
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 234 7842 7899 "cfg_scope.ml" 234 7842 7905
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 228 7535 7559 "cfg_scope.ml" 228 7535 7565
+)
+"cfg_scope.ml" 234 7842 7906 "cfg_scope.ml" 234 7842 7912
+type(
+  NS.scope
+)
+ident(
+  int_ref parent "cfg_scope.ml" 229 7570 7596 "cfg_scope.ml" 229 7570 7602
+)
+"cfg_scope.ml" 234 7842 7874 "cfg_scope.ml" 234 7842 7912
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 234 7842 7866 "cfg_scope.ml" 234 7842 7912
+type(
+  unit
+)
+"cfg_scope.ml" 235 7914 7938 "cfg_scope.ml" 235 7914 7944
+type(
+  Cfg.stmt -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 235 7914 7945 "cfg_scope.ml" 235 7914 7955
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 235 7914 7957 "cfg_scope.ml" 235 7914 7961
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'd
+)
+"cfg_scope.ml" 235 7914 7976 "cfg_scope.ml" 235 7914 7980
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 219 7154 7199 "cfg_scope.ml" 219 7154 7203
+)
+"cfg_scope.ml" 235 7914 7944 "cfg_scope.ml" 235 7914 7981
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 235 7914 7938 "cfg_scope.ml" 235 7914 7981
+type(
+  unit
+)
+"cfg_scope.ml" 236 7983 8007 "cfg_scope.ml" 236 7983 8011
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 235 7914 7938 "cfg_scope.ml" 236 7983 8011
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 234 7842 7866 "cfg_scope.ml" 236 7983 8011
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 229 7570 7592 "cfg_scope.ml" 236 7983 8011
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 228 7535 7554 "cfg_scope.ml" 237 8012 8032
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 237 8012 8033 "cfg_scope.ml" 237 8012 8041
+type(
+  NS.scope
+)
+ident(
+  int_ref inner_sc "cfg_scope.ml" 226 7446 7465 "cfg_scope.ml" 226 7446 7473
+)
+"cfg_scope.ml" 237 8012 8042 "cfg_scope.ml" 237 8012 8054
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref outer_cursor "cfg_scope.ml" 225 7388 7407 "cfg_scope.ml" 225 7388 7419
+)
+"cfg_scope.ml" 227 7503 7520 "cfg_scope.ml" 237 8012 8054
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 226 7446 7461 "cfg_scope.ml" 237 8012 8054
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 225 7388 7403 "cfg_scope.ml" 237 8012 8054
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 224 7360 7372 "cfg_scope.ml" 238 8055 8068
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 238 8055 8069 "cfg_scope.ml" 238 8055 8071
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 220 7208 7220 "cfg_scope.ml" 220 7208 7222
+)
+"cfg_scope.ml" 238 8055 8072 "cfg_scope.ml" 238 8055 8076
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 223 7335 7345 "cfg_scope.ml" 238 8055 8076
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 240 8088 8106 "cfg_scope.ml" 240 8088 8112
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 222 7313 7325 "cfg_scope.ml" 222 7313 7331
+)
+"cfg_scope.ml" 240 8088 8098 "cfg_scope.ml" 240 8088 8112
+type(
+  unit
+)
+"cfg_scope.ml" 241 8114 8124 "cfg_scope.ml" 241 8114 8130
+type(
+  none:unit -> some:(Cfg.lhs -> unit) -> Cfg.lhs option -> unit
+)
+ident(
+  ext_ref Utils.do_opt
+)
+"cfg_scope.ml" 241 8114 8137 "cfg_scope.ml" 241 8114 8139
+type(
+  unit
+)
+"cfg_scope.ml" 241 8114 8151 "cfg_scope.ml" 241 8114 8152
+type(
+  Cfg.lhs
+)
+ident(
+  def l "cfg_scope.ml" 241 8114 8156 "cfg_scope.ml" 241 8114 8195
+)
+"cfg_scope.ml" 241 8114 8156 "cfg_scope.ml" 241 8114 8162
+type(
+  Cfg.lhs -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 241 8114 8163 "cfg_scope.ml" 241 8114 8172
+type(
+  Cfg.cfg_visitor -> Cfg.lhs -> Cfg.lhs
+)
+ident(
+  ext_ref Cfg.visit_lhs
+)
+"cfg_scope.ml" 241 8114 8174 "cfg_scope.ml" 241 8114 8178
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'd
+)
+"cfg_scope.ml" 241 8114 8193 "cfg_scope.ml" 241 8114 8194
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref l "cfg_scope.ml" 241 8114 8151 "cfg_scope.ml" 241 8114 8152
+)
+"cfg_scope.ml" 241 8114 8162 "cfg_scope.ml" 241 8114 8195
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 241 8114 8156 "cfg_scope.ml" 241 8114 8195
+type(
+  unit
+)
+"cfg_scope.ml" 241 8114 8146 "cfg_scope.ml" 241 8114 8196
+type(
+  Cfg.lhs -> unit
+)
+"cfg_scope.ml" 241 8114 8197 "cfg_scope.ml" 241 8114 8202
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "cfg_scope.ml" 219 7154 7170 "cfg_scope.ml" 219 7154 7175
+)
+"cfg_scope.ml" 241 8114 8124 "cfg_scope.ml" 241 8114 8202
+type(
+  unit
+)
+"cfg_scope.ml" 242 8204 8214 "cfg_scope.ml" 242 8204 8226
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 241 8114 8124 "cfg_scope.ml" 242 8204 8226
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 240 8088 8098 "cfg_scope.ml" 242 8204 8226
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 222 7313 7321 "cfg_scope.ml" 242 8204 8226
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 221 7264 7272 "cfg_scope.ml" 242 8204 8226
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 220 7208 7216 "cfg_scope.ml" 242 8204 8226
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 244 8228 8241 "cfg_scope.ml" 244 8228 8246
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 245 8261 8269 "cfg_scope.ml" 262 9005 9027
+)
+"cfg_scope.ml" 244 8228 8248 "cfg_scope.ml" 244 8228 8250
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 245 8261 8269 "cfg_scope.ml" 262 9005 9027
+)
+"cfg_scope.ml" 244 8228 8252 "cfg_scope.ml" 244 8228 8256
+type(
+  Cfg.stmt
+)
+ident(
+  def body "cfg_scope.ml" 245 8261 8269 "cfg_scope.ml" 262 9005 9027
+)
+"cfg_scope.ml" 244 8228 8234 "cfg_scope.ml" 244 8228 8257
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 245 8261 8273 "cfg_scope.ml" 245 8261 8275
+type(
+  NS.scope
+)
+"cfg_scope.ml" 245 8261 8276 "cfg_scope.ml" 245 8261 8279
+type(
+  string
+)
+"cfg_scope.ml" 245 8261 8273 "cfg_scope.ml" 245 8261 8279
+type(
+  NS.scope * string
+)
+"cfg_scope.ml" 245 8261 8282 "cfg_scope.ml" 245 8261 8310
+type(
+  Cfg.identifier -> NS.scope * string
+)
+ident(
+  ext_ref NS.scope_of_identifier_split
+)
+"cfg_scope.ml" 245 8261 8311 "cfg_scope.ml" 245 8261 8313
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 244 8228 8248 "cfg_scope.ml" 244 8228 8250
+)
+"cfg_scope.ml" 245 8261 8282 "cfg_scope.ml" 245 8261 8313
+type(
+  NS.scope * string
+)
+"cfg_scope.ml" 246 8317 8329 "cfg_scope.ml" 246 8317 8331
+type(
+  unit
+)
+"cfg_scope.ml" 246 8317 8334 "cfg_scope.ml" 246 8317 8345
+type(
+  NS.scope -> unit NS.cursor -> Log.pos -> unit
+)
+ident(
+  int_ref valid_scope "cfg_scope.ml" 31 683 687 "cfg_scope.ml" 31 683 698
+)
+"cfg_scope.ml" 246 8317 8346 "cfg_scope.ml" 246 8317 8348
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 245 8261 8273 "cfg_scope.ml" 245 8261 8275
+)
+"cfg_scope.ml" 246 8317 8349 "cfg_scope.ml" 246 8317 8353
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 246 8317 8354 "cfg_scope.ml" 246 8317 8358
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 246 8317 8354 "cfg_scope.ml" 246 8317 8362
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 246 8317 8334 "cfg_scope.ml" 246 8317 8362
+type(
+  unit
+)
+"cfg_scope.ml" 247 8366 8378 "cfg_scope.ml" 247 8366 8384
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 247 8366 8387 "cfg_scope.ml" 247 8366 8401
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 248 8402 8417 "cfg_scope.ml" 248 8402 8423
+type(
+  unit NS.cursor
+)
+ident(
+  def cursor "cfg_scope.ml" 249 8428 8441 "cfg_scope.ml" 257 8823 8857
+)
+"cfg_scope.ml" 249 8428 8445 "cfg_scope.ml" 249 8428 8451
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 249 8428 8454 "cfg_scope.ml" 249 8428 8460
+type(
+  string -> unit -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add
+)
+"cfg_scope.ml" 249 8428 8461 "cfg_scope.ml" 249 8428 8464
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 245 8261 8276 "cfg_scope.ml" 245 8261 8279
+)
+"cfg_scope.ml" 249 8428 8465 "cfg_scope.ml" 249 8428 8467
+type(
+  unit
+)
+"cfg_scope.ml" 249 8428 8468 "cfg_scope.ml" 249 8428 8474
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 248 8402 8417 "cfg_scope.ml" 248 8402 8423
+)
+"cfg_scope.ml" 249 8428 8454 "cfg_scope.ml" 249 8428 8474
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 250 8478 8495 "cfg_scope.ml" 250 8478 8503
+type(
+  NS.scope
+)
+"cfg_scope.ml" 250 8478 8525 "cfg_scope.ml" 250 8478 8528
+type(
+  string
+)
+ident(
+  int_ref str "cfg_scope.ml" 245 8261 8276 "cfg_scope.ml" 245 8261 8279
+)
+"cfg_scope.ml" 250 8478 8524 "cfg_scope.ml" 250 8478 8529
+type(
+  string list
+)
+"cfg_scope.ml" 250 8478 8506 "cfg_scope.ml" 250 8478 8529
+type(
+  NS.scope
+)
+"cfg_scope.ml" 251 8533 8548 "cfg_scope.ml" 251 8533 8562
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 252 8563 8585 "cfg_scope.ml" 252 8563 8591
+type(
+  unit NS.cursor
+)
+ident(
+  def cursor "cfg_scope.ml" 253 8596 8616 "cfg_scope.ml" 256 8798 8822
+)
+"cfg_scope.ml" 253 8596 8620 "cfg_scope.ml" 253 8596 8626
+type(
+  NS.scope
+)
+"cfg_scope.ml" 253 8596 8648 "cfg_scope.ml" 253 8596 8656
+type(
+  string
+)
+"cfg_scope.ml" 253 8596 8647 "cfg_scope.ml" 253 8596 8657
+type(
+  string list
+)
+"cfg_scope.ml" 253 8596 8629 "cfg_scope.ml" 253 8596 8657
+type(
+  NS.scope
+)
+"cfg_scope.ml" 254 8661 8691 "cfg_scope.ml" 254 8661 8706
+type(
+  Log.pos -> unit NS.cursor -> NS.scope -> unit NS.cursor
+)
+ident(
+  int_ref add_parent_link "cfg_scope.ml" 66 1845 1849 "cfg_scope.ml" 66 1845 1864
+)
+"cfg_scope.ml" 254 8661 8707 "cfg_scope.ml" 254 8661 8711
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 254 8661 8707 "cfg_scope.ml" 254 8661 8715
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 254 8661 8716 "cfg_scope.ml" 254 8661 8722
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 252 8563 8585 "cfg_scope.ml" 252 8563 8591
+)
+"cfg_scope.ml" 254 8661 8723 "cfg_scope.ml" 254 8661 8729
+type(
+  NS.scope
+)
+ident(
+  int_ref parent "cfg_scope.ml" 253 8596 8620 "cfg_scope.ml" 253 8596 8626
+)
+"cfg_scope.ml" 254 8661 8691 "cfg_scope.ml" 254 8661 8729
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 254 8661 8683 "cfg_scope.ml" 254 8661 8729
+type(
+  unit
+)
+"cfg_scope.ml" 255 8731 8753 "cfg_scope.ml" 255 8731 8759
+type(
+  Cfg.stmt -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 255 8731 8760 "cfg_scope.ml" 255 8731 8770
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 255 8731 8772 "cfg_scope.ml" 255 8731 8776
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'd
+)
+"cfg_scope.ml" 255 8731 8791 "cfg_scope.ml" 255 8731 8795
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 244 8228 8252 "cfg_scope.ml" 244 8228 8256
+)
+"cfg_scope.ml" 255 8731 8759 "cfg_scope.ml" 255 8731 8796
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 255 8731 8753 "cfg_scope.ml" 255 8731 8796
+type(
+  unit
+)
+"cfg_scope.ml" 256 8798 8818 "cfg_scope.ml" 256 8798 8822
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 255 8731 8753 "cfg_scope.ml" 256 8798 8822
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 254 8661 8683 "cfg_scope.ml" 256 8798 8822
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 253 8596 8616 "cfg_scope.ml" 256 8798 8822
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 252 8563 8580 "cfg_scope.ml" 257 8823 8841
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 257 8823 8842 "cfg_scope.ml" 257 8823 8850
+type(
+  NS.scope
+)
+ident(
+  int_ref inner_sc "cfg_scope.ml" 250 8478 8495 "cfg_scope.ml" 250 8478 8503
+)
+"cfg_scope.ml" 257 8823 8851 "cfg_scope.ml" 257 8823 8857
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 249 8428 8445 "cfg_scope.ml" 249 8428 8451
+)
+"cfg_scope.ml" 251 8533 8548 "cfg_scope.ml" 257 8823 8857
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 250 8478 8491 "cfg_scope.ml" 257 8823 8857
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 249 8428 8441 "cfg_scope.ml" 257 8823 8857
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 248 8402 8412 "cfg_scope.ml" 258 8858 8869
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 258 8858 8870 "cfg_scope.ml" 258 8858 8872
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 245 8261 8273 "cfg_scope.ml" 245 8261 8275
+)
+"cfg_scope.ml" 258 8858 8873 "cfg_scope.ml" 258 8858 8877
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 247 8366 8387 "cfg_scope.ml" 258 8858 8877
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 260 8889 8907 "cfg_scope.ml" 260 8889 8913
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 247 8366 8378 "cfg_scope.ml" 247 8366 8384
+)
+"cfg_scope.ml" 260 8889 8899 "cfg_scope.ml" 260 8889 8913
+type(
+  unit
+)
+"cfg_scope.ml" 261 8915 8925 "cfg_scope.ml" 261 8915 8931
+type(
+  none:unit -> some:(Cfg.lhs -> unit) -> Cfg.lhs option -> unit
+)
+ident(
+  ext_ref Utils.do_opt
+)
+"cfg_scope.ml" 261 8915 8938 "cfg_scope.ml" 261 8915 8940
+type(
+  unit
+)
+"cfg_scope.ml" 261 8915 8952 "cfg_scope.ml" 261 8915 8953
+type(
+  Cfg.lhs
+)
+ident(
+  def l "cfg_scope.ml" 261 8915 8957 "cfg_scope.ml" 261 8915 8996
+)
+"cfg_scope.ml" 261 8915 8957 "cfg_scope.ml" 261 8915 8963
+type(
+  Cfg.lhs -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 261 8915 8964 "cfg_scope.ml" 261 8915 8973
+type(
+  Cfg.cfg_visitor -> Cfg.lhs -> Cfg.lhs
+)
+ident(
+  ext_ref Cfg.visit_lhs
+)
+"cfg_scope.ml" 261 8915 8975 "cfg_scope.ml" 261 8915 8979
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'd
+)
+"cfg_scope.ml" 261 8915 8994 "cfg_scope.ml" 261 8915 8995
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref l "cfg_scope.ml" 261 8915 8952 "cfg_scope.ml" 261 8915 8953
+)
+"cfg_scope.ml" 261 8915 8963 "cfg_scope.ml" 261 8915 8996
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 261 8915 8957 "cfg_scope.ml" 261 8915 8996
+type(
+  unit
+)
+"cfg_scope.ml" 261 8915 8947 "cfg_scope.ml" 261 8915 8997
+type(
+  Cfg.lhs -> unit
+)
+"cfg_scope.ml" 261 8915 8998 "cfg_scope.ml" 261 8915 9003
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "cfg_scope.ml" 244 8228 8241 "cfg_scope.ml" 244 8228 8246
+)
+"cfg_scope.ml" 261 8915 8925 "cfg_scope.ml" 261 8915 9003
+type(
+  unit
+)
+"cfg_scope.ml" 262 9005 9015 "cfg_scope.ml" 262 9005 9027
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 261 8915 8925 "cfg_scope.ml" 262 9005 9027
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 260 8889 8899 "cfg_scope.ml" 262 9005 9027
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 247 8366 8374 "cfg_scope.ml" 262 9005 9027
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 246 8317 8325 "cfg_scope.ml" 262 9005 9027
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 245 8261 8269 "cfg_scope.ml" 262 9005 9027
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 264 9029 9043 "cfg_scope.ml" 264 9029 9044
+type(
+  Cfg.identifier
+)
+ident(
+  def i "cfg_scope.ml" 265 9052 9060 "cfg_scope.ml" 266 9100 9120
+)
+"cfg_scope.ml" 264 9029 9045 "cfg_scope.ml" 264 9029 9046
+type(
+  Cfg.stmt
+)
+ident(
+  def s "cfg_scope.ml" 265 9052 9060 "cfg_scope.ml" 266 9100 9120
+)
+"cfg_scope.ml" 264 9029 9035 "cfg_scope.ml" 264 9029 9047
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 265 9052 9060 "cfg_scope.ml" 265 9052 9066
+type(
+  Cfg.identifier -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cfg_scope.ml" 265 9052 9067 "cfg_scope.ml" 265 9052 9075
+type(
+  Cfg.cfg_visitor -> Cfg.identifier -> Cfg.identifier
+)
+ident(
+  ext_ref Cfg.visit_id
+)
+"cfg_scope.ml" 265 9052 9077 "cfg_scope.ml" 265 9052 9081
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'd
+)
+"cfg_scope.ml" 265 9052 9096 "cfg_scope.ml" 265 9052 9097
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref i "cfg_scope.ml" 264 9029 9043 "cfg_scope.ml" 264 9029 9044
+)
+"cfg_scope.ml" 265 9052 9066 "cfg_scope.ml" 265 9052 9098
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 265 9052 9060 "cfg_scope.ml" 265 9052 9098
+type(
+  unit
+)
+"cfg_scope.ml" 266 9100 9108 "cfg_scope.ml" 266 9100 9120
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 265 9052 9060 "cfg_scope.ml" 266 9100 9120
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 268 9122 9144 "cfg_scope.ml" 268 9122 9157
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 268 9122 9158 "cfg_scope.ml" 268 9122 9159
+type(
+  string
+)
+"cfg_scope.ml" 268 9122 9143 "cfg_scope.ml" 268 9122 9160
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 268 9122 9136 "cfg_scope.ml" 268 9122 9160
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 268 9122 9172 "cfg_scope.ml" 268 9122 9173
+type(
+  Cfg.identifier * string
+)
+"cfg_scope.ml" 268 9122 9162 "cfg_scope.ml" 268 9122 9173
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 268 9122 9136 "cfg_scope.ml" 268 9122 9173
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 268 9122 9187 "cfg_scope.ml" 268 9122 9188
+type(
+  string
+)
+"cfg_scope.ml" 268 9122 9176 "cfg_scope.ml" 268 9122 9188
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 268 9122 9136 "cfg_scope.ml" 268 9122 9188
+type(
+  Cfg.lhs
+)
+"cfg_scope.ml" 268 9122 9135 "cfg_scope.ml" 268 9122 9194
+type(
+  Cfg.lhs
+)
+ident(
+  def l "cfg_scope.ml" 270 9273 9281 "cfg_scope.ml" 280 9643 9665
+)
+"cfg_scope.ml" 269 9196 9218 "cfg_scope.ml" 269 9196 9231
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 269 9196 9232 "cfg_scope.ml" 269 9196 9233
+type(
+  string
+)
+"cfg_scope.ml" 269 9196 9217 "cfg_scope.ml" 269 9196 9234
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 269 9196 9210 "cfg_scope.ml" 269 9196 9234
+type(
+  Cfg.tuple_expr
+)
+"cfg_scope.ml" 269 9196 9246 "cfg_scope.ml" 269 9196 9247
+type(
+  Cfg.identifier * string
+)
+"cfg_scope.ml" 269 9196 9236 "cfg_scope.ml" 269 9196 9247
+type(
+  Cfg.tuple_expr
+)
+"cfg_scope.ml" 269 9196 9210 "cfg_scope.ml" 269 9196 9247
+type(
+  Cfg.tuple_expr
+)
+"cfg_scope.ml" 269 9196 9261 "cfg_scope.ml" 269 9196 9262
+type(
+  string
+)
+"cfg_scope.ml" 269 9196 9250 "cfg_scope.ml" 269 9196 9262
+type(
+  Cfg.tuple_expr
+)
+"cfg_scope.ml" 269 9196 9210 "cfg_scope.ml" 269 9196 9262
+type(
+  Cfg.tuple_expr
+)
+"cfg_scope.ml" 269 9196 9209 "cfg_scope.ml" 269 9196 9268
+type(
+  Cfg.tuple_expr
+)
+ident(
+  def r "cfg_scope.ml" 270 9273 9281 "cfg_scope.ml" 280 9643 9665
+)
+"cfg_scope.ml" 268 9122 9128 "cfg_scope.ml" 269 9196 9269
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 270 9273 9285 "cfg_scope.ml" 270 9273 9289
+type(
+  NS.scope
+)
+"cfg_scope.ml" 270 9273 9292 "cfg_scope.ml" 270 9273 9314
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 270 9273 9315 "cfg_scope.ml" 270 9273 9316
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref l "cfg_scope.ml" 268 9122 9135 "cfg_scope.ml" 268 9122 9194
+)
+"cfg_scope.ml" 270 9273 9292 "cfg_scope.ml" 270 9273 9316
+type(
+  NS.scope
+)
+"cfg_scope.ml" 271 9320 9332 "cfg_scope.ml" 271 9320 9336
+type(
+  NS.scope
+)
+"cfg_scope.ml" 271 9320 9339 "cfg_scope.ml" 271 9320 9361
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 271 9320 9362 "cfg_scope.ml" 271 9320 9363
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref r "cfg_scope.ml" 269 9196 9209 "cfg_scope.ml" 269 9196 9268
+)
+"cfg_scope.ml" 271 9320 9339 "cfg_scope.ml" 271 9320 9363
+type(
+  NS.scope
+)
+"cfg_scope.ml" 272 9367 9379 "cfg_scope.ml" 272 9367 9381
+type(
+  unit
+)
+"cfg_scope.ml" 272 9367 9384 "cfg_scope.ml" 272 9367 9395
+type(
+  NS.scope -> unit NS.cursor -> Log.pos -> unit
+)
+ident(
+  int_ref valid_scope "cfg_scope.ml" 31 683 687 "cfg_scope.ml" 31 683 698
+)
+"cfg_scope.ml" 272 9367 9396 "cfg_scope.ml" 272 9367 9400
+type(
+  NS.scope
+)
+ident(
+  int_ref r_sc "cfg_scope.ml" 271 9320 9332 "cfg_scope.ml" 271 9320 9336
+)
+"cfg_scope.ml" 272 9367 9401 "cfg_scope.ml" 272 9367 9405
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 272 9367 9406 "cfg_scope.ml" 272 9367 9410
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 272 9367 9406 "cfg_scope.ml" 272 9367 9414
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 272 9367 9384 "cfg_scope.ml" 272 9367 9414
+type(
+  unit
+)
+"cfg_scope.ml" 273 9418 9430 "cfg_scope.ml" 273 9418 9436
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 273 9418 9439 "cfg_scope.ml" 273 9418 9451
+type(
+  unit NS.cursor -> Log.pos -> Cfg.lhs -> unit NS.cursor
+)
+ident(
+  int_ref add_constant "cfg_scope.ml" 51 1330 1338 "cfg_scope.ml" 51 1330 1350
+)
+"cfg_scope.ml" 273 9418 9452 "cfg_scope.ml" 273 9418 9456
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 273 9418 9457 "cfg_scope.ml" 273 9418 9461
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 273 9418 9457 "cfg_scope.ml" 273 9418 9465
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 273 9418 9466 "cfg_scope.ml" 273 9418 9467
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref l "cfg_scope.ml" 268 9122 9135 "cfg_scope.ml" 268 9122 9194
+)
+"cfg_scope.ml" 273 9418 9439 "cfg_scope.ml" 273 9418 9467
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 274 9471 9483 "cfg_scope.ml" 274 9471 9489
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 274 9471 9492 "cfg_scope.ml" 274 9471 9506
+type(
+  (unit NS.cursor -> unit NS.cursor) ->
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.do_in_scope
+)
+"cfg_scope.ml" 275 9507 9522 "cfg_scope.ml" 275 9507 9528
+type(
+  unit NS.cursor
+)
+ident(
+  def cursor "cfg_scope.ml" 276 9532 9545 "cfg_scope.ml" 276 9532 9581
+)
+"cfg_scope.ml" 276 9532 9545 "cfg_scope.ml" 276 9532 9560
+type(
+  Log.pos -> unit NS.cursor -> NS.scope -> unit NS.cursor
+)
+ident(
+  int_ref add_parent_link "cfg_scope.ml" 66 1845 1849 "cfg_scope.ml" 66 1845 1864
+)
+"cfg_scope.ml" 276 9532 9561 "cfg_scope.ml" 276 9532 9565
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 178 5423 5443 "cfg_scope.ml" 178 5423 5447
+)
+"cfg_scope.ml" 276 9532 9561 "cfg_scope.ml" 276 9532 9569
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 276 9532 9570 "cfg_scope.ml" 276 9532 9576
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 275 9507 9522 "cfg_scope.ml" 275 9507 9528
+)
+"cfg_scope.ml" 276 9532 9577 "cfg_scope.ml" 276 9532 9581
+type(
+  NS.scope
+)
+ident(
+  int_ref r_sc "cfg_scope.ml" 271 9320 9332 "cfg_scope.ml" 271 9320 9336
+)
+"cfg_scope.ml" 276 9532 9545 "cfg_scope.ml" 276 9532 9581
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 275 9507 9517 "cfg_scope.ml" 277 9582 9593
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+"cfg_scope.ml" 277 9582 9594 "cfg_scope.ml" 277 9582 9598
+type(
+  NS.scope
+)
+ident(
+  int_ref l_sc "cfg_scope.ml" 270 9273 9285 "cfg_scope.ml" 270 9273 9289
+)
+"cfg_scope.ml" 277 9582 9599 "cfg_scope.ml" 277 9582 9605
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 273 9418 9430 "cfg_scope.ml" 273 9418 9436
+)
+"cfg_scope.ml" 274 9471 9492 "cfg_scope.ml" 277 9582 9605
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 279 9617 9635 "cfg_scope.ml" 279 9617 9641
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cursor "cfg_scope.ml" 274 9471 9483 "cfg_scope.ml" 274 9471 9489
+)
+"cfg_scope.ml" 279 9617 9627 "cfg_scope.ml" 279 9617 9641
+type(
+  unit
+)
+"cfg_scope.ml" 280 9643 9653 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 279 9617 9627 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 274 9471 9479 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 273 9418 9426 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 272 9367 9375 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 271 9320 9328 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 270 9273 9281 "cfg_scope.ml" 280 9643 9665
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 282 9667 9673 "cfg_scope.ml" 282 9667 9674
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 282 9667 9678 "cfg_scope.ml" 282 9667 9688
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 180 5478 5482 "cfg_scope.ml" 282 9667 9688
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 179 5451 5455 "cfg_scope.ml" 282 9667 9688
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 284 9690 9709 "cfg_scope.ml" 284 9690 9712
+type(
+  Cfg.lhs
+)
+ident(
+  def lhs "cfg_scope.ml" 285 9716 9720 "cfg_scope.ml" 287 9812 9828
+)
+"cfg_scope.ml" 285 9716 9726 "cfg_scope.ml" 285 9716 9730
+type(
+  Cfg.pos option
+)
+"cfg_scope.ml" 285 9716 9736 "cfg_scope.ml" 285 9716 9740
+type(
+  Cfg.pos option
+)
+"cfg_scope.ml" 285 9716 9744 "cfg_scope.ml" 285 9716 9756
+type(
+  Cfg.lhs Visitor.visitAction
+)
+"cfg_scope.ml" 285 9716 9764 "cfg_scope.ml" 285 9716 9767
+type(
+  Cfg.pos
+)
+ident(
+  def pos "cfg_scope.ml" 286 9771 9777 "cfg_scope.ml" 287 9812 9828
+)
+"cfg_scope.ml" 285 9716 9759 "cfg_scope.ml" 285 9716 9767
+type(
+  Cfg.pos option
+)
+"cfg_scope.ml" 286 9771 9785 "cfg_scope.ml" 286 9771 9797
+type(
+  unit NS.cursor -> Log.pos -> Cfg.lhs -> unit NS.cursor
+)
+ident(
+  int_ref add_constant "cfg_scope.ml" 51 1330 1338 "cfg_scope.ml" 51 1330 1350
+)
+"cfg_scope.ml" 286 9771 9798 "cfg_scope.ml" 286 9771 9802
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 286 9771 9803 "cfg_scope.ml" 286 9771 9806
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 285 9716 9764 "cfg_scope.ml" 285 9716 9767
+)
+"cfg_scope.ml" 286 9771 9807 "cfg_scope.ml" 286 9771 9810
+type(
+  Cfg.lhs
+)
+ident(
+  int_ref lhs "cfg_scope.ml" 284 9690 9709 "cfg_scope.ml" 284 9690 9712
+)
+"cfg_scope.ml" 286 9771 9785 "cfg_scope.ml" 286 9771 9810
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 286 9771 9777 "cfg_scope.ml" 286 9771 9810
+type(
+  unit
+)
+"cfg_scope.ml" 287 9812 9818 "cfg_scope.ml" 287 9812 9828
+type(
+  Cfg.lhs Visitor.visitAction
+)
+"cfg_scope.ml" 286 9771 9777 "cfg_scope.ml" 287 9812 9828
+type(
+  Cfg.lhs Visitor.visitAction
+)
+"cfg_scope.ml" 285 9716 9720 "cfg_scope.ml" 287 9812 9828
+type(
+  Cfg.lhs Visitor.visitAction
+)
+"cfg_scope.ml" 291 9835 9862 "cfg_scope.ml" 291 9835 9868
+type(
+  File_loader.t
+)
+"cfg_scope.ml" 291 9835 9869 "cfg_scope.ml" 291 9835 9880
+type(
+  (string, 'a) Hashtbl.t
+)
+"cfg_scope.ml" 291 9835 9881 "cfg_scope.ml" 291 9835 9887
+type(
+  env
+)
+"cfg_scope.ml" 292 9905 9911 "cfg_scope.ml" 292 9905 9917
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+)
+"cfg_scope.ml" 295 9954 9974 "cfg_scope.ml" 295 9954 9980
+type(
+  env
+)
+ident(
+  int_ref theenv "cfg_scope.ml" 291 9835 9881 "cfg_scope.ml" 291 9835 9887
+)
+"cfg_scope.ml" 296 9981 10001 "cfg_scope.ml" 296 9981 10017
+type(
+  Cfg.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"cfg_scope.ml" 297 10018 10045 "cfg_scope.ml" 297 10018 10057
+type(
+  Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.empty
+)
+"cfg_scope.ml" 299 10059 10124 "cfg_scope.ml" 299 10059 10125
+type(
+  'b -> 'b
+)
+ident(
+  def f "cfg_scope.ml" 299 10059 10126 "cfg_scope.ml" 304 10233 10244
+)
+"cfg_scope.ml" 299 10059 10126 "cfg_scope.ml" 299 10059 10127
+type(
+  'b
+)
+ident(
+  def a "cfg_scope.ml" 299 10059 10128 "cfg_scope.ml" 304 10233 10244
+)
+"cfg_scope.ml" 299 10059 10128 "cfg_scope.ml" 299 10059 10135
+type(
+  env
+)
+ident(
+  def new_env "cfg_scope.ml" 300 10139 10143 "cfg_scope.ml" 304 10233 10244
+)
+"cfg_scope.ml" 300 10139 10147 "cfg_scope.ml" 300 10139 10154
+type(
+  env
+)
+"cfg_scope.ml" 300 10139 10157 "cfg_scope.ml" 300 10139 10160
+type(
+  env
+)
+"cfg_scope.ml" 301 10164 10177 "cfg_scope.ml" 301 10164 10184
+type(
+  env
+)
+ident(
+  int_ref new_env "cfg_scope.ml" 299 10059 10128 "cfg_scope.ml" 299 10059 10135
+)
+"cfg_scope.ml" 301 10164 10170 "cfg_scope.ml" 301 10164 10184
+type(
+  unit
+)
+"cfg_scope.ml" 302 10186 10196 "cfg_scope.ml" 302 10186 10199
+type(
+  'b
+)
+"cfg_scope.ml" 302 10186 10202 "cfg_scope.ml" 302 10186 10203
+type(
+  'b -> 'b
+)
+ident(
+  int_ref f "cfg_scope.ml" 299 10059 10124 "cfg_scope.ml" 299 10059 10125
+)
+"cfg_scope.ml" 302 10186 10204 "cfg_scope.ml" 302 10186 10205
+type(
+  'b
+)
+ident(
+  int_ref a "cfg_scope.ml" 299 10059 10126 "cfg_scope.ml" 299 10059 10127
+)
+"cfg_scope.ml" 302 10186 10202 "cfg_scope.ml" 302 10186 10205
+type(
+  'b
+)
+"cfg_scope.ml" 303 10209 10224 "cfg_scope.ml" 303 10209 10231
+type(
+  env
+)
+ident(
+  int_ref old_env "cfg_scope.ml" 300 10139 10147 "cfg_scope.ml" 300 10139 10154
+)
+"cfg_scope.ml" 303 10209 10217 "cfg_scope.ml" 303 10209 10231
+type(
+  unit
+)
+"cfg_scope.ml" 304 10233 10241 "cfg_scope.ml" 304 10233 10244
+type(
+  'b
+)
+ident(
+  int_ref ret "cfg_scope.ml" 302 10186 10196 "cfg_scope.ml" 302 10186 10199
+)
+"cfg_scope.ml" 303 10209 10217 "cfg_scope.ml" 304 10233 10244
+type(
+  'b
+)
+"cfg_scope.ml" 302 10186 10192 "cfg_scope.ml" 304 10233 10244
+type(
+  'b
+)
+"cfg_scope.ml" 301 10164 10170 "cfg_scope.ml" 304 10233 10244
+type(
+  'b
+)
+"cfg_scope.ml" 300 10139 10143 "cfg_scope.ml" 304 10233 10244
+type(
+  'b
+)
+"cfg_scope.ml" 299 10059 10120 "cfg_scope.ml" 304 10233 10244
+type(
+  'c. ('c -> 'c) -> 'c -> env -> 'c
+)
+type(
+  ('b -> 'b) -> 'b -> env -> 'b
+)
+"cfg_scope.ml" 306 10246 10275 "cfg_scope.ml" 306 10246 10278
+type(
+  Cfg.pos
+)
+ident(
+  def pos "cfg_scope.ml" 306 10246 10279 "cfg_scope.ml" 319 10811 10824
+)
+"cfg_scope.ml" 306 10246 10279 "cfg_scope.ml" 306 10246 10282
+type(
+  env
+)
+ident(
+  def env "cfg_scope.ml" 306 10246 10283 "cfg_scope.ml" 319 10811 10824
+)
+"cfg_scope.ml" 306 10246 10283 "cfg_scope.ml" 306 10246 10286
+type(
+  Cfg.star_expr
+)
+ident(
+  def arg "cfg_scope.ml" 306 10246 10287 "cfg_scope.ml" 319 10811 10824
+)
+"cfg_scope.ml" 306 10246 10287 "cfg_scope.ml" 306 10246 10289
+type(
+  [ `Load | `Require ]
+)
+ident(
+  def rl "cfg_scope.ml" 307 10292 10296 "cfg_scope.ml" 319 10811 10824
+)
+"cfg_scope.ml" 307 10292 10300 "cfg_scope.ml" 307 10292 10313
+type(
+  ('d -> 'e -> 'e) -> 'd -> 'e -> Utils.StrSet.elt -> 'e
+)
+"cfg_scope.ml" 307 10292 10314 "cfg_scope.ml" 307 10292 10315
+type(
+  'd -> 'e -> 'e
+)
+ident(
+  def f "cfg_scope.ml" 307 10292 10316 "cfg_scope.ml" 311 10496 10533
+)
+"cfg_scope.ml" 307 10292 10316 "cfg_scope.ml" 307 10292 10320
+type(
+  'd
+)
+ident(
+  def vtor "cfg_scope.ml" 307 10292 10321 "cfg_scope.ml" 311 10496 10533
+)
+"cfg_scope.ml" 307 10292 10321 "cfg_scope.ml" 307 10292 10322
+type(
+  'e
+)
+ident(
+  def x "cfg_scope.ml" 307 10292 10323 "cfg_scope.ml" 311 10496 10533
+)
+"cfg_scope.ml" 307 10292 10323 "cfg_scope.ml" 307 10292 10327
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def name "cfg_scope.ml" 308 10330 10340 "cfg_scope.ml" 311 10496 10533
+)
+"cfg_scope.ml" 308 10330 10354 "cfg_scope.ml" 308 10330 10364
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.add
+)
+"cfg_scope.ml" 308 10330 10365 "cfg_scope.ml" 308 10330 10369
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref name "cfg_scope.ml" 307 10292 10323 "cfg_scope.ml" 307 10292 10327
+)
+"cfg_scope.ml" 308 10330 10370 "cfg_scope.ml" 308 10330 10380
+type(
+  Utils.StrSet.t
+)
+"cfg_scope.ml" 308 10330 10354 "cfg_scope.ml" 308 10330 10380
+type(
+  Utils.StrSet.t
+)
+"cfg_scope.ml" 308 10330 10340 "cfg_scope.ml" 308 10330 10380
+type(
+  unit
+)
+"cfg_scope.ml" 309 10382 10396 "cfg_scope.ml" 309 10382 10400
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 309 10382 10403 "cfg_scope.ml" 309 10382 10419
+type(
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.move_to_scope
+)
+"cfg_scope.ml" 309 10382 10420 "cfg_scope.ml" 309 10382 10427
+type(
+  NS.scope
+)
+ident(
+  ext_ref NS.root
+)
+"cfg_scope.ml" 309 10382 10428 "cfg_scope.ml" 309 10382 10431
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 306 10246 10279 "cfg_scope.ml" 306 10246 10282
+)
+"cfg_scope.ml" 309 10382 10428 "cfg_scope.ml" 309 10382 10436
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 309 10382 10403 "cfg_scope.ml" 309 10382 10436
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 310 10440 10454 "cfg_scope.ml" 310 10440 10458
+type(
+  env
+)
+"cfg_scope.ml" 310 10440 10473 "cfg_scope.ml" 310 10440 10480
+type(
+  NS.scope
+)
+ident(
+  ext_ref NS.root
+)
+"cfg_scope.ml" 310 10440 10472 "cfg_scope.ml" 310 10440 10481
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 310 10440 10487 "cfg_scope.ml" 310 10440 10491
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs "cfg_scope.ml" 309 10382 10396 "cfg_scope.ml" 309 10382 10400
+)
+"cfg_scope.ml" 310 10440 10461 "cfg_scope.ml" 310 10440 10492
+type(
+  env
+)
+"cfg_scope.ml" 311 10496 10506 "cfg_scope.ml" 311 10496 10510
+type(
+  < visit_annotation : Annotation.t Visitor.visit_method;
+    visit_block_param : Cfg.block_formal_param Visitor.visit_method;
+    visit_class_kind : Cfg.class_kind Visitor.visit_method;
+    visit_def_name : Cfg.def_name Visitor.visit_method;
+    visit_expr : Cfg.expr Visitor.visit_method;
+    visit_id : Cfg.identifier Visitor.visit_method;
+    visit_lhs : Cfg.lhs Visitor.visit_method;
+    visit_literal : Cfg.literal Visitor.visit_method;
+    visit_method_param : Cfg.method_formal_param Visitor.visit_method;
+    visit_msg_id : Cfg.msg_id Visitor.visit_method;
+    visit_rescue_guard : Cfg.rescue_guard Visitor.visit_method;
+    visit_stmt : Cfg.stmt Visitor.visit_method;
+    visit_tuple : Cfg.tuple_expr Visitor.visit_method; .. >
+  as 'f
+)
+"cfg_scope.ml" 311 10496 10506 "cfg_scope.ml" 311 10496 10517
+type(
+  ('e -> 'e) -> 'e -> env -> 'e
+)
+"cfg_scope.ml" 311 10496 10519 "cfg_scope.ml" 311 10496 10520
+type(
+  'd -> 'e -> 'e
+)
+ident(
+  int_ref f "cfg_scope.ml" 307 10292 10314 "cfg_scope.ml" 307 10292 10315
+)
+"cfg_scope.ml" 311 10496 10521 "cfg_scope.ml" 311 10496 10525
+type(
+  'd
+)
+ident(
+  int_ref vtor "cfg_scope.ml" 307 10292 10316 "cfg_scope.ml" 307 10292 10320
+)
+"cfg_scope.ml" 311 10496 10518 "cfg_scope.ml" 311 10496 10526
+type(
+  'e -> 'e
+)
+"cfg_scope.ml" 311 10496 10527 "cfg_scope.ml" 311 10496 10528
+type(
+  'e
+)
+ident(
+  int_ref x "cfg_scope.ml" 307 10292 10321 "cfg_scope.ml" 307 10292 10322
+)
+"cfg_scope.ml" 311 10496 10529 "cfg_scope.ml" 311 10496 10533
+type(
+  env
+)
+ident(
+  int_ref env' "cfg_scope.ml" 310 10440 10454 "cfg_scope.ml" 310 10440 10458
+)
+"cfg_scope.ml" 311 10496 10506 "cfg_scope.ml" 311 10496 10533
+type(
+  'e
+)
+"cfg_scope.ml" 310 10440 10450 "cfg_scope.ml" 311 10496 10533
+type(
+  'e
+)
+"cfg_scope.ml" 309 10382 10392 "cfg_scope.ml" 311 10496 10533
+type(
+  'e
+)
+"cfg_scope.ml" 308 10330 10340 "cfg_scope.ml" 311 10496 10533
+type(
+  'e
+)
+"cfg_scope.ml" 313 10541 10551 "cfg_scope.ml" 313 10541 10554
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref arg "cfg_scope.ml" 306 10246 10283 "cfg_scope.ml" 306 10246 10286
+)
+"cfg_scope.ml" 314 10560 10578 "cfg_scope.ml" 314 10560 10580
+type(
+  string
+)
+ident(
+  def id "cfg_scope.ml" 315 10585 10593 "cfg_scope.ml" 318 10755 10810
+)
+"cfg_scope.ml" 314 10560 10566 "cfg_scope.ml" 314 10560 10580
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 315 10585 10597 "cfg_scope.ml" 315 10585 10603
+type(
+  Utils.StrSet.elt -> Cfg.stmt -> unit
+)
+"cfg_scope.ml" 315 10585 10610 "cfg_scope.ml" 315 10585 10614
+type(
+  Utils.StrSet.elt
+)
+ident(
+  def name "cfg_scope.ml" 315 10585 10615 "cfg_scope.ml" 317 10706 10754
+)
+"cfg_scope.ml" 315 10585 10615 "cfg_scope.ml" 315 10585 10619
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 316 10624 10636 "cfg_scope.ml" 317 10706 10754
+)
+"cfg_scope.ml" 316 10624 10640 "cfg_scope.ml" 316 10624 10645
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 316 10624 10648 "cfg_scope.ml" 316 10624 10661
+type(
+  (Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt) ->
+  Cfg.cfg_visitor -> Cfg.stmt -> Utils.StrSet.elt -> Cfg.stmt
+)
+ident(
+  int_ref visit_at_root "cfg_scope.ml" 307 10292 10300 "cfg_scope.ml" 307 10292 10313
+)
+"cfg_scope.ml" 316 10624 10662 "cfg_scope.ml" 316 10624 10672
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 316 10624 10674 "cfg_scope.ml" 316 10624 10678
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 316 10624 10693 "cfg_scope.ml" 316 10624 10697
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 315 10585 10615 "cfg_scope.ml" 315 10585 10619
+)
+"cfg_scope.ml" 316 10624 10698 "cfg_scope.ml" 316 10624 10702
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref name "cfg_scope.ml" 315 10585 10610 "cfg_scope.ml" 315 10585 10614
+)
+"cfg_scope.ml" 316 10624 10648 "cfg_scope.ml" 316 10624 10702
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 317 10706 10718 "cfg_scope.ml" 317 10706 10729
+type(
+  ?no_ext:bool ->
+  File_loader.t -> Utils.StrSet.elt -> File_loader.load_result -> unit
+)
+ident(
+  ext_ref File_loader.update_file
+)
+"cfg_scope.ml" 317 10706 10730 "cfg_scope.ml" 317 10706 10736
+type(
+  File_loader.t
+)
+"cfg_scope.ml" 317 10706 10737 "cfg_scope.ml" 317 10706 10741
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref name "cfg_scope.ml" 315 10585 10610 "cfg_scope.ml" 315 10585 10614
+)
+"cfg_scope.ml" 317 10706 10748 "cfg_scope.ml" 317 10706 10753
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt' "cfg_scope.ml" 316 10624 10640 "cfg_scope.ml" 316 10624 10645
+)
+"cfg_scope.ml" 317 10706 10742 "cfg_scope.ml" 317 10706 10754
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 317 10706 10718 "cfg_scope.ml" 317 10706 10754
+type(
+  unit
+)
+"cfg_scope.ml" 316 10624 10636 "cfg_scope.ml" 317 10706 10754
+type(
+  unit
+)
+"cfg_scope.ml" 315 10585 10606 "cfg_scope.ml" 317 10706 10754
+type(
+  Utils.StrSet.elt -> Cfg.stmt -> unit
+)
+"cfg_scope.ml" 318 10755 10766 "cfg_scope.ml" 318 10755 10775
+type(
+  Utils.StrSet.t ->
+  File_loader.t ->
+  string ->
+  [ `Load | `Require ] ->
+  Cfg.pos -> (Utils.StrSet.elt -> Cfg.stmt -> unit) -> unit
+)
+ident(
+  int_ref load_file "cfg_scope.ml" 38 872 876 "cfg_scope.ml" 38 872 885
+)
+"cfg_scope.ml" 318 10755 10776 "cfg_scope.ml" 318 10755 10786
+type(
+  Utils.StrSet.t
+)
+"cfg_scope.ml" 318 10755 10787 "cfg_scope.ml" 318 10755 10793
+type(
+  File_loader.t
+)
+"cfg_scope.ml" 318 10755 10794 "cfg_scope.ml" 318 10755 10796
+type(
+  string
+)
+ident(
+  int_ref id "cfg_scope.ml" 314 10560 10578 "cfg_scope.ml" 314 10560 10580
+)
+"cfg_scope.ml" 318 10755 10797 "cfg_scope.ml" 318 10755 10799
+type(
+  [ `Load | `Require ]
+)
+ident(
+  int_ref rl "cfg_scope.ml" 306 10246 10287 "cfg_scope.ml" 306 10246 10289
+)
+"cfg_scope.ml" 318 10755 10800 "cfg_scope.ml" 318 10755 10803
+type(
+  Cfg.pos
+)
+ident(
+  int_ref pos "cfg_scope.ml" 306 10246 10275 "cfg_scope.ml" 306 10246 10278
+)
+"cfg_scope.ml" 318 10755 10804 "cfg_scope.ml" 318 10755 10810
+type(
+  Utils.StrSet.elt -> Cfg.stmt -> unit
+)
+ident(
+  int_ref func_r "cfg_scope.ml" 315 10585 10597 "cfg_scope.ml" 315 10585 10603
+)
+"cfg_scope.ml" 318 10755 10766 "cfg_scope.ml" 318 10755 10810
+type(
+  unit
+)
+"cfg_scope.ml" 315 10585 10593 "cfg_scope.ml" 318 10755 10810
+type(
+  unit
+)
+"cfg_scope.ml" 319 10811 10817 "cfg_scope.ml" 319 10811 10818
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 319 10811 10822 "cfg_scope.ml" 319 10811 10824
+type(
+  unit
+)
+"cfg_scope.ml" 313 10541 10545 "cfg_scope.ml" 319 10811 10824
+type(
+  unit
+)
+"cfg_scope.ml" 307 10292 10296 "cfg_scope.ml" 319 10811 10824
+type(
+  unit
+)
+"cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 322 10879 10883 "cfg_scope.ml" 394 14091 14114
+)
+"cfg_scope.ml" 322 10879 10890 "cfg_scope.ml" 322 10879 10894
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 322 10879 10890 "cfg_scope.ml" 322 10879 10898
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 322 10879 10883 "cfg_scope.ml" 322 10879 10898
+type(
+  unit
+)
+"cfg_scope.ml" 323 10900 10910 "cfg_scope.ml" 323 10900 10914
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 323 10900 10910 "cfg_scope.ml" 323 10900 10920
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 325 10927 10946 "cfg_scope.ml" 325 10927 10951
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+)
+"cfg_scope.ml" 325 10927 10980 "cfg_scope.ml" 325 10927 10989
+type(
+  string
+)
+"cfg_scope.ml" 325 10927 10990 "cfg_scope.ml" 325 10927 10996
+type(
+  string
+)
+"cfg_scope.ml" 325 10927 10980 "cfg_scope.ml" 325 10927 10996
+type(
+  string
+)
+"cfg_scope.ml" 325 10927 10979 "cfg_scope.ml" 325 10927 11002
+type(
+  string
+)
+ident(
+  def m "cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+)
+"cfg_scope.ml" 325 10927 10964 "cfg_scope.ml" 325 10927 11002
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 326 11004 11042 "cfg_scope.ml" 326 11004 11046
+type(
+  Cfg.star_expr
+)
+ident(
+  def file "cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+)
+"cfg_scope.ml" 326 11004 11048 "cfg_scope.ml" 326 11004 11049
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 326 11004 11042 "cfg_scope.ml" 326 11004 11049
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 327 11051 11087 "cfg_scope.ml" 327 11051 11091
+type(
+  Cfg.codeblock option
+)
+"cfg_scope.ml" 325 10927 10952 "cfg_scope.ml" 327 11051 11093
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 325 10927 10935 "cfg_scope.ml" 327 11051 11094
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 328 11095 11114 "cfg_scope.ml" 328 11095 11119
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+)
+"cfg_scope.ml" 328 11095 11148 "cfg_scope.ml" 328 11095 11162
+type(
+  string
+)
+"cfg_scope.ml" 328 11095 11163 "cfg_scope.ml" 328 11095 11174
+type(
+  string
+)
+"cfg_scope.ml" 328 11095 11148 "cfg_scope.ml" 328 11095 11174
+type(
+  string
+)
+"cfg_scope.ml" 328 11095 11147 "cfg_scope.ml" 328 11095 11180
+type(
+  string
+)
+ident(
+  def m "cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+)
+"cfg_scope.ml" 328 11095 11132 "cfg_scope.ml" 328 11095 11180
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 329 11182 11220 "cfg_scope.ml" 329 11182 11221
+type(
+  Cfg.star_expr
+)
+"cfg_scope.ml" 329 11182 11223 "cfg_scope.ml" 329 11182 11227
+type(
+  Cfg.star_expr
+)
+ident(
+  def file "cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+)
+"cfg_scope.ml" 329 11182 11229 "cfg_scope.ml" 329 11182 11230
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 329 11182 11223 "cfg_scope.ml" 329 11182 11230
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 329 11182 11220 "cfg_scope.ml" 329 11182 11230
+type(
+  Cfg.star_expr list
+)
+"cfg_scope.ml" 330 11232 11268 "cfg_scope.ml" 330 11232 11272
+type(
+  Cfg.codeblock option
+)
+"cfg_scope.ml" 328 11095 11120 "cfg_scope.ml" 330 11232 11274
+type(
+  Cfg.method_call
+)
+"cfg_scope.ml" 328 11095 11103 "cfg_scope.ml" 330 11232 11275
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 325 10927 10935 "cfg_scope.ml" 330 11232 11275
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 331 11279 11293 "cfg_scope.ml" 331 11279 11295
+type(
+  [> `Load | `Require ]
+)
+"cfg_scope.ml" 331 11279 11301 "cfg_scope.ml" 331 11279 11302
+type(
+  string
+)
+ident(
+  int_ref m "cfg_scope.ml" 325 10927 10979 "cfg_scope.ml" 325 10927 11002
+)
+"cfg_scope.ml" 331 11279 11303 "cfg_scope.ml" 331 11279 11304
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"cfg_scope.ml" 331 11279 11305 "cfg_scope.ml" 331 11279 11319
+type(
+  string
+)
+"cfg_scope.ml" 331 11279 11301 "cfg_scope.ml" 331 11279 11319
+type(
+  bool
+)
+"cfg_scope.ml" 331 11279 11325 "cfg_scope.ml" 331 11279 11333
+type(
+  [> `Load | `Require ] as 'g
+)
+"cfg_scope.ml" 331 11279 11339 "cfg_scope.ml" 331 11279 11344
+type(
+  'g
+)
+"cfg_scope.ml" 331 11279 11298 "cfg_scope.ml" 331 11279 11344
+type(
+  'g
+)
+"cfg_scope.ml" 332 11348 11360 "cfg_scope.ml" 332 11348 11364
+type(
+  'f
+)
+"cfg_scope.ml" 332 11348 11360 "cfg_scope.ml" 332 11348 11376
+type(
+  Cfg.pos -> env -> Cfg.star_expr -> [ `Load | `Require ] -> unit
+)
+"cfg_scope.ml" 332 11348 11377 "cfg_scope.ml" 332 11348 11381
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 332 11348 11377 "cfg_scope.ml" 332 11348 11385
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 332 11348 11386 "cfg_scope.ml" 332 11348 11389
+type(
+  env
+)
+"cfg_scope.ml" 332 11348 11390 "cfg_scope.ml" 332 11348 11394
+type(
+  Cfg.star_expr
+)
+ident(
+  int_ref file "cfg_scope.ml" 326 11004 11042 "cfg_scope.ml" 326 11004 11046
+)
+"cfg_scope.ml" 332 11348 11395 "cfg_scope.ml" 332 11348 11397
+type(
+  [ `Load | `Require ]
+)
+ident(
+  int_ref rl "cfg_scope.ml" 331 11279 11293 "cfg_scope.ml" 331 11279 11295
+)
+"cfg_scope.ml" 332 11348 11360 "cfg_scope.ml" 332 11348 11397
+type(
+  unit
+)
+"cfg_scope.ml" 333 11399 11411 "cfg_scope.ml" 333 11399 11421
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 332 11348 11360 "cfg_scope.ml" 333 11399 11421
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 331 11279 11289 "cfg_scope.ml" 333 11399 11421
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 335 11423 11442 "cfg_scope.ml" 335 11423 11452
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 335 11423 11453 "cfg_scope.ml" 335 11423 11456
+type(
+  string
+)
+ident(
+  def var "cfg_scope.ml" 336 11466 11476 "cfg_scope.ml" 338 11557 11582
+)
+"cfg_scope.ml" 335 11423 11441 "cfg_scope.ml" 335 11423 11457
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 335 11423 11434 "cfg_scope.ml" 335 11423 11457
+type(
+  Cfg.expr
+)
+"cfg_scope.ml" 335 11423 11458 "cfg_scope.ml" 335 11423 11459
+type(
+  Cfg.stmt
+)
+ident(
+  def t "cfg_scope.ml" 336 11466 11476 "cfg_scope.ml" 338 11557 11582
+)
+"cfg_scope.ml" 335 11423 11460 "cfg_scope.ml" 335 11423 11461
+type(
+  Cfg.stmt
+)
+ident(
+  def f "cfg_scope.ml" 336 11466 11476 "cfg_scope.ml" 338 11557 11582
+)
+"cfg_scope.ml" 335 11423 11431 "cfg_scope.ml" 335 11423 11462
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 336 11466 11479 "cfg_scope.ml" 336 11466 11483
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"cfg_scope.ml" 336 11466 11479 "cfg_scope.ml" 336 11466 11496
+type(
+  bool
+)
+"cfg_scope.ml" 336 11466 11497 "cfg_scope.ml" 336 11466 11499
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 336 11466 11500 "cfg_scope.ml" 336 11466 11511
+type(
+  (string, 'a) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"cfg_scope.ml" 336 11466 11512 "cfg_scope.ml" 336 11466 11523
+type(
+  (string, 'a) Hashtbl.t
+)
+"cfg_scope.ml" 336 11466 11524 "cfg_scope.ml" 336 11466 11527
+type(
+  string
+)
+ident(
+  int_ref var "cfg_scope.ml" 335 11423 11453 "cfg_scope.ml" 335 11423 11456
+)
+"cfg_scope.ml" 336 11466 11500 "cfg_scope.ml" 336 11466 11527
+type(
+  bool
+)
+"cfg_scope.ml" 336 11466 11479 "cfg_scope.ml" 336 11466 11527
+type(
+  bool
+)
+"cfg_scope.ml" 337 11529 11544 "cfg_scope.ml" 337 11529 11556
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 338 11557 11572 "cfg_scope.ml" 338 11557 11582
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 336 11466 11476 "cfg_scope.ml" 338 11557 11582
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 340 11584 11602 "cfg_scope.ml" 340 11584 11607
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 341 11638 11648 "cfg_scope.ml" 355 12403 12430
+)
+"cfg_scope.ml" 340 11584 11621 "cfg_scope.ml" 340 11584 11623
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 341 11638 11648 "cfg_scope.ml" 355 12403 12430
+)
+"cfg_scope.ml" 340 11584 11624 "cfg_scope.ml" 340 11584 11627
+type(
+  Cfg.identifier option
+)
+ident(
+  def inh "cfg_scope.ml" 341 11638 11648 "cfg_scope.ml" 355 12403 12430
+)
+"cfg_scope.ml" 340 11584 11608 "cfg_scope.ml" 340 11584 11628
+type(
+  Cfg.class_kind
+)
+"cfg_scope.ml" 340 11584 11629 "cfg_scope.ml" 340 11584 11633
+type(
+  Cfg.stmt
+)
+ident(
+  def body "cfg_scope.ml" 341 11638 11648 "cfg_scope.ml" 355 12403 12430
+)
+"cfg_scope.ml" 340 11584 11592 "cfg_scope.ml" 340 11584 11634
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 341 11638 11652 "cfg_scope.ml" 341 11638 11654
+type(
+  NS.scope
+)
+"cfg_scope.ml" 341 11638 11657 "cfg_scope.ml" 341 11638 11679
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 341 11638 11680 "cfg_scope.ml" 341 11638 11682
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 340 11584 11621 "cfg_scope.ml" 340 11584 11623
+)
+"cfg_scope.ml" 341 11638 11657 "cfg_scope.ml" 341 11638 11682
+type(
+  NS.scope
+)
+"cfg_scope.ml" 342 11686 11700 "cfg_scope.ml" 342 11686 11708
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 342 11686 11711 "cfg_scope.ml" 342 11686 11727
+type(
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.move_to_scope
+)
+"cfg_scope.ml" 342 11686 11728 "cfg_scope.ml" 342 11686 11730
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 341 11638 11652 "cfg_scope.ml" 341 11638 11654
+)
+"cfg_scope.ml" 342 11686 11731 "cfg_scope.ml" 342 11686 11734
+type(
+  env
+)
+"cfg_scope.ml" 342 11686 11731 "cfg_scope.ml" 342 11686 11739
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 342 11686 11711 "cfg_scope.ml" 342 11686 11739
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 343 11743 11757 "cfg_scope.ml" 343 11743 11761
+type(
+  env
+)
+"cfg_scope.ml" 343 11743 11776 "cfg_scope.ml" 343 11743 11792
+type(
+  unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.current_scope
+)
+"cfg_scope.ml" 343 11743 11793 "cfg_scope.ml" 343 11743 11801
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cls_curs "cfg_scope.ml" 342 11686 11700 "cfg_scope.ml" 342 11686 11708
+)
+"cfg_scope.ml" 343 11743 11775 "cfg_scope.ml" 343 11743 11802
+type(
+  NS.scope
+)
+"cfg_scope.ml" 343 11743 11804 "cfg_scope.ml" 343 11743 11807
+type(
+  env
+)
+"cfg_scope.ml" 343 11743 11804 "cfg_scope.ml" 343 11743 11817
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 343 11743 11775 "cfg_scope.ml" 343 11743 11817
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 344 11820 11847 "cfg_scope.ml" 344 11820 11855
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref cls_curs "cfg_scope.ml" 342 11686 11700 "cfg_scope.ml" 342 11686 11708
+)
+"cfg_scope.ml" 343 11743 11764 "cfg_scope.ml" 344 11820 11856
+type(
+  env
+)
+"cfg_scope.ml" 346 11871 11885 "cfg_scope.ml" 346 11871 11888
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 346 11871 11891 "cfg_scope.ml" 346 11871 11899
+type(
+  Cfg.cfg_visitor -> Cfg.identifier -> Cfg.identifier
+)
+ident(
+  ext_ref Cfg.visit_id
+)
+"cfg_scope.ml" 346 11871 11901 "cfg_scope.ml" 346 11871 11905
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 346 11871 11920 "cfg_scope.ml" 346 11871 11922
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 340 11584 11621 "cfg_scope.ml" 340 11584 11623
+)
+"cfg_scope.ml" 346 11871 11891 "cfg_scope.ml" 346 11871 11922
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 347 11926 11940 "cfg_scope.ml" 347 11926 11944
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 347 11926 11947 "cfg_scope.ml" 347 11926 11963
+type(
+  (Cfg.identifier -> Cfg.identifier) ->
+  Cfg.identifier option -> Cfg.identifier option
+)
+ident(
+  ext_ref Utils.map_opt_preserve
+)
+"cfg_scope.ml" 347 11926 11965 "cfg_scope.ml" 347 11926 11973
+type(
+  Cfg.cfg_visitor -> Cfg.identifier -> Cfg.identifier
+)
+ident(
+  ext_ref Cfg.visit_id
+)
+"cfg_scope.ml" 347 11926 11975 "cfg_scope.ml" 347 11926 11979
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 347 11926 11964 "cfg_scope.ml" 347 11926 11994
+type(
+  Cfg.identifier -> Cfg.identifier
+)
+"cfg_scope.ml" 347 11926 11994 "cfg_scope.ml" 347 11926 11997
+type(
+  Cfg.identifier option
+)
+ident(
+  int_ref inh "cfg_scope.ml" 340 11584 11624 "cfg_scope.ml" 340 11584 11627
+)
+"cfg_scope.ml" 347 11926 11947 "cfg_scope.ml" 347 11926 11997
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 348 12001 12015 "cfg_scope.ml" 348 12001 12021
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 348 12001 12024 "cfg_scope.ml" 348 12001 12040
+type(
+  (Cfg.lhs -> Cfg.lhs) -> Cfg.lhs option -> Cfg.lhs option
+)
+ident(
+  ext_ref Utils.map_opt_preserve
+)
+"cfg_scope.ml" 348 12001 12042 "cfg_scope.ml" 348 12001 12051
+type(
+  Cfg.cfg_visitor -> Cfg.lhs -> Cfg.lhs
+)
+ident(
+  ext_ref Cfg.visit_lhs
+)
+"cfg_scope.ml" 348 12001 12053 "cfg_scope.ml" 348 12001 12057
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 348 12001 12041 "cfg_scope.ml" 348 12001 12072
+type(
+  Cfg.lhs -> Cfg.lhs
+)
+"cfg_scope.ml" 348 12001 12073 "cfg_scope.ml" 348 12001 12078
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "cfg_scope.ml" 340 11584 11602 "cfg_scope.ml" 340 11584 11607
+)
+"cfg_scope.ml" 348 12001 12024 "cfg_scope.ml" 348 12001 12078
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 349 12082 12096 "cfg_scope.ml" 349 12082 12101
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 349 12082 12104 "cfg_scope.ml" 349 12082 12108
+type(
+  'f
+)
+"cfg_scope.ml" 349 12082 12104 "cfg_scope.ml" 349 12082 12115
+type(
+  (Cfg.stmt -> Cfg.stmt) -> Cfg.stmt -> env -> Cfg.stmt
+)
+"cfg_scope.ml" 349 12082 12117 "cfg_scope.ml" 349 12082 12127
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 349 12082 12129 "cfg_scope.ml" 349 12082 12133
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 349 12082 12116 "cfg_scope.ml" 349 12082 12148
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+"cfg_scope.ml" 349 12082 12149 "cfg_scope.ml" 349 12082 12153
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 340 11584 11629 "cfg_scope.ml" 340 11584 11633
+)
+"cfg_scope.ml" 349 12082 12154 "cfg_scope.ml" 349 12082 12158
+type(
+  env
+)
+ident(
+  int_ref env' "cfg_scope.ml" 343 11743 11757 "cfg_scope.ml" 343 11743 11761
+)
+"cfg_scope.ml" 349 12082 12104 "cfg_scope.ml" 349 12082 12158
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 350 12162 12177 "cfg_scope.ml" 350 12162 12182
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "cfg_scope.ml" 340 11584 11602 "cfg_scope.ml" 340 11584 11607
+)
+"cfg_scope.ml" 350 12162 12182 "cfg_scope.ml" 350 12162 12184
+type(
+  Cfg.lhs option -> Cfg.lhs option -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 350 12162 12184 "cfg_scope.ml" 350 12162 12190
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o' "cfg_scope.ml" 348 12001 12015 "cfg_scope.ml" 348 12001 12021
+)
+"cfg_scope.ml" 350 12162 12177 "cfg_scope.ml" 350 12162 12190
+type(
+  bool
+)
+"cfg_scope.ml" 350 12162 12191 "cfg_scope.ml" 350 12162 12193
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 350 12162 12194 "cfg_scope.ml" 350 12162 12196
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 340 11584 11621 "cfg_scope.ml" 340 11584 11623
+)
+"cfg_scope.ml" 350 12162 12196 "cfg_scope.ml" 350 12162 12198
+type(
+  Cfg.identifier -> Cfg.identifier -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 350 12162 12198 "cfg_scope.ml" 350 12162 12201
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id' "cfg_scope.ml" 346 11871 11885 "cfg_scope.ml" 346 11871 11888
+)
+"cfg_scope.ml" 350 12162 12194 "cfg_scope.ml" 350 12162 12201
+type(
+  bool
+)
+"cfg_scope.ml" 350 12162 12202 "cfg_scope.ml" 350 12162 12204
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 350 12162 12205 "cfg_scope.ml" 350 12162 12208
+type(
+  Cfg.identifier option
+)
+ident(
+  int_ref inh "cfg_scope.ml" 340 11584 11624 "cfg_scope.ml" 340 11584 11627
+)
+"cfg_scope.ml" 350 12162 12209 "cfg_scope.ml" 350 12162 12211
+type(
+  Cfg.identifier option -> Cfg.identifier option -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 350 12162 12212 "cfg_scope.ml" 350 12162 12216
+type(
+  Cfg.identifier option
+)
+ident(
+  int_ref inh' "cfg_scope.ml" 347 11926 11940 "cfg_scope.ml" 347 11926 11944
+)
+"cfg_scope.ml" 350 12162 12205 "cfg_scope.ml" 350 12162 12216
+type(
+  bool
+)
+"cfg_scope.ml" 350 12162 12217 "cfg_scope.ml" 350 12162 12219
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 350 12162 12220 "cfg_scope.ml" 350 12162 12224
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 340 11584 11629 "cfg_scope.ml" 340 11584 11633
+)
+"cfg_scope.ml" 350 12162 12224 "cfg_scope.ml" 350 12162 12226
+type(
+  Cfg.stmt -> Cfg.stmt -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 350 12162 12226 "cfg_scope.ml" 350 12162 12231
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "cfg_scope.ml" 349 12082 12096 "cfg_scope.ml" 349 12082 12101
+)
+"cfg_scope.ml" 350 12162 12220 "cfg_scope.ml" 350 12162 12231
+type(
+  bool
+)
+"cfg_scope.ml" 350 12162 12205 "cfg_scope.ml" 350 12162 12231
+type(
+  bool
+)
+"cfg_scope.ml" 350 12162 12194 "cfg_scope.ml" 350 12162 12231
+type(
+  bool
+)
+"cfg_scope.ml" 350 12162 12177 "cfg_scope.ml" 350 12162 12231
+type(
+  bool
+)
+"cfg_scope.ml" 351 12232 12249 "cfg_scope.ml" 351 12232 12261
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 353 12280 12298 "cfg_scope.ml" 353 12280 12301
+type(
+  Cfg.class_kind
+)
+"cfg_scope.ml" 353 12280 12317 "cfg_scope.ml" 353 12280 12320
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id' "cfg_scope.ml" 346 11871 11885 "cfg_scope.ml" 346 11871 11888
+)
+"cfg_scope.ml" 353 12280 12321 "cfg_scope.ml" 353 12280 12325
+type(
+  Cfg.identifier option
+)
+ident(
+  int_ref inh' "cfg_scope.ml" 347 11926 11940 "cfg_scope.ml" 347 11926 11944
+)
+"cfg_scope.ml" 353 12280 12304 "cfg_scope.ml" 353 12280 12326
+type(
+  Cfg.class_kind
+)
+"cfg_scope.ml" 354 12330 12348 "cfg_scope.ml" 354 12330 12350
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 354 12330 12353 "cfg_scope.ml" 354 12330 12364
+type(
+  Cfg.stmt -> Cfg.stmt_node -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.update_stmt
+)
+"cfg_scope.ml" 354 12330 12365 "cfg_scope.ml" 354 12330 12369
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 354 12330 12381 "cfg_scope.ml" 354 12330 12387
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o' "cfg_scope.ml" 348 12001 12015 "cfg_scope.ml" 348 12001 12021
+)
+"cfg_scope.ml" 354 12330 12388 "cfg_scope.ml" 354 12330 12391
+type(
+  Cfg.class_kind
+)
+ident(
+  int_ref ck' "cfg_scope.ml" 353 12280 12298 "cfg_scope.ml" 353 12280 12301
+)
+"cfg_scope.ml" 354 12330 12392 "cfg_scope.ml" 354 12330 12397
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "cfg_scope.ml" 349 12082 12096 "cfg_scope.ml" 349 12082 12101
+)
+"cfg_scope.ml" 354 12330 12370 "cfg_scope.ml" 354 12330 12399
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 354 12330 12353 "cfg_scope.ml" 354 12330 12399
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 355 12403 12428 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s' "cfg_scope.ml" 354 12330 12348 "cfg_scope.ml" 354 12330 12350
+)
+"cfg_scope.ml" 355 12403 12419 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 354 12330 12344 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 353 12280 12294 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 350 12162 12174 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 349 12082 12092 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 348 12001 12011 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 347 11926 11936 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 346 11871 11881 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 343 11743 11753 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 342 11686 11696 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 341 11638 11648 "cfg_scope.ml" 355 12403 12430
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 357 12432 12447 "cfg_scope.ml" 357 12432 12452
+type(
+  Cfg.lhs option
+)
+ident(
+  def lhs_o "cfg_scope.ml" 358 12465 12475 "cfg_scope.ml" 368 13001 13072
+)
+"cfg_scope.ml" 357 12432 12453 "cfg_scope.ml" 357 12432 12455
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 358 12465 12475 "cfg_scope.ml" 368 13001 13072
+)
+"cfg_scope.ml" 357 12432 12456 "cfg_scope.ml" 357 12432 12460
+type(
+  Cfg.stmt
+)
+ident(
+  def body "cfg_scope.ml" 358 12465 12475 "cfg_scope.ml" 368 13001 13072
+)
+"cfg_scope.ml" 357 12432 12440 "cfg_scope.ml" 357 12432 12461
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 358 12465 12479 "cfg_scope.ml" 358 12465 12482
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 358 12465 12485 "cfg_scope.ml" 358 12465 12493
+type(
+  Cfg.cfg_visitor -> Cfg.identifier -> Cfg.identifier
+)
+ident(
+  ext_ref Cfg.visit_id
+)
+"cfg_scope.ml" 358 12465 12495 "cfg_scope.ml" 358 12465 12499
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 358 12465 12514 "cfg_scope.ml" 358 12465 12516
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 357 12432 12453 "cfg_scope.ml" 357 12432 12455
+)
+"cfg_scope.ml" 358 12465 12485 "cfg_scope.ml" 358 12465 12516
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 359 12520 12534 "cfg_scope.ml" 359 12520 12540
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 359 12520 12543 "cfg_scope.ml" 359 12520 12559
+type(
+  (Cfg.lhs -> Cfg.lhs) -> Cfg.lhs option -> Cfg.lhs option
+)
+ident(
+  ext_ref Utils.map_opt_preserve
+)
+"cfg_scope.ml" 359 12520 12561 "cfg_scope.ml" 359 12520 12570
+type(
+  Cfg.cfg_visitor -> Cfg.lhs -> Cfg.lhs
+)
+ident(
+  ext_ref Cfg.visit_lhs
+)
+"cfg_scope.ml" 359 12520 12572 "cfg_scope.ml" 359 12520 12576
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 359 12520 12560 "cfg_scope.ml" 359 12520 12591
+type(
+  Cfg.lhs -> Cfg.lhs
+)
+"cfg_scope.ml" 359 12520 12592 "cfg_scope.ml" 359 12520 12597
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "cfg_scope.ml" 357 12432 12447 "cfg_scope.ml" 357 12432 12452
+)
+"cfg_scope.ml" 359 12520 12543 "cfg_scope.ml" 359 12520 12597
+type(
+  Cfg.lhs option
+)
+"cfg_scope.ml" 360 12601 12615 "cfg_scope.ml" 360 12601 12617
+type(
+  NS.scope
+)
+"cfg_scope.ml" 360 12601 12620 "cfg_scope.ml" 360 12601 12642
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 360 12601 12643 "cfg_scope.ml" 360 12601 12645
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 357 12432 12453 "cfg_scope.ml" 357 12432 12455
+)
+"cfg_scope.ml" 360 12601 12620 "cfg_scope.ml" 360 12601 12645
+type(
+  NS.scope
+)
+"cfg_scope.ml" 361 12649 12663 "cfg_scope.ml" 361 12649 12671
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 361 12649 12674 "cfg_scope.ml" 361 12649 12690
+type(
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.move_to_scope
+)
+"cfg_scope.ml" 361 12649 12691 "cfg_scope.ml" 361 12649 12693
+type(
+  NS.scope
+)
+ident(
+  int_ref sc "cfg_scope.ml" 360 12601 12615 "cfg_scope.ml" 360 12601 12617
+)
+"cfg_scope.ml" 361 12649 12694 "cfg_scope.ml" 361 12649 12697
+type(
+  env
+)
+"cfg_scope.ml" 361 12649 12694 "cfg_scope.ml" 361 12649 12702
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 361 12649 12674 "cfg_scope.ml" 361 12649 12702
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 362 12706 12720 "cfg_scope.ml" 362 12706 12724
+type(
+  env
+)
+"cfg_scope.ml" 362 12706 12739 "cfg_scope.ml" 362 12706 12755
+type(
+  unit NS.cursor -> NS.scope
+)
+ident(
+  ext_ref NS.current_scope
+)
+"cfg_scope.ml" 362 12706 12756 "cfg_scope.ml" 362 12706 12764
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref mod_curs "cfg_scope.ml" 361 12649 12663 "cfg_scope.ml" 361 12649 12671
+)
+"cfg_scope.ml" 362 12706 12738 "cfg_scope.ml" 362 12706 12765
+type(
+  NS.scope
+)
+"cfg_scope.ml" 362 12706 12767 "cfg_scope.ml" 362 12706 12770
+type(
+  env
+)
+"cfg_scope.ml" 362 12706 12767 "cfg_scope.ml" 362 12706 12780
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 362 12706 12738 "cfg_scope.ml" 362 12706 12780
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 363 12782 12811 "cfg_scope.ml" 363 12782 12819
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref mod_curs "cfg_scope.ml" 361 12649 12663 "cfg_scope.ml" 361 12649 12671
+)
+"cfg_scope.ml" 362 12706 12727 "cfg_scope.ml" 363 12782 12821
+type(
+  env
+)
+"cfg_scope.ml" 365 12836 12850 "cfg_scope.ml" 365 12836 12855
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 365 12836 12858 "cfg_scope.ml" 365 12836 12862
+type(
+  'f
+)
+"cfg_scope.ml" 365 12836 12858 "cfg_scope.ml" 365 12836 12869
+type(
+  (Cfg.stmt -> Cfg.stmt) -> Cfg.stmt -> env -> Cfg.stmt
+)
+"cfg_scope.ml" 365 12836 12871 "cfg_scope.ml" 365 12836 12881
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 365 12836 12883 "cfg_scope.ml" 365 12836 12887
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 365 12836 12870 "cfg_scope.ml" 365 12836 12902
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+"cfg_scope.ml" 365 12836 12903 "cfg_scope.ml" 365 12836 12907
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 357 12432 12456 "cfg_scope.ml" 357 12432 12460
+)
+"cfg_scope.ml" 365 12836 12908 "cfg_scope.ml" 365 12836 12912
+type(
+  env
+)
+ident(
+  int_ref env' "cfg_scope.ml" 362 12706 12720 "cfg_scope.ml" 362 12706 12724
+)
+"cfg_scope.ml" 365 12836 12858 "cfg_scope.ml" 365 12836 12912
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 366 12916 12931 "cfg_scope.ml" 366 12916 12936
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o "cfg_scope.ml" 357 12432 12447 "cfg_scope.ml" 357 12432 12452
+)
+"cfg_scope.ml" 366 12916 12936 "cfg_scope.ml" 366 12916 12938
+type(
+  Cfg.lhs option -> Cfg.lhs option -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 366 12916 12938 "cfg_scope.ml" 366 12916 12944
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o' "cfg_scope.ml" 359 12520 12534 "cfg_scope.ml" 359 12520 12540
+)
+"cfg_scope.ml" 366 12916 12931 "cfg_scope.ml" 366 12916 12944
+type(
+  bool
+)
+"cfg_scope.ml" 366 12916 12945 "cfg_scope.ml" 366 12916 12947
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 366 12916 12948 "cfg_scope.ml" 366 12916 12950
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 357 12432 12453 "cfg_scope.ml" 357 12432 12455
+)
+"cfg_scope.ml" 366 12916 12950 "cfg_scope.ml" 366 12916 12952
+type(
+  Cfg.identifier -> Cfg.identifier -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 366 12916 12952 "cfg_scope.ml" 366 12916 12955
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id' "cfg_scope.ml" 358 12465 12479 "cfg_scope.ml" 358 12465 12482
+)
+"cfg_scope.ml" 366 12916 12948 "cfg_scope.ml" 366 12916 12955
+type(
+  bool
+)
+"cfg_scope.ml" 366 12916 12956 "cfg_scope.ml" 366 12916 12958
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 366 12916 12959 "cfg_scope.ml" 366 12916 12963
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 357 12432 12456 "cfg_scope.ml" 357 12432 12460
+)
+"cfg_scope.ml" 366 12916 12963 "cfg_scope.ml" 366 12916 12965
+type(
+  Cfg.stmt -> Cfg.stmt -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 366 12916 12965 "cfg_scope.ml" 366 12916 12970
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "cfg_scope.ml" 365 12836 12850 "cfg_scope.ml" 365 12836 12855
+)
+"cfg_scope.ml" 366 12916 12959 "cfg_scope.ml" 366 12916 12970
+type(
+  bool
+)
+"cfg_scope.ml" 366 12916 12948 "cfg_scope.ml" 366 12916 12970
+type(
+  bool
+)
+"cfg_scope.ml" 366 12916 12931 "cfg_scope.ml" 366 12916 12970
+type(
+  bool
+)
+"cfg_scope.ml" 367 12971 12988 "cfg_scope.ml" 367 12971 13000
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 368 13001 13028 "cfg_scope.ml" 368 13001 13039
+type(
+  Cfg.stmt -> Cfg.stmt_node -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.update_stmt
+)
+"cfg_scope.ml" 368 13001 13040 "cfg_scope.ml" 368 13001 13044
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 368 13001 13053 "cfg_scope.ml" 368 13001 13059
+type(
+  Cfg.lhs option
+)
+ident(
+  int_ref lhs_o' "cfg_scope.ml" 359 12520 12534 "cfg_scope.ml" 359 12520 12540
+)
+"cfg_scope.ml" 368 13001 13060 "cfg_scope.ml" 368 13001 13063
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id' "cfg_scope.ml" 358 12465 12479 "cfg_scope.ml" 358 12465 12482
+)
+"cfg_scope.ml" 368 13001 13064 "cfg_scope.ml" 368 13001 13069
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "cfg_scope.ml" 365 12836 12850 "cfg_scope.ml" 365 12836 12855
+)
+"cfg_scope.ml" 368 13001 13045 "cfg_scope.ml" 368 13001 13071
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 368 13001 13027 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 368 13001 13018 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 366 12916 12928 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 365 12836 12846 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 362 12706 12716 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 361 12649 12659 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 360 12601 12611 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 359 12520 12530 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 358 12465 12475 "cfg_scope.ml" 368 13001 13072
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 370 13074 13110 "cfg_scope.ml" 370 13074 13118
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 370 13074 13110 "cfg_scope.ml" 370 13074 13124
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 371 13144 13154 "cfg_scope.ml" 387 13883 13909
+)
+"cfg_scope.ml" 370 13074 13125 "cfg_scope.ml" 370 13074 13128
+type(
+  Cfg.msg_id
+)
+ident(
+  def msg "cfg_scope.ml" 371 13144 13154 "cfg_scope.ml" 387 13883 13909
+)
+"cfg_scope.ml" 370 13074 13093 "cfg_scope.ml" 370 13074 13129
+type(
+  Cfg.def_name
+)
+"cfg_scope.ml" 370 13074 13130 "cfg_scope.ml" 370 13074 13134
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  def args "cfg_scope.ml" 371 13144 13154 "cfg_scope.ml" 387 13883 13909
+)
+"cfg_scope.ml" 370 13074 13135 "cfg_scope.ml" 370 13074 13139
+type(
+  Cfg.stmt
+)
+ident(
+  def body "cfg_scope.ml" 371 13144 13154 "cfg_scope.ml" 387 13883 13909
+)
+"cfg_scope.ml" 370 13074 13082 "cfg_scope.ml" 370 13074 13140
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 371 13144 13158 "cfg_scope.ml" 371 13144 13162
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 372 13166 13181 "cfg_scope.ml" 372 13166 13191
+type(
+  unit NS.cursor -> bool
+)
+ident(
+  ext_ref NS.at_root
+)
+"cfg_scope.ml" 372 13166 13192 "cfg_scope.ml" 372 13166 13195
+type(
+  env
+)
+"cfg_scope.ml" 372 13166 13192 "cfg_scope.ml" 372 13166 13200
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 372 13166 13181 "cfg_scope.ml" 372 13166 13200
+type(
+  bool
+)
+"cfg_scope.ml" 372 13166 13206 "cfg_scope.ml" 372 13166 13209
+type(
+  env
+)
+"cfg_scope.ml" 372 13166 13206 "cfg_scope.ml" 372 13166 13214
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 373 13216 13233 "cfg_scope.ml" 373 13216 13247
+type(
+  unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.leave_scope
+)
+"cfg_scope.ml" 373 13216 13248 "cfg_scope.ml" 373 13216 13251
+type(
+  env
+)
+"cfg_scope.ml" 373 13216 13248 "cfg_scope.ml" 373 13216 13256
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 373 13216 13233 "cfg_scope.ml" 373 13216 13256
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 372 13166 13178 "cfg_scope.ml" 373 13216 13256
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 375 13271 13285 "cfg_scope.ml" 375 13271 13289
+type(
+  env
+)
+"cfg_scope.ml" 375 13271 13303 "cfg_scope.ml" 375 13271 13306
+type(
+  env
+)
+"cfg_scope.ml" 375 13271 13303 "cfg_scope.ml" 375 13271 13316
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 375 13271 13323 "cfg_scope.ml" 375 13271 13327
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref curs "cfg_scope.ml" 371 13144 13158 "cfg_scope.ml" 371 13144 13162
+)
+"cfg_scope.ml" 375 13271 13292 "cfg_scope.ml" 375 13271 13328
+type(
+  env
+)
+"cfg_scope.ml" 376 13332 13346 "cfg_scope.ml" 376 13332 13349
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 376 13332 13352 "cfg_scope.ml" 376 13332 13360
+type(
+  Cfg.cfg_visitor -> Cfg.identifier -> Cfg.identifier
+)
+ident(
+  ext_ref Cfg.visit_id
+)
+"cfg_scope.ml" 376 13332 13362 "cfg_scope.ml" 376 13332 13366
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 376 13332 13381 "cfg_scope.ml" 376 13332 13383
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 370 13074 13110 "cfg_scope.ml" 370 13074 13124
+)
+"cfg_scope.ml" 376 13332 13352 "cfg_scope.ml" 376 13332 13383
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 377 13387 13401 "cfg_scope.ml" 377 13387 13405
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 377 13387 13408 "cfg_scope.ml" 377 13387 13420
+type(
+  Cfg.cfg_visitor -> Cfg.msg_id -> Cfg.msg_id
+)
+ident(
+  ext_ref Cfg.visit_msg_id
+)
+"cfg_scope.ml" 377 13387 13422 "cfg_scope.ml" 377 13387 13426
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 377 13387 13441 "cfg_scope.ml" 377 13387 13444
+type(
+  Cfg.msg_id
+)
+ident(
+  int_ref msg "cfg_scope.ml" 370 13074 13125 "cfg_scope.ml" 370 13074 13128
+)
+"cfg_scope.ml" 377 13387 13408 "cfg_scope.ml" 377 13387 13444
+type(
+  Cfg.msg_id
+)
+"cfg_scope.ml" 378 13448 13462 "cfg_scope.ml" 378 13448 13467
+type(
+  Cfg.method_formal_param list
+)
+"cfg_scope.ml" 379 13471 13483 "cfg_scope.ml" 379 13471 13495
+type(
+  ((Cfg.method_formal_param -> Cfg.method_formal_param) ->
+   Cfg.method_formal_param list -> Cfg.method_formal_param list) ->
+  (Cfg.method_formal_param -> Cfg.method_formal_param) ->
+  Cfg.method_formal_param list -> Cfg.method_formal_param list
+)
+ident(
+  ext_ref Utils.map_preserve
+)
+"cfg_scope.ml" 379 13471 13496 "cfg_scope.ml" 379 13471 13504
+type(
+  (Cfg.method_formal_param -> Cfg.method_formal_param) ->
+  Cfg.method_formal_param list -> Cfg.method_formal_param list
+)
+ident(
+  ext_ref List.map
+)
+"cfg_scope.ml" 379 13471 13506 "cfg_scope.ml" 379 13471 13524
+type(
+  Cfg.cfg_visitor -> Cfg.method_formal_param -> Cfg.method_formal_param
+)
+ident(
+  ext_ref Cfg.visit_method_param
+)
+"cfg_scope.ml" 379 13471 13526 "cfg_scope.ml" 379 13471 13530
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 379 13471 13505 "cfg_scope.ml" 379 13471 13545
+type(
+  Cfg.method_formal_param -> Cfg.method_formal_param
+)
+"cfg_scope.ml" 379 13471 13546 "cfg_scope.ml" 379 13471 13550
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args "cfg_scope.ml" 370 13074 13130 "cfg_scope.ml" 370 13074 13134
+)
+"cfg_scope.ml" 379 13471 13483 "cfg_scope.ml" 379 13471 13550
+type(
+  Cfg.method_formal_param list
+)
+"cfg_scope.ml" 381 13565 13579 "cfg_scope.ml" 381 13565 13584
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 381 13565 13587 "cfg_scope.ml" 381 13565 13591
+type(
+  'f
+)
+"cfg_scope.ml" 381 13565 13587 "cfg_scope.ml" 381 13565 13598
+type(
+  (Cfg.stmt -> Cfg.stmt) -> Cfg.stmt -> env -> Cfg.stmt
+)
+"cfg_scope.ml" 381 13565 13600 "cfg_scope.ml" 381 13565 13610
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 381 13565 13612 "cfg_scope.ml" 381 13565 13616
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 381 13565 13599 "cfg_scope.ml" 381 13565 13631
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+"cfg_scope.ml" 381 13565 13632 "cfg_scope.ml" 381 13565 13636
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 370 13074 13135 "cfg_scope.ml" 370 13074 13139
+)
+"cfg_scope.ml" 381 13565 13637 "cfg_scope.ml" 381 13565 13641
+type(
+  env
+)
+ident(
+  int_ref env' "cfg_scope.ml" 375 13271 13285 "cfg_scope.ml" 375 13271 13289
+)
+"cfg_scope.ml" 381 13565 13587 "cfg_scope.ml" 381 13565 13641
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 382 13645 13660 "cfg_scope.ml" 382 13645 13662
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 370 13074 13110 "cfg_scope.ml" 370 13074 13124
+)
+"cfg_scope.ml" 382 13645 13662 "cfg_scope.ml" 382 13645 13664
+type(
+  Cfg.identifier -> Cfg.identifier -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 382 13645 13664 "cfg_scope.ml" 382 13645 13667
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id' "cfg_scope.ml" 376 13332 13346 "cfg_scope.ml" 376 13332 13349
+)
+"cfg_scope.ml" 382 13645 13660 "cfg_scope.ml" 382 13645 13667
+type(
+  bool
+)
+"cfg_scope.ml" 382 13645 13668 "cfg_scope.ml" 382 13645 13670
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 382 13645 13671 "cfg_scope.ml" 382 13645 13674
+type(
+  Cfg.msg_id
+)
+ident(
+  int_ref msg "cfg_scope.ml" 370 13074 13125 "cfg_scope.ml" 370 13074 13128
+)
+"cfg_scope.ml" 382 13645 13674 "cfg_scope.ml" 382 13645 13676
+type(
+  Cfg.msg_id -> Cfg.msg_id -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 382 13645 13676 "cfg_scope.ml" 382 13645 13680
+type(
+  Cfg.msg_id
+)
+ident(
+  int_ref msg' "cfg_scope.ml" 377 13387 13401 "cfg_scope.ml" 377 13387 13405
+)
+"cfg_scope.ml" 382 13645 13671 "cfg_scope.ml" 382 13645 13680
+type(
+  bool
+)
+"cfg_scope.ml" 382 13645 13681 "cfg_scope.ml" 382 13645 13683
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 382 13645 13684 "cfg_scope.ml" 382 13645 13688
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args "cfg_scope.ml" 370 13074 13130 "cfg_scope.ml" 370 13074 13134
+)
+"cfg_scope.ml" 382 13645 13688 "cfg_scope.ml" 382 13645 13690
+type(
+  Cfg.method_formal_param list -> Cfg.method_formal_param list -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 382 13645 13690 "cfg_scope.ml" 382 13645 13695
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args' "cfg_scope.ml" 378 13448 13462 "cfg_scope.ml" 378 13448 13467
+)
+"cfg_scope.ml" 382 13645 13684 "cfg_scope.ml" 382 13645 13695
+type(
+  bool
+)
+"cfg_scope.ml" 382 13645 13696 "cfg_scope.ml" 382 13645 13698
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"cfg_scope.ml" 382 13645 13699 "cfg_scope.ml" 382 13645 13703
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body "cfg_scope.ml" 370 13074 13135 "cfg_scope.ml" 370 13074 13139
+)
+"cfg_scope.ml" 382 13645 13703 "cfg_scope.ml" 382 13645 13705
+type(
+  Cfg.stmt -> Cfg.stmt -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"cfg_scope.ml" 382 13645 13705 "cfg_scope.ml" 382 13645 13710
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "cfg_scope.ml" 381 13565 13579 "cfg_scope.ml" 381 13565 13584
+)
+"cfg_scope.ml" 382 13645 13699 "cfg_scope.ml" 382 13645 13710
+type(
+  bool
+)
+"cfg_scope.ml" 382 13645 13684 "cfg_scope.ml" 382 13645 13710
+type(
+  bool
+)
+"cfg_scope.ml" 382 13645 13671 "cfg_scope.ml" 382 13645 13710
+type(
+  bool
+)
+"cfg_scope.ml" 382 13645 13660 "cfg_scope.ml" 382 13645 13710
+type(
+  bool
+)
+"cfg_scope.ml" 383 13711 13728 "cfg_scope.ml" 383 13711 13740
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 385 13759 13777 "cfg_scope.ml" 385 13759 13779
+type(
+  Cfg.def_name
+)
+"cfg_scope.ml" 385 13759 13799 "cfg_scope.ml" 385 13759 13802
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id' "cfg_scope.ml" 376 13332 13346 "cfg_scope.ml" 376 13332 13349
+)
+"cfg_scope.ml" 385 13759 13803 "cfg_scope.ml" 385 13759 13807
+type(
+  Cfg.msg_id
+)
+ident(
+  int_ref msg' "cfg_scope.ml" 377 13387 13401 "cfg_scope.ml" 377 13387 13405
+)
+"cfg_scope.ml" 385 13759 13782 "cfg_scope.ml" 385 13759 13808
+type(
+  Cfg.def_name
+)
+"cfg_scope.ml" 386 13812 13830 "cfg_scope.ml" 386 13812 13831
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 386 13812 13834 "cfg_scope.ml" 386 13812 13845
+type(
+  Cfg.stmt -> Cfg.stmt_node -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.update_stmt
+)
+"cfg_scope.ml" 386 13812 13846 "cfg_scope.ml" 386 13812 13850
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 386 13812 13863 "cfg_scope.ml" 386 13812 13865
+type(
+  Cfg.def_name
+)
+ident(
+  int_ref sm "cfg_scope.ml" 385 13759 13777 "cfg_scope.ml" 385 13759 13779
+)
+"cfg_scope.ml" 386 13812 13866 "cfg_scope.ml" 386 13812 13871
+type(
+  Cfg.method_formal_param list
+)
+ident(
+  int_ref args' "cfg_scope.ml" 378 13448 13462 "cfg_scope.ml" 378 13448 13467
+)
+"cfg_scope.ml" 386 13812 13872 "cfg_scope.ml" 386 13812 13877
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref body' "cfg_scope.ml" 381 13565 13579 "cfg_scope.ml" 381 13565 13584
+)
+"cfg_scope.ml" 386 13812 13851 "cfg_scope.ml" 386 13812 13879
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 386 13812 13834 "cfg_scope.ml" 386 13812 13879
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 387 13883 13908 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref m "cfg_scope.ml" 386 13812 13830 "cfg_scope.ml" 386 13812 13831
+)
+"cfg_scope.ml" 387 13883 13899 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 386 13812 13826 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 385 13759 13773 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 382 13645 13657 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 381 13565 13575 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 378 13448 13458 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 377 13387 13397 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 376 13332 13342 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 375 13271 13281 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 371 13144 13154 "cfg_scope.ml" 387 13883 13909
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 389 13911 13927 "cfg_scope.ml" 389 13911 13928
+type(
+  Cfg.identifier
+)
+ident(
+  def i "cfg_scope.ml" 390 13936 13946 "cfg_scope.ml" 392 14060 14089
+)
+"cfg_scope.ml" 389 13911 13929 "cfg_scope.ml" 389 13911 13930
+type(
+  Cfg.stmt
+)
+ident(
+  def s "cfg_scope.ml" 390 13936 13946 "cfg_scope.ml" 392 14060 14089
+)
+"cfg_scope.ml" 389 13911 13919 "cfg_scope.ml" 389 13911 13931
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 390 13936 13950 "cfg_scope.ml" 390 13936 13952
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 390 13936 13955 "cfg_scope.ml" 390 13936 13963
+type(
+  Cfg.cfg_visitor -> Cfg.identifier -> Cfg.identifier
+)
+ident(
+  ext_ref Cfg.visit_id
+)
+"cfg_scope.ml" 390 13936 13965 "cfg_scope.ml" 390 13936 13969
+type(
+  Cfg.cfg_visitor
+)
+type(
+  'f
+)
+"cfg_scope.ml" 390 13936 13984 "cfg_scope.ml" 390 13936 13985
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref i "cfg_scope.ml" 389 13911 13927 "cfg_scope.ml" 389 13911 13928
+)
+"cfg_scope.ml" 390 13936 13955 "cfg_scope.ml" 390 13936 13985
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 391 13990 14005 "cfg_scope.ml" 391 13990 14006
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref i "cfg_scope.ml" 389 13911 13927 "cfg_scope.ml" 389 13911 13928
+)
+"cfg_scope.ml" 391 13990 14006 "cfg_scope.ml" 391 13990 14008
+type(
+  Cfg.identifier -> Cfg.identifier -> bool
+)
+ident(
+  ext_ref Pervasives.!=
+)
+"cfg_scope.ml" 391 13990 14009 "cfg_scope.ml" 391 13990 14011
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref i' "cfg_scope.ml" 390 13936 13950 "cfg_scope.ml" 390 13936 13952
+)
+"cfg_scope.ml" 391 13990 14005 "cfg_scope.ml" 391 13990 14011
+type(
+  bool
+)
+"cfg_scope.ml" 391 13990 14026 "cfg_scope.ml" 391 13990 14037
+type(
+  Cfg.stmt -> Cfg.stmt_node -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.update_stmt
+)
+"cfg_scope.ml" 391 13990 14038 "cfg_scope.ml" 391 13990 14042
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 321 10851 10871 "cfg_scope.ml" 321 10851 10875
+)
+"cfg_scope.ml" 391 13990 14052 "cfg_scope.ml" 391 13990 14054
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref i' "cfg_scope.ml" 390 13936 13950 "cfg_scope.ml" 390 13936 13952
+)
+"cfg_scope.ml" 391 13990 14055 "cfg_scope.ml" 391 13990 14056
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref s "cfg_scope.ml" 389 13911 13929 "cfg_scope.ml" 389 13911 13930
+)
+"cfg_scope.ml" 391 13990 14043 "cfg_scope.ml" 391 13990 14058
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 391 13990 14025 "cfg_scope.ml" 391 13990 14059
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 391 13990 14017 "cfg_scope.ml" 391 13990 14059
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 392 14060 14077 "cfg_scope.ml" 392 14060 14089
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 391 13990 14002 "cfg_scope.ml" 392 14060 14089
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 390 13936 13946 "cfg_scope.ml" 392 14060 14089
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 394 14091 14099 "cfg_scope.ml" 394 14091 14100
+type(
+  Cfg.stmt_node
+)
+"cfg_scope.ml" 394 14091 14104 "cfg_scope.ml" 394 14091 14114
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 323 10900 10904 "cfg_scope.ml" 394 14091 14114
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 322 10879 10883 "cfg_scope.ml" 394 14091 14114
+type(
+  Cfg.stmt Visitor.visitAction
+)
+"cfg_scope.ml" 396 14116 14134 "cfg_scope.ml" 396 14116 14136
+type(
+  Cfg.identifier
+)
+ident(
+  def id "cfg_scope.ml" 396 14116 14139 "cfg_scope.ml" 411 14572 14633
+)
+"cfg_scope.ml" 396 14116 14145 "cfg_scope.ml" 396 14116 14147
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 396 14116 14134 "cfg_scope.ml" 396 14116 14136
+)
+"cfg_scope.ml" 397 14153 14167 "cfg_scope.ml" 397 14153 14180
+type(
+  Cfg.var_kind
+)
+"cfg_scope.ml" 397 14153 14181 "cfg_scope.ml" 397 14153 14182
+type(
+  string
+)
+ident(
+  def s "cfg_scope.ml" 398 14188 14196 "cfg_scope.ml" 401 14320 14331
+)
+"cfg_scope.ml" 397 14153 14166 "cfg_scope.ml" 397 14153 14183
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 397 14153 14159 "cfg_scope.ml" 397 14153 14183
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 398 14188 14208 "cfg_scope.ml" 398 14188 14218
+type(
+  Log.pos -> env -> NS.scope -> Cfg.identifier option
+)
+ident(
+  int_ref find_scope "cfg_scope.ml" 116 3472 3476 "cfg_scope.ml" 116 3472 3486
+)
+"cfg_scope.ml" 398 14188 14219 "cfg_scope.ml" 398 14188 14222
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 398 14188 14223 "cfg_scope.ml" 398 14188 14226
+type(
+  env
+)
+"cfg_scope.ml" 398 14188 14247 "cfg_scope.ml" 398 14188 14248
+type(
+  string
+)
+ident(
+  int_ref s "cfg_scope.ml" 397 14153 14181 "cfg_scope.ml" 397 14153 14182
+)
+"cfg_scope.ml" 398 14188 14246 "cfg_scope.ml" 398 14188 14249
+type(
+  string list
+)
+"cfg_scope.ml" 398 14188 14227 "cfg_scope.ml" 398 14188 14250
+type(
+  NS.scope
+)
+"cfg_scope.ml" 398 14188 14208 "cfg_scope.ml" 398 14188 14250
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 399 14256 14268 "cfg_scope.ml" 399 14256 14272
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 399 14256 14276 "cfg_scope.ml" 399 14256 14286
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 400 14287 14304 "cfg_scope.ml" 400 14287 14305
+type(
+  Cfg.identifier
+)
+ident(
+  def x "cfg_scope.ml" 400 14287 14309 "cfg_scope.ml" 400 14287 14319
+)
+"cfg_scope.ml" 400 14287 14299 "cfg_scope.ml" 400 14287 14305
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 400 14287 14318 "cfg_scope.ml" 400 14287 14319
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref x "cfg_scope.ml" 400 14287 14304 "cfg_scope.ml" 400 14287 14305
+)
+"cfg_scope.ml" 400 14287 14309 "cfg_scope.ml" 400 14287 14319
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 398 14188 14196 "cfg_scope.ml" 401 14320 14331
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 403 14343 14357 "cfg_scope.ml" 403 14343 14358
+type(
+  Cfg.var_kind * string
+)
+"cfg_scope.ml" 403 14343 14349 "cfg_scope.ml" 403 14343 14358
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 403 14343 14362 "cfg_scope.ml" 403 14343 14372
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 405 14382 14399 "cfg_scope.ml" 405 14382 14400
+type(
+  string
+)
+"cfg_scope.ml" 405 14382 14388 "cfg_scope.ml" 405 14382 14400
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 406 14401 14417 "cfg_scope.ml" 406 14401 14418
+type(
+  Cfg.identifier * string
+)
+"cfg_scope.ml" 406 14401 14407 "cfg_scope.ml" 406 14401 14418
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 405 14382 14388 "cfg_scope.ml" 406 14401 14418
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 407 14423 14443 "cfg_scope.ml" 407 14423 14453
+type(
+  Log.pos -> env -> NS.scope -> Cfg.identifier option
+)
+ident(
+  int_ref find_scope "cfg_scope.ml" 116 3472 3476 "cfg_scope.ml" 116 3472 3486
+)
+"cfg_scope.ml" 407 14423 14454 "cfg_scope.ml" 407 14423 14457
+type(
+  Cfg.pos
+)
+"cfg_scope.ml" 407 14423 14458 "cfg_scope.ml" 407 14423 14461
+type(
+  env
+)
+"cfg_scope.ml" 407 14423 14463 "cfg_scope.ml" 407 14423 14485
+type(
+  Cfg.identifier -> NS.scope
+)
+ident(
+  ext_ref NS.scope_of_identifier
+)
+"cfg_scope.ml" 407 14423 14486 "cfg_scope.ml" 407 14423 14488
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "cfg_scope.ml" 396 14116 14134 "cfg_scope.ml" 396 14116 14136
+)
+"cfg_scope.ml" 407 14423 14462 "cfg_scope.ml" 407 14423 14489
+type(
+  NS.scope
+)
+"cfg_scope.ml" 407 14423 14443 "cfg_scope.ml" 407 14423 14489
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 408 14495 14507 "cfg_scope.ml" 408 14495 14511
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 408 14495 14515 "cfg_scope.ml" 408 14495 14525
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 408 14495 14533 "cfg_scope.ml" 408 14495 14534
+type(
+  Cfg.identifier
+)
+ident(
+  def x "cfg_scope.ml" 408 14495 14538 "cfg_scope.ml" 408 14495 14548
+)
+"cfg_scope.ml" 408 14495 14528 "cfg_scope.ml" 408 14495 14534
+type(
+  Cfg.identifier option
+)
+"cfg_scope.ml" 408 14495 14547 "cfg_scope.ml" 408 14495 14548
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref x "cfg_scope.ml" 408 14495 14533 "cfg_scope.ml" 408 14495 14534
+)
+"cfg_scope.ml" 408 14495 14538 "cfg_scope.ml" 408 14495 14548
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 407 14423 14431 "cfg_scope.ml" 409 14549 14560
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 411 14572 14578 "cfg_scope.ml" 411 14572 14586
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14589 "cfg_scope.ml" 411 14572 14596
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14578 "cfg_scope.ml" 411 14572 14596
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14599 "cfg_scope.ml" 411 14572 14607
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14578 "cfg_scope.ml" 411 14572 14607
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14610 "cfg_scope.ml" 411 14572 14619
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14578 "cfg_scope.ml" 411 14572 14619
+type(
+  Cfg.identifier
+)
+"cfg_scope.ml" 411 14572 14623 "cfg_scope.ml" 411 14572 14633
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 396 14116 14139 "cfg_scope.ml" 411 14572 14633
+type(
+  Cfg.identifier Visitor.visitAction
+)
+"cfg_scope.ml" 420 14713 14717 "cfg_scope.ml" 420 14713 14723
+type(
+  File_loader.t -> t
+)
+ident(
+  def create "cfg_scope.ml" 428 14995 14995 --
+)
+"cfg_scope.ml" 420 14713 14724 "cfg_scope.ml" 420 14713 14730
+type(
+  File_loader.t
+)
+ident(
+  def loader "cfg_scope.ml" 421 14734 14736 "cfg_scope.ml" 426 14955 14993
+)
+"cfg_scope.ml" 421 14734 14740 "cfg_scope.ml" 421 14734 14742
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 421 14734 14745 "cfg_scope.ml" 421 14734 14757
+type(
+  unit NS.t -> unit NS.cursor
+)
+ident(
+  ext_ref NS.to_cursor
+)
+"cfg_scope.ml" 421 14734 14758 "cfg_scope.ml" 421 14734 14766
+type(
+  unit NS.t
+)
+ident(
+  ext_ref NS.empty
+)
+"cfg_scope.ml" 421 14734 14745 "cfg_scope.ml" 421 14734 14766
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 422 14770 14776 "cfg_scope.ml" 422 14770 14778
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 422 14770 14781 "cfg_scope.ml" 422 14770 14787
+type(
+  string -> unit -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add
+)
+"cfg_scope.ml" 422 14770 14788 "cfg_scope.ml" 422 14770 14796
+type(
+  string
+)
+"cfg_scope.ml" 422 14770 14797 "cfg_scope.ml" 422 14770 14799
+type(
+  unit
+)
+"cfg_scope.ml" 422 14770 14800 "cfg_scope.ml" 422 14770 14802
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 421 14734 14740 "cfg_scope.ml" 421 14734 14742
+)
+"cfg_scope.ml" 422 14770 14781 "cfg_scope.ml" 422 14770 14802
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 423 14806 14812 "cfg_scope.ml" 423 14806 14814
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 423 14806 14817 "cfg_scope.ml" 423 14806 14823
+type(
+  string -> unit -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add
+)
+"cfg_scope.ml" 423 14806 14824 "cfg_scope.ml" 423 14806 14832
+type(
+  string
+)
+"cfg_scope.ml" 423 14806 14833 "cfg_scope.ml" 423 14806 14835
+type(
+  unit
+)
+"cfg_scope.ml" 423 14806 14836 "cfg_scope.ml" 423 14806 14838
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 422 14770 14776 "cfg_scope.ml" 422 14770 14778
+)
+"cfg_scope.ml" 423 14806 14817 "cfg_scope.ml" 423 14806 14838
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 424 14842 14848 "cfg_scope.ml" 424 14842 14850
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 424 14842 14853 "cfg_scope.ml" 424 14842 14864
+type(
+  NS.scope -> unit NS.cursor -> unit NS.cursor
+)
+ident(
+  ext_ref NS.add_link
+)
+"cfg_scope.ml" 424 14842 14885 "cfg_scope.ml" 424 14842 14893
+type(
+  string
+)
+"cfg_scope.ml" 424 14842 14884 "cfg_scope.ml" 424 14842 14894
+type(
+  string list
+)
+"cfg_scope.ml" 424 14842 14865 "cfg_scope.ml" 424 14842 14895
+type(
+  NS.scope
+)
+"cfg_scope.ml" 424 14842 14896 "cfg_scope.ml" 424 14842 14898
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 423 14806 14812 "cfg_scope.ml" 423 14806 14814
+)
+"cfg_scope.ml" 424 14842 14853 "cfg_scope.ml" 424 14842 14898
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 425 14902 14908 "cfg_scope.ml" 425 14902 14915
+type(
+  build_scope_visitor
+)
+"cfg_scope.ml" 425 14902 14918 "cfg_scope.ml" 425 14902 14941
+type(
+  File_loader.t -> unit NS.cursor -> build_scope_visitor
+)
+"cfg_scope.ml" 425 14902 14942 "cfg_scope.ml" 425 14902 14948
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "cfg_scope.ml" 420 14713 14724 "cfg_scope.ml" 420 14713 14730
+)
+"cfg_scope.ml" 425 14902 14949 "cfg_scope.ml" 425 14902 14951
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 424 14842 14848 "cfg_scope.ml" 424 14842 14850
+)
+"cfg_scope.ml" 425 14902 14918 "cfg_scope.ml" 425 14902 14951
+type(
+  build_scope_visitor
+)
+"cfg_scope.ml" 426 14955 14969 "cfg_scope.ml" 426 14955 14975
+type(
+  File_loader.t
+)
+ident(
+  int_ref loader "cfg_scope.ml" 420 14713 14724 "cfg_scope.ml" 420 14713 14730
+)
+"cfg_scope.ml" 426 14955 14985 "cfg_scope.ml" 426 14955 14992
+type(
+  build_scope_visitor
+)
+ident(
+  int_ref builder "cfg_scope.ml" 425 14902 14908 "cfg_scope.ml" 425 14902 14915
+)
+"cfg_scope.ml" 426 14955 14959 "cfg_scope.ml" 426 14955 14993
+type(
+  t
+)
+"cfg_scope.ml" 425 14902 14904 "cfg_scope.ml" 426 14955 14993
+type(
+  t
+)
+"cfg_scope.ml" 424 14842 14844 "cfg_scope.ml" 426 14955 14993
+type(
+  t
+)
+"cfg_scope.ml" 423 14806 14808 "cfg_scope.ml" 426 14955 14993
+type(
+  t
+)
+"cfg_scope.ml" 422 14770 14772 "cfg_scope.ml" 426 14955 14993
+type(
+  t
+)
+"cfg_scope.ml" 421 14734 14736 "cfg_scope.ml" 426 14955 14993
+type(
+  t
+)
+"cfg_scope.ml" 428 14995 14999 "cfg_scope.ml" 428 14995 15013
+type(
+  t -> File_loader.load_result -> File_loader.load_result
+)
+ident(
+  def resolve_scopes "cfg_scope.ml" 439 15420 15448 --
+)
+"cfg_scope.ml" 428 14995 15014 "cfg_scope.ml" 428 14995 15015
+type(
+  t
+)
+ident(
+  def t "cfg_scope.ml" 428 14995 15016 "cfg_scope.ml" 439 15420 15448
+)
+"cfg_scope.ml" 428 14995 15016 "cfg_scope.ml" 428 14995 15024
+type(
+  File_loader.load_result
+)
+ident(
+  def l_result "cfg_scope.ml" 429 15027 15029 "cfg_scope.ml" 439 15420 15448
+)
+"cfg_scope.ml" 429 15027 15033 "cfg_scope.ml" 429 15027 15040
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+"cfg_scope.ml" 429 15027 15041 "cfg_scope.ml" 429 15027 15045
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 430 15049 15053 "cfg_scope.ml" 434 15273 15302
+)
+"cfg_scope.ml" 430 15049 15057 "cfg_scope.ml" 430 15049 15058
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 430 15049 15061 "cfg_scope.ml" 430 15049 15071
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 430 15049 15073 "cfg_scope.ml" 430 15049 15074
+type(
+  t
+)
+ident(
+  int_ref t "cfg_scope.ml" 428 14995 15014 "cfg_scope.ml" 428 14995 15015
+)
+"cfg_scope.ml" 430 15049 15073 "cfg_scope.ml" 430 15049 15082
+type(
+  Cfg.cfg_visitor
+)
+type(
+  build_scope_visitor
+)
+"cfg_scope.ml" 430 15049 15097 "cfg_scope.ml" 430 15049 15101
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 429 15027 15041 "cfg_scope.ml" 429 15027 15045
+)
+"cfg_scope.ml" 430 15049 15061 "cfg_scope.ml" 430 15049 15101
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 431 15105 15113 "cfg_scope.ml" 431 15105 15115
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 431 15105 15118 "cfg_scope.ml" 431 15105 15119
+type(
+  t
+)
+ident(
+  int_ref t "cfg_scope.ml" 428 14995 15014 "cfg_scope.ml" 428 14995 15015
+)
+"cfg_scope.ml" 431 15105 15118 "cfg_scope.ml" 431 15105 15127
+type(
+  build_scope_visitor
+)
+"cfg_scope.ml" 431 15105 15118 "cfg_scope.ml" 431 15105 15138
+type(
+  unit NS.cursor
+)
+"cfg_scope.ml" 432 15142 15150 "cfg_scope.ml" 432 15142 15153
+type(
+  env
+)
+"cfg_scope.ml" 432 15142 15170 "cfg_scope.ml" 432 15142 15177
+type(
+  NS.scope
+)
+ident(
+  ext_ref NS.root
+)
+"cfg_scope.ml" 432 15142 15169 "cfg_scope.ml" 432 15142 15178
+type(
+  NS.scope list
+)
+"cfg_scope.ml" 432 15142 15187 "cfg_scope.ml" 432 15142 15189
+type(
+  unit NS.cursor
+)
+ident(
+  int_ref ns "cfg_scope.ml" 431 15105 15113 "cfg_scope.ml" 431 15105 15115
+)
+"cfg_scope.ml" 432 15142 15156 "cfg_scope.ml" 432 15142 15190
+type(
+  env
+)
+"cfg_scope.ml" 433 15194 15202 "cfg_scope.ml" 433 15194 15209
+type(
+  update_scope_visitor
+)
+"cfg_scope.ml" 433 15194 15212 "cfg_scope.ml" 433 15194 15236
+type(
+  File_loader.t -> (string, unit) Hashtbl.t -> env -> update_scope_visitor
+)
+"cfg_scope.ml" 433 15194 15237 "cfg_scope.ml" 433 15194 15238
+type(
+  t
+)
+ident(
+  int_ref t "cfg_scope.ml" 428 14995 15014 "cfg_scope.ml" 428 14995 15015
+)
+"cfg_scope.ml" 433 15194 15237 "cfg_scope.ml" 433 15194 15245
+type(
+  File_loader.t
+)
+"cfg_scope.ml" 433 15194 15246 "cfg_scope.ml" 433 15194 15247
+type(
+  t
+)
+ident(
+  int_ref t "cfg_scope.ml" 428 14995 15014 "cfg_scope.ml" 428 14995 15015
+)
+"cfg_scope.ml" 433 15194 15246 "cfg_scope.ml" 433 15194 15255
+type(
+  build_scope_visitor
+)
+"cfg_scope.ml" 433 15194 15246 "cfg_scope.ml" 433 15194 15265
+type(
+  (string, unit) Hashtbl.t
+)
+"cfg_scope.ml" 433 15194 15266 "cfg_scope.ml" 433 15194 15269
+type(
+  env
+)
+ident(
+  int_ref env "cfg_scope.ml" 432 15142 15150 "cfg_scope.ml" 432 15142 15153
+)
+"cfg_scope.ml" 433 15194 15212 "cfg_scope.ml" 433 15194 15269
+type(
+  update_scope_visitor
+)
+"cfg_scope.ml" 434 15273 15279 "cfg_scope.ml" 434 15273 15289
+type(
+  Cfg.cfg_visitor -> Cfg.stmt -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.visit_stmt
+)
+"cfg_scope.ml" 434 15273 15290 "cfg_scope.ml" 434 15273 15297
+type(
+  update_scope_visitor
+)
+ident(
+  int_ref updater "cfg_scope.ml" 433 15194 15202 "cfg_scope.ml" 433 15194 15209
+)
+"cfg_scope.ml" 434 15273 15298 "cfg_scope.ml" 434 15273 15302
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 429 15027 15041 "cfg_scope.ml" 429 15027 15045
+)
+"cfg_scope.ml" 434 15273 15279 "cfg_scope.ml" 434 15273 15302
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 433 15194 15198 "cfg_scope.ml" 434 15273 15302
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 432 15142 15146 "cfg_scope.ml" 434 15273 15302
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 431 15105 15109 "cfg_scope.ml" 434 15273 15302
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 430 15049 15053 "cfg_scope.ml" 434 15273 15302
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 436 15309 15318 "cfg_scope.ml" 436 15309 15326
+type(
+  File_loader.load_result
+)
+ident(
+  int_ref l_result "cfg_scope.ml" 428 14995 15016 "cfg_scope.ml" 428 14995 15024
+)
+"cfg_scope.ml" 437 15332 15342 "cfg_scope.ml" 437 15332 15348
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 437 15332 15352 "cfg_scope.ml" 437 15332 15370
+)
+"cfg_scope.ml" 437 15332 15338 "cfg_scope.ml" 437 15332 15348
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 437 15332 15357 "cfg_scope.ml" 437 15332 15364
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  int_ref process "cfg_scope.ml" 429 15027 15033 "cfg_scope.ml" 429 15027 15040
+)
+"cfg_scope.ml" 437 15332 15365 "cfg_scope.ml" 437 15332 15369
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 437 15332 15342 "cfg_scope.ml" 437 15332 15348
+)
+"cfg_scope.ml" 437 15332 15356 "cfg_scope.ml" 437 15332 15370
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 437 15332 15352 "cfg_scope.ml" 437 15332 15370
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 438 15371 15386 "cfg_scope.ml" 438 15371 15392
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "cfg_scope.ml" 438 15371 15396 "cfg_scope.ml" 438 15371 15419
+)
+"cfg_scope.ml" 438 15371 15377 "cfg_scope.ml" 438 15371 15392
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 438 15371 15406 "cfg_scope.ml" 438 15371 15413
+type(
+  Cfg.stmt -> Cfg.stmt
+)
+ident(
+  int_ref process "cfg_scope.ml" 429 15027 15033 "cfg_scope.ml" 429 15027 15040
+)
+"cfg_scope.ml" 438 15371 15414 "cfg_scope.ml" 438 15371 15418
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "cfg_scope.ml" 438 15371 15386 "cfg_scope.ml" 438 15371 15392
+)
+"cfg_scope.ml" 438 15371 15405 "cfg_scope.ml" 438 15371 15419
+type(
+  Cfg.stmt
+)
+"cfg_scope.ml" 438 15371 15396 "cfg_scope.ml" 438 15371 15419
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 439 15420 15432 "cfg_scope.ml" 439 15420 15435
+type(
+  string
+)
+ident(
+  def s "cfg_scope.ml" 439 15420 15439 "cfg_scope.ml" 439 15420 15448
+)
+"cfg_scope.ml" 439 15420 15426 "cfg_scope.ml" 439 15420 15435
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 439 15420 15445 "cfg_scope.ml" 439 15420 15448
+type(
+  string
+)
+ident(
+  int_ref s "cfg_scope.ml" 439 15420 15432 "cfg_scope.ml" 439 15420 15435
+)
+"cfg_scope.ml" 439 15420 15439 "cfg_scope.ml" 439 15420 15448
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 436 15309 15312 "cfg_scope.ml" 439 15420 15448
+type(
+  File_loader.load_result
+)
+"cfg_scope.ml" 429 15027 15029 "cfg_scope.ml" 439 15420 15448
+type(
+  File_loader.load_result
+)

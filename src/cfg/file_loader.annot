@@ -1,0 +1,4674 @@
+"file_loader.ml" 28 758 762 "file_loader.ml" 28 758 780
+type(
+  string list -> string list
+)
+ident(
+  def paths_from_rubylib "file_loader.ml" 37 1073 1073 --
+)
+"file_loader.ml" 28 758 781 "file_loader.ml" 28 758 789
+type(
+  string list
+)
+ident(
+  def lib_dirs "file_loader.ml" 29 793 795 "file_loader.ml" 33 900 933
+)
+"file_loader.ml" 29 793 799 "file_loader.ml" 29 793 807
+type(
+  string list
+)
+"file_loader.ml" 30 811 819 "file_loader.ml" 30 811 828
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"file_loader.ml" 30 811 830 "file_loader.ml" 30 811 840
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"file_loader.ml" 30 811 841 "file_loader.ml" 30 811 844
+type(
+  string
+)
+"file_loader.ml" 30 811 829 "file_loader.ml" 30 811 845
+type(
+  Str.regexp
+)
+"file_loader.ml" 30 811 847 "file_loader.ml" 30 811 857
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"file_loader.ml" 30 811 858 "file_loader.ml" 30 811 867
+type(
+  string
+)
+"file_loader.ml" 30 811 846 "file_loader.ml" 30 811 868
+type(
+  string
+)
+"file_loader.ml" 30 811 819 "file_loader.ml" 30 811 868
+type(
+  string list
+)
+"file_loader.ml" 31 870 879 "file_loader.ml" 31 870 888
+type(
+  exn
+)
+"file_loader.ml" 31 870 892 "file_loader.ml" 31 870 894
+type(
+  string list
+)
+"file_loader.ml" 30 811 815 "file_loader.ml" 31 870 894
+type(
+  string list
+)
+"file_loader.ml" 33 900 904 "file_loader.ml" 33 900 912
+type(
+  string list
+)
+ident(
+  int_ref ruby_lib "file_loader.ml" 29 793 799 "file_loader.ml" 29 793 807
+)
+"file_loader.ml" 33 900 913 "file_loader.ml" 33 900 914
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"file_loader.ml" 33 900 916 "file_loader.ml" 33 900 924
+type(
+  string list
+)
+ident(
+  int_ref lib_dirs "file_loader.ml" 28 758 781 "file_loader.ml" 28 758 789
+)
+"file_loader.ml" 33 900 925 "file_loader.ml" 33 900 926
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"file_loader.ml" 33 900 928 "file_loader.ml" 33 900 931
+type(
+  string
+)
+"file_loader.ml" 33 900 927 "file_loader.ml" 33 900 932
+type(
+  string list
+)
+"file_loader.ml" 33 900 915 "file_loader.ml" 33 900 933
+type(
+  string list
+)
+"file_loader.ml" 33 900 904 "file_loader.ml" 33 900 933
+type(
+  string list
+)
+"file_loader.ml" 29 793 795 "file_loader.ml" 33 900 933
+type(
+  string list
+)
+"file_loader.ml" 37 1073 1077 "file_loader.ml" 37 1073 1083
+type(
+  string list -> t
+)
+ident(
+  def create "file_loader.ml" 43 1203 1203 --
+)
+"file_loader.ml" 37 1073 1084 "file_loader.ml" 37 1073 1092
+type(
+  string list
+)
+ident(
+  def lib_dirs "file_loader.ml" 38 1096 1098 "file_loader.ml" 41 1198 1201
+)
+"file_loader.ml" 38 1096 1107 "file_loader.ml" 38 1096 1125
+type(
+  string list -> string list
+)
+ident(
+  int_ref paths_from_rubylib "file_loader.ml" 28 758 762 "file_loader.ml" 28 758 780
+)
+"file_loader.ml" 38 1096 1126 "file_loader.ml" 38 1096 1134
+type(
+  string list
+)
+ident(
+  int_ref lib_dirs "file_loader.ml" 37 1073 1084 "file_loader.ml" 37 1073 1092
+)
+"file_loader.ml" 38 1096 1107 "file_loader.ml" 38 1096 1134
+type(
+  string list
+)
+"file_loader.ml" 39 1136 1146 "file_loader.ml" 39 1136 1160
+type(
+  int -> (src_file, load_result) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"file_loader.ml" 39 1136 1161 "file_loader.ml" 39 1136 1164
+type(
+  int
+)
+"file_loader.ml" 39 1136 1146 "file_loader.ml" 39 1136 1164
+type(
+  (src_file, load_result) Hashtbl.t
+)
+"file_loader.ml" 40 1166 1184 "file_loader.ml" 40 1166 1196
+type(
+  Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.empty
+)
+"file_loader.ml" 38 1096 1098 "file_loader.ml" 41 1198 1201
+type(
+  t
+)
+"file_loader.ml" 43 1203 1207 "file_loader.ml" 43 1203 1224
+type(
+  string list
+)
+ident(
+  def native_extensions "file_loader.ml" 44 1250 1250 --
+)
+"file_loader.ml" 43 1203 1228 "file_loader.ml" 43 1203 1233
+type(
+  string
+)
+"file_loader.ml" 43 1203 1234 "file_loader.ml" 43 1203 1243
+type(
+  string
+)
+"file_loader.ml" 43 1203 1244 "file_loader.ml" 43 1203 1248
+type(
+  string
+)
+"file_loader.ml" 43 1203 1227 "file_loader.ml" 43 1203 1249
+type(
+  string list
+)
+"file_loader.ml" 44 1250 1254 "file_loader.ml" 44 1250 1271
+type(
+  string list
+)
+ident(
+  def source_extensions "file_loader.ml" 45 1299 1299 --
+)
+"file_loader.ml" 44 1250 1274 "file_loader.ml" 44 1250 1279
+type(
+  string
+)
+"file_loader.ml" 44 1250 1281 "file_loader.ml" 44 1250 1298
+type(
+  string list
+)
+ident(
+  int_ref native_extensions "file_loader.ml" 43 1203 1207 "file_loader.ml" 43 1203 1224
+)
+"file_loader.ml" 44 1250 1274 "file_loader.ml" 44 1250 1298
+type(
+  string list
+)
+"file_loader.ml" 45 1299 1303 "file_loader.ml" 45 1299 1317
+type(
+  string list
+)
+ident(
+  def all_extensions "file_loader.ml" 47 1348 1348 --
+)
+"file_loader.ml" 45 1299 1320 "file_loader.ml" 45 1299 1326
+type(
+  string
+)
+"file_loader.ml" 45 1299 1328 "file_loader.ml" 45 1299 1345
+type(
+  string list
+)
+ident(
+  int_ref source_extensions "file_loader.ml" 44 1250 1254 "file_loader.ml" 44 1250 1271
+)
+"file_loader.ml" 45 1299 1320 "file_loader.ml" 45 1299 1345
+type(
+  string list
+)
+"file_loader.ml" 47 1348 1352 "file_loader.ml" 47 1348 1366
+type(
+  string -> bool
+)
+ident(
+  def has_native_ext "file_loader.ml" 50 1431 1431 --
+)
+"file_loader.ml" 47 1348 1367 "file_loader.ml" 47 1348 1368
+type(
+  string
+)
+ident(
+  def f "file_loader.ml" 48 1372 1374 "file_loader.ml" 48 1372 1429
+)
+"file_loader.ml" 48 1372 1374 "file_loader.ml" 48 1372 1385
+type(
+  (string -> bool) -> string list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"file_loader.ml" 48 1372 1387 "file_loader.ml" 48 1372 1408
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"file_loader.ml" 48 1372 1409 "file_loader.ml" 48 1372 1410
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 47 1348 1367 "file_loader.ml" 47 1348 1368
+)
+"file_loader.ml" 48 1372 1386 "file_loader.ml" 48 1372 1411
+type(
+  string -> bool
+)
+"file_loader.ml" 48 1372 1412 "file_loader.ml" 48 1372 1429
+type(
+  string list
+)
+ident(
+  int_ref native_extensions "file_loader.ml" 43 1203 1207 "file_loader.ml" 43 1203 1224
+)
+"file_loader.ml" 48 1372 1374 "file_loader.ml" 48 1372 1429
+type(
+  bool
+)
+"file_loader.ml" 50 1431 1435 "file_loader.ml" 50 1431 1444
+type(
+  src_file -> bool
+)
+ident(
+  def is_native "file_loader.ml" 55 1562 1562 --
+)
+"file_loader.ml" 50 1431 1445 "file_loader.ml" 50 1431 1448
+type(
+  src_file
+)
+ident(
+  def src "file_loader.ml" 50 1431 1451 "file_loader.ml" 52 1492 1506
+)
+"file_loader.ml" 50 1431 1457 "file_loader.ml" 50 1431 1460
+type(
+  src_file
+)
+ident(
+  int_ref src "file_loader.ml" 50 1431 1445 "file_loader.ml" 50 1431 1448
+)
+"file_loader.ml" 51 1466 1480 "file_loader.ml" 51 1466 1483
+type(
+  string
+)
+"file_loader.ml" 51 1466 1470 "file_loader.ml" 51 1466 1483
+type(
+  src_file
+)
+"file_loader.ml" 51 1466 1487 "file_loader.ml" 51 1466 1491
+type(
+  bool
+)
+"file_loader.ml" 52 1492 1496 "file_loader.ml" 52 1492 1497
+type(
+  src_file
+)
+"file_loader.ml" 52 1492 1501 "file_loader.ml" 52 1492 1506
+type(
+  bool
+)
+"file_loader.ml" 50 1431 1451 "file_loader.ml" 52 1492 1506
+type(
+  bool
+)
+"file_loader.ml" 55 1562 1566 "file_loader.ml" 55 1562 1574
+type(
+  t -> string list
+)
+ident(
+  def lib_dirs "file_loader.ml" 56 1586 1586 --
+)
+"file_loader.ml" 55 1562 1575 "file_loader.ml" 55 1562 1576
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 55 1562 1579 "file_loader.ml" 55 1562 1585
+)
+"file_loader.ml" 55 1562 1579 "file_loader.ml" 55 1562 1580
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 55 1562 1575 "file_loader.ml" 55 1562 1576
+)
+"file_loader.ml" 55 1562 1579 "file_loader.ml" 55 1562 1585
+type(
+  string list
+)
+"file_loader.ml" 56 1586 1590 "file_loader.ml" 56 1586 1605
+type(
+  t -> string
+)
+ident(
+  def lib_dirs_string "file_loader.ml" 61 1734 1734 --
+)
+"file_loader.ml" 56 1586 1606 "file_loader.ml" 56 1586 1607
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 57 1611 1613 "file_loader.ml" 59 1709 1732
+)
+"file_loader.ml" 57 1611 1617 "file_loader.ml" 57 1611 1620
+type(
+  Buffer.t
+)
+"file_loader.ml" 57 1611 1623 "file_loader.ml" 57 1611 1636
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"file_loader.ml" 57 1611 1637 "file_loader.ml" 57 1611 1640
+type(
+  int
+)
+"file_loader.ml" 57 1611 1623 "file_loader.ml" 57 1611 1640
+type(
+  Buffer.t
+)
+"file_loader.ml" 58 1644 1648 "file_loader.ml" 58 1644 1657
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"file_loader.ml" 58 1644 1663 "file_loader.ml" 58 1644 1664
+type(
+  string
+)
+ident(
+  def d "file_loader.ml" 58 1644 1668 "file_loader.ml" 58 1644 1699
+)
+"file_loader.ml" 58 1644 1668 "file_loader.ml" 58 1644 1685
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"file_loader.ml" 58 1644 1686 "file_loader.ml" 58 1644 1689
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "file_loader.ml" 57 1611 1617 "file_loader.ml" 57 1611 1620
+)
+"file_loader.ml" 58 1644 1691 "file_loader.ml" 58 1644 1692
+type(
+  string
+)
+ident(
+  int_ref d "file_loader.ml" 58 1644 1663 "file_loader.ml" 58 1644 1664
+)
+"file_loader.ml" 58 1644 1693 "file_loader.ml" 58 1644 1694
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 58 1644 1695 "file_loader.ml" 58 1644 1698
+type(
+  string
+)
+"file_loader.ml" 58 1644 1690 "file_loader.ml" 58 1644 1699
+type(
+  string
+)
+"file_loader.ml" 58 1644 1668 "file_loader.ml" 58 1644 1699
+type(
+  unit
+)
+"file_loader.ml" 58 1644 1658 "file_loader.ml" 58 1644 1700
+type(
+  string -> unit
+)
+"file_loader.ml" 58 1644 1701 "file_loader.ml" 58 1644 1702
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 56 1586 1606 "file_loader.ml" 56 1586 1607
+)
+"file_loader.ml" 58 1644 1701 "file_loader.ml" 58 1644 1707
+type(
+  string list
+)
+"file_loader.ml" 58 1644 1648 "file_loader.ml" 58 1644 1707
+type(
+  unit
+)
+"file_loader.ml" 59 1709 1713 "file_loader.ml" 59 1709 1728
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"file_loader.ml" 59 1709 1729 "file_loader.ml" 59 1709 1732
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "file_loader.ml" 57 1611 1617 "file_loader.ml" 57 1611 1620
+)
+"file_loader.ml" 59 1709 1713 "file_loader.ml" 59 1709 1732
+type(
+  string
+)
+"file_loader.ml" 58 1644 1648 "file_loader.ml" 59 1709 1732
+type(
+  string
+)
+"file_loader.ml" 57 1611 1613 "file_loader.ml" 59 1709 1732
+type(
+  string
+)
+"file_loader.ml" 61 1734 1738 "file_loader.ml" 61 1734 1750
+type(
+  string -> bool
+)
+ident(
+  def is_directory "file_loader.ml" 67 1833 1833 --
+)
+"file_loader.ml" 61 1734 1751 "file_loader.ml" 61 1734 1756
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 62 1760 1762 "file_loader.ml" 65 1814 1831
+)
+"file_loader.ml" 63 1766 1770 "file_loader.ml" 63 1766 1783
+type(
+  Unix.dir_handle -> unit
+)
+ident(
+  ext_ref Unix.closedir
+)
+"file_loader.ml" 63 1766 1784 "file_loader.ml" 63 1766 1796
+type(
+  string -> Unix.dir_handle
+)
+ident(
+  ext_ref Unix.opendir
+)
+"file_loader.ml" 63 1766 1797 "file_loader.ml" 63 1766 1802
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 61 1734 1751 "file_loader.ml" 61 1734 1756
+)
+"file_loader.ml" 63 1766 1783 "file_loader.ml" 63 1766 1803
+type(
+  Unix.dir_handle
+)
+"file_loader.ml" 63 1766 1770 "file_loader.ml" 63 1766 1803
+type(
+  unit
+)
+"file_loader.ml" 64 1805 1809 "file_loader.ml" 64 1805 1813
+type(
+  bool
+)
+"file_loader.ml" 63 1766 1770 "file_loader.ml" 64 1805 1813
+type(
+  bool
+)
+"file_loader.ml" 65 1814 1821 "file_loader.ml" 65 1814 1822
+type(
+  exn
+)
+"file_loader.ml" 65 1814 1826 "file_loader.ml" 65 1814 1831
+type(
+  bool
+)
+"file_loader.ml" 62 1760 1762 "file_loader.ml" 65 1814 1831
+type(
+  bool
+)
+"file_loader.ml" 67 1833 1837 "file_loader.ml" 67 1833 1852
+type(
+  string -> src_file
+)
+ident(
+  def filename_to_src "file_loader.ml" 75 2047 2047 --
+)
+"file_loader.ml" 67 1833 1853 "file_loader.ml" 67 1833 1858
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 68 1861 1863 "file_loader.ml" 73 2009 2045
+)
+"file_loader.ml" 68 1861 1869 "file_loader.ml" 68 1861 1878
+type(
+  string -> string option
+)
+ident(
+  ext_ref Utils.extension
+)
+"file_loader.ml" 68 1861 1879 "file_loader.ml" 68 1861 1884
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 67 1833 1853 "file_loader.ml" 67 1833 1858
+)
+"file_loader.ml" 68 1861 1869 "file_loader.ml" 68 1861 1884
+type(
+  string option
+)
+"file_loader.ml" 69 1890 1901 "file_loader.ml" 69 1890 1907
+type(
+  string
+)
+"file_loader.ml" 69 1890 1896 "file_loader.ml" 69 1890 1907
+type(
+  string option
+)
+"file_loader.ml" 69 1890 1924 "file_loader.ml" 69 1890 1931
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 67 1833 1853 "file_loader.ml" 67 1833 1858
+)
+"file_loader.ml" 69 1890 1911 "file_loader.ml" 69 1890 1931
+type(
+  src_file
+)
+"file_loader.ml" 70 1932 1943 "file_loader.ml" 70 1932 1948
+type(
+  string
+)
+"file_loader.ml" 70 1932 1938 "file_loader.ml" 70 1932 1948
+type(
+  string option
+)
+"file_loader.ml" 71 1949 1960 "file_loader.ml" 71 1949 1969
+type(
+  string
+)
+"file_loader.ml" 71 1949 1955 "file_loader.ml" 71 1949 1969
+type(
+  string option
+)
+"file_loader.ml" 70 1932 1938 "file_loader.ml" 71 1949 1969
+type(
+  string option
+)
+"file_loader.ml" 72 1970 1981 "file_loader.ml" 72 1970 1985
+type(
+  string
+)
+"file_loader.ml" 72 1970 1976 "file_loader.ml" 72 1970 1985
+type(
+  string option
+)
+"file_loader.ml" 70 1932 1938 "file_loader.ml" 72 1970 1985
+type(
+  string option
+)
+"file_loader.ml" 72 1970 2001 "file_loader.ml" 72 1970 2008
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 67 1833 1853 "file_loader.ml" 67 1833 1858
+)
+"file_loader.ml" 72 1970 1991 "file_loader.ml" 72 1970 2008
+type(
+  src_file
+)
+"file_loader.ml" 73 2009 2015 "file_loader.ml" 73 2009 2016
+type(
+  string option
+)
+"file_loader.ml" 73 2009 2038 "file_loader.ml" 73 2009 2045
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 67 1833 1853 "file_loader.ml" 67 1833 1858
+)
+"file_loader.ml" 73 2009 2030 "file_loader.ml" 73 2009 2045
+type(
+  src_file
+)
+"file_loader.ml" 68 1861 1863 "file_loader.ml" 73 2009 2045
+type(
+  src_file
+)
+"file_loader.ml" 75 2047 2051 "file_loader.ml" 75 2047 2069
+type(
+  src_file -> src_file
+)
+ident(
+  def normalize_src_file "file_loader.ml" 81 2280 2280 --
+)
+"file_loader.ml" 75 2047 2070 "file_loader.ml" 75 2047 2071
+type(
+  src_file
+)
+ident(
+  def s "file_loader.ml" 76 2074 2076 "file_loader.ml" 79 2210 2278
+)
+"file_loader.ml" 76 2074 2082 "file_loader.ml" 76 2074 2083
+type(
+  src_file
+)
+ident(
+  int_ref s "file_loader.ml" 75 2047 2070 "file_loader.ml" 75 2047 2071
+)
+"file_loader.ml" 77 2089 2103 "file_loader.ml" 77 2089 2109
+type(
+  string
+)
+ident(
+  def name "file_loader.ml" 77 2089 2113 "file_loader.ml" 77 2089 2146
+)
+"file_loader.ml" 77 2089 2095 "file_loader.ml" 77 2089 2109
+type(
+  src_file
+)
+"file_loader.ml" 77 2089 2122 "file_loader.ml" 77 2089 2140
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 77 2089 2141 "file_loader.ml" 77 2089 2145
+type(
+  string
+)
+ident(
+  int_ref name "file_loader.ml" 77 2089 2103 "file_loader.ml" 77 2089 2109
+)
+"file_loader.ml" 77 2089 2121 "file_loader.ml" 77 2089 2146
+type(
+  string
+)
+"file_loader.ml" 77 2089 2113 "file_loader.ml" 77 2089 2146
+type(
+  src_file
+)
+"file_loader.ml" 78 2147 2163 "file_loader.ml" 78 2147 2169
+type(
+  string
+)
+ident(
+  def name "file_loader.ml" 78 2147 2174 "file_loader.ml" 78 2147 2209
+)
+"file_loader.ml" 78 2147 2153 "file_loader.ml" 78 2147 2169
+type(
+  src_file
+)
+"file_loader.ml" 78 2147 2185 "file_loader.ml" 78 2147 2203
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 78 2147 2204 "file_loader.ml" 78 2147 2208
+type(
+  string
+)
+ident(
+  int_ref name "file_loader.ml" 78 2147 2163 "file_loader.ml" 78 2147 2169
+)
+"file_loader.ml" 78 2147 2184 "file_loader.ml" 78 2147 2209
+type(
+  string
+)
+"file_loader.ml" 78 2147 2174 "file_loader.ml" 78 2147 2209
+type(
+  src_file
+)
+"file_loader.ml" 79 2210 2229 "file_loader.ml" 79 2210 2235
+type(
+  string
+)
+ident(
+  def name "file_loader.ml" 79 2210 2240 "file_loader.ml" 79 2210 2278
+)
+"file_loader.ml" 79 2210 2216 "file_loader.ml" 79 2210 2235
+type(
+  src_file
+)
+"file_loader.ml" 79 2210 2254 "file_loader.ml" 79 2210 2272
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 79 2210 2273 "file_loader.ml" 79 2210 2277
+type(
+  string
+)
+ident(
+  int_ref name "file_loader.ml" 79 2210 2229 "file_loader.ml" 79 2210 2235
+)
+"file_loader.ml" 79 2210 2253 "file_loader.ml" 79 2210 2278
+type(
+  string
+)
+"file_loader.ml" 79 2210 2240 "file_loader.ml" 79 2210 2278
+type(
+  src_file
+)
+"file_loader.ml" 76 2074 2076 "file_loader.ml" 79 2210 2278
+type(
+  src_file
+)
+"file_loader.ml" 81 2280 2284 "file_loader.ml" 81 2280 2292
+type(
+  src_file -> string
+)
+ident(
+  def src_name "file_loader.ml" 85 2444 2444 --
+)
+"file_loader.ml" 81 2280 2293 "file_loader.ml" 81 2280 2297
+type(
+  src_file
+)
+ident(
+  def file "file_loader.ml" 81 2280 2300 "file_loader.ml" 82 2316 2383
+)
+"file_loader.ml" 81 2280 2306 "file_loader.ml" 81 2280 2310
+type(
+  src_file
+)
+ident(
+  int_ref file "file_loader.ml" 81 2280 2293 "file_loader.ml" 81 2280 2297
+)
+"file_loader.ml" 82 2316 2328 "file_loader.ml" 82 2316 2334
+type(
+  string
+)
+ident(
+  def name "file_loader.ml" 82 2316 2379 "file_loader.ml" 82 2316 2383
+)
+"file_loader.ml" 82 2316 2320 "file_loader.ml" 82 2316 2334
+type(
+  src_file
+)
+"file_loader.ml" 82 2316 2347 "file_loader.ml" 82 2316 2353
+type(
+  string
+)
+ident(
+  def name "file_loader.ml" 82 2316 2379 "file_loader.ml" 82 2316 2383
+)
+"file_loader.ml" 82 2316 2337 "file_loader.ml" 82 2316 2353
+type(
+  src_file
+)
+"file_loader.ml" 82 2316 2320 "file_loader.ml" 82 2316 2353
+type(
+  src_file
+)
+"file_loader.ml" 82 2316 2369 "file_loader.ml" 82 2316 2375
+type(
+  string
+)
+ident(
+  def name "file_loader.ml" 82 2316 2379 "file_loader.ml" 82 2316 2383
+)
+"file_loader.ml" 82 2316 2356 "file_loader.ml" 82 2316 2375
+type(
+  src_file
+)
+"file_loader.ml" 82 2316 2320 "file_loader.ml" 82 2316 2375
+type(
+  src_file
+)
+"file_loader.ml" 82 2316 2379 "file_loader.ml" 82 2316 2383
+type(
+  string
+)
+ident(
+  int_ref name "file_loader.ml" 82 2316 2328 "file_loader.ml" 82 2316 2334
+)
+"file_loader.ml" 81 2280 2300 "file_loader.ml" 82 2316 2383
+type(
+  string
+)
+"file_loader.ml" 85 2444 2452 "file_loader.ml" 85 2444 2467
+type(
+  ?no_ext:bool -> ?no_iface:bool -> string -> string list -> src_file
+)
+ident(
+  def find_in_libpath "file_loader.ml" 85 2444 2444 --
+)
+"file_loader.ml" 85 2444 2470 "file_loader.ml" 85 2444 2476
+type(
+  bool
+)
+"file_loader.ml" 85 2444 2477 "file_loader.ml" 85 2444 2482
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "file_loader.ml" 85 2444 2477 "file_loader.ml" 85 2444 2482
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "file_loader.ml" 85 2444 2477 "file_loader.ml" 85 2444 2482
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "file_loader.ml" 85 2444 2477 "file_loader.ml" 85 2444 2482
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "file_loader.ml" 85 2444 2468 "file_loader.ml" 112 3431 3473
+)
+"file_loader.ml" 85 2444 2486 "file_loader.ml" 85 2444 2494
+type(
+  bool
+)
+"file_loader.ml" 85 2444 2495 "file_loader.ml" 85 2444 2500
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "file_loader.ml" 85 2444 2495 "file_loader.ml" 85 2444 2500
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "file_loader.ml" 85 2444 2495 "file_loader.ml" 85 2444 2500
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "file_loader.ml" 85 2444 2495 "file_loader.ml" 85 2444 2500
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "file_loader.ml" 85 2444 2484 "file_loader.ml" 112 3431 3473
+)
+"file_loader.ml" 85 2444 2502 "file_loader.ml" 85 2444 2503
+type(
+  string
+)
+ident(
+  def f "file_loader.ml" 85 2444 2504 "file_loader.ml" 112 3431 3473
+)
+"file_loader.ml" 85 2444 2504 "file_loader.ml" 85 2444 2507
+type(
+  string list
+)
+ident(
+  def lst "file_loader.ml" 86 2511 2513 "file_loader.ml" 112 3431 3473
+)
+"file_loader.ml" 86 2511 2517 "file_loader.ml" 86 2511 2530
+type(
+  string -> string
+)
+"file_loader.ml" 86 2511 2531 "file_loader.ml" 86 2511 2539
+type(
+  string
+)
+ident(
+  def fullname "file_loader.ml" 87 2543 2547 "file_loader.ml" 98 2978 3060
+)
+"file_loader.ml" 87 2543 2551 "file_loader.ml" 87 2543 2555
+type(
+  string list
+)
+"file_loader.ml" 88 2558 2567 "file_loader.ml" 88 2558 2575
+type(
+  bool
+)
+ident(
+  int_ref no_iface "file_loader.ml" 85 2444 2486 "file_loader.ml" 85 2444 2494
+)
+"file_loader.ml" 88 2558 2581 "file_loader.ml" 88 2558 2598
+type(
+  string list
+)
+ident(
+  int_ref source_extensions "file_loader.ml" 44 1250 1254 "file_loader.ml" 44 1250 1271
+)
+"file_loader.ml" 88 2558 2604 "file_loader.ml" 88 2558 2618
+type(
+  string list
+)
+ident(
+  int_ref all_extensions "file_loader.ml" 45 1299 1303 "file_loader.ml" 45 1299 1317
+)
+"file_loader.ml" 88 2558 2564 "file_loader.ml" 88 2558 2618
+type(
+  string list
+)
+"file_loader.ml" 89 2622 2630 "file_loader.ml" 89 2622 2634
+type(
+  string list
+)
+"file_loader.ml" 89 2622 2643 "file_loader.ml" 89 2622 2652
+type(
+  string -> string option
+)
+ident(
+  ext_ref Utils.extension
+)
+"file_loader.ml" 89 2622 2653 "file_loader.ml" 89 2622 2661
+type(
+  string
+)
+ident(
+  int_ref fullname "file_loader.ml" 86 2511 2531 "file_loader.ml" 86 2511 2539
+)
+"file_loader.ml" 89 2622 2643 "file_loader.ml" 89 2622 2661
+type(
+  string option
+)
+"file_loader.ml" 90 2667 2675 "file_loader.ml" 90 2667 2679
+type(
+  string option
+)
+"file_loader.ml" 90 2667 2686 "file_loader.ml" 90 2667 2692
+type(
+  bool
+)
+ident(
+  int_ref no_ext "file_loader.ml" 85 2444 2470 "file_loader.ml" 85 2444 2476
+)
+"file_loader.ml" 90 2667 2698 "file_loader.ml" 90 2667 2700
+type(
+  string
+)
+"file_loader.ml" 90 2667 2702 "file_loader.ml" 90 2667 2706
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 87 2543 2551 "file_loader.ml" 87 2543 2555
+)
+"file_loader.ml" 90 2667 2698 "file_loader.ml" 90 2667 2706
+type(
+  string list
+)
+"file_loader.ml" 90 2667 2712 "file_loader.ml" 90 2667 2716
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 87 2543 2551 "file_loader.ml" 87 2543 2555
+)
+"file_loader.ml" 90 2667 2683 "file_loader.ml" 90 2667 2716
+type(
+  string list
+)
+"file_loader.ml" 91 2718 2731 "file_loader.ml" 91 2718 2732
+type(
+  string
+)
+ident(
+  def e "file_loader.ml" 91 2718 2736 "file_loader.ml" 91 2718 2790
+)
+"file_loader.ml" 91 2718 2726 "file_loader.ml" 91 2718 2732
+type(
+  string option
+)
+"file_loader.ml" 91 2718 2740 "file_loader.ml" 91 2718 2748
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"file_loader.ml" 91 2718 2749 "file_loader.ml" 91 2718 2750
+type(
+  string
+)
+ident(
+  int_ref e "file_loader.ml" 91 2718 2731 "file_loader.ml" 91 2718 2732
+)
+"file_loader.ml" 91 2718 2751 "file_loader.ml" 91 2718 2755
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 87 2543 2551 "file_loader.ml" 87 2543 2555
+)
+"file_loader.ml" 91 2718 2739 "file_loader.ml" 91 2718 2756
+type(
+  bool
+)
+"file_loader.ml" 91 2718 2757 "file_loader.ml" 91 2718 2759
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.or
+)
+"file_loader.ml" 91 2718 2760 "file_loader.ml" 91 2718 2766
+type(
+  bool
+)
+ident(
+  int_ref no_ext "file_loader.ml" 85 2444 2470 "file_loader.ml" 85 2444 2476
+)
+"file_loader.ml" 91 2718 2739 "file_loader.ml" 91 2718 2766
+type(
+  bool
+)
+"file_loader.ml" 91 2718 2772 "file_loader.ml" 91 2718 2774
+type(
+  string
+)
+"file_loader.ml" 91 2718 2776 "file_loader.ml" 91 2718 2780
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 87 2543 2551 "file_loader.ml" 87 2543 2555
+)
+"file_loader.ml" 91 2718 2772 "file_loader.ml" 91 2718 2780
+type(
+  string list
+)
+"file_loader.ml" 91 2718 2786 "file_loader.ml" 91 2718 2790
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 87 2543 2551 "file_loader.ml" 87 2543 2555
+)
+"file_loader.ml" 91 2718 2736 "file_loader.ml" 91 2718 2790
+type(
+  string list
+)
+"file_loader.ml" 89 2622 2637 "file_loader.ml" 91 2718 2790
+type(
+  string list
+)
+"file_loader.ml" 93 2799 2807 "file_loader.ml" 93 2799 2811
+type(
+  string list
+)
+"file_loader.ml" 94 2814 2823 "file_loader.ml" 94 2814 2826
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"file_loader.ml" 94 2814 2827 "file_loader.ml" 94 2814 2835
+type(
+  bool
+)
+ident(
+  int_ref no_iface "file_loader.ml" 85 2444 2486 "file_loader.ml" 85 2444 2494
+)
+"file_loader.ml" 94 2814 2823 "file_loader.ml" 94 2814 2835
+type(
+  bool
+)
+"file_loader.ml" 94 2814 2836 "file_loader.ml" 94 2814 2838
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"file_loader.ml" 94 2814 2839 "file_loader.ml" 94 2814 2848
+type(
+  string -> string option
+)
+ident(
+  ext_ref Utils.extension
+)
+"file_loader.ml" 94 2814 2849 "file_loader.ml" 94 2814 2857
+type(
+  string
+)
+ident(
+  int_ref fullname "file_loader.ml" 86 2511 2531 "file_loader.ml" 86 2511 2539
+)
+"file_loader.ml" 94 2814 2839 "file_loader.ml" 94 2814 2857
+type(
+  string option
+)
+"file_loader.ml" 94 2814 2858 "file_loader.ml" 94 2814 2859
+type(
+  string option -> string option -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"file_loader.ml" 94 2814 2865 "file_loader.ml" 94 2814 2870
+type(
+  string
+)
+"file_loader.ml" 94 2814 2860 "file_loader.ml" 94 2814 2870
+type(
+  string option
+)
+"file_loader.ml" 94 2814 2839 "file_loader.ml" 94 2814 2870
+type(
+  bool
+)
+"file_loader.ml" 94 2814 2823 "file_loader.ml" 94 2814 2870
+type(
+  bool
+)
+"file_loader.ml" 95 2876 2884 "file_loader.ml" 95 2876 2887
+type(
+  string
+)
+"file_loader.ml" 95 2876 2889 "file_loader.ml" 95 2876 2893
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 89 2622 2630 "file_loader.ml" 89 2622 2634
+)
+"file_loader.ml" 95 2876 2884 "file_loader.ml" 95 2876 2893
+type(
+  string list
+)
+"file_loader.ml" 95 2876 2899 "file_loader.ml" 95 2876 2903
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 89 2622 2630 "file_loader.ml" 89 2622 2634
+)
+"file_loader.ml" 94 2814 2820 "file_loader.ml" 95 2876 2903
+type(
+  string list
+)
+"file_loader.ml" 97 2911 2919 "file_loader.ml" 97 2911 2934
+type(
+  string list
+)
+"file_loader.ml" 97 2911 2937 "file_loader.ml" 97 2911 2945
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"file_loader.ml" 97 2911 2951 "file_loader.ml" 97 2911 2952
+type(
+  string
+)
+ident(
+  def e "file_loader.ml" 97 2911 2956 "file_loader.ml" 97 2911 2968
+)
+"file_loader.ml" 97 2911 2956 "file_loader.ml" 97 2911 2964
+type(
+  string
+)
+ident(
+  int_ref fullname "file_loader.ml" 86 2511 2531 "file_loader.ml" 86 2511 2539
+)
+"file_loader.ml" 97 2911 2965 "file_loader.ml" 97 2911 2966
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 97 2911 2967 "file_loader.ml" 97 2911 2968
+type(
+  string
+)
+ident(
+  int_ref e "file_loader.ml" 97 2911 2951 "file_loader.ml" 97 2911 2952
+)
+"file_loader.ml" 97 2911 2956 "file_loader.ml" 97 2911 2968
+type(
+  string
+)
+"file_loader.ml" 97 2911 2946 "file_loader.ml" 97 2911 2969
+type(
+  string -> string
+)
+"file_loader.ml" 97 2911 2970 "file_loader.ml" 97 2911 2974
+type(
+  string list
+)
+ident(
+  int_ref exts "file_loader.ml" 93 2799 2807 "file_loader.ml" 93 2799 2811
+)
+"file_loader.ml" 97 2911 2937 "file_loader.ml" 97 2911 2974
+type(
+  string list
+)
+"file_loader.ml" 98 2978 2982 "file_loader.ml" 98 2978 2991
+type(
+  (string -> bool) -> string list -> string
+)
+ident(
+  ext_ref List.find
+)
+"file_loader.ml" 98 2978 2997 "file_loader.ml" 98 2978 2998
+type(
+  string
+)
+ident(
+  def f "file_loader.ml" 98 2978 3002 "file_loader.ml" 98 2978 3043
+)
+"file_loader.ml" 98 2978 3002 "file_loader.ml" 98 2978 3017
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"file_loader.ml" 98 2978 3018 "file_loader.ml" 98 2978 3019
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 98 2978 2997 "file_loader.ml" 98 2978 2998
+)
+"file_loader.ml" 98 2978 3002 "file_loader.ml" 98 2978 3019
+type(
+  bool
+)
+"file_loader.ml" 98 2978 3020 "file_loader.ml" 98 2978 3022
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"file_loader.ml" 98 2978 3023 "file_loader.ml" 98 2978 3026
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"file_loader.ml" 98 2978 3028 "file_loader.ml" 98 2978 3040
+type(
+  string -> bool
+)
+ident(
+  int_ref is_directory "file_loader.ml" 61 1734 1738 "file_loader.ml" 61 1734 1750
+)
+"file_loader.ml" 98 2978 3041 "file_loader.ml" 98 2978 3042
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 98 2978 2997 "file_loader.ml" 98 2978 2998
+)
+"file_loader.ml" 98 2978 3027 "file_loader.ml" 98 2978 3043
+type(
+  bool
+)
+"file_loader.ml" 98 2978 3023 "file_loader.ml" 98 2978 3043
+type(
+  bool
+)
+"file_loader.ml" 98 2978 3002 "file_loader.ml" 98 2978 3043
+type(
+  bool
+)
+"file_loader.ml" 98 2978 2992 "file_loader.ml" 98 2978 3044
+type(
+  string -> bool
+)
+"file_loader.ml" 98 2978 3045 "file_loader.ml" 98 2978 3060
+type(
+  string list
+)
+ident(
+  int_ref names_with_exts "file_loader.ml" 97 2911 2919 "file_loader.ml" 97 2911 2934
+)
+"file_loader.ml" 98 2978 2982 "file_loader.ml" 98 2978 3060
+type(
+  string
+)
+"file_loader.ml" 97 2911 2915 "file_loader.ml" 98 2978 3060
+type(
+  string
+)
+"file_loader.ml" 93 2799 2803 "file_loader.ml" 98 2978 3060
+type(
+  string
+)
+"file_loader.ml" 89 2622 2626 "file_loader.ml" 98 2978 3060
+type(
+  string
+)
+"file_loader.ml" 87 2543 2547 "file_loader.ml" 98 2978 3060
+type(
+  string
+)
+"file_loader.ml" 100 3066 3076 "file_loader.ml" 100 3066 3080
+type(
+  string list -> string
+)
+"file_loader.ml" 101 3092 3098 "file_loader.ml" 101 3092 3100
+type(
+  string list
+)
+"file_loader.ml" 102 3105 3113 "file_loader.ml" 102 3105 3121
+type(
+  ?ctx:Log.ctx ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Log.note
+)
+"file_loader.ml" 102 3105 3122 "file_loader.ml" 102 3105 3140
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"file_loader.ml" 102 3105 3141 "file_loader.ml" 102 3105 3142
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 85 2444 2502 "file_loader.ml" 85 2444 2503
+)
+"file_loader.ml" 102 3105 3113 "file_loader.ml" 102 3105 3142
+type(
+  unit
+)
+"file_loader.ml" 103 3144 3152 "file_loader.ml" 103 3144 3157
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"file_loader.ml" 103 3144 3158 "file_loader.ml" 103 3144 3167
+type(
+  exn
+)
+"file_loader.ml" 103 3144 3152 "file_loader.ml" 103 3144 3167
+type(
+  string
+)
+"file_loader.ml" 102 3105 3113 "file_loader.ml" 103 3144 3167
+type(
+  string
+)
+"file_loader.ml" 104 3168 3174 "file_loader.ml" 104 3168 3176
+type(
+  string
+)
+ident(
+  def hd "file_loader.ml" 105 3185 3193 "file_loader.ml" 109 3344 3363
+)
+"file_loader.ml" 104 3168 3178 "file_loader.ml" 104 3168 3180
+type(
+  string list
+)
+ident(
+  def tl "file_loader.ml" 105 3185 3193 "file_loader.ml" 109 3344 3363
+)
+"file_loader.ml" 104 3168 3174 "file_loader.ml" 104 3168 3180
+type(
+  string list
+)
+"file_loader.ml" 105 3185 3193 "file_loader.ml" 105 3185 3201
+type(
+  ?ctx:Log.ctx ->
+  (string -> string -> unit, Format.formatter, unit, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Log.note
+)
+"file_loader.ml" 105 3185 3202 "file_loader.ml" 105 3185 3224
+type(
+  (string -> string -> unit, Format.formatter, unit, unit) format4
+)
+"file_loader.ml" 105 3185 3225 "file_loader.ml" 105 3185 3226
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 85 2444 2502 "file_loader.ml" 85 2444 2503
+)
+"file_loader.ml" 105 3185 3227 "file_loader.ml" 105 3185 3229
+type(
+  string
+)
+ident(
+  int_ref hd "file_loader.ml" 104 3168 3174 "file_loader.ml" 104 3168 3176
+)
+"file_loader.ml" 105 3185 3193 "file_loader.ml" 105 3185 3229
+type(
+  unit
+)
+"file_loader.ml" 106 3231 3243 "file_loader.ml" 106 3231 3251
+type(
+  string
+)
+"file_loader.ml" 106 3231 3254 "file_loader.ml" 106 3231 3269
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Filename.concat
+)
+"file_loader.ml" 106 3231 3270 "file_loader.ml" 106 3231 3272
+type(
+  string
+)
+ident(
+  int_ref hd "file_loader.ml" 104 3168 3174 "file_loader.ml" 104 3168 3176
+)
+"file_loader.ml" 106 3231 3273 "file_loader.ml" 106 3231 3274
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 85 2444 2502 "file_loader.ml" 85 2444 2503
+)
+"file_loader.ml" 106 3231 3254 "file_loader.ml" 106 3231 3274
+type(
+  string
+)
+"file_loader.ml" 107 3278 3292 "file_loader.ml" 107 3278 3305
+type(
+  string -> string
+)
+ident(
+  int_ref find_with_ext "file_loader.ml" 86 2511 2517 "file_loader.ml" 86 2511 2530
+)
+"file_loader.ml" 107 3278 3306 "file_loader.ml" 107 3278 3314
+type(
+  string
+)
+ident(
+  int_ref fullname "file_loader.ml" 106 3231 3243 "file_loader.ml" 106 3231 3251
+)
+"file_loader.ml" 107 3278 3292 "file_loader.ml" 107 3278 3314
+type(
+  string
+)
+"file_loader.ml" 108 3315 3330 "file_loader.ml" 108 3315 3339
+type(
+  exn
+)
+"file_loader.ml" 109 3344 3356 "file_loader.ml" 109 3344 3360
+type(
+  string list -> string
+)
+ident(
+  int_ref work "file_loader.ml" 100 3066 3076 "file_loader.ml" 100 3066 3080
+)
+"file_loader.ml" 109 3344 3361 "file_loader.ml" 109 3344 3363
+type(
+  string list
+)
+ident(
+  int_ref tl "file_loader.ml" 104 3168 3178 "file_loader.ml" 104 3168 3180
+)
+"file_loader.ml" 109 3344 3356 "file_loader.ml" 109 3344 3363
+type(
+  string
+)
+"file_loader.ml" 107 3278 3288 "file_loader.ml" 109 3344 3363
+type(
+  string
+)
+"file_loader.ml" 106 3231 3239 "file_loader.ml" 109 3344 3363
+type(
+  string
+)
+"file_loader.ml" 105 3185 3193 "file_loader.ml" 109 3344 3363
+type(
+  string
+)
+"file_loader.ml" 100 3066 3083 "file_loader.ml" 109 3344 3363
+type(
+  string list -> string
+)
+"file_loader.ml" 111 3369 3376 "file_loader.ml" 111 3369 3396
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"file_loader.ml" 111 3369 3397 "file_loader.ml" 111 3369 3398
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 85 2444 2502 "file_loader.ml" 85 2444 2503
+)
+"file_loader.ml" 111 3369 3376 "file_loader.ml" 111 3369 3398
+type(
+  bool
+)
+"file_loader.ml" 111 3369 3404 "file_loader.ml" 111 3369 3419
+type(
+  string -> src_file
+)
+ident(
+  int_ref filename_to_src "file_loader.ml" 67 1833 1837 "file_loader.ml" 67 1833 1852
+)
+"file_loader.ml" 111 3369 3421 "file_loader.ml" 111 3369 3425
+type(
+  string list -> string
+)
+ident(
+  int_ref work "file_loader.ml" 100 3066 3076 "file_loader.ml" 100 3066 3080
+)
+"file_loader.ml" 111 3369 3426 "file_loader.ml" 111 3369 3429
+type(
+  string list
+)
+ident(
+  int_ref lst "file_loader.ml" 85 2444 2504 "file_loader.ml" 85 2444 2507
+)
+"file_loader.ml" 111 3369 3420 "file_loader.ml" 111 3369 3430
+type(
+  string
+)
+"file_loader.ml" 111 3369 3404 "file_loader.ml" 111 3369 3430
+type(
+  src_file
+)
+"file_loader.ml" 112 3431 3440 "file_loader.ml" 112 3431 3455
+type(
+  string -> src_file
+)
+ident(
+  int_ref filename_to_src "file_loader.ml" 67 1833 1837 "file_loader.ml" 67 1833 1852
+)
+"file_loader.ml" 112 3431 3457 "file_loader.ml" 112 3431 3470
+type(
+  string -> string
+)
+ident(
+  int_ref find_with_ext "file_loader.ml" 86 2511 2517 "file_loader.ml" 86 2511 2530
+)
+"file_loader.ml" 112 3431 3471 "file_loader.ml" 112 3431 3472
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 85 2444 2502 "file_loader.ml" 85 2444 2503
+)
+"file_loader.ml" 112 3431 3456 "file_loader.ml" 112 3431 3473
+type(
+  string
+)
+"file_loader.ml" 112 3431 3440 "file_loader.ml" 112 3431 3473
+type(
+  src_file
+)
+"file_loader.ml" 111 3369 3373 "file_loader.ml" 112 3431 3473
+type(
+  src_file
+)
+"file_loader.ml" 100 3066 3068 "file_loader.ml" 112 3431 3473
+type(
+  src_file
+)
+"file_loader.ml" 86 2511 2513 "file_loader.ml" 112 3431 3473
+type(
+  src_file
+)
+"file_loader.ml" 114 3475 3479 "file_loader.ml" 114 3475 3488
+type(
+  ?no_ext:bool -> ?no_iface:bool -> t -> string -> src_file
+)
+ident(
+  def find_file "file_loader.ml" 117 3590 3590 --
+)
+"file_loader.ml" 114 3475 3490 "file_loader.ml" 114 3475 3496
+type(
+  bool option
+)
+ident(
+  def no_ext "file_loader.ml" 114 3475 3497 "file_loader.ml" 115 3528 3588
+)
+"file_loader.ml" 114 3475 3499 "file_loader.ml" 114 3475 3507
+type(
+  bool
+)
+"file_loader.ml" 114 3475 3508 "file_loader.ml" 114 3475 3513
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "file_loader.ml" 114 3475 3508 "file_loader.ml" 114 3475 3513
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "file_loader.ml" 114 3475 3508 "file_loader.ml" 114 3475 3513
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "file_loader.ml" 114 3475 3508 "file_loader.ml" 114 3475 3513
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "file_loader.ml" 114 3475 3497 "file_loader.ml" 115 3528 3588
+)
+"file_loader.ml" 114 3475 3515 "file_loader.ml" 114 3475 3516
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 114 3475 3517 "file_loader.ml" 115 3528 3588
+)
+"file_loader.ml" 114 3475 3517 "file_loader.ml" 114 3475 3525
+type(
+  string
+)
+ident(
+  def filename "file_loader.ml" 115 3528 3530 "file_loader.ml" 115 3528 3588
+)
+"file_loader.ml" 115 3528 3530 "file_loader.ml" 115 3528 3545
+type(
+  ?no_ext:bool -> ?no_iface:bool -> string -> string list -> src_file
+)
+ident(
+  int_ref find_in_libpath "file_loader.ml" 85 2444 2452 "file_loader.ml" 85 2444 2467
+)
+"file_loader.ml" 115 3528 3547 "file_loader.ml" 115 3528 3553
+type(
+  bool option
+)
+ident(
+  int_ref no_ext "file_loader.ml" 114 3475 3490 "file_loader.ml" 114 3475 3496
+)
+"file_loader.ml" 115 3528 3564 "file_loader.ml" 115 3528 3572
+type(
+  bool
+)
+ident(
+  int_ref no_iface "file_loader.ml" 114 3475 3499 "file_loader.ml" 114 3475 3507
+)
+"file_loader.ml" 115 3528 3573 "file_loader.ml" 115 3528 3581
+type(
+  string
+)
+ident(
+  int_ref filename "file_loader.ml" 114 3475 3517 "file_loader.ml" 114 3475 3525
+)
+"file_loader.ml" 115 3528 3582 "file_loader.ml" 115 3528 3583
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 114 3475 3515 "file_loader.ml" 114 3475 3516
+)
+"file_loader.ml" 115 3528 3582 "file_loader.ml" 115 3528 3588
+type(
+  string list
+)
+"file_loader.ml" 115 3528 3530 "file_loader.ml" 115 3528 3588
+type(
+  src_file
+)
+"file_loader.ml" 117 3590 3594 "file_loader.ml" 117 3590 3605
+type(
+  string -> string -> bool
+)
+ident(
+  def stale_cache "file_loader.ml" 126 3933 3933 --
+)
+"file_loader.ml" 117 3590 3606 "file_loader.ml" 117 3590 3610
+type(
+  string
+)
+ident(
+  def file "file_loader.ml" 117 3590 3611 "file_loader.ml" 123 3872 3884
+)
+"file_loader.ml" 117 3590 3611 "file_loader.ml" 117 3590 3619
+type(
+  string
+)
+ident(
+  def ast_file "file_loader.ml" 118 3622 3624 "file_loader.ml" 123 3872 3884
+)
+"file_loader.ml" 118 3622 3627 "file_loader.ml" 118 3622 3642
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"file_loader.ml" 118 3622 3643 "file_loader.ml" 118 3622 3651
+type(
+  string
+)
+ident(
+  int_ref ast_file "file_loader.ml" 117 3590 3611 "file_loader.ml" 117 3590 3619
+)
+"file_loader.ml" 118 3622 3627 "file_loader.ml" 118 3622 3651
+type(
+  bool
+)
+"file_loader.ml" 119 3657 3665 "file_loader.ml" 119 3657 3670
+type(
+  float
+)
+ident(
+  def rb_tm "file_loader.ml" 120 3707 3711 "file_loader.ml" 122 3830 3871
+)
+"file_loader.ml" 119 3657 3674 "file_loader.ml" 119 3657 3683
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"file_loader.ml" 119 3657 3684 "file_loader.ml" 119 3657 3688
+type(
+  string
+)
+ident(
+  int_ref file "file_loader.ml" 117 3590 3606 "file_loader.ml" 117 3590 3610
+)
+"file_loader.ml" 119 3657 3673 "file_loader.ml" 119 3657 3689
+type(
+  Unix.stats
+)
+"file_loader.ml" 119 3657 3673 "file_loader.ml" 119 3657 3703
+type(
+  float
+)
+"file_loader.ml" 120 3707 3715 "file_loader.ml" 120 3707 3721
+type(
+  float
+)
+ident(
+  def ast_tm "file_loader.ml" 121 3762 3766 "file_loader.ml" 122 3830 3871
+)
+"file_loader.ml" 120 3707 3725 "file_loader.ml" 120 3707 3734
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"file_loader.ml" 120 3707 3735 "file_loader.ml" 120 3707 3743
+type(
+  string
+)
+ident(
+  int_ref ast_file "file_loader.ml" 117 3590 3611 "file_loader.ml" 117 3590 3619
+)
+"file_loader.ml" 120 3707 3724 "file_loader.ml" 120 3707 3744
+type(
+  Unix.stats
+)
+"file_loader.ml" 120 3707 3724 "file_loader.ml" 120 3707 3758
+type(
+  float
+)
+"file_loader.ml" 121 3762 3770 "file_loader.ml" 121 3762 3778
+type(
+  float
+)
+ident(
+  def druby_tm "file_loader.ml" 122 3830 3836 "file_loader.ml" 122 3830 3871
+)
+"file_loader.ml" 121 3762 3782 "file_loader.ml" 121 3762 3791
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"file_loader.ml" 121 3762 3792 "file_loader.ml" 121 3762 3811
+type(
+  string
+)
+ident(
+  ext_ref Sys.executable_name
+)
+"file_loader.ml" 121 3762 3781 "file_loader.ml" 121 3762 3812
+type(
+  Unix.stats
+)
+"file_loader.ml" 121 3762 3781 "file_loader.ml" 121 3762 3826
+type(
+  float
+)
+"file_loader.ml" 122 3830 3836 "file_loader.ml" 122 3830 3841
+type(
+  float
+)
+ident(
+  int_ref rb_tm "file_loader.ml" 119 3657 3665 "file_loader.ml" 119 3657 3670
+)
+"file_loader.ml" 122 3830 3842 "file_loader.ml" 122 3830 3843
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"file_loader.ml" 122 3830 3844 "file_loader.ml" 122 3830 3850
+type(
+  float
+)
+ident(
+  int_ref ast_tm "file_loader.ml" 120 3707 3715 "file_loader.ml" 120 3707 3721
+)
+"file_loader.ml" 122 3830 3836 "file_loader.ml" 122 3830 3850
+type(
+  bool
+)
+"file_loader.ml" 122 3830 3851 "file_loader.ml" 122 3830 3853
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"file_loader.ml" 122 3830 3854 "file_loader.ml" 122 3830 3862
+type(
+  float
+)
+ident(
+  int_ref druby_tm "file_loader.ml" 121 3762 3770 "file_loader.ml" 121 3762 3778
+)
+"file_loader.ml" 122 3830 3863 "file_loader.ml" 122 3830 3864
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"file_loader.ml" 122 3830 3865 "file_loader.ml" 122 3830 3871
+type(
+  float
+)
+ident(
+  int_ref ast_tm "file_loader.ml" 120 3707 3715 "file_loader.ml" 120 3707 3721
+)
+"file_loader.ml" 122 3830 3854 "file_loader.ml" 122 3830 3871
+type(
+  bool
+)
+"file_loader.ml" 122 3830 3836 "file_loader.ml" 122 3830 3871
+type(
+  bool
+)
+"file_loader.ml" 121 3762 3766 "file_loader.ml" 122 3830 3871
+type(
+  bool
+)
+"file_loader.ml" 120 3707 3711 "file_loader.ml" 122 3830 3871
+type(
+  bool
+)
+"file_loader.ml" 119 3657 3661 "file_loader.ml" 122 3830 3871
+type(
+  bool
+)
+"file_loader.ml" 123 3872 3879 "file_loader.ml" 123 3872 3884
+type(
+  bool
+)
+"file_loader.ml" 118 3622 3624 "file_loader.ml" 123 3872 3884
+type(
+  bool
+)
+"file_loader.ml" 126 3933 3937 "file_loader.ml" 126 3933 3946
+type(
+  t -> string -> Ast.ast -> unit
+)
+ident(
+  def cache_ast "file_loader.ml" 133 4158 4158 --
+)
+"file_loader.ml" 126 3933 3947 "file_loader.ml" 126 3933 3948
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 126 3933 3949 "file_loader.ml" 131 4105 4156
+)
+"file_loader.ml" 126 3933 3949 "file_loader.ml" 126 3933 3954
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 126 3933 3955 "file_loader.ml" 131 4105 4156
+)
+"file_loader.ml" 126 3933 3955 "file_loader.ml" 126 3933 3958
+type(
+  Ast.ast
+)
+ident(
+  def ast "file_loader.ml" 127 3961 3963 "file_loader.ml" 131 4105 4156
+)
+"file_loader.ml" 127 3961 3967 "file_loader.ml" 127 3961 3972
+type(
+  string
+)
+"file_loader.ml" 127 3961 3976 "file_loader.ml" 127 3961 3994
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 127 3961 3995 "file_loader.ml" 127 3961 4000
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 126 3933 3949 "file_loader.ml" 126 3933 3954
+)
+"file_loader.ml" 127 3961 3975 "file_loader.ml" 127 3961 4001
+type(
+  string
+)
+"file_loader.ml" 127 3961 4002 "file_loader.ml" 127 3961 4003
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 127 3961 4004 "file_loader.ml" 127 3961 4010
+type(
+  string
+)
+"file_loader.ml" 127 3961 3975 "file_loader.ml" 127 3961 4010
+type(
+  string
+)
+"file_loader.ml" 128 4014 4020 "file_loader.ml" 128 4014 4022
+type(
+  out_channel
+)
+"file_loader.ml" 128 4014 4025 "file_loader.ml" 128 4014 4033
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"file_loader.ml" 128 4014 4034 "file_loader.ml" 128 4014 4039
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 127 3961 3967 "file_loader.ml" 127 3961 3972
+)
+"file_loader.ml" 128 4014 4025 "file_loader.ml" 128 4014 4039
+type(
+  out_channel
+)
+"file_loader.ml" 129 4043 4047 "file_loader.ml" 129 4043 4065
+type(
+  out_channel -> Ast.ast -> Marshal.extern_flags list -> unit
+)
+ident(
+  ext_ref Marshal.to_channel
+)
+"file_loader.ml" 129 4043 4066 "file_loader.ml" 129 4043 4068
+type(
+  out_channel
+)
+ident(
+  int_ref oc "file_loader.ml" 128 4014 4020 "file_loader.ml" 128 4014 4022
+)
+"file_loader.ml" 129 4043 4070 "file_loader.ml" 129 4043 4073
+type(
+  Ast.ast
+)
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 126 3933 3955 "file_loader.ml" 126 3933 3958
+)
+"file_loader.ml" 129 4043 4083 "file_loader.ml" 129 4043 4085
+type(
+  Marshal.extern_flags list
+)
+"file_loader.ml" 129 4043 4047 "file_loader.ml" 129 4043 4085
+type(
+  unit
+)
+"file_loader.ml" 130 4087 4091 "file_loader.ml" 130 4087 4100
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"file_loader.ml" 130 4087 4101 "file_loader.ml" 130 4087 4103
+type(
+  out_channel
+)
+ident(
+  int_ref oc "file_loader.ml" 128 4014 4020 "file_loader.ml" 128 4014 4022
+)
+"file_loader.ml" 130 4087 4091 "file_loader.ml" 130 4087 4103
+type(
+  unit
+)
+"file_loader.ml" 131 4105 4109 "file_loader.ml" 131 4105 4110
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 126 3933 3947 "file_loader.ml" 126 3933 3948
+)
+"file_loader.ml" 131 4105 4126 "file_loader.ml" 131 4105 4136
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.add
+)
+"file_loader.ml" 131 4105 4137 "file_loader.ml" 131 4105 4142
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref fname "file_loader.ml" 127 3961 3967 "file_loader.ml" 127 3961 3972
+)
+"file_loader.ml" 131 4105 4143 "file_loader.ml" 131 4105 4144
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 126 3933 3947 "file_loader.ml" 126 3933 3948
+)
+"file_loader.ml" 131 4105 4143 "file_loader.ml" 131 4105 4156
+type(
+  Utils.StrSet.t
+)
+"file_loader.ml" 131 4105 4126 "file_loader.ml" 131 4105 4156
+type(
+  Utils.StrSet.t
+)
+"file_loader.ml" 131 4105 4109 "file_loader.ml" 131 4105 4156
+type(
+  unit
+)
+"file_loader.ml" 130 4087 4091 "file_loader.ml" 131 4105 4156
+type(
+  unit
+)
+"file_loader.ml" 129 4043 4047 "file_loader.ml" 131 4105 4156
+type(
+  unit
+)
+"file_loader.ml" 128 4014 4016 "file_loader.ml" 131 4105 4156
+type(
+  unit
+)
+"file_loader.ml" 127 3961 3963 "file_loader.ml" 131 4105 4156
+type(
+  unit
+)
+"file_loader.ml" 133 4158 4162 "file_loader.ml" 133 4158 4177
+type(
+  t -> string -> Ast.ast
+)
+ident(
+  def load_cached_ast "file_loader.ml" 148 4612 4612 --
+)
+"file_loader.ml" 133 4158 4178 "file_loader.ml" 133 4158 4179
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 133 4158 4180 "file_loader.ml" 146 4599 4610
+)
+"file_loader.ml" 133 4158 4180 "file_loader.ml" 133 4158 4185
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 134 4189 4191 "file_loader.ml" 146 4599 4610
+)
+"file_loader.ml" 134 4189 4195 "file_loader.ml" 134 4189 4204
+type(
+  string
+)
+"file_loader.ml" 134 4189 4207 "file_loader.ml" 134 4189 4225
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 134 4189 4226 "file_loader.ml" 134 4189 4231
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 133 4158 4180 "file_loader.ml" 133 4158 4185
+)
+"file_loader.ml" 134 4189 4207 "file_loader.ml" 134 4189 4231
+type(
+  string
+)
+"file_loader.ml" 135 4235 4241 "file_loader.ml" 135 4235 4249
+type(
+  string
+)
+"file_loader.ml" 135 4235 4252 "file_loader.ml" 135 4235 4261
+type(
+  string
+)
+ident(
+  int_ref full_name "file_loader.ml" 134 4189 4195 "file_loader.ml" 134 4189 4204
+)
+"file_loader.ml" 135 4235 4262 "file_loader.ml" 135 4235 4263
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 135 4235 4264 "file_loader.ml" 135 4235 4270
+type(
+  string
+)
+"file_loader.ml" 135 4235 4252 "file_loader.ml" 135 4235 4270
+type(
+  string
+)
+"file_loader.ml" 136 4274 4281 "file_loader.ml" 136 4274 4292
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref stale_cache "file_loader.ml" 117 3590 3594 "file_loader.ml" 117 3590 3605
+)
+"file_loader.ml" 136 4274 4293 "file_loader.ml" 136 4274 4302
+type(
+  string
+)
+ident(
+  int_ref full_name "file_loader.ml" 134 4189 4195 "file_loader.ml" 134 4189 4204
+)
+"file_loader.ml" 136 4274 4303 "file_loader.ml" 136 4274 4311
+type(
+  string
+)
+ident(
+  int_ref ast_name "file_loader.ml" 135 4235 4241 "file_loader.ml" 135 4235 4249
+)
+"file_loader.ml" 136 4274 4281 "file_loader.ml" 136 4274 4311
+type(
+  bool
+)
+"file_loader.ml" 138 4321 4331 "file_loader.ml" 138 4321 4333
+type(
+  in_channel
+)
+ident(
+  def ic "file_loader.ml" 139 4357 4363 "file_loader.ml" 142 4492 4503
+)
+"file_loader.ml" 138 4321 4336 "file_loader.ml" 138 4321 4343
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"file_loader.ml" 138 4321 4344 "file_loader.ml" 138 4321 4352
+type(
+  string
+)
+ident(
+  int_ref ast_name "file_loader.ml" 135 4235 4241 "file_loader.ml" 135 4235 4249
+)
+"file_loader.ml" 138 4321 4336 "file_loader.ml" 138 4321 4352
+type(
+  in_channel
+)
+"file_loader.ml" 139 4357 4368 "file_loader.ml" 139 4357 4371
+type(
+  Ast.ast
+)
+ident(
+  def ast "file_loader.ml" 140 4410 4418 "file_loader.ml" 142 4492 4503
+)
+"file_loader.ml" 139 4357 4383 "file_loader.ml" 139 4357 4403
+type(
+  in_channel -> Ast.ast
+)
+ident(
+  ext_ref Marshal.from_channel
+)
+"file_loader.ml" 139 4357 4404 "file_loader.ml" 139 4357 4406
+type(
+  in_channel
+)
+ident(
+  int_ref ic "file_loader.ml" 138 4321 4331 "file_loader.ml" 138 4321 4333
+)
+"file_loader.ml" 139 4357 4383 "file_loader.ml" 139 4357 4406
+type(
+  Ast.ast
+)
+"file_loader.ml" 140 4410 4418 "file_loader.ml" 140 4410 4426
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"file_loader.ml" 140 4410 4427 "file_loader.ml" 140 4410 4429
+type(
+  in_channel
+)
+ident(
+  int_ref ic "file_loader.ml" 138 4321 4331 "file_loader.ml" 138 4321 4333
+)
+"file_loader.ml" 140 4410 4418 "file_loader.ml" 140 4410 4429
+type(
+  unit
+)
+"file_loader.ml" 141 4432 4440 "file_loader.ml" 141 4432 4441
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 133 4158 4178 "file_loader.ml" 133 4158 4179
+)
+"file_loader.ml" 141 4432 4457 "file_loader.ml" 141 4432 4467
+type(
+  Utils.StrSet.elt -> Utils.StrSet.t -> Utils.StrSet.t
+)
+ident(
+  ext_ref Utils.StrSet.add
+)
+"file_loader.ml" 141 4432 4468 "file_loader.ml" 141 4432 4476
+type(
+  Utils.StrSet.elt
+)
+ident(
+  int_ref ast_name "file_loader.ml" 135 4235 4241 "file_loader.ml" 135 4235 4249
+)
+"file_loader.ml" 141 4432 4477 "file_loader.ml" 141 4432 4478
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 133 4158 4178 "file_loader.ml" 133 4158 4179
+)
+"file_loader.ml" 141 4432 4477 "file_loader.ml" 141 4432 4490
+type(
+  Utils.StrSet.t
+)
+"file_loader.ml" 141 4432 4457 "file_loader.ml" 141 4432 4490
+type(
+  Utils.StrSet.t
+)
+"file_loader.ml" 141 4432 4440 "file_loader.ml" 141 4432 4490
+type(
+  unit
+)
+"file_loader.ml" 142 4492 4500 "file_loader.ml" 142 4492 4503
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 139 4357 4368 "file_loader.ml" 139 4357 4371
+)
+"file_loader.ml" 141 4432 4440 "file_loader.ml" 142 4492 4503
+type(
+  Ast.ast
+)
+"file_loader.ml" 140 4410 4418 "file_loader.ml" 142 4492 4503
+type(
+  Ast.ast
+)
+"file_loader.ml" 139 4357 4363 "file_loader.ml" 142 4492 4503
+type(
+  Ast.ast
+)
+"file_loader.ml" 138 4321 4327 "file_loader.ml" 142 4492 4503
+type(
+  Ast.ast
+)
+"file_loader.ml" 144 4514 4524 "file_loader.ml" 144 4514 4527
+type(
+  Ast.ast
+)
+"file_loader.ml" 144 4514 4530 "file_loader.ml" 144 4514 4558
+type(
+  string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_ruby_file
+)
+"file_loader.ml" 144 4514 4559 "file_loader.ml" 144 4514 4564
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 133 4158 4180 "file_loader.ml" 133 4158 4185
+)
+"file_loader.ml" 144 4514 4530 "file_loader.ml" 144 4514 4564
+type(
+  Ast.ast
+)
+"file_loader.ml" 145 4568 4576 "file_loader.ml" 145 4568 4585
+type(
+  t -> string -> Ast.ast -> unit
+)
+ident(
+  int_ref cache_ast "file_loader.ml" 126 3933 3937 "file_loader.ml" 126 3933 3946
+)
+"file_loader.ml" 145 4568 4586 "file_loader.ml" 145 4568 4587
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 133 4158 4178 "file_loader.ml" 133 4158 4179
+)
+"file_loader.ml" 145 4568 4588 "file_loader.ml" 145 4568 4593
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 133 4158 4180 "file_loader.ml" 133 4158 4185
+)
+"file_loader.ml" 145 4568 4594 "file_loader.ml" 145 4568 4597
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 144 4514 4524 "file_loader.ml" 144 4514 4527
+)
+"file_loader.ml" 145 4568 4576 "file_loader.ml" 145 4568 4597
+type(
+  unit
+)
+"file_loader.ml" 146 4599 4607 "file_loader.ml" 146 4599 4610
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 144 4514 4524 "file_loader.ml" 144 4514 4527
+)
+"file_loader.ml" 145 4568 4576 "file_loader.ml" 146 4599 4610
+type(
+  Ast.ast
+)
+"file_loader.ml" 144 4514 4520 "file_loader.ml" 146 4599 4610
+type(
+  Ast.ast
+)
+"file_loader.ml" 136 4274 4278 "file_loader.ml" 146 4599 4610
+type(
+  Ast.ast
+)
+"file_loader.ml" 135 4235 4237 "file_loader.ml" 146 4599 4610
+type(
+  Ast.ast
+)
+"file_loader.ml" 134 4189 4191 "file_loader.ml" 146 4599 4610
+type(
+  Ast.ast
+)
+"file_loader.ml" 148 4612 4616 "file_loader.ml" 148 4612 4624
+type(
+  t -> string -> Ast.ast
+)
+ident(
+  def load_ast "file_loader.ml" 156 4880 4880 --
+)
+"file_loader.ml" 148 4612 4625 "file_loader.ml" 148 4612 4626
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 148 4612 4627 "file_loader.ml" 153 4762 4803
+)
+"file_loader.ml" 148 4612 4627 "file_loader.ml" 148 4612 4632
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 149 4636 4638 "file_loader.ml" 153 4762 4803
+)
+"file_loader.ml" 149 4636 4641 "file_loader.ml" 149 4636 4645
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"file_loader.ml" 149 4636 4641 "file_loader.ml" 149 4636 4661
+type(
+  bool
+)
+"file_loader.ml" 150 4663 4670 "file_loader.ml" 150 4663 4684
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"file_loader.ml" 150 4663 4685 "file_loader.ml" 150 4663 4706
+type(
+  (string -> unit, out_channel, unit) format
+)
+"file_loader.ml" 150 4663 4707 "file_loader.ml" 150 4663 4712
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 148 4612 4627 "file_loader.ml" 148 4612 4632
+)
+"file_loader.ml" 150 4663 4670 "file_loader.ml" 150 4663 4712
+type(
+  unit
+)
+"file_loader.ml" 149 4636 4638 "file_loader.ml" 150 4663 4712
+type(
+  unit
+)
+"file_loader.ml" 151 4714 4719 "file_loader.ml" 151 4714 4723
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"file_loader.ml" 151 4714 4719 "file_loader.ml" 151 4714 4729
+type(
+  bool
+)
+"file_loader.ml" 152 4731 4738 "file_loader.ml" 152 4731 4753
+type(
+  t -> string -> Ast.ast
+)
+ident(
+  int_ref load_cached_ast "file_loader.ml" 133 4158 4162 "file_loader.ml" 133 4158 4177
+)
+"file_loader.ml" 152 4731 4754 "file_loader.ml" 152 4731 4755
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 148 4612 4625 "file_loader.ml" 148 4612 4626
+)
+"file_loader.ml" 152 4731 4756 "file_loader.ml" 152 4731 4761
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 148 4612 4627 "file_loader.ml" 148 4612 4632
+)
+"file_loader.ml" 152 4731 4738 "file_loader.ml" 152 4731 4761
+type(
+  Ast.ast
+)
+"file_loader.ml" 153 4762 4769 "file_loader.ml" 153 4762 4797
+type(
+  string -> Ast.ast
+)
+ident(
+  ext_ref Parse_helper.parse_ruby_file
+)
+"file_loader.ml" 153 4762 4798 "file_loader.ml" 153 4762 4803
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 148 4612 4627 "file_loader.ml" 148 4612 4632
+)
+"file_loader.ml" 153 4762 4769 "file_loader.ml" 153 4762 4803
+type(
+  Ast.ast
+)
+"file_loader.ml" 151 4714 4716 "file_loader.ml" 153 4762 4803
+type(
+  Ast.ast
+)
+"file_loader.ml" 149 4636 4638 "file_loader.ml" 153 4762 4803
+type(
+  Ast.ast
+)
+"file_loader.ml" 156 4880 4884 "file_loader.ml" 156 4880 4893
+type(
+  t ->
+  ?mod_ast_f:(Ast.ast -> Ast.ast) ->
+  ?no_ext:bool -> ?no_iface:bool -> string -> load_result
+)
+ident(
+  def load_file "file_loader.ml" 187 6195 6195 --
+)
+"file_loader.ml" 156 4880 4894 "file_loader.ml" 156 4880 4895
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 156 4880 4896 "file_loader.ml" 184 6091 6118
+)
+"file_loader.ml" 156 4880 4898 "file_loader.ml" 156 4880 4907
+type(
+  Ast.ast -> Ast.ast
+)
+"file_loader.ml" 156 4880 4908 "file_loader.ml" 156 4880 4916
+type(
+  Ast.ast -> Ast.ast
+)
+type(
+  Ast.ast -> Ast.ast
+)
+ident(
+  ext_ref Utils.id
+)
+type(
+  Ast.ast -> Ast.ast
+)
+ident(
+  int_ref *sth* "file_loader.ml" 156 4880 4908 "file_loader.ml" 156 4880 4916
+)
+type(
+  (Ast.ast -> Ast.ast) option
+)
+type(
+  (Ast.ast -> Ast.ast) option
+)
+type(
+  Ast.ast -> Ast.ast
+)
+ident(
+  def *sth* "file_loader.ml" 156 4880 4908 "file_loader.ml" 156 4880 4916
+)
+type(
+  (Ast.ast -> Ast.ast) option
+)
+ident(
+  int_ref *opt* "file_loader.ml" 156 4880 4908 "file_loader.ml" 156 4880 4916
+)
+type(
+  (Ast.ast -> Ast.ast) option
+)
+ident(
+  def *opt* "file_loader.ml" 156 4880 4896 "file_loader.ml" 184 6091 6118
+)
+"file_loader.ml" 156 4880 4919 "file_loader.ml" 156 4880 4925
+type(
+  bool option
+)
+ident(
+  def no_ext "file_loader.ml" 156 4880 4926 "file_loader.ml" 184 6091 6118
+)
+"file_loader.ml" 156 4880 4928 "file_loader.ml" 156 4880 4936
+type(
+  bool
+)
+"file_loader.ml" 156 4880 4937 "file_loader.ml" 156 4880 4942
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "file_loader.ml" 156 4880 4937 "file_loader.ml" 156 4880 4942
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "file_loader.ml" 156 4880 4937 "file_loader.ml" 156 4880 4942
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "file_loader.ml" 156 4880 4937 "file_loader.ml" 156 4880 4942
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "file_loader.ml" 156 4880 4926 "file_loader.ml" 184 6091 6118
+)
+"file_loader.ml" 156 4880 4944 "file_loader.ml" 156 4880 4949
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 157 4952 4954 "file_loader.ml" 184 6091 6118
+)
+"file_loader.ml" 157 4952 4954 "file_loader.ml" 157 4952 4962
+type(
+  ?ctx:Log.ctx ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Log.note
+)
+"file_loader.ml" 157 4952 4963 "file_loader.ml" 157 4952 4980
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"file_loader.ml" 157 4952 4981 "file_loader.ml" 157 4952 4986
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 156 4880 4944 "file_loader.ml" 156 4880 4949
+)
+"file_loader.ml" 157 4952 4954 "file_loader.ml" 157 4952 4986
+type(
+  unit
+)
+"file_loader.ml" 158 4988 4998 "file_loader.ml" 158 4988 5001
+type(
+  src_file
+)
+ident(
+  def src "file_loader.ml" 159 5052 5056 "file_loader.ml" 180 5952 5973
+)
+"file_loader.ml" 158 4988 5004 "file_loader.ml" 158 4988 5013
+type(
+  ?no_ext:bool -> ?no_iface:bool -> t -> string -> src_file
+)
+ident(
+  int_ref find_file "file_loader.ml" 114 3475 3479 "file_loader.ml" 114 3475 3488
+)
+"file_loader.ml" 158 4988 5015 "file_loader.ml" 158 4988 5021
+type(
+  bool option
+)
+ident(
+  int_ref no_ext "file_loader.ml" 156 4880 4919 "file_loader.ml" 156 4880 4925
+)
+"file_loader.ml" 158 4988 5032 "file_loader.ml" 158 4988 5040
+type(
+  bool
+)
+ident(
+  int_ref no_iface "file_loader.ml" 156 4880 4928 "file_loader.ml" 156 4880 4936
+)
+"file_loader.ml" 158 4988 5041 "file_loader.ml" 158 4988 5042
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 156 4880 4894 "file_loader.ml" 156 4880 4895
+)
+"file_loader.ml" 158 4988 5043 "file_loader.ml" 158 4988 5048
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 156 4880 4944 "file_loader.ml" 156 4880 4949
+)
+"file_loader.ml" 158 4988 5004 "file_loader.ml" 158 4988 5048
+type(
+  src_file
+)
+"file_loader.ml" 159 5052 5062 "file_loader.ml" 159 5052 5065
+type(
+  src_file
+)
+ident(
+  int_ref src "file_loader.ml" 158 4988 4998 "file_loader.ml" 158 4988 5001
+)
+"file_loader.ml" 160 5071 5089 "file_loader.ml" 160 5071 5101
+type(
+  string
+)
+ident(
+  def found_name "file_loader.ml" 161 5106 5114 "file_loader.ml" 162 5156 5182
+)
+"file_loader.ml" 160 5071 5079 "file_loader.ml" 160 5071 5101
+type(
+  src_file
+)
+"file_loader.ml" 161 5106 5114 "file_loader.ml" 161 5106 5122
+type(
+  ?ctx:Log.ctx ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Log.note
+)
+"file_loader.ml" 161 5106 5123 "file_loader.ml" 161 5106 5148
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"file_loader.ml" 161 5106 5149 "file_loader.ml" 161 5106 5154
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 156 4880 4944 "file_loader.ml" 156 4880 4949
+)
+"file_loader.ml" 161 5106 5114 "file_loader.ml" 161 5106 5154
+type(
+  unit
+)
+"file_loader.ml" 162 5156 5170 "file_loader.ml" 162 5156 5182
+type(
+  string
+)
+ident(
+  int_ref found_name "file_loader.ml" 160 5071 5089 "file_loader.ml" 160 5071 5101
+)
+"file_loader.ml" 162 5156 5164 "file_loader.ml" 162 5156 5182
+type(
+  load_result
+)
+"file_loader.ml" 161 5106 5114 "file_loader.ml" 162 5156 5182
+type(
+  load_result
+)
+"file_loader.ml" 163 5183 5204 "file_loader.ml" 163 5183 5216
+type(
+  string
+)
+ident(
+  def found_name "file_loader.ml" 164 5220 5228 "file_loader.ml" 169 5433 5444
+)
+"file_loader.ml" 163 5183 5191 "file_loader.ml" 163 5183 5216
+type(
+  src_file
+)
+"file_loader.ml" 164 5220 5238 "file_loader.ml" 164 5220 5250
+type(
+  (src_file, load_result) Hashtbl.t -> src_file -> load_result
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"file_loader.ml" 164 5220 5251 "file_loader.ml" 164 5220 5252
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 156 4880 4894 "file_loader.ml" 156 4880 4895
+)
+"file_loader.ml" 164 5220 5251 "file_loader.ml" 164 5220 5256
+type(
+  (src_file, load_result) Hashtbl.t
+)
+"file_loader.ml" 164 5220 5257 "file_loader.ml" 164 5220 5260
+type(
+  src_file
+)
+ident(
+  int_ref src "file_loader.ml" 158 4988 4998 "file_loader.ml" 158 4988 5001
+)
+"file_loader.ml" 164 5220 5238 "file_loader.ml" 164 5220 5260
+type(
+  load_result
+)
+"file_loader.ml" 165 5261 5274 "file_loader.ml" 165 5261 5283
+type(
+  exn
+)
+"file_loader.ml" 166 5287 5301 "file_loader.ml" 166 5287 5306
+type(
+  Annotation.interface
+)
+"file_loader.ml" 166 5287 5309 "file_loader.ml" 166 5287 5342
+type(
+  string -> Annotation.interface
+)
+ident(
+  ext_ref Parse_helper.parse_interface_file
+)
+"file_loader.ml" 166 5287 5343 "file_loader.ml" 166 5287 5353
+type(
+  string
+)
+ident(
+  int_ref found_name "file_loader.ml" 163 5183 5204 "file_loader.ml" 163 5183 5216
+)
+"file_loader.ml" 166 5287 5309 "file_loader.ml" 166 5287 5353
+type(
+  Annotation.interface
+)
+"file_loader.ml" 167 5357 5371 "file_loader.ml" 167 5357 5374
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 167 5357 5377 "file_loader.ml" 167 5357 5398
+type(
+  Annotation.interface -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.stmt_of_interface
+)
+"file_loader.ml" 167 5357 5399 "file_loader.ml" 167 5357 5404
+type(
+  Annotation.interface
+)
+ident(
+  int_ref iface "file_loader.ml" 166 5287 5301 "file_loader.ml" 166 5287 5306
+)
+"file_loader.ml" 167 5357 5377 "file_loader.ml" 167 5357 5404
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 168 5408 5427 "file_loader.ml" 168 5408 5432
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "file_loader.ml" 167 5357 5371 "file_loader.ml" 167 5357 5374
+)
+"file_loader.ml" 168 5408 5418 "file_loader.ml" 168 5408 5432
+type(
+  load_result
+)
+"file_loader.ml" 167 5357 5367 "file_loader.ml" 168 5408 5432
+type(
+  load_result
+)
+"file_loader.ml" 166 5287 5297 "file_loader.ml" 168 5408 5432
+type(
+  load_result
+)
+"file_loader.ml" 164 5220 5228 "file_loader.ml" 169 5433 5444
+type(
+  load_result
+)
+"file_loader.ml" 170 5445 5461 "file_loader.ml" 170 5445 5473
+type(
+  string
+)
+ident(
+  def found_name "file_loader.ml" 171 5477 5485 "file_loader.ml" 180 5952 5973
+)
+"file_loader.ml" 170 5445 5453 "file_loader.ml" 170 5445 5473
+type(
+  src_file
+)
+"file_loader.ml" 171 5477 5489 "file_loader.ml" 171 5477 5497
+type(
+  src_file
+)
+"file_loader.ml" 171 5477 5500 "file_loader.ml" 171 5477 5518
+type(
+  src_file -> src_file
+)
+ident(
+  int_ref normalize_src_file "file_loader.ml" 75 2047 2051 "file_loader.ml" 75 2047 2069
+)
+"file_loader.ml" 171 5477 5519 "file_loader.ml" 171 5477 5522
+type(
+  src_file
+)
+ident(
+  int_ref src "file_loader.ml" 158 4988 4998 "file_loader.ml" 158 4988 5001
+)
+"file_loader.ml" 171 5477 5500 "file_loader.ml" 171 5477 5522
+type(
+  src_file
+)
+"file_loader.ml" 173 5595 5607 "file_loader.ml" 173 5595 5619
+type(
+  (src_file, load_result) Hashtbl.t -> src_file -> load_result
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"file_loader.ml" 173 5595 5620 "file_loader.ml" 173 5595 5621
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 156 4880 4894 "file_loader.ml" 156 4880 4895
+)
+"file_loader.ml" 173 5595 5620 "file_loader.ml" 173 5595 5625
+type(
+  (src_file, load_result) Hashtbl.t
+)
+"file_loader.ml" 173 5595 5626 "file_loader.ml" 173 5595 5629
+type(
+  src_file
+)
+ident(
+  int_ref src "file_loader.ml" 158 4988 4998 "file_loader.ml" 158 4988 5001
+)
+"file_loader.ml" 173 5595 5607 "file_loader.ml" 173 5595 5629
+type(
+  load_result
+)
+"file_loader.ml" 175 5709 5722 "file_loader.ml" 175 5709 5731
+type(
+  exn
+)
+"file_loader.ml" 176 5735 5749 "file_loader.ml" 176 5735 5752
+type(
+  Ast.ast
+)
+"file_loader.ml" 176 5735 5755 "file_loader.ml" 176 5735 5763
+type(
+  t -> string -> Ast.ast
+)
+ident(
+  int_ref load_ast "file_loader.ml" 148 4612 4616 "file_loader.ml" 148 4612 4624
+)
+"file_loader.ml" 176 5735 5764 "file_loader.ml" 176 5735 5765
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 156 4880 4894 "file_loader.ml" 156 4880 4895
+)
+"file_loader.ml" 176 5735 5766 "file_loader.ml" 176 5735 5776
+type(
+  string
+)
+ident(
+  int_ref found_name "file_loader.ml" 170 5445 5461 "file_loader.ml" 170 5445 5473
+)
+"file_loader.ml" 176 5735 5755 "file_loader.ml" 176 5735 5776
+type(
+  Ast.ast
+)
+"file_loader.ml" 177 5780 5794 "file_loader.ml" 177 5780 5797
+type(
+  Ast.ast
+)
+"file_loader.ml" 177 5780 5803 "file_loader.ml" 177 5780 5807
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"file_loader.ml" 177 5780 5803 "file_loader.ml" 177 5780 5815
+type(
+  bool
+)
+"file_loader.ml" 177 5780 5821 "file_loader.ml" 177 5780 5830
+type(
+  Ast.ast -> Ast.ast
+)
+ident(
+  int_ref mod_ast_f "file_loader.ml" 156 4880 4898 "file_loader.ml" 156 4880 4907
+)
+"file_loader.ml" 177 5780 5831 "file_loader.ml" 177 5780 5834
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 176 5735 5749 "file_loader.ml" 176 5735 5752
+)
+"file_loader.ml" 177 5780 5821 "file_loader.ml" 177 5780 5834
+type(
+  Ast.ast
+)
+"file_loader.ml" 177 5780 5840 "file_loader.ml" 177 5780 5843
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 176 5735 5749 "file_loader.ml" 176 5735 5752
+)
+"file_loader.ml" 177 5780 5800 "file_loader.ml" 177 5780 5843
+type(
+  Ast.ast
+)
+"file_loader.ml" 178 5847 5861 "file_loader.ml" 178 5847 5864
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 178 5847 5867 "file_loader.ml" 178 5847 5892
+type(
+  ?env:Utils.StrSet.t -> Ast.ast -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg_refactor.refactor_ast
+)
+"file_loader.ml" 178 5847 5893 "file_loader.ml" 178 5847 5896
+type(
+  Ast.ast
+)
+ident(
+  int_ref ast "file_loader.ml" 177 5780 5794 "file_loader.ml" 177 5780 5797
+)
+"file_loader.ml" 178 5847 5867 "file_loader.ml" 178 5847 5896
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 179 5900 5912 "file_loader.ml" 179 5900 5923
+type(
+  (src_file, load_result) Hashtbl.t -> src_file -> load_result -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"file_loader.ml" 179 5900 5924 "file_loader.ml" 179 5900 5925
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 156 4880 4894 "file_loader.ml" 156 4880 4895
+)
+"file_loader.ml" 179 5900 5924 "file_loader.ml" 179 5900 5929
+type(
+  (src_file, load_result) Hashtbl.t
+)
+"file_loader.ml" 179 5900 5930 "file_loader.ml" 179 5900 5938
+type(
+  src_file
+)
+ident(
+  int_ref full_src "file_loader.ml" 171 5477 5489 "file_loader.ml" 171 5477 5497
+)
+"file_loader.ml" 179 5900 5944 "file_loader.ml" 179 5900 5949
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "file_loader.ml" 178 5847 5861 "file_loader.ml" 178 5847 5864
+)
+"file_loader.ml" 179 5900 5939 "file_loader.ml" 179 5900 5950
+type(
+  load_result
+)
+"file_loader.ml" 179 5900 5912 "file_loader.ml" 179 5900 5950
+type(
+  unit
+)
+"file_loader.ml" 180 5952 5968 "file_loader.ml" 180 5952 5973
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg "file_loader.ml" 178 5847 5861 "file_loader.ml" 178 5847 5864
+)
+"file_loader.ml" 180 5952 5964 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 179 5900 5912 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 178 5847 5857 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 177 5780 5790 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 176 5735 5745 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 173 5595 5603 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 171 5477 5485 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 159 5052 5056 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 158 4988 4994 "file_loader.ml" 180 5952 5973
+type(
+  load_result
+)
+"file_loader.ml" 181 5974 5981 "file_loader.ml" 181 5974 5990
+type(
+  exn
+)
+"file_loader.ml" 182 5995 5999 "file_loader.ml" 182 5995 6006
+type(
+  ?ctx:Log.ctx ->
+  (string -> bool -> unit, Format.formatter, unit, unit) format4 ->
+  string -> bool -> unit
+)
+ident(
+  ext_ref Log.err
+)
+"file_loader.ml" 182 5995 6007 "file_loader.ml" 182 5995 6049
+type(
+  (string -> bool -> unit, Format.formatter, unit, unit) format4
+)
+"file_loader.ml" 183 6051 6057 "file_loader.ml" 183 6051 6062
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 156 4880 4944 "file_loader.ml" 156 4880 4949
+)
+"file_loader.ml" 183 6051 6064 "file_loader.ml" 183 6051 6075
+type(
+  bool -> bool option -> bool
+)
+ident(
+  ext_ref Utils.default_opt
+)
+"file_loader.ml" 183 6051 6076 "file_loader.ml" 183 6051 6081
+type(
+  bool
+)
+"file_loader.ml" 183 6051 6082 "file_loader.ml" 183 6051 6088
+type(
+  bool option
+)
+ident(
+  int_ref no_ext "file_loader.ml" 156 4880 4919 "file_loader.ml" 156 4880 4925
+)
+"file_loader.ml" 183 6051 6063 "file_loader.ml" 183 6051 6089
+type(
+  bool
+)
+"file_loader.ml" 182 5995 5999 "file_loader.ml" 183 6051 6089
+type(
+  unit
+)
+"file_loader.ml" 184 6091 6100 "file_loader.ml" 184 6091 6114
+type(
+  unit -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.empty_stmt
+)
+"file_loader.ml" 184 6091 6115 "file_loader.ml" 184 6091 6117
+type(
+  unit
+)
+"file_loader.ml" 184 6091 6099 "file_loader.ml" 184 6091 6118
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 184 6091 6095 "file_loader.ml" 184 6091 6118
+type(
+  load_result
+)
+"file_loader.ml" 182 5995 5999 "file_loader.ml" 184 6091 6118
+type(
+  load_result
+)
+"file_loader.ml" 158 4988 4990 "file_loader.ml" 184 6091 6118
+type(
+  load_result
+)
+"file_loader.ml" 157 4952 4954 "file_loader.ml" 184 6091 6118
+type(
+  load_result
+)
+"file_loader.ml" 187 6195 6199 "file_loader.ml" 187 6195 6210
+type(
+  ?no_ext:bool -> t -> string -> load_result -> unit
+)
+ident(
+  def update_file "file_loader.ml" 193 6418 6418 --
+)
+"file_loader.ml" 187 6195 6212 "file_loader.ml" 187 6195 6218
+type(
+  bool option
+)
+ident(
+  def no_ext "file_loader.ml" 187 6195 6219 "file_loader.ml" 190 6319 6358
+)
+"file_loader.ml" 187 6195 6219 "file_loader.ml" 187 6195 6220
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 187 6195 6221 "file_loader.ml" 190 6319 6358
+)
+"file_loader.ml" 187 6195 6221 "file_loader.ml" 187 6195 6226
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 187 6195 6227 "file_loader.ml" 190 6319 6358
+)
+"file_loader.ml" 187 6195 6227 "file_loader.ml" 187 6195 6230
+type(
+  load_result
+)
+ident(
+  def cfg "file_loader.ml" 188 6234 6236 "file_loader.ml" 190 6319 6358
+)
+"file_loader.ml" 188 6234 6240 "file_loader.ml" 188 6234 6243
+type(
+  src_file
+)
+"file_loader.ml" 188 6234 6246 "file_loader.ml" 188 6234 6255
+type(
+  ?no_ext:bool -> ?no_iface:bool -> t -> string -> src_file
+)
+ident(
+  int_ref find_file "file_loader.ml" 114 3475 3479 "file_loader.ml" 114 3475 3488
+)
+"file_loader.ml" 188 6234 6257 "file_loader.ml" 188 6234 6263
+type(
+  bool option
+)
+ident(
+  int_ref no_ext "file_loader.ml" 187 6195 6212 "file_loader.ml" 187 6195 6218
+)
+"file_loader.ml" 188 6234 6264 "file_loader.ml" 188 6234 6265
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 187 6195 6219 "file_loader.ml" 187 6195 6220
+)
+"file_loader.ml" 188 6234 6266 "file_loader.ml" 188 6234 6271
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 187 6195 6221 "file_loader.ml" 187 6195 6226
+)
+"file_loader.ml" 188 6234 6246 "file_loader.ml" 188 6234 6271
+type(
+  src_file
+)
+"file_loader.ml" 189 6275 6281 "file_loader.ml" 189 6275 6290
+type(
+  src_file
+)
+"file_loader.ml" 189 6275 6293 "file_loader.ml" 189 6275 6311
+type(
+  src_file -> src_file
+)
+ident(
+  int_ref normalize_src_file "file_loader.ml" 75 2047 2051 "file_loader.ml" 75 2047 2069
+)
+"file_loader.ml" 189 6275 6312 "file_loader.ml" 189 6275 6315
+type(
+  src_file
+)
+ident(
+  int_ref src "file_loader.ml" 188 6234 6240 "file_loader.ml" 188 6234 6243
+)
+"file_loader.ml" 189 6275 6293 "file_loader.ml" 189 6275 6315
+type(
+  src_file
+)
+"file_loader.ml" 190 6319 6323 "file_loader.ml" 190 6319 6338
+type(
+  (src_file, load_result) Hashtbl.t -> src_file -> load_result -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"file_loader.ml" 190 6319 6339 "file_loader.ml" 190 6319 6340
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 187 6195 6219 "file_loader.ml" 187 6195 6220
+)
+"file_loader.ml" 190 6319 6339 "file_loader.ml" 190 6319 6344
+type(
+  (src_file, load_result) Hashtbl.t
+)
+"file_loader.ml" 190 6319 6345 "file_loader.ml" 190 6319 6354
+type(
+  src_file
+)
+ident(
+  int_ref full_name "file_loader.ml" 189 6275 6281 "file_loader.ml" 189 6275 6290
+)
+"file_loader.ml" 190 6319 6355 "file_loader.ml" 190 6319 6358
+type(
+  load_result
+)
+ident(
+  int_ref cfg "file_loader.ml" 187 6195 6227 "file_loader.ml" 187 6195 6230
+)
+"file_loader.ml" 190 6319 6323 "file_loader.ml" 190 6319 6358
+type(
+  unit
+)
+"file_loader.ml" 189 6275 6277 "file_loader.ml" 190 6319 6358
+type(
+  unit
+)
+"file_loader.ml" 188 6234 6236 "file_loader.ml" 190 6319 6358
+type(
+  unit
+)
+"file_loader.ml" 193 6418 6422 "file_loader.ml" 193 6418 6436
+type(
+  ?no_ext:bool -> t -> string -> bool
+)
+ident(
+  def already_loaded "file_loader.ml" 203 6737 6737 --
+)
+"file_loader.ml" 193 6418 6438 "file_loader.ml" 193 6418 6444
+type(
+  bool option
+)
+ident(
+  def no_ext "file_loader.ml" 193 6418 6445 "file_loader.ml" 200 6685 6693
+)
+"file_loader.ml" 193 6418 6445 "file_loader.ml" 193 6418 6446
+type(
+  t
+)
+ident(
+  def t "file_loader.ml" 193 6418 6447 "file_loader.ml" 200 6685 6693
+)
+"file_loader.ml" 193 6418 6447 "file_loader.ml" 193 6418 6452
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 194 6456 6458 "file_loader.ml" 200 6685 6693
+)
+"file_loader.ml" 194 6456 6466 "file_loader.ml" 194 6456 6475
+type(
+  src_file
+)
+ident(
+  def full_name "file_loader.ml" 195 6507 6511 "file_loader.ml" 197 6548 6605
+)
+"file_loader.ml" 194 6456 6478 "file_loader.ml" 194 6456 6487
+type(
+  ?no_ext:bool -> ?no_iface:bool -> t -> string -> src_file
+)
+ident(
+  int_ref find_file "file_loader.ml" 114 3475 3479 "file_loader.ml" 114 3475 3488
+)
+"file_loader.ml" 194 6456 6489 "file_loader.ml" 194 6456 6495
+type(
+  bool option
+)
+ident(
+  int_ref no_ext "file_loader.ml" 193 6418 6438 "file_loader.ml" 193 6418 6444
+)
+"file_loader.ml" 194 6456 6496 "file_loader.ml" 194 6456 6497
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 193 6418 6445 "file_loader.ml" 193 6418 6446
+)
+"file_loader.ml" 194 6456 6498 "file_loader.ml" 194 6456 6503
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 193 6418 6447 "file_loader.ml" 193 6418 6452
+)
+"file_loader.ml" 194 6456 6478 "file_loader.ml" 194 6456 6503
+type(
+  src_file
+)
+"file_loader.ml" 195 6507 6514 "file_loader.ml" 195 6507 6523
+type(
+  src_file -> bool
+)
+ident(
+  int_ref is_native "file_loader.ml" 50 1431 1435 "file_loader.ml" 50 1431 1444
+)
+"file_loader.ml" 195 6507 6524 "file_loader.ml" 195 6507 6533
+type(
+  src_file
+)
+ident(
+  int_ref full_name "file_loader.ml" 194 6456 6466 "file_loader.ml" 194 6456 6475
+)
+"file_loader.ml" 195 6507 6514 "file_loader.ml" 195 6507 6533
+type(
+  bool
+)
+"file_loader.ml" 196 6534 6543 "file_loader.ml" 196 6534 6547
+type(
+  bool
+)
+"file_loader.ml" 197 6548 6557 "file_loader.ml" 197 6548 6568
+type(
+  (src_file, load_result) Hashtbl.t -> src_file -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"file_loader.ml" 197 6548 6569 "file_loader.ml" 197 6548 6570
+type(
+  t
+)
+ident(
+  int_ref t "file_loader.ml" 193 6418 6445 "file_loader.ml" 193 6418 6446
+)
+"file_loader.ml" 197 6548 6569 "file_loader.ml" 197 6548 6574
+type(
+  (src_file, load_result) Hashtbl.t
+)
+"file_loader.ml" 197 6548 6576 "file_loader.ml" 197 6548 6594
+type(
+  src_file -> src_file
+)
+ident(
+  int_ref normalize_src_file "file_loader.ml" 75 2047 2051 "file_loader.ml" 75 2047 2069
+)
+"file_loader.ml" 197 6548 6595 "file_loader.ml" 197 6548 6604
+type(
+  src_file
+)
+ident(
+  int_ref full_name "file_loader.ml" 194 6456 6466 "file_loader.ml" 194 6456 6475
+)
+"file_loader.ml" 197 6548 6575 "file_loader.ml" 197 6548 6605
+type(
+  src_file
+)
+"file_loader.ml" 197 6548 6557 "file_loader.ml" 197 6548 6605
+type(
+  bool
+)
+"file_loader.ml" 195 6507 6511 "file_loader.ml" 197 6548 6605
+type(
+  bool
+)
+"file_loader.ml" 194 6456 6462 "file_loader.ml" 197 6548 6605
+type(
+  bool
+)
+"file_loader.ml" 198 6606 6613 "file_loader.ml" 198 6606 6622
+type(
+  exn
+)
+"file_loader.ml" 199 6627 6631 "file_loader.ml" 199 6627 6638
+type(
+  ?ctx:Log.ctx ->
+  (string -> unit, Format.formatter, unit, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Log.err
+)
+"file_loader.ml" 199 6627 6639 "file_loader.ml" 199 6627 6677
+type(
+  (string -> unit, Format.formatter, unit, unit) format4
+)
+"file_loader.ml" 199 6627 6678 "file_loader.ml" 199 6627 6683
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 193 6418 6447 "file_loader.ml" 193 6418 6452
+)
+"file_loader.ml" 199 6627 6631 "file_loader.ml" 199 6627 6683
+type(
+  unit
+)
+"file_loader.ml" 200 6685 6689 "file_loader.ml" 200 6685 6693
+type(
+  bool
+)
+"file_loader.ml" 199 6627 6631 "file_loader.ml" 200 6685 6693
+type(
+  bool
+)
+"file_loader.ml" 194 6456 6458 "file_loader.ml" 200 6685 6693
+type(
+  bool
+)
+"file_loader.ml" 203 6737 6741 "file_loader.ml" 203 6737 6755
+type(
+  t -> string
+)
+ident(
+  def mk_rubylib_env "file_loader.ml" 211 6956 6956 --
+)
+"file_loader.ml" 203 6737 6756 "file_loader.ml" 203 6737 6762
+type(
+  t
+)
+ident(
+  def loader "file_loader.ml" 204 6766 6768 "file_loader.ml" 208 6855 6893
+)
+"file_loader.ml" 204 6766 6776 "file_loader.ml" 204 6766 6785
+type(
+  string list -> string
+)
+"file_loader.ml" 205 6797 6803 "file_loader.ml" 205 6797 6805
+type(
+  string list
+)
+"file_loader.ml" 205 6797 6809 "file_loader.ml" 205 6797 6811
+type(
+  string
+)
+"file_loader.ml" 206 6812 6818 "file_loader.ml" 206 6812 6819
+type(
+  string
+)
+ident(
+  def h "file_loader.ml" 206 6812 6826 "file_loader.ml" 206 6812 6849
+)
+"file_loader.ml" 206 6812 6821 "file_loader.ml" 206 6812 6822
+type(
+  string list
+)
+ident(
+  def t "file_loader.ml" 206 6812 6826 "file_loader.ml" 206 6812 6849
+)
+"file_loader.ml" 206 6812 6818 "file_loader.ml" 206 6812 6822
+type(
+  string list
+)
+"file_loader.ml" 206 6812 6826 "file_loader.ml" 206 6812 6827
+type(
+  string
+)
+ident(
+  int_ref h "file_loader.ml" 206 6812 6818 "file_loader.ml" 206 6812 6819
+)
+"file_loader.ml" 206 6812 6828 "file_loader.ml" 206 6812 6829
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 206 6812 6830 "file_loader.ml" 206 6812 6833
+type(
+  string
+)
+"file_loader.ml" 206 6812 6834 "file_loader.ml" 206 6812 6835
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 206 6812 6837 "file_loader.ml" 206 6812 6846
+type(
+  string list -> string
+)
+ident(
+  int_ref mk_helper "file_loader.ml" 204 6766 6776 "file_loader.ml" 204 6766 6785
+)
+"file_loader.ml" 206 6812 6847 "file_loader.ml" 206 6812 6848
+type(
+  string list
+)
+ident(
+  int_ref t "file_loader.ml" 206 6812 6821 "file_loader.ml" 206 6812 6822
+)
+"file_loader.ml" 206 6812 6836 "file_loader.ml" 206 6812 6849
+type(
+  string
+)
+"file_loader.ml" 206 6812 6830 "file_loader.ml" 206 6812 6849
+type(
+  string
+)
+"file_loader.ml" 206 6812 6826 "file_loader.ml" 206 6812 6849
+type(
+  string
+)
+"file_loader.ml" 204 6766 6788 "file_loader.ml" 206 6812 6849
+type(
+  string list -> string
+)
+"file_loader.ml" 208 6855 6859 "file_loader.ml" 208 6855 6869
+type(
+  string
+)
+"file_loader.ml" 208 6855 6870 "file_loader.ml" 208 6855 6871
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 208 6855 6872 "file_loader.ml" 208 6855 6881
+type(
+  string list -> string
+)
+ident(
+  int_ref mk_helper "file_loader.ml" 204 6766 6776 "file_loader.ml" 204 6766 6785
+)
+"file_loader.ml" 208 6855 6882 "file_loader.ml" 208 6855 6888
+type(
+  t
+)
+ident(
+  int_ref loader "file_loader.ml" 203 6737 6756 "file_loader.ml" 203 6737 6762
+)
+"file_loader.ml" 208 6855 6882 "file_loader.ml" 208 6855 6893
+type(
+  string list
+)
+"file_loader.ml" 208 6855 6872 "file_loader.ml" 208 6855 6893
+type(
+  string
+)
+"file_loader.ml" 208 6855 6859 "file_loader.ml" 208 6855 6893
+type(
+  string
+)
+"file_loader.ml" 204 6766 6768 "file_loader.ml" 208 6855 6893
+type(
+  string
+)
+"file_loader.ml" 211 6956 6960 "file_loader.ml" 211 6956 6976
+type(
+  t -> string -> unit
+)
+ident(
+  def write_cache_file "file_loader.ml" 219 7261 7261 --
+)
+"file_loader.ml" 211 6956 6977 "file_loader.ml" 211 6956 6983
+type(
+  t
+)
+ident(
+  def loader "file_loader.ml" 211 6956 6984 "file_loader.ml" 216 7165 7181
+)
+"file_loader.ml" 211 6956 6984 "file_loader.ml" 211 6956 6989
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 212 6993 6995 "file_loader.ml" 216 7165 7181
+)
+"file_loader.ml" 212 6993 6999 "file_loader.ml" 212 6993 7004
+type(
+  string
+)
+"file_loader.ml" 212 6993 7007 "file_loader.ml" 212 6993 7025
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 212 6993 7026 "file_loader.ml" 212 6993 7031
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 211 6956 6984 "file_loader.ml" 211 6956 6989
+)
+"file_loader.ml" 212 6993 7007 "file_loader.ml" 212 6993 7031
+type(
+  string
+)
+"file_loader.ml" 213 7035 7041 "file_loader.ml" 213 7035 7052
+type(
+  string
+)
+"file_loader.ml" 213 7035 7055 "file_loader.ml" 213 7035 7060
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 212 6993 6999 "file_loader.ml" 212 6993 7004
+)
+"file_loader.ml" 213 7035 7061 "file_loader.ml" 213 7035 7062
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 213 7035 7063 "file_loader.ml" 213 7035 7071
+type(
+  string
+)
+"file_loader.ml" 213 7035 7055 "file_loader.ml" 213 7035 7071
+type(
+  string
+)
+"file_loader.ml" 214 7075 7081 "file_loader.ml" 214 7075 7083
+type(
+  out_channel
+)
+"file_loader.ml" 214 7075 7086 "file_loader.ml" 214 7075 7094
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"file_loader.ml" 214 7075 7095 "file_loader.ml" 214 7075 7106
+type(
+  string
+)
+ident(
+  int_ref cache_fname "file_loader.ml" 213 7035 7041 "file_loader.ml" 213 7035 7052
+)
+"file_loader.ml" 214 7075 7086 "file_loader.ml" 214 7075 7106
+type(
+  out_channel
+)
+"file_loader.ml" 215 7110 7114 "file_loader.ml" 215 7110 7125
+type(
+  (Utils.StrSet.elt -> unit) -> Utils.StrSet.t -> unit
+)
+ident(
+  ext_ref Utils.StrSet.iter
+)
+"file_loader.ml" 215 7110 7127 "file_loader.ml" 215 7110 7140
+type(
+  out_channel -> Utils.StrSet.elt -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"file_loader.ml" 215 7110 7141 "file_loader.ml" 215 7110 7143
+type(
+  out_channel
+)
+ident(
+  int_ref oc "file_loader.ml" 214 7075 7081 "file_loader.ml" 214 7075 7083
+)
+"file_loader.ml" 215 7110 7126 "file_loader.ml" 215 7110 7144
+type(
+  Utils.StrSet.elt -> unit
+)
+"file_loader.ml" 215 7110 7145 "file_loader.ml" 215 7110 7151
+type(
+  t
+)
+ident(
+  int_ref loader "file_loader.ml" 211 6956 6977 "file_loader.ml" 211 6956 6983
+)
+"file_loader.ml" 215 7110 7145 "file_loader.ml" 215 7110 7163
+type(
+  Utils.StrSet.t
+)
+"file_loader.ml" 215 7110 7114 "file_loader.ml" 215 7110 7163
+type(
+  unit
+)
+"file_loader.ml" 216 7165 7169 "file_loader.ml" 216 7165 7178
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"file_loader.ml" 216 7165 7179 "file_loader.ml" 216 7165 7181
+type(
+  out_channel
+)
+ident(
+  int_ref oc "file_loader.ml" 214 7075 7081 "file_loader.ml" 214 7075 7083
+)
+"file_loader.ml" 216 7165 7169 "file_loader.ml" 216 7165 7181
+type(
+  unit
+)
+"file_loader.ml" 215 7110 7114 "file_loader.ml" 216 7165 7181
+type(
+  unit
+)
+"file_loader.ml" 214 7075 7077 "file_loader.ml" 216 7165 7181
+type(
+  unit
+)
+"file_loader.ml" 213 7035 7037 "file_loader.ml" 216 7165 7181
+type(
+  unit
+)
+"file_loader.ml" 212 6993 6995 "file_loader.ml" 216 7165 7181
+type(
+  unit
+)
+"file_loader.ml" 219 7261 7265 "file_loader.ml" 219 7261 7277
+type(
+  string -> unit
+)
+ident(
+  def clean_cached "file_loader.ml" 237 7842 7842 --
+)
+"file_loader.ml" 219 7261 7278 "file_loader.ml" 219 7261 7283
+type(
+  string
+)
+ident(
+  def fname "file_loader.ml" 220 7286 7288 "file_loader.ml" 235 7783 7840
+)
+"file_loader.ml" 220 7286 7292 "file_loader.ml" 220 7286 7294
+type(
+  unit
+)
+"file_loader.ml" 220 7286 7297 "file_loader.ml" 220 7286 7310
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"file_loader.ml" 220 7286 7311 "file_loader.ml" 220 7286 7339
+type(
+  string
+)
+"file_loader.ml" 220 7286 7297 "file_loader.ml" 220 7286 7339
+type(
+  unit
+)
+"file_loader.ml" 221 7343 7349 "file_loader.ml" 221 7343 7360
+type(
+  string
+)
+"file_loader.ml" 221 7343 7364 "file_loader.ml" 221 7343 7382
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 221 7343 7383 "file_loader.ml" 221 7343 7388
+type(
+  string
+)
+ident(
+  int_ref fname "file_loader.ml" 219 7261 7278 "file_loader.ml" 219 7261 7283
+)
+"file_loader.ml" 221 7343 7363 "file_loader.ml" 221 7343 7389
+type(
+  string
+)
+"file_loader.ml" 221 7343 7390 "file_loader.ml" 221 7343 7391
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 221 7343 7392 "file_loader.ml" 221 7343 7400
+type(
+  string
+)
+"file_loader.ml" 221 7343 7363 "file_loader.ml" 221 7343 7400
+type(
+  string
+)
+"file_loader.ml" 222 7404 7410 "file_loader.ml" 222 7404 7417
+type(
+  string -> unit
+)
+"file_loader.ml" 222 7404 7418 "file_loader.ml" 222 7404 7419
+type(
+  string
+)
+ident(
+  def f "file_loader.ml" 223 7423 7427 "file_loader.ml" 224 7468 7484
+)
+"file_loader.ml" 223 7423 7427 "file_loader.ml" 223 7423 7440
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"file_loader.ml" 223 7423 7442 "file_loader.ml" 223 7423 7453
+type(
+  string
+)
+"file_loader.ml" 223 7423 7454 "file_loader.ml" 223 7423 7455
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 223 7423 7456 "file_loader.ml" 223 7423 7457
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 222 7404 7418 "file_loader.ml" 222 7404 7419
+)
+"file_loader.ml" 223 7423 7458 "file_loader.ml" 223 7423 7459
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 223 7423 7460 "file_loader.ml" 223 7423 7465
+type(
+  string
+)
+"file_loader.ml" 223 7423 7456 "file_loader.ml" 223 7423 7465
+type(
+  string
+)
+"file_loader.ml" 223 7423 7441 "file_loader.ml" 223 7423 7466
+type(
+  string
+)
+"file_loader.ml" 223 7423 7427 "file_loader.ml" 223 7423 7466
+type(
+  unit
+)
+"file_loader.ml" 224 7468 7472 "file_loader.ml" 224 7468 7482
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"file_loader.ml" 224 7468 7483 "file_loader.ml" 224 7468 7484
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 222 7404 7418 "file_loader.ml" 222 7404 7419
+)
+"file_loader.ml" 224 7468 7472 "file_loader.ml" 224 7468 7484
+type(
+  unit
+)
+"file_loader.ml" 223 7423 7427 "file_loader.ml" 224 7468 7484
+type(
+  unit
+)
+"file_loader.ml" 226 7490 7496 "file_loader.ml" 226 7490 7498
+type(
+  in_channel
+)
+"file_loader.ml" 226 7490 7501 "file_loader.ml" 226 7490 7508
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"file_loader.ml" 226 7490 7509 "file_loader.ml" 226 7490 7520
+type(
+  string
+)
+ident(
+  int_ref cache_fname "file_loader.ml" 221 7343 7349 "file_loader.ml" 221 7343 7360
+)
+"file_loader.ml" 226 7490 7501 "file_loader.ml" 226 7490 7520
+type(
+  in_channel
+)
+"file_loader.ml" 228 7532 7544 "file_loader.ml" 228 7532 7548
+type(
+  bool
+)
+"file_loader.ml" 229 7552 7564 "file_loader.ml" 229 7552 7565
+type(
+  string
+)
+ident(
+  def f "file_loader.ml" 230 7585 7595 "file_loader.ml" 230 7585 7604
+)
+"file_loader.ml" 229 7552 7568 "file_loader.ml" 229 7552 7578
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"file_loader.ml" 229 7552 7579 "file_loader.ml" 229 7552 7581
+type(
+  in_channel
+)
+ident(
+  int_ref ic "file_loader.ml" 226 7490 7496 "file_loader.ml" 226 7490 7498
+)
+"file_loader.ml" 229 7552 7568 "file_loader.ml" 229 7552 7581
+type(
+  string
+)
+"file_loader.ml" 230 7585 7595 "file_loader.ml" 230 7585 7602
+type(
+  string -> unit
+)
+ident(
+  int_ref rm_file "file_loader.ml" 222 7404 7410 "file_loader.ml" 222 7404 7417
+)
+"file_loader.ml" 230 7585 7603 "file_loader.ml" 230 7585 7604
+type(
+  string
+)
+ident(
+  int_ref f "file_loader.ml" 229 7552 7564 "file_loader.ml" 229 7552 7565
+)
+"file_loader.ml" 230 7585 7595 "file_loader.ml" 230 7585 7604
+type(
+  unit
+)
+"file_loader.ml" 229 7552 7560 "file_loader.ml" 230 7585 7604
+type(
+  unit
+)
+"file_loader.ml" 228 7532 7538 "file_loader.ml" 231 7605 7615
+type(
+  unit
+)
+"file_loader.ml" 232 7616 7625 "file_loader.ml" 232 7616 7636
+type(
+  exn
+)
+"file_loader.ml" 232 7616 7640 "file_loader.ml" 232 7616 7648
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"file_loader.ml" 232 7616 7649 "file_loader.ml" 232 7616 7651
+type(
+  in_channel
+)
+ident(
+  int_ref ic "file_loader.ml" 226 7490 7496 "file_loader.ml" 226 7490 7498
+)
+"file_loader.ml" 232 7616 7640 "file_loader.ml" 232 7616 7651
+type(
+  unit
+)
+"file_loader.ml" 233 7653 7657 "file_loader.ml" 233 7653 7670
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"file_loader.ml" 233 7653 7672 "file_loader.ml" 233 7653 7683
+type(
+  string
+)
+"file_loader.ml" 233 7653 7684 "file_loader.ml" 233 7653 7685
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 233 7653 7686 "file_loader.ml" 233 7653 7697
+type(
+  string
+)
+ident(
+  int_ref cache_fname "file_loader.ml" 221 7343 7349 "file_loader.ml" 221 7343 7360
+)
+"file_loader.ml" 233 7653 7698 "file_loader.ml" 233 7653 7699
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"file_loader.ml" 233 7653 7700 "file_loader.ml" 233 7653 7705
+type(
+  string
+)
+"file_loader.ml" 233 7653 7686 "file_loader.ml" 233 7653 7705
+type(
+  string
+)
+"file_loader.ml" 233 7653 7671 "file_loader.ml" 233 7653 7706
+type(
+  string
+)
+"file_loader.ml" 233 7653 7657 "file_loader.ml" 233 7653 7706
+type(
+  unit
+)
+"file_loader.ml" 234 7708 7712 "file_loader.ml" 234 7708 7722
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"file_loader.ml" 234 7708 7723 "file_loader.ml" 234 7708 7734
+type(
+  string
+)
+ident(
+  int_ref cache_fname "file_loader.ml" 221 7343 7349 "file_loader.ml" 221 7343 7360
+)
+"file_loader.ml" 234 7708 7712 "file_loader.ml" 234 7708 7734
+type(
+  unit
+)
+"file_loader.ml" 235 7783 7787 "file_loader.ml" 235 7783 7800
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"file_loader.ml" 235 7783 7801 "file_loader.ml" 235 7783 7840
+type(
+  string
+)
+"file_loader.ml" 235 7783 7787 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 234 7708 7712 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 233 7653 7657 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 232 7616 7640 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 227 7524 7528 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 226 7490 7492 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 222 7404 7406 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 221 7343 7345 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 220 7286 7288 "file_loader.ml" 235 7783 7840
+type(
+  unit
+)
+"file_loader.ml" 237 7842 7846 "file_loader.ml" 237 7842 7864
+type(
+  src_file -> src_file
+)
+ident(
+  def normalize_src_file "file_loader.ml" 243 8087 8087 --
+)
+"file_loader.ml" 238 7876 7889 "file_loader.ml" 238 7876 7890
+type(
+  string
+)
+ident(
+  def s "file_loader.ml" 238 7876 7894 "file_loader.ml" 238 7876 7925
+)
+"file_loader.ml" 238 7876 7880 "file_loader.ml" 238 7876 7890
+type(
+  src_file
+)
+"file_loader.ml" 238 7876 7904 "file_loader.ml" 238 7876 7922
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 238 7876 7923 "file_loader.ml" 238 7876 7924
+type(
+  string
+)
+ident(
+  int_ref s "file_loader.ml" 238 7876 7889 "file_loader.ml" 238 7876 7890
+)
+"file_loader.ml" 238 7876 7903 "file_loader.ml" 238 7876 7925
+type(
+  string
+)
+"file_loader.ml" 238 7876 7894 "file_loader.ml" 238 7876 7925
+type(
+  src_file
+)
+"file_loader.ml" 239 7926 7944 "file_loader.ml" 239 7926 7945
+type(
+  string
+)
+ident(
+  def s "file_loader.ml" 239 7926 7949 "file_loader.ml" 239 7926 7985
+)
+"file_loader.ml" 239 7926 7930 "file_loader.ml" 239 7926 7945
+type(
+  src_file
+)
+"file_loader.ml" 239 7926 7964 "file_loader.ml" 239 7926 7982
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 239 7926 7983 "file_loader.ml" 239 7926 7984
+type(
+  string
+)
+ident(
+  int_ref s "file_loader.ml" 239 7926 7944 "file_loader.ml" 239 7926 7945
+)
+"file_loader.ml" 239 7926 7963 "file_loader.ml" 239 7926 7985
+type(
+  string
+)
+"file_loader.ml" 239 7926 7949 "file_loader.ml" 239 7926 7985
+type(
+  src_file
+)
+"file_loader.ml" 240 7986 8001 "file_loader.ml" 240 7986 8002
+type(
+  string
+)
+ident(
+  def s "file_loader.ml" 240 7986 8006 "file_loader.ml" 240 7986 8039
+)
+"file_loader.ml" 240 7986 7990 "file_loader.ml" 240 7986 8002
+type(
+  src_file
+)
+"file_loader.ml" 240 7986 8018 "file_loader.ml" 240 7986 8036
+type(
+  string -> string
+)
+ident(
+  ext_ref Utils.normalize_filename
+)
+"file_loader.ml" 240 7986 8037 "file_loader.ml" 240 7986 8038
+type(
+  string
+)
+ident(
+  int_ref s "file_loader.ml" 240 7986 8001 "file_loader.ml" 240 7986 8002
+)
+"file_loader.ml" 240 7986 8017 "file_loader.ml" 240 7986 8039
+type(
+  string
+)
+"file_loader.ml" 240 7986 8006 "file_loader.ml" 240 7986 8039
+type(
+  src_file
+)
+"file_loader.ml" 237 7842 7867 "file_loader.ml" 240 7986 8039
+type(
+  src_file -> src_file
+)
+"file_loader.ml" 243 8087 8091 "file_loader.ml" 243 8087 8109
+type(
+  load_result -> Cfg.stmt
+)
+ident(
+  def load_result_to_cfg "file_loader.ml" 249 8212 8212 --
+)
+"file_loader.ml" 243 8087 8110 "file_loader.ml" 243 8087 8113
+type(
+  load_result
+)
+ident(
+  def res "file_loader.ml" 244 8116 8118 "file_loader.ml" 247 8176 8210
+)
+"file_loader.ml" 244 8116 8124 "file_loader.ml" 244 8116 8127
+type(
+  load_result
+)
+ident(
+  int_ref res "file_loader.ml" 243 8087 8110 "file_loader.ml" 243 8087 8113
+)
+"file_loader.ml" 245 8133 8141 "file_loader.ml" 245 8133 8147
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "file_loader.ml" 246 8148 8171 "file_loader.ml" 246 8148 8175
+)
+"file_loader.ml" 245 8133 8137 "file_loader.ml" 245 8133 8147
+type(
+  load_result
+)
+"file_loader.ml" 246 8148 8161 "file_loader.ml" 246 8148 8167
+type(
+  Cfg.stmt
+)
+ident(
+  def stmt "file_loader.ml" 246 8148 8171 "file_loader.ml" 246 8148 8175
+)
+"file_loader.ml" 246 8148 8152 "file_loader.ml" 246 8148 8167
+type(
+  load_result
+)
+"file_loader.ml" 245 8133 8137 "file_loader.ml" 246 8148 8167
+type(
+  load_result
+)
+"file_loader.ml" 246 8148 8171 "file_loader.ml" 246 8148 8175
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref stmt "file_loader.ml" 245 8133 8141 "file_loader.ml" 245 8133 8147
+)
+"file_loader.ml" 247 8176 8186 "file_loader.ml" 247 8176 8189
+type(
+  string
+)
+"file_loader.ml" 247 8176 8180 "file_loader.ml" 247 8176 8189
+type(
+  load_result
+)
+"file_loader.ml" 247 8176 8193 "file_loader.ml" 247 8176 8207
+type(
+  unit -> Cfg.stmt
+)
+ident(
+  ext_ref Cfg.empty_stmt
+)
+"file_loader.ml" 247 8176 8208 "file_loader.ml" 247 8176 8210
+type(
+  unit
+)
+"file_loader.ml" 247 8176 8193 "file_loader.ml" 247 8176 8210
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 244 8116 8118 "file_loader.ml" 247 8176 8210
+type(
+  Cfg.stmt
+)
+"file_loader.ml" 249 8212 8216 "file_loader.ml" 249 8212 8231
+type(
+  load_result -> load_result -> bool
+)
+ident(
+  def eql_load_result "file_loader.ml" 255 8455 8471 --
+)
+"file_loader.ml" 249 8212 8232 "file_loader.ml" 249 8212 8235
+type(
+  load_result
+)
+ident(
+  def lr1 "file_loader.ml" 249 8212 8236 "file_loader.ml" 255 8455 8471
+)
+"file_loader.ml" 249 8212 8236 "file_loader.ml" 249 8212 8239
+type(
+  load_result
+)
+ident(
+  def lr2 "file_loader.ml" 250 8242 8244 "file_loader.ml" 255 8455 8471
+)
+"file_loader.ml" 250 8242 8251 "file_loader.ml" 250 8242 8254
+type(
+  load_result
+)
+ident(
+  int_ref lr1 "file_loader.ml" 249 8212 8232 "file_loader.ml" 249 8212 8235
+)
+"file_loader.ml" 250 8242 8255 "file_loader.ml" 250 8242 8258
+type(
+  load_result
+)
+ident(
+  int_ref lr2 "file_loader.ml" 249 8212 8236 "file_loader.ml" 249 8212 8239
+)
+"file_loader.ml" 250 8242 8250 "file_loader.ml" 250 8242 8259
+type(
+  load_result * load_result
+)
+"file_loader.ml" 251 8265 8276 "file_loader.ml" 251 8265 8280
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg1 "file_loader.ml" 251 8265 8296 "file_loader.ml" 251 8265 8317
+)
+"file_loader.ml" 251 8265 8271 "file_loader.ml" 251 8265 8280
+type(
+  load_result
+)
+"file_loader.ml" 251 8265 8288 "file_loader.ml" 251 8265 8292
+type(
+  Cfg.stmt
+)
+ident(
+  def cfg2 "file_loader.ml" 251 8265 8296 "file_loader.ml" 251 8265 8317
+)
+"file_loader.ml" 251 8265 8283 "file_loader.ml" 251 8265 8292
+type(
+  load_result
+)
+"file_loader.ml" 251 8265 8271 "file_loader.ml" 251 8265 8292
+type(
+  load_result * load_result
+)
+"file_loader.ml" 251 8265 8296 "file_loader.ml" 251 8265 8307
+type(
+  Cfg.stmt -> Cfg.stmt -> bool
+)
+ident(
+  ext_ref Cfg.stmt_eq
+)
+"file_loader.ml" 251 8265 8308 "file_loader.ml" 251 8265 8312
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg1 "file_loader.ml" 251 8265 8276 "file_loader.ml" 251 8265 8280
+)
+"file_loader.ml" 251 8265 8313 "file_loader.ml" 251 8265 8317
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref cfg2 "file_loader.ml" 251 8265 8288 "file_loader.ml" 251 8265 8292
+)
+"file_loader.ml" 251 8265 8296 "file_loader.ml" 251 8265 8317
+type(
+  bool
+)
+"file_loader.ml" 252 8318 8334 "file_loader.ml" 252 8318 8345
+type(
+  Cfg.stmt
+)
+ident(
+  def iface_stmt1 "file_loader.ml" 253 8372 8380 "file_loader.ml" 253 8372 8415
+)
+"file_loader.ml" 252 8318 8324 "file_loader.ml" 252 8318 8345
+type(
+  load_result
+)
+"file_loader.ml" 252 8318 8357 "file_loader.ml" 252 8318 8368
+type(
+  Cfg.stmt
+)
+ident(
+  def iface_stmt2 "file_loader.ml" 253 8372 8380 "file_loader.ml" 253 8372 8415
+)
+"file_loader.ml" 252 8318 8347 "file_loader.ml" 252 8318 8368
+type(
+  load_result
+)
+"file_loader.ml" 252 8318 8324 "file_loader.ml" 252 8318 8368
+type(
+  load_result * load_result
+)
+"file_loader.ml" 253 8372 8380 "file_loader.ml" 253 8372 8391
+type(
+  Cfg.stmt -> Cfg.stmt -> bool
+)
+ident(
+  ext_ref Cfg.stmt_eq
+)
+"file_loader.ml" 253 8372 8392 "file_loader.ml" 253 8372 8403
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref iface_stmt1 "file_loader.ml" 252 8318 8334 "file_loader.ml" 252 8318 8345
+)
+"file_loader.ml" 253 8372 8404 "file_loader.ml" 253 8372 8415
+type(
+  Cfg.stmt
+)
+ident(
+  int_ref iface_stmt2 "file_loader.ml" 252 8318 8357 "file_loader.ml" 252 8318 8368
+)
+"file_loader.ml" 253 8372 8380 "file_loader.ml" 253 8372 8415
+type(
+  bool
+)
+"file_loader.ml" 254 8416 8429 "file_loader.ml" 254 8416 8431
+type(
+  string
+)
+ident(
+  def s1 "file_loader.ml" 254 8416 8446 "file_loader.ml" 254 8416 8454
+)
+"file_loader.ml" 254 8416 8422 "file_loader.ml" 254 8416 8431
+type(
+  load_result
+)
+"file_loader.ml" 254 8416 8440 "file_loader.ml" 254 8416 8442
+type(
+  string
+)
+ident(
+  def s2 "file_loader.ml" 254 8416 8446 "file_loader.ml" 254 8416 8454
+)
+"file_loader.ml" 254 8416 8433 "file_loader.ml" 254 8416 8442
+type(
+  load_result
+)
+"file_loader.ml" 254 8416 8422 "file_loader.ml" 254 8416 8442
+type(
+  load_result * load_result
+)
+"file_loader.ml" 254 8416 8446 "file_loader.ml" 254 8416 8448
+type(
+  string
+)
+ident(
+  int_ref s1 "file_loader.ml" 254 8416 8429 "file_loader.ml" 254 8416 8431
+)
+"file_loader.ml" 254 8416 8449 "file_loader.ml" 254 8416 8451
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"file_loader.ml" 254 8416 8452 "file_loader.ml" 254 8416 8454
+type(
+  string
+)
+ident(
+  int_ref s2 "file_loader.ml" 254 8416 8440 "file_loader.ml" 254 8416 8442
+)
+"file_loader.ml" 254 8416 8446 "file_loader.ml" 254 8416 8454
+type(
+  bool
+)
+"file_loader.ml" 255 8455 8461 "file_loader.ml" 255 8455 8462
+type(
+  load_result * load_result
+)
+"file_loader.ml" 255 8455 8466 "file_loader.ml" 255 8455 8471
+type(
+  bool
+)
+"file_loader.ml" 250 8242 8244 "file_loader.ml" 255 8455 8471
+type(
+  bool
+)

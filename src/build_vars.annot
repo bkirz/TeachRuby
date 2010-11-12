@@ -1,0 +1,22 @@
+"build_vars.ml" 2 39 43 "build_vars.ml" 2 39 53
+type(
+  string
+)
+ident(
+  def sysconfdir "build_vars.ml" 3 73 73 --
+)
+"build_vars.ml" 2 39 56 "build_vars.ml" 2 39 72
+type(
+  string
+)
+"build_vars.ml" 3 73 77 "build_vars.ml" 3 73 84
+type(
+  string
+)
+ident(
+  def version "build_vars.ml" 3 73 99 --
+)
+"build_vars.ml" 3 73 87 "build_vars.ml" 3 73 99
+type(
+  string
+)

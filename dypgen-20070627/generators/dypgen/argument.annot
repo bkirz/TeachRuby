@@ -1,0 +1,1174 @@
+"argument.ml" 1 0 4 "argument.ml" 1 0 11
+type(
+  int ref
+)
+ident(
+  def verbose "argument.ml" 2 20 20 --
+)
+"argument.ml" 1 0 14 "argument.ml" 1 0 17
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 1 0 18 "argument.ml" 1 0 19
+type(
+  int
+)
+"argument.ml" 1 0 14 "argument.ml" 1 0 19
+type(
+  int ref
+)
+"argument.ml" 2 20 24 "argument.ml" 2 20 37
+type(
+  bool ref
+)
+ident(
+  def merge_warning "argument.ml" 3 50 50 --
+)
+"argument.ml" 2 20 40 "argument.ml" 2 20 43
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 2 20 44 "argument.ml" 2 20 49
+type(
+  bool
+)
+"argument.ml" 2 20 40 "argument.ml" 2 20 49
+type(
+  bool ref
+)
+"argument.ml" 3 50 54 "argument.ml" 3 50 59
+type(
+  string ref
+)
+ident(
+  def lexer "argument.ml" 4 77 77 --
+)
+"argument.ml" 3 50 62 "argument.ml" 3 50 65
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 3 50 66 "argument.ml" 3 50 76
+type(
+  string
+)
+"argument.ml" 3 50 62 "argument.ml" 3 50 76
+type(
+  string ref
+)
+"argument.ml" 4 77 81 "argument.ml" 4 77 89
+type(
+  string ref
+)
+ident(
+  def aut_kind "argument.ml" 5 103 103 --
+)
+"argument.ml" 4 77 92 "argument.ml" 4 77 95
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 4 77 96 "argument.ml" 4 77 102
+type(
+  string
+)
+"argument.ml" 4 77 92 "argument.ml" 4 77 102
+type(
+  string ref
+)
+"argument.ml" 5 103 107 "argument.ml" 5 103 127
+type(
+  string ref
+)
+ident(
+  def priority_enforcement "argument.ml" 6 140 140 --
+)
+"argument.ml" 5 103 130 "argument.ml" 5 103 133
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 5 103 134 "argument.ml" 5 103 139
+type(
+  string
+)
+"argument.ml" 5 103 130 "argument.ml" 5 103 139
+type(
+  string ref
+)
+"argument.ml" 6 140 144 "argument.ml" 6 140 164
+type(
+  unit -> unit
+)
+ident(
+  def process_verbose_mode "argument.ml" 7 183 183 --
+)
+"argument.ml" 6 140 165 "argument.ml" 6 140 167
+type(
+  unit
+)
+"argument.ml" 6 140 170 "argument.ml" 6 140 177
+type(
+  int ref
+)
+ident(
+  int_ref verbose "argument.ml" 1 0 4 "argument.ml" 1 0 11
+)
+"argument.ml" 6 140 178 "argument.ml" 6 140 180
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 6 140 181 "argument.ml" 6 140 182
+type(
+  int
+)
+"argument.ml" 6 140 170 "argument.ml" 6 140 182
+type(
+  unit
+)
+"argument.ml" 7 183 187 "argument.ml" 7 183 208
+type(
+  unit -> unit
+)
+ident(
+  def process_merge_warning "argument.ml" 8 236 236 --
+)
+"argument.ml" 7 183 209 "argument.ml" 7 183 211
+type(
+  unit
+)
+"argument.ml" 7 183 214 "argument.ml" 7 183 227
+type(
+  bool ref
+)
+ident(
+  int_ref merge_warning "argument.ml" 2 20 24 "argument.ml" 2 20 37
+)
+"argument.ml" 7 183 228 "argument.ml" 7 183 230
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 7 183 231 "argument.ml" 7 183 235
+type(
+  bool
+)
+"argument.ml" 7 183 214 "argument.ml" 7 183 235
+type(
+  unit
+)
+"argument.ml" 8 236 240 "argument.ml" 8 236 253
+type(
+  string -> unit
+)
+ident(
+  def process_lexer "argument.ml" 12 481 481 --
+)
+"argument.ml" 8 236 254 "argument.ml" 8 236 255
+type(
+  string
+)
+ident(
+  def s "argument.ml" 8 236 258 "argument.ml" 8 236 353
+)
+"argument.ml" 8 236 261 "argument.ml" 8 236 262
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 8 236 254 "argument.ml" 8 236 255
+)
+"argument.ml" 8 236 262 "argument.ml" 8 236 263
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 8 236 263 "argument.ml" 8 236 273
+type(
+  string
+)
+"argument.ml" 8 236 261 "argument.ml" 8 236 273
+type(
+  bool
+)
+"argument.ml" 8 236 274 "argument.ml" 8 236 276
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"argument.ml" 8 236 277 "argument.ml" 8 236 278
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 8 236 254 "argument.ml" 8 236 255
+)
+"argument.ml" 8 236 278 "argument.ml" 8 236 279
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 8 236 279 "argument.ml" 8 236 285
+type(
+  string
+)
+"argument.ml" 8 236 277 "argument.ml" 8 236 285
+type(
+  bool
+)
+"argument.ml" 8 236 286 "argument.ml" 8 236 288
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"argument.ml" 8 236 289 "argument.ml" 8 236 290
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 8 236 254 "argument.ml" 8 236 255
+)
+"argument.ml" 8 236 290 "argument.ml" 8 236 291
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 8 236 291 "argument.ml" 8 236 298
+type(
+  string
+)
+"argument.ml" 8 236 289 "argument.ml" 8 236 298
+type(
+  bool
+)
+"argument.ml" 8 236 277 "argument.ml" 8 236 298
+type(
+  bool
+)
+"argument.ml" 8 236 261 "argument.ml" 8 236 298
+type(
+  bool
+)
+"argument.ml" 8 236 304 "argument.ml" 8 236 309
+type(
+  string ref
+)
+ident(
+  int_ref lexer "argument.ml" 3 50 54 "argument.ml" 3 50 59
+)
+"argument.ml" 8 236 310 "argument.ml" 8 236 312
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 8 236 313 "argument.ml" 8 236 314
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 8 236 254 "argument.ml" 8 236 255
+)
+"argument.ml" 8 236 304 "argument.ml" 8 236 314
+type(
+  unit
+)
+"argument.ml" 8 236 320 "argument.ml" 8 236 328
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"argument.ml" 8 236 329 "argument.ml" 8 236 353
+type(
+  string
+)
+"argument.ml" 8 236 320 "argument.ml" 8 236 353
+type(
+  unit
+)
+"argument.ml" 8 236 258 "argument.ml" 8 236 353
+type(
+  unit
+)
+"argument.ml" 12 481 485 "argument.ml" 12 481 501
+type(
+  string -> unit
+)
+ident(
+  def process_aut_kind "argument.ml" 20 711 711 --
+)
+"argument.ml" 12 481 502 "argument.ml" 12 481 503
+type(
+  string
+)
+ident(
+  def s "argument.ml" 13 506 508 "argument.ml" 18 665 709
+)
+"argument.ml" 13 506 511 "argument.ml" 13 506 512
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 12 481 502 "argument.ml" 12 481 503
+)
+"argument.ml" 13 506 512 "argument.ml" 13 506 513
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 13 506 513 "argument.ml" 13 506 518
+type(
+  string
+)
+"argument.ml" 13 506 511 "argument.ml" 13 506 518
+type(
+  bool
+)
+"argument.ml" 13 506 524 "argument.ml" 13 506 526
+type(
+  unit
+)
+"argument.ml" 14 527 537 "argument.ml" 14 527 538
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 12 481 502 "argument.ml" 12 481 503
+)
+"argument.ml" 14 527 538 "argument.ml" 14 527 539
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 14 527 539 "argument.ml" 14 527 545
+type(
+  string
+)
+"argument.ml" 14 527 537 "argument.ml" 14 527 545
+type(
+  bool
+)
+"argument.ml" 14 527 546 "argument.ml" 14 527 548
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"argument.ml" 14 527 549 "argument.ml" 14 527 550
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 12 481 502 "argument.ml" 12 481 503
+)
+"argument.ml" 14 527 550 "argument.ml" 14 527 551
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 14 527 551 "argument.ml" 14 527 556
+type(
+  string
+)
+"argument.ml" 14 527 549 "argument.ml" 14 527 556
+type(
+  bool
+)
+"argument.ml" 14 527 537 "argument.ml" 14 527 556
+type(
+  bool
+)
+"argument.ml" 15 562 567 "argument.ml" 15 562 581
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"argument.ml" 15 562 582 "argument.ml" 15 562 588
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"argument.ml" 16 589 593 "argument.ml" 16 589 649
+type(
+  (string -> unit, out_channel, unit) format
+)
+"argument.ml" 16 589 650 "argument.ml" 16 589 651
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 12 481 502 "argument.ml" 12 481 503
+)
+"argument.ml" 15 562 567 "argument.ml" 16 589 651
+type(
+  unit
+)
+"argument.ml" 17 653 657 "argument.ml" 17 653 661
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"argument.ml" 17 653 662 "argument.ml" 17 653 663
+type(
+  int
+)
+"argument.ml" 17 653 657 "argument.ml" 17 653 663
+type(
+  unit
+)
+"argument.ml" 15 562 566 "argument.ml" 17 653 664
+type(
+  unit
+)
+"argument.ml" 18 665 672 "argument.ml" 18 665 680
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"argument.ml" 18 665 681 "argument.ml" 18 665 709
+type(
+  string
+)
+"argument.ml" 18 665 672 "argument.ml" 18 665 709
+type(
+  unit
+)
+"argument.ml" 14 527 534 "argument.ml" 18 665 709
+type(
+  unit
+)
+"argument.ml" 13 506 508 "argument.ml" 18 665 709
+type(
+  unit
+)
+"argument.ml" 20 711 715 "argument.ml" 20 711 731
+type(
+  unit -> unit
+)
+ident(
+  def process_prio_aut "argument.ml" 21 765 765 --
+)
+"argument.ml" 20 711 732 "argument.ml" 20 711 734
+type(
+  unit
+)
+"argument.ml" 20 711 737 "argument.ml" 20 711 757
+type(
+  string ref
+)
+ident(
+  int_ref priority_enforcement "argument.ml" 5 103 107 "argument.ml" 5 103 127
+)
+"argument.ml" 20 711 757 "argument.ml" 20 711 759
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 20 711 759 "argument.ml" 20 711 764
+type(
+  string
+)
+"argument.ml" 20 711 737 "argument.ml" 20 711 764
+type(
+  unit
+)
+"argument.ml" 21 765 769 "argument.ml" 21 765 784
+type(
+  unit -> unit
+)
+ident(
+  def process_prio_pt "argument.ml" 23 819 819 --
+)
+"argument.ml" 21 765 785 "argument.ml" 21 765 787
+type(
+  unit
+)
+"argument.ml" 21 765 790 "argument.ml" 21 765 810
+type(
+  string ref
+)
+ident(
+  int_ref priority_enforcement "argument.ml" 5 103 107 "argument.ml" 5 103 127
+)
+"argument.ml" 21 765 810 "argument.ml" 21 765 812
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 21 765 812 "argument.ml" 21 765 817
+type(
+  string
+)
+"argument.ml" 21 765 790 "argument.ml" 21 765 817
+type(
+  unit
+)
+"argument.ml" 23 819 823 "argument.ml" 23 819 833
+type(
+  string ref
+)
+ident(
+  def string_ref "argument.ml" 24 843 843 --
+)
+"argument.ml" 23 819 836 "argument.ml" 23 819 839
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 23 819 840 "argument.ml" 23 819 842
+type(
+  string
+)
+"argument.ml" 23 819 836 "argument.ml" 23 819 842
+type(
+  string ref
+)
+"argument.ml" 24 843 847 "argument.ml" 24 843 863
+type(
+  string -> unit
+)
+ident(
+  def process_argument "argument.ml" 27 950 950 --
+)
+"argument.ml" 24 843 864 "argument.ml" 24 843 865
+type(
+  string
+)
+ident(
+  def s "argument.ml" 25 868 870 "argument.ml" 26 927 949
+)
+"argument.ml" 25 868 873 "argument.ml" 25 868 874
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 24 843 864 "argument.ml" 24 843 865
+)
+"argument.ml" 25 868 875 "argument.ml" 25 868 876
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 25 868 877 "argument.ml" 25 868 879
+type(
+  string
+)
+"argument.ml" 25 868 873 "argument.ml" 25 868 879
+type(
+  bool
+)
+"argument.ml" 25 868 885 "argument.ml" 25 868 890
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"argument.ml" 25 868 900 "argument.ml" 25 868 925
+type(
+  string
+)
+"argument.ml" 25 868 891 "argument.ml" 25 868 926
+type(
+  exn
+)
+"argument.ml" 25 868 885 "argument.ml" 25 868 926
+type(
+  unit
+)
+"argument.ml" 26 927 934 "argument.ml" 26 927 944
+type(
+  string ref
+)
+ident(
+  int_ref string_ref "argument.ml" 23 819 823 "argument.ml" 23 819 833
+)
+"argument.ml" 26 927 945 "argument.ml" 26 927 947
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 26 927 948 "argument.ml" 26 927 949
+type(
+  string
+)
+ident(
+  int_ref s "argument.ml" 24 843 864 "argument.ml" 24 843 865
+)
+"argument.ml" 26 927 934 "argument.ml" 26 927 949
+type(
+  unit
+)
+"argument.ml" 25 868 870 "argument.ml" 26 927 949
+type(
+  unit
+)
+"argument.ml" 27 950 954 "argument.ml" 27 950 960
+type(
+  bool ref
+)
+ident(
+  def pv_obj "argument.ml" 28 973 973 --
+)
+"argument.ml" 27 950 963 "argument.ml" 27 950 966
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 27 950 967 "argument.ml" 27 950 972
+type(
+  bool
+)
+"argument.ml" 27 950 963 "argument.ml" 27 950 972
+type(
+  bool ref
+)
+"argument.ml" 28 973 977 "argument.ml" 28 973 991
+type(
+  unit -> unit
+)
+ident(
+  def process_pv_obj "argument.ml" 29 1012 1012 --
+)
+"argument.ml" 28 973 992 "argument.ml" 28 973 994
+type(
+  unit
+)
+"argument.ml" 28 973 997 "argument.ml" 28 973 1003
+type(
+  bool ref
+)
+ident(
+  int_ref pv_obj "argument.ml" 27 950 954 "argument.ml" 27 950 960
+)
+"argument.ml" 28 973 1004 "argument.ml" 28 973 1006
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 28 973 1007 "argument.ml" 28 973 1011
+type(
+  bool
+)
+"argument.ml" 28 973 997 "argument.ml" 28 973 1011
+type(
+  unit
+)
+"argument.ml" 29 1012 1016 "argument.ml" 29 1012 1024
+type(
+  bool ref
+)
+ident(
+  def pv_token "argument.ml" 30 1037 1037 --
+)
+"argument.ml" 29 1012 1027 "argument.ml" 29 1012 1030
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 29 1012 1031 "argument.ml" 29 1012 1036
+type(
+  bool
+)
+"argument.ml" 29 1012 1027 "argument.ml" 29 1012 1036
+type(
+  bool ref
+)
+"argument.ml" 30 1037 1041 "argument.ml" 30 1037 1057
+type(
+  unit -> unit
+)
+ident(
+  def process_pv_token "argument.ml" 32 1081 1081 --
+)
+"argument.ml" 30 1037 1058 "argument.ml" 30 1037 1060
+type(
+  unit
+)
+"argument.ml" 30 1037 1063 "argument.ml" 30 1037 1071
+type(
+  bool ref
+)
+ident(
+  int_ref pv_token "argument.ml" 29 1012 1016 "argument.ml" 29 1012 1024
+)
+"argument.ml" 30 1037 1072 "argument.ml" 30 1037 1074
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 30 1037 1075 "argument.ml" 30 1037 1079
+type(
+  bool
+)
+"argument.ml" 30 1037 1063 "argument.ml" 30 1037 1079
+type(
+  unit
+)
+"argument.ml" 32 1081 1085 "argument.ml" 32 1081 1093
+type(
+  bool ref
+)
+ident(
+  def undef_nt "argument.ml" 33 1105 1105 --
+)
+"argument.ml" 32 1081 1096 "argument.ml" 32 1081 1099
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"argument.ml" 32 1081 1100 "argument.ml" 32 1081 1104
+type(
+  bool
+)
+"argument.ml" 32 1081 1096 "argument.ml" 32 1081 1104
+type(
+  bool ref
+)
+"argument.ml" 33 1105 1109 "argument.ml" 33 1105 1128
+type(
+  unit -> unit
+)
+ident(
+  def process_no_undef_nt "argument.ml" 35 1153 1153 --
+)
+"argument.ml" 33 1105 1129 "argument.ml" 33 1105 1131
+type(
+  unit
+)
+"argument.ml" 33 1105 1134 "argument.ml" 33 1105 1142
+type(
+  bool ref
+)
+ident(
+  int_ref undef_nt "argument.ml" 32 1081 1085 "argument.ml" 32 1081 1093
+)
+"argument.ml" 33 1105 1143 "argument.ml" 33 1105 1145
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"argument.ml" 33 1105 1146 "argument.ml" 33 1105 1151
+type(
+  bool
+)
+"argument.ml" 33 1105 1134 "argument.ml" 33 1105 1151
+type(
+  unit
+)
+"argument.ml" 35 1153 1157 "argument.ml" 35 1153 1172
+type(
+  unit -> unit
+)
+ident(
+  def process_version "argument.ml" 37 1212 1212 --
+)
+"argument.ml" 35 1153 1173 "argument.ml" 35 1153 1175
+type(
+  unit
+)
+"argument.ml" 35 1153 1178 "argument.ml" 35 1153 1191
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"argument.ml" 35 1153 1192 "argument.ml" 35 1153 1210
+type(
+  string
+)
+"argument.ml" 35 1153 1178 "argument.ml" 35 1153 1210
+type(
+  unit
+)
+"argument.ml" 37 1212 1216 "argument.ml" 37 1212 1224
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def list_arg "argument.ml" 60 3061 3061 --
+)
+"argument.ml" 38 1229 1230 "argument.ml" 38 1229 1234
+type(
+  string
+)
+"argument.ml" 38 1229 1244 "argument.ml" 38 1229 1264
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_verbose_mode "argument.ml" 6 140 144 "argument.ml" 6 140 164
+)
+"argument.ml" 38 1229 1235 "argument.ml" 38 1229 1264
+type(
+  Arg.spec
+)
+"argument.ml" 38 1229 1265 "argument.ml" 38 1229 1337
+type(
+  string
+)
+"argument.ml" 38 1229 1229 "argument.ml" 38 1229 1338
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 39 1340 1341 "argument.ml" 39 1340 1358
+type(
+  string
+)
+"argument.ml" 39 1340 1368 "argument.ml" 39 1340 1389
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_merge_warning "argument.ml" 7 183 187 "argument.ml" 7 183 208
+)
+"argument.ml" 39 1340 1359 "argument.ml" 39 1340 1389
+type(
+  Arg.spec
+)
+"argument.ml" 39 1340 1390 "argument.ml" 39 1340 1506
+type(
+  string
+)
+"argument.ml" 39 1340 1340 "argument.ml" 39 1340 1507
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 40 1509 1510 "argument.ml" 40 1509 1519
+type(
+  string
+)
+"argument.ml" 40 1509 1531 "argument.ml" 40 1509 1544
+type(
+  string -> unit
+)
+ident(
+  int_ref process_lexer "argument.ml" 8 236 240 "argument.ml" 8 236 253
+)
+"argument.ml" 40 1509 1520 "argument.ml" 40 1509 1544
+type(
+  Arg.spec
+)
+"argument.ml" 40 1509 1545 "argument.ml" 40 1509 1714
+type(
+  string
+)
+"argument.ml" 40 1509 1509 "argument.ml" 40 1509 1715
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 44 1871 1872 "argument.ml" 44 1871 1885
+type(
+  string
+)
+"argument.ml" 44 1871 1897 "argument.ml" 44 1871 1913
+type(
+  string -> unit
+)
+ident(
+  int_ref process_aut_kind "argument.ml" 12 481 485 "argument.ml" 12 481 501
+)
+"argument.ml" 44 1871 1886 "argument.ml" 44 1871 1913
+type(
+  Arg.spec
+)
+"argument.ml" 44 1871 1914 "argument.ml" 44 1871 1916
+type(
+  string
+)
+"argument.ml" 44 1871 1871 "argument.ml" 44 1871 1917
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 48 2090 2091 "argument.ml" 48 2090 2102
+type(
+  string
+)
+"argument.ml" 48 2090 2112 "argument.ml" 48 2090 2127
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_prio_pt "argument.ml" 21 765 769 "argument.ml" 21 765 784
+)
+"argument.ml" 48 2090 2103 "argument.ml" 48 2090 2127
+type(
+  Arg.spec
+)
+"argument.ml" 48 2090 2128 "argument.ml" 48 2090 2257
+type(
+  string
+)
+"argument.ml" 48 2090 2090 "argument.ml" 48 2090 2258
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 50 2261 2262 "argument.ml" 50 2261 2272
+type(
+  string
+)
+"argument.ml" 50 2261 2282 "argument.ml" 50 2261 2296
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_pv_obj "argument.ml" 28 973 977 "argument.ml" 28 973 991
+)
+"argument.ml" 50 2261 2273 "argument.ml" 50 2261 2296
+type(
+  Arg.spec
+)
+"argument.ml" 50 2261 2297 "argument.ml" 50 2261 2473
+type(
+  string
+)
+"argument.ml" 50 2261 2261 "argument.ml" 50 2261 2474
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 51 2476 2477 "argument.ml" 51 2476 2489
+type(
+  string
+)
+"argument.ml" 51 2476 2499 "argument.ml" 51 2476 2515
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_pv_token "argument.ml" 30 1037 1041 "argument.ml" 30 1037 1057
+)
+"argument.ml" 51 2476 2490 "argument.ml" 51 2476 2515
+type(
+  Arg.spec
+)
+"argument.ml" 51 2476 2516 "argument.ml" 51 2476 2682
+type(
+  string
+)
+"argument.ml" 51 2476 2476 "argument.ml" 51 2476 2683
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 53 2686 2687 "argument.ml" 53 2686 2702
+type(
+  string
+)
+"argument.ml" 53 2686 2712 "argument.ml" 53 2686 2731
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_no_undef_nt "argument.ml" 33 1105 1109 "argument.ml" 33 1105 1128
+)
+"argument.ml" 53 2686 2703 "argument.ml" 53 2686 2731
+type(
+  Arg.spec
+)
+"argument.ml" 53 2686 2732 "argument.ml" 53 2686 2788
+type(
+  string
+)
+"argument.ml" 53 2686 2686 "argument.ml" 53 2686 2789
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 55 2792 2793 "argument.ml" 55 2792 2804
+type(
+  string
+)
+"argument.ml" 55 2792 2814 "argument.ml" 55 2792 2829
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_version "argument.ml" 35 1153 1157 "argument.ml" 35 1153 1172
+)
+"argument.ml" 55 2792 2805 "argument.ml" 55 2792 2829
+type(
+  Arg.spec
+)
+"argument.ml" 55 2792 2830 "argument.ml" 55 2792 2869
+type(
+  string
+)
+"argument.ml" 55 2792 2792 "argument.ml" 55 2792 2870
+type(
+  string * Arg.spec * string
+)
+"argument.ml" 37 1212 1227 "argument.ml" 56 2871 2872
+type(
+  (string * Arg.spec * string) list
+)
+"argument.ml" 60 3061 3069 "argument.ml" 60 3061 3078
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"argument.ml" 60 3061 3079 "argument.ml" 60 3061 3087
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref list_arg "argument.ml" 37 1212 1216 "argument.ml" 37 1212 1224
+)
+"argument.ml" 60 3061 3088 "argument.ml" 60 3061 3104
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref process_argument "argument.ml" 24 843 847 "argument.ml" 24 843 863
+)
+"argument.ml" 60 3061 3105 "argument.ml" 60 3061 3244
+type(
+  Arg.usage_msg
+)
+"argument.ml" 60 3061 3069 "argument.ml" 60 3061 3244
+type(
+  unit
+)
+"argument.ml" 65 3457 3468 "argument.ml" 65 3457 3469
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"argument.ml" 65 3457 3469 "argument.ml" 65 3457 3479
+type(
+  string ref
+)
+ident(
+  int_ref string_ref "argument.ml" 23 819 823 "argument.ml" 23 819 833
+)
+"argument.ml" 65 3457 3468 "argument.ml" 65 3457 3479
+type(
+  string
+)
+"argument.ml" 65 3457 3480 "argument.ml" 65 3457 3481
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"argument.ml" 65 3457 3482 "argument.ml" 65 3457 3484
+type(
+  string
+)
+"argument.ml" 65 3457 3468 "argument.ml" 65 3457 3484
+type(
+  bool
+)
+"argument.ml" 66 3490 3496 "argument.ml" 66 3490 3497
+type(
+  unit
+)
+"argument.ml" 66 3490 3500 "argument.ml" 66 3490 3512
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"argument.ml" 66 3490 3513 "argument.ml" 66 3490 3654
+type(
+  string
+)
+"argument.ml" 66 3490 3500 "argument.ml" 66 3490 3654
+type(
+  unit
+)
+"argument.ml" 66 3490 3658 "argument.ml" 66 3490 3662
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"argument.ml" 66 3490 3663 "argument.ml" 66 3490 3664
+type(
+  int
+)
+"argument.ml" 66 3490 3658 "argument.ml" 66 3490 3664
+type(
+  unit
+)
+"argument.ml" 66 3490 3492 "argument.ml" 66 3490 3664
+type(
+  unit
+)
+"argument.ml" 65 3457 3465 "argument.ml" 66 3490 3664
+type(
+  unit
+)

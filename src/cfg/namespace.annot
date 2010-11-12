@@ -1,0 +1,5662 @@
+"namespace.ml" 24 427 431 "namespace.ml" 24 427 436
+type(
+  'a t
+)
+ident(
+  def empty "namespace.ml" 26 462 462 --
+)
+"namespace.ml" 24 427 444 "namespace.ml" 24 427 456
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"namespace.ml" 24 427 457 "namespace.ml" 24 427 459
+type(
+  links
+)
+"namespace.ml" 24 427 439 "namespace.ml" 24 427 460
+type(
+  'a t
+)
+"namespace.ml" 26 462 466 "namespace.ml" 26 462 475
+type(
+  'a -> 'b ctx * 'a
+)
+ident(
+  def to_cursor "namespace.ml" 28 489 489 --
+)
+"namespace.ml" 26 462 476 "namespace.ml" 26 462 477
+type(
+  'a
+)
+ident(
+  def t "namespace.ml" 26 462 480 "namespace.ml" 26 462 487
+)
+"namespace.ml" 26 462 481 "namespace.ml" 26 462 484
+type(
+  'b ctx
+)
+"namespace.ml" 26 462 485 "namespace.ml" 26 462 486
+type(
+  'a
+)
+ident(
+  int_ref t "namespace.ml" 26 462 476 "namespace.ml" 26 462 477
+)
+"namespace.ml" 26 462 480 "namespace.ml" 26 462 487
+type(
+  'b ctx * 'a
+)
+"namespace.ml" 28 489 493 "namespace.ml" 28 489 501
+type(
+  scope
+)
+ident(
+  def up_scope "namespace.ml" 30 527 527 --
+)
+"namespace.ml" 28 489 520 "namespace.ml" 28 489 524
+type(
+  string
+)
+"namespace.ml" 28 489 519 "namespace.ml" 28 489 525
+type(
+  string list
+)
+"namespace.ml" 28 489 504 "namespace.ml" 28 489 525
+type(
+  scope
+)
+"namespace.ml" 30 527 531 "namespace.ml" 30 527 535
+type(
+  scope
+)
+ident(
+  def root "namespace.ml" 32 557 557 --
+)
+"namespace.ml" 30 527 553 "namespace.ml" 30 527 555
+type(
+  string list
+)
+"namespace.ml" 30 527 538 "namespace.ml" 30 527 555
+type(
+  scope
+)
+"namespace.ml" 32 557 561 "namespace.ml" 32 557 568
+type(
+  'a ctx * 'b -> bool
+)
+ident(
+  def at_root "namespace.ml" 34 610 610 --
+)
+"namespace.ml" 32 557 581 "namespace.ml" 32 557 584
+type(
+  'a ctx
+)
+"namespace.ml" 32 557 585 "namespace.ml" 32 557 586
+type(
+  'b
+)
+"namespace.ml" 32 557 580 "namespace.ml" 32 557 587
+type(
+  'a ctx * 'b
+)
+"namespace.ml" 32 557 591 "namespace.ml" 32 557 595
+type(
+  bool
+)
+"namespace.ml" 32 557 598 "namespace.ml" 32 557 599
+type(
+  'a ctx * 'b
+)
+"namespace.ml" 32 557 603 "namespace.ml" 32 557 608
+type(
+  bool
+)
+"namespace.ml" 32 557 571 "namespace.ml" 32 557 608
+type(
+  'a ctx * 'b -> bool
+)
+"namespace.ml" 34 610 618 "namespace.ml" 34 610 633
+type(
+  scope -> string
+)
+ident(
+  def string_of_scope "namespace.ml" 34 610 610 --
+)
+"namespace.ml" 34 610 634 "namespace.ml" 34 610 635
+type(
+  scope
+)
+ident(
+  def s "namespace.ml" 35 639 641 "namespace.ml" 42 829 873
+)
+"namespace.ml" 35 639 649 "namespace.ml" 35 639 663
+type(
+  string list -> string
+)
+"namespace.ml" 36 675 681 "namespace.ml" 36 675 683
+type(
+  string list
+)
+"namespace.ml" 36 675 687 "namespace.ml" 36 675 689
+type(
+  string
+)
+"namespace.ml" 37 690 696 "namespace.ml" 37 690 698
+type(
+  string
+)
+ident(
+  def hd "namespace.ml" 37 690 706 "namespace.ml" 37 690 708
+)
+"namespace.ml" 37 690 700 "namespace.ml" 37 690 702
+type(
+  string list
+)
+"namespace.ml" 37 690 696 "namespace.ml" 37 690 702
+type(
+  string list
+)
+"namespace.ml" 37 690 706 "namespace.ml" 37 690 708
+type(
+  string
+)
+ident(
+  int_ref hd "namespace.ml" 37 690 696 "namespace.ml" 37 690 698
+)
+"namespace.ml" 38 709 715 "namespace.ml" 38 709 717
+type(
+  string
+)
+ident(
+  def hd "namespace.ml" 38 709 725 "namespace.ml" 38 709 754
+)
+"namespace.ml" 38 709 719 "namespace.ml" 38 709 721
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 38 709 725 "namespace.ml" 38 709 754
+)
+"namespace.ml" 38 709 715 "namespace.ml" 38 709 721
+type(
+  string list
+)
+"namespace.ml" 38 709 725 "namespace.ml" 38 709 727
+type(
+  string
+)
+ident(
+  int_ref hd "namespace.ml" 38 709 715 "namespace.ml" 38 709 717
+)
+"namespace.ml" 38 709 728 "namespace.ml" 38 709 729
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"namespace.ml" 38 709 730 "namespace.ml" 38 709 734
+type(
+  string
+)
+"namespace.ml" 38 709 735 "namespace.ml" 38 709 736
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"namespace.ml" 38 709 737 "namespace.ml" 38 709 751
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list "namespace.ml" 35 639 649 "namespace.ml" 35 639 663
+)
+"namespace.ml" 38 709 752 "namespace.ml" 38 709 754
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 38 709 719 "namespace.ml" 38 709 721
+)
+"namespace.ml" 38 709 737 "namespace.ml" 38 709 754
+type(
+  string
+)
+"namespace.ml" 38 709 730 "namespace.ml" 38 709 754
+type(
+  string
+)
+"namespace.ml" 38 709 725 "namespace.ml" 38 709 754
+type(
+  string
+)
+"namespace.ml" 35 639 666 "namespace.ml" 38 709 754
+type(
+  string list -> string
+)
+"namespace.ml" 40 760 770 "namespace.ml" 40 760 771
+type(
+  scope
+)
+ident(
+  int_ref s "namespace.ml" 34 610 634 "namespace.ml" 34 610 635
+)
+"namespace.ml" 41 777 800 "namespace.ml" 41 777 801
+type(
+  string list
+)
+ident(
+  def l "namespace.ml" 41 777 805 "namespace.ml" 41 777 828
+)
+"namespace.ml" 41 777 785 "namespace.ml" 41 777 801
+type(
+  scope
+)
+"namespace.ml" 41 777 805 "namespace.ml" 41 777 809
+type(
+  string
+)
+"namespace.ml" 41 777 810 "namespace.ml" 41 777 811
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"namespace.ml" 41 777 812 "namespace.ml" 41 777 826
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list "namespace.ml" 35 639 649 "namespace.ml" 35 639 663
+)
+"namespace.ml" 41 777 827 "namespace.ml" 41 777 828
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 41 777 800 "namespace.ml" 41 777 801
+)
+"namespace.ml" 41 777 812 "namespace.ml" 41 777 828
+type(
+  string
+)
+"namespace.ml" 41 777 805 "namespace.ml" 41 777 828
+type(
+  string
+)
+"namespace.ml" 42 829 852 "namespace.ml" 42 829 853
+type(
+  string list
+)
+ident(
+  def l "namespace.ml" 42 829 857 "namespace.ml" 42 829 873
+)
+"namespace.ml" 42 829 837 "namespace.ml" 42 829 853
+type(
+  scope
+)
+"namespace.ml" 42 829 857 "namespace.ml" 42 829 871
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list "namespace.ml" 35 639 649 "namespace.ml" 35 639 663
+)
+"namespace.ml" 42 829 872 "namespace.ml" 42 829 873
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 42 829 852 "namespace.ml" 42 829 853
+)
+"namespace.ml" 42 829 857 "namespace.ml" 42 829 873
+type(
+  string
+)
+"namespace.ml" 40 760 764 "namespace.ml" 42 829 873
+type(
+  string
+)
+"namespace.ml" 35 639 641 "namespace.ml" 42 829 873
+type(
+  string
+)
+"namespace.ml" 44 876 880 "namespace.ml" 44 876 889
+type(
+  'a ctx * 'b -> string list
+)
+ident(
+  def abs_scope "namespace.ml" 52 1076 1076 --
+)
+"namespace.ml" 44 876 891 "namespace.ml" 44 876 892
+type(
+  'a ctx
+)
+ident(
+  def c "namespace.ml" 45 899 901 "namespace.ml" 50 1059 1074
+)
+"namespace.ml" 44 876 893 "namespace.ml" 44 876 894
+type(
+  'b
+)
+"namespace.ml" 44 876 890 "namespace.ml" 44 876 895
+type(
+  'a ctx * 'b
+)
+"namespace.ml" 45 899 909 "namespace.ml" 45 899 915
+type(
+  string list -> 'c ctx -> string list
+)
+"namespace.ml" 45 899 916 "namespace.ml" 45 899 919
+type(
+  string list
+)
+ident(
+  def acc "namespace.ml" 45 899 922 "namespace.ml" 48 999 1053
+)
+"namespace.ml" 46 931 937 "namespace.ml" 46 931 940
+type(
+  'c ctx
+)
+"namespace.ml" 46 931 944 "namespace.ml" 46 931 947
+type(
+  string list
+)
+ident(
+  int_ref acc "namespace.ml" 45 899 916 "namespace.ml" 45 899 919
+)
+"namespace.ml" 47 948 959 "namespace.ml" 47 948 962
+type(
+  'c ctx
+)
+ident(
+  def ctx "namespace.ml" 47 948 974 "namespace.ml" 47 948 998
+)
+"namespace.ml" 47 948 963 "namespace.ml" 47 948 967
+type(
+  string
+)
+ident(
+  def name "namespace.ml" 47 948 974 "namespace.ml" 47 948 998
+)
+"namespace.ml" 47 948 968 "namespace.ml" 47 948 969
+type(
+  'c t
+)
+"namespace.ml" 47 948 954 "namespace.ml" 47 948 970
+type(
+  'c ctx
+)
+"namespace.ml" 47 948 974 "namespace.ml" 47 948 980
+type(
+  string list -> 'c ctx -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 45 899 909 "namespace.ml" 45 899 915
+)
+"namespace.ml" 47 948 982 "namespace.ml" 47 948 986
+type(
+  string
+)
+ident(
+  int_ref name "namespace.ml" 47 948 963 "namespace.ml" 47 948 967
+)
+"namespace.ml" 47 948 990 "namespace.ml" 47 948 993
+type(
+  string list
+)
+ident(
+  int_ref acc "namespace.ml" 45 899 916 "namespace.ml" 45 899 919
+)
+"namespace.ml" 47 948 981 "namespace.ml" 47 948 994
+type(
+  string list
+)
+"namespace.ml" 47 948 995 "namespace.ml" 47 948 998
+type(
+  'c ctx
+)
+ident(
+  int_ref ctx "namespace.ml" 47 948 959 "namespace.ml" 47 948 962
+)
+"namespace.ml" 47 948 974 "namespace.ml" 47 948 998
+type(
+  string list
+)
+"namespace.ml" 48 999 1010 "namespace.ml" 48 999 1017
+type(
+  'c ctx
+)
+ident(
+  def src_ctx "namespace.ml" 48 999 1034 "namespace.ml" 48 999 1053
+)
+"namespace.ml" 48 999 1018 "namespace.ml" 48 999 1020
+type(
+  scope
+)
+ident(
+  def sc "namespace.ml" 48 999 1034 "namespace.ml" 48 999 1053
+)
+"namespace.ml" 48 999 1021 "namespace.ml" 48 999 1029
+type(
+  'c ctx
+)
+ident(
+  def targ_ctx "namespace.ml" 48 999 1034 "namespace.ml" 48 999 1053
+)
+"namespace.ml" 48 999 1005 "namespace.ml" 48 999 1030
+type(
+  'c ctx
+)
+"namespace.ml" 48 999 1034 "namespace.ml" 48 999 1040
+type(
+  string list -> 'c ctx -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 45 899 909 "namespace.ml" 45 899 915
+)
+"namespace.ml" 48 999 1041 "namespace.ml" 48 999 1044
+type(
+  string list
+)
+ident(
+  int_ref acc "namespace.ml" 45 899 916 "namespace.ml" 45 899 919
+)
+"namespace.ml" 48 999 1045 "namespace.ml" 48 999 1053
+type(
+  'c ctx
+)
+ident(
+  int_ref targ_ctx "namespace.ml" 48 999 1021 "namespace.ml" 48 999 1029
+)
+"namespace.ml" 48 999 1034 "namespace.ml" 48 999 1053
+type(
+  string list
+)
+"namespace.ml" 45 899 922 "namespace.ml" 48 999 1053
+type(
+  'c ctx -> string list
+)
+"namespace.ml" 50 1059 1063 "namespace.ml" 50 1059 1069
+type(
+  string list -> 'a ctx -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 45 899 909 "namespace.ml" 45 899 915
+)
+"namespace.ml" 50 1059 1070 "namespace.ml" 50 1059 1072
+type(
+  string list
+)
+"namespace.ml" 50 1059 1073 "namespace.ml" 50 1059 1074
+type(
+  'a ctx
+)
+ident(
+  int_ref c "namespace.ml" 44 876 891 "namespace.ml" 44 876 892
+)
+"namespace.ml" 50 1059 1063 "namespace.ml" 50 1059 1074
+type(
+  string list
+)
+"namespace.ml" 45 899 901 "namespace.ml" 50 1059 1074
+type(
+  string list
+)
+"namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+type(
+  'a ctx * 'b -> scope
+)
+ident(
+  def current_scope "namespace.ml" 54 1128 1128 --
+)
+"namespace.ml" 52 1076 1094 "namespace.ml" 52 1076 1095
+type(
+  'a ctx * 'b
+)
+ident(
+  def c "namespace.ml" 52 1076 1098 "namespace.ml" 52 1076 1126
+)
+"namespace.ml" 52 1076 1114 "namespace.ml" 52 1076 1123
+type(
+  'a ctx * 'b -> string list
+)
+ident(
+  int_ref abs_scope "namespace.ml" 44 876 880 "namespace.ml" 44 876 889
+)
+"namespace.ml" 52 1076 1124 "namespace.ml" 52 1076 1125
+type(
+  'a ctx * 'b
+)
+ident(
+  int_ref c "namespace.ml" 52 1076 1094 "namespace.ml" 52 1076 1095
+)
+"namespace.ml" 52 1076 1113 "namespace.ml" 52 1076 1126
+type(
+  string list
+)
+"namespace.ml" 52 1076 1098 "namespace.ml" 52 1076 1126
+type(
+  scope
+)
+"namespace.ml" 54 1128 1132 "namespace.ml" 54 1128 1144
+type(
+  scope -> string -> scope
+)
+ident(
+  def append_scope "namespace.ml" 58 1297 1297 --
+)
+"namespace.ml" 54 1128 1145 "namespace.ml" 54 1128 1150
+type(
+  scope
+)
+ident(
+  def scope "namespace.ml" 54 1128 1151 "namespace.ml" 56 1235 1295
+)
+"namespace.ml" 54 1128 1151 "namespace.ml" 54 1128 1154
+type(
+  string
+)
+ident(
+  def str "namespace.ml" 54 1128 1157 "namespace.ml" 56 1235 1295
+)
+"namespace.ml" 54 1128 1163 "namespace.ml" 54 1128 1168
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 54 1128 1145 "namespace.ml" 54 1128 1150
+)
+"namespace.ml" 55 1174 1193 "namespace.ml" 55 1174 1194
+type(
+  string list
+)
+ident(
+  def l "namespace.ml" 55 1174 1198 "namespace.ml" 55 1174 1234
+)
+"namespace.ml" 55 1174 1178 "namespace.ml" 55 1174 1194
+type(
+  scope
+)
+"namespace.ml" 55 1174 1214 "namespace.ml" 55 1174 1225
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"namespace.ml" 55 1174 1226 "namespace.ml" 55 1174 1227
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 55 1174 1193 "namespace.ml" 55 1174 1194
+)
+"namespace.ml" 55 1174 1229 "namespace.ml" 55 1174 1232
+type(
+  string
+)
+ident(
+  int_ref str "namespace.ml" 54 1128 1151 "namespace.ml" 54 1128 1154
+)
+"namespace.ml" 55 1174 1228 "namespace.ml" 55 1174 1233
+type(
+  string list
+)
+"namespace.ml" 55 1174 1213 "namespace.ml" 55 1174 1234
+type(
+  string list
+)
+"namespace.ml" 55 1174 1198 "namespace.ml" 55 1174 1234
+type(
+  scope
+)
+"namespace.ml" 56 1235 1254 "namespace.ml" 56 1235 1255
+type(
+  string list
+)
+ident(
+  def l "namespace.ml" 56 1235 1259 "namespace.ml" 56 1235 1295
+)
+"namespace.ml" 56 1235 1239 "namespace.ml" 56 1235 1255
+type(
+  scope
+)
+"namespace.ml" 56 1235 1275 "namespace.ml" 56 1235 1286
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"namespace.ml" 56 1235 1287 "namespace.ml" 56 1235 1288
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 56 1235 1254 "namespace.ml" 56 1235 1255
+)
+"namespace.ml" 56 1235 1290 "namespace.ml" 56 1235 1293
+type(
+  string
+)
+ident(
+  int_ref str "namespace.ml" 54 1128 1151 "namespace.ml" 54 1128 1154
+)
+"namespace.ml" 56 1235 1289 "namespace.ml" 56 1235 1294
+type(
+  string list
+)
+"namespace.ml" 56 1235 1274 "namespace.ml" 56 1235 1295
+type(
+  string list
+)
+"namespace.ml" 56 1235 1259 "namespace.ml" 56 1235 1295
+type(
+  scope
+)
+"namespace.ml" 54 1128 1157 "namespace.ml" 56 1235 1295
+type(
+  scope
+)
+"namespace.ml" 58 1297 1301 "namespace.ml" 58 1297 1315
+type(
+  scope -> 'a ctx * 'b -> scope
+)
+ident(
+  def absolute_scope "namespace.ml" 72 1682 1682 --
+)
+"namespace.ml" 58 1297 1316 "namespace.ml" 58 1297 1321
+type(
+  scope
+)
+ident(
+  def scope "namespace.ml" 58 1297 1322 "namespace.ml" 70 1640 1680
+)
+"namespace.ml" 58 1297 1322 "namespace.ml" 58 1297 1326
+type(
+  'a ctx * 'b
+)
+ident(
+  def curs "namespace.ml" 58 1297 1329 "namespace.ml" 70 1640 1680
+)
+"namespace.ml" 58 1297 1335 "namespace.ml" 58 1297 1340
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 58 1297 1316 "namespace.ml" 58 1297 1321
+)
+"namespace.ml" 59 1346 1365 "namespace.ml" 59 1346 1366
+type(
+  string list
+)
+"namespace.ml" 59 1346 1350 "namespace.ml" 59 1346 1366
+type(
+  scope
+)
+"namespace.ml" 59 1346 1370 "namespace.ml" 59 1346 1375
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 58 1297 1316 "namespace.ml" 58 1297 1321
+)
+"namespace.ml" 60 1376 1395 "namespace.ml" 60 1376 1396
+type(
+  string list
+)
+ident(
+  def l "namespace.ml" 61 1401 1407 "namespace.ml" 70 1640 1680
+)
+"namespace.ml" 60 1376 1380 "namespace.ml" 60 1376 1396
+type(
+  scope
+)
+"namespace.ml" 61 1401 1411 "namespace.ml" 61 1401 1413
+type(
+  string list
+)
+"namespace.ml" 61 1401 1422 "namespace.ml" 61 1401 1435
+type(
+  'a ctx * 'b -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 61 1401 1436 "namespace.ml" 61 1401 1440
+type(
+  'a ctx * 'b
+)
+ident(
+  int_ref curs "namespace.ml" 58 1297 1322 "namespace.ml" 58 1297 1326
+)
+"namespace.ml" 61 1401 1422 "namespace.ml" 61 1401 1440
+type(
+  scope
+)
+"namespace.ml" 62 1446 1464 "namespace.ml" 62 1446 1465
+type(
+  string list
+)
+ident(
+  def l "namespace.ml" 62 1446 1469 "namespace.ml" 62 1446 1479
+)
+"namespace.ml" 62 1446 1449 "namespace.ml" 62 1446 1465
+type(
+  scope
+)
+"namespace.ml" 62 1446 1469 "namespace.ml" 62 1446 1477
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"namespace.ml" 62 1446 1478 "namespace.ml" 62 1446 1479
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 62 1446 1464 "namespace.ml" 62 1446 1465
+)
+"namespace.ml" 62 1446 1469 "namespace.ml" 62 1446 1479
+type(
+  string list
+)
+"namespace.ml" 63 1480 1483 "namespace.ml" 63 1480 1484
+type(
+  scope
+)
+"namespace.ml" 63 1480 1488 "namespace.ml" 63 1480 1500
+type(
+  string list
+)
+"namespace.ml" 61 1401 1416 "namespace.ml" 63 1480 1500
+type(
+  string list
+)
+"namespace.ml" 65 1510 1524 "namespace.ml" 65 1510 1530
+type(
+  string list -> string list -> string list
+)
+"namespace.ml" 65 1510 1531 "namespace.ml" 65 1510 1534
+type(
+  string list
+)
+ident(
+  def acc "namespace.ml" 65 1510 1537 "namespace.ml" 68 1598 1630
+)
+"namespace.ml" 66 1546 1549 "namespace.ml" 66 1546 1551
+type(
+  string list
+)
+"namespace.ml" 66 1546 1555 "namespace.ml" 66 1546 1558
+type(
+  string list
+)
+ident(
+  int_ref acc "namespace.ml" 65 1510 1531 "namespace.ml" 65 1510 1534
+)
+"namespace.ml" 67 1559 1562 "namespace.ml" 67 1559 1566
+type(
+  string
+)
+"namespace.ml" 67 1559 1568 "namespace.ml" 67 1559 1570
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 67 1559 1574 "namespace.ml" 67 1559 1597
+)
+"namespace.ml" 67 1559 1562 "namespace.ml" 67 1559 1570
+type(
+  string list
+)
+"namespace.ml" 67 1559 1574 "namespace.ml" 67 1559 1580
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 65 1510 1524 "namespace.ml" 65 1510 1530
+)
+"namespace.ml" 67 1559 1582 "namespace.ml" 67 1559 1589
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.tl
+)
+"namespace.ml" 67 1559 1590 "namespace.ml" 67 1559 1593
+type(
+  string list
+)
+ident(
+  int_ref acc "namespace.ml" 65 1510 1531 "namespace.ml" 65 1510 1534
+)
+"namespace.ml" 67 1559 1581 "namespace.ml" 67 1559 1594
+type(
+  string list
+)
+"namespace.ml" 67 1559 1595 "namespace.ml" 67 1559 1597
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 67 1559 1568 "namespace.ml" 67 1559 1570
+)
+"namespace.ml" 67 1559 1574 "namespace.ml" 67 1559 1597
+type(
+  string list
+)
+"namespace.ml" 68 1598 1601 "namespace.ml" 68 1598 1603
+type(
+  string
+)
+ident(
+  def hd "namespace.ml" 68 1598 1611 "namespace.ml" 68 1598 1630
+)
+"namespace.ml" 68 1598 1605 "namespace.ml" 68 1598 1607
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 68 1598 1611 "namespace.ml" 68 1598 1630
+)
+"namespace.ml" 68 1598 1601 "namespace.ml" 68 1598 1607
+type(
+  string list
+)
+"namespace.ml" 68 1598 1611 "namespace.ml" 68 1598 1617
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 65 1510 1524 "namespace.ml" 65 1510 1530
+)
+"namespace.ml" 68 1598 1619 "namespace.ml" 68 1598 1621
+type(
+  string
+)
+ident(
+  int_ref hd "namespace.ml" 68 1598 1601 "namespace.ml" 68 1598 1603
+)
+"namespace.ml" 68 1598 1623 "namespace.ml" 68 1598 1626
+type(
+  string list
+)
+ident(
+  int_ref acc "namespace.ml" 65 1510 1531 "namespace.ml" 65 1510 1534
+)
+"namespace.ml" 68 1598 1618 "namespace.ml" 68 1598 1627
+type(
+  string list
+)
+"namespace.ml" 68 1598 1628 "namespace.ml" 68 1598 1630
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 68 1598 1605 "namespace.ml" 68 1598 1607
+)
+"namespace.ml" 68 1598 1611 "namespace.ml" 68 1598 1630
+type(
+  string list
+)
+"namespace.ml" 65 1510 1537 "namespace.ml" 68 1598 1630
+type(
+  string list -> string list
+)
+"namespace.ml" 70 1640 1657 "namespace.ml" 70 1640 1665
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"namespace.ml" 70 1640 1667 "namespace.ml" 70 1640 1673
+type(
+  string list -> string list -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 65 1510 1524 "namespace.ml" 65 1510 1530
+)
+"namespace.ml" 70 1640 1674 "namespace.ml" 70 1640 1676
+type(
+  string list
+)
+ident(
+  int_ref lr "namespace.ml" 61 1401 1411 "namespace.ml" 61 1401 1413
+)
+"namespace.ml" 70 1640 1677 "namespace.ml" 70 1640 1678
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 60 1376 1395 "namespace.ml" 60 1376 1396
+)
+"namespace.ml" 70 1640 1666 "namespace.ml" 70 1640 1679
+type(
+  string list
+)
+"namespace.ml" 70 1640 1656 "namespace.ml" 70 1640 1680
+type(
+  string list
+)
+"namespace.ml" 70 1640 1641 "namespace.ml" 70 1640 1680
+type(
+  scope
+)
+"namespace.ml" 65 1510 1516 "namespace.ml" 70 1640 1680
+type(
+  scope
+)
+"namespace.ml" 61 1401 1407 "namespace.ml" 70 1640 1680
+type(
+  scope
+)
+"namespace.ml" 58 1297 1329 "namespace.ml" 70 1640 1680
+type(
+  scope
+)
+"namespace.ml" 72 1682 1686 "namespace.ml" 72 1682 1699
+type(
+  'a * 'b t -> string
+)
+ident(
+  def dump_children "namespace.ml" 76 1819 1819 --
+)
+"namespace.ml" 73 1711 1715 "namespace.ml" 73 1711 1716
+type(
+  'a
+)
+"namespace.ml" 73 1711 1722 "namespace.ml" 73 1711 1723
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1816
+)
+"namespace.ml" 73 1711 1724 "namespace.ml" 73 1711 1729
+type(
+  links
+)
+ident(
+  def links "namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1816
+)
+"namespace.ml" 73 1711 1717 "namespace.ml" 73 1711 1730
+type(
+  'b t
+)
+"namespace.ml" 73 1711 1715 "namespace.ml" 73 1711 1730
+type(
+  'a * 'b t
+)
+"namespace.ml" 73 1711 1733 "namespace.ml" 73 1711 1734
+type(
+  'a
+)
+"namespace.ml" 73 1711 1740 "namespace.ml" 73 1711 1741
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1816
+)
+"namespace.ml" 73 1711 1742 "namespace.ml" 73 1711 1747
+type(
+  links
+)
+ident(
+  def links "namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1816
+)
+"namespace.ml" 73 1711 1748 "namespace.ml" 73 1711 1749
+type(
+  'b
+)
+"namespace.ml" 73 1711 1735 "namespace.ml" 73 1711 1750
+type(
+  'b t
+)
+"namespace.ml" 73 1711 1733 "namespace.ml" 73 1711 1750
+type(
+  'a * 'b t
+)
+"namespace.ml" 73 1711 1715 "namespace.ml" 73 1711 1750
+type(
+  'a * 'b t
+)
+"namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1771
+type(
+  (Utils.StrMap.key -> 'b t -> string -> string) ->
+  'b t Utils.StrMap.t -> string -> string
+)
+ident(
+  ext_ref Utils.StrMap.fold
+)
+"namespace.ml" 74 1754 1777 "namespace.ml" 74 1754 1778
+type(
+  Utils.StrMap.key
+)
+ident(
+  def k "namespace.ml" 74 1754 1779 "namespace.ml" 74 1754 1810
+)
+"namespace.ml" 74 1754 1779 "namespace.ml" 74 1754 1780
+type(
+  'b t
+)
+"namespace.ml" 74 1754 1781 "namespace.ml" 74 1754 1784
+type(
+  string
+)
+ident(
+  def acc "namespace.ml" 74 1754 1788 "namespace.ml" 74 1754 1810
+)
+"namespace.ml" 74 1754 1788 "namespace.ml" 74 1754 1795
+type(
+  (string -> Utils.StrMap.key -> string, unit, string) format ->
+  string -> Utils.StrMap.key -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"namespace.ml" 74 1754 1796 "namespace.ml" 74 1754 1804
+type(
+  (string -> Utils.StrMap.key -> string, unit, string) format
+)
+"namespace.ml" 74 1754 1805 "namespace.ml" 74 1754 1808
+type(
+  string
+)
+ident(
+  int_ref acc "namespace.ml" 74 1754 1781 "namespace.ml" 74 1754 1784
+)
+"namespace.ml" 74 1754 1809 "namespace.ml" 74 1754 1810
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref k "namespace.ml" 74 1754 1777 "namespace.ml" 74 1754 1778
+)
+"namespace.ml" 74 1754 1788 "namespace.ml" 74 1754 1810
+type(
+  string
+)
+"namespace.ml" 74 1754 1772 "namespace.ml" 74 1754 1811
+type(
+  Utils.StrMap.key -> 'b t -> string -> string
+)
+"namespace.ml" 74 1754 1812 "namespace.ml" 74 1754 1813
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 73 1711 1722 "namespace.ml" 73 1711 1723
+)
+"namespace.ml" 74 1754 1814 "namespace.ml" 74 1754 1816
+type(
+  string
+)
+"namespace.ml" 74 1754 1760 "namespace.ml" 74 1754 1816
+type(
+  string
+)
+"namespace.ml" 72 1682 1702 "namespace.ml" 74 1754 1816
+type(
+  'a * 'b t -> string
+)
+"namespace.ml" 76 1819 1823 "namespace.ml" 76 1819 1837
+type(
+  'a ctx * 'b -> string
+)
+ident(
+  def string_of_curs "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 76 1819 1838 "namespace.ml" 76 1819 1839
+type(
+  'a ctx * 'b
+)
+ident(
+  def c "namespace.ml" 76 1819 1842 "namespace.ml" 76 1819 1875
+)
+"namespace.ml" 76 1819 1842 "namespace.ml" 76 1819 1857
+type(
+  scope -> string
+)
+ident(
+  int_ref string_of_scope "namespace.ml" 34 610 618 "namespace.ml" 34 610 633
+)
+"namespace.ml" 76 1819 1859 "namespace.ml" 76 1819 1872
+type(
+  'a ctx * 'b -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 76 1819 1873 "namespace.ml" 76 1819 1874
+type(
+  'a ctx * 'b
+)
+ident(
+  int_ref c "namespace.ml" 76 1819 1838 "namespace.ml" 76 1819 1839
+)
+"namespace.ml" 76 1819 1858 "namespace.ml" 76 1819 1875
+type(
+  scope
+)
+"namespace.ml" 76 1819 1842 "namespace.ml" 76 1819 1875
+type(
+  string
+)
+"namespace.ml" 78 1877 1885 "namespace.ml" 78 1877 1897
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  def enter_scope_ "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 78 1877 1898 "namespace.ml" 78 1877 1902
+type(
+  Utils.StrMap.key
+)
+ident(
+  def name "namespace.ml" 78 1877 1903 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 78 1877 1903 "namespace.ml" 78 1877 1907
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 78 1877 1908 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 78 1877 1908 "namespace.ml" 78 1877 1919
+type(
+  scope list
+)
+ident(
+  def been_theres "namespace.ml" 79 1923 1923 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 79 1923 1929 "namespace.ml" 79 1923 1933
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 78 1877 1903 "namespace.ml" 78 1877 1907
+)
+"namespace.ml" 80 1939 1943 "namespace.ml" 80 1939 1946
+type(
+  'a ctx
+)
+ident(
+  def ctx "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 80 1939 1954 "namespace.ml" 80 1939 1962
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def bind_map "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 80 1939 1963 "namespace.ml" 80 1939 1970
+type(
+  links
+)
+ident(
+  def inc_lst "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 80 1939 1949 "namespace.ml" 80 1939 1971
+type(
+  'a t
+)
+"namespace.ml" 80 1939 1948 "namespace.ml" 80 1939 1977
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 80 1939 1943 "namespace.ml" 80 1939 1977
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 81 1979 1983 "namespace.ml" 81 1979 1986
+type(
+  'a ctx
+)
+ident(
+  def ctx "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 81 1979 1994 "namespace.ml" 81 1979 2002
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def bind_map "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 81 1979 2003 "namespace.ml" 81 1979 2010
+type(
+  links
+)
+ident(
+  def inc_lst "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 81 1979 2011 "namespace.ml" 81 1979 2012
+type(
+  'a
+)
+"namespace.ml" 81 1979 1989 "namespace.ml" 81 1979 2013
+type(
+  'a t
+)
+"namespace.ml" 81 1979 1988 "namespace.ml" 81 1979 2019
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+)
+"namespace.ml" 81 1979 1983 "namespace.ml" 81 1979 2019
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 80 1939 1943 "namespace.ml" 81 1979 2019
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 83 2039 2044 "namespace.ml" 83 2039 2046
+type(
+  'a t
+)
+ident(
+  def t' "namespace.ml" 84 2078 2079 "namespace.ml" 85 2113 2127
+)
+"namespace.ml" 83 2039 2049 "namespace.ml" 83 2039 2060
+type(
+  Utils.StrMap.key -> 'a t Utils.StrMap.t -> 'a t
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"namespace.ml" 83 2039 2061 "namespace.ml" 83 2039 2065
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 78 1877 1898 "namespace.ml" 78 1877 1902
+)
+"namespace.ml" 83 2039 2066 "namespace.ml" 83 2039 2074
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref bind_map "namespace.ml" 80 1939 1954 "namespace.ml" 80 1939 1962
+)
+"namespace.ml" 83 2039 2049 "namespace.ml" 83 2039 2074
+type(
+  'a t
+)
+"namespace.ml" 84 2078 2083 "namespace.ml" 84 2078 2090
+type(
+  'a ctx
+)
+ident(
+  def new_ctx "namespace.ml" 85 2113 2116 "namespace.ml" 85 2113 2127
+)
+"namespace.ml" 84 2078 2098 "namespace.ml" 84 2078 2101
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx "namespace.ml" 80 1939 1943 "namespace.ml" 80 1939 1946
+)
+"namespace.ml" 84 2078 2102 "namespace.ml" 84 2078 2106
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 78 1877 1898 "namespace.ml" 78 1877 1902
+)
+"namespace.ml" 84 2078 2107 "namespace.ml" 84 2078 2108
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 80 1939 1948 "namespace.ml" 80 1939 1977
+)
+"namespace.ml" 84 2078 2093 "namespace.ml" 84 2078 2109
+type(
+  'a ctx
+)
+"namespace.ml" 85 2113 2116 "namespace.ml" 85 2113 2123
+type(
+  'a ctx
+)
+ident(
+  int_ref new_ctx "namespace.ml" 84 2078 2083 "namespace.ml" 84 2078 2090
+)
+"namespace.ml" 85 2113 2125 "namespace.ml" 85 2113 2127
+type(
+  'a t
+)
+ident(
+  int_ref t' "namespace.ml" 83 2039 2044 "namespace.ml" 83 2039 2046
+)
+"namespace.ml" 85 2113 2116 "namespace.ml" 85 2113 2127
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 84 2078 2079 "namespace.ml" 85 2113 2127
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 83 2039 2040 "namespace.ml" 85 2113 2127
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 86 2128 2139 "namespace.ml" 86 2128 2148
+type(
+  exn
+)
+"namespace.ml" 86 2128 2152 "namespace.ml" 86 2128 2168
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> links -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref enter_scope_link "namespace.ml" 89 2210 2214 "namespace.ml" 89 2210 2230
+)
+"namespace.ml" 86 2128 2169 "namespace.ml" 86 2128 2173
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 78 1877 1898 "namespace.ml" 78 1877 1902
+)
+"namespace.ml" 86 2128 2174 "namespace.ml" 86 2128 2178
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 78 1877 1903 "namespace.ml" 78 1877 1907
+)
+"namespace.ml" 86 2128 2179 "namespace.ml" 86 2128 2186
+type(
+  links
+)
+ident(
+  int_ref inc_lst "namespace.ml" 80 1939 1963 "namespace.ml" 80 1939 1970
+)
+"namespace.ml" 86 2128 2187 "namespace.ml" 86 2128 2198
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 78 1877 1908 "namespace.ml" 78 1877 1919
+)
+"namespace.ml" 86 2128 2152 "namespace.ml" 86 2128 2198
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 82 2023 2029 "namespace.ml" 87 2199 2208
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 79 1923 1923 "namespace.ml" 87 2199 2208
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 89 2210 2214 "namespace.ml" 89 2210 2230
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> links -> scope list -> 'a ctx * 'a t
+)
+ident(
+  def enter_scope_link "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 89 2210 2231 "namespace.ml" 89 2210 2235
+type(
+  Utils.StrMap.key
+)
+ident(
+  def name "namespace.ml" 89 2210 2236 "namespace.ml" 99 2675 2691
+)
+"namespace.ml" 89 2210 2238 "namespace.ml" 89 2210 2241
+type(
+  'a ctx
+)
+ident(
+  def ctx "namespace.ml" 89 2210 2254 "namespace.ml" 99 2675 2691
+)
+"namespace.ml" 89 2210 2242 "namespace.ml" 89 2210 2243
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 89 2210 2254 "namespace.ml" 99 2675 2691
+)
+"namespace.ml" 89 2210 2237 "namespace.ml" 89 2210 2244
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 89 2210 2236 "namespace.ml" 89 2210 2253
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 89 2210 2254 "namespace.ml" 99 2675 2691
+)
+"namespace.ml" 89 2210 2254 "namespace.ml" 89 2210 2262
+type(
+  links
+)
+ident(
+  def inc_list "namespace.ml" 89 2210 2263 "namespace.ml" 99 2675 2691
+)
+"namespace.ml" 89 2210 2263 "namespace.ml" 89 2210 2274
+type(
+  scope list
+)
+ident(
+  def been_theres "namespace.ml" 90 2278 2280 "namespace.ml" 99 2675 2691
+)
+"namespace.ml" 90 2278 2284 "namespace.ml" 90 2278 2293
+type(
+  scope
+)
+"namespace.ml" 90 2278 2296 "namespace.ml" 90 2278 2309
+type(
+  'a ctx * 'a t -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 90 2278 2310 "namespace.ml" 90 2278 2314
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 89 2210 2236 "namespace.ml" 89 2210 2253
+)
+"namespace.ml" 90 2278 2296 "namespace.ml" 90 2278 2314
+type(
+  scope
+)
+"namespace.ml" 91 2318 2322 "namespace.ml" 91 2318 2330
+type(
+  (scope -> 'a ctx * 'a t) -> links -> 'a ctx * 'a t
+)
+ident(
+  ext_ref Utils.try_each
+)
+"namespace.ml" 92 2331 2342 "namespace.ml" 92 2331 2345
+type(
+  scope
+)
+ident(
+  def inc "namespace.ml" 94 2400 2402 "namespace.ml" 98 2611 2674
+)
+"namespace.ml" 94 2400 2406 "namespace.ml" 94 2400 2413
+type(
+  scope
+)
+"namespace.ml" 94 2400 2416 "namespace.ml" 94 2400 2430
+type(
+  scope -> 'a ctx * 'a t -> scope
+)
+ident(
+  int_ref absolute_scope "namespace.ml" 58 1297 1301 "namespace.ml" 58 1297 1315
+)
+"namespace.ml" 94 2400 2431 "namespace.ml" 94 2400 2434
+type(
+  scope
+)
+ident(
+  int_ref inc "namespace.ml" 92 2331 2342 "namespace.ml" 92 2331 2345
+)
+"namespace.ml" 94 2400 2435 "namespace.ml" 94 2400 2439
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 89 2210 2236 "namespace.ml" 89 2210 2253
+)
+"namespace.ml" 94 2400 2416 "namespace.ml" 94 2400 2439
+type(
+  scope
+)
+"namespace.ml" 95 2443 2449 "namespace.ml" 95 2443 2451
+type(
+  unit
+)
+"namespace.ml" 95 2443 2457 "namespace.ml" 95 2443 2465
+type(
+  scope -> scope list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"namespace.ml" 95 2443 2466 "namespace.ml" 95 2443 2473
+type(
+  scope
+)
+ident(
+  int_ref abs_inc "namespace.ml" 94 2400 2406 "namespace.ml" 94 2400 2413
+)
+"namespace.ml" 95 2443 2474 "namespace.ml" 95 2443 2485
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 89 2210 2263 "namespace.ml" 89 2210 2274
+)
+"namespace.ml" 95 2443 2457 "namespace.ml" 95 2443 2485
+type(
+  bool
+)
+"namespace.ml" 95 2443 2491 "namespace.ml" 95 2443 2496
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"namespace.ml" 95 2443 2497 "namespace.ml" 95 2443 2506
+type(
+  exn
+)
+"namespace.ml" 95 2443 2491 "namespace.ml" 95 2443 2506
+type(
+  unit
+)
+"namespace.ml" 95 2443 2454 "namespace.ml" 95 2443 2506
+type(
+  unit
+)
+"namespace.ml" 96 2510 2516 "namespace.ml" 96 2510 2527
+type(
+  scope list
+)
+"namespace.ml" 96 2510 2530 "namespace.ml" 96 2510 2537
+type(
+  scope
+)
+ident(
+  int_ref abs_inc "namespace.ml" 94 2400 2406 "namespace.ml" 94 2400 2413
+)
+"namespace.ml" 96 2510 2539 "namespace.ml" 96 2510 2550
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 89 2210 2263 "namespace.ml" 89 2210 2274
+)
+"namespace.ml" 96 2510 2530 "namespace.ml" 96 2510 2550
+type(
+  scope list
+)
+"namespace.ml" 97 2554 2561 "namespace.ml" 97 2554 2565
+type(
+  'a ctx
+)
+"namespace.ml" 97 2554 2566 "namespace.ml" 97 2554 2568
+type(
+  'a t
+)
+"namespace.ml" 97 2554 2560 "namespace.ml" 97 2554 2569
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 97 2554 2572 "namespace.ml" 97 2554 2586
+type(
+  scope -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_scope_ "namespace.ml" 111 3071 3075 "namespace.ml" 111 3071 3089
+)
+"namespace.ml" 97 2554 2587 "namespace.ml" 97 2554 2590
+type(
+  scope
+)
+ident(
+  int_ref inc "namespace.ml" 92 2331 2342 "namespace.ml" 92 2331 2345
+)
+"namespace.ml" 97 2554 2591 "namespace.ml" 97 2554 2595
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 89 2210 2236 "namespace.ml" 89 2210 2253
+)
+"namespace.ml" 97 2554 2596 "namespace.ml" 97 2554 2607
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 96 2510 2516 "namespace.ml" 96 2510 2527
+)
+"namespace.ml" 97 2554 2572 "namespace.ml" 97 2554 2607
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 98 2611 2615 "namespace.ml" 98 2611 2627
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref enter_scope_ "namespace.ml" 78 1877 1885 "namespace.ml" 78 1877 1897
+)
+"namespace.ml" 98 2611 2628 "namespace.ml" 98 2611 2632
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 89 2210 2231 "namespace.ml" 89 2210 2235
+)
+"namespace.ml" 98 2611 2639 "namespace.ml" 98 2611 2642
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx "namespace.ml" 89 2210 2238 "namespace.ml" 89 2210 2241
+)
+"namespace.ml" 98 2611 2643 "namespace.ml" 98 2611 2652
+type(
+  scope
+)
+ident(
+  int_ref cur_scope "namespace.ml" 90 2278 2284 "namespace.ml" 90 2278 2293
+)
+"namespace.ml" 98 2611 2653 "namespace.ml" 98 2611 2657
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx' "namespace.ml" 97 2554 2561 "namespace.ml" 97 2554 2565
+)
+"namespace.ml" 98 2611 2634 "namespace.ml" 98 2611 2658
+type(
+  'a ctx
+)
+"namespace.ml" 98 2611 2659 "namespace.ml" 98 2611 2661
+type(
+  'a t
+)
+ident(
+  int_ref t' "namespace.ml" 97 2554 2566 "namespace.ml" 97 2554 2568
+)
+"namespace.ml" 98 2611 2633 "namespace.ml" 98 2611 2662
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 98 2611 2663 "namespace.ml" 98 2611 2674
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 96 2510 2516 "namespace.ml" 96 2510 2527
+)
+"namespace.ml" 98 2611 2615 "namespace.ml" 98 2611 2674
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 97 2554 2556 "namespace.ml" 98 2611 2674
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 96 2510 2512 "namespace.ml" 98 2611 2674
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 95 2443 2445 "namespace.ml" 98 2611 2674
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 94 2400 2402 "namespace.ml" 98 2611 2674
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 92 2331 2337 "namespace.ml" 99 2675 2682
+type(
+  scope -> 'a ctx * 'a t
+)
+"namespace.ml" 99 2675 2683 "namespace.ml" 99 2675 2691
+type(
+  links
+)
+ident(
+  int_ref inc_list "namespace.ml" 89 2210 2254 "namespace.ml" 89 2210 2262
+)
+"namespace.ml" 91 2318 2322 "namespace.ml" 99 2675 2691
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 90 2278 2280 "namespace.ml" 99 2675 2691
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 101 2693 2697 "namespace.ml" 101 2693 2705
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  def move_up_ "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 101 2693 2707 "namespace.ml" 101 2693 2708
+type(
+  'a ctx
+)
+ident(
+  def c "namespace.ml" 101 2693 2712 "namespace.ml" 107 2961 3030
+)
+"namespace.ml" 101 2693 2709 "namespace.ml" 101 2693 2710
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 101 2693 2712 "namespace.ml" 107 2961 3030
+)
+"namespace.ml" 101 2693 2706 "namespace.ml" 101 2693 2711
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 101 2693 2712 "namespace.ml" 101 2693 2723
+type(
+  scope list
+)
+ident(
+  def been_theres "namespace.ml" 101 2693 2726 "namespace.ml" 107 2961 3030
+)
+"namespace.ml" 101 2693 2732 "namespace.ml" 101 2693 2733
+type(
+  'a ctx
+)
+ident(
+  int_ref c "namespace.ml" 101 2693 2707 "namespace.ml" 101 2693 2708
+)
+"namespace.ml" 102 2739 2743 "namespace.ml" 102 2739 2746
+type(
+  'a ctx
+)
+"namespace.ml" 102 2739 2750 "namespace.ml" 102 2739 2758
+type(
+  string -> 'a ctx * 'a t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"namespace.ml" 102 2739 2759 "namespace.ml" 102 2739 2785
+type(
+  string
+)
+"namespace.ml" 102 2739 2750 "namespace.ml" 102 2739 2785
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 103 2786 2795 "namespace.ml" 103 2786 2798
+type(
+  'a ctx
+)
+ident(
+  def ctx "namespace.ml" 103 2786 2815 "namespace.ml" 106 2953 2960
+)
+"namespace.ml" 103 2786 2799 "namespace.ml" 103 2786 2803
+type(
+  Utils.StrMap.key
+)
+ident(
+  def name "namespace.ml" 103 2786 2815 "namespace.ml" 106 2953 2960
+)
+"namespace.ml" 103 2786 2804 "namespace.ml" 103 2786 2810
+type(
+  'a t
+)
+ident(
+  def parent "namespace.ml" 103 2786 2815 "namespace.ml" 106 2953 2960
+)
+"namespace.ml" 103 2786 2790 "namespace.ml" 103 2786 2811
+type(
+  'a ctx
+)
+"namespace.ml" 103 2786 2827 "namespace.ml" 103 2786 2833
+type(
+  'a t
+)
+ident(
+  int_ref parent "namespace.ml" 103 2786 2804 "namespace.ml" 103 2786 2810
+)
+"namespace.ml" 104 2839 2852 "namespace.ml" 104 2839 2853
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 104 2839 2860 "namespace.ml" 104 2839 2893
+)
+"namespace.ml" 104 2839 2854 "namespace.ml" 104 2839 2855
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 104 2839 2860 "namespace.ml" 104 2839 2893
+)
+"namespace.ml" 104 2839 2847 "namespace.ml" 104 2839 2856
+type(
+  'a t
+)
+"namespace.ml" 104 2839 2860 "namespace.ml" 104 2839 2863
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx "namespace.ml" 103 2786 2795 "namespace.ml" 103 2786 2798
+)
+"namespace.ml" 104 2839 2871 "namespace.ml" 104 2839 2881
+type(
+  Utils.StrMap.key -> 'a t -> 'a t Utils.StrMap.t -> 'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"namespace.ml" 104 2839 2882 "namespace.ml" 104 2839 2886
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 103 2786 2799 "namespace.ml" 103 2786 2803
+)
+"namespace.ml" 104 2839 2887 "namespace.ml" 104 2839 2888
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 101 2693 2709 "namespace.ml" 101 2693 2710
+)
+"namespace.ml" 104 2839 2889 "namespace.ml" 104 2839 2890
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 104 2839 2852 "namespace.ml" 104 2839 2853
+)
+"namespace.ml" 104 2839 2871 "namespace.ml" 104 2839 2890
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 104 2839 2891 "namespace.ml" 104 2839 2892
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 104 2839 2854 "namespace.ml" 104 2839 2855
+)
+"namespace.ml" 104 2839 2865 "namespace.ml" 104 2839 2893
+type(
+  'a t
+)
+"namespace.ml" 104 2839 2860 "namespace.ml" 104 2839 2893
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 105 2894 2907 "namespace.ml" 105 2894 2908
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 105 2894 2917 "namespace.ml" 105 2894 2952
+)
+"namespace.ml" 105 2894 2909 "namespace.ml" 105 2894 2910
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 105 2894 2917 "namespace.ml" 105 2894 2952
+)
+"namespace.ml" 105 2894 2911 "namespace.ml" 105 2894 2912
+type(
+  'a
+)
+ident(
+  def d "namespace.ml" 105 2894 2917 "namespace.ml" 105 2894 2952
+)
+"namespace.ml" 105 2894 2902 "namespace.ml" 105 2894 2913
+type(
+  'a t
+)
+"namespace.ml" 105 2894 2917 "namespace.ml" 105 2894 2920
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx "namespace.ml" 103 2786 2795 "namespace.ml" 103 2786 2798
+)
+"namespace.ml" 105 2894 2928 "namespace.ml" 105 2894 2938
+type(
+  Utils.StrMap.key -> 'a t -> 'a t Utils.StrMap.t -> 'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"namespace.ml" 105 2894 2939 "namespace.ml" 105 2894 2943
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 103 2786 2799 "namespace.ml" 103 2786 2803
+)
+"namespace.ml" 105 2894 2944 "namespace.ml" 105 2894 2945
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 101 2693 2709 "namespace.ml" 101 2693 2710
+)
+"namespace.ml" 105 2894 2946 "namespace.ml" 105 2894 2947
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 105 2894 2907 "namespace.ml" 105 2894 2908
+)
+"namespace.ml" 105 2894 2928 "namespace.ml" 105 2894 2947
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 105 2894 2948 "namespace.ml" 105 2894 2949
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 105 2894 2909 "namespace.ml" 105 2894 2910
+)
+"namespace.ml" 105 2894 2950 "namespace.ml" 105 2894 2951
+type(
+  'a
+)
+ident(
+  int_ref d "namespace.ml" 105 2894 2911 "namespace.ml" 105 2894 2912
+)
+"namespace.ml" 105 2894 2922 "namespace.ml" 105 2894 2952
+type(
+  'a t
+)
+"namespace.ml" 105 2894 2917 "namespace.ml" 105 2894 2952
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 103 2786 2815 "namespace.ml" 106 2953 2960
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 107 2961 2970 "namespace.ml" 107 2961 2973
+type(
+  'a ctx
+)
+ident(
+  def ctx "namespace.ml" 107 2961 2989 "namespace.ml" 107 2961 3030
+)
+"namespace.ml" 107 2961 2974 "namespace.ml" 107 2961 2979
+type(
+  scope
+)
+ident(
+  def scope "namespace.ml" 107 2961 2989 "namespace.ml" 107 2961 3030
+)
+"namespace.ml" 107 2961 2980 "namespace.ml" 107 2961 2984
+type(
+  'a ctx
+)
+ident(
+  def ctx' "namespace.ml" 107 2961 2989 "namespace.ml" 107 2961 3030
+)
+"namespace.ml" 107 2961 2965 "namespace.ml" 107 2961 2985
+type(
+  'a ctx
+)
+"namespace.ml" 107 2961 2989 "namespace.ml" 107 2961 3003
+type(
+  scope -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_scope_ "namespace.ml" 111 3071 3075 "namespace.ml" 111 3071 3089
+)
+"namespace.ml" 107 2961 3004 "namespace.ml" 107 2961 3009
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 107 2961 2974 "namespace.ml" 107 2961 2979
+)
+"namespace.ml" 107 2961 3011 "namespace.ml" 107 2961 3015
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx' "namespace.ml" 107 2961 2980 "namespace.ml" 107 2961 2984
+)
+"namespace.ml" 107 2961 3016 "namespace.ml" 107 2961 3017
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 101 2693 2709 "namespace.ml" 101 2693 2710
+)
+"namespace.ml" 107 2961 3010 "namespace.ml" 107 2961 3018
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 107 2961 3019 "namespace.ml" 107 2961 3030
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 101 2693 2712 "namespace.ml" 101 2693 2723
+)
+"namespace.ml" 107 2961 2989 "namespace.ml" 107 2961 3030
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 101 2693 2726 "namespace.ml" 107 2961 3030
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 109 3032 3036 "namespace.ml" 109 3032 3048
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  def leave_scope_ "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 109 3032 3049 "namespace.ml" 109 3032 3050
+type(
+  'a ctx * 'a t
+)
+ident(
+  def c "namespace.ml" 109 3032 3051 "namespace.ml" 109 3032 3069
+)
+"namespace.ml" 109 3032 3051 "namespace.ml" 109 3032 3053
+type(
+  scope list
+)
+ident(
+  def bt "namespace.ml" 109 3032 3056 "namespace.ml" 109 3032 3069
+)
+"namespace.ml" 109 3032 3056 "namespace.ml" 109 3032 3064
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_up_ "namespace.ml" 101 2693 2697 "namespace.ml" 101 2693 2705
+)
+"namespace.ml" 109 3032 3065 "namespace.ml" 109 3032 3066
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref c "namespace.ml" 109 3032 3049 "namespace.ml" 109 3032 3050
+)
+"namespace.ml" 109 3032 3067 "namespace.ml" 109 3032 3069
+type(
+  scope list
+)
+ident(
+  int_ref bt "namespace.ml" 109 3032 3051 "namespace.ml" 109 3032 3053
+)
+"namespace.ml" 109 3032 3056 "namespace.ml" 109 3032 3069
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 111 3071 3075 "namespace.ml" 111 3071 3089
+type(
+  scope -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  def move_to_scope_ "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 111 3071 3090 "namespace.ml" 111 3071 3091
+type(
+  scope
+)
+ident(
+  def s "namespace.ml" 111 3071 3092 "namespace.ml" 125 3607 3673
+)
+"namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 111 3071 3097 "namespace.ml" 125 3607 3673
+)
+"namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
+type(
+  scope list
+)
+ident(
+  def been_theres "namespace.ml" 114 3224 3226 "namespace.ml" 125 3607 3673
+)
+"namespace.ml" 114 3224 3234 "namespace.ml" 114 3224 3240
+type(
+  Utils.StrMap.key list -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+"namespace.ml" 114 3224 3241 "namespace.ml" 114 3224 3246
+type(
+  Utils.StrMap.key list
+)
+ident(
+  def scope "namespace.ml" 114 3224 3247 "namespace.ml" 117 3349 3409
+)
+"namespace.ml" 114 3224 3247 "namespace.ml" 114 3224 3251
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 114 3224 3254 "namespace.ml" 117 3349 3409
+)
+"namespace.ml" 114 3224 3260 "namespace.ml" 114 3224 3265
+type(
+  Utils.StrMap.key list
+)
+ident(
+  int_ref scope "namespace.ml" 114 3224 3241 "namespace.ml" 114 3224 3246
+)
+"namespace.ml" 115 3271 3277 "namespace.ml" 115 3271 3279
+type(
+  Utils.StrMap.key list
+)
+"namespace.ml" 115 3271 3283 "namespace.ml" 115 3271 3287
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 114 3224 3247 "namespace.ml" 114 3224 3251
+)
+"namespace.ml" 116 3288 3294 "namespace.ml" 116 3288 3298
+type(
+  Utils.StrMap.key
+)
+"namespace.ml" 116 3288 3300 "namespace.ml" 116 3288 3302
+type(
+  Utils.StrMap.key list
+)
+ident(
+  def tl "namespace.ml" 116 3288 3307 "namespace.ml" 116 3288 3348
+)
+"namespace.ml" 116 3288 3294 "namespace.ml" 116 3288 3302
+type(
+  Utils.StrMap.key list
+)
+"namespace.ml" 116 3288 3307 "namespace.ml" 116 3288 3313
+type(
+  Utils.StrMap.key list -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref helper "namespace.ml" 114 3224 3234 "namespace.ml" 114 3224 3240
+)
+"namespace.ml" 116 3288 3314 "namespace.ml" 116 3288 3316
+type(
+  Utils.StrMap.key list
+)
+ident(
+  int_ref tl "namespace.ml" 116 3288 3300 "namespace.ml" 116 3288 3302
+)
+"namespace.ml" 116 3288 3318 "namespace.ml" 116 3288 3330
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref leave_scope_ "namespace.ml" 109 3032 3036 "namespace.ml" 109 3032 3048
+)
+"namespace.ml" 116 3288 3331 "namespace.ml" 116 3288 3335
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 114 3224 3247 "namespace.ml" 114 3224 3251
+)
+"namespace.ml" 116 3288 3336 "namespace.ml" 116 3288 3347
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
+)
+"namespace.ml" 116 3288 3317 "namespace.ml" 116 3288 3348
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 116 3288 3307 "namespace.ml" 116 3288 3348
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 117 3349 3355 "namespace.ml" 117 3349 3357
+type(
+  Utils.StrMap.key
+)
+ident(
+  def hd "namespace.ml" 117 3349 3365 "namespace.ml" 117 3349 3409
+)
+"namespace.ml" 117 3349 3359 "namespace.ml" 117 3349 3361
+type(
+  Utils.StrMap.key list
+)
+ident(
+  def tl "namespace.ml" 117 3349 3365 "namespace.ml" 117 3349 3409
+)
+"namespace.ml" 117 3349 3355 "namespace.ml" 117 3349 3361
+type(
+  Utils.StrMap.key list
+)
+"namespace.ml" 117 3349 3365 "namespace.ml" 117 3349 3371
+type(
+  Utils.StrMap.key list -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref helper "namespace.ml" 114 3224 3234 "namespace.ml" 114 3224 3240
+)
+"namespace.ml" 117 3349 3372 "namespace.ml" 117 3349 3374
+type(
+  Utils.StrMap.key list
+)
+ident(
+  int_ref tl "namespace.ml" 117 3349 3359 "namespace.ml" 117 3349 3361
+)
+"namespace.ml" 117 3349 3376 "namespace.ml" 117 3349 3388
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref enter_scope_ "namespace.ml" 78 1877 1885 "namespace.ml" 78 1877 1897
+)
+"namespace.ml" 117 3349 3389 "namespace.ml" 117 3349 3391
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref hd "namespace.ml" 117 3349 3355 "namespace.ml" 117 3349 3357
+)
+"namespace.ml" 117 3349 3392 "namespace.ml" 117 3349 3396
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 114 3224 3247 "namespace.ml" 114 3224 3251
+)
+"namespace.ml" 117 3349 3397 "namespace.ml" 117 3349 3408
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
+)
+"namespace.ml" 117 3349 3375 "namespace.ml" 117 3349 3409
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 117 3349 3365 "namespace.ml" 117 3349 3409
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 114 3224 3254 "namespace.ml" 117 3349 3409
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 119 3415 3425 "namespace.ml" 119 3415 3426
+type(
+  scope
+)
+ident(
+  int_ref s "namespace.ml" 111 3071 3090 "namespace.ml" 111 3071 3091
+)
+"namespace.ml" 120 3432 3455 "namespace.ml" 120 3432 3457
+type(
+  Utils.StrMap.key list
+)
+ident(
+  def sl "namespace.ml" 120 3432 3461 "namespace.ml" 120 3432 3490
+)
+"namespace.ml" 120 3432 3440 "namespace.ml" 120 3432 3457
+type(
+  scope
+)
+"namespace.ml" 120 3432 3461 "namespace.ml" 120 3432 3467
+type(
+  Utils.StrMap.key list -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref helper "namespace.ml" 114 3224 3234 "namespace.ml" 114 3224 3240
+)
+"namespace.ml" 120 3432 3468 "namespace.ml" 120 3432 3470
+type(
+  Utils.StrMap.key list
+)
+ident(
+  int_ref sl "namespace.ml" 120 3432 3455 "namespace.ml" 120 3432 3457
+)
+"namespace.ml" 120 3432 3472 "namespace.ml" 120 3432 3484
+type(
+  'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_root "namespace.ml" 131 3774 3778 "namespace.ml" 131 3774 3790
+)
+"namespace.ml" 120 3432 3485 "namespace.ml" 120 3432 3489
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
+)
+"namespace.ml" 120 3432 3471 "namespace.ml" 120 3432 3490
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 120 3432 3461 "namespace.ml" 120 3432 3490
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 121 3491 3514 "namespace.ml" 121 3491 3516
+type(
+  Utils.StrMap.key list
+)
+ident(
+  def sl "namespace.ml" 122 3521 3524 "namespace.ml" 125 3607 3673
+)
+"namespace.ml" 121 3491 3499 "namespace.ml" 121 3491 3516
+type(
+  scope
+)
+"namespace.ml" 122 3521 3528 "namespace.ml" 122 3521 3534
+type(
+  Utils.StrMap.key list -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref helper "namespace.ml" 114 3224 3234 "namespace.ml" 114 3224 3240
+)
+"namespace.ml" 122 3521 3535 "namespace.ml" 122 3521 3537
+type(
+  Utils.StrMap.key list
+)
+ident(
+  int_ref sl "namespace.ml" 121 3491 3514 "namespace.ml" 121 3491 3516
+)
+"namespace.ml" 122 3521 3538 "namespace.ml" 122 3521 3542
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
+)
+"namespace.ml" 122 3521 3528 "namespace.ml" 122 3521 3542
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 123 3543 3551 "namespace.ml" 123 3543 3560
+type(
+  exn
+)
+"namespace.ml" 124 3565 3573 "namespace.ml" 124 3565 3580
+type(
+  'a ctx * 'a t -> bool
+)
+ident(
+  int_ref at_root "namespace.ml" 32 557 561 "namespace.ml" 32 557 568
+)
+"namespace.ml" 124 3565 3581 "namespace.ml" 124 3565 3585
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
+)
+"namespace.ml" 124 3565 3573 "namespace.ml" 124 3565 3585
+type(
+  bool
+)
+"namespace.ml" 124 3565 3591 "namespace.ml" 124 3565 3596
+type(
+  exn -> 'a ctx * 'a t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"namespace.ml" 124 3565 3597 "namespace.ml" 124 3565 3606
+type(
+  exn
+)
+"namespace.ml" 124 3565 3591 "namespace.ml" 124 3565 3606
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 125 3607 3617 "namespace.ml" 125 3607 3631
+type(
+  scope -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_scope_ "namespace.ml" 111 3071 3075 "namespace.ml" 111 3071 3089
+)
+"namespace.ml" 125 3607 3632 "namespace.ml" 125 3607 3633
+type(
+  scope
+)
+ident(
+  int_ref s "namespace.ml" 111 3071 3090 "namespace.ml" 111 3071 3091
+)
+"namespace.ml" 125 3607 3635 "namespace.ml" 125 3607 3643
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_up_ "namespace.ml" 101 2693 2697 "namespace.ml" 101 2693 2705
+)
+"namespace.ml" 125 3607 3644 "namespace.ml" 125 3607 3648
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 111 3071 3092 "namespace.ml" 111 3071 3096
+)
+"namespace.ml" 125 3607 3649 "namespace.ml" 125 3607 3660
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
+)
+"namespace.ml" 125 3607 3634 "namespace.ml" 125 3607 3661
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 125 3607 3662 "namespace.ml" 125 3607 3673
+type(
+  scope list
+)
+ident(
+  int_ref been_theres "namespace.ml" 111 3071 3097 "namespace.ml" 111 3071 3108
+)
+"namespace.ml" 125 3607 3617 "namespace.ml" 125 3607 3673
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 124 3565 3570 "namespace.ml" 125 3607 3673
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 122 3521 3524 "namespace.ml" 125 3607 3673
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 119 3415 3419 "namespace.ml" 125 3607 3673
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 114 3224 3226 "namespace.ml" 125 3607 3673
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 127 3675 3679 "namespace.ml" 127 3675 3690
+type(
+  'a ctx * 'a t -> 'a t
+)
+ident(
+  def from_cursor "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 127 3675 3693 "namespace.ml" 127 3675 3696
+type(
+  'a ctx
+)
+ident(
+  def ctx "namespace.ml" 127 3675 3708 "namespace.ml" 129 3736 3772
+)
+"namespace.ml" 127 3675 3697 "namespace.ml" 127 3675 3698
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 127 3675 3708 "namespace.ml" 129 3736 3772
+)
+"namespace.ml" 127 3675 3692 "namespace.ml" 127 3675 3699
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 127 3675 3691 "namespace.ml" 127 3675 3705
+type(
+  'a ctx * 'a t
+)
+ident(
+  def c "namespace.ml" 127 3675 3708 "namespace.ml" 129 3736 3772
+)
+"namespace.ml" 127 3675 3714 "namespace.ml" 127 3675 3717
+type(
+  'a ctx
+)
+ident(
+  int_ref ctx "namespace.ml" 127 3675 3693 "namespace.ml" 127 3675 3696
+)
+"namespace.ml" 128 3723 3727 "namespace.ml" 128 3723 3730
+type(
+  'a ctx
+)
+"namespace.ml" 128 3723 3734 "namespace.ml" 128 3723 3735
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 127 3675 3697 "namespace.ml" 127 3675 3698
+)
+"namespace.ml" 129 3736 3740 "namespace.ml" 129 3736 3741
+type(
+  'a ctx
+)
+"namespace.ml" 129 3736 3745 "namespace.ml" 129 3736 3756
+type(
+  'a ctx * 'a t -> 'a t
+)
+ident(
+  int_ref from_cursor "namespace.ml" 127 3675 3679 "namespace.ml" 127 3675 3690
+)
+"namespace.ml" 129 3736 3758 "namespace.ml" 129 3736 3766
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_up_ "namespace.ml" 101 2693 2697 "namespace.ml" 101 2693 2705
+)
+"namespace.ml" 129 3736 3767 "namespace.ml" 129 3736 3768
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref c "namespace.ml" 127 3675 3691 "namespace.ml" 127 3675 3705
+)
+"namespace.ml" 129 3736 3769 "namespace.ml" 129 3736 3771
+type(
+  scope list
+)
+"namespace.ml" 129 3736 3757 "namespace.ml" 129 3736 3772
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 129 3736 3745 "namespace.ml" 129 3736 3772
+type(
+  'a t
+)
+"namespace.ml" 127 3675 3708 "namespace.ml" 129 3736 3772
+type(
+  'a t
+)
+"namespace.ml" 131 3774 3778 "namespace.ml" 131 3774 3790
+type(
+  'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  def move_to_root "namespace.ml" 78 1877 1877 --
+)
+"namespace.ml" 131 3774 3791 "namespace.ml" 131 3774 3795
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 131 3774 3798 "namespace.ml" 131 3774 3826
+)
+"namespace.ml" 131 3774 3798 "namespace.ml" 131 3774 3807
+type(
+  'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref to_cursor "namespace.ml" 26 462 466 "namespace.ml" 26 462 475
+)
+"namespace.ml" 131 3774 3809 "namespace.ml" 131 3774 3820
+type(
+  'a ctx * 'a t -> 'a t
+)
+ident(
+  int_ref from_cursor "namespace.ml" 127 3675 3679 "namespace.ml" 127 3675 3690
+)
+"namespace.ml" 131 3774 3821 "namespace.ml" 131 3774 3825
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 131 3774 3791 "namespace.ml" 131 3774 3795
+)
+"namespace.ml" 131 3774 3808 "namespace.ml" 131 3774 3826
+type(
+  'a t
+)
+"namespace.ml" 131 3774 3798 "namespace.ml" 131 3774 3826
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 133 3828 3832 "namespace.ml" 133 3828 3843
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  def enter_scope "namespace.ml" 134 3876 3876 --
+)
+"namespace.ml" 133 3828 3844 "namespace.ml" 133 3828 3845
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "namespace.ml" 133 3828 3846 "namespace.ml" 133 3828 3875
+)
+"namespace.ml" 133 3828 3846 "namespace.ml" 133 3828 3850
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 133 3828 3853 "namespace.ml" 133 3828 3875
+)
+"namespace.ml" 133 3828 3853 "namespace.ml" 133 3828 3865
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref enter_scope_ "namespace.ml" 78 1877 1885 "namespace.ml" 78 1877 1897
+)
+"namespace.ml" 133 3828 3866 "namespace.ml" 133 3828 3867
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "namespace.ml" 133 3828 3844 "namespace.ml" 133 3828 3845
+)
+"namespace.ml" 133 3828 3868 "namespace.ml" 133 3828 3872
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 133 3828 3846 "namespace.ml" 133 3828 3850
+)
+"namespace.ml" 133 3828 3873 "namespace.ml" 133 3828 3875
+type(
+  scope list
+)
+"namespace.ml" 133 3828 3853 "namespace.ml" 133 3828 3875
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 134 3876 3880 "namespace.ml" 134 3876 3887
+type(
+  'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  def move_up "namespace.ml" 135 3912 3912 --
+)
+"namespace.ml" 134 3876 3888 "namespace.ml" 134 3876 3892
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 134 3876 3895 "namespace.ml" 134 3876 3911
+)
+"namespace.ml" 134 3876 3895 "namespace.ml" 134 3876 3903
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_up_ "namespace.ml" 101 2693 2697 "namespace.ml" 101 2693 2705
+)
+"namespace.ml" 134 3876 3904 "namespace.ml" 134 3876 3908
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 134 3876 3888 "namespace.ml" 134 3876 3892
+)
+"namespace.ml" 134 3876 3909 "namespace.ml" 134 3876 3911
+type(
+  scope list
+)
+"namespace.ml" 134 3876 3895 "namespace.ml" 134 3876 3911
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+type(
+  scope -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  def move_to_scope "namespace.ml" 136 3964 3964 --
+)
+"namespace.ml" 135 3912 3930 "namespace.ml" 135 3912 3931
+type(
+  scope
+)
+ident(
+  def s "namespace.ml" 135 3912 3932 "namespace.ml" 135 3912 3963
+)
+"namespace.ml" 135 3912 3932 "namespace.ml" 135 3912 3936
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 135 3912 3939 "namespace.ml" 135 3912 3963
+)
+"namespace.ml" 135 3912 3939 "namespace.ml" 135 3912 3953
+type(
+  scope -> 'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_scope_ "namespace.ml" 111 3071 3075 "namespace.ml" 111 3071 3089
+)
+"namespace.ml" 135 3912 3954 "namespace.ml" 135 3912 3955
+type(
+  scope
+)
+ident(
+  int_ref s "namespace.ml" 135 3912 3930 "namespace.ml" 135 3912 3931
+)
+"namespace.ml" 135 3912 3956 "namespace.ml" 135 3912 3960
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 135 3912 3932 "namespace.ml" 135 3912 3936
+)
+"namespace.ml" 135 3912 3961 "namespace.ml" 135 3912 3963
+type(
+  scope list
+)
+"namespace.ml" 135 3912 3939 "namespace.ml" 135 3912 3963
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 136 3964 3968 "namespace.ml" 136 3964 3979
+type(
+  'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  def leave_scope "namespace.ml" 138 4003 4003 --
+)
+"namespace.ml" 136 3964 3980 "namespace.ml" 136 3964 3981
+type(
+  'a ctx * 'a t
+)
+ident(
+  def c "namespace.ml" 136 3964 3984 "namespace.ml" 136 3964 4001
+)
+"namespace.ml" 136 3964 3984 "namespace.ml" 136 3964 3996
+type(
+  'a ctx * 'a t -> scope list -> 'a ctx * 'a t
+)
+ident(
+  int_ref leave_scope_ "namespace.ml" 109 3032 3036 "namespace.ml" 109 3032 3048
+)
+"namespace.ml" 136 3964 3997 "namespace.ml" 136 3964 3998
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref c "namespace.ml" 136 3964 3980 "namespace.ml" 136 3964 3981
+)
+"namespace.ml" 136 3964 3999 "namespace.ml" 136 3964 4001
+type(
+  scope list
+)
+"namespace.ml" 136 3964 3984 "namespace.ml" 136 3964 4001
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 138 4003 4007 "namespace.ml" 138 4003 4022
+type(
+  Utils.StrMap.key -> 'a t -> 'a t -> 'a t
+)
+ident(
+  def add_new_subtree "namespace.ml" 146 4244 4244 --
+)
+"namespace.ml" 138 4003 4023 "namespace.ml" 138 4003 4027
+type(
+  Utils.StrMap.key
+)
+ident(
+  def name "namespace.ml" 138 4003 4028 "namespace.ml" 144 4201 4242
+)
+"namespace.ml" 138 4003 4028 "namespace.ml" 138 4003 4032
+type(
+  'a t
+)
+ident(
+  def subt "namespace.ml" 138 4003 4033 "namespace.ml" 144 4201 4242
+)
+"namespace.ml" 138 4003 4033 "namespace.ml" 138 4003 4034
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 138 4003 4037 "namespace.ml" 144 4201 4242
+)
+"namespace.ml" 138 4003 4043 "namespace.ml" 138 4003 4044
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 138 4003 4033 "namespace.ml" 138 4003 4034
+)
+"namespace.ml" 139 4050 4059 "namespace.ml" 139 4050 4060
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 140 4070 4076 "namespace.ml" 141 4104 4148
+)
+"namespace.ml" 139 4050 4061 "namespace.ml" 139 4050 4062
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 140 4070 4076 "namespace.ml" 141 4104 4148
+)
+"namespace.ml" 139 4050 4063 "namespace.ml" 139 4050 4064
+type(
+  'a
+)
+ident(
+  def d "namespace.ml" 140 4070 4076 "namespace.ml" 141 4104 4148
+)
+"namespace.ml" 139 4050 4054 "namespace.ml" 139 4050 4065
+type(
+  'a t
+)
+"namespace.ml" 140 4070 4079 "namespace.ml" 140 4070 4089
+type(
+  Utils.StrMap.key -> 'a t Utils.StrMap.t -> bool
+)
+ident(
+  ext_ref Utils.StrMap.mem
+)
+"namespace.ml" 140 4070 4090 "namespace.ml" 140 4070 4094
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 138 4003 4023 "namespace.ml" 138 4003 4027
+)
+"namespace.ml" 140 4070 4095 "namespace.ml" 140 4070 4096
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 139 4050 4059 "namespace.ml" 139 4050 4060
+)
+"namespace.ml" 140 4070 4079 "namespace.ml" 140 4070 4096
+type(
+  bool
+)
+"namespace.ml" 140 4070 4102 "namespace.ml" 140 4070 4103
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 138 4003 4033 "namespace.ml" 138 4003 4034
+)
+"namespace.ml" 141 4104 4121 "namespace.ml" 141 4104 4131
+type(
+  Utils.StrMap.key -> 'a t -> 'a t Utils.StrMap.t -> 'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"namespace.ml" 141 4104 4132 "namespace.ml" 141 4104 4136
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 138 4003 4023 "namespace.ml" 138 4003 4027
+)
+"namespace.ml" 141 4104 4137 "namespace.ml" 141 4104 4141
+type(
+  'a t
+)
+ident(
+  int_ref subt "namespace.ml" 138 4003 4028 "namespace.ml" 138 4003 4032
+)
+"namespace.ml" 141 4104 4142 "namespace.ml" 141 4104 4143
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 139 4050 4059 "namespace.ml" 139 4050 4060
+)
+"namespace.ml" 141 4104 4121 "namespace.ml" 141 4104 4143
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 141 4104 4144 "namespace.ml" 141 4104 4145
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 139 4050 4061 "namespace.ml" 139 4050 4062
+)
+"namespace.ml" 141 4104 4146 "namespace.ml" 141 4104 4147
+type(
+  'a
+)
+ident(
+  int_ref d "namespace.ml" 139 4050 4063 "namespace.ml" 139 4050 4064
+)
+"namespace.ml" 141 4104 4115 "namespace.ml" 141 4104 4148
+type(
+  'a t
+)
+"namespace.ml" 140 4070 4076 "namespace.ml" 141 4104 4148
+type(
+  'a t
+)
+"namespace.ml" 142 4149 4158 "namespace.ml" 142 4149 4159
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 143 4167 4173 "namespace.ml" 144 4201 4242
+)
+"namespace.ml" 142 4149 4160 "namespace.ml" 142 4149 4161
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 143 4167 4173 "namespace.ml" 144 4201 4242
+)
+"namespace.ml" 142 4149 4153 "namespace.ml" 142 4149 4162
+type(
+  'a t
+)
+"namespace.ml" 143 4167 4176 "namespace.ml" 143 4167 4186
+type(
+  Utils.StrMap.key -> 'a t Utils.StrMap.t -> bool
+)
+ident(
+  ext_ref Utils.StrMap.mem
+)
+"namespace.ml" 143 4167 4187 "namespace.ml" 143 4167 4191
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 138 4003 4023 "namespace.ml" 138 4003 4027
+)
+"namespace.ml" 143 4167 4192 "namespace.ml" 143 4167 4193
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 142 4149 4158 "namespace.ml" 142 4149 4159
+)
+"namespace.ml" 143 4167 4176 "namespace.ml" 143 4167 4193
+type(
+  bool
+)
+"namespace.ml" 143 4167 4199 "namespace.ml" 143 4167 4200
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 138 4003 4033 "namespace.ml" 138 4003 4034
+)
+"namespace.ml" 144 4201 4217 "namespace.ml" 144 4201 4227
+type(
+  Utils.StrMap.key -> 'a t -> 'a t Utils.StrMap.t -> 'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"namespace.ml" 144 4201 4228 "namespace.ml" 144 4201 4232
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 138 4003 4023 "namespace.ml" 138 4003 4027
+)
+"namespace.ml" 144 4201 4233 "namespace.ml" 144 4201 4237
+type(
+  'a t
+)
+ident(
+  int_ref subt "namespace.ml" 138 4003 4028 "namespace.ml" 138 4003 4032
+)
+"namespace.ml" 144 4201 4238 "namespace.ml" 144 4201 4239
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 142 4149 4158 "namespace.ml" 142 4149 4159
+)
+"namespace.ml" 144 4201 4217 "namespace.ml" 144 4201 4239
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 144 4201 4240 "namespace.ml" 144 4201 4241
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 142 4149 4160 "namespace.ml" 142 4149 4161
+)
+"namespace.ml" 144 4201 4212 "namespace.ml" 144 4201 4242
+type(
+  'a t
+)
+"namespace.ml" 143 4167 4173 "namespace.ml" 144 4201 4242
+type(
+  'a t
+)
+"namespace.ml" 138 4003 4037 "namespace.ml" 144 4201 4242
+type(
+  'a t
+)
+"namespace.ml" 146 4244 4248 "namespace.ml" 146 4244 4266
+type(
+  Utils.StrMap.key -> 'a t -> 'b ctx * 'a t -> 'b ctx * 'a t
+)
+ident(
+  def add_cursor_subtree "namespace.ml" 154 4524 4524 --
+)
+"namespace.ml" 146 4244 4267 "namespace.ml" 146 4244 4271
+type(
+  Utils.StrMap.key
+)
+ident(
+  def name "namespace.ml" 146 4244 4272 "namespace.ml" 152 4467 4516
+)
+"namespace.ml" 146 4244 4272 "namespace.ml" 146 4244 4276
+type(
+  'a t
+)
+ident(
+  def subt "namespace.ml" 146 4244 4277 "namespace.ml" 152 4467 4516
+)
+"namespace.ml" 146 4244 4279 "namespace.ml" 146 4244 4280
+type(
+  'b ctx
+)
+ident(
+  def c "namespace.ml" 147 4296 4298 "namespace.ml" 152 4467 4516
+)
+"namespace.ml" 146 4244 4281 "namespace.ml" 146 4244 4282
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 147 4296 4298 "namespace.ml" 152 4467 4516
+)
+"namespace.ml" 146 4244 4278 "namespace.ml" 146 4244 4283
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 146 4244 4277 "namespace.ml" 146 4244 4292
+type(
+  'b ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 147 4296 4298 "namespace.ml" 152 4467 4516
+)
+"namespace.ml" 148 4303 4311 "namespace.ml" 148 4303 4313
+type(
+  'a t
+)
+ident(
+  def t' "namespace.ml" 149 4347 4353 "namespace.ml" 149 4347 4383
+)
+"namespace.ml" 148 4303 4316 "namespace.ml" 148 4303 4331
+type(
+  Utils.StrMap.key -> 'a t -> 'a t -> 'a t
+)
+ident(
+  int_ref add_new_subtree "namespace.ml" 138 4003 4007 "namespace.ml" 138 4003 4022
+)
+"namespace.ml" 148 4303 4332 "namespace.ml" 148 4303 4336
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 146 4244 4267 "namespace.ml" 146 4244 4271
+)
+"namespace.ml" 148 4303 4337 "namespace.ml" 148 4303 4341
+type(
+  'a t
+)
+ident(
+  int_ref subt "namespace.ml" 146 4244 4272 "namespace.ml" 146 4244 4276
+)
+"namespace.ml" 148 4303 4342 "namespace.ml" 148 4303 4343
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 146 4244 4281 "namespace.ml" 146 4244 4282
+)
+"namespace.ml" 148 4303 4316 "namespace.ml" 148 4303 4343
+type(
+  'a t
+)
+"namespace.ml" 149 4347 4356 "namespace.ml" 149 4347 4358
+type(
+  'a t
+)
+ident(
+  int_ref t' "namespace.ml" 148 4303 4311 "namespace.ml" 148 4303 4313
+)
+"namespace.ml" 149 4347 4359 "namespace.ml" 149 4347 4361
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"namespace.ml" 149 4347 4362 "namespace.ml" 149 4347 4363
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 146 4244 4281 "namespace.ml" 146 4244 4282
+)
+"namespace.ml" 149 4347 4356 "namespace.ml" 149 4347 4363
+type(
+  bool
+)
+"namespace.ml" 149 4347 4369 "namespace.ml" 149 4347 4373
+type(
+  'b ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 146 4244 4277 "namespace.ml" 146 4244 4292
+)
+"namespace.ml" 149 4347 4379 "namespace.ml" 149 4347 4380
+type(
+  'b ctx
+)
+ident(
+  int_ref c "namespace.ml" 146 4244 4279 "namespace.ml" 146 4244 4280
+)
+"namespace.ml" 149 4347 4381 "namespace.ml" 149 4347 4383
+type(
+  'a t
+)
+ident(
+  int_ref t' "namespace.ml" 148 4303 4311 "namespace.ml" 148 4303 4313
+)
+"namespace.ml" 149 4347 4379 "namespace.ml" 149 4347 4383
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 149 4347 4353 "namespace.ml" 149 4347 4383
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 148 4303 4307 "namespace.ml" 149 4347 4383
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 150 4384 4399 "namespace.ml" 150 4384 4400
+type(
+  string
+)
+"namespace.ml" 150 4384 4391 "namespace.ml" 150 4384 4400
+type(
+  exn
+)
+"namespace.ml" 151 4404 4408 "namespace.ml" 151 4404 4417
+type(
+  Log.ctx ->
+  (Utils.StrMap.key -> string -> 'b ctx * 'a t, Format.formatter, unit,
+   'b ctx * 'a t)
+  format4 -> Utils.StrMap.key -> string -> 'b ctx * 'a t
+)
+ident(
+  ext_ref Log.fatal
+)
+"namespace.ml" 151 4404 4418 "namespace.ml" 151 4404 4427
+type(
+  Log.ctx
+)
+ident(
+  ext_ref Log.empty
+)
+"namespace.ml" 151 4404 4428 "namespace.ml" 151 4404 4466
+type(
+  (Utils.StrMap.key -> string -> 'b ctx * 'a t, Format.formatter, unit,
+   'b ctx * 'a t)
+  format4
+)
+"namespace.ml" 152 4467 4473 "namespace.ml" 152 4467 4477
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref name "namespace.ml" 146 4244 4267 "namespace.ml" 146 4244 4271
+)
+"namespace.ml" 152 4467 4479 "namespace.ml" 152 4467 4494
+type(
+  scope -> string
+)
+ident(
+  int_ref string_of_scope "namespace.ml" 34 610 618 "namespace.ml" 34 610 633
+)
+"namespace.ml" 152 4467 4496 "namespace.ml" 152 4467 4509
+type(
+  'b ctx * 'a t -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 152 4467 4510 "namespace.ml" 152 4467 4514
+type(
+  'b ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 146 4244 4277 "namespace.ml" 146 4244 4292
+)
+"namespace.ml" 152 4467 4495 "namespace.ml" 152 4467 4515
+type(
+  scope
+)
+"namespace.ml" 152 4467 4478 "namespace.ml" 152 4467 4516
+type(
+  string
+)
+"namespace.ml" 151 4404 4408 "namespace.ml" 152 4467 4516
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 147 4296 4298 "namespace.ml" 152 4467 4516
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 154 4524 4528 "namespace.ml" 154 4524 4531
+type(
+  Utils.StrMap.key -> 'a -> 'b ctx * 'a t -> 'b ctx * 'a t
+)
+ident(
+  def add "namespace.ml" 157 4619 4619 --
+)
+"namespace.ml" 154 4524 4532 "namespace.ml" 154 4524 4539
+type(
+  Utils.StrMap.key
+)
+ident(
+  def binding "namespace.ml" 154 4524 4540 "namespace.ml" 155 4554 4617
+)
+"namespace.ml" 154 4524 4540 "namespace.ml" 154 4524 4545
+type(
+  'a
+)
+ident(
+  def value "namespace.ml" 154 4524 4546 "namespace.ml" 155 4554 4617
+)
+"namespace.ml" 154 4524 4546 "namespace.ml" 154 4524 4550
+type(
+  'b ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 155 4554 4556 "namespace.ml" 155 4554 4617
+)
+"namespace.ml" 155 4554 4556 "namespace.ml" 155 4554 4574
+type(
+  Utils.StrMap.key -> 'a t -> 'b ctx * 'a t -> 'b ctx * 'a t
+)
+ident(
+  int_ref add_cursor_subtree "namespace.ml" 146 4244 4248 "namespace.ml" 146 4244 4266
+)
+"namespace.ml" 155 4554 4575 "namespace.ml" 155 4554 4582
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref binding "namespace.ml" 154 4524 4532 "namespace.ml" 154 4524 4539
+)
+"namespace.ml" 155 4554 4589 "namespace.ml" 155 4554 4601
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"namespace.ml" 155 4554 4602 "namespace.ml" 155 4554 4604
+type(
+  links
+)
+"namespace.ml" 155 4554 4605 "namespace.ml" 155 4554 4610
+type(
+  'a
+)
+ident(
+  int_ref value "namespace.ml" 154 4524 4540 "namespace.ml" 154 4524 4545
+)
+"namespace.ml" 155 4554 4583 "namespace.ml" 155 4554 4612
+type(
+  'a t
+)
+"namespace.ml" 155 4554 4613 "namespace.ml" 155 4554 4617
+type(
+  'b ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 154 4524 4546 "namespace.ml" 154 4524 4550
+)
+"namespace.ml" 155 4554 4556 "namespace.ml" 155 4554 4617
+type(
+  'b ctx * 'a t
+)
+"namespace.ml" 157 4619 4623 "namespace.ml" 157 4619 4631
+type(
+  scope -> 'a ctx * 'b t -> 'a ctx * 'b t
+)
+ident(
+  def add_link "namespace.ml" 170 5088 5088 --
+)
+"namespace.ml" 157 4619 4632 "namespace.ml" 157 4619 4637
+type(
+  scope
+)
+ident(
+  def scope "namespace.ml" 157 4619 4638 "namespace.ml" 168 5079 5086
+)
+"namespace.ml" 157 4619 4640 "namespace.ml" 157 4619 4641
+type(
+  'a ctx
+)
+ident(
+  def c "namespace.ml" 158 4657 4659 "namespace.ml" 168 5079 5086
+)
+"namespace.ml" 157 4619 4642 "namespace.ml" 157 4619 4643
+type(
+  'b t
+)
+ident(
+  def t "namespace.ml" 158 4657 4659 "namespace.ml" 168 5079 5086
+)
+"namespace.ml" 157 4619 4639 "namespace.ml" 157 4619 4644
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
+type(
+  'a ctx * 'b t
+)
+ident(
+  def curs "namespace.ml" 158 4657 4659 "namespace.ml" 168 5079 5086
+)
+"namespace.ml" 158 4657 4663 "namespace.ml" 158 4657 4668
+type(
+  scope
+)
+"namespace.ml" 158 4657 4671 "namespace.ml" 158 4657 4685
+type(
+  scope -> 'a ctx * 'b t -> scope
+)
+ident(
+  int_ref absolute_scope "namespace.ml" 58 1297 1301 "namespace.ml" 58 1297 1315
+)
+"namespace.ml" 158 4657 4686 "namespace.ml" 158 4657 4691
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 157 4619 4632 "namespace.ml" 157 4619 4637
+)
+"namespace.ml" 158 4657 4692 "namespace.ml" 158 4657 4696
+type(
+  'a ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
+)
+"namespace.ml" 158 4657 4671 "namespace.ml" 158 4657 4696
+type(
+  scope
+)
+"namespace.ml" 159 4700 4706 "namespace.ml" 159 4700 4716
+type(
+  scope
+)
+"namespace.ml" 159 4700 4719 "namespace.ml" 159 4700 4732
+type(
+  'a ctx * 'b t -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 159 4700 4733 "namespace.ml" 159 4700 4737
+type(
+  'a ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
+)
+"namespace.ml" 159 4700 4719 "namespace.ml" 159 4700 4737
+type(
+  scope
+)
+"namespace.ml" 160 4741 4748 "namespace.ml" 160 4741 4753
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 158 4657 4663 "namespace.ml" 158 4657 4668
+)
+"namespace.ml" 160 4741 4754 "namespace.ml" 160 4741 4755
+type(
+  scope -> scope -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"namespace.ml" 160 4741 4756 "namespace.ml" 160 4741 4766
+type(
+  scope
+)
+ident(
+  int_ref this_scope "namespace.ml" 159 4700 4706 "namespace.ml" 159 4700 4716
+)
+"namespace.ml" 160 4741 4748 "namespace.ml" 160 4741 4766
+type(
+  bool
+)
+"namespace.ml" 160 4741 4772 "namespace.ml" 160 4741 4776
+type(
+  'a ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
+)
+"namespace.ml" 165 4916 4928 "namespace.ml" 165 4916 4929
+type(
+  'b t
+)
+ident(
+  int_ref t "namespace.ml" 157 4619 4642 "namespace.ml" 157 4619 4643
+)
+"namespace.ml" 166 4935 4943 "namespace.ml" 166 4935 4944
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 166 4935 4951 "namespace.ml" 166 4935 5004
+)
+"namespace.ml" 166 4935 4945 "namespace.ml" 166 4935 4946
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 166 4935 4951 "namespace.ml" 166 4935 5004
+)
+"namespace.ml" 166 4935 4938 "namespace.ml" 166 4935 4947
+type(
+  'b t
+)
+"namespace.ml" 166 4935 4954 "namespace.ml" 166 4935 4962
+type(
+  scope -> links -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"namespace.ml" 166 4935 4963 "namespace.ml" 166 4935 4968
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 158 4657 4663 "namespace.ml" 158 4657 4668
+)
+"namespace.ml" 166 4935 4969 "namespace.ml" 166 4935 4970
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 166 4935 4945 "namespace.ml" 166 4935 4946
+)
+"namespace.ml" 166 4935 4954 "namespace.ml" 166 4935 4970
+type(
+  bool
+)
+"namespace.ml" 166 4935 4976 "namespace.ml" 166 4935 4980
+type(
+  'a ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
+)
+"namespace.ml" 166 4935 4986 "namespace.ml" 166 4935 4987
+type(
+  'a ctx
+)
+ident(
+  int_ref c "namespace.ml" 157 4619 4640 "namespace.ml" 157 4619 4641
+)
+"namespace.ml" 166 4935 4993 "namespace.ml" 166 4935 4994
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 166 4935 4943 "namespace.ml" 166 4935 4944
+)
+"namespace.ml" 166 4935 4995 "namespace.ml" 166 4935 5000
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 158 4657 4663 "namespace.ml" 158 4657 4668
+)
+"namespace.ml" 166 4935 5002 "namespace.ml" 166 4935 5003
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 166 4935 4945 "namespace.ml" 166 4935 4946
+)
+"namespace.ml" 166 4935 4995 "namespace.ml" 166 4935 5003
+type(
+  links
+)
+"namespace.ml" 166 4935 4988 "namespace.ml" 166 4935 5004
+type(
+  'b t
+)
+"namespace.ml" 166 4935 4986 "namespace.ml" 166 4935 5004
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 166 4935 4951 "namespace.ml" 166 4935 5004
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 167 5005 5013 "namespace.ml" 167 5005 5014
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 167 5005 5023 "namespace.ml" 167 5005 5078
+)
+"namespace.ml" 167 5005 5015 "namespace.ml" 167 5005 5016
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 167 5005 5023 "namespace.ml" 167 5005 5078
+)
+"namespace.ml" 167 5005 5017 "namespace.ml" 167 5005 5018
+type(
+  'b
+)
+ident(
+  def d "namespace.ml" 167 5005 5023 "namespace.ml" 167 5005 5078
+)
+"namespace.ml" 167 5005 5008 "namespace.ml" 167 5005 5019
+type(
+  'b t
+)
+"namespace.ml" 167 5005 5026 "namespace.ml" 167 5005 5034
+type(
+  scope -> links -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"namespace.ml" 167 5005 5035 "namespace.ml" 167 5005 5040
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 158 4657 4663 "namespace.ml" 158 4657 4668
+)
+"namespace.ml" 167 5005 5041 "namespace.ml" 167 5005 5042
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 167 5005 5015 "namespace.ml" 167 5005 5016
+)
+"namespace.ml" 167 5005 5026 "namespace.ml" 167 5005 5042
+type(
+  bool
+)
+"namespace.ml" 167 5005 5048 "namespace.ml" 167 5005 5052
+type(
+  'a ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 157 4619 4638 "namespace.ml" 157 4619 4653
+)
+"namespace.ml" 167 5005 5058 "namespace.ml" 167 5005 5059
+type(
+  'a ctx
+)
+ident(
+  int_ref c "namespace.ml" 157 4619 4640 "namespace.ml" 157 4619 4641
+)
+"namespace.ml" 167 5005 5065 "namespace.ml" 167 5005 5066
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 167 5005 5013 "namespace.ml" 167 5005 5014
+)
+"namespace.ml" 167 5005 5067 "namespace.ml" 167 5005 5072
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 158 4657 4663 "namespace.ml" 158 4657 4668
+)
+"namespace.ml" 167 5005 5074 "namespace.ml" 167 5005 5075
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 167 5005 5015 "namespace.ml" 167 5005 5016
+)
+"namespace.ml" 167 5005 5067 "namespace.ml" 167 5005 5075
+type(
+  links
+)
+"namespace.ml" 167 5005 5076 "namespace.ml" 167 5005 5077
+type(
+  'b
+)
+ident(
+  int_ref d "namespace.ml" 167 5005 5017 "namespace.ml" 167 5005 5018
+)
+"namespace.ml" 167 5005 5060 "namespace.ml" 167 5005 5078
+type(
+  'b t
+)
+"namespace.ml" 167 5005 5058 "namespace.ml" 167 5005 5078
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 167 5005 5023 "namespace.ml" 167 5005 5078
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 161 4777 4786 "namespace.ml" 168 5079 5086
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 160 4741 4745 "namespace.ml" 168 5079 5086
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 159 4700 4702 "namespace.ml" 168 5079 5086
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 158 4657 4659 "namespace.ml" 168 5079 5086
+type(
+  'a ctx * 'b t
+)
+"namespace.ml" 170 5088 5092 "namespace.ml" 170 5088 5099
+type(
+  Utils.StrMap.key -> 'a -> 'b * 'a t -> 'b * 'a t
+)
+ident(
+  def replace "namespace.ml" 174 5273 5273 --
+)
+"namespace.ml" 170 5088 5100 "namespace.ml" 170 5088 5101
+type(
+  Utils.StrMap.key
+)
+ident(
+  def b "namespace.ml" 170 5088 5102 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 170 5088 5102 "namespace.ml" 170 5088 5103
+type(
+  'a
+)
+ident(
+  def v "namespace.ml" 170 5088 5104 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 170 5088 5105 "namespace.ml" 170 5088 5106
+type(
+  'b
+)
+ident(
+  def c "namespace.ml" 170 5088 5112 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 170 5088 5107 "namespace.ml" 170 5088 5108
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 170 5088 5112 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 170 5088 5104 "namespace.ml" 170 5088 5109
+type(
+  'b * 'a t
+)
+"namespace.ml" 170 5088 5118 "namespace.ml" 170 5088 5119
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 170 5088 5107 "namespace.ml" 170 5088 5108
+)
+"namespace.ml" 171 5125 5134 "namespace.ml" 171 5125 5135
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 171 5125 5142 "namespace.ml" 171 5125 5194
+)
+"namespace.ml" 171 5125 5136 "namespace.ml" 171 5125 5137
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 171 5125 5142 "namespace.ml" 171 5125 5194
+)
+"namespace.ml" 171 5125 5129 "namespace.ml" 171 5125 5138
+type(
+  'a t
+)
+"namespace.ml" 171 5125 5142 "namespace.ml" 171 5125 5143
+type(
+  'b
+)
+ident(
+  int_ref c "namespace.ml" 170 5088 5105 "namespace.ml" 170 5088 5106
+)
+"namespace.ml" 171 5125 5150 "namespace.ml" 171 5125 5160
+type(
+  Utils.StrMap.key -> 'a t -> 'a t Utils.StrMap.t -> 'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"namespace.ml" 171 5125 5161 "namespace.ml" 171 5125 5162
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref b "namespace.ml" 170 5088 5100 "namespace.ml" 170 5088 5101
+)
+"namespace.ml" 171 5125 5169 "namespace.ml" 171 5125 5181
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"namespace.ml" 171 5125 5182 "namespace.ml" 171 5125 5184
+type(
+  links
+)
+"namespace.ml" 171 5125 5185 "namespace.ml" 171 5125 5186
+type(
+  'a
+)
+ident(
+  int_ref v "namespace.ml" 170 5088 5102 "namespace.ml" 170 5088 5103
+)
+"namespace.ml" 171 5125 5163 "namespace.ml" 171 5125 5188
+type(
+  'a t
+)
+"namespace.ml" 171 5125 5189 "namespace.ml" 171 5125 5190
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 171 5125 5134 "namespace.ml" 171 5125 5135
+)
+"namespace.ml" 171 5125 5150 "namespace.ml" 171 5125 5190
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 171 5125 5192 "namespace.ml" 171 5125 5193
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 171 5125 5136 "namespace.ml" 171 5125 5137
+)
+"namespace.ml" 171 5125 5145 "namespace.ml" 171 5125 5194
+type(
+  'a t
+)
+"namespace.ml" 171 5125 5142 "namespace.ml" 171 5125 5194
+type(
+  'b * 'a t
+)
+"namespace.ml" 172 5195 5204 "namespace.ml" 172 5195 5205
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 172 5195 5215 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 172 5195 5206 "namespace.ml" 172 5195 5207
+type(
+  links
+)
+ident(
+  def l "namespace.ml" 172 5195 5215 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 172 5195 5208 "namespace.ml" 172 5195 5210
+type(
+  'a
+)
+ident(
+  def nv "namespace.ml" 172 5195 5215 "namespace.ml" 172 5195 5271
+)
+"namespace.ml" 172 5195 5199 "namespace.ml" 172 5195 5211
+type(
+  'a t
+)
+"namespace.ml" 172 5195 5215 "namespace.ml" 172 5195 5216
+type(
+  'b
+)
+ident(
+  int_ref c "namespace.ml" 170 5088 5105 "namespace.ml" 170 5088 5106
+)
+"namespace.ml" 172 5195 5223 "namespace.ml" 172 5195 5233
+type(
+  Utils.StrMap.key -> 'a t -> 'a t Utils.StrMap.t -> 'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.add
+)
+"namespace.ml" 172 5195 5234 "namespace.ml" 172 5195 5235
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref b "namespace.ml" 170 5088 5100 "namespace.ml" 170 5088 5101
+)
+"namespace.ml" 172 5195 5242 "namespace.ml" 172 5195 5254
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  ext_ref Utils.StrMap.empty
+)
+"namespace.ml" 172 5195 5255 "namespace.ml" 172 5195 5257
+type(
+  links
+)
+"namespace.ml" 172 5195 5258 "namespace.ml" 172 5195 5259
+type(
+  'a
+)
+ident(
+  int_ref v "namespace.ml" 170 5088 5102 "namespace.ml" 170 5088 5103
+)
+"namespace.ml" 172 5195 5236 "namespace.ml" 172 5195 5261
+type(
+  'a t
+)
+"namespace.ml" 172 5195 5262 "namespace.ml" 172 5195 5263
+type(
+  'a t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 172 5195 5204 "namespace.ml" 172 5195 5205
+)
+"namespace.ml" 172 5195 5223 "namespace.ml" 172 5195 5263
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 172 5195 5265 "namespace.ml" 172 5195 5266
+type(
+  links
+)
+ident(
+  int_ref l "namespace.ml" 172 5195 5206 "namespace.ml" 172 5195 5207
+)
+"namespace.ml" 172 5195 5268 "namespace.ml" 172 5195 5270
+type(
+  'a
+)
+ident(
+  int_ref nv "namespace.ml" 172 5195 5208 "namespace.ml" 172 5195 5210
+)
+"namespace.ml" 172 5195 5218 "namespace.ml" 172 5195 5271
+type(
+  'a t
+)
+"namespace.ml" 172 5195 5215 "namespace.ml" 172 5195 5271
+type(
+  'b * 'a t
+)
+"namespace.ml" 170 5088 5112 "namespace.ml" 172 5195 5271
+type(
+  'b * 'a t
+)
+"namespace.ml" 174 5273 5277 "namespace.ml" 174 5273 5285
+type(
+  'a t -> 'a
+)
+ident(
+  def value_at "namespace.ml" 178 5353 5353 --
+)
+"namespace.ml" 175 5297 5306 "namespace.ml" 175 5297 5307
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 175 5297 5308 "namespace.ml" 175 5297 5309
+type(
+  links
+)
+"namespace.ml" 175 5297 5310 "namespace.ml" 175 5297 5311
+type(
+  'a
+)
+ident(
+  def v "namespace.ml" 175 5297 5316 "namespace.ml" 175 5297 5317
+)
+"namespace.ml" 175 5297 5301 "namespace.ml" 175 5297 5312
+type(
+  'a t
+)
+"namespace.ml" 175 5297 5316 "namespace.ml" 175 5297 5317
+type(
+  'a
+)
+ident(
+  int_ref v "namespace.ml" 175 5297 5310 "namespace.ml" 175 5297 5311
+)
+"namespace.ml" 176 5318 5327 "namespace.ml" 176 5318 5328
+type(
+  links
+)
+type(
+  'a t Utils.StrMap.t
+)
+"namespace.ml" 176 5318 5322 "namespace.ml" 176 5318 5328
+type(
+  'a t
+)
+"namespace.ml" 176 5318 5332 "namespace.ml" 176 5318 5340
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"namespace.ml" 176 5318 5341 "namespace.ml" 176 5318 5351
+type(
+  string
+)
+"namespace.ml" 176 5318 5332 "namespace.ml" 176 5318 5351
+type(
+  'a
+)
+"namespace.ml" 174 5273 5288 "namespace.ml" 176 5318 5351
+type(
+  'a t -> 'a
+)
+"namespace.ml" 178 5353 5357 "namespace.ml" 178 5353 5367
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  def find_local "namespace.ml" 194 5808 5808 --
+)
+"namespace.ml" 178 5353 5368 "namespace.ml" 178 5353 5369
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "namespace.ml" 178 5353 5370 "namespace.ml" 192 5786 5806
+)
+"namespace.ml" 178 5353 5371 "namespace.ml" 178 5353 5372
+type(
+  'a ctx
+)
+ident(
+  def c "namespace.ml" 179 5379 5381 "namespace.ml" 192 5786 5806
+)
+"namespace.ml" 178 5353 5373 "namespace.ml" 178 5353 5374
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 179 5379 5381 "namespace.ml" 192 5786 5806
+)
+"namespace.ml" 178 5353 5370 "namespace.ml" 178 5353 5375
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 179 5379 5389 "namespace.ml" 179 5379 5395
+type(
+  scope list -> 'b ctx * 'b t -> 'b option
+)
+"namespace.ml" 179 5379 5396 "namespace.ml" 179 5379 5400
+type(
+  scope list
+)
+ident(
+  def seen "namespace.ml" 179 5379 5401 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 179 5379 5403 "namespace.ml" 179 5379 5404
+type(
+  'b ctx
+)
+ident(
+  def c "namespace.ml" 180 5420 5424 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 179 5379 5405 "namespace.ml" 179 5379 5406
+type(
+  'b t
+)
+ident(
+  def t "namespace.ml" 180 5420 5424 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 179 5379 5402 "namespace.ml" 179 5379 5407
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 179 5379 5401 "namespace.ml" 179 5379 5416
+type(
+  'b ctx * 'b t
+)
+ident(
+  def curs "namespace.ml" 180 5420 5424 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 180 5420 5430 "namespace.ml" 180 5420 5431
+type(
+  'b t
+)
+ident(
+  int_ref t "namespace.ml" 179 5379 5405 "namespace.ml" 179 5379 5406
+)
+"namespace.ml" 181 5437 5450 "namespace.ml" 181 5437 5451
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 183 5487 5490 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 181 5437 5452 "namespace.ml" 181 5437 5457
+type(
+  links
+)
+ident(
+  def links "namespace.ml" 183 5487 5490 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 181 5437 5445 "namespace.ml" 181 5437 5458
+type(
+  'b t
+)
+"namespace.ml" 182 5459 5472 "namespace.ml" 182 5459 5473
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  def m "namespace.ml" 183 5487 5490 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 182 5459 5474 "namespace.ml" 182 5459 5479
+type(
+  links
+)
+ident(
+  def links "namespace.ml" 183 5487 5490 "namespace.ml" 191 5758 5785
+)
+"namespace.ml" 182 5459 5480 "namespace.ml" 182 5459 5481
+type(
+  'b
+)
+"namespace.ml" 182 5459 5467 "namespace.ml" 182 5459 5482
+type(
+  'b t
+)
+"namespace.ml" 181 5437 5445 "namespace.ml" 182 5459 5482
+type(
+  'b t
+)
+"namespace.ml" 183 5487 5500 "namespace.ml" 183 5487 5508
+type(
+  'b t -> 'b
+)
+ident(
+  int_ref value_at "namespace.ml" 174 5273 5277 "namespace.ml" 174 5273 5285
+)
+"namespace.ml" 183 5487 5510 "namespace.ml" 183 5487 5521
+type(
+  Utils.StrMap.key -> 'b t Utils.StrMap.t -> 'b t
+)
+ident(
+  ext_ref Utils.StrMap.find
+)
+"namespace.ml" 183 5487 5522 "namespace.ml" 183 5487 5523
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "namespace.ml" 178 5353 5368 "namespace.ml" 178 5353 5369
+)
+"namespace.ml" 183 5487 5524 "namespace.ml" 183 5487 5525
+type(
+  'b t Utils.StrMap.t
+)
+ident(
+  int_ref m "namespace.ml" 181 5437 5450 "namespace.ml" 181 5437 5451
+)
+"namespace.ml" 183 5487 5509 "namespace.ml" 183 5487 5526
+type(
+  'b t
+)
+"namespace.ml" 183 5487 5499 "namespace.ml" 183 5487 5527
+type(
+  'b
+)
+"namespace.ml" 183 5487 5494 "namespace.ml" 183 5487 5527
+type(
+  'b option
+)
+"namespace.ml" 184 5528 5536 "namespace.ml" 184 5528 5545
+type(
+  exn
+)
+"namespace.ml" 185 5550 5559 "namespace.ml" 185 5550 5567
+type(
+  (scope -> 'b option) -> links -> 'b option
+)
+ident(
+  ext_ref Utils.try_each
+)
+"namespace.ml" 186 5569 5581 "namespace.ml" 186 5569 5590
+type(
+  scope
+)
+ident(
+  def lnk_scope "namespace.ml" 187 5594 5597 "namespace.ml" 189 5688 5742
+)
+"namespace.ml" 187 5594 5601 "namespace.ml" 187 5594 5604
+type(
+  scope
+)
+"namespace.ml" 187 5594 5607 "namespace.ml" 187 5594 5621
+type(
+  scope -> 'b ctx * 'b t -> scope
+)
+ident(
+  int_ref absolute_scope "namespace.ml" 58 1297 1301 "namespace.ml" 58 1297 1315
+)
+"namespace.ml" 187 5594 5622 "namespace.ml" 187 5594 5631
+type(
+  scope
+)
+ident(
+  int_ref lnk_scope "namespace.ml" 186 5569 5581 "namespace.ml" 186 5569 5590
+)
+"namespace.ml" 187 5594 5632 "namespace.ml" 187 5594 5636
+type(
+  'b ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 179 5379 5401 "namespace.ml" 179 5379 5416
+)
+"namespace.ml" 187 5594 5607 "namespace.ml" 187 5594 5636
+type(
+  scope
+)
+"namespace.ml" 188 5640 5648 "namespace.ml" 188 5640 5656
+type(
+  scope -> scope list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"namespace.ml" 188 5640 5657 "namespace.ml" 188 5640 5660
+type(
+  scope
+)
+ident(
+  int_ref abs "namespace.ml" 187 5594 5601 "namespace.ml" 187 5594 5604
+)
+"namespace.ml" 188 5640 5661 "namespace.ml" 188 5640 5665
+type(
+  scope list
+)
+ident(
+  int_ref seen "namespace.ml" 179 5379 5396 "namespace.ml" 179 5379 5400
+)
+"namespace.ml" 188 5640 5648 "namespace.ml" 188 5640 5665
+type(
+  bool
+)
+"namespace.ml" 188 5640 5671 "namespace.ml" 188 5640 5676
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"namespace.ml" 188 5640 5677 "namespace.ml" 188 5640 5686
+type(
+  exn
+)
+"namespace.ml" 188 5640 5671 "namespace.ml" 188 5640 5686
+type(
+  unit
+)
+"namespace.ml" 188 5640 5645 "namespace.ml" 188 5640 5686
+type(
+  unit
+)
+"namespace.ml" 189 5688 5693 "namespace.ml" 189 5688 5699
+type(
+  scope list -> 'b ctx * 'b t -> 'b option
+)
+ident(
+  int_ref helper "namespace.ml" 179 5379 5389 "namespace.ml" 179 5379 5395
+)
+"namespace.ml" 189 5688 5701 "namespace.ml" 189 5688 5704
+type(
+  scope
+)
+ident(
+  int_ref abs "namespace.ml" 187 5594 5601 "namespace.ml" 187 5594 5604
+)
+"namespace.ml" 189 5688 5706 "namespace.ml" 189 5688 5710
+type(
+  scope list
+)
+ident(
+  int_ref seen "namespace.ml" 179 5379 5396 "namespace.ml" 179 5379 5400
+)
+"namespace.ml" 189 5688 5700 "namespace.ml" 189 5688 5711
+type(
+  scope list
+)
+"namespace.ml" 189 5688 5713 "namespace.ml" 189 5688 5726
+type(
+  scope -> 'b ctx * 'b t -> 'b ctx * 'b t
+)
+ident(
+  int_ref move_to_scope "namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+)
+"namespace.ml" 189 5688 5727 "namespace.ml" 189 5688 5736
+type(
+  scope
+)
+ident(
+  int_ref lnk_scope "namespace.ml" 186 5569 5581 "namespace.ml" 186 5569 5590
+)
+"namespace.ml" 189 5688 5737 "namespace.ml" 189 5688 5741
+type(
+  'b ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 179 5379 5401 "namespace.ml" 179 5379 5416
+)
+"namespace.ml" 189 5688 5712 "namespace.ml" 189 5688 5742
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 189 5688 5693 "namespace.ml" 189 5688 5742
+type(
+  'b option
+)
+"namespace.ml" 188 5640 5645 "namespace.ml" 189 5688 5742
+type(
+  'b option
+)
+"namespace.ml" 187 5594 5597 "namespace.ml" 189 5688 5742
+type(
+  'b option
+)
+"namespace.ml" 186 5569 5576 "namespace.ml" 190 5743 5751
+type(
+  scope -> 'b option
+)
+"namespace.ml" 190 5743 5752 "namespace.ml" 190 5743 5757
+type(
+  links
+)
+ident(
+  int_ref links "namespace.ml" 181 5437 5452 "namespace.ml" 181 5437 5457
+)
+"namespace.ml" 185 5550 5559 "namespace.ml" 190 5743 5757
+type(
+  'b option
+)
+"namespace.ml" 191 5758 5768 "namespace.ml" 191 5758 5777
+type(
+  exn
+)
+"namespace.ml" 191 5758 5781 "namespace.ml" 191 5758 5785
+type(
+  'b option
+)
+"namespace.ml" 185 5550 5555 "namespace.ml" 191 5758 5785
+type(
+  'b option
+)
+"namespace.ml" 183 5487 5490 "namespace.ml" 191 5758 5785
+type(
+  'b option
+)
+"namespace.ml" 180 5420 5424 "namespace.ml" 191 5758 5785
+type(
+  'b option
+)
+"namespace.ml" 192 5786 5791 "namespace.ml" 192 5786 5797
+type(
+  scope list -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  int_ref helper "namespace.ml" 179 5379 5389 "namespace.ml" 179 5379 5395
+)
+"namespace.ml" 192 5786 5798 "namespace.ml" 192 5786 5800
+type(
+  scope list
+)
+"namespace.ml" 192 5786 5802 "namespace.ml" 192 5786 5803
+type(
+  'a ctx
+)
+ident(
+  int_ref c "namespace.ml" 178 5353 5371 "namespace.ml" 178 5353 5372
+)
+"namespace.ml" 192 5786 5804 "namespace.ml" 192 5786 5805
+type(
+  'a t
+)
+ident(
+  int_ref t "namespace.ml" 178 5353 5373 "namespace.ml" 178 5353 5374
+)
+"namespace.ml" 192 5786 5801 "namespace.ml" 192 5786 5806
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 192 5786 5791 "namespace.ml" 192 5786 5806
+type(
+  'a option
+)
+"namespace.ml" 179 5379 5381 "namespace.ml" 192 5786 5806
+type(
+  'a option
+)
+"namespace.ml" 194 5808 5816 "namespace.ml" 194 5808 5825
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> bool
+)
+ident(
+  def mem_local "namespace.ml" 194 5808 5808 --
+)
+"namespace.ml" 194 5808 5826 "namespace.ml" 194 5808 5827
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "namespace.ml" 194 5808 5828 "namespace.ml" 197 5889 5908
+)
+"namespace.ml" 194 5808 5828 "namespace.ml" 194 5808 5832
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 195 5836 5838 "namespace.ml" 197 5889 5908
+)
+"namespace.ml" 195 5836 5844 "namespace.ml" 195 5836 5854
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  int_ref find_local "namespace.ml" 178 5353 5357 "namespace.ml" 178 5353 5367
+)
+"namespace.ml" 195 5836 5855 "namespace.ml" 195 5836 5856
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "namespace.ml" 194 5808 5826 "namespace.ml" 194 5808 5827
+)
+"namespace.ml" 195 5836 5857 "namespace.ml" 195 5836 5861
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 194 5808 5828 "namespace.ml" 194 5808 5832
+)
+"namespace.ml" 195 5836 5844 "namespace.ml" 195 5836 5861
+type(
+  'a option
+)
+"namespace.ml" 196 5867 5878 "namespace.ml" 196 5867 5879
+type(
+  'a
+)
+"namespace.ml" 196 5867 5873 "namespace.ml" 196 5867 5879
+type(
+  'a option
+)
+"namespace.ml" 196 5867 5883 "namespace.ml" 196 5867 5887
+type(
+  bool
+)
+"namespace.ml" 197 5889 5895 "namespace.ml" 197 5889 5899
+type(
+  'a option
+)
+"namespace.ml" 197 5889 5903 "namespace.ml" 197 5889 5908
+type(
+  bool
+)
+"namespace.ml" 195 5836 5838 "namespace.ml" 197 5889 5908
+type(
+  bool
+)
+"namespace.ml" 199 5910 5918 "namespace.ml" 199 5910 5922
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  def find "namespace.ml" 199 5910 5910 --
+)
+"namespace.ml" 199 5910 5923 "namespace.ml" 199 5910 5924
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "namespace.ml" 199 5910 5925 "namespace.ml" 204 6044 6056
+)
+"namespace.ml" 199 5910 5927 "namespace.ml" 199 5910 5928
+type(
+  'a ctx
+)
+ident(
+  def c "namespace.ml" 200 5944 5946 "namespace.ml" 204 6044 6056
+)
+"namespace.ml" 199 5910 5929 "namespace.ml" 199 5910 5930
+type(
+  'a t
+)
+ident(
+  def t "namespace.ml" 200 5944 5946 "namespace.ml" 204 6044 6056
+)
+"namespace.ml" 199 5910 5926 "namespace.ml" 199 5910 5931
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 200 5944 5946 "namespace.ml" 204 6044 6056
+)
+"namespace.ml" 200 5944 5952 "namespace.ml" 200 5944 5962
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  int_ref find_local "namespace.ml" 178 5353 5357 "namespace.ml" 178 5353 5367
+)
+"namespace.ml" 200 5944 5963 "namespace.ml" 200 5944 5964
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "namespace.ml" 199 5910 5923 "namespace.ml" 199 5910 5924
+)
+"namespace.ml" 200 5944 5965 "namespace.ml" 200 5944 5969
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
+)
+"namespace.ml" 200 5944 5952 "namespace.ml" 200 5944 5969
+type(
+  'a option
+)
+"namespace.ml" 201 5975 5981 "namespace.ml" 201 5975 5985
+type(
+  'a option
+)
+"namespace.ml" 202 5989 5993 "namespace.ml" 202 5989 6000
+type(
+  'a ctx * 'a t -> bool
+)
+ident(
+  int_ref at_root "namespace.ml" 32 557 561 "namespace.ml" 32 557 568
+)
+"namespace.ml" 202 5989 6001 "namespace.ml" 202 5989 6005
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
+)
+"namespace.ml" 202 5989 5993 "namespace.ml" 202 5989 6005
+type(
+  bool
+)
+"namespace.ml" 202 5989 6011 "namespace.ml" 202 5989 6015
+type(
+  'a option
+)
+"namespace.ml" 203 6016 6022 "namespace.ml" 203 6016 6026
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  int_ref find "namespace.ml" 199 5910 5918 "namespace.ml" 199 5910 5922
+)
+"namespace.ml" 203 6016 6027 "namespace.ml" 203 6016 6028
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "namespace.ml" 199 5910 5923 "namespace.ml" 199 5910 5924
+)
+"namespace.ml" 203 6016 6030 "namespace.ml" 203 6016 6037
+type(
+  'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_up "namespace.ml" 134 3876 3880 "namespace.ml" 134 3876 3887
+)
+"namespace.ml" 203 6016 6038 "namespace.ml" 203 6016 6042
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 199 5910 5925 "namespace.ml" 199 5910 5940
+)
+"namespace.ml" 203 6016 6029 "namespace.ml" 203 6016 6043
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 203 6016 6022 "namespace.ml" 203 6016 6043
+type(
+  'a option
+)
+"namespace.ml" 202 5989 5990 "namespace.ml" 203 6016 6043
+type(
+  'a option
+)
+"namespace.ml" 204 6044 6050 "namespace.ml" 204 6044 6051
+type(
+  'a option
+)
+ident(
+  def x "namespace.ml" 204 6044 6055 "namespace.ml" 204 6044 6056
+)
+"namespace.ml" 204 6044 6055 "namespace.ml" 204 6044 6056
+type(
+  'a option
+)
+ident(
+  int_ref x "namespace.ml" 204 6044 6050 "namespace.ml" 204 6044 6051
+)
+"namespace.ml" 200 5944 5946 "namespace.ml" 204 6044 6056
+type(
+  'a option
+)
+"namespace.ml" 206 6058 6066 "namespace.ml" 206 6058 6078
+type(
+  scope -> 'a ctx * 'a t -> scope
+)
+ident(
+  def lookup_scope "namespace.ml" 206 6058 6058 --
+)
+"namespace.ml" 206 6058 6079 "namespace.ml" 206 6058 6084
+type(
+  scope
+)
+ident(
+  def scope "namespace.ml" 206 6058 6085 "namespace.ml" 206 6058 6132
+)
+"namespace.ml" 206 6058 6085 "namespace.ml" 206 6058 6089
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 206 6058 6092 "namespace.ml" 206 6058 6132
+)
+"namespace.ml" 206 6058 6092 "namespace.ml" 206 6058 6105
+type(
+  'a ctx * 'a t -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 206 6058 6107 "namespace.ml" 206 6058 6120
+type(
+  scope -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_scope "namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+)
+"namespace.ml" 206 6058 6121 "namespace.ml" 206 6058 6126
+type(
+  scope
+)
+ident(
+  int_ref scope "namespace.ml" 206 6058 6079 "namespace.ml" 206 6058 6084
+)
+"namespace.ml" 206 6058 6127 "namespace.ml" 206 6058 6131
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 206 6058 6085 "namespace.ml" 206 6058 6089
+)
+"namespace.ml" 206 6058 6106 "namespace.ml" 206 6058 6132
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 206 6058 6092 "namespace.ml" 206 6058 6132
+type(
+  scope
+)
+"namespace.ml" 208 6134 6138 "namespace.ml" 208 6134 6141
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> bool
+)
+ident(
+  def mem "namespace.ml" 212 6212 6212 --
+)
+"namespace.ml" 208 6134 6142 "namespace.ml" 208 6134 6143
+type(
+  Utils.StrMap.key
+)
+ident(
+  def s "namespace.ml" 208 6134 6144 "namespace.ml" 210 6193 6210
+)
+"namespace.ml" 208 6134 6144 "namespace.ml" 208 6134 6148
+type(
+  'a ctx * 'a t
+)
+ident(
+  def curs "namespace.ml" 208 6134 6151 "namespace.ml" 210 6193 6210
+)
+"namespace.ml" 208 6134 6157 "namespace.ml" 208 6134 6161
+type(
+  Utils.StrMap.key -> 'a ctx * 'a t -> 'a option
+)
+ident(
+  int_ref find "namespace.ml" 199 5910 5918 "namespace.ml" 199 5910 5922
+)
+"namespace.ml" 208 6134 6162 "namespace.ml" 208 6134 6163
+type(
+  Utils.StrMap.key
+)
+ident(
+  int_ref s "namespace.ml" 208 6134 6142 "namespace.ml" 208 6134 6143
+)
+"namespace.ml" 208 6134 6164 "namespace.ml" 208 6134 6168
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref curs "namespace.ml" 208 6134 6144 "namespace.ml" 208 6134 6148
+)
+"namespace.ml" 208 6134 6157 "namespace.ml" 208 6134 6168
+type(
+  'a option
+)
+"namespace.ml" 209 6174 6183 "namespace.ml" 209 6174 6184
+type(
+  'a
+)
+"namespace.ml" 209 6174 6178 "namespace.ml" 209 6174 6184
+type(
+  'a option
+)
+"namespace.ml" 209 6174 6188 "namespace.ml" 209 6174 6192
+type(
+  bool
+)
+"namespace.ml" 210 6193 6197 "namespace.ml" 210 6193 6201
+type(
+  'a option
+)
+"namespace.ml" 210 6193 6205 "namespace.ml" 210 6193 6210
+type(
+  bool
+)
+"namespace.ml" 208 6134 6151 "namespace.ml" 210 6193 6210
+type(
+  bool
+)
+"namespace.ml" 212 6212 6216 "namespace.ml" 212 6212 6227
+type(
+  'a * 'b t -> 'b
+)
+ident(
+  def current_val "namespace.ml" 216 6298 6298 --
+)
+"namespace.ml" 212 6212 6229 "namespace.ml" 212 6212 6230
+type(
+  'a
+)
+ident(
+  def c "namespace.ml" 213 6237 6239 "namespace.ml" 214 6254 6296
+)
+"namespace.ml" 212 6212 6231 "namespace.ml" 212 6212 6232
+type(
+  'b t
+)
+ident(
+  def t "namespace.ml" 213 6237 6239 "namespace.ml" 214 6254 6296
+)
+"namespace.ml" 212 6212 6228 "namespace.ml" 212 6212 6233
+type(
+  'a * 'b t
+)
+"namespace.ml" 213 6237 6243 "namespace.ml" 213 6237 6251
+type(
+  'b t -> 'b
+)
+ident(
+  int_ref value_at "namespace.ml" 174 5273 5277 "namespace.ml" 174 5273 5285
+)
+"namespace.ml" 213 6237 6252 "namespace.ml" 213 6237 6253
+type(
+  'b t
+)
+ident(
+  int_ref t "namespace.ml" 212 6212 6231 "namespace.ml" 212 6212 6232
+)
+"namespace.ml" 213 6237 6243 "namespace.ml" 213 6237 6253
+type(
+  'b
+)
+"namespace.ml" 214 6254 6269 "namespace.ml" 214 6254 6270
+type(
+  string
+)
+"namespace.ml" 214 6254 6261 "namespace.ml" 214 6254 6270
+type(
+  exn
+)
+"namespace.ml" 214 6254 6274 "namespace.ml" 214 6254 6282
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"namespace.ml" 214 6254 6283 "namespace.ml" 214 6254 6296
+type(
+  string
+)
+"namespace.ml" 214 6254 6274 "namespace.ml" 214 6254 6296
+type(
+  'b
+)
+"namespace.ml" 213 6237 6239 "namespace.ml" 214 6254 6296
+type(
+  'b
+)
+"namespace.ml" 216 6298 6302 "namespace.ml" 216 6298 6306
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def ++ "namespace.ml" 218 6318 6318 --
+)
+"namespace.ml" 216 6298 6307 "namespace.ml" 216 6298 6308
+type(
+  'a
+)
+ident(
+  def f "namespace.ml" 216 6298 6309 "namespace.ml" 216 6298 6316
+)
+"namespace.ml" 216 6298 6309 "namespace.ml" 216 6298 6310
+type(
+  'a -> 'b
+)
+ident(
+  def g "namespace.ml" 216 6298 6313 "namespace.ml" 216 6298 6316
+)
+"namespace.ml" 216 6298 6313 "namespace.ml" 216 6298 6314
+type(
+  'a -> 'b
+)
+ident(
+  int_ref g "namespace.ml" 216 6298 6309 "namespace.ml" 216 6298 6310
+)
+"namespace.ml" 216 6298 6315 "namespace.ml" 216 6298 6316
+type(
+  'a
+)
+ident(
+  int_ref f "namespace.ml" 216 6298 6307 "namespace.ml" 216 6298 6308
+)
+"namespace.ml" 216 6298 6313 "namespace.ml" 216 6298 6316
+type(
+  'b
+)
+"namespace.ml" 218 6318 6322 "namespace.ml" 218 6318 6333
+type(
+  ('a ctx * 'a t -> 'b ctx * 'b t) -> scope -> 'a ctx * 'a t -> 'b ctx * 'b t
+)
+ident(
+  def do_in_scope "namespace.ml" 222 6429 6429 --
+)
+"namespace.ml" 218 6318 6334 "namespace.ml" 218 6318 6335
+type(
+  'a ctx * 'a t -> 'b ctx * 'b t
+)
+ident(
+  def f "namespace.ml" 218 6318 6336 "namespace.ml" 220 6377 6427
+)
+"namespace.ml" 218 6318 6336 "namespace.ml" 218 6318 6337
+type(
+  scope
+)
+ident(
+  def s "namespace.ml" 218 6318 6338 "namespace.ml" 220 6377 6427
+)
+"namespace.ml" 218 6318 6338 "namespace.ml" 218 6318 6339
+type(
+  'a ctx * 'a t
+)
+ident(
+  def c "namespace.ml" 219 6343 6345 "namespace.ml" 220 6377 6427
+)
+"namespace.ml" 219 6343 6349 "namespace.ml" 219 6343 6355
+type(
+  scope
+)
+"namespace.ml" 219 6343 6358 "namespace.ml" 219 6343 6371
+type(
+  'a ctx * 'a t -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 219 6343 6372 "namespace.ml" 219 6343 6373
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref c "namespace.ml" 218 6318 6338 "namespace.ml" 218 6318 6339
+)
+"namespace.ml" 219 6343 6358 "namespace.ml" 219 6343 6373
+type(
+  scope
+)
+"namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6394
+type(
+  scope -> 'a ctx * 'a t -> 'a ctx * 'a t
+)
+ident(
+  int_ref move_to_scope "namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+)
+"namespace.ml" 220 6377 6395 "namespace.ml" 220 6377 6396
+type(
+  scope
+)
+ident(
+  int_ref s "namespace.ml" 218 6318 6336 "namespace.ml" 218 6318 6337
+)
+"namespace.ml" 220 6377 6397 "namespace.ml" 220 6377 6398
+type(
+  'a ctx * 'a t
+)
+ident(
+  int_ref c "namespace.ml" 218 6318 6338 "namespace.ml" 218 6318 6339
+)
+"namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6398
+type(
+  'a ctx * 'a t
+)
+"namespace.ml" 220 6377 6399 "namespace.ml" 220 6377 6401
+type(
+  'a ctx * 'a t -> ('a ctx * 'a t -> 'b ctx * 'b t) -> 'b ctx * 'b t
+)
+ident(
+  int_ref ++ "namespace.ml" 216 6298 6302 "namespace.ml" 216 6298 6306
+)
+"namespace.ml" 220 6377 6402 "namespace.ml" 220 6377 6403
+type(
+  'a ctx * 'a t -> 'b ctx * 'b t
+)
+ident(
+  int_ref f "namespace.ml" 218 6318 6334 "namespace.ml" 218 6318 6335
+)
+"namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6403
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 220 6377 6404 "namespace.ml" 220 6377 6406
+type(
+  'b ctx * 'b t -> ('b ctx * 'b t -> 'b ctx * 'b t) -> 'b ctx * 'b t
+)
+ident(
+  int_ref ++ "namespace.ml" 216 6298 6302 "namespace.ml" 216 6298 6306
+)
+"namespace.ml" 220 6377 6407 "namespace.ml" 220 6377 6420
+type(
+  scope -> 'b ctx * 'b t -> 'b ctx * 'b t
+)
+ident(
+  int_ref move_to_scope "namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+)
+"namespace.ml" 220 6377 6421 "namespace.ml" 220 6377 6427
+type(
+  scope
+)
+ident(
+  int_ref orig_s "namespace.ml" 219 6343 6349 "namespace.ml" 219 6343 6355
+)
+"namespace.ml" 220 6377 6407 "namespace.ml" 220 6377 6427
+type(
+  'b ctx * 'b t -> 'b ctx * 'b t
+)
+"namespace.ml" 220 6377 6381 "namespace.ml" 220 6377 6427
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 219 6343 6345 "namespace.ml" 220 6377 6427
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 222 6429 6433 "namespace.ml" 222 6429 6446
+type(
+  ('a -> 'b ctx * 'b t -> 'c * ('d ctx * 'd t)) ->
+  'a -> scope -> 'b ctx * 'b t -> 'c * ('d ctx * 'd t)
+)
+ident(
+  def fold_in_scope "namespace.ml" 228 6608 6608 --
+)
+"namespace.ml" 222 6429 6447 "namespace.ml" 222 6429 6448
+type(
+  'a -> 'b ctx * 'b t -> 'c * ('d ctx * 'd t)
+)
+ident(
+  def f "namespace.ml" 222 6429 6449 "namespace.ml" 226 6570 6606
+)
+"namespace.ml" 222 6429 6449 "namespace.ml" 222 6429 6452
+type(
+  'a
+)
+ident(
+  def acc "namespace.ml" 222 6429 6453 "namespace.ml" 226 6570 6606
+)
+"namespace.ml" 222 6429 6453 "namespace.ml" 222 6429 6454
+type(
+  scope
+)
+ident(
+  def s "namespace.ml" 222 6429 6455 "namespace.ml" 226 6570 6606
+)
+"namespace.ml" 222 6429 6455 "namespace.ml" 222 6429 6459
+type(
+  'b ctx * 'b t
+)
+ident(
+  def curs "namespace.ml" 223 6463 6465 "namespace.ml" 226 6570 6606
+)
+"namespace.ml" 223 6463 6469 "namespace.ml" 223 6463 6475
+type(
+  scope
+)
+"namespace.ml" 223 6463 6478 "namespace.ml" 223 6463 6491
+type(
+  'b ctx * 'b t -> scope
+)
+ident(
+  int_ref current_scope "namespace.ml" 52 1076 1080 "namespace.ml" 52 1076 1093
+)
+"namespace.ml" 223 6463 6492 "namespace.ml" 223 6463 6496
+type(
+  'b ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 222 6429 6455 "namespace.ml" 222 6429 6459
+)
+"namespace.ml" 223 6463 6478 "namespace.ml" 223 6463 6496
+type(
+  scope
+)
+"namespace.ml" 224 6500 6506 "namespace.ml" 224 6500 6510
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 224 6500 6513 "namespace.ml" 224 6500 6526
+type(
+  scope -> 'b ctx * 'b t -> 'b ctx * 'b t
+)
+ident(
+  int_ref move_to_scope "namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+)
+"namespace.ml" 224 6500 6527 "namespace.ml" 224 6500 6528
+type(
+  scope
+)
+ident(
+  int_ref s "namespace.ml" 222 6429 6453 "namespace.ml" 222 6429 6454
+)
+"namespace.ml" 224 6500 6529 "namespace.ml" 224 6500 6533
+type(
+  'b ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 222 6429 6455 "namespace.ml" 222 6429 6459
+)
+"namespace.ml" 224 6500 6513 "namespace.ml" 224 6500 6533
+type(
+  'b ctx * 'b t
+)
+"namespace.ml" 225 6537 6544 "namespace.ml" 225 6537 6547
+type(
+  'c
+)
+"namespace.ml" 225 6537 6548 "namespace.ml" 225 6537 6552
+type(
+  'd ctx * 'd t
+)
+"namespace.ml" 225 6537 6543 "namespace.ml" 225 6537 6553
+type(
+  'c * ('d ctx * 'd t)
+)
+"namespace.ml" 225 6537 6556 "namespace.ml" 225 6537 6557
+type(
+  'a -> 'b ctx * 'b t -> 'c * ('d ctx * 'd t)
+)
+ident(
+  int_ref f "namespace.ml" 222 6429 6447 "namespace.ml" 222 6429 6448
+)
+"namespace.ml" 225 6537 6558 "namespace.ml" 225 6537 6561
+type(
+  'a
+)
+ident(
+  int_ref acc "namespace.ml" 222 6429 6449 "namespace.ml" 222 6429 6452
+)
+"namespace.ml" 225 6537 6562 "namespace.ml" 225 6537 6566
+type(
+  'b ctx * 'b t
+)
+ident(
+  int_ref curs "namespace.ml" 224 6500 6506 "namespace.ml" 224 6500 6510
+)
+"namespace.ml" 225 6537 6556 "namespace.ml" 225 6537 6566
+type(
+  'c * ('d ctx * 'd t)
+)
+"namespace.ml" 226 6570 6574 "namespace.ml" 226 6570 6577
+type(
+  'c
+)
+ident(
+  int_ref acc "namespace.ml" 225 6537 6544 "namespace.ml" 225 6537 6547
+)
+"namespace.ml" 226 6570 6580 "namespace.ml" 226 6570 6593
+type(
+  scope -> 'd ctx * 'd t -> 'd ctx * 'd t
+)
+ident(
+  int_ref move_to_scope "namespace.ml" 135 3912 3916 "namespace.ml" 135 3912 3929
+)
+"namespace.ml" 226 6570 6594 "namespace.ml" 226 6570 6600
+type(
+  scope
+)
+ident(
+  int_ref orig_s "namespace.ml" 223 6463 6469 "namespace.ml" 223 6463 6475
+)
+"namespace.ml" 226 6570 6601 "namespace.ml" 226 6570 6605
+type(
+  'd ctx * 'd t
+)
+ident(
+  int_ref curs "namespace.ml" 225 6537 6548 "namespace.ml" 225 6537 6552
+)
+"namespace.ml" 226 6570 6579 "namespace.ml" 226 6570 6606
+type(
+  'd ctx * 'd t
+)
+"namespace.ml" 226 6570 6574 "namespace.ml" 226 6570 6606
+type(
+  'c * ('d ctx * 'd t)
+)
+"namespace.ml" 225 6537 6539 "namespace.ml" 226 6570 6606
+type(
+  'c * ('d ctx * 'd t)
+)
+"namespace.ml" 224 6500 6502 "namespace.ml" 226 6570 6606
+type(
+  'c * ('d ctx * 'd t)
+)
+"namespace.ml" 223 6463 6465 "namespace.ml" 226 6570 6606
+type(
+  'c * ('d ctx * 'd t)
+)
+"namespace.ml" 228 6608 6612 "namespace.ml" 228 6608 6631
+type(
+  Cfg.identifier -> scope
+)
+ident(
+  def scope_of_identifier "namespace.ml" 238 6891 6891 --
+)
+"namespace.ml" 228 6608 6632 "namespace.ml" 228 6608 6633
+type(
+  Cfg.identifier
+)
+ident(
+  def e "namespace.ml" 229 6637 6639 "namespace.ml" 236 6859 6888
+)
+"namespace.ml" 229 6637 6647 "namespace.ml" 229 6637 6653
+type(
+  Cfg.identifier -> string list
+)
+"namespace.ml" 230 6665 6682 "namespace.ml" 230 6665 6685
+type(
+  string
+)
+ident(
+  def id1 "namespace.ml" 230 6665 6689 "namespace.ml" 230 6665 6697
+)
+"namespace.ml" 230 6665 6671 "namespace.ml" 230 6665 6685
+type(
+  Cfg.identifier
+)
+"namespace.ml" 230 6665 6690 "namespace.ml" 230 6665 6692
+type(
+  string
+)
+"namespace.ml" 230 6665 6693 "namespace.ml" 230 6665 6696
+type(
+  string
+)
+ident(
+  int_ref id1 "namespace.ml" 230 6665 6682 "namespace.ml" 230 6665 6685
+)
+"namespace.ml" 230 6665 6689 "namespace.ml" 230 6665 6697
+type(
+  string list
+)
+"namespace.ml" 231 6698 6714 "namespace.ml" 231 6698 6717
+type(
+  Cfg.identifier
+)
+ident(
+  def id1 "namespace.ml" 232 6726 6727 "namespace.ml" 232 6726 6747
+)
+"namespace.ml" 231 6698 6718 "namespace.ml" 231 6698 6721
+type(
+  string
+)
+ident(
+  def id2 "namespace.ml" 232 6726 6727 "namespace.ml" 232 6726 6747
+)
+"namespace.ml" 231 6698 6713 "namespace.ml" 231 6698 6722
+type(
+  Cfg.identifier * string
+)
+"namespace.ml" 231 6698 6704 "namespace.ml" 231 6698 6722
+type(
+  Cfg.identifier
+)
+"namespace.ml" 232 6726 6728 "namespace.ml" 232 6726 6734
+type(
+  Cfg.identifier -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 229 6637 6647 "namespace.ml" 229 6637 6653
+)
+"namespace.ml" 232 6726 6735 "namespace.ml" 232 6726 6738
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id1 "namespace.ml" 231 6698 6714 "namespace.ml" 231 6698 6717
+)
+"namespace.ml" 232 6726 6727 "namespace.ml" 232 6726 6739
+type(
+  string list
+)
+"namespace.ml" 232 6726 6740 "namespace.ml" 232 6726 6741
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"namespace.ml" 232 6726 6743 "namespace.ml" 232 6726 6746
+type(
+  string
+)
+ident(
+  int_ref id2 "namespace.ml" 231 6698 6718 "namespace.ml" 231 6698 6721
+)
+"namespace.ml" 232 6726 6742 "namespace.ml" 232 6726 6747
+type(
+  string list
+)
+"namespace.ml" 232 6726 6727 "namespace.ml" 232 6726 6747
+type(
+  string list
+)
+"namespace.ml" 233 6748 6754 "namespace.ml" 233 6748 6756
+type(
+  Cfg.identifier
+)
+ident(
+  def id "namespace.ml" 233 6748 6760 "namespace.ml" 233 6748 6799
+)
+"namespace.ml" 233 6748 6761 "namespace.ml" 233 6748 6777
+type(
+  (Format.formatter -> Cfg.identifier -> unit) -> Cfg.identifier -> string
+)
+ident(
+  ext_ref Utils.format_to_string
+)
+"namespace.ml" 233 6748 6778 "namespace.ml" 233 6748 6795
+type(
+  Format.formatter -> Cfg.identifier -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.format_identifier
+)
+"namespace.ml" 233 6748 6796 "namespace.ml" 233 6748 6798
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "namespace.ml" 233 6748 6754 "namespace.ml" 233 6748 6756
+)
+"namespace.ml" 233 6748 6761 "namespace.ml" 233 6748 6798
+type(
+  string
+)
+"namespace.ml" 233 6748 6760 "namespace.ml" 233 6748 6799
+type(
+  string list
+)
+"namespace.ml" 229 6637 6656 "namespace.ml" 233 6748 6799
+type(
+  Cfg.identifier -> string list
+)
+"namespace.ml" 234 6800 6811 "namespace.ml" 234 6800 6817
+type(
+  Cfg.identifier -> string list
+)
+ident(
+  int_ref helper "namespace.ml" 229 6637 6647 "namespace.ml" 229 6637 6653
+)
+"namespace.ml" 234 6800 6818 "namespace.ml" 234 6800 6819
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref e "namespace.ml" 228 6608 6632 "namespace.ml" 228 6608 6633
+)
+"namespace.ml" 234 6800 6811 "namespace.ml" 234 6800 6819
+type(
+  string list
+)
+"namespace.ml" 235 6825 6831 "namespace.ml" 235 6825 6833
+type(
+  string
+)
+"namespace.ml" 235 6825 6835 "namespace.ml" 235 6825 6837
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 235 6825 6841 "namespace.ml" 235 6825 6858
+)
+"namespace.ml" 235 6825 6831 "namespace.ml" 235 6825 6837
+type(
+  string list
+)
+"namespace.ml" 235 6825 6856 "namespace.ml" 235 6825 6858
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 235 6825 6835 "namespace.ml" 235 6825 6837
+)
+"namespace.ml" 235 6825 6841 "namespace.ml" 235 6825 6858
+type(
+  scope
+)
+"namespace.ml" 236 6859 6865 "namespace.ml" 236 6859 6867
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 236 6859 6871 "namespace.ml" 236 6859 6888
+)
+"namespace.ml" 236 6859 6886 "namespace.ml" 236 6859 6888
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 236 6859 6865 "namespace.ml" 236 6859 6867
+)
+"namespace.ml" 236 6859 6871 "namespace.ml" 236 6859 6888
+type(
+  scope
+)
+"namespace.ml" 234 6800 6805 "namespace.ml" 236 6859 6888
+type(
+  scope
+)
+"namespace.ml" 229 6637 6639 "namespace.ml" 236 6859 6888
+type(
+  scope
+)
+"namespace.ml" 238 6891 6895 "namespace.ml" 238 6891 6920
+type(
+  Cfg.identifier -> scope * string
+)
+ident(
+  def scope_of_identifier_split "namespace.ml" 251 7400 7443 --
+)
+"namespace.ml" 238 6891 6921 "namespace.ml" 238 6891 6922
+type(
+  Cfg.identifier
+)
+ident(
+  def e "namespace.ml" 242 7088 7090 "namespace.ml" 251 7400 7443
+)
+"namespace.ml" 242 7088 7098 "namespace.ml" 242 7088 7104
+type(
+  Cfg.identifier -> string list * string
+)
+"namespace.ml" 242 7088 7106 "namespace.ml" 242 7088 7107
+type(
+  Cfg.identifier
+)
+ident(
+  def x "namespace.ml" 242 7088 7120 "namespace.ml" 247 7268 7322
+)
+"namespace.ml" 242 7088 7151 "namespace.ml" 242 7088 7152
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref x "namespace.ml" 242 7088 7106 "namespace.ml" 242 7088 7107
+)
+"namespace.ml" 243 7158 7175 "namespace.ml" 243 7158 7178
+type(
+  string
+)
+ident(
+  def id1 "namespace.ml" 243 7158 7182 "namespace.ml" 243 7158 7191
+)
+"namespace.ml" 243 7158 7164 "namespace.ml" 243 7158 7178
+type(
+  Cfg.identifier
+)
+"namespace.ml" 243 7158 7183 "namespace.ml" 243 7158 7185
+type(
+  string
+)
+"namespace.ml" 243 7158 7182 "namespace.ml" 243 7158 7186
+type(
+  string list
+)
+"namespace.ml" 243 7158 7188 "namespace.ml" 243 7158 7191
+type(
+  string
+)
+ident(
+  int_ref id1 "namespace.ml" 243 7158 7175 "namespace.ml" 243 7158 7178
+)
+"namespace.ml" 243 7158 7182 "namespace.ml" 243 7158 7191
+type(
+  string list * string
+)
+"namespace.ml" 244 7192 7208 "namespace.ml" 244 7192 7211
+type(
+  Cfg.identifier
+)
+ident(
+  def id1 "namespace.ml" 245 7221 7222 "namespace.ml" 246 7249 7267
+)
+"namespace.ml" 244 7192 7212 "namespace.ml" 244 7192 7215
+type(
+  string
+)
+ident(
+  def id2 "namespace.ml" 245 7221 7222 "namespace.ml" 246 7249 7267
+)
+"namespace.ml" 244 7192 7207 "namespace.ml" 244 7192 7216
+type(
+  Cfg.identifier * string
+)
+"namespace.ml" 244 7192 7198 "namespace.ml" 244 7192 7216
+type(
+  Cfg.identifier
+)
+"namespace.ml" 245 7221 7226 "namespace.ml" 245 7221 7227
+type(
+  string list
+)
+"namespace.ml" 245 7221 7228 "namespace.ml" 245 7221 7232
+type(
+  string
+)
+"namespace.ml" 245 7221 7226 "namespace.ml" 245 7221 7232
+type(
+  string list * string
+)
+"namespace.ml" 245 7221 7235 "namespace.ml" 245 7221 7241
+type(
+  Cfg.identifier -> string list * string
+)
+ident(
+  int_ref helper "namespace.ml" 242 7088 7098 "namespace.ml" 242 7088 7104
+)
+"namespace.ml" 245 7221 7242 "namespace.ml" 245 7221 7245
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id1 "namespace.ml" 244 7192 7208 "namespace.ml" 244 7192 7211
+)
+"namespace.ml" 245 7221 7235 "namespace.ml" 245 7221 7245
+type(
+  string list * string
+)
+"namespace.ml" 246 7249 7252 "namespace.ml" 246 7249 7253
+type(
+  string list
+)
+ident(
+  int_ref l "namespace.ml" 245 7221 7226 "namespace.ml" 245 7221 7227
+)
+"namespace.ml" 246 7249 7254 "namespace.ml" 246 7249 7255
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"namespace.ml" 246 7249 7257 "namespace.ml" 246 7249 7261
+type(
+  string
+)
+ident(
+  int_ref last "namespace.ml" 245 7221 7228 "namespace.ml" 245 7221 7232
+)
+"namespace.ml" 246 7249 7256 "namespace.ml" 246 7249 7262
+type(
+  string list
+)
+"namespace.ml" 246 7249 7252 "namespace.ml" 246 7249 7262
+type(
+  string list
+)
+"namespace.ml" 246 7249 7264 "namespace.ml" 246 7249 7267
+type(
+  string
+)
+ident(
+  int_ref id2 "namespace.ml" 244 7192 7212 "namespace.ml" 244 7192 7215
+)
+"namespace.ml" 246 7249 7252 "namespace.ml" 246 7249 7267
+type(
+  string list * string
+)
+"namespace.ml" 245 7221 7222 "namespace.ml" 246 7249 7267
+type(
+  string list * string
+)
+"namespace.ml" 247 7268 7274 "namespace.ml" 247 7268 7276
+type(
+  Cfg.identifier
+)
+ident(
+  def id "namespace.ml" 247 7268 7280 "namespace.ml" 247 7268 7322
+)
+"namespace.ml" 247 7268 7280 "namespace.ml" 247 7268 7282
+type(
+  string list
+)
+"namespace.ml" 247 7268 7284 "namespace.ml" 247 7268 7300
+type(
+  (Format.formatter -> Cfg.identifier -> unit) -> Cfg.identifier -> string
+)
+ident(
+  ext_ref Utils.format_to_string
+)
+"namespace.ml" 247 7268 7301 "namespace.ml" 247 7268 7318
+type(
+  Format.formatter -> Cfg.identifier -> unit
+)
+ident(
+  ext_ref Cfg_printer.CodePrinter.format_identifier
+)
+"namespace.ml" 247 7268 7319 "namespace.ml" 247 7268 7321
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref id "namespace.ml" 247 7268 7274 "namespace.ml" 247 7268 7276
+)
+"namespace.ml" 247 7268 7283 "namespace.ml" 247 7268 7322
+type(
+  string
+)
+"namespace.ml" 247 7268 7280 "namespace.ml" 247 7268 7322
+type(
+  string list * string
+)
+"namespace.ml" 242 7088 7145 "namespace.ml" 247 7268 7322
+type(
+  string list * string
+)
+type(
+  string list * string
+)
+"namespace.ml" 249 7328 7338 "namespace.ml" 249 7328 7344
+type(
+  Cfg.identifier -> string list * string
+)
+ident(
+  int_ref helper "namespace.ml" 242 7088 7098 "namespace.ml" 242 7088 7104
+)
+"namespace.ml" 249 7328 7345 "namespace.ml" 249 7328 7346
+type(
+  Cfg.identifier
+)
+ident(
+  int_ref e "namespace.ml" 238 6891 6921 "namespace.ml" 238 6891 6922
+)
+"namespace.ml" 249 7328 7338 "namespace.ml" 249 7328 7346
+type(
+  string list * string
+)
+"namespace.ml" 250 7352 7360 "namespace.ml" 250 7352 7362
+type(
+  string
+)
+"namespace.ml" 250 7352 7364 "namespace.ml" 250 7352 7366
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 250 7352 7376 "namespace.ml" 250 7352 7399
+)
+"namespace.ml" 250 7352 7360 "namespace.ml" 250 7352 7366
+type(
+  string list
+)
+"namespace.ml" 250 7352 7368 "namespace.ml" 250 7352 7372
+type(
+  string
+)
+ident(
+  def last "namespace.ml" 250 7352 7376 "namespace.ml" 250 7352 7399
+)
+"namespace.ml" 250 7352 7360 "namespace.ml" 250 7352 7372
+type(
+  string list * string
+)
+"namespace.ml" 250 7352 7391 "namespace.ml" 250 7352 7393
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 250 7352 7364 "namespace.ml" 250 7352 7366
+)
+"namespace.ml" 250 7352 7376 "namespace.ml" 250 7352 7393
+type(
+  scope
+)
+"namespace.ml" 250 7352 7395 "namespace.ml" 250 7352 7399
+type(
+  string
+)
+ident(
+  int_ref last "namespace.ml" 250 7352 7368 "namespace.ml" 250 7352 7372
+)
+"namespace.ml" 250 7352 7376 "namespace.ml" 250 7352 7399
+type(
+  scope * string
+)
+"namespace.ml" 251 7400 7408 "namespace.ml" 251 7400 7410
+type(
+  string list
+)
+ident(
+  def tl "namespace.ml" 251 7400 7420 "namespace.ml" 251 7400 7443
+)
+"namespace.ml" 251 7400 7412 "namespace.ml" 251 7400 7416
+type(
+  string
+)
+ident(
+  def last "namespace.ml" 251 7400 7420 "namespace.ml" 251 7400 7443
+)
+"namespace.ml" 251 7400 7408 "namespace.ml" 251 7400 7416
+type(
+  string list * string
+)
+"namespace.ml" 251 7400 7435 "namespace.ml" 251 7400 7437
+type(
+  string list
+)
+ident(
+  int_ref tl "namespace.ml" 251 7400 7408 "namespace.ml" 251 7400 7410
+)
+"namespace.ml" 251 7400 7420 "namespace.ml" 251 7400 7437
+type(
+  scope
+)
+"namespace.ml" 251 7400 7439 "namespace.ml" 251 7400 7443
+type(
+  string
+)
+ident(
+  int_ref last "namespace.ml" 251 7400 7412 "namespace.ml" 251 7400 7416
+)
+"namespace.ml" 251 7400 7420 "namespace.ml" 251 7400 7443
+type(
+  scope * string
+)
+"namespace.ml" 249 7328 7332 "namespace.ml" 251 7400 7443
+type(
+  scope * string
+)
+"namespace.ml" 242 7088 7090 "namespace.ml" 251 7400 7443
+type(
+  scope * string
+)

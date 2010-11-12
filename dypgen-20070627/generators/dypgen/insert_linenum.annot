@@ -1,0 +1,855 @@
+"insert_linenum.mll" 4 40 44 "insert_linenum.mll" 4 40 50
+type(
+  string ref
+)
+ident(
+  def buffer "insert_linenum.mll" 6 61 61 --
+)
+"insert_linenum.mll" 4 40 53 "insert_linenum.mll" 4 40 56
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"insert_linenum.mll" 4 40 57 "insert_linenum.mll" 4 40 59
+type(
+  string
+)
+"insert_linenum.mll" 4 40 53 "insert_linenum.mll" 4 40 59
+type(
+  string ref
+)
+"insert_linenum.mll" 6 61 65 "insert_linenum.mll" 6 61 75
+type(
+  Lexing.lexbuf -> string option -> int -> bool -> int -> unit
+)
+ident(
+  def update_loc "insert_linenum.ml" 20 442 442 --
+)
+"insert_linenum.mll" 6 61 76 "insert_linenum.mll" 6 61 82
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "insert_linenum.mll" 6 61 83 "insert_linenum.mll" 16 412 415
+)
+"insert_linenum.mll" 6 61 83 "insert_linenum.mll" 6 61 87
+type(
+  string option
+)
+ident(
+  def file "insert_linenum.mll" 6 61 88 "insert_linenum.mll" 16 412 415
+)
+"insert_linenum.mll" 6 61 88 "insert_linenum.mll" 6 61 92
+type(
+  int
+)
+ident(
+  def line "insert_linenum.mll" 6 61 93 "insert_linenum.mll" 16 412 415
+)
+"insert_linenum.mll" 6 61 93 "insert_linenum.mll" 6 61 101
+type(
+  bool
+)
+ident(
+  def absolute "insert_linenum.mll" 6 61 102 "insert_linenum.mll" 16 412 415
+)
+"insert_linenum.mll" 6 61 102 "insert_linenum.mll" 6 61 107
+type(
+  int
+)
+ident(
+  def chars "insert_linenum.mll" 7 110 112 "insert_linenum.mll" 16 412 415
+)
+"insert_linenum.mll" 7 110 116 "insert_linenum.mll" 7 110 119
+type(
+  Lexing.position
+)
+"insert_linenum.mll" 7 110 122 "insert_linenum.mll" 7 110 128
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.mll" 6 61 76 "insert_linenum.mll" 6 61 82
+)
+"insert_linenum.mll" 7 110 122 "insert_linenum.mll" 7 110 139
+type(
+  Lexing.position
+)
+"insert_linenum.mll" 8 143 149 "insert_linenum.mll" 8 143 157
+type(
+  string
+)
+"insert_linenum.mll" 8 143 166 "insert_linenum.mll" 8 143 170
+type(
+  string option
+)
+ident(
+  int_ref file "insert_linenum.mll" 6 61 83 "insert_linenum.mll" 6 61 87
+)
+"insert_linenum.mll" 9 176 195 "insert_linenum.mll" 9 176 199
+type(
+  string option
+)
+"insert_linenum.mll" 9 176 203 "insert_linenum.mll" 9 176 206
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "insert_linenum.mll" 7 110 116 "insert_linenum.mll" 7 110 119
+)
+"insert_linenum.mll" 9 176 203 "insert_linenum.mll" 9 176 216
+type(
+  string
+)
+"insert_linenum.mll" 10 217 241 "insert_linenum.mll" 10 217 242
+type(
+  string
+)
+ident(
+  def s "insert_linenum.mll" 10 217 246 "insert_linenum.mll" 10 217 247
+)
+"insert_linenum.mll" 10 217 236 "insert_linenum.mll" 10 217 242
+type(
+  string option
+)
+"insert_linenum.mll" 10 217 246 "insert_linenum.mll" 10 217 247
+type(
+  string
+)
+ident(
+  int_ref s "insert_linenum.mll" 10 217 241 "insert_linenum.mll" 10 217 242
+)
+"insert_linenum.mll" 8 143 160 "insert_linenum.mll" 10 217 247
+type(
+  string
+)
+"insert_linenum.mll" 12 253 255 "insert_linenum.mll" 12 253 261
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.mll" 6 61 76 "insert_linenum.mll" 6 61 82
+)
+"insert_linenum.mll" 12 253 278 "insert_linenum.mll" 12 253 281
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "insert_linenum.mll" 7 110 116 "insert_linenum.mll" 7 110 119
+)
+"insert_linenum.mll" 13 287 303 "insert_linenum.mll" 13 287 311
+type(
+  string
+)
+ident(
+  int_ref new_file "insert_linenum.mll" 8 143 149 "insert_linenum.mll" 8 143 157
+)
+"insert_linenum.mll" 14 313 331 "insert_linenum.mll" 14 313 339
+type(
+  bool
+)
+ident(
+  int_ref absolute "insert_linenum.mll" 6 61 93 "insert_linenum.mll" 6 61 101
+)
+"insert_linenum.mll" 14 313 345 "insert_linenum.mll" 14 313 349
+type(
+  int
+)
+ident(
+  int_ref line "insert_linenum.mll" 6 61 88 "insert_linenum.mll" 6 61 92
+)
+"insert_linenum.mll" 14 313 355 "insert_linenum.mll" 14 313 358
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "insert_linenum.mll" 7 110 116 "insert_linenum.mll" 7 110 119
+)
+"insert_linenum.mll" 14 313 355 "insert_linenum.mll" 14 313 367
+type(
+  int
+)
+"insert_linenum.mll" 14 313 368 "insert_linenum.mll" 14 313 369
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"insert_linenum.mll" 14 313 370 "insert_linenum.mll" 14 313 374
+type(
+  int
+)
+ident(
+  int_ref line "insert_linenum.mll" 6 61 88 "insert_linenum.mll" 6 61 92
+)
+"insert_linenum.mll" 14 313 355 "insert_linenum.mll" 14 313 374
+type(
+  int
+)
+"insert_linenum.mll" 14 313 328 "insert_linenum.mll" 14 313 374
+type(
+  int
+)
+"insert_linenum.mll" 15 376 390 "insert_linenum.mll" 15 376 393
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "insert_linenum.mll" 7 110 116 "insert_linenum.mll" 7 110 119
+)
+"insert_linenum.mll" 15 376 390 "insert_linenum.mll" 15 376 402
+type(
+  int
+)
+"insert_linenum.mll" 15 376 403 "insert_linenum.mll" 15 376 404
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"insert_linenum.mll" 15 376 405 "insert_linenum.mll" 15 376 410
+type(
+  int
+)
+ident(
+  int_ref chars "insert_linenum.mll" 6 61 102 "insert_linenum.mll" 6 61 107
+)
+"insert_linenum.mll" 15 376 390 "insert_linenum.mll" 15 376 410
+type(
+  int
+)
+"insert_linenum.mll" 12 253 276 "insert_linenum.mll" 16 412 415
+type(
+  Lexing.position
+)
+"insert_linenum.mll" 12 253 255 "insert_linenum.mll" 16 412 415
+type(
+  unit
+)
+"insert_linenum.mll" 8 143 145 "insert_linenum.mll" 16 412 415
+type(
+  unit
+)
+"insert_linenum.mll" 7 110 112 "insert_linenum.mll" 16 412 415
+type(
+  unit
+)
+"insert_linenum.ml" 20 442 446 "insert_linenum.ml" 20 442 464
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "insert_linenum.ml" 118 6035 6035 --
+)
+"insert_linenum.ml" 22 490 493 "insert_linenum.ml" 25 700 713
+type(
+  string
+)
+"insert_linenum.ml" 27 739 742 "insert_linenum.ml" 30 949 962
+type(
+  string
+)
+"insert_linenum.ml" 32 988 991 "insert_linenum.ml" 35 1198 1211
+type(
+  string
+)
+"insert_linenum.ml" 37 1235 1238 "insert_linenum.ml" 69 3475 3520
+type(
+  string
+)
+"insert_linenum.ml" 71 3544 3547 "insert_linenum.ml" 103 5784 5829
+type(
+  string
+)
+"insert_linenum.ml" 105 5857 5860 "insert_linenum.ml" 105 5857 5862
+type(
+  string
+)
+"insert_linenum.ml" 107 5893 5896 "insert_linenum.ml" 107 5893 5898
+type(
+  string
+)
+"insert_linenum.ml" 109 5929 5932 "insert_linenum.ml" 109 5929 5934
+type(
+  string
+)
+"insert_linenum.ml" 111 5963 5966 "insert_linenum.ml" 111 5963 5968
+type(
+  string
+)
+"insert_linenum.ml" 113 5997 6000 "insert_linenum.ml" 113 5997 6002
+type(
+  string
+)
+"insert_linenum.ml" 115 6025 6028 "insert_linenum.ml" 115 6025 6030
+type(
+  string
+)
+"insert_linenum.ml" 20 442 467 "insert_linenum.ml" 116 6032 6033
+type(
+  Lexing.lex_tables
+)
+"insert_linenum.ml" 118 6035 6043 "insert_linenum.ml" 118 6035 6057
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def insert_linenum "insert_linenum.ml" 118 6035 6035 --
+)
+"insert_linenum.ml" 118 6035 6058 "insert_linenum.ml" 118 6035 6064
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "insert_linenum.ml" 119 6067 6071 "insert_linenum.ml" 119 6067 6110
+)
+"insert_linenum.ml" 119 6067 6071 "insert_linenum.ml" 119 6067 6101
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_insert_linenum_rec "insert_linenum.ml" 120 6111 6115 "insert_linenum.ml" 120 6111 6145
+)
+"insert_linenum.ml" 119 6067 6102 "insert_linenum.ml" 119 6067 6108
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 118 6035 6058 "insert_linenum.ml" 118 6035 6064
+)
+"insert_linenum.ml" 119 6067 6109 "insert_linenum.ml" 119 6067 6110
+type(
+  int
+)
+"insert_linenum.ml" 119 6067 6071 "insert_linenum.ml" 119 6067 6110
+type(
+  string
+)
+"insert_linenum.ml" 120 6111 6115 "insert_linenum.ml" 120 6111 6145
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  def __ocaml_lex_insert_linenum_rec "insert_linenum.ml" 118 6035 6035 --
+)
+"insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "insert_linenum.ml" 120 6111 6153 "insert_linenum.ml" 166 7379 7493
+)
+"insert_linenum.ml" 120 6111 6153 "insert_linenum.ml" 120 6111 6170
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "insert_linenum.ml" 121 6173 6175 "insert_linenum.ml" 166 7379 7493
+)
+"insert_linenum.ml" 121 6173 6181 "insert_linenum.ml" 121 6173 6194
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"insert_linenum.ml" 121 6173 6195 "insert_linenum.ml" 121 6173 6213
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "insert_linenum.ml" 20 442 446 "insert_linenum.ml" 20 442 464
+)
+"insert_linenum.ml" 121 6173 6214 "insert_linenum.ml" 121 6173 6231
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "insert_linenum.ml" 120 6111 6153 "insert_linenum.ml" 120 6111 6170
+)
+"insert_linenum.ml" 121 6173 6232 "insert_linenum.ml" 121 6173 6238
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.ml" 121 6173 6181 "insert_linenum.ml" 121 6173 6238
+type(
+  int
+)
+"insert_linenum.ml" 122 6244 6252 "insert_linenum.ml" 122 6244 6253
+type(
+  int
+)
+"insert_linenum.mll" 23 6283 6291 "insert_linenum.mll" 23 6283 6301
+type(
+  Lexing.lexbuf -> string option -> int -> bool -> int -> unit
+)
+ident(
+  int_ref update_loc "insert_linenum.mll" 6 61 65 "insert_linenum.mll" 6 61 75
+)
+"insert_linenum.mll" 23 6283 6302 "insert_linenum.mll" 23 6283 6308
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.mll" 23 6283 6309 "insert_linenum.mll" 23 6283 6313
+type(
+  string option
+)
+"insert_linenum.mll" 23 6283 6314 "insert_linenum.mll" 23 6283 6315
+type(
+  int
+)
+"insert_linenum.mll" 23 6283 6316 "insert_linenum.mll" 23 6283 6321
+type(
+  bool
+)
+"insert_linenum.mll" 23 6283 6322 "insert_linenum.mll" 23 6283 6323
+type(
+  int
+)
+"insert_linenum.mll" 23 6283 6291 "insert_linenum.mll" 23 6283 6323
+type(
+  unit
+)
+"insert_linenum.mll" 25 6383 6391 "insert_linenum.mll" 25 6383 6405
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref insert_linenum "insert_linenum.ml" 118 6035 6043 "insert_linenum.ml" 118 6035 6057
+)
+"insert_linenum.mll" 25 6383 6406 "insert_linenum.mll" 25 6383 6412
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.mll" 25 6383 6391 "insert_linenum.mll" 25 6383 6412
+type(
+  string
+)
+"insert_linenum.mll" 23 6283 6289 "insert_linenum.mll" 26 6413 6420
+type(
+  string
+)
+"insert_linenum.ml" 130 6448 6452 "insert_linenum.ml" 130 6448 6453
+type(
+  int
+)
+"insert_linenum.mll" 29 6491 6503 "insert_linenum.mll" 29 6491 6506
+type(
+  Lexing.position
+)
+"insert_linenum.mll" 29 6491 6509 "insert_linenum.mll" 29 6491 6530
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"insert_linenum.mll" 29 6491 6531 "insert_linenum.mll" 29 6491 6537
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.mll" 29 6491 6509 "insert_linenum.mll" 29 6491 6537
+type(
+  Lexing.position
+)
+"insert_linenum.mll" 30 6541 6553 "insert_linenum.mll" 30 6541 6558
+type(
+  string
+)
+"insert_linenum.mll" 30 6541 6561 "insert_linenum.mll" 30 6541 6583
+type(
+  string
+)
+"insert_linenum.mll" 31 6587 6599 "insert_linenum.mll" 31 6587 6602
+type(
+  string
+)
+"insert_linenum.mll" 31 6587 6605 "insert_linenum.mll" 31 6587 6609
+type(
+  string
+)
+"insert_linenum.mll" 31 6587 6609 "insert_linenum.mll" 31 6587 6610
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"insert_linenum.mll" 31 6587 6611 "insert_linenum.mll" 31 6587 6624
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"insert_linenum.mll" 31 6587 6626 "insert_linenum.mll" 31 6587 6629
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "insert_linenum.mll" 29 6491 6503 "insert_linenum.mll" 29 6491 6506
+)
+"insert_linenum.mll" 31 6587 6626 "insert_linenum.mll" 31 6587 6638
+type(
+  int
+)
+"insert_linenum.mll" 31 6587 6638 "insert_linenum.mll" 31 6587 6639
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"insert_linenum.mll" 31 6587 6639 "insert_linenum.mll" 31 6587 6640
+type(
+  int
+)
+"insert_linenum.mll" 31 6587 6625 "insert_linenum.mll" 31 6587 6641
+type(
+  int
+)
+"insert_linenum.mll" 31 6587 6610 "insert_linenum.mll" 31 6587 6642
+type(
+  string
+)
+"insert_linenum.mll" 31 6587 6605 "insert_linenum.mll" 31 6587 6642
+type(
+  string
+)
+"insert_linenum.mll" 32 6646 6658 "insert_linenum.mll" 32 6646 6660
+type(
+  unit
+)
+"insert_linenum.mll" 32 6646 6663 "insert_linenum.mll" 32 6646 6674
+type(
+  string -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref String.blit
+)
+"insert_linenum.mll" 32 6646 6675 "insert_linenum.mll" 32 6646 6678
+type(
+  string
+)
+ident(
+  int_ref str "insert_linenum.mll" 31 6587 6599 "insert_linenum.mll" 31 6587 6602
+)
+"insert_linenum.mll" 32 6646 6679 "insert_linenum.mll" 32 6646 6680
+type(
+  int
+)
+"insert_linenum.mll" 32 6646 6681 "insert_linenum.mll" 32 6646 6686
+type(
+  string
+)
+ident(
+  int_ref space "insert_linenum.mll" 30 6541 6553 "insert_linenum.mll" 30 6541 6558
+)
+"insert_linenum.mll" 32 6646 6687 "insert_linenum.mll" 32 6646 6688
+type(
+  int
+)
+"insert_linenum.mll" 32 6646 6690 "insert_linenum.mll" 32 6646 6703
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"insert_linenum.mll" 32 6646 6704 "insert_linenum.mll" 32 6646 6707
+type(
+  string
+)
+ident(
+  int_ref str "insert_linenum.mll" 31 6587 6599 "insert_linenum.mll" 31 6587 6602
+)
+"insert_linenum.mll" 32 6646 6689 "insert_linenum.mll" 32 6646 6708
+type(
+  int
+)
+"insert_linenum.mll" 32 6646 6663 "insert_linenum.mll" 32 6646 6708
+type(
+  unit
+)
+"insert_linenum.mll" 33 6712 6724 "insert_linenum.mll" 33 6712 6726
+type(
+  unit
+)
+"insert_linenum.mll" 33 6712 6729 "insert_linenum.mll" 33 6712 6740
+type(
+  string -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref String.blit
+)
+"insert_linenum.mll" 33 6712 6741 "insert_linenum.mll" 33 6712 6746
+type(
+  string
+)
+ident(
+  int_ref space "insert_linenum.mll" 30 6541 6553 "insert_linenum.mll" 30 6541 6558
+)
+"insert_linenum.mll" 33 6712 6747 "insert_linenum.mll" 33 6712 6748
+type(
+  int
+)
+"insert_linenum.mll" 33 6712 6749 "insert_linenum.mll" 33 6712 6750
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"insert_linenum.mll" 33 6712 6750 "insert_linenum.mll" 33 6712 6756
+type(
+  string ref
+)
+ident(
+  int_ref buffer "insert_linenum.mll" 4 40 44 "insert_linenum.mll" 4 40 50
+)
+"insert_linenum.mll" 33 6712 6749 "insert_linenum.mll" 33 6712 6756
+type(
+  string
+)
+"insert_linenum.mll" 33 6712 6757 "insert_linenum.mll" 33 6712 6760
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "insert_linenum.mll" 29 6491 6503 "insert_linenum.mll" 29 6491 6506
+)
+"insert_linenum.mll" 33 6712 6757 "insert_linenum.mll" 33 6712 6769
+type(
+  int
+)
+"insert_linenum.mll" 33 6712 6770 "insert_linenum.mll" 33 6712 6772
+type(
+  int
+)
+"insert_linenum.mll" 33 6712 6729 "insert_linenum.mll" 33 6712 6772
+type(
+  unit
+)
+"insert_linenum.mll" 35 6849 6857 "insert_linenum.mll" 35 6849 6871
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref insert_linenum "insert_linenum.ml" 118 6035 6043 "insert_linenum.ml" 118 6035 6057
+)
+"insert_linenum.mll" 35 6849 6872 "insert_linenum.mll" 35 6849 6878
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.mll" 35 6849 6857 "insert_linenum.mll" 35 6849 6878
+type(
+  string
+)
+"insert_linenum.mll" 33 6712 6720 "insert_linenum.mll" 35 6849 6878
+type(
+  string
+)
+"insert_linenum.mll" 32 6646 6654 "insert_linenum.mll" 35 6849 6878
+type(
+  string
+)
+"insert_linenum.mll" 31 6587 6595 "insert_linenum.mll" 35 6849 6878
+type(
+  string
+)
+"insert_linenum.mll" 30 6541 6549 "insert_linenum.mll" 35 6849 6878
+type(
+  string
+)
+"insert_linenum.mll" 28 6483 6489 "insert_linenum.mll" 36 6879 6886
+type(
+  string
+)
+"insert_linenum.ml" 143 6914 6918 "insert_linenum.ml" 143 6914 6919
+type(
+  int
+)
+"insert_linenum.mll" 39 6949 6961 "insert_linenum.mll" 39 6949 6967
+type(
+  string
+)
+"insert_linenum.mll" 39 6949 6970 "insert_linenum.mll" 39 6949 6971
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"insert_linenum.mll" 39 6949 6971 "insert_linenum.mll" 39 6949 6977
+type(
+  string ref
+)
+ident(
+  int_ref buffer "insert_linenum.mll" 4 40 44 "insert_linenum.mll" 4 40 50
+)
+"insert_linenum.mll" 39 6949 6970 "insert_linenum.mll" 39 6949 6977
+type(
+  string
+)
+"insert_linenum.mll" 40 6981 6989 "insert_linenum.mll" 40 6981 6995
+type(
+  string ref
+)
+ident(
+  int_ref buffer "insert_linenum.mll" 4 40 44 "insert_linenum.mll" 4 40 50
+)
+"insert_linenum.mll" 40 6981 6996 "insert_linenum.mll" 40 6981 6998
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"insert_linenum.mll" 40 6981 6999 "insert_linenum.mll" 40 6981 7001
+type(
+  string
+)
+"insert_linenum.mll" 40 6981 6989 "insert_linenum.mll" 40 6981 7001
+type(
+  unit
+)
+"insert_linenum.mll" 41 7003 7011 "insert_linenum.mll" 41 7003 7017
+type(
+  string
+)
+ident(
+  int_ref result "insert_linenum.mll" 39 6949 6961 "insert_linenum.mll" 39 6949 6967
+)
+"insert_linenum.mll" 40 6981 6989 "insert_linenum.mll" 41 7003 7017
+type(
+  string
+)
+"insert_linenum.mll" 39 6949 6955 "insert_linenum.mll" 41 7003 7019
+type(
+  string
+)
+"insert_linenum.ml" 150 7047 7051 "insert_linenum.ml" 150 7047 7052
+type(
+  int
+)
+"insert_linenum.mll" 45 7148 7156 "insert_linenum.mll" 45 7148 7170
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref insert_linenum "insert_linenum.ml" 118 6035 6043 "insert_linenum.ml" 118 6035 6057
+)
+"insert_linenum.mll" 45 7148 7171 "insert_linenum.mll" 45 7148 7177
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.mll" 43 7082 7088 "insert_linenum.mll" 46 7178 7185
+type(
+  string
+)
+"insert_linenum.ml" 158 7213 7217 "insert_linenum.ml" 158 7213 7218
+type(
+  int
+)
+"insert_linenum.mll" 50 7314 7322 "insert_linenum.mll" 50 7314 7336
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref insert_linenum "insert_linenum.ml" 118 6035 6043 "insert_linenum.ml" 118 6035 6057
+)
+"insert_linenum.mll" 50 7314 7337 "insert_linenum.mll" 50 7314 7343
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.mll" 48 7248 7254 "insert_linenum.mll" 51 7344 7351
+type(
+  string
+)
+"insert_linenum.ml" 166 7379 7383 "insert_linenum.ml" 166 7379 7400
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "insert_linenum.ml" 166 7379 7404 "insert_linenum.ml" 166 7379 7493
+)
+"insert_linenum.ml" 166 7379 7404 "insert_linenum.ml" 166 7379 7410
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.ml" 166 7379 7404 "insert_linenum.ml" 166 7379 7429
+type(
+  Lexing.lexbuf -> unit
+)
+"insert_linenum.ml" 166 7379 7430 "insert_linenum.ml" 166 7379 7436
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.ml" 166 7379 7404 "insert_linenum.ml" 166 7379 7436
+type(
+  unit
+)
+"insert_linenum.ml" 166 7379 7438 "insert_linenum.ml" 166 7379 7468
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_insert_linenum_rec "insert_linenum.ml" 120 6111 6115 "insert_linenum.ml" 120 6111 6145
+)
+"insert_linenum.ml" 166 7379 7469 "insert_linenum.ml" 166 7379 7475
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "insert_linenum.ml" 120 6111 6146 "insert_linenum.ml" 120 6111 6152
+)
+"insert_linenum.ml" 166 7379 7476 "insert_linenum.ml" 166 7379 7493
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "insert_linenum.ml" 166 7379 7383 "insert_linenum.ml" 166 7379 7400
+)
+"insert_linenum.ml" 166 7379 7438 "insert_linenum.ml" 166 7379 7493
+type(
+  string
+)
+"insert_linenum.ml" 166 7379 7404 "insert_linenum.ml" 166 7379 7493
+type(
+  string
+)
+"insert_linenum.ml" 121 6173 6175 "insert_linenum.ml" 166 7379 7493
+type(
+  string
+)

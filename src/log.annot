@@ -1,0 +1,3383 @@
+"log.ml" 13 161 165 "log.ml" 13 161 170
+type(
+  ctx
+)
+ident(
+  def empty "log.ml" 14 183 183 --
+)
+"log.ml" 13 161 173 "log.ml" 13 161 182
+type(
+  ctx
+)
+"log.ml" 14 183 187 "log.ml" 14 183 190
+type(
+  pos -> ctx -> ctx
+)
+ident(
+  def loc "log.ml" 15 218 218 --
+)
+"log.ml" 14 183 191 "log.ml" 14 183 194
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 14 183 195 "log.ml" 14 183 217
+)
+"log.ml" 14 183 195 "log.ml" 14 183 198
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 14 183 201 "log.ml" 14 183 217
+)
+"log.ml" 14 183 209 "log.ml" 14 183 212
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 14 183 191 "log.ml" 14 183 194
+)
+"log.ml" 14 183 213 "log.ml" 14 183 216
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 14 183 195 "log.ml" 14 183 198
+)
+"log.ml" 14 183 201 "log.ml" 14 183 217
+type(
+  ctx
+)
+"log.ml" 15 218 222 "log.ml" 15 218 228
+type(
+  pos -> ctx
+)
+ident(
+  def of_loc "log.ml" 16 253 253 --
+)
+"log.ml" 15 218 229 "log.ml" 15 218 232
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 15 218 235 "log.ml" 15 218 252
+)
+"log.ml" 15 218 235 "log.ml" 15 218 238
+type(
+  pos -> ctx -> ctx
+)
+ident(
+  int_ref loc "log.ml" 14 183 187 "log.ml" 14 183 190
+)
+"log.ml" 15 218 239 "log.ml" 15 218 242
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 15 218 229 "log.ml" 15 218 232
+)
+"log.ml" 15 218 243 "log.ml" 15 218 252
+type(
+  ctx
+)
+"log.ml" 15 218 235 "log.ml" 15 218 252
+type(
+  ctx
+)
+"log.ml" 16 253 257 "log.ml" 16 253 260
+type(
+  string -> ctx -> ctx
+)
+ident(
+  def msg "log.ml" 17 288 288 --
+)
+"log.ml" 16 253 261 "log.ml" 16 253 264
+type(
+  string
+)
+ident(
+  def str "log.ml" 16 253 265 "log.ml" 16 253 287
+)
+"log.ml" 16 253 265 "log.ml" 16 253 268
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 16 253 271 "log.ml" 16 253 287
+)
+"log.ml" 16 253 279 "log.ml" 16 253 282
+type(
+  string
+)
+ident(
+  int_ref str "log.ml" 16 253 261 "log.ml" 16 253 264
+)
+"log.ml" 16 253 283 "log.ml" 16 253 286
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 16 253 265 "log.ml" 16 253 268
+)
+"log.ml" 16 253 271 "log.ml" 16 253 287
+type(
+  ctx
+)
+"log.ml" 17 288 292 "log.ml" 17 288 298
+type(
+  string -> ctx
+)
+ident(
+  def of_msg "log.ml" 18 323 323 --
+)
+"log.ml" 17 288 299 "log.ml" 17 288 302
+type(
+  string
+)
+ident(
+  def str "log.ml" 17 288 305 "log.ml" 17 288 322
+)
+"log.ml" 17 288 305 "log.ml" 17 288 308
+type(
+  string -> ctx -> ctx
+)
+ident(
+  int_ref msg "log.ml" 16 253 257 "log.ml" 16 253 260
+)
+"log.ml" 17 288 309 "log.ml" 17 288 312
+type(
+  string
+)
+ident(
+  int_ref str "log.ml" 17 288 299 "log.ml" 17 288 302
+)
+"log.ml" 17 288 313 "log.ml" 17 288 322
+type(
+  ctx
+)
+"log.ml" 17 288 305 "log.ml" 17 288 322
+type(
+  ctx
+)
+"log.ml" 18 323 327 "log.ml" 18 323 332
+type(
+  ctx -> ctx -> ctx
+)
+ident(
+  def merge "log.ml" 20 359 359 --
+)
+"log.ml" 18 323 333 "log.ml" 18 323 335
+type(
+  ctx
+)
+ident(
+  def c1 "log.ml" 18 323 336 "log.ml" 18 323 357
+)
+"log.ml" 18 323 336 "log.ml" 18 323 338
+type(
+  ctx
+)
+ident(
+  def c2 "log.ml" 18 323 341 "log.ml" 18 323 357
+)
+"log.ml" 18 323 351 "log.ml" 18 323 353
+type(
+  ctx
+)
+ident(
+  int_ref c1 "log.ml" 18 323 333 "log.ml" 18 323 335
+)
+"log.ml" 18 323 354 "log.ml" 18 323 356
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 18 323 336 "log.ml" 18 323 338
+)
+"log.ml" 18 323 341 "log.ml" 18 323 357
+type(
+  ctx
+)
+"log.ml" 20 359 367 "log.ml" 20 359 373
+type(
+  string -> pos -> ctx -> bool
+)
+ident(
+  def exists "log.ml" 20 359 359 --
+)
+"log.ml" 20 359 374 "log.ml" 20 359 377
+type(
+  string
+)
+ident(
+  def msg "log.ml" 20 359 378 "log.ml" 29 624 668
+)
+"log.ml" 20 359 378 "log.ml" 20 359 381
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 20 359 384 "log.ml" 29 624 668
+)
+"log.ml" 21 393 397 "log.ml" 21 393 406
+type(
+  ctx
+)
+"log.ml" 21 393 410 "log.ml" 21 393 415
+type(
+  bool
+)
+"log.ml" 22 416 428 "log.ml" 22 416 432
+type(
+  string
+)
+ident(
+  def msg' "log.ml" 23 456 462 "log.ml" 25 506 536
+)
+"log.ml" 22 416 441 "log.ml" 22 416 445
+type(
+  pos
+)
+ident(
+  def pos' "log.ml" 23 456 462 "log.ml" 25 506 536
+)
+"log.ml" 22 416 446 "log.ml" 22 416 450
+type(
+  ctx
+)
+ident(
+  def rest "log.ml" 23 456 462 "log.ml" 25 506 536
+)
+"log.ml" 22 416 433 "log.ml" 22 416 451
+type(
+  ctx
+)
+"log.ml" 22 416 420 "log.ml" 22 416 452
+type(
+  ctx
+)
+"log.ml" 23 456 465 "log.ml" 23 456 468
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 20 359 374 "log.ml" 20 359 377
+)
+"log.ml" 23 456 469 "log.ml" 23 456 470
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"log.ml" 23 456 471 "log.ml" 23 456 475
+type(
+  string
+)
+ident(
+  int_ref msg' "log.ml" 22 416 428 "log.ml" 22 416 432
+)
+"log.ml" 23 456 465 "log.ml" 23 456 475
+type(
+  bool
+)
+"log.ml" 23 456 476 "log.ml" 23 456 478
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"log.ml" 23 456 479 "log.ml" 23 456 482
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 20 359 378 "log.ml" 20 359 381
+)
+"log.ml" 23 456 483 "log.ml" 23 456 484
+type(
+  pos -> pos -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"log.ml" 23 456 485 "log.ml" 23 456 489
+type(
+  pos
+)
+ident(
+  int_ref pos' "log.ml" 22 416 441 "log.ml" 22 416 445
+)
+"log.ml" 23 456 479 "log.ml" 23 456 489
+type(
+  bool
+)
+"log.ml" 23 456 465 "log.ml" 23 456 489
+type(
+  bool
+)
+"log.ml" 24 490 501 "log.ml" 24 490 505
+type(
+  bool
+)
+"log.ml" 25 506 517 "log.ml" 25 506 523
+type(
+  string -> pos -> ctx -> bool
+)
+ident(
+  int_ref exists "log.ml" 20 359 367 "log.ml" 20 359 373
+)
+"log.ml" 25 506 524 "log.ml" 25 506 527
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 20 359 374 "log.ml" 20 359 377
+)
+"log.ml" 25 506 528 "log.ml" 25 506 531
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 20 359 378 "log.ml" 20 359 381
+)
+"log.ml" 25 506 532 "log.ml" 25 506 536
+type(
+  ctx
+)
+ident(
+  int_ref rest "log.ml" 22 416 446 "log.ml" 22 416 450
+)
+"log.ml" 25 506 517 "log.ml" 25 506 536
+type(
+  bool
+)
+"log.ml" 23 456 462 "log.ml" 25 506 536
+type(
+  bool
+)
+"log.ml" 26 537 549 "log.ml" 26 537 550
+type(
+  pos
+)
+"log.ml" 26 537 551 "log.ml" 26 537 555
+type(
+  ctx
+)
+ident(
+  def rest "log.ml" 27 557 580 "log.ml" 27 557 599
+)
+"log.ml" 26 537 541 "log.ml" 26 537 556
+type(
+  ctx
+)
+"log.ml" 27 557 569 "log.ml" 27 557 570
+type(
+  string
+)
+"log.ml" 27 557 571 "log.ml" 27 557 575
+type(
+  ctx
+)
+ident(
+  def rest "log.ml" 27 557 580 "log.ml" 27 557 599
+)
+"log.ml" 27 557 561 "log.ml" 27 557 576
+type(
+  ctx
+)
+"log.ml" 26 537 541 "log.ml" 27 557 576
+type(
+  ctx
+)
+"log.ml" 27 557 580 "log.ml" 27 557 586
+type(
+  string -> pos -> ctx -> bool
+)
+ident(
+  int_ref exists "log.ml" 20 359 367 "log.ml" 20 359 373
+)
+"log.ml" 27 557 587 "log.ml" 27 557 590
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 20 359 374 "log.ml" 20 359 377
+)
+"log.ml" 27 557 591 "log.ml" 27 557 594
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 20 359 378 "log.ml" 20 359 381
+)
+"log.ml" 27 557 595 "log.ml" 27 557 599
+type(
+  ctx
+)
+ident(
+  int_ref rest "log.ml" 26 537 551 "log.ml" 26 537 555
+)
+"log.ml" 27 557 580 "log.ml" 27 557 599
+type(
+  bool
+)
+"log.ml" 28 600 614 "log.ml" 28 600 616
+type(
+  ctx
+)
+ident(
+  def c1 "log.ml" 29 624 630 "log.ml" 29 624 668
+)
+"log.ml" 28 600 617 "log.ml" 28 600 619
+type(
+  ctx
+)
+ident(
+  def c2 "log.ml" 29 624 630 "log.ml" 29 624 668
+)
+"log.ml" 28 600 604 "log.ml" 28 600 620
+type(
+  ctx
+)
+"log.ml" 29 624 630 "log.ml" 29 624 636
+type(
+  string -> pos -> ctx -> bool
+)
+ident(
+  int_ref exists "log.ml" 20 359 367 "log.ml" 20 359 373
+)
+"log.ml" 29 624 637 "log.ml" 29 624 640
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 20 359 374 "log.ml" 20 359 377
+)
+"log.ml" 29 624 641 "log.ml" 29 624 644
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 20 359 378 "log.ml" 20 359 381
+)
+"log.ml" 29 624 645 "log.ml" 29 624 647
+type(
+  ctx
+)
+ident(
+  int_ref c1 "log.ml" 28 600 614 "log.ml" 28 600 616
+)
+"log.ml" 29 624 630 "log.ml" 29 624 647
+type(
+  bool
+)
+"log.ml" 29 624 648 "log.ml" 29 624 650
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"log.ml" 29 624 651 "log.ml" 29 624 657
+type(
+  string -> pos -> ctx -> bool
+)
+ident(
+  int_ref exists "log.ml" 20 359 367 "log.ml" 20 359 373
+)
+"log.ml" 29 624 658 "log.ml" 29 624 661
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 20 359 374 "log.ml" 20 359 377
+)
+"log.ml" 29 624 662 "log.ml" 29 624 665
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 20 359 378 "log.ml" 20 359 381
+)
+"log.ml" 29 624 666 "log.ml" 29 624 668
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 28 600 617 "log.ml" 28 600 619
+)
+"log.ml" 29 624 651 "log.ml" 29 624 668
+type(
+  bool
+)
+"log.ml" 29 624 630 "log.ml" 29 624 668
+type(
+  bool
+)
+"log.ml" 20 359 384 "log.ml" 29 624 668
+type(
+  ctx -> bool
+)
+"log.ml" 31 671 679 "log.ml" 31 671 685
+type(
+  ctx -> ctx -> ctx
+)
+ident(
+  def append "log.ml" 31 671 671 --
+)
+"log.ml" 31 671 686 "log.ml" 31 671 688
+type(
+  ctx
+)
+ident(
+  def c1 "log.ml" 31 671 689 "log.ml" 39 965 1000
+)
+"log.ml" 31 671 689 "log.ml" 31 671 691
+type(
+  ctx
+)
+ident(
+  def c2 "log.ml" 31 671 694 "log.ml" 39 965 1000
+)
+"log.ml" 31 671 700 "log.ml" 31 671 702
+type(
+  ctx
+)
+ident(
+  int_ref c1 "log.ml" 31 671 686 "log.ml" 31 671 688
+)
+"log.ml" 32 708 712 "log.ml" 32 708 721
+type(
+  ctx
+)
+"log.ml" 32 708 725 "log.ml" 32 708 727
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 33 728 740 "log.ml" 33 728 743
+type(
+  string
+)
+ident(
+  def msg "log.ml" 34 766 772 "log.ml" 36 819 870
+)
+"log.ml" 33 728 752 "log.ml" 33 728 755
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 34 766 772 "log.ml" 36 819 870
+)
+"log.ml" 33 728 756 "log.ml" 33 728 760
+type(
+  ctx
+)
+ident(
+  def rest "log.ml" 34 766 772 "log.ml" 36 819 870
+)
+"log.ml" 33 728 744 "log.ml" 33 728 761
+type(
+  ctx
+)
+"log.ml" 33 728 732 "log.ml" 33 728 762
+type(
+  ctx
+)
+"log.ml" 34 766 775 "log.ml" 34 766 781
+type(
+  string -> pos -> ctx -> bool
+)
+ident(
+  int_ref exists "log.ml" 20 359 367 "log.ml" 20 359 373
+)
+"log.ml" 34 766 782 "log.ml" 34 766 785
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 33 728 740 "log.ml" 33 728 743
+)
+"log.ml" 34 766 786 "log.ml" 34 766 789
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 33 728 752 "log.ml" 33 728 755
+)
+"log.ml" 34 766 790 "log.ml" 34 766 792
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 34 766 775 "log.ml" 34 766 792
+type(
+  bool
+)
+"log.ml" 35 793 804 "log.ml" 35 793 810
+type(
+  ctx -> ctx -> ctx
+)
+ident(
+  int_ref append "log.ml" 31 671 679 "log.ml" 31 671 685
+)
+"log.ml" 35 793 811 "log.ml" 35 793 815
+type(
+  ctx
+)
+ident(
+  int_ref rest "log.ml" 33 728 756 "log.ml" 33 728 760
+)
+"log.ml" 35 793 816 "log.ml" 35 793 818
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 35 793 804 "log.ml" 35 793 818
+type(
+  ctx
+)
+"log.ml" 36 819 838 "log.ml" 36 819 841
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 33 728 740 "log.ml" 33 728 743
+)
+"log.ml" 36 819 850 "log.ml" 36 819 853
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 33 728 752 "log.ml" 33 728 755
+)
+"log.ml" 36 819 854 "log.ml" 36 819 860
+type(
+  ctx -> ctx -> ctx
+)
+ident(
+  int_ref append "log.ml" 31 671 679 "log.ml" 31 671 685
+)
+"log.ml" 36 819 861 "log.ml" 36 819 865
+type(
+  ctx
+)
+ident(
+  int_ref rest "log.ml" 33 728 756 "log.ml" 33 728 760
+)
+"log.ml" 36 819 866 "log.ml" 36 819 868
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 36 819 854 "log.ml" 36 819 868
+type(
+  ctx
+)
+"log.ml" 36 819 842 "log.ml" 36 819 869
+type(
+  ctx
+)
+"log.ml" 36 819 830 "log.ml" 36 819 870
+type(
+  ctx
+)
+"log.ml" 34 766 772 "log.ml" 36 819 870
+type(
+  ctx
+)
+"log.ml" 37 871 883 "log.ml" 37 871 884
+type(
+  pos
+)
+ident(
+  def p "log.ml" 37 871 893 "log.ml" 37 871 917
+)
+"log.ml" 37 871 885 "log.ml" 37 871 888
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 37 871 893 "log.ml" 37 871 917
+)
+"log.ml" 37 871 875 "log.ml" 37 871 889
+type(
+  ctx
+)
+"log.ml" 37 871 901 "log.ml" 37 871 902
+type(
+  pos
+)
+ident(
+  int_ref p "log.ml" 37 871 883 "log.ml" 37 871 884
+)
+"log.ml" 37 871 903 "log.ml" 37 871 909
+type(
+  ctx -> ctx -> ctx
+)
+ident(
+  int_ref append "log.ml" 31 671 679 "log.ml" 31 671 685
+)
+"log.ml" 37 871 910 "log.ml" 37 871 913
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 37 871 885 "log.ml" 37 871 888
+)
+"log.ml" 37 871 914 "log.ml" 37 871 916
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 37 871 903 "log.ml" 37 871 916
+type(
+  ctx
+)
+"log.ml" 37 871 893 "log.ml" 37 871 917
+type(
+  ctx
+)
+"log.ml" 38 918 930 "log.ml" 38 918 931
+type(
+  string
+)
+ident(
+  def s "log.ml" 38 918 940 "log.ml" 38 918 964
+)
+"log.ml" 38 918 932 "log.ml" 38 918 935
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 38 918 940 "log.ml" 38 918 964
+)
+"log.ml" 38 918 922 "log.ml" 38 918 936
+type(
+  ctx
+)
+"log.ml" 38 918 948 "log.ml" 38 918 949
+type(
+  string
+)
+ident(
+  int_ref s "log.ml" 38 918 930 "log.ml" 38 918 931
+)
+"log.ml" 38 918 950 "log.ml" 38 918 956
+type(
+  ctx -> ctx -> ctx
+)
+ident(
+  int_ref append "log.ml" 31 671 679 "log.ml" 31 671 685
+)
+"log.ml" 38 918 957 "log.ml" 38 918 960
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 38 918 932 "log.ml" 38 918 935
+)
+"log.ml" 38 918 961 "log.ml" 38 918 963
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 38 918 950 "log.ml" 38 918 963
+type(
+  ctx
+)
+"log.ml" 38 918 940 "log.ml" 38 918 964
+type(
+  ctx
+)
+"log.ml" 39 965 979 "log.ml" 39 965 980
+type(
+  ctx
+)
+type(
+  ctx
+)
+"log.ml" 39 965 969 "log.ml" 39 965 980
+type(
+  ctx
+)
+"log.ml" 39 965 994 "log.ml" 39 965 996
+type(
+  ctx
+)
+ident(
+  int_ref c1 "log.ml" 31 671 686 "log.ml" 31 671 688
+)
+"log.ml" 39 965 997 "log.ml" 39 965 999
+type(
+  ctx
+)
+ident(
+  int_ref c2 "log.ml" 31 671 689 "log.ml" 31 671 691
+)
+"log.ml" 39 965 984 "log.ml" 39 965 1000
+type(
+  ctx
+)
+"log.ml" 31 671 694 "log.ml" 39 965 1000
+type(
+  ctx
+)
+"log.ml" 41 1002 1006 "log.ml" 41 1002 1015
+type(
+  (string -> 'a) -> ('b, Format.formatter, unit, 'a) format4 -> 'b
+)
+ident(
+  def kfsprintf "log.ml" 51 1289 1289 --
+)
+"log.ml" 41 1002 1016 "log.ml" 41 1002 1017
+type(
+  string -> 'a
+)
+ident(
+  def f "log.ml" 41 1002 1018 "log.ml" 49 1272 1287
+)
+"log.ml" 41 1002 1018 "log.ml" 41 1002 1021
+type(
+  ('b, Format.formatter, unit, 'a) format4
+)
+ident(
+  def fmt "log.ml" 42 1025 1027 "log.ml" 49 1272 1287
+)
+"log.ml" 42 1025 1031 "log.ml" 42 1025 1032
+type(
+  Buffer.t
+)
+"log.ml" 42 1025 1035 "log.ml" 42 1025 1048
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"log.ml" 42 1025 1049 "log.ml" 42 1025 1052
+type(
+  int
+)
+"log.ml" 42 1025 1035 "log.ml" 42 1025 1052
+type(
+  Buffer.t
+)
+"log.ml" 43 1056 1062 "log.ml" 43 1056 1065
+type(
+  Format.formatter
+)
+"log.ml" 43 1056 1068 "log.ml" 43 1056 1094
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_buffer
+)
+"log.ml" 43 1056 1095 "log.ml" 43 1056 1096
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "log.ml" 42 1025 1031 "log.ml" 42 1025 1032
+)
+"log.ml" 43 1056 1068 "log.ml" 43 1056 1096
+type(
+  Format.formatter
+)
+"log.ml" 44 1100 1104 "log.ml" 44 1100 1124
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_set_margin
+)
+"log.ml" 44 1100 1125 "log.ml" 44 1100 1128
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 43 1056 1062 "log.ml" 43 1056 1065
+)
+"log.ml" 44 1100 1173 "log.ml" 44 1100 1175
+type(
+  int
+)
+"log.ml" 44 1100 1104 "log.ml" 44 1100 1175
+type(
+  unit
+)
+"log.ml" 45 1177 1181 "log.ml" 45 1177 1196
+type(
+  (Format.formatter -> 'a) ->
+  Format.formatter -> ('b, Format.formatter, unit, 'a) format4 -> 'b
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"log.ml" 46 1197 1208 "log.ml" 46 1197 1211
+type(
+  Format.formatter
+)
+ident(
+  def ppf "log.ml" 47 1216 1218 "log.ml" 48 1248 1271
+)
+"log.ml" 47 1216 1218 "log.ml" 47 1216 1239
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"log.ml" 47 1216 1240 "log.ml" 47 1216 1243
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 46 1197 1208 "log.ml" 46 1197 1211
+)
+"log.ml" 47 1216 1244 "log.ml" 47 1216 1246
+type(
+  unit
+)
+"log.ml" 47 1216 1218 "log.ml" 47 1216 1246
+type(
+  unit
+)
+"log.ml" 48 1248 1250 "log.ml" 48 1248 1251
+type(
+  string -> 'a
+)
+ident(
+  int_ref f "log.ml" 41 1002 1016 "log.ml" 41 1002 1017
+)
+"log.ml" 48 1248 1253 "log.ml" 48 1248 1268
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"log.ml" 48 1248 1269 "log.ml" 48 1248 1270
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "log.ml" 42 1025 1031 "log.ml" 42 1025 1032
+)
+"log.ml" 48 1248 1252 "log.ml" 48 1248 1271
+type(
+  string
+)
+"log.ml" 48 1248 1250 "log.ml" 48 1248 1271
+type(
+  'a
+)
+"log.ml" 47 1216 1218 "log.ml" 48 1248 1271
+type(
+  'a
+)
+"log.ml" 46 1197 1203 "log.ml" 49 1272 1279
+type(
+  Format.formatter -> 'a
+)
+"log.ml" 49 1272 1280 "log.ml" 49 1272 1283
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 43 1056 1062 "log.ml" 43 1056 1065
+)
+"log.ml" 49 1272 1284 "log.ml" 49 1272 1287
+type(
+  ('b, Format.formatter, unit, 'a) format4
+)
+ident(
+  int_ref fmt "log.ml" 41 1002 1018 "log.ml" 41 1002 1021
+)
+"log.ml" 45 1177 1181 "log.ml" 49 1272 1287
+type(
+  'b
+)
+"log.ml" 44 1100 1104 "log.ml" 49 1272 1287
+type(
+  'b
+)
+"log.ml" 43 1056 1058 "log.ml" 49 1272 1287
+type(
+  'b
+)
+"log.ml" 42 1025 1027 "log.ml" 49 1272 1287
+type(
+  'b
+)
+"log.ml" 51 1289 1293 "log.ml" 51 1289 1299
+type(
+  ctx -> ?pos:pos -> ('a, Format.formatter, unit, ctx) format4 -> 'a
+)
+ident(
+  def in_ctx "log.ml" 55 1456 1456 --
+)
+"log.ml" 51 1289 1300 "log.ml" 51 1289 1303
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 51 1289 1304 "log.ml" 53 1386 1454
+)
+"log.ml" 51 1289 1305 "log.ml" 51 1289 1308
+type(
+  pos option
+)
+ident(
+  def pos "log.ml" 51 1289 1309 "log.ml" 53 1386 1454
+)
+"log.ml" 51 1289 1309 "log.ml" 51 1289 1312
+type(
+  ('a, Format.formatter, unit, ctx) format4
+)
+ident(
+  def fmt "log.ml" 51 1289 1315 "log.ml" 53 1386 1454
+)
+"log.ml" 51 1289 1321 "log.ml" 51 1289 1324
+type(
+  pos option
+)
+ident(
+  int_ref pos "log.ml" 51 1289 1305 "log.ml" 51 1289 1308
+)
+"log.ml" 52 1330 1334 "log.ml" 52 1330 1338
+type(
+  pos option
+)
+"log.ml" 52 1330 1342 "log.ml" 52 1330 1351
+type(
+  (string -> ctx) -> ('a, Format.formatter, unit, ctx) format4 -> 'a
+)
+ident(
+  int_ref kfsprintf "log.ml" 41 1002 1006 "log.ml" 41 1002 1015
+)
+"log.ml" 52 1330 1357 "log.ml" 52 1330 1360
+type(
+  string
+)
+ident(
+  def msg "log.ml" 52 1330 1364 "log.ml" 52 1330 1380
+)
+"log.ml" 52 1330 1372 "log.ml" 52 1330 1375
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 52 1330 1357 "log.ml" 52 1330 1360
+)
+"log.ml" 52 1330 1376 "log.ml" 52 1330 1379
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 51 1289 1300 "log.ml" 51 1289 1303
+)
+"log.ml" 52 1330 1364 "log.ml" 52 1330 1380
+type(
+  ctx
+)
+"log.ml" 52 1330 1352 "log.ml" 52 1330 1381
+type(
+  string -> ctx
+)
+"log.ml" 52 1330 1382 "log.ml" 52 1330 1385
+type(
+  ('a, Format.formatter, unit, ctx) format4
+)
+ident(
+  int_ref fmt "log.ml" 51 1289 1309 "log.ml" 51 1289 1312
+)
+"log.ml" 52 1330 1342 "log.ml" 52 1330 1385
+type(
+  'a
+)
+"log.ml" 53 1386 1395 "log.ml" 53 1386 1396
+type(
+  pos
+)
+ident(
+  def p "log.ml" 53 1386 1400 "log.ml" 53 1386 1454
+)
+"log.ml" 53 1386 1390 "log.ml" 53 1386 1396
+type(
+  pos option
+)
+"log.ml" 53 1386 1400 "log.ml" 53 1386 1409
+type(
+  (string -> ctx) -> ('a, Format.formatter, unit, ctx) format4 -> 'a
+)
+ident(
+  int_ref kfsprintf "log.ml" 41 1002 1006 "log.ml" 41 1002 1015
+)
+"log.ml" 53 1386 1415 "log.ml" 53 1386 1418
+type(
+  string
+)
+ident(
+  def msg "log.ml" 53 1386 1422 "log.ml" 53 1386 1449
+)
+"log.ml" 53 1386 1430 "log.ml" 53 1386 1433
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 53 1386 1415 "log.ml" 53 1386 1418
+)
+"log.ml" 53 1386 1442 "log.ml" 53 1386 1443
+type(
+  pos
+)
+ident(
+  int_ref p "log.ml" 53 1386 1395 "log.ml" 53 1386 1396
+)
+"log.ml" 53 1386 1444 "log.ml" 53 1386 1447
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 51 1289 1300 "log.ml" 51 1289 1303
+)
+"log.ml" 53 1386 1434 "log.ml" 53 1386 1448
+type(
+  ctx
+)
+"log.ml" 53 1386 1422 "log.ml" 53 1386 1449
+type(
+  ctx
+)
+"log.ml" 53 1386 1410 "log.ml" 53 1386 1450
+type(
+  string -> ctx
+)
+"log.ml" 53 1386 1451 "log.ml" 53 1386 1454
+type(
+  ('a, Format.formatter, unit, ctx) format4
+)
+ident(
+  int_ref fmt "log.ml" 51 1289 1309 "log.ml" 51 1289 1312
+)
+"log.ml" 53 1386 1400 "log.ml" 53 1386 1454
+type(
+  'a
+)
+"log.ml" 51 1289 1315 "log.ml" 53 1386 1454
+type(
+  'a
+)
+"log.ml" 55 1456 1460 "log.ml" 55 1456 1470
+type(
+  Format.formatter -> Lexing.position -> unit
+)
+ident(
+  def format_pos "log.ml" 60 1585 1585 --
+)
+"log.ml" 55 1456 1471 "log.ml" 55 1456 1474
+type(
+  Format.formatter
+)
+ident(
+  def ppf "log.ml" 55 1456 1475 "log.ml" 58 1555 1578
+)
+"log.ml" 55 1456 1475 "log.ml" 55 1456 1478
+type(
+  Lexing.position
+)
+ident(
+  def pos "log.ml" 56 1482 1484 "log.ml" 58 1555 1578
+)
+"log.ml" 56 1482 1484 "log.ml" 56 1482 1491
+type(
+  Format.formatter ->
+  (string -> int -> unit, Format.formatter, unit) format ->
+  string -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 56 1482 1492 "log.ml" 56 1482 1495
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 55 1456 1471 "log.ml" 55 1456 1474
+)
+"log.ml" 56 1482 1496 "log.ml" 56 1482 1504
+type(
+  (string -> int -> unit, Format.formatter, unit) format
+)
+"log.ml" 57 1506 1533 "log.ml" 57 1506 1536
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "log.ml" 55 1456 1475 "log.ml" 55 1456 1478
+)
+"log.ml" 57 1506 1510 "log.ml" 57 1506 1554
+type(
+  string
+)
+"log.ml" 58 1555 1559 "log.ml" 58 1555 1562
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "log.ml" 55 1456 1475 "log.ml" 55 1456 1478
+)
+"log.ml" 58 1555 1559 "log.ml" 58 1555 1578
+type(
+  int
+)
+"log.ml" 56 1482 1484 "log.ml" 58 1555 1578
+type(
+  unit
+)
+"log.ml" 60 1585 1589 "log.ml" 60 1585 1592
+type(
+  int -> bool
+)
+ident(
+  def lvl "log.ml" 62 1620 1620 --
+)
+"log.ml" 60 1585 1593 "log.ml" 60 1585 1594
+type(
+  int
+)
+ident(
+  def i "log.ml" 60 1585 1597 "log.ml" 60 1585 1618
+)
+"log.ml" 60 1585 1597 "log.ml" 60 1585 1601
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"log.ml" 60 1585 1597 "log.ml" 60 1585 1613
+type(
+  int
+)
+"log.ml" 60 1585 1614 "log.ml" 60 1585 1616
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"log.ml" 60 1585 1617 "log.ml" 60 1585 1618
+type(
+  int
+)
+ident(
+  int_ref i "log.ml" 60 1585 1593 "log.ml" 60 1585 1594
+)
+"log.ml" 60 1585 1597 "log.ml" 60 1585 1618
+type(
+  bool
+)
+"log.ml" 62 1620 1624 "log.ml" 62 1620 1634
+type(
+  Format.formatter
+)
+ident(
+  def stderr_ppf "log.ml" 68 1744 1744 --
+)
+"log.ml" 62 1620 1637 "log.ml" 62 1620 1661
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"log.ml" 62 1620 1662 "log.ml" 62 1620 1668
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"log.ml" 62 1620 1637 "log.ml" 62 1620 1668
+type(
+  Format.formatter
+)
+"log.ml" 68 1744 1748 "log.ml" 68 1744 1755
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  def dup_tbl "log.ml" 70 1792 1792 --
+)
+"log.ml" 68 1744 1758 "log.ml" 68 1744 1772
+type(
+  int -> (string, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"log.ml" 68 1744 1773 "log.ml" 68 1744 1778
+type(
+  int
+)
+"log.ml" 68 1744 1758 "log.ml" 68 1744 1778
+type(
+  (string, unit) Hashtbl.t
+)
+"log.ml" 70 1792 1800 "log.ml" 70 1792 1810
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  def format_ctx "log.ml" 70 1792 1792 --
+)
+"log.ml" 70 1792 1811 "log.ml" 70 1792 1814
+type(
+  Format.formatter
+)
+ident(
+  def ppf "log.ml" 70 1792 1815 "log.ml" 89 2544 2580
+)
+"log.ml" 70 1792 1815 "log.ml" 70 1792 1818
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 71 1822 1824 "log.ml" 89 2544 2580
+)
+"log.ml" 71 1822 1832 "log.ml" 71 1822 1836
+type(
+  Format.formatter -> ctx -> unit
+)
+"log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+type(
+  Format.formatter
+)
+ident(
+  def ppf "log.ml" 71 1822 1843 "log.ml" 87 2499 2538
+)
+"log.ml" 72 1852 1858 "log.ml" 72 1852 1867
+type(
+  ctx
+)
+"log.ml" 72 1852 1871 "log.ml" 72 1852 1873
+type(
+  unit
+)
+"log.ml" 73 1874 1888 "log.ml" 73 1874 1891
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 74 1907 1915 "log.ml" 74 1907 1949
+)
+"log.ml" 73 1874 1892 "log.ml" 73 1874 1901
+type(
+  ctx
+)
+"log.ml" 73 1874 1880 "log.ml" 73 1874 1902
+type(
+  ctx
+)
+"log.ml" 74 1907 1915 "log.ml" 74 1907 1922
+type(
+  Format.formatter ->
+  ((Format.formatter -> pos -> unit) -> pos -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> pos -> unit) -> pos -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 74 1907 1923 "log.ml" 74 1907 1926
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 74 1907 1927 "log.ml" 74 1907 1934
+type(
+  ((Format.formatter -> pos -> unit) -> pos -> unit, Format.formatter, unit)
+  format
+)
+"log.ml" 74 1907 1935 "log.ml" 74 1907 1945
+type(
+  Format.formatter -> pos -> unit
+)
+ident(
+  int_ref format_pos "log.ml" 55 1456 1460 "log.ml" 55 1456 1470
+)
+"log.ml" 74 1907 1946 "log.ml" 74 1907 1949
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 73 1874 1888 "log.ml" 73 1874 1891
+)
+"log.ml" 74 1907 1915 "log.ml" 74 1907 1949
+type(
+  unit
+)
+"log.ml" 75 1950 1964 "log.ml" 75 1950 1967
+type(
+  string
+)
+ident(
+  def msg "log.ml" 76 1995 2003 "log.ml" 76 1995 2057
+)
+"log.ml" 75 1950 1976 "log.ml" 75 1950 1979
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 76 1995 2003 "log.ml" 76 1995 2057
+)
+"log.ml" 75 1950 1980 "log.ml" 75 1950 1989
+type(
+  ctx
+)
+"log.ml" 75 1950 1968 "log.ml" 75 1950 1990
+type(
+  ctx
+)
+"log.ml" 75 1950 1956 "log.ml" 75 1950 1991
+type(
+  ctx
+)
+"log.ml" 76 1995 2003 "log.ml" 76 1995 2010
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> pos -> unit) -> pos -> unit,
+   Format.formatter, unit)
+  format -> string -> (Format.formatter -> pos -> unit) -> pos -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 76 1995 2011 "log.ml" 76 1995 2014
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 76 1995 2015 "log.ml" 76 1995 2038
+type(
+  (string -> (Format.formatter -> pos -> unit) -> pos -> unit,
+   Format.formatter, unit)
+  format
+)
+"log.ml" 76 1995 2039 "log.ml" 76 1995 2042
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 75 1950 1964 "log.ml" 75 1950 1967
+)
+"log.ml" 76 1995 2043 "log.ml" 76 1995 2053
+type(
+  Format.formatter -> pos -> unit
+)
+ident(
+  int_ref format_pos "log.ml" 55 1456 1460 "log.ml" 55 1456 1470
+)
+"log.ml" 76 1995 2054 "log.ml" 76 1995 2057
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 75 1950 1976 "log.ml" 75 1950 1979
+)
+"log.ml" 76 1995 2003 "log.ml" 76 1995 2057
+type(
+  unit
+)
+"log.ml" 77 2058 2072 "log.ml" 77 2058 2075
+type(
+  string
+)
+ident(
+  def msg "log.ml" 78 2090 2098 "log.ml" 78 2090 2121
+)
+"log.ml" 77 2058 2076 "log.ml" 77 2058 2085
+type(
+  ctx
+)
+"log.ml" 77 2058 2064 "log.ml" 77 2058 2086
+type(
+  ctx
+)
+"log.ml" 78 2090 2098 "log.ml" 78 2090 2105
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 78 2090 2106 "log.ml" 78 2090 2109
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 78 2090 2110 "log.ml" 78 2090 2117
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"log.ml" 78 2090 2118 "log.ml" 78 2090 2121
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 77 2058 2072 "log.ml" 77 2058 2075
+)
+"log.ml" 78 2090 2098 "log.ml" 78 2090 2121
+type(
+  unit
+)
+"log.ml" 79 2122 2136 "log.ml" 79 2122 2139
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 80 2149 2157 "log.ml" 80 2149 2207
+)
+"log.ml" 79 2122 2140 "log.ml" 79 2122 2143
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 80 2149 2157 "log.ml" 80 2149 2207
+)
+"log.ml" 79 2122 2128 "log.ml" 79 2122 2144
+type(
+  ctx
+)
+"log.ml" 80 2149 2157 "log.ml" 80 2149 2164
+type(
+  Format.formatter ->
+  ((Format.formatter -> pos -> unit) -> pos -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> pos -> unit) -> pos -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 80 2149 2165 "log.ml" 80 2149 2168
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 80 2149 2169 "log.ml" 80 2149 2178
+type(
+  ((Format.formatter -> pos -> unit) -> pos -> unit, Format.formatter, unit)
+  format
+)
+"log.ml" 80 2149 2179 "log.ml" 80 2149 2189
+type(
+  Format.formatter -> pos -> unit
+)
+ident(
+  int_ref format_pos "log.ml" 55 1456 1460 "log.ml" 55 1456 1470
+)
+"log.ml" 80 2149 2190 "log.ml" 80 2149 2193
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 79 2122 2136 "log.ml" 79 2122 2139
+)
+"log.ml" 80 2149 2157 "log.ml" 80 2149 2193
+type(
+  unit
+)
+"log.ml" 80 2149 2195 "log.ml" 80 2149 2199
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref work "log.ml" 71 1822 1832 "log.ml" 71 1822 1836
+)
+"log.ml" 80 2149 2200 "log.ml" 80 2149 2203
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 80 2149 2204 "log.ml" 80 2149 2207
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 79 2122 2140 "log.ml" 79 2122 2143
+)
+"log.ml" 80 2149 2195 "log.ml" 80 2149 2207
+type(
+  unit
+)
+"log.ml" 80 2149 2157 "log.ml" 80 2149 2207
+type(
+  unit
+)
+"log.ml" 81 2208 2222 "log.ml" 81 2208 2225
+type(
+  string
+)
+ident(
+  def msg "log.ml" 82 2247 2255 "log.ml" 82 2247 2316
+)
+"log.ml" 81 2208 2234 "log.ml" 81 2208 2237
+type(
+  pos
+)
+ident(
+  def pos "log.ml" 82 2247 2255 "log.ml" 82 2247 2316
+)
+"log.ml" 81 2208 2238 "log.ml" 81 2208 2241
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 82 2247 2255 "log.ml" 82 2247 2316
+)
+"log.ml" 81 2208 2226 "log.ml" 81 2208 2242
+type(
+  ctx
+)
+"log.ml" 81 2208 2214 "log.ml" 81 2208 2243
+type(
+  ctx
+)
+"log.ml" 82 2247 2255 "log.ml" 82 2247 2262
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> pos -> unit) -> pos -> unit,
+   Format.formatter, unit)
+  format -> string -> (Format.formatter -> pos -> unit) -> pos -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 82 2247 2263 "log.ml" 82 2247 2266
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 82 2247 2267 "log.ml" 82 2247 2283
+type(
+  (string -> (Format.formatter -> pos -> unit) -> pos -> unit,
+   Format.formatter, unit)
+  format
+)
+"log.ml" 82 2247 2284 "log.ml" 82 2247 2287
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 81 2208 2222 "log.ml" 81 2208 2225
+)
+"log.ml" 82 2247 2288 "log.ml" 82 2247 2298
+type(
+  Format.formatter -> pos -> unit
+)
+ident(
+  int_ref format_pos "log.ml" 55 1456 1460 "log.ml" 55 1456 1470
+)
+"log.ml" 82 2247 2299 "log.ml" 82 2247 2302
+type(
+  pos
+)
+ident(
+  int_ref pos "log.ml" 81 2208 2234 "log.ml" 81 2208 2237
+)
+"log.ml" 82 2247 2255 "log.ml" 82 2247 2302
+type(
+  unit
+)
+"log.ml" 82 2247 2304 "log.ml" 82 2247 2308
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref work "log.ml" 71 1822 1832 "log.ml" 71 1822 1836
+)
+"log.ml" 82 2247 2309 "log.ml" 82 2247 2312
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 82 2247 2313 "log.ml" 82 2247 2316
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 81 2208 2238 "log.ml" 81 2208 2241
+)
+"log.ml" 82 2247 2304 "log.ml" 82 2247 2316
+type(
+  unit
+)
+"log.ml" 82 2247 2255 "log.ml" 82 2247 2316
+type(
+  unit
+)
+"log.ml" 83 2317 2331 "log.ml" 83 2317 2334
+type(
+  string
+)
+ident(
+  def msg "log.ml" 84 2343 2351 "log.ml" 84 2343 2390
+)
+"log.ml" 83 2317 2335 "log.ml" 83 2317 2338
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 84 2343 2351 "log.ml" 84 2343 2390
+)
+"log.ml" 83 2317 2323 "log.ml" 83 2317 2339
+type(
+  ctx
+)
+"log.ml" 84 2343 2351 "log.ml" 84 2343 2358
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 84 2343 2359 "log.ml" 84 2343 2362
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 84 2343 2363 "log.ml" 84 2343 2372
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"log.ml" 84 2343 2373 "log.ml" 84 2343 2376
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 83 2317 2331 "log.ml" 83 2317 2334
+)
+"log.ml" 84 2343 2351 "log.ml" 84 2343 2376
+type(
+  unit
+)
+"log.ml" 84 2343 2378 "log.ml" 84 2343 2382
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref work "log.ml" 71 1822 1832 "log.ml" 71 1822 1836
+)
+"log.ml" 84 2343 2383 "log.ml" 84 2343 2386
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 84 2343 2387 "log.ml" 84 2343 2390
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 83 2317 2335 "log.ml" 83 2317 2338
+)
+"log.ml" 84 2343 2378 "log.ml" 84 2343 2390
+type(
+  unit
+)
+"log.ml" 84 2343 2351 "log.ml" 84 2343 2390
+type(
+  unit
+)
+"log.ml" 85 2391 2407 "log.ml" 85 2391 2411
+type(
+  ctx
+)
+ident(
+  def ctx1 "log.ml" 86 2421 2429 "log.ml" 87 2499 2538
+)
+"log.ml" 85 2391 2412 "log.ml" 85 2391 2416
+type(
+  ctx
+)
+ident(
+  def ctx2 "log.ml" 86 2421 2429 "log.ml" 87 2499 2538
+)
+"log.ml" 85 2391 2397 "log.ml" 85 2391 2417
+type(
+  ctx
+)
+"log.ml" 86 2421 2429 "log.ml" 86 2421 2436
+type(
+  Format.formatter ->
+  ((Format.formatter -> ctx -> unit) ->
+   ctx -> (Format.formatter -> ctx -> unit) -> ctx -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> ctx -> unit) ->
+  ctx -> (Format.formatter -> ctx -> unit) -> ctx -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 86 2421 2437 "log.ml" 86 2421 2440
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 71 1822 1837 "log.ml" 71 1822 1840
+)
+"log.ml" 86 2421 2441 "log.ml" 86 2421 2497
+type(
+  ((Format.formatter -> ctx -> unit) ->
+   ctx -> (Format.formatter -> ctx -> unit) -> ctx -> unit, Format.formatter,
+   unit)
+  format
+)
+"log.ml" 87 2499 2507 "log.ml" 87 2499 2517
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref format_ctx "log.ml" 70 1792 1800 "log.ml" 70 1792 1810
+)
+"log.ml" 87 2499 2518 "log.ml" 87 2499 2522
+type(
+  ctx
+)
+ident(
+  int_ref ctx2 "log.ml" 85 2391 2412 "log.ml" 85 2391 2416
+)
+"log.ml" 87 2499 2523 "log.ml" 87 2499 2533
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref format_ctx "log.ml" 70 1792 1800 "log.ml" 70 1792 1810
+)
+"log.ml" 87 2499 2534 "log.ml" 87 2499 2538
+type(
+  ctx
+)
+ident(
+  int_ref ctx1 "log.ml" 85 2391 2407 "log.ml" 85 2391 2411
+)
+"log.ml" 86 2421 2429 "log.ml" 87 2499 2538
+type(
+  unit
+)
+"log.ml" 71 1822 1843 "log.ml" 87 2499 2538
+type(
+  ctx -> unit
+)
+"log.ml" 89 2544 2548 "log.ml" 89 2544 2555
+type(
+  Format.formatter ->
+  ((Format.formatter -> ctx -> unit) -> ctx -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> ctx -> unit) -> ctx -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 89 2544 2556 "log.ml" 89 2544 2559
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 70 1792 1811 "log.ml" 70 1792 1814
+)
+"log.ml" 89 2544 2560 "log.ml" 89 2544 2571
+type(
+  ((Format.formatter -> ctx -> unit) -> ctx -> unit, Format.formatter, unit)
+  format
+)
+"log.ml" 89 2544 2572 "log.ml" 89 2544 2576
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref work "log.ml" 71 1822 1832 "log.ml" 71 1822 1836
+)
+"log.ml" 89 2544 2577 "log.ml" 89 2544 2580
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 70 1792 1815 "log.ml" 70 1792 1818
+)
+"log.ml" 89 2544 2548 "log.ml" 89 2544 2580
+type(
+  unit
+)
+"log.ml" 71 1822 1824 "log.ml" 89 2544 2580
+type(
+  unit
+)
+"log.ml" 91 2582 2586 "log.ml" 91 2582 2599
+type(
+  (string -> 'a) ->
+  string -> ('b, Format.formatter, unit, unit, unit, 'a) format6 -> 'b
+)
+ident(
+  def output_header "log.ml" 94 2672 2672 --
+)
+"log.ml" 91 2582 2600 "log.ml" 91 2582 2604
+type(
+  string -> 'a
+)
+ident(
+  def cont "log.ml" 91 2582 2605 "log.ml" 92 2617 2670
+)
+"log.ml" 91 2582 2605 "log.ml" 91 2582 2609
+type(
+  string
+)
+ident(
+  def code "log.ml" 91 2582 2610 "log.ml" 92 2617 2670
+)
+"log.ml" 91 2582 2610 "log.ml" 91 2582 2613
+type(
+  ('b, Format.formatter, unit, unit, unit, 'a) format6
+)
+ident(
+  def fmt "log.ml" 92 2617 2619 "log.ml" 92 2617 2670
+)
+"log.ml" 92 2617 2619 "log.ml" 92 2617 2628
+type(
+  (string -> 'a) ->
+  (string -> 'b, Format.formatter, unit, 'a) format4 -> string -> 'b
+)
+ident(
+  int_ref kfsprintf "log.ml" 41 1002 1006 "log.ml" 41 1002 1015
+)
+"log.ml" 92 2617 2629 "log.ml" 92 2617 2633
+type(
+  string -> 'a
+)
+ident(
+  int_ref cont "log.ml" 91 2582 2600 "log.ml" 91 2582 2604
+)
+"log.ml" 92 2617 2635 "log.ml" 92 2617 2649
+type(
+  (string -> 'b, Format.formatter, unit, unit, unit, 'b) format6
+)
+"log.ml" 92 2617 2650 "log.ml" 92 2617 2652
+type(
+  (string -> 'b, Format.formatter, unit, unit, unit, 'b) format6 ->
+  ('b, Format.formatter, unit, unit, unit, 'a) format6 ->
+  (string -> 'b, Format.formatter, unit, 'a) format4
+)
+ident(
+  ext_ref Pervasives.^^
+)
+"log.ml" 92 2617 2653 "log.ml" 92 2617 2656
+type(
+  ('b, Format.formatter, unit, unit, unit, 'a) format6
+)
+ident(
+  int_ref fmt "log.ml" 91 2582 2610 "log.ml" 91 2582 2613
+)
+"log.ml" 92 2617 2657 "log.ml" 92 2617 2659
+type(
+  ('b, Format.formatter, unit, unit, unit, 'a) format6 ->
+  ('a, Format.formatter, unit, unit, unit, 'a) format6 ->
+  ('b, Format.formatter, unit, unit, unit, 'a) format6
+)
+ident(
+  ext_ref Pervasives.^^
+)
+"log.ml" 92 2617 2660 "log.ml" 92 2617 2664
+type(
+  ('a, Format.formatter, unit, unit, unit, 'a) format6
+)
+"log.ml" 92 2617 2653 "log.ml" 92 2617 2664
+type(
+  ('b, Format.formatter, unit, unit, unit, 'a) format6
+)
+"log.ml" 92 2617 2634 "log.ml" 92 2617 2665
+type(
+  (string -> 'b, Format.formatter, unit, 'a) format4
+)
+"log.ml" 92 2617 2666 "log.ml" 92 2617 2670
+type(
+  string
+)
+ident(
+  int_ref code "log.ml" 91 2582 2605 "log.ml" 91 2582 2609
+)
+"log.ml" 92 2617 2619 "log.ml" 92 2617 2670
+type(
+  'b
+)
+"log.ml" 94 2672 2676 "log.ml" 94 2672 2690
+type(
+  Format.formatter -> string -> ctx -> unit
+)
+ident(
+  def output_msg_ctx "log.ml" 97 2774 2774 --
+)
+"log.ml" 94 2672 2691 "log.ml" 94 2672 2694
+type(
+  Format.formatter
+)
+ident(
+  def ppf "log.ml" 94 2672 2695 "log.ml" 95 2706 2772
+)
+"log.ml" 94 2672 2695 "log.ml" 94 2672 2698
+type(
+  string
+)
+ident(
+  def msg "log.ml" 94 2672 2699 "log.ml" 95 2706 2772
+)
+"log.ml" 94 2672 2699 "log.ml" 94 2672 2702
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 95 2706 2708 "log.ml" 95 2706 2772
+)
+"log.ml" 95 2706 2708 "log.ml" 95 2706 2715
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> ctx -> unit) -> ctx -> unit,
+   Format.formatter, unit)
+  format -> string -> (Format.formatter -> ctx -> unit) -> ctx -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"log.ml" 95 2706 2716 "log.ml" 95 2706 2719
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 94 2672 2691 "log.ml" 94 2672 2694
+)
+"log.ml" 95 2706 2720 "log.ml" 95 2706 2753
+type(
+  (string -> (Format.formatter -> ctx -> unit) -> ctx -> unit,
+   Format.formatter, unit)
+  format
+)
+"log.ml" 95 2706 2754 "log.ml" 95 2706 2757
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 94 2672 2695 "log.ml" 94 2672 2698
+)
+"log.ml" 95 2706 2758 "log.ml" 95 2706 2768
+type(
+  Format.formatter -> ctx -> unit
+)
+ident(
+  int_ref format_ctx "log.ml" 70 1792 1800 "log.ml" 70 1792 1810
+)
+"log.ml" 95 2706 2769 "log.ml" 95 2706 2772
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 94 2672 2699 "log.ml" 94 2672 2702
+)
+"log.ml" 95 2706 2708 "log.ml" 95 2706 2772
+type(
+  unit
+)
+"log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def show "log.ml" 116 3279 3279 --
+)
+"log.ml" 97 2774 2783 "log.ml" 97 2774 2784
+type(
+  bool
+)
+ident(
+  def b "log.ml" 97 2774 2785 "log.ml" 114 3263 3277
+)
+"log.ml" 97 2774 2785 "log.ml" 97 2774 2791
+type(
+  bool
+)
+ident(
+  def no_dup "log.ml" 97 2774 2792 "log.ml" 114 3263 3277
+)
+"log.ml" 97 2774 2792 "log.ml" 97 2774 2795
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 97 2774 2796 "log.ml" 114 3263 3277
+)
+"log.ml" 97 2774 2796 "log.ml" 97 2774 2800
+type(
+  string
+)
+ident(
+  def code "log.ml" 97 2774 2801 "log.ml" 114 3263 3277
+)
+"log.ml" 97 2774 2801 "log.ml" 97 2774 2804
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "log.ml" 98 2808 2810 "log.ml" 114 3263 3277
+)
+"log.ml" 98 2808 2810 "log.ml" 98 2808 2823
+type(
+  (string -> unit) ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref output_header "log.ml" 91 2582 2586 "log.ml" 91 2582 2599
+)
+"log.ml" 99 2824 2833 "log.ml" 99 2824 2836
+type(
+  string
+)
+ident(
+  def msg "log.ml" 100 2841 2848 "log.ml" 113 3252 3262
+)
+"log.ml" 100 2841 2851 "log.ml" 100 2841 2852
+type(
+  bool
+)
+ident(
+  int_ref b "log.ml" 97 2774 2783 "log.ml" 97 2774 2784
+)
+"log.ml" 101 2866 2872 "log.ml" 101 2866 2875
+type(
+  Buffer.t
+)
+"log.ml" 101 2866 2878 "log.ml" 101 2866 2891
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"log.ml" 101 2866 2892 "log.ml" 101 2866 2895
+type(
+  int
+)
+"log.ml" 101 2866 2878 "log.ml" 101 2866 2895
+type(
+  Buffer.t
+)
+"log.ml" 102 2899 2905 "log.ml" 102 2899 2908
+type(
+  Format.formatter
+)
+"log.ml" 102 2899 2911 "log.ml" 102 2899 2937
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_buffer
+)
+"log.ml" 102 2899 2938 "log.ml" 102 2899 2941
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "log.ml" 101 2866 2872 "log.ml" 101 2866 2875
+)
+"log.ml" 102 2899 2911 "log.ml" 102 2899 2941
+type(
+  Format.formatter
+)
+"log.ml" 103 2945 2951 "log.ml" 103 2945 2953
+type(
+  unit
+)
+"log.ml" 103 2945 2956 "log.ml" 103 2945 2970
+type(
+  Format.formatter -> string -> ctx -> unit
+)
+ident(
+  int_ref output_msg_ctx "log.ml" 94 2672 2676 "log.ml" 94 2672 2690
+)
+"log.ml" 103 2945 2971 "log.ml" 103 2945 2974
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "log.ml" 102 2899 2905 "log.ml" 102 2899 2908
+)
+"log.ml" 103 2945 2975 "log.ml" 103 2945 2978
+type(
+  string
+)
+ident(
+  int_ref msg "log.ml" 99 2824 2833 "log.ml" 99 2824 2836
+)
+"log.ml" 103 2945 2979 "log.ml" 103 2945 2982
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 97 2774 2792 "log.ml" 97 2774 2795
+)
+"log.ml" 103 2945 2956 "log.ml" 103 2945 2982
+type(
+  unit
+)
+"log.ml" 104 2986 2993 "log.ml" 104 2986 2999
+type(
+  bool
+)
+ident(
+  int_ref no_dup "log.ml" 97 2774 2785 "log.ml" 97 2774 2791
+)
+"log.ml" 105 3005 3015 "log.ml" 105 3005 3023
+type(
+  string
+)
+ident(
+  def full_msg "log.ml" 106 3049 3057 "log.ml" 111 3199 3210
+)
+"log.ml" 105 3005 3026 "log.ml" 105 3005 3041
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"log.ml" 105 3005 3042 "log.ml" 105 3005 3045
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "log.ml" 101 2866 2872 "log.ml" 101 2866 2875
+)
+"log.ml" 105 3005 3026 "log.ml" 105 3005 3045
+type(
+  string
+)
+"log.ml" 106 3049 3060 "log.ml" 106 3049 3071
+type(
+  (string, unit) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"log.ml" 106 3049 3072 "log.ml" 106 3049 3079
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref dup_tbl "log.ml" 68 1744 1748 "log.ml" 68 1744 1755
+)
+"log.ml" 106 3049 3080 "log.ml" 106 3049 3088
+type(
+  string
+)
+ident(
+  int_ref full_msg "log.ml" 105 3005 3015 "log.ml" 105 3005 3023
+)
+"log.ml" 106 3049 3060 "log.ml" 106 3049 3088
+type(
+  bool
+)
+"log.ml" 107 3089 3102 "log.ml" 107 3089 3104
+type(
+  unit
+)
+"log.ml" 109 3124 3127 "log.ml" 109 3124 3138
+type(
+  (string, unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"log.ml" 109 3124 3139 "log.ml" 109 3124 3146
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref dup_tbl "log.ml" 68 1744 1748 "log.ml" 68 1744 1755
+)
+"log.ml" 109 3124 3147 "log.ml" 109 3124 3155
+type(
+  string
+)
+ident(
+  int_ref full_msg "log.ml" 105 3005 3015 "log.ml" 105 3005 3023
+)
+"log.ml" 109 3124 3156 "log.ml" 109 3124 3158
+type(
+  unit
+)
+"log.ml" 109 3124 3127 "log.ml" 109 3124 3158
+type(
+  unit
+)
+"log.ml" 110 3160 3163 "log.ml" 110 3160 3178
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"log.ml" 110 3160 3179 "log.ml" 110 3160 3189
+type(
+  Format.formatter
+)
+ident(
+  int_ref stderr_ppf "log.ml" 62 1620 1624 "log.ml" 62 1620 1634
+)
+"log.ml" 110 3160 3190 "log.ml" 110 3160 3198
+type(
+  string
+)
+ident(
+  int_ref full_msg "log.ml" 105 3005 3015 "log.ml" 105 3005 3023
+)
+"log.ml" 110 3160 3163 "log.ml" 110 3160 3198
+type(
+  unit
+)
+"log.ml" 108 3105 3118 "log.ml" 111 3199 3210
+type(
+  unit
+)
+"log.ml" 106 3049 3057 "log.ml" 111 3199 3210
+type(
+  unit
+)
+"log.ml" 105 3005 3011 "log.ml" 111 3199 3210
+type(
+  unit
+)
+"log.ml" 112 3211 3220 "log.ml" 112 3211 3240
+type(
+  out_channel -> Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.output_buffer
+)
+"log.ml" 112 3211 3241 "log.ml" 112 3211 3247
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"log.ml" 112 3211 3248 "log.ml" 112 3211 3251
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "log.ml" 101 2866 2872 "log.ml" 101 2866 2875
+)
+"log.ml" 112 3211 3220 "log.ml" 112 3211 3251
+type(
+  unit
+)
+"log.ml" 104 2986 2990 "log.ml" 112 3211 3251
+type(
+  unit
+)
+"log.ml" 103 2945 2947 "log.ml" 112 3211 3251
+type(
+  unit
+)
+"log.ml" 102 2899 2901 "log.ml" 112 3211 3251
+type(
+  unit
+)
+"log.ml" 100 2841 2858 "log.ml" 113 3252 3262
+type(
+  unit
+)
+"log.ml" 100 2841 2848 "log.ml" 113 3252 3262
+type(
+  unit
+)
+"log.ml" 99 2824 2828 "log.ml" 114 3263 3268
+type(
+  string -> unit
+)
+"log.ml" 114 3263 3269 "log.ml" 114 3263 3273
+type(
+  string
+)
+ident(
+  int_ref code "log.ml" 97 2774 2796 "log.ml" 97 2774 2800
+)
+"log.ml" 114 3263 3274 "log.ml" 114 3263 3277
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 97 2774 2801 "log.ml" 97 2774 2804
+)
+"log.ml" 98 2808 2810 "log.ml" 114 3263 3277
+type(
+  'a
+)
+"log.ml" 116 3279 3283 "log.ml" 116 3279 3288
+type(
+  unit -> unit
+)
+ident(
+  def flush "log.ml" 118 3331 3331 --
+)
+"log.ml" 116 3279 3289 "log.ml" 116 3279 3291
+type(
+  unit
+)
+"log.ml" 116 3279 3294 "log.ml" 116 3279 3315
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"log.ml" 116 3279 3316 "log.ml" 116 3279 3326
+type(
+  Format.formatter
+)
+ident(
+  int_ref stderr_ppf "log.ml" 62 1620 1624 "log.ml" 62 1620 1634
+)
+"log.ml" 116 3279 3327 "log.ml" 116 3279 3329
+type(
+  unit
+)
+"log.ml" 116 3279 3294 "log.ml" 116 3279 3329
+type(
+  unit
+)
+"log.ml" 118 3331 3335 "log.ml" 118 3331 3337
+type(
+  unit
+)
+"log.ml" 118 3331 3340 "log.ml" 118 3331 3347
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.at_exit
+)
+"log.ml" 118 3331 3348 "log.ml" 118 3331 3353
+type(
+  unit -> unit
+)
+ident(
+  int_ref flush "log.ml" 116 3279 3283 "log.ml" 116 3279 3288
+)
+"log.ml" 118 3331 3340 "log.ml" 118 3331 3353
+type(
+  unit
+)
+"log.ml" 120 3355 3359 "log.ml" 120 3355 3364
+type(
+  ?ctx:ctx -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def fixme "log.ml" 122 3434 3434 --
+)
+"log.ml" 120 3355 3367 "log.ml" 120 3355 3370
+type(
+  ctx
+)
+"log.ml" 120 3355 3371 "log.ml" 120 3355 3380
+type(
+  ctx
+)
+type(
+  ctx
+)
+type(
+  ctx
+)
+ident(
+  int_ref *sth* "log.ml" 120 3355 3371 "log.ml" 120 3355 3380
+)
+type(
+  ctx option
+)
+type(
+  ctx option
+)
+type(
+  ctx
+)
+ident(
+  def *sth* "log.ml" 120 3355 3371 "log.ml" 120 3355 3380
+)
+type(
+  ctx option
+)
+ident(
+  int_ref *opt* "log.ml" 120 3355 3371 "log.ml" 120 3355 3380
+)
+type(
+  ctx option
+)
+ident(
+  def *opt* "log.ml" 120 3355 3365 "log.ml" 120 3355 3432
+)
+"log.ml" 120 3355 3382 "log.ml" 120 3355 3385
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "log.ml" 120 3355 3388 "log.ml" 120 3355 3432
+)
+"log.ml" 120 3355 3388 "log.ml" 120 3355 3392
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show "log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+)
+"log.ml" 120 3355 3393 "log.ml" 120 3355 3397
+type(
+  bool
+)
+"log.ml" 120 3355 3398 "log.ml" 120 3355 3402
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"log.ml" 120 3355 3398 "log.ml" 120 3355 3416
+type(
+  bool
+)
+"log.ml" 120 3355 3417 "log.ml" 120 3355 3420
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 120 3355 3367 "log.ml" 120 3355 3370
+)
+"log.ml" 120 3355 3421 "log.ml" 120 3355 3428
+type(
+  string
+)
+"log.ml" 120 3355 3429 "log.ml" 120 3355 3432
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 120 3355 3382 "log.ml" 120 3355 3385
+)
+"log.ml" 120 3355 3388 "log.ml" 120 3355 3432
+type(
+  'a
+)
+"log.ml" 122 3434 3438 "log.ml" 122 3434 3443
+type(
+  ?pos:pos -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def debug "log.ml" 126 3582 3582 --
+)
+"log.ml" 122 3434 3445 "log.ml" 122 3434 3448
+type(
+  pos option
+)
+ident(
+  def pos "log.ml" 122 3434 3449 "log.ml" 124 3524 3580
+)
+"log.ml" 122 3434 3449 "log.ml" 122 3434 3452
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "log.ml" 122 3434 3455 "log.ml" 124 3524 3580
+)
+"log.ml" 122 3434 3461 "log.ml" 122 3434 3464
+type(
+  pos option
+)
+ident(
+  int_ref pos "log.ml" 122 3434 3445 "log.ml" 122 3434 3448
+)
+"log.ml" 123 3470 3474 "log.ml" 123 3470 3478
+type(
+  pos option
+)
+"log.ml" 123 3470 3482 "log.ml" 123 3470 3486
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show "log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+)
+"log.ml" 123 3470 3488 "log.ml" 123 3470 3491
+type(
+  int -> bool
+)
+ident(
+  int_ref lvl "log.ml" 60 1585 1589 "log.ml" 60 1585 1592
+)
+"log.ml" 123 3470 3492 "log.ml" 123 3470 3494
+type(
+  int
+)
+"log.ml" 123 3470 3487 "log.ml" 123 3470 3495
+type(
+  bool
+)
+"log.ml" 123 3470 3496 "log.ml" 123 3470 3501
+type(
+  bool
+)
+"log.ml" 123 3470 3502 "log.ml" 123 3470 3511
+type(
+  ctx
+)
+"log.ml" 123 3470 3512 "log.ml" 123 3470 3519
+type(
+  string
+)
+"log.ml" 123 3470 3520 "log.ml" 123 3470 3523
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 122 3434 3449 "log.ml" 122 3434 3452
+)
+"log.ml" 123 3470 3482 "log.ml" 123 3470 3523
+type(
+  'a
+)
+"log.ml" 124 3524 3533 "log.ml" 124 3524 3534
+type(
+  pos
+)
+ident(
+  def p "log.ml" 124 3524 3538 "log.ml" 124 3524 3580
+)
+"log.ml" 124 3524 3528 "log.ml" 124 3524 3534
+type(
+  pos option
+)
+"log.ml" 124 3524 3538 "log.ml" 124 3524 3542
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show "log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+)
+"log.ml" 124 3524 3544 "log.ml" 124 3524 3547
+type(
+  int -> bool
+)
+ident(
+  int_ref lvl "log.ml" 60 1585 1589 "log.ml" 60 1585 1592
+)
+"log.ml" 124 3524 3548 "log.ml" 124 3524 3550
+type(
+  int
+)
+"log.ml" 124 3524 3543 "log.ml" 124 3524 3551
+type(
+  bool
+)
+"log.ml" 124 3524 3552 "log.ml" 124 3524 3557
+type(
+  bool
+)
+"log.ml" 124 3524 3559 "log.ml" 124 3524 3565
+type(
+  pos -> ctx
+)
+ident(
+  int_ref of_loc "log.ml" 15 218 222 "log.ml" 15 218 228
+)
+"log.ml" 124 3524 3566 "log.ml" 124 3524 3567
+type(
+  pos
+)
+ident(
+  int_ref p "log.ml" 124 3524 3533 "log.ml" 124 3524 3534
+)
+"log.ml" 124 3524 3558 "log.ml" 124 3524 3568
+type(
+  ctx
+)
+"log.ml" 124 3524 3569 "log.ml" 124 3524 3576
+type(
+  string
+)
+"log.ml" 124 3524 3577 "log.ml" 124 3524 3580
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 122 3434 3449 "log.ml" 122 3434 3452
+)
+"log.ml" 124 3524 3538 "log.ml" 124 3524 3580
+type(
+  'a
+)
+"log.ml" 122 3434 3455 "log.ml" 124 3524 3580
+type(
+  'a
+)
+"log.ml" 126 3582 3586 "log.ml" 126 3582 3590
+type(
+  ?ctx:ctx -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def note "log.ml" 128 3650 3650 --
+)
+"log.ml" 126 3582 3593 "log.ml" 126 3582 3596
+type(
+  ctx
+)
+"log.ml" 126 3582 3597 "log.ml" 126 3582 3606
+type(
+  ctx
+)
+type(
+  ctx
+)
+type(
+  ctx
+)
+ident(
+  int_ref *sth* "log.ml" 126 3582 3597 "log.ml" 126 3582 3606
+)
+type(
+  ctx option
+)
+type(
+  ctx option
+)
+type(
+  ctx
+)
+ident(
+  def *sth* "log.ml" 126 3582 3597 "log.ml" 126 3582 3606
+)
+type(
+  ctx option
+)
+ident(
+  int_ref *opt* "log.ml" 126 3582 3597 "log.ml" 126 3582 3606
+)
+type(
+  ctx option
+)
+ident(
+  def *opt* "log.ml" 126 3582 3591 "log.ml" 126 3582 3648
+)
+"log.ml" 126 3582 3608 "log.ml" 126 3582 3611
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "log.ml" 126 3582 3614 "log.ml" 126 3582 3648
+)
+"log.ml" 126 3582 3614 "log.ml" 126 3582 3618
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show "log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+)
+"log.ml" 126 3582 3620 "log.ml" 126 3582 3623
+type(
+  int -> bool
+)
+ident(
+  int_ref lvl "log.ml" 60 1585 1589 "log.ml" 60 1585 1592
+)
+"log.ml" 126 3582 3624 "log.ml" 126 3582 3626
+type(
+  int
+)
+"log.ml" 126 3582 3619 "log.ml" 126 3582 3627
+type(
+  bool
+)
+"log.ml" 126 3582 3628 "log.ml" 126 3582 3633
+type(
+  bool
+)
+"log.ml" 126 3582 3634 "log.ml" 126 3582 3637
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 126 3582 3593 "log.ml" 126 3582 3596
+)
+"log.ml" 126 3582 3638 "log.ml" 126 3582 3644
+type(
+  string
+)
+"log.ml" 126 3582 3645 "log.ml" 126 3582 3648
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 126 3582 3608 "log.ml" 126 3582 3611
+)
+"log.ml" 126 3582 3614 "log.ml" 126 3582 3648
+type(
+  'a
+)
+"log.ml" 128 3650 3654 "log.ml" 128 3650 3658
+type(
+  ?ctx:ctx -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def warn "log.ml" 130 3720 3720 --
+)
+"log.ml" 128 3650 3661 "log.ml" 128 3650 3664
+type(
+  ctx
+)
+"log.ml" 128 3650 3665 "log.ml" 128 3650 3674
+type(
+  ctx
+)
+type(
+  ctx
+)
+type(
+  ctx
+)
+ident(
+  int_ref *sth* "log.ml" 128 3650 3665 "log.ml" 128 3650 3674
+)
+type(
+  ctx option
+)
+type(
+  ctx option
+)
+type(
+  ctx
+)
+ident(
+  def *sth* "log.ml" 128 3650 3665 "log.ml" 128 3650 3674
+)
+type(
+  ctx option
+)
+ident(
+  int_ref *opt* "log.ml" 128 3650 3665 "log.ml" 128 3650 3674
+)
+type(
+  ctx option
+)
+ident(
+  def *opt* "log.ml" 128 3650 3659 "log.ml" 128 3650 3718
+)
+"log.ml" 128 3650 3676 "log.ml" 128 3650 3679
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "log.ml" 128 3650 3682 "log.ml" 128 3650 3718
+)
+"log.ml" 128 3650 3682 "log.ml" 128 3650 3686
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show "log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+)
+"log.ml" 128 3650 3688 "log.ml" 128 3650 3691
+type(
+  int -> bool
+)
+ident(
+  int_ref lvl "log.ml" 60 1585 1589 "log.ml" 60 1585 1592
+)
+"log.ml" 128 3650 3692 "log.ml" 128 3650 3693
+type(
+  int
+)
+"log.ml" 128 3650 3687 "log.ml" 128 3650 3694
+type(
+  bool
+)
+"log.ml" 128 3650 3695 "log.ml" 128 3650 3700
+type(
+  bool
+)
+"log.ml" 128 3650 3701 "log.ml" 128 3650 3704
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 128 3650 3661 "log.ml" 128 3650 3664
+)
+"log.ml" 128 3650 3705 "log.ml" 128 3650 3714
+type(
+  string
+)
+"log.ml" 128 3650 3715 "log.ml" 128 3650 3718
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 128 3650 3676 "log.ml" 128 3650 3679
+)
+"log.ml" 128 3650 3682 "log.ml" 128 3650 3718
+type(
+  'a
+)
+"log.ml" 130 3720 3724 "log.ml" 130 3720 3734
+type(
+  ctx -> string -> ('a, Format.formatter, unit, unit, unit, 'b) format6 -> 'a
+)
+ident(
+  def show_raise "log.ml" 139 3938 3938 --
+)
+"log.ml" 130 3720 3735 "log.ml" 130 3720 3738
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 130 3720 3739 "log.ml" 137 3905 3936
+)
+"log.ml" 130 3720 3739 "log.ml" 130 3720 3743
+type(
+  string
+)
+ident(
+  def code "log.ml" 130 3720 3744 "log.ml" 137 3905 3936
+)
+"log.ml" 130 3720 3744 "log.ml" 130 3720 3747
+type(
+  ('a, Format.formatter, unit, unit, unit, 'b) format6
+)
+ident(
+  def fmt "log.ml" 131 3751 3753 "log.ml" 137 3905 3936
+)
+"log.ml" 131 3751 3757 "log.ml" 131 3751 3761
+type(
+  string -> 'c
+)
+"log.ml" 131 3751 3762 "log.ml" 131 3751 3763
+type(
+  string
+)
+ident(
+  def m "log.ml" 132 3767 3771 "log.ml" 135 3884 3898
+)
+"log.ml" 132 3767 3774 "log.ml" 132 3767 3777
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"log.ml" 132 3767 3778 "log.ml" 132 3767 3782
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"log.ml" 132 3767 3778 "log.ml" 132 3767 3799
+type(
+  bool
+)
+"log.ml" 132 3767 3774 "log.ml" 132 3767 3799
+type(
+  bool
+)
+"log.ml" 133 3800 3809 "log.ml" 133 3800 3823
+type(
+  Format.formatter -> string -> ctx -> unit
+)
+ident(
+  int_ref output_msg_ctx "log.ml" 94 2672 2676 "log.ml" 94 2672 2690
+)
+"log.ml" 133 3800 3824 "log.ml" 133 3800 3834
+type(
+  Format.formatter
+)
+ident(
+  int_ref stderr_ppf "log.ml" 62 1620 1624 "log.ml" 62 1620 1634
+)
+"log.ml" 133 3800 3835 "log.ml" 133 3800 3836
+type(
+  string
+)
+ident(
+  int_ref m "log.ml" 131 3751 3762 "log.ml" 131 3751 3763
+)
+"log.ml" 133 3800 3837 "log.ml" 133 3800 3840
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 130 3720 3735 "log.ml" 130 3720 3738
+)
+"log.ml" 133 3800 3809 "log.ml" 133 3800 3840
+type(
+  unit
+)
+"log.ml" 132 3767 3771 "log.ml" 133 3800 3840
+type(
+  unit
+)
+"log.ml" 134 3843 3847 "log.ml" 134 3843 3868
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"log.ml" 134 3843 3869 "log.ml" 134 3843 3879
+type(
+  Format.formatter
+)
+ident(
+  int_ref stderr_ppf "log.ml" 62 1620 1624 "log.ml" 62 1620 1634
+)
+"log.ml" 134 3843 3880 "log.ml" 134 3843 3882
+type(
+  unit
+)
+"log.ml" 134 3843 3847 "log.ml" 134 3843 3882
+type(
+  unit
+)
+"log.ml" 135 3884 3888 "log.ml" 135 3884 3896
+type(
+  string -> 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"log.ml" 135 3884 3897 "log.ml" 135 3884 3898
+type(
+  string
+)
+ident(
+  int_ref m "log.ml" 131 3751 3762 "log.ml" 131 3751 3763
+)
+"log.ml" 135 3884 3888 "log.ml" 135 3884 3898
+type(
+  'c
+)
+"log.ml" 134 3843 3847 "log.ml" 135 3884 3898
+type(
+  'c
+)
+"log.ml" 132 3767 3771 "log.ml" 135 3884 3898
+type(
+  'c
+)
+"log.ml" 137 3905 3909 "log.ml" 137 3905 3922
+type(
+  (string -> 'b) ->
+  string -> ('a, Format.formatter, unit, unit, unit, 'b) format6 -> 'a
+)
+ident(
+  int_ref output_header "log.ml" 91 2582 2586 "log.ml" 91 2582 2599
+)
+"log.ml" 137 3905 3923 "log.ml" 137 3905 3927
+type(
+  string -> 'b
+)
+ident(
+  int_ref fail "log.ml" 131 3751 3757 "log.ml" 131 3751 3761
+)
+"log.ml" 137 3905 3928 "log.ml" 137 3905 3932
+type(
+  string
+)
+ident(
+  int_ref code "log.ml" 130 3720 3739 "log.ml" 130 3720 3743
+)
+"log.ml" 137 3905 3933 "log.ml" 137 3905 3936
+type(
+  ('a, Format.formatter, unit, unit, unit, 'b) format6
+)
+ident(
+  int_ref fmt "log.ml" 130 3720 3744 "log.ml" 130 3720 3747
+)
+"log.ml" 137 3905 3909 "log.ml" 137 3905 3936
+type(
+  'a
+)
+"log.ml" 131 3751 3753 "log.ml" 137 3905 3936
+type(
+  'a
+)
+"log.ml" 139 3938 3942 "log.ml" 139 3938 3945
+type(
+  ?ctx:ctx -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def err "log.ml" 144 4085 4085 --
+)
+"log.ml" 139 3938 3948 "log.ml" 139 3938 3951
+type(
+  ctx
+)
+"log.ml" 139 3938 3952 "log.ml" 139 3938 3961
+type(
+  ctx
+)
+type(
+  ctx
+)
+type(
+  ctx
+)
+ident(
+  int_ref *sth* "log.ml" 139 3938 3952 "log.ml" 139 3938 3961
+)
+type(
+  ctx option
+)
+type(
+  ctx option
+)
+type(
+  ctx
+)
+ident(
+  def *sth* "log.ml" 139 3938 3952 "log.ml" 139 3938 3961
+)
+type(
+  ctx option
+)
+ident(
+  int_ref *opt* "log.ml" 139 3938 3952 "log.ml" 139 3938 3961
+)
+type(
+  ctx option
+)
+ident(
+  def *opt* "log.ml" 139 3938 3946 "log.ml" 142 4032 4083
+)
+"log.ml" 139 3938 3963 "log.ml" 139 3938 3966
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "log.ml" 140 3970 3972 "log.ml" 142 4032 4083
+)
+"log.ml" 140 3970 3975 "log.ml" 140 3970 3979
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"log.ml" 140 3970 3975 "log.ml" 140 3970 3996
+type(
+  bool
+)
+"log.ml" 141 3998 4005 "log.ml" 141 3998 4015
+type(
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show_raise "log.ml" 130 3720 3724 "log.ml" 130 3720 3734
+)
+"log.ml" 141 3998 4016 "log.ml" 141 3998 4019
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 139 3938 3948 "log.ml" 139 3938 3951
+)
+"log.ml" 141 3998 4020 "log.ml" 141 3998 4027
+type(
+  string
+)
+"log.ml" 141 3998 4028 "log.ml" 141 3998 4031
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 139 3938 3963 "log.ml" 139 3938 3966
+)
+"log.ml" 141 3998 4005 "log.ml" 141 3998 4031
+type(
+  'a
+)
+"log.ml" 142 4032 4039 "log.ml" 142 4032 4043
+type(
+  bool ->
+  bool ->
+  ctx ->
+  string -> ('a, Format.formatter, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  int_ref show "log.ml" 97 2774 2778 "log.ml" 97 2774 2782
+)
+"log.ml" 142 4032 4044 "log.ml" 142 4032 4048
+type(
+  bool
+)
+"log.ml" 142 4032 4049 "log.ml" 142 4032 4053
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"log.ml" 142 4032 4049 "log.ml" 142 4032 4067
+type(
+  bool
+)
+"log.ml" 142 4032 4068 "log.ml" 142 4032 4071
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 139 3938 3948 "log.ml" 139 3938 3951
+)
+"log.ml" 142 4032 4072 "log.ml" 142 4032 4079
+type(
+  string
+)
+"log.ml" 142 4032 4080 "log.ml" 142 4032 4083
+type(
+  ('a, Format.formatter, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "log.ml" 139 3938 3963 "log.ml" 139 3938 3966
+)
+"log.ml" 142 4032 4039 "log.ml" 142 4032 4083
+type(
+  'a
+)
+"log.ml" 140 3970 3972 "log.ml" 142 4032 4083
+type(
+  'a
+)
+"log.ml" 144 4085 4089 "log.ml" 144 4085 4094
+type(
+  ctx -> ('a, Format.formatter, unit, unit, unit, 'b) format6 -> 'a
+)
+ident(
+  def fatal "log.ml" 146 4138 4166 --
+)
+"log.ml" 144 4085 4095 "log.ml" 144 4085 4098
+type(
+  ctx
+)
+ident(
+  def ctx "log.ml" 144 4085 4099 "log.ml" 146 4138 4166
+)
+"log.ml" 144 4085 4099 "log.ml" 144 4085 4102
+type(
+  ('a, Format.formatter, unit, unit, unit, 'b) format6
+)
+ident(
+  def fmt "log.ml" 145 4106 4108 "log.ml" 146 4138 4166
+)
+"log.ml" 145 4106 4108 "log.ml" 145 4106 4112
+type(
+  Config.config
+)
+ident(
+  ext_ref Config.conf
+)
+"log.ml" 145 4106 4132 "log.ml" 145 4106 4136
+type(
+  bool
+)
+"log.ml" 145 4106 4108 "log.ml" 145 4106 4136
+type(
+  unit
+)
+"log.ml" 146 4138 4140 "log.ml" 146 4138 4150
+type(
+  ctx -> string -> ('a, Format.formatter, unit, unit, unit, 'b) format6 -> 'a
+)
+ident(
+  int_ref show_raise "log.ml" 130 3720 3724 "log.ml" 130 3720 3734
+)
+"log.ml" 146 4138 4151 "log.ml" 146 4138 4154
+type(
+  ctx
+)
+ident(
+  int_ref ctx "log.ml" 144 4085 4095 "log.ml" 144 4085 4098
+)
+"log.ml" 146 4138 4155 "log.ml" 146 4138 4162
+type(
+  string
+)
+"log.ml" 146 4138 4163 "log.ml" 146 4138 4166
+type(
+  ('a, Format.formatter, unit, unit, unit, 'b) format6
+)
+ident(
+  int_ref fmt "log.ml" 144 4085 4099 "log.ml" 144 4085 4102
+)
+"log.ml" 146 4138 4140 "log.ml" 146 4138 4166
+type(
+  'a
+)
+"log.ml" 145 4106 4108 "log.ml" 146 4138 4166
+type(
+  'a
+)

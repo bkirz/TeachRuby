@@ -6,6 +6,7 @@
 *)
 
 open Cfg_printer
+open Method_transform
 
 let () =
   if Array.length Sys.argv < 2 then
@@ -13,6 +14,7 @@ let () =
   else
     let filename = Sys.argv.(1) in 
     let ast = Parse_helper.parse_ruby_file filename in
+    let ast = do_meth_change ast in
     let cfg = Cfg_refactor.refactor_ast ast in
     let program_text = CodePrinter.string_of_cfg cfg in
       Printf.printf "%s\n" program_text

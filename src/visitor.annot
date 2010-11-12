@@ -1,0 +1,148 @@
+"visitor.ml" 22 1166 1170 "visitor.ml" 22 1166 1175
+type(
+  ('a -> 'a visitAction) -> 'a -> ('a -> 'a) -> 'a
+)
+ident(
+  def visit "visitor.ml" 29 1370 1370 --
+)
+"visitor.ml" 22 1166 1176 "visitor.ml" 22 1166 1180
+type(
+  'a -> 'a visitAction
+)
+ident(
+  def meth "visitor.ml" 22 1166 1181 "visitor.ml" 27 1314 1368
+)
+"visitor.ml" 22 1166 1181 "visitor.ml" 22 1166 1185
+type(
+  'a
+)
+ident(
+  def orig "visitor.ml" 22 1166 1186 "visitor.ml" 27 1314 1368
+)
+"visitor.ml" 22 1166 1186 "visitor.ml" 22 1166 1193
+type(
+  'a -> 'a
+)
+ident(
+  def recurse "visitor.ml" 23 1197 1199 "visitor.ml" 27 1314 1368
+)
+"visitor.ml" 23 1197 1205 "visitor.ml" 23 1197 1209
+type(
+  'a -> 'a visitAction
+)
+ident(
+  int_ref meth "visitor.ml" 22 1166 1176 "visitor.ml" 22 1166 1180
+)
+"visitor.ml" 23 1197 1210 "visitor.ml" 23 1197 1214
+type(
+  'a
+)
+ident(
+  int_ref orig "visitor.ml" 22 1166 1181 "visitor.ml" 22 1166 1185
+)
+"visitor.ml" 23 1197 1205 "visitor.ml" 23 1197 1214
+type(
+  'a visitAction
+)
+"visitor.ml" 24 1220 1226 "visitor.ml" 24 1220 1238
+type(
+  'a visitAction
+)
+"visitor.ml" 24 1220 1242 "visitor.ml" 24 1220 1246
+type(
+  'a
+)
+ident(
+  int_ref orig "visitor.ml" 22 1166 1181 "visitor.ml" 22 1166 1185
+)
+"visitor.ml" 25 1247 1253 "visitor.ml" 25 1247 1263
+type(
+  'a visitAction
+)
+"visitor.ml" 25 1247 1267 "visitor.ml" 25 1247 1274
+type(
+  'a -> 'a
+)
+ident(
+  int_ref recurse "visitor.ml" 22 1166 1186 "visitor.ml" 22 1166 1193
+)
+"visitor.ml" 25 1247 1275 "visitor.ml" 25 1247 1279
+type(
+  'a
+)
+ident(
+  int_ref orig "visitor.ml" 22 1166 1181 "visitor.ml" 22 1166 1185
+)
+"visitor.ml" 25 1247 1267 "visitor.ml" 25 1247 1279
+type(
+  'a
+)
+"visitor.ml" 26 1280 1295 "visitor.ml" 26 1280 1302
+type(
+  'a
+)
+ident(
+  def changed "visitor.ml" 26 1280 1306 "visitor.ml" 26 1280 1313
+)
+"visitor.ml" 26 1280 1286 "visitor.ml" 26 1280 1302
+type(
+  'a visitAction
+)
+"visitor.ml" 26 1280 1306 "visitor.ml" 26 1280 1313
+type(
+  'a
+)
+ident(
+  int_ref changed "visitor.ml" 26 1280 1295 "visitor.ml" 26 1280 1302
+)
+"visitor.ml" 27 1314 1341 "visitor.ml" 27 1314 1345
+type(
+  'a
+)
+ident(
+  def res1 "visitor.ml" 27 1314 1352 "visitor.ml" 27 1314 1368
+)
+"visitor.ml" 27 1314 1346 "visitor.ml" 27 1314 1347
+type(
+  'a -> 'a
+)
+ident(
+  def f "visitor.ml" 27 1314 1352 "visitor.ml" 27 1314 1368
+)
+"visitor.ml" 27 1314 1320 "visitor.ml" 27 1314 1348
+type(
+  'a visitAction
+)
+"visitor.ml" 27 1314 1352 "visitor.ml" 27 1314 1353
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "visitor.ml" 27 1314 1346 "visitor.ml" 27 1314 1347
+)
+"visitor.ml" 27 1314 1355 "visitor.ml" 27 1314 1362
+type(
+  'a -> 'a
+)
+ident(
+  int_ref recurse "visitor.ml" 22 1166 1186 "visitor.ml" 22 1166 1193
+)
+"visitor.ml" 27 1314 1363 "visitor.ml" 27 1314 1367
+type(
+  'a
+)
+ident(
+  int_ref res1 "visitor.ml" 27 1314 1341 "visitor.ml" 27 1314 1345
+)
+"visitor.ml" 27 1314 1354 "visitor.ml" 27 1314 1368
+type(
+  'a
+)
+"visitor.ml" 27 1314 1352 "visitor.ml" 27 1314 1368
+type(
+  'a
+)
+"visitor.ml" 23 1197 1199 "visitor.ml" 27 1314 1368
+type(
+  'a
+)

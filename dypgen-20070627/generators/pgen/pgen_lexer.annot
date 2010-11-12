@@ -1,0 +1,2354 @@
+"pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+type(
+  string ref
+)
+ident(
+  def ocaml_code_buffer "pgen_lexer.mll" 4 77 77 --
+)
+"pgen_lexer.mll" 3 46 70 "pgen_lexer.mll" 3 46 73
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"pgen_lexer.mll" 3 46 74 "pgen_lexer.mll" 3 46 76
+type(
+  string
+)
+"pgen_lexer.mll" 3 46 70 "pgen_lexer.mll" 3 46 76
+type(
+  string ref
+)
+"pgen_lexer.mll" 4 77 81 "pgen_lexer.mll" 4 77 92
+type(
+  int ref
+)
+ident(
+  def paren_count "pgen_lexer.mll" 5 101 101 --
+)
+"pgen_lexer.mll" 4 77 95 "pgen_lexer.mll" 4 77 98
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"pgen_lexer.mll" 4 77 99 "pgen_lexer.mll" 4 77 100
+type(
+  int
+)
+"pgen_lexer.mll" 4 77 95 "pgen_lexer.mll" 4 77 100
+type(
+  int ref
+)
+"pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+type(
+  bool ref
+)
+ident(
+  def in_string "pgen_lexer.mll" 6 127 127 --
+)
+"pgen_lexer.mll" 5 101 117 "pgen_lexer.mll" 5 101 120
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"pgen_lexer.mll" 5 101 121 "pgen_lexer.mll" 5 101 126
+type(
+  bool
+)
+"pgen_lexer.mll" 5 101 117 "pgen_lexer.mll" 5 101 126
+type(
+  bool ref
+)
+"pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+type(
+  int ref
+)
+ident(
+  def comment_count "pgen_lexer.ml" 10 175 175 --
+)
+"pgen_lexer.mll" 6 127 147 "pgen_lexer.mll" 6 127 150
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"pgen_lexer.mll" 6 127 151 "pgen_lexer.mll" 6 127 152
+type(
+  int
+)
+"pgen_lexer.mll" 6 127 147 "pgen_lexer.mll" 6 127 152
+type(
+  int ref
+)
+"pgen_lexer.ml" 10 175 179 "pgen_lexer.ml" 10 175 197
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 12 223 226 "pgen_lexer.ml" 18 643 688
+type(
+  string
+)
+"pgen_lexer.ml" 20 714 717 "pgen_lexer.ml" 26 1134 1179
+type(
+  string
+)
+"pgen_lexer.ml" 28 1205 1208 "pgen_lexer.ml" 34 1625 1670
+type(
+  string
+)
+"pgen_lexer.ml" 36 1694 1697 "pgen_lexer.ml" 149 9604 9617
+type(
+  string
+)
+"pgen_lexer.ml" 151 9641 9644 "pgen_lexer.ml" 264 17551 17564
+type(
+  string
+)
+"pgen_lexer.ml" 266 17592 17595 "pgen_lexer.ml" 266 17592 17597
+type(
+  string
+)
+"pgen_lexer.ml" 268 17628 17631 "pgen_lexer.ml" 268 17628 17633
+type(
+  string
+)
+"pgen_lexer.ml" 270 17664 17667 "pgen_lexer.ml" 270 17664 17669
+type(
+  string
+)
+"pgen_lexer.ml" 272 17698 17701 "pgen_lexer.ml" 272 17698 17703
+type(
+  string
+)
+"pgen_lexer.ml" 274 17732 17735 "pgen_lexer.ml" 274 17732 17737
+type(
+  string
+)
+"pgen_lexer.ml" 276 17760 17763 "pgen_lexer.ml" 276 17760 17765
+type(
+  string
+)
+"pgen_lexer.ml" 10 175 200 "pgen_lexer.ml" 277 17767 17768
+type(
+  Lexing.lex_tables
+)
+"pgen_lexer.ml" 279 17770 17778 "pgen_lexer.ml" 279 17770 17783
+type(
+  Lexing.lexbuf -> Pgen_parser_param.token
+)
+ident(
+  def token "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 279 17770 17784 "pgen_lexer.ml" 279 17770 17790
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "pgen_lexer.ml" 280 17793 17797 "pgen_lexer.ml" 280 17793 17827
+)
+"pgen_lexer.ml" 280 17793 17797 "pgen_lexer.ml" 280 17793 17818
+type(
+  Lexing.lexbuf -> int -> Pgen_parser_param.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "pgen_lexer.ml" 281 17828 17832 "pgen_lexer.ml" 281 17828 17853
+)
+"pgen_lexer.ml" 280 17793 17819 "pgen_lexer.ml" 280 17793 17825
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 279 17770 17784 "pgen_lexer.ml" 279 17770 17790
+)
+"pgen_lexer.ml" 280 17793 17826 "pgen_lexer.ml" 280 17793 17827
+type(
+  int
+)
+"pgen_lexer.ml" 280 17793 17797 "pgen_lexer.ml" 280 17793 17827
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 281 17828 17832 "pgen_lexer.ml" 281 17828 17853
+type(
+  Lexing.lexbuf -> int -> Pgen_parser_param.token
+)
+ident(
+  def __ocaml_lex_token_rec "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "pgen_lexer.ml" 281 17828 17861 "pgen_lexer.ml" 374 19473 19578
+)
+"pgen_lexer.ml" 281 17828 17861 "pgen_lexer.ml" 281 17828 17878
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "pgen_lexer.ml" 282 17881 17883 "pgen_lexer.ml" 374 19473 19578
+)
+"pgen_lexer.ml" 282 17881 17889 "pgen_lexer.ml" 282 17881 17902
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"pgen_lexer.ml" 282 17881 17903 "pgen_lexer.ml" 282 17881 17921
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "pgen_lexer.ml" 10 175 179 "pgen_lexer.ml" 10 175 197
+)
+"pgen_lexer.ml" 282 17881 17922 "pgen_lexer.ml" 282 17881 17939
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "pgen_lexer.ml" 281 17828 17861 "pgen_lexer.ml" 281 17828 17878
+)
+"pgen_lexer.ml" 282 17881 17940 "pgen_lexer.ml" 282 17881 17946
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.ml" 282 17881 17889 "pgen_lexer.ml" 282 17881 17946
+type(
+  int
+)
+"pgen_lexer.ml" 283 17952 17960 "pgen_lexer.ml" 283 17952 17961
+type(
+  int
+)
+"pgen_lexer.mll" 18 17987 17995 "pgen_lexer.mll" 18 17987 18000
+type(
+  Lexing.lexbuf -> Pgen_parser_param.token
+)
+ident(
+  int_ref token "pgen_lexer.ml" 279 17770 17778 "pgen_lexer.ml" 279 17770 17783
+)
+"pgen_lexer.mll" 18 17987 18001 "pgen_lexer.mll" 18 17987 18007
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.mll" 18 17987 17993 "pgen_lexer.mll" 18 17987 18009
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 288 18033 18037 "pgen_lexer.ml" 288 18033 18038
+type(
+  int
+)
+"pgen_lexer.mll" 20 18064 18072 "pgen_lexer.mll" 20 18064 18077
+type(
+  Lexing.lexbuf -> Pgen_parser_param.token
+)
+ident(
+  int_ref token "pgen_lexer.ml" 279 17770 17778 "pgen_lexer.ml" 279 17770 17783
+)
+"pgen_lexer.mll" 20 18064 18078 "pgen_lexer.mll" 20 18064 18084
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.mll" 20 18064 18070 "pgen_lexer.mll" 20 18064 18086
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 293 18110 18114 "pgen_lexer.ml" 293 18110 18115
+type(
+  int
+)
+"pgen_lexer.mll" 21 18141 18154 "pgen_lexer.mll" 21 18141 18167
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 298 18191 18195 "pgen_lexer.ml" 298 18191 18196
+type(
+  int
+)
+"pgen_lexer.mll" 22 18222 18235 "pgen_lexer.mll" 22 18222 18248
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 303 18272 18276 "pgen_lexer.ml" 303 18272 18277
+type(
+  int
+)
+"pgen_lexer.mll" 23 18303 18319 "pgen_lexer.mll" 23 18303 18335
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 308 18359 18363 "pgen_lexer.ml" 308 18359 18364
+type(
+  int
+)
+"pgen_lexer.mll" 24 18390 18402 "pgen_lexer.mll" 24 18390 18414
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 313 18438 18442 "pgen_lexer.ml" 313 18438 18443
+type(
+  int
+)
+"pgen_lexer.mll" 26 18469 18484 "pgen_lexer.mll" 26 18469 18497
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"pgen_lexer.mll" 26 18469 18498 "pgen_lexer.mll" 26 18469 18504
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.mll" 26 18469 18483 "pgen_lexer.mll" 26 18469 18505
+type(
+  string
+)
+"pgen_lexer.mll" 26 18469 18475 "pgen_lexer.mll" 26 18469 18507
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 318 18531 18535 "pgen_lexer.ml" 318 18531 18536
+type(
+  int
+)
+"pgen_lexer.mll" 28 18562 18577 "pgen_lexer.mll" 28 18562 18590
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"pgen_lexer.mll" 28 18562 18591 "pgen_lexer.mll" 28 18562 18597
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.mll" 28 18562 18576 "pgen_lexer.mll" 28 18562 18598
+type(
+  string
+)
+"pgen_lexer.mll" 28 18562 18568 "pgen_lexer.mll" 28 18562 18600
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 323 18624 18628 "pgen_lexer.ml" 323 18624 18629
+type(
+  int
+)
+"pgen_lexer.mll" 29 18655 18664 "pgen_lexer.mll" 29 18655 18674
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 328 18698 18702 "pgen_lexer.ml" 328 18698 18703
+type(
+  int
+)
+"pgen_lexer.mll" 30 18729 18738 "pgen_lexer.mll" 30 18729 18748
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 333 18772 18776 "pgen_lexer.ml" 333 18772 18778
+type(
+  int
+)
+"pgen_lexer.mll" 31 18804 18813 "pgen_lexer.mll" 31 18804 18822
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 338 18846 18850 "pgen_lexer.ml" 338 18846 18852
+type(
+  int
+)
+"pgen_lexer.mll" 32 18878 18888 "pgen_lexer.mll" 32 18878 18906
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 343 18930 18934 "pgen_lexer.ml" 343 18930 18936
+type(
+  int
+)
+"pgen_lexer.mll" 34 18962 18970 "pgen_lexer.mll" 34 18962 18987
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 34 18962 18988 "pgen_lexer.mll" 34 18962 18990
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 34 18962 18991 "pgen_lexer.mll" 34 18962 18993
+type(
+  string
+)
+"pgen_lexer.mll" 34 18962 18970 "pgen_lexer.mll" 34 18962 18993
+type(
+  unit
+)
+"pgen_lexer.mll" 35 18995 19003 "pgen_lexer.mll" 35 18995 19013
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_type "pgen_lexer.ml" 461 21902 21906 "pgen_lexer.ml" 461 21902 21916
+)
+"pgen_lexer.mll" 35 18995 19014 "pgen_lexer.mll" 35 18995 19020
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.mll" 35 18995 19003 "pgen_lexer.mll" 35 18995 19020
+type(
+  unit
+)
+"pgen_lexer.mll" 36 19022 19042 "pgen_lexer.mll" 36 19022 19043
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 36 19022 19043 "pgen_lexer.mll" 36 19022 19060
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 36 19022 19041 "pgen_lexer.mll" 36 19022 19061
+type(
+  string
+)
+"pgen_lexer.mll" 36 19022 19030 "pgen_lexer.mll" 36 19022 19061
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.mll" 35 18995 19003 "pgen_lexer.mll" 36 19022 19061
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.mll" 34 18962 18968 "pgen_lexer.mll" 37 19062 19069
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 351 19093 19097 "pgen_lexer.ml" 351 19093 19099
+type(
+  int
+)
+"pgen_lexer.mll" 39 19125 19133 "pgen_lexer.mll" 39 19125 19150
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 39 19125 19151 "pgen_lexer.mll" 39 19125 19153
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 39 19125 19154 "pgen_lexer.mll" 39 19125 19156
+type(
+  string
+)
+"pgen_lexer.mll" 39 19125 19133 "pgen_lexer.mll" 39 19125 19156
+type(
+  unit
+)
+"pgen_lexer.mll" 40 19158 19166 "pgen_lexer.mll" 40 19158 19176
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 40 19158 19177 "pgen_lexer.mll" 40 19158 19183
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.mll" 40 19158 19166 "pgen_lexer.mll" 40 19158 19183
+type(
+  unit
+)
+"pgen_lexer.mll" 41 19185 19205 "pgen_lexer.mll" 41 19185 19206
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 41 19185 19206 "pgen_lexer.mll" 41 19185 19223
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 41 19185 19204 "pgen_lexer.mll" 41 19185 19224
+type(
+  string
+)
+"pgen_lexer.mll" 41 19185 19193 "pgen_lexer.mll" 41 19185 19224
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.mll" 40 19158 19166 "pgen_lexer.mll" 41 19185 19224
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.mll" 39 19125 19131 "pgen_lexer.mll" 42 19225 19232
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 359 19256 19260 "pgen_lexer.ml" 359 19256 19262
+type(
+  int
+)
+"pgen_lexer.mll" 43 19288 19297 "pgen_lexer.mll" 43 19288 19304
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 364 19328 19332 "pgen_lexer.ml" 364 19328 19334
+type(
+  int
+)
+"pgen_lexer.mll" 44 19360 19369 "pgen_lexer.mll" 44 19360 19378
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 369 19402 19406 "pgen_lexer.ml" 369 19402 19408
+type(
+  int
+)
+"pgen_lexer.mll" 45 19434 19442 "pgen_lexer.mll" 45 19434 19449
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 374 19473 19477 "pgen_lexer.ml" 374 19473 19494
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "pgen_lexer.ml" 374 19473 19498 "pgen_lexer.ml" 374 19473 19578
+)
+"pgen_lexer.ml" 374 19473 19498 "pgen_lexer.ml" 374 19473 19504
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.ml" 374 19473 19498 "pgen_lexer.ml" 374 19473 19523
+type(
+  Lexing.lexbuf -> unit
+)
+"pgen_lexer.ml" 374 19473 19524 "pgen_lexer.ml" 374 19473 19530
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.ml" 374 19473 19498 "pgen_lexer.ml" 374 19473 19530
+type(
+  unit
+)
+"pgen_lexer.ml" 374 19473 19532 "pgen_lexer.ml" 374 19473 19553
+type(
+  Lexing.lexbuf -> int -> Pgen_parser_param.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "pgen_lexer.ml" 281 17828 17832 "pgen_lexer.ml" 281 17828 17853
+)
+"pgen_lexer.ml" 374 19473 19554 "pgen_lexer.ml" 374 19473 19560
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 281 17828 17854 "pgen_lexer.ml" 281 17828 17860
+)
+"pgen_lexer.ml" 374 19473 19561 "pgen_lexer.ml" 374 19473 19578
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "pgen_lexer.ml" 374 19473 19477 "pgen_lexer.ml" 374 19473 19494
+)
+"pgen_lexer.ml" 374 19473 19532 "pgen_lexer.ml" 374 19473 19578
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 374 19473 19498 "pgen_lexer.ml" 374 19473 19578
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 282 17881 17883 "pgen_lexer.ml" 374 19473 19578
+type(
+  Pgen_parser_param.token
+)
+"pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def ocaml_code "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 376 19580 19595 "pgen_lexer.ml" 376 19580 19601
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "pgen_lexer.ml" 377 19604 19608 "pgen_lexer.ml" 377 19604 19644
+)
+"pgen_lexer.ml" 377 19604 19608 "pgen_lexer.ml" 377 19604 19634
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_ocaml_code_rec "pgen_lexer.ml" 378 19645 19649 "pgen_lexer.ml" 378 19645 19675
+)
+"pgen_lexer.ml" 377 19604 19635 "pgen_lexer.ml" 377 19604 19641
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 376 19580 19595 "pgen_lexer.ml" 376 19580 19601
+)
+"pgen_lexer.ml" 377 19604 19642 "pgen_lexer.ml" 377 19604 19644
+type(
+  int
+)
+"pgen_lexer.ml" 377 19604 19608 "pgen_lexer.ml" 377 19604 19644
+type(
+  unit
+)
+"pgen_lexer.ml" 378 19645 19649 "pgen_lexer.ml" 378 19645 19675
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_ocaml_code_rec "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "pgen_lexer.ml" 378 19645 19683 "pgen_lexer.ml" 459 21790 21900
+)
+"pgen_lexer.ml" 378 19645 19683 "pgen_lexer.ml" 378 19645 19700
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "pgen_lexer.ml" 379 19703 19705 "pgen_lexer.ml" 459 21790 21900
+)
+"pgen_lexer.ml" 379 19703 19711 "pgen_lexer.ml" 379 19703 19724
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"pgen_lexer.ml" 379 19703 19725 "pgen_lexer.ml" 379 19703 19743
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "pgen_lexer.ml" 10 175 179 "pgen_lexer.ml" 10 175 197
+)
+"pgen_lexer.ml" 379 19703 19744 "pgen_lexer.ml" 379 19703 19761
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "pgen_lexer.ml" 378 19645 19683 "pgen_lexer.ml" 378 19645 19700
+)
+"pgen_lexer.ml" 379 19703 19762 "pgen_lexer.ml" 379 19703 19768
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.ml" 379 19703 19711 "pgen_lexer.ml" 379 19703 19768
+type(
+  int
+)
+"pgen_lexer.ml" 380 19774 19782 "pgen_lexer.ml" 380 19774 19783
+type(
+  int
+)
+"pgen_lexer.mll" 50 19818 19829 "pgen_lexer.mll" 50 19818 19830
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 50 19818 19830 "pgen_lexer.mll" 50 19818 19839
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 50 19818 19829 "pgen_lexer.mll" 50 19818 19839
+type(
+  bool
+)
+"pgen_lexer.mll" 50 19818 19840 "pgen_lexer.mll" 50 19818 19841
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"pgen_lexer.mll" 50 19818 19842 "pgen_lexer.mll" 50 19818 19847
+type(
+  bool
+)
+"pgen_lexer.mll" 50 19818 19829 "pgen_lexer.mll" 50 19818 19847
+type(
+  bool
+)
+"pgen_lexer.mll" 50 19818 19848 "pgen_lexer.mll" 50 19818 19850
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"pgen_lexer.mll" 50 19818 19851 "pgen_lexer.mll" 50 19818 19852
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 50 19818 19852 "pgen_lexer.mll" 50 19818 19865
+type(
+  int ref
+)
+ident(
+  int_ref comment_count "pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+)
+"pgen_lexer.mll" 50 19818 19851 "pgen_lexer.mll" 50 19818 19865
+type(
+  int
+)
+"pgen_lexer.mll" 50 19818 19866 "pgen_lexer.mll" 50 19818 19867
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"pgen_lexer.mll" 50 19818 19868 "pgen_lexer.mll" 50 19818 19869
+type(
+  int
+)
+"pgen_lexer.mll" 50 19818 19851 "pgen_lexer.mll" 50 19818 19869
+type(
+  bool
+)
+"pgen_lexer.mll" 50 19818 19829 "pgen_lexer.mll" 50 19818 19869
+type(
+  bool
+)
+"pgen_lexer.mll" 52 19891 19907 "pgen_lexer.mll" 52 19891 19908
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 52 19891 19908 "pgen_lexer.mll" 52 19891 19919
+type(
+  int ref
+)
+ident(
+  int_ref paren_count "pgen_lexer.mll" 4 77 81 "pgen_lexer.mll" 4 77 92
+)
+"pgen_lexer.mll" 52 19891 19906 "pgen_lexer.mll" 52 19891 19920
+type(
+  int
+)
+"pgen_lexer.mll" 52 19891 19921 "pgen_lexer.mll" 52 19891 19922
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"pgen_lexer.mll" 52 19891 19923 "pgen_lexer.mll" 52 19891 19924
+type(
+  int
+)
+"pgen_lexer.mll" 52 19891 19906 "pgen_lexer.mll" 52 19891 19924
+type(
+  bool
+)
+"pgen_lexer.mll" 52 19891 19930 "pgen_lexer.mll" 52 19891 19932
+type(
+  unit
+)
+"pgen_lexer.mll" 54 19950 19968 "pgen_lexer.mll" 54 19950 19969
+type(
+  unit
+)
+"pgen_lexer.mll" 54 19950 19972 "pgen_lexer.mll" 54 19950 19989
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 54 19950 19990 "pgen_lexer.mll" 54 19950 19992
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 54 19950 19995 "pgen_lexer.mll" 54 19950 19996
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 54 19950 19996 "pgen_lexer.mll" 54 19950 20013
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 54 19950 19994 "pgen_lexer.mll" 54 19950 20014
+type(
+  string
+)
+"pgen_lexer.mll" 54 19950 20015 "pgen_lexer.mll" 54 19950 20016
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 55 20018 20035 "pgen_lexer.mll" 55 20018 20046
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"pgen_lexer.mll" 55 20018 20047 "pgen_lexer.mll" 55 20018 20048
+type(
+  int
+)
+"pgen_lexer.mll" 55 20018 20050 "pgen_lexer.mll" 55 20018 20068
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"pgen_lexer.mll" 55 20018 20069 "pgen_lexer.mll" 55 20018 20075
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 55 20018 20076 "pgen_lexer.mll" 55 20018 20077
+type(
+  int
+)
+"pgen_lexer.mll" 55 20018 20049 "pgen_lexer.mll" 55 20018 20078
+type(
+  char
+)
+"pgen_lexer.mll" 55 20018 20034 "pgen_lexer.mll" 55 20018 20079
+type(
+  string
+)
+"pgen_lexer.mll" 54 19950 19993 "pgen_lexer.mll" 55 20018 20080
+type(
+  string
+)
+"pgen_lexer.mll" 54 19950 19972 "pgen_lexer.mll" 55 20018 20080
+type(
+  unit
+)
+"pgen_lexer.mll" 56 20084 20102 "pgen_lexer.mll" 56 20084 20103
+type(
+  unit
+)
+"pgen_lexer.mll" 56 20084 20106 "pgen_lexer.mll" 56 20084 20117
+type(
+  int ref
+)
+ident(
+  int_ref paren_count "pgen_lexer.mll" 4 77 81 "pgen_lexer.mll" 4 77 92
+)
+"pgen_lexer.mll" 56 20084 20118 "pgen_lexer.mll" 56 20084 20120
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 56 20084 20123 "pgen_lexer.mll" 56 20084 20124
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 56 20084 20124 "pgen_lexer.mll" 56 20084 20135
+type(
+  int ref
+)
+ident(
+  int_ref paren_count "pgen_lexer.mll" 4 77 81 "pgen_lexer.mll" 4 77 92
+)
+"pgen_lexer.mll" 56 20084 20122 "pgen_lexer.mll" 56 20084 20136
+type(
+  int
+)
+"pgen_lexer.mll" 56 20084 20136 "pgen_lexer.mll" 56 20084 20137
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"pgen_lexer.mll" 56 20084 20137 "pgen_lexer.mll" 56 20084 20138
+type(
+  int
+)
+"pgen_lexer.mll" 56 20084 20121 "pgen_lexer.mll" 56 20084 20139
+type(
+  int
+)
+"pgen_lexer.mll" 56 20084 20106 "pgen_lexer.mll" 56 20084 20139
+type(
+  unit
+)
+"pgen_lexer.mll" 57 20143 20157 "pgen_lexer.mll" 57 20143 20167
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 57 20143 20168 "pgen_lexer.mll" 57 20143 20174
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 57 20143 20157 "pgen_lexer.mll" 57 20143 20174
+type(
+  unit
+)
+"pgen_lexer.mll" 56 20084 20098 "pgen_lexer.mll" 57 20143 20174
+type(
+  unit
+)
+"pgen_lexer.mll" 54 19950 19964 "pgen_lexer.mll" 57 20143 20174
+type(
+  unit
+)
+"pgen_lexer.mll" 51 19875 19885 "pgen_lexer.mll" 58 20175 20188
+type(
+  unit
+)
+"pgen_lexer.mll" 61 20218 20230 "pgen_lexer.mll" 61 20218 20247
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 61 20218 20248 "pgen_lexer.mll" 61 20218 20250
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 61 20218 20252 "pgen_lexer.mll" 61 20218 20253
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 61 20218 20253 "pgen_lexer.mll" 61 20218 20270
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 61 20218 20251 "pgen_lexer.mll" 61 20218 20271
+type(
+  string
+)
+"pgen_lexer.mll" 61 20218 20272 "pgen_lexer.mll" 61 20218 20273
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 61 20218 20274 "pgen_lexer.mll" 61 20218 20277
+type(
+  string
+)
+"pgen_lexer.mll" 61 20218 20251 "pgen_lexer.mll" 61 20218 20277
+type(
+  string
+)
+"pgen_lexer.mll" 61 20218 20230 "pgen_lexer.mll" 61 20218 20277
+type(
+  unit
+)
+"pgen_lexer.mll" 62 20279 20291 "pgen_lexer.mll" 62 20279 20301
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 62 20279 20302 "pgen_lexer.mll" 62 20279 20308
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 62 20279 20291 "pgen_lexer.mll" 62 20279 20308
+type(
+  unit
+)
+"pgen_lexer.mll" 60 20202 20212 "pgen_lexer.mll" 63 20309 20322
+type(
+  unit
+)
+"pgen_lexer.mll" 49 19809 19815 "pgen_lexer.mll" 64 20323 20330
+type(
+  unit
+)
+"pgen_lexer.ml" 400 20354 20358 "pgen_lexer.ml" 400 20354 20359
+type(
+  int
+)
+"pgen_lexer.mll" 66 20385 20393 "pgen_lexer.mll" 66 20385 20410
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 66 20385 20411 "pgen_lexer.mll" 66 20385 20413
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 66 20385 20416 "pgen_lexer.mll" 66 20385 20417
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 66 20385 20417 "pgen_lexer.mll" 66 20385 20434
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 66 20385 20415 "pgen_lexer.mll" 66 20385 20435
+type(
+  string
+)
+"pgen_lexer.mll" 66 20385 20436 "pgen_lexer.mll" 66 20385 20437
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 67 20439 20449 "pgen_lexer.mll" 67 20439 20452
+type(
+  string
+)
+"pgen_lexer.mll" 66 20385 20414 "pgen_lexer.mll" 67 20439 20453
+type(
+  string
+)
+"pgen_lexer.mll" 66 20385 20393 "pgen_lexer.mll" 67 20439 20453
+type(
+  unit
+)
+"pgen_lexer.mll" 68 20455 20463 "pgen_lexer.mll" 68 20455 20473
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 68 20455 20474 "pgen_lexer.mll" 68 20455 20480
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 68 20455 20463 "pgen_lexer.mll" 68 20455 20480
+type(
+  unit
+)
+"pgen_lexer.mll" 66 20385 20391 "pgen_lexer.mll" 69 20481 20488
+type(
+  unit
+)
+"pgen_lexer.ml" 408 20512 20516 "pgen_lexer.ml" 408 20512 20517
+type(
+  int
+)
+"pgen_lexer.mll" 71 20543 20551 "pgen_lexer.mll" 71 20543 20568
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 71 20543 20569 "pgen_lexer.mll" 71 20543 20571
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 71 20543 20574 "pgen_lexer.mll" 71 20543 20575
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 71 20543 20575 "pgen_lexer.mll" 71 20543 20592
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 71 20543 20573 "pgen_lexer.mll" 71 20543 20593
+type(
+  string
+)
+"pgen_lexer.mll" 71 20543 20594 "pgen_lexer.mll" 71 20543 20595
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 71 20543 20596 "pgen_lexer.mll" 71 20543 20602
+type(
+  string
+)
+"pgen_lexer.mll" 71 20543 20572 "pgen_lexer.mll" 71 20543 20603
+type(
+  string
+)
+"pgen_lexer.mll" 71 20543 20551 "pgen_lexer.mll" 71 20543 20603
+type(
+  unit
+)
+"pgen_lexer.mll" 72 20605 20613 "pgen_lexer.mll" 72 20605 20623
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 72 20605 20624 "pgen_lexer.mll" 72 20605 20630
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 72 20605 20613 "pgen_lexer.mll" 72 20605 20630
+type(
+  unit
+)
+"pgen_lexer.mll" 71 20543 20549 "pgen_lexer.mll" 73 20631 20638
+type(
+  unit
+)
+"pgen_lexer.ml" 415 20662 20666 "pgen_lexer.ml" 415 20662 20667
+type(
+  int
+)
+"pgen_lexer.mll" 76 20702 20713 "pgen_lexer.mll" 76 20702 20714
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 76 20702 20714 "pgen_lexer.mll" 76 20702 20723
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 76 20702 20713 "pgen_lexer.mll" 76 20702 20723
+type(
+  bool
+)
+"pgen_lexer.mll" 76 20702 20729 "pgen_lexer.mll" 76 20702 20738
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 76 20702 20739 "pgen_lexer.mll" 76 20702 20741
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 76 20702 20742 "pgen_lexer.mll" 76 20702 20747
+type(
+  bool
+)
+"pgen_lexer.mll" 76 20702 20729 "pgen_lexer.mll" 76 20702 20747
+type(
+  unit
+)
+"pgen_lexer.mll" 76 20702 20753 "pgen_lexer.mll" 76 20702 20762
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 76 20702 20763 "pgen_lexer.mll" 76 20702 20765
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 76 20702 20766 "pgen_lexer.mll" 76 20702 20770
+type(
+  bool
+)
+"pgen_lexer.mll" 76 20702 20753 "pgen_lexer.mll" 76 20702 20770
+type(
+  unit
+)
+"pgen_lexer.mll" 76 20702 20710 "pgen_lexer.mll" 76 20702 20770
+type(
+  unit
+)
+"pgen_lexer.mll" 77 20772 20780 "pgen_lexer.mll" 77 20772 20797
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 77 20772 20798 "pgen_lexer.mll" 77 20772 20800
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 77 20772 20802 "pgen_lexer.mll" 77 20772 20803
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 77 20772 20803 "pgen_lexer.mll" 77 20772 20820
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 77 20772 20801 "pgen_lexer.mll" 77 20772 20821
+type(
+  string
+)
+"pgen_lexer.mll" 77 20772 20822 "pgen_lexer.mll" 77 20772 20823
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 77 20772 20824 "pgen_lexer.mll" 77 20772 20828
+type(
+  string
+)
+"pgen_lexer.mll" 77 20772 20801 "pgen_lexer.mll" 77 20772 20828
+type(
+  string
+)
+"pgen_lexer.mll" 77 20772 20780 "pgen_lexer.mll" 77 20772 20828
+type(
+  unit
+)
+"pgen_lexer.mll" 78 20830 20838 "pgen_lexer.mll" 78 20830 20848
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 78 20830 20849 "pgen_lexer.mll" 78 20830 20855
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 78 20830 20838 "pgen_lexer.mll" 78 20830 20855
+type(
+  unit
+)
+"pgen_lexer.mll" 77 20772 20780 "pgen_lexer.mll" 78 20830 20855
+type(
+  unit
+)
+"pgen_lexer.mll" 75 20693 20699 "pgen_lexer.mll" 79 20856 20863
+type(
+  unit
+)
+"pgen_lexer.ml" 424 20887 20891 "pgen_lexer.ml" 424 20887 20892
+type(
+  int
+)
+"pgen_lexer.mll" 81 20918 20926 "pgen_lexer.mll" 81 20918 20943
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 81 20918 20944 "pgen_lexer.mll" 81 20918 20946
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 81 20918 20948 "pgen_lexer.mll" 81 20918 20949
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 81 20918 20949 "pgen_lexer.mll" 81 20918 20966
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 81 20918 20947 "pgen_lexer.mll" 81 20918 20967
+type(
+  string
+)
+"pgen_lexer.mll" 81 20918 20968 "pgen_lexer.mll" 81 20918 20969
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 81 20918 20970 "pgen_lexer.mll" 81 20918 20973
+type(
+  string
+)
+"pgen_lexer.mll" 81 20918 20947 "pgen_lexer.mll" 81 20918 20973
+type(
+  string
+)
+"pgen_lexer.mll" 81 20918 20926 "pgen_lexer.mll" 81 20918 20973
+type(
+  unit
+)
+"pgen_lexer.mll" 82 20975 20986 "pgen_lexer.mll" 82 20975 20987
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 82 20975 20987 "pgen_lexer.mll" 82 20975 20996
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 82 20975 20986 "pgen_lexer.mll" 82 20975 20996
+type(
+  bool
+)
+"pgen_lexer.mll" 82 20975 20997 "pgen_lexer.mll" 82 20975 20998
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"pgen_lexer.mll" 82 20975 20999 "pgen_lexer.mll" 82 20975 21004
+type(
+  bool
+)
+"pgen_lexer.mll" 82 20975 20986 "pgen_lexer.mll" 82 20975 21004
+type(
+  bool
+)
+"pgen_lexer.mll" 82 20975 21005 "pgen_lexer.mll" 82 20975 21007
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"pgen_lexer.mll" 82 20975 21008 "pgen_lexer.mll" 82 20975 21009
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 82 20975 21009 "pgen_lexer.mll" 82 20975 21022
+type(
+  int ref
+)
+ident(
+  int_ref comment_count "pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+)
+"pgen_lexer.mll" 82 20975 21008 "pgen_lexer.mll" 82 20975 21022
+type(
+  int
+)
+"pgen_lexer.mll" 82 20975 21023 "pgen_lexer.mll" 82 20975 21024
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"pgen_lexer.mll" 82 20975 21025 "pgen_lexer.mll" 82 20975 21026
+type(
+  int
+)
+"pgen_lexer.mll" 82 20975 21008 "pgen_lexer.mll" 82 20975 21026
+type(
+  bool
+)
+"pgen_lexer.mll" 82 20975 20986 "pgen_lexer.mll" 82 20975 21026
+type(
+  bool
+)
+"pgen_lexer.mll" 83 21032 21042 "pgen_lexer.mll" 83 21032 21053
+type(
+  int ref
+)
+ident(
+  int_ref paren_count "pgen_lexer.mll" 4 77 81 "pgen_lexer.mll" 4 77 92
+)
+"pgen_lexer.mll" 83 21032 21054 "pgen_lexer.mll" 83 21032 21056
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 83 21032 21058 "pgen_lexer.mll" 83 21032 21059
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 83 21032 21059 "pgen_lexer.mll" 83 21032 21070
+type(
+  int ref
+)
+ident(
+  int_ref paren_count "pgen_lexer.mll" 4 77 81 "pgen_lexer.mll" 4 77 92
+)
+"pgen_lexer.mll" 83 21032 21057 "pgen_lexer.mll" 83 21032 21071
+type(
+  int
+)
+"pgen_lexer.mll" 83 21032 21071 "pgen_lexer.mll" 83 21032 21072
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"pgen_lexer.mll" 83 21032 21072 "pgen_lexer.mll" 83 21032 21073
+type(
+  int
+)
+"pgen_lexer.mll" 83 21032 21057 "pgen_lexer.mll" 83 21032 21073
+type(
+  int
+)
+"pgen_lexer.mll" 83 21032 21042 "pgen_lexer.mll" 83 21032 21073
+type(
+  unit
+)
+"pgen_lexer.mll" 82 20975 20983 "pgen_lexer.mll" 83 21032 21073
+type(
+  unit
+)
+"pgen_lexer.mll" 84 21075 21083 "pgen_lexer.mll" 84 21075 21093
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 84 21075 21094 "pgen_lexer.mll" 84 21075 21100
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 84 21075 21083 "pgen_lexer.mll" 84 21075 21100
+type(
+  unit
+)
+"pgen_lexer.mll" 82 20975 20983 "pgen_lexer.mll" 84 21075 21100
+type(
+  unit
+)
+"pgen_lexer.mll" 81 20918 20924 "pgen_lexer.mll" 85 21101 21108
+type(
+  unit
+)
+"pgen_lexer.ml" 433 21132 21136 "pgen_lexer.ml" 433 21132 21137
+type(
+  int
+)
+"pgen_lexer.mll" 88 21172 21183 "pgen_lexer.mll" 88 21172 21184
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 88 21172 21184 "pgen_lexer.mll" 88 21172 21193
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 88 21172 21183 "pgen_lexer.mll" 88 21172 21193
+type(
+  bool
+)
+"pgen_lexer.mll" 88 21172 21199 "pgen_lexer.mll" 88 21172 21201
+type(
+  unit
+)
+"pgen_lexer.mll" 88 21172 21207 "pgen_lexer.mll" 88 21172 21220
+type(
+  int ref
+)
+ident(
+  int_ref comment_count "pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+)
+"pgen_lexer.mll" 88 21172 21221 "pgen_lexer.mll" 88 21172 21223
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 88 21172 21224 "pgen_lexer.mll" 88 21172 21225
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 88 21172 21225 "pgen_lexer.mll" 88 21172 21238
+type(
+  int ref
+)
+ident(
+  int_ref comment_count "pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+)
+"pgen_lexer.mll" 88 21172 21224 "pgen_lexer.mll" 88 21172 21238
+type(
+  int
+)
+"pgen_lexer.mll" 88 21172 21239 "pgen_lexer.mll" 88 21172 21240
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"pgen_lexer.mll" 88 21172 21241 "pgen_lexer.mll" 88 21172 21242
+type(
+  int
+)
+"pgen_lexer.mll" 88 21172 21224 "pgen_lexer.mll" 88 21172 21242
+type(
+  int
+)
+"pgen_lexer.mll" 88 21172 21207 "pgen_lexer.mll" 88 21172 21242
+type(
+  unit
+)
+"pgen_lexer.mll" 88 21172 21180 "pgen_lexer.mll" 88 21172 21242
+type(
+  unit
+)
+"pgen_lexer.mll" 89 21244 21252 "pgen_lexer.mll" 89 21244 21269
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 89 21244 21270 "pgen_lexer.mll" 89 21244 21272
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 89 21244 21275 "pgen_lexer.mll" 89 21244 21276
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 89 21244 21276 "pgen_lexer.mll" 89 21244 21293
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 89 21244 21274 "pgen_lexer.mll" 89 21244 21294
+type(
+  string
+)
+"pgen_lexer.mll" 89 21244 21295 "pgen_lexer.mll" 89 21244 21296
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 89 21244 21297 "pgen_lexer.mll" 89 21244 21301
+type(
+  string
+)
+"pgen_lexer.mll" 89 21244 21273 "pgen_lexer.mll" 89 21244 21302
+type(
+  string
+)
+"pgen_lexer.mll" 89 21244 21252 "pgen_lexer.mll" 89 21244 21302
+type(
+  unit
+)
+"pgen_lexer.mll" 90 21304 21312 "pgen_lexer.mll" 90 21304 21322
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 90 21304 21323 "pgen_lexer.mll" 90 21304 21329
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 90 21304 21312 "pgen_lexer.mll" 90 21304 21329
+type(
+  unit
+)
+"pgen_lexer.mll" 89 21244 21252 "pgen_lexer.mll" 90 21304 21329
+type(
+  unit
+)
+"pgen_lexer.mll" 87 21163 21169 "pgen_lexer.mll" 91 21330 21337
+type(
+  unit
+)
+"pgen_lexer.ml" 442 21361 21365 "pgen_lexer.ml" 442 21361 21366
+type(
+  int
+)
+"pgen_lexer.mll" 94 21401 21412 "pgen_lexer.mll" 94 21401 21413
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 94 21401 21413 "pgen_lexer.mll" 94 21401 21422
+type(
+  bool ref
+)
+ident(
+  int_ref in_string "pgen_lexer.mll" 5 101 105 "pgen_lexer.mll" 5 101 114
+)
+"pgen_lexer.mll" 94 21401 21412 "pgen_lexer.mll" 94 21401 21422
+type(
+  bool
+)
+"pgen_lexer.mll" 94 21401 21428 "pgen_lexer.mll" 94 21401 21430
+type(
+  unit
+)
+"pgen_lexer.mll" 94 21401 21436 "pgen_lexer.mll" 94 21401 21449
+type(
+  int ref
+)
+ident(
+  int_ref comment_count "pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+)
+"pgen_lexer.mll" 94 21401 21450 "pgen_lexer.mll" 94 21401 21452
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 94 21401 21453 "pgen_lexer.mll" 94 21401 21454
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 94 21401 21454 "pgen_lexer.mll" 94 21401 21467
+type(
+  int ref
+)
+ident(
+  int_ref comment_count "pgen_lexer.mll" 6 127 131 "pgen_lexer.mll" 6 127 144
+)
+"pgen_lexer.mll" 94 21401 21453 "pgen_lexer.mll" 94 21401 21467
+type(
+  int
+)
+"pgen_lexer.mll" 94 21401 21468 "pgen_lexer.mll" 94 21401 21469
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"pgen_lexer.mll" 94 21401 21470 "pgen_lexer.mll" 94 21401 21471
+type(
+  int
+)
+"pgen_lexer.mll" 94 21401 21453 "pgen_lexer.mll" 94 21401 21471
+type(
+  int
+)
+"pgen_lexer.mll" 94 21401 21436 "pgen_lexer.mll" 94 21401 21471
+type(
+  unit
+)
+"pgen_lexer.mll" 94 21401 21409 "pgen_lexer.mll" 94 21401 21471
+type(
+  unit
+)
+"pgen_lexer.mll" 95 21473 21481 "pgen_lexer.mll" 95 21473 21498
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 95 21473 21499 "pgen_lexer.mll" 95 21473 21501
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 95 21473 21504 "pgen_lexer.mll" 95 21473 21505
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 95 21473 21505 "pgen_lexer.mll" 95 21473 21522
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 95 21473 21503 "pgen_lexer.mll" 95 21473 21523
+type(
+  string
+)
+"pgen_lexer.mll" 95 21473 21524 "pgen_lexer.mll" 95 21473 21525
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 95 21473 21526 "pgen_lexer.mll" 95 21473 21530
+type(
+  string
+)
+"pgen_lexer.mll" 95 21473 21502 "pgen_lexer.mll" 95 21473 21531
+type(
+  string
+)
+"pgen_lexer.mll" 95 21473 21481 "pgen_lexer.mll" 95 21473 21531
+type(
+  unit
+)
+"pgen_lexer.mll" 96 21533 21541 "pgen_lexer.mll" 96 21533 21551
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 96 21533 21552 "pgen_lexer.mll" 96 21533 21558
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 96 21533 21541 "pgen_lexer.mll" 96 21533 21558
+type(
+  unit
+)
+"pgen_lexer.mll" 95 21473 21481 "pgen_lexer.mll" 96 21533 21558
+type(
+  unit
+)
+"pgen_lexer.mll" 93 21392 21398 "pgen_lexer.mll" 97 21559 21566
+type(
+  unit
+)
+"pgen_lexer.ml" 451 21590 21594 "pgen_lexer.ml" 451 21590 21595
+type(
+  int
+)
+"pgen_lexer.mll" 99 21621 21629 "pgen_lexer.mll" 99 21621 21646
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 99 21621 21647 "pgen_lexer.mll" 99 21621 21649
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 99 21621 21652 "pgen_lexer.mll" 99 21621 21653
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 99 21621 21653 "pgen_lexer.mll" 99 21621 21670
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 99 21621 21651 "pgen_lexer.mll" 99 21621 21671
+type(
+  string
+)
+"pgen_lexer.mll" 99 21621 21672 "pgen_lexer.mll" 99 21621 21673
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 100 21675 21686 "pgen_lexer.mll" 100 21675 21697
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"pgen_lexer.mll" 100 21675 21698 "pgen_lexer.mll" 100 21675 21699
+type(
+  int
+)
+"pgen_lexer.mll" 100 21675 21701 "pgen_lexer.mll" 100 21675 21719
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"pgen_lexer.mll" 100 21675 21720 "pgen_lexer.mll" 100 21675 21726
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 100 21675 21727 "pgen_lexer.mll" 100 21675 21728
+type(
+  int
+)
+"pgen_lexer.mll" 100 21675 21700 "pgen_lexer.mll" 100 21675 21729
+type(
+  char
+)
+"pgen_lexer.mll" 100 21675 21685 "pgen_lexer.mll" 100 21675 21730
+type(
+  string
+)
+"pgen_lexer.mll" 99 21621 21650 "pgen_lexer.mll" 100 21675 21731
+type(
+  string
+)
+"pgen_lexer.mll" 99 21621 21629 "pgen_lexer.mll" 100 21675 21731
+type(
+  unit
+)
+"pgen_lexer.mll" 101 21733 21741 "pgen_lexer.mll" 101 21733 21751
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_code "pgen_lexer.ml" 376 19580 19584 "pgen_lexer.ml" 376 19580 19594
+)
+"pgen_lexer.mll" 101 21733 21752 "pgen_lexer.mll" 101 21733 21758
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.mll" 101 21733 21741 "pgen_lexer.mll" 101 21733 21758
+type(
+  unit
+)
+"pgen_lexer.mll" 99 21621 21627 "pgen_lexer.mll" 102 21759 21766
+type(
+  unit
+)
+"pgen_lexer.ml" 459 21790 21794 "pgen_lexer.ml" 459 21790 21811
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "pgen_lexer.ml" 459 21790 21815 "pgen_lexer.ml" 459 21790 21900
+)
+"pgen_lexer.ml" 459 21790 21815 "pgen_lexer.ml" 459 21790 21821
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.ml" 459 21790 21815 "pgen_lexer.ml" 459 21790 21840
+type(
+  Lexing.lexbuf -> unit
+)
+"pgen_lexer.ml" 459 21790 21841 "pgen_lexer.ml" 459 21790 21847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.ml" 459 21790 21815 "pgen_lexer.ml" 459 21790 21847
+type(
+  unit
+)
+"pgen_lexer.ml" 459 21790 21849 "pgen_lexer.ml" 459 21790 21875
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_ocaml_code_rec "pgen_lexer.ml" 378 19645 19649 "pgen_lexer.ml" 378 19645 19675
+)
+"pgen_lexer.ml" 459 21790 21876 "pgen_lexer.ml" 459 21790 21882
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 378 19645 19676 "pgen_lexer.ml" 378 19645 19682
+)
+"pgen_lexer.ml" 459 21790 21883 "pgen_lexer.ml" 459 21790 21900
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "pgen_lexer.ml" 459 21790 21794 "pgen_lexer.ml" 459 21790 21811
+)
+"pgen_lexer.ml" 459 21790 21849 "pgen_lexer.ml" 459 21790 21900
+type(
+  unit
+)
+"pgen_lexer.ml" 459 21790 21815 "pgen_lexer.ml" 459 21790 21900
+type(
+  unit
+)
+"pgen_lexer.ml" 379 19703 19705 "pgen_lexer.ml" 459 21790 21900
+type(
+  unit
+)
+"pgen_lexer.ml" 461 21902 21906 "pgen_lexer.ml" 461 21902 21916
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def ocaml_type "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 461 21902 21917 "pgen_lexer.ml" 461 21902 21923
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "pgen_lexer.ml" 462 21926 21930 "pgen_lexer.ml" 462 21926 21966
+)
+"pgen_lexer.ml" 462 21926 21930 "pgen_lexer.ml" 462 21926 21956
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_ocaml_type_rec "pgen_lexer.ml" 463 21967 21971 "pgen_lexer.ml" 463 21967 21997
+)
+"pgen_lexer.ml" 462 21926 21957 "pgen_lexer.ml" 462 21926 21963
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 461 21902 21917 "pgen_lexer.ml" 461 21902 21923
+)
+"pgen_lexer.ml" 462 21926 21964 "pgen_lexer.ml" 462 21926 21966
+type(
+  int
+)
+"pgen_lexer.ml" 462 21926 21930 "pgen_lexer.ml" 462 21926 21966
+type(
+  unit
+)
+"pgen_lexer.ml" 463 21967 21971 "pgen_lexer.ml" 463 21967 21997
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_ocaml_type_rec "pgen_lexer.ml" 279 17770 17770 --
+)
+"pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "pgen_lexer.ml" 463 21967 22005 "pgen_lexer.ml" 478 22371 22481
+)
+"pgen_lexer.ml" 463 21967 22005 "pgen_lexer.ml" 463 21967 22022
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "pgen_lexer.ml" 464 22025 22027 "pgen_lexer.ml" 478 22371 22481
+)
+"pgen_lexer.ml" 464 22025 22033 "pgen_lexer.ml" 464 22025 22046
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"pgen_lexer.ml" 464 22025 22047 "pgen_lexer.ml" 464 22025 22065
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "pgen_lexer.ml" 10 175 179 "pgen_lexer.ml" 10 175 197
+)
+"pgen_lexer.ml" 464 22025 22066 "pgen_lexer.ml" 464 22025 22083
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "pgen_lexer.ml" 463 21967 22005 "pgen_lexer.ml" 463 21967 22022
+)
+"pgen_lexer.ml" 464 22025 22084 "pgen_lexer.ml" 464 22025 22090
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+)
+"pgen_lexer.ml" 464 22025 22033 "pgen_lexer.ml" 464 22025 22090
+type(
+  int
+)
+"pgen_lexer.ml" 465 22096 22104 "pgen_lexer.ml" 465 22096 22105
+type(
+  int
+)
+"pgen_lexer.mll" 105 22132 22140 "pgen_lexer.mll" 105 22132 22146
+type(
+  unit
+)
+"pgen_lexer.ml" 470 22170 22174 "pgen_lexer.ml" 470 22170 22175
+type(
+  int
+)
+"pgen_lexer.mll" 107 22202 22210 "pgen_lexer.mll" 107 22202 22227
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 107 22202 22228 "pgen_lexer.mll" 107 22202 22230
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"pgen_lexer.mll" 107 22202 22233 "pgen_lexer.mll" 107 22202 22234
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"pgen_lexer.mll" 107 22202 22234 "pgen_lexer.mll" 107 22202 22251
+type(
+  string ref
+)
+ident(
+  int_ref ocaml_code_buffer "pgen_lexer.mll" 3 46 50 "pgen_lexer.mll" 3 46 67
+)
+"pgen_lexer.mll" 107 22202 22232 "pgen_lexer.mll" 107 22202 22252
+type(
+  string
+)
+"pgen_lexer.mll" 107 22202 22253 "pgen_lexer.mll" 107 22202 22254
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"pgen_lexer.mll" 108 22256 22267 "pgen_lexer.mll" 108 22256 22278
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"pgen_lexer.mll" 108 22256 22279 "pgen_lexer.mll" 108 22256 22280
+type(
+  int
+)
+"pgen_lexer.mll" 108 22256 22282 "pgen_lexer.mll" 108 22256 22300
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.lexeme_char
+)
+"pgen_lexer.mll" 108 22256 22301 "pgen_lexer.mll" 108 22256 22307
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+)
+"pgen_lexer.mll" 108 22256 22308 "pgen_lexer.mll" 108 22256 22309
+type(
+  int
+)
+"pgen_lexer.mll" 108 22256 22281 "pgen_lexer.mll" 108 22256 22310
+type(
+  char
+)
+"pgen_lexer.mll" 108 22256 22266 "pgen_lexer.mll" 108 22256 22311
+type(
+  string
+)
+"pgen_lexer.mll" 107 22202 22231 "pgen_lexer.mll" 108 22256 22312
+type(
+  string
+)
+"pgen_lexer.mll" 107 22202 22210 "pgen_lexer.mll" 108 22256 22312
+type(
+  unit
+)
+"pgen_lexer.mll" 109 22314 22322 "pgen_lexer.mll" 109 22314 22332
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref ocaml_type "pgen_lexer.ml" 461 21902 21906 "pgen_lexer.ml" 461 21902 21916
+)
+"pgen_lexer.mll" 109 22314 22333 "pgen_lexer.mll" 109 22314 22339
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+)
+"pgen_lexer.mll" 109 22314 22322 "pgen_lexer.mll" 109 22314 22339
+type(
+  unit
+)
+"pgen_lexer.mll" 107 22202 22208 "pgen_lexer.mll" 110 22340 22347
+type(
+  unit
+)
+"pgen_lexer.ml" 478 22371 22375 "pgen_lexer.ml" 478 22371 22392
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "pgen_lexer.ml" 478 22371 22396 "pgen_lexer.ml" 478 22371 22481
+)
+"pgen_lexer.ml" 478 22371 22396 "pgen_lexer.ml" 478 22371 22402
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+)
+"pgen_lexer.ml" 478 22371 22396 "pgen_lexer.ml" 478 22371 22421
+type(
+  Lexing.lexbuf -> unit
+)
+"pgen_lexer.ml" 478 22371 22422 "pgen_lexer.ml" 478 22371 22428
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+)
+"pgen_lexer.ml" 478 22371 22396 "pgen_lexer.ml" 478 22371 22428
+type(
+  unit
+)
+"pgen_lexer.ml" 478 22371 22430 "pgen_lexer.ml" 478 22371 22456
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_ocaml_type_rec "pgen_lexer.ml" 463 21967 21971 "pgen_lexer.ml" 463 21967 21997
+)
+"pgen_lexer.ml" 478 22371 22457 "pgen_lexer.ml" 478 22371 22463
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "pgen_lexer.ml" 463 21967 21998 "pgen_lexer.ml" 463 21967 22004
+)
+"pgen_lexer.ml" 478 22371 22464 "pgen_lexer.ml" 478 22371 22481
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "pgen_lexer.ml" 478 22371 22375 "pgen_lexer.ml" 478 22371 22392
+)
+"pgen_lexer.ml" 478 22371 22430 "pgen_lexer.ml" 478 22371 22481
+type(
+  unit
+)
+"pgen_lexer.ml" 478 22371 22396 "pgen_lexer.ml" 478 22371 22481
+type(
+  unit
+)
+"pgen_lexer.ml" 464 22025 22027 "pgen_lexer.ml" 478 22371 22481
+type(
+  unit
+)

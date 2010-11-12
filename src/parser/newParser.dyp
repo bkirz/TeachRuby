@@ -809,8 +809,8 @@ stmt:
   | T_CAST[annot,e,pos]
       { expr_annot (E_Identifier(ID_Lowercase,e,pos)) annot pos}
 
-  | K_ALIAS[pos] meth_or_atom[e1] meth_or_atom[e2] { E_Alias(e1,e2,pos) }
-  | K_UNDEF[pos] meth_or_atom_list[e1] { E_Undef(e1,pos) }
+  | K_ALIAS[pos] meth_or_atom[e1] meth_or_atom[e2] { gup_illegal "alias"; E_Alias(e1,e2,pos) }
+  | K_UNDEF[pos] meth_or_atom_list[e1] { gup_illegal "undef"; E_Undef(e1,pos) }
   | stmt[s] K_IF[pos]     eols stmt[guard] 
       { gup_illegal "if"; gup_illegal "postfix_conds";
 	if is_cond_modifier guard then raise Dyp.Giveup; E_If(guard, [s], [],pos) }
@@ -1090,8 +1090,8 @@ do_codeblock:
       { let args,body = b in E_CodeBlock(false,args,body,pos) }
       
 code_block:
-  | brace_codeblock[cb] {cb}
-  | do_codeblock[cb] {cb}
+  | brace_codeblock[cb] { gup_illegal "code_blocks"; cb}
+  | do_codeblock[cb] { gup_illegal "code_blocks"; cb}
 
 code_block_body:
     /* for when the lexer sees "||" instead of two "|"'s */

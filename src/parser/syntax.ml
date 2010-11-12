@@ -19,4 +19,9 @@ let syntax_feature_list = [
 
 	("exceptions", true);
 
+	("alias", true);
+	("undef", true);
+
+	("code_blocks", true);
+
 ]
