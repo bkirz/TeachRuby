@@ -1,111 +1,573 @@
-"method_transform.ml" 3 10 14 "method_transform.ml" 3 10 30
+"method_transform.ml" 3 10 14 "method_transform.ml" 3 10 27
 type(
   Ast.expr -> Ast.expr
 )
 ident(
-  def change_meth_call "method_transform.ml" 7 108 108 --
+  def get_meth_atom "method_transform.ml" 7 177 177 --
 )
-"method_transform.ml" 3 10 31 "method_transform.ml" 3 10 32
+"method_transform.ml" 3 10 28 "method_transform.ml" 3 10 29
 type(
   Ast.expr
 )
 ident(
-  def e "method_transform.ml" 3 10 35 "method_transform.ml" 5 97 106
+  def e "method_transform.ml" 3 10 32 "method_transform.ml" 5 137 175
 )
-"method_transform.ml" 3 10 41 "method_transform.ml" 3 10 42
+"method_transform.ml" 3 10 38 "method_transform.ml" 3 10 39
 type(
   Ast.expr
 )
 ident(
-  int_ref e "method_transform.ml" 3 10 31 "method_transform.ml" 3 10 32
+  int_ref e "method_transform.ml" 3 10 28 "method_transform.ml" 3 10 29
 )
-"method_transform.ml" 4 48 64 "method_transform.ml" 4 48 66
+"method_transform.ml" 4 45 61 "method_transform.ml" 4 45 73
 type(
-  Ast.expr
+  Ast.id_kind
+)
+"method_transform.ml" 4 45 75 "method_transform.ml" 4 45 76
+type(
+  string
 )
 ident(
-  def e1 "method_transform.ml" 4 48 89 "method_transform.ml" 4 48 96
+  def s "method_transform.ml" 4 45 84 "method_transform.ml" 4 45 136
 )
-"method_transform.ml" 4 48 68 "method_transform.ml" 4 48 74
-type(
-  Ast.expr list
-)
-ident(
-  def e_list "method_transform.ml" 4 48 89 "method_transform.ml" 4 48 96
-)
-"method_transform.ml" 4 48 76 "method_transform.ml" 4 48 81
-type(
-  Ast.expr option
-)
-ident(
-  def e_opt "method_transform.ml" 4 48 89 "method_transform.ml" 4 48 96
-)
-"method_transform.ml" 4 48 83 "method_transform.ml" 4 48 84
+"method_transform.ml" 4 45 78 "method_transform.ml" 4 45 79
 type(
   Ast.pos
 )
 ident(
-  def p "method_transform.ml" 4 48 89 "method_transform.ml" 4 48 96
+  def p "method_transform.ml" 4 45 84 "method_transform.ml" 4 45 136
 )
-"method_transform.ml" 4 48 51 "method_transform.ml" 4 48 85
+"method_transform.ml" 4 45 48 "method_transform.ml" 4 45 80
 type(
   Ast.expr
 )
-"method_transform.ml" 4 48 89 "method_transform.ml" 4 48 96
+"method_transform.ml" 4 45 112 "method_transform.ml" 4 45 115
+type(
+  string
+)
+ident(
+  int_ref s "method_transform.ml" 4 45 75 "method_transform.ml" 4 45 76
+)
+"method_transform.ml" 4 45 104 "method_transform.ml" 4 45 115
+type(
+  Ast.string_contents
+)
+"method_transform.ml" 4 45 102 "method_transform.ml" 4 45 117
+type(
+  Ast.interp_string
+)
+"method_transform.ml" 4 45 94 "method_transform.ml" 4 45 117
+type(
+  Ast.lit_kind
+)
+"method_transform.ml" 4 45 119 "method_transform.ml" 4 45 135
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 4 45 84 "method_transform.ml" 4 45 136
 type(
   Ast.expr
 )
-"method_transform.ml" 5 97 100 "method_transform.ml" 5 97 101
+"method_transform.ml" 5 137 140 "method_transform.ml" 5 137 141
 type(
   Ast.expr
 )
-"method_transform.ml" 5 97 105 "method_transform.ml" 5 97 106
+"method_transform.ml" 5 137 145 "method_transform.ml" 5 137 153
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"method_transform.ml" 5 137 154 "method_transform.ml" 5 137 175
+type(
+  string
+)
+"method_transform.ml" 5 137 145 "method_transform.ml" 5 137 175
+type(
+  Ast.expr
+)
+"method_transform.ml" 3 10 32 "method_transform.ml" 5 137 175
+type(
+  Ast.expr
+)
+"method_transform.ml" 7 177 181 "method_transform.ml" 7 177 197
+type(
+  Ast.expr -> Ast.expr
+)
+ident(
+  def change_meth_call "method_transform.ml" 54 1514 1514 --
+)
+"method_transform.ml" 7 177 198 "method_transform.ml" 7 177 199
 type(
   Ast.expr
 )
 ident(
-  int_ref e "method_transform.ml" 3 10 31 "method_transform.ml" 3 10 32
+  def e "method_transform.ml" 7 177 202 "method_transform.ml" 52 1503 1512
 )
-"method_transform.ml" 3 10 35 "method_transform.ml" 5 97 106
+"method_transform.ml" 7 177 208 "method_transform.ml" 7 177 209
 type(
   Ast.expr
 )
-"method_transform.ml" 7 108 112 "method_transform.ml" 7 108 126
-type(
-  Ast.expr list -> Ast.expr list
-)
 ident(
-  def do_meth_change "method_transform.ml" 7 108 165 --
+  int_ref e "method_transform.ml" 7 177 198 "method_transform.ml" 7 177 199
 )
-"method_transform.ml" 7 108 127 "method_transform.ml" 7 108 130
+"method_transform.ml" 10 250 274 "method_transform.ml" 10 250 275
+type(
+  Ast.expr
+)
+"method_transform.ml" 10 250 277 "method_transform.ml" 10 250 283
+type(
+  Ast.binary_op
+)
+"method_transform.ml" 10 250 285 "method_transform.ml" 10 250 286
+type(
+  Ast.expr
+)
+"method_transform.ml" 10 250 288 "method_transform.ml" 10 250 289
+type(
+  Ast.pos
+)
+"method_transform.ml" 10 250 266 "method_transform.ml" 10 250 290
+type(
+  Ast.expr
+)
+"method_transform.ml" 10 250 292 "method_transform.ml" 10 250 298
 type(
   Ast.expr list
 )
 ident(
-  def ast "method_transform.ml" 7 108 133 "method_transform.ml" 7 108 165
+  def e_list "method_transform.ml" 10 250 313 "method_transform.ml" 10 250 348
 )
-"method_transform.ml" 7 108 133 "method_transform.ml" 7 108 144
+"method_transform.ml" 10 250 300 "method_transform.ml" 10 250 305
+type(
+  Ast.expr option
+)
+ident(
+  def e_opt "method_transform.ml" 10 250 313 "method_transform.ml" 10 250 348
+)
+"method_transform.ml" 10 250 307 "method_transform.ml" 10 250 308
+type(
+  Ast.pos
+)
+ident(
+  def p "method_transform.ml" 10 250 313 "method_transform.ml" 10 250 348
+)
+"method_transform.ml" 10 250 253 "method_transform.ml" 10 250 309
+type(
+  Ast.expr
+)
+"method_transform.ml" 10 250 313 "method_transform.ml" 10 250 321
+type(
+  string -> Ast.expr
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"method_transform.ml" 10 250 322 "method_transform.ml" 10 250 348
+type(
+  string
+)
+"method_transform.ml" 10 250 313 "method_transform.ml" 10 250 348
+type(
+  Ast.expr
+)
+"method_transform.ml" 13 388 404 "method_transform.ml" 13 388 406
+type(
+  Ast.expr
+)
+ident(
+  def e1 "method_transform.ml" 13 388 425 "method_transform.ml" 13 388 426
+)
+"method_transform.ml" 13 388 408 "method_transform.ml" 13 388 410
+type(
+  Ast.expr list
+)
+"method_transform.ml" 13 388 412 "method_transform.ml" 13 388 417
+type(
+  Ast.expr option
+)
+ident(
+  def e_opt "method_transform.ml" 13 388 425 "method_transform.ml" 13 388 426
+)
+"method_transform.ml" 13 388 419 "method_transform.ml" 13 388 420
+type(
+  Ast.pos
+)
+ident(
+  def p "method_transform.ml" 13 388 425 "method_transform.ml" 13 388 426
+)
+"method_transform.ml" 13 388 391 "method_transform.ml" 13 388 421
+type(
+  Ast.expr
+)
+"method_transform.ml" 13 388 425 "method_transform.ml" 13 388 426
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "method_transform.ml" 7 177 198 "method_transform.ml" 7 177 199
+)
+"method_transform.ml" 16 470 486 "method_transform.ml" 16 470 488
+type(
+  Ast.expr
+)
+ident(
+  def e1 "method_transform.ml" 17 510 512 "method_transform.ml" 49 1478 1483
+)
+"method_transform.ml" 16 470 490 "method_transform.ml" 16 470 491
+type(
+  Ast.expr
+)
+ident(
+  def h "method_transform.ml" 17 510 512 "method_transform.ml" 49 1478 1483
+)
+"method_transform.ml" 16 470 493 "method_transform.ml" 16 470 494
+type(
+  Ast.expr list
+)
+ident(
+  def t "method_transform.ml" 17 510 512 "method_transform.ml" 49 1478 1483
+)
+"method_transform.ml" 16 470 490 "method_transform.ml" 16 470 494
+type(
+  Ast.expr list
+)
+"method_transform.ml" 16 470 496 "method_transform.ml" 16 470 501
+type(
+  Ast.expr option
+)
+ident(
+  def e_opt "method_transform.ml" 17 510 512 "method_transform.ml" 49 1478 1483
+)
+"method_transform.ml" 16 470 503 "method_transform.ml" 16 470 504
+type(
+  Ast.pos
+)
+ident(
+  def p "method_transform.ml" 17 510 512 "method_transform.ml" 49 1478 1483
+)
+"method_transform.ml" 16 470 473 "method_transform.ml" 16 470 505
+type(
+  Ast.expr
+)
+"method_transform.ml" 21 567 583 "method_transform.ml" 21 567 591
+type(
+  Ast.lit_kind
+)
+"method_transform.ml" 21 567 593 "method_transform.ml" 21 567 609
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 21 567 573 "method_transform.ml" 21 567 610
+type(
+  Ast.expr
+)
+"method_transform.ml" 22 612 618 "method_transform.ml" 22 612 624
+type(
+  Ast.binary_op
+)
+"method_transform.ml" 23 626 645 "method_transform.ml" 23 626 657
+type(
+  Ast.id_kind
+)
+"method_transform.ml" 23 626 659 "method_transform.ml" 23 626 672
+type(
+  string
+)
+"method_transform.ml" 23 626 674 "method_transform.ml" 23 626 690
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 23 626 632 "method_transform.ml" 23 626 691
+type(
+  Ast.expr
+)
+"method_transform.ml" 24 693 699 "method_transform.ml" 24 693 715
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 20 553 558 "method_transform.ml" 24 693 716
+type(
+  Ast.expr
+)
+"method_transform.ml" 25 718 724 "method_transform.ml" 25 718 737
+type(
+  Ast.expr -> Ast.expr
+)
+ident(
+  int_ref get_meth_atom "method_transform.ml" 3 10 14 "method_transform.ml" 3 10 27
+)
+"method_transform.ml" 25 718 738 "method_transform.ml" 25 718 740
+type(
+  Ast.expr
+)
+ident(
+  int_ref e1 "method_transform.ml" 16 470 486 "method_transform.ml" 16 470 488
+)
+"method_transform.ml" 25 718 724 "method_transform.ml" 25 718 740
+type(
+  Ast.expr
+)
+"method_transform.ml" 25 718 723 "method_transform.ml" 25 718 741
+type(
+  Ast.expr list
+)
+"method_transform.ml" 26 743 748 "method_transform.ml" 26 743 752
+type(
+  Ast.expr option
+)
+"method_transform.ml" 27 754 759 "method_transform.ml" 27 754 775
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 19 535 539 "method_transform.ml" 27 754 776
+type(
+  Ast.expr
+)
+"method_transform.ml" 28 778 782 "method_transform.ml" 28 778 787
+type(
+  Ast.binary_op
+)
+"method_transform.ml" 31 821 882 "method_transform.ml" 31 821 894
+type(
+  Ast.id_kind
+)
+"method_transform.ml" 31 821 896 "method_transform.ml" 31 821 904
+type(
+  string
+)
+"method_transform.ml" 31 821 906 "method_transform.ml" 31 821 922
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 31 821 869 "method_transform.ml" 31 821 923
+type(
+  Ast.expr
+)
+"method_transform.ml" 32 925 973 "method_transform.ml" 32 925 979
+type(
+  Ast.binary_op
+)
+"method_transform.ml" 33 981 1042 "method_transform.ml" 33 981 1054
+type(
+  Ast.id_kind
+)
+"method_transform.ml" 33 981 1056 "method_transform.ml" 33 981 1069
+type(
+  string
+)
+"method_transform.ml" 33 981 1071 "method_transform.ml" 33 981 1087
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 33 981 1029 "method_transform.ml" 33 981 1088
+type(
+  Ast.expr
+)
+"method_transform.ml" 34 1090 1138 "method_transform.ml" 34 1090 1154
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 30 807 812 "method_transform.ml" 34 1090 1155
+type(
+  Ast.expr
+)
+"method_transform.ml" 35 1157 1198 "method_transform.ml" 35 1157 1211
+type(
+  Ast.expr -> Ast.expr
+)
+ident(
+  int_ref get_meth_atom "method_transform.ml" 3 10 14 "method_transform.ml" 3 10 27
+)
+"method_transform.ml" 35 1157 1212 "method_transform.ml" 35 1157 1214
+type(
+  Ast.expr
+)
+ident(
+  int_ref e1 "method_transform.ml" 16 470 486 "method_transform.ml" 16 470 488
+)
+"method_transform.ml" 35 1157 1198 "method_transform.ml" 35 1157 1214
+type(
+  Ast.expr
+)
+"method_transform.ml" 35 1157 1197 "method_transform.ml" 35 1157 1215
+type(
+  Ast.expr list
+)
+"method_transform.ml" 36 1217 1257 "method_transform.ml" 36 1217 1261
+type(
+  Ast.expr option
+)
+"method_transform.ml" 37 1263 1303 "method_transform.ml" 37 1263 1319
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 29 789 793 "method_transform.ml" 37 1263 1320
+type(
+  Ast.expr
+)
+"method_transform.ml" 38 1322 1326 "method_transform.ml" 38 1322 1342
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 18 523 526 "method_transform.ml" 38 1322 1343
+type(
+  Ast.expr
+)
+"method_transform.ml" 39 1345 1348 "method_transform.ml" 39 1345 1349
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "method_transform.ml" 7 177 198 "method_transform.ml" 7 177 199
+)
+"method_transform.ml" 42 1381 1386 "method_transform.ml" 42 1381 1387
+type(
+  Ast.expr
+)
+ident(
+  int_ref h "method_transform.ml" 16 470 490 "method_transform.ml" 16 470 491
+)
+"method_transform.ml" 43 1390 1395 "method_transform.ml" 43 1390 1401
+type(
+  Ast.binary_op
+)
+"method_transform.ml" 44 1404 1409 "method_transform.ml" 44 1404 1411
+type(
+  Ast.expr
+)
+ident(
+  int_ref e1 "method_transform.ml" 16 470 486 "method_transform.ml" 16 470 488
+)
+"method_transform.ml" 45 1413 1418 "method_transform.ml" 45 1413 1434
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 41 1368 1372 "method_transform.ml" 45 1413 1435
+type(
+  Ast.expr
+)
+"method_transform.ml" 46 1437 1441 "method_transform.ml" 46 1437 1442
+type(
+  Ast.expr list
+)
+ident(
+  int_ref t "method_transform.ml" 16 470 493 "method_transform.ml" 16 470 494
+)
+"method_transform.ml" 47 1444 1448 "method_transform.ml" 47 1444 1453
+type(
+  Ast.expr option
+)
+ident(
+  int_ref e_opt "method_transform.ml" 16 470 496 "method_transform.ml" 16 470 501
+)
+"method_transform.ml" 48 1455 1459 "method_transform.ml" 48 1455 1475
+type(
+  Ast.pos
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"method_transform.ml" 40 1351 1354 "method_transform.ml" 48 1455 1476
+type(
+  Ast.expr
+)
+"method_transform.ml" 49 1478 1481 "method_transform.ml" 49 1478 1482
+type(
+  Ast.pos
+)
+ident(
+  int_ref p "method_transform.ml" 16 470 503 "method_transform.ml" 16 470 504
+)
+"method_transform.ml" 17 510 512 "method_transform.ml" 49 1478 1483
+type(
+  Ast.expr
+)
+"method_transform.ml" 52 1503 1506 "method_transform.ml" 52 1503 1507
+type(
+  Ast.expr
+)
+"method_transform.ml" 52 1503 1511 "method_transform.ml" 52 1503 1512
+type(
+  Ast.expr
+)
+ident(
+  int_ref e "method_transform.ml" 7 177 198 "method_transform.ml" 7 177 199
+)
+"method_transform.ml" 7 177 202 "method_transform.ml" 52 1503 1512
+type(
+  Ast.expr
+)
+"method_transform.ml" 54 1514 1518 "method_transform.ml" 54 1514 1532
+type(
+  Ast.expr list -> Ast.expr list
+)
+ident(
+  def do_meth_change "method_transform.ml" 54 1514 1571 --
+)
+"method_transform.ml" 54 1514 1533 "method_transform.ml" 54 1514 1536
+type(
+  Ast.expr list
+)
+ident(
+  def ast "method_transform.ml" 54 1514 1539 "method_transform.ml" 54 1514 1571
+)
+"method_transform.ml" 54 1514 1539 "method_transform.ml" 54 1514 1550
 type(
   (Ast.expr -> Ast.expr) -> Ast.expr list -> Ast.expr list
 )
 ident(
   ext_ref Ast.mod_ast
 )
-"method_transform.ml" 7 108 145 "method_transform.ml" 7 108 161
+"method_transform.ml" 54 1514 1551 "method_transform.ml" 54 1514 1567
 type(
   Ast.expr -> Ast.expr
 )
 ident(
-  int_ref change_meth_call "method_transform.ml" 3 10 14 "method_transform.ml" 3 10 30
+  int_ref change_meth_call "method_transform.ml" 7 177 181 "method_transform.ml" 7 177 197
 )
-"method_transform.ml" 7 108 162 "method_transform.ml" 7 108 165
+"method_transform.ml" 54 1514 1568 "method_transform.ml" 54 1514 1571
 type(
   Ast.expr list
 )
 ident(
-  int_ref ast "method_transform.ml" 7 108 127 "method_transform.ml" 7 108 130
+  int_ref ast "method_transform.ml" 54 1514 1533 "method_transform.ml" 54 1514 1536
 )
-"method_transform.ml" 7 108 133 "method_transform.ml" 7 108 165
+"method_transform.ml" 54 1514 1539 "method_transform.ml" 54 1514 1571
 type(
   Ast.expr list
 )
