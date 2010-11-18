@@ -1,8 +1,12 @@
 BEGIN {
-	f = File.new "whitelist.config", "r"
-	$whitelist = []
+	f = File.new "teachruby.config", "r"
+	$list_type = f.gets.chomp
+	if not ($list_type.eql? "blacklist" or $list_type.eql? "whitelist")
+		raise "TeachRuby: invalid config list type " << $list_type
+	end
+	$list = []
 	while (line = f.gets)
-		$whitelist.push(line.chomp)
+		$list.push(line.chomp)
 	end
 }
 
@@ -15,8 +19,14 @@ module TeachRuby
     # Used to check if a value is of a type which has been blacklisted
     # values consist of: literals, hashes, arrays, method return vals
     def __value_forbidden_check(value)
-        if not $whitelist.include? value.class.to_s
-           raise TypeError, "TeachRuby: Value " << value.to_s << " has forbidden type " << value.class.to_s
+        if $list_type.eql? "whitelist"
+		if not $list.include? value.class.to_s
+           		raise TypeError, "TeachRuby: Value " << value.to_s << " has forbidden type " << value.class.to_s
+		end
+	elsif $list_type.eql? "blacklist"
+		if $list.include? value.class.to_s
+           		raise TypeError, "TeachRuby: Value " << value.to_s << " has forbidden type " << value.class.to_s
+		end
         end
         return value
     end
