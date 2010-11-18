@@ -18,7 +18,7 @@ FILES[] =
 	utils
 	config
 	visitor
-	method_transform
+	do_transform
 
 .SUBDIRS: parser cfg
 	include OMakefile

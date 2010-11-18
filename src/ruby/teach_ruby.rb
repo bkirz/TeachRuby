@@ -1,8 +1,27 @@
+BEGIN {
+	f = File.new "whitelist.config", "r"
+	$whitelist = []
+	while (line = f.gets)
+		$whitelist.push(line.chomp)
+	end
+}
+
 module TeachRuby
 
   # This module contains methods added to all Objects for use with
   # TeachRuby code transformation.
   module ObjectMixin
+
+    # Used to check if a value is of a type which has been blacklisted
+    # values consist of: literals, hashes, arrays, method return vals
+    def __value_forbidden_check(value)
+        if not $whitelist.include? value.class.to_s
+           raise TypeError, "TeachRuby: Value " << value.to_s << " has forbidden type " << value.class.to_s
+        end
+        return value
+    end
+
+    alias_method :__v, :__value_forbidden_check
 
     # Used to intelligently dispatch procedural-style method calls.
     #
@@ -23,16 +42,16 @@ module TeachRuby
     #       arg0.method(arg1, arg2, ..., &block)
     def __procedural_function_call(method, *args, &block)
       if self.respond_to? method
-        self.send(method, *args, &block)
+        __v(self.send(method, *args, &block))
       elsif Kernel.respond_to? method
-        Kernel.send(method, *args, &block)
+        __v(Kernel.send(method, *args, &block))
       else
         obj, rest = args[0], args[1..-1]
         if obj.nil?
           # TODO: Better error reporting
           raise ArgumentError, "Oh noes!"
         else
-          obj.send(method, *rest, &block)
+          __v(obj.send(method, *rest, &block))
         end
       end
     end
