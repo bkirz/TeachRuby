@@ -1,12 +1,17 @@
 BEGIN {
 	f = File.new "teachruby.config", "r"
 	$list_type = f.gets.chomp
+	while ($list_type =~ /^\s*(#|$)/)
+		$list_type = f.gets.chomp
+	end
 	if not ($list_type.eql? "blacklist" or $list_type.eql? "whitelist")
 		raise "TeachRuby: invalid config list type " << $list_type
 	end
 	$list = []
 	while (line = f.gets)
-		$list.push(line.chomp)
+		unless (line =~ /^\s*(#|$)/)
+			$list.push(line.chomp)
+		end
 	end
 }
 

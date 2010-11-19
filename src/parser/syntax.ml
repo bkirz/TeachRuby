@@ -1,9 +1,9 @@
 let syntax_feature_list = [
 	
-	("begin/end", true);
+	("begin/end", false);
 	("method_def", true);
-	("class_def", true);
-	("module_def", true);
+	("class_def", false);
+	("module_def", false);
 
 	("op_equals", true);
 	("mult_assign", true);
@@ -17,11 +17,11 @@ let syntax_feature_list = [
 
 	("postfix_conds", true);
 
-	("exceptions", true);
+	("exceptions", false);
 
-	("alias", true);
-	("undef", true);
+	("alias", false);
+	("undef", false);
 
-	("code_blocks", true);
+	("code_blocks", false);
 
 ]
