@@ -1,0 +1,11 @@
+---
+whitelist: # can also be a blacklist
+ - Fixnum
+ - Float
+ - String
+ - FalseClass
+ - TrueClass
+ - NilClass
+ - Symbol
+ - Array
+ - Hash

@@ -1,21 +1,37 @@
-BEGIN {
-	f = File.new "teachruby.config", "r"
-	$list_type = f.gets.chomp
-	while ($list_type =~ /^\s*(#|$)/)
-		$list_type = f.gets.chomp
-	end
-	if not ($list_type.eql? "blacklist" or $list_type.eql? "whitelist")
-		raise "TeachRuby: invalid config list type " << $list_type
-	end
-	$list = []
-	while (line = f.gets)
-		unless (line =~ /^\s*(#|$)/)
-			$list.push(line.chomp)
-		end
-	end
-}
-
 module TeachRuby
+  module Config
+    DEFAULT_FILENAME = 'teachruby.yml'.freeze
+    KEYS = %w{whitelist blacklist}.freeze
+    CONFIG = Hash.new
+
+    def self.read_config_file(filename = DEFAULT_FILENAME)
+      require 'yaml'
+      
+      hash = YAML::load_file filename
+      process_config hash
+    end
+
+    def self.process_config(hash)
+      extra_keys = hash.keys - KEYS
+      raise "Invalid config keys: #{extra_keys.join(', ')}" unless extra_keys.empty?
+      if hash.has_key? 'whitelist'
+        raise "Config can only have one of blacklist and whitelist" if hash.has_key? 'blacklist'
+        CONFIG[:class_validation_mode] = :whitelist
+        CONFIG[:classes] = hash['whitelist']
+      elsif hash.has_key? 'blacklist'
+        CONFIG[:class_validation_mode] = :blacklist
+        CONFIG[:classes] = hash['blacklist']
+      else
+        # TODO: Default whitelist
+      end
+      hash
+    end
+
+    def self.value_forbidden?(value)
+      class_listed = !((CONFIG[:classes] & value.class.ancestors.map(&:to_s)).empty?)
+      (CONFIG[:class_validation_mode] == :whitelist) ^ class_listed
+    end
+  end
 
   # This module contains methods added to all Objects for use with
   # TeachRuby code transformation.
@@ -24,16 +40,8 @@ module TeachRuby
     # Used to check if a value is of a type which has been blacklisted
     # values consist of: literals, hashes, arrays, method return vals
     def __value_forbidden_check(value)
-        if $list_type.eql? "whitelist"
-		if not $list.include? value.class.to_s
-           		raise TypeError, "TeachRuby: Value " << value.to_s << " has forbidden type " << value.class.to_s
-		end
-	elsif $list_type.eql? "blacklist"
-		if $list.include? value.class.to_s
-           		raise TypeError, "TeachRuby: Value " << value.to_s << " has forbidden type " << value.class.to_s
-		end
-        end
-        return value
+      raise TypeError, "TeachRuby: Value #{value.to_s} has forbidden type #{value.class.to_s}" if Config.value_forbidden? value
+      value
     end
 
     alias_method :__v, :__value_forbidden_check
@@ -74,7 +82,7 @@ module TeachRuby
     def __reverse_procedural_function_call(method, *args, &block)
       obj, rest = args[0], args[1..-1]
       if (not obj.nil?) and (obj.respond_to? method)
-      	__v(obj.send(method, *rest, &block))
+	__v(obj.send(method, *rest, &block))
       elsif self.respond_to? method
         __v(self.send(method, *args, &block))
       elsif Kernel.respond_to? method
@@ -89,6 +97,9 @@ module TeachRuby
   end
 end
 
+################
 class Object
   include TeachRuby::ObjectMixin
 end
+
+TeachRuby::Config::read_config_file
