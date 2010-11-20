@@ -1,0 +1,5 @@
+require(%{ruby/teach_ruby.rb})
+__tmp_1 = __v(:"puts")
+__tmp_2 = __v(%{Hello, World!})
+__p(__tmp_1, __tmp_2)
+

@@ -1,0 +1,30 @@
+puts "CMSC106"
+puts "Enter a time, in 24-hour format (hours:minutes):"
+time = chomp gets
+
+split_time = split time, ":"
+
+#why doesn't this work?
+hours = to_i split_time[0]
+minutes = to_i split_time[1]
+
+#hours = to_i (at split_time, 0)
+#minutes = to_i (at split_time, 1)
+
+seconds_past = hours * 60 * 60 + minutes * 60
+seconds_in_day = 24 * 60 * 60
+perc_past = round ((to_f seconds_past) / seconds_in_day * 100)
+
+puts time << " is " << (to_s seconds_past) << " past midnight, and the day is " << (to_s perc_past) << "% over."
+
+seconds_left = seconds_in_day - seconds_past
+
+puts "There are " << (to_s seconds_left) << " seconds from this time until the end of the day."
+
+jan_seconds = seconds_past
+bleeps = jan_seconds / (200 * 54)
+jan_seconds %= (200 * 54)
+blips = jan_seconds / 200
+jan_seconds %= 200
+
+puts "Jan Planet time " << (to_s bleeps) << "-" << (to_s blips) << "-" << (to_s jan_seconds)

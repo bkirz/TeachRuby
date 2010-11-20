@@ -1,0 +1,28 @@
+require(%{ruby/teach_ruby.rb})
+__tmp_1 = __v(:"puts")
+__tmp_2 = __v(%{Type "Quit" to exit\n})
+__p(__tmp_1, __tmp_2)
+while true
+  __tmp_3 = __v(true)
+  if __tmp_3 then
+    __tmp_4 = __v(:"chomp")
+    __tmp_5 = gets()
+    input = __p(__tmp_4, __tmp_5)
+    __tmp_7 = __v(:"eql?")
+    __tmp_8 = __v(%{Quit})
+    __tmp_6 = __p(__tmp_7, input, __tmp_8)
+    if __tmp_6 then
+      break
+    else
+      nil
+    end
+    __tmp_9 = __v(:"concat")
+    __tmp_10 = __v(%{Input was })
+    output = __p(__tmp_9, __tmp_10, input)
+    __tmp_11 = __v(:"puts")
+    __p(__tmp_11, output)
+  else
+    break
+  end
+end
+

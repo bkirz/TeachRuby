@@ -1,0 +1,10 @@
+puts "Type \"Quit\" to exit\n"
+
+while true
+	input = chomp gets
+	if (eql? input, "Quit")
+		break
+	end
+	output = concat "Input was ", input
+	puts output
+end

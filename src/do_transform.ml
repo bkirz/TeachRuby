@@ -5,6 +5,9 @@ let get_meth_atom e = match e with
 	| _ -> failwith "get_meth_atom error"
 
 let change_meth_calls e = match e with
+	(* special stuff for array accesses *)
+	| E_MethodCall(E_Binop(_, Op_DOT, E_Operator(Op_AREF, _), _), _, _, _) -> e
+
 	| E_MethodCall(e1, e_list, e_opt, p) ->
 		E_MethodCall(
 			E_Identifier(ID_Lowercase, "__p", Lexing.dummy_pos),

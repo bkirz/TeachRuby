@@ -71,7 +71,21 @@ module TeachRuby
       end
     end
 
-    alias_method :__p, :__procedural_function_call
+    def __reverse_procedural_function_call(method, *args, &block)
+      obj, rest = args[0], args[1..-1]
+      if (not obj.nil?) and (obj.respond_to? method)
+      	__v(obj.send(method, *rest, &block))
+      elsif self.respond_to? method
+        __v(self.send(method, *args, &block))
+      elsif Kernel.respond_to? method
+        __v(Kernel.send(method, *args, &block))
+      else
+	raise "TeachRuby: no such method " << method.to_s
+      end
+    end
+
+    alias_method :__p, :__reverse_procedural_function_call
+
   end
 end
 
