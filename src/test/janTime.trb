@@ -4,12 +4,8 @@ time = chomp gets
 
 split_time = split time, ":"
 
-#why doesn't this work?
 hours = to_i split_time[0]
 minutes = to_i split_time[1]
-
-#hours = to_i (at split_time, 0)
-#minutes = to_i (at split_time, 1)
 
 seconds_past = hours * 60 * 60 + minutes * 60
 seconds_in_day = 24 * 60 * 60
