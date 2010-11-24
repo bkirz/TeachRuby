@@ -1,0 +1,24 @@
+def myCount (str, char)
+	count str, char
+end
+
+def countSubstring (str, substr)
+	matches = 0
+	index = 0
+	l = length str
+	while (index < l)
+		curr = slice str, (index..l)
+		if match curr, "^" << substr
+			matches += 1
+		end
+		index += 1
+	end
+	return matches
+end
+
+###############################
+# Testing!!
+
+puts (myCount "Hello world!", "l")
+
+puts (countSubstring "Mississipi", "issi")

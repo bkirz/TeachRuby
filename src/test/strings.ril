@@ -1,0 +1,49 @@
+require(%{ruby/teach_ruby.rb})
+def myCount(str, char)
+  __tmp_1 = __v(:"count")
+  __tmp_2 = __p(__tmp_1, str, char)
+  return __tmp_2
+end
+def countSubstring(str, substr)
+  matches = __v(0)
+  index = __v(0)
+  __tmp_3 = __v(:"length")
+  l = __p(__tmp_3, str)
+  while true
+    __tmp_4 = index.<(l)
+    if __tmp_4 then
+      __tmp_5 = __v(:"slice")
+      curr = __p(__tmp_5, str, (index..l))
+      __tmp_7 = __v(:"match")
+      __tmp_9 = __v(%{^})
+      __tmp_8 = __tmp_9.<<(substr)
+      __tmp_6 = __p(__tmp_7, curr, __tmp_8)
+      if __tmp_6 then
+        __tmp_11 = __v(1)
+        __tmp_10 = matches.+(__tmp_11)
+        matches = __tmp_10
+      else
+        nil
+      end
+      __tmp_13 = __v(1)
+      __tmp_12 = index.+(__tmp_13)
+      index = __tmp_12
+    else
+      break
+    end
+  end
+  return matches
+end
+__tmp_14 = __v(:"puts")
+__tmp_16 = __v(:"myCount")
+__tmp_17 = __v(%{Hello world!})
+__tmp_18 = __v(%{l})
+__tmp_15 = __p(__tmp_16, __tmp_17, __tmp_18)
+__p(__tmp_14, __tmp_15)
+__tmp_19 = __v(:"puts")
+__tmp_21 = __v(:"countSubstring")
+__tmp_22 = __v(%{Mississipi})
+__tmp_23 = __v(%{issi})
+__tmp_20 = __p(__tmp_21, __tmp_22, __tmp_23)
+__p(__tmp_19, __tmp_20)
+
