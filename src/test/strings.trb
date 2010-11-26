@@ -2,13 +2,22 @@ def myCount (str, char)
 	count str, char
 end
 
+def startsWith (str, prefix)
+	l = length prefix
+	if l <= (length str)
+		temp = slice str, (0..(l - 1))
+		return (eql? temp, prefix)
+	end
+	return false
+end
+
 def countSubstring (str, substr)
 	matches = 0
 	index = 0
 	l = length str
 	while (index < l)
 		curr = slice str, (index..l)
-		if match curr, "^" << substr
+		if startsWith curr, substr
 			matches += 1
 		end
 		index += 1
@@ -16,9 +25,54 @@ def countSubstring (str, substr)
 	return matches
 end
 
+def myRev (str)
+	return (reverse str)
+end
+
+def expand (str)
+	newStr = ""
+	for i in (0..(length str) - 1)
+		char = slice str, i, 1
+		newStr << char
+		for j in (1..i)
+			newStr << char
+		end
+	end
+	return newStr
+end
+
+def alternating (str1, str2)
+	newStr = ""
+	l1 = length str1
+	l2 = length str2
+	if l1 > l2
+		longer, shorter = str1, str2
+	else
+		longer, shorter = str2, str1
+	end
+	for i in (0..(length shorter) - 1)
+		char1 = slice str1, i, 1
+		char2 = slice str2, i, 1
+		newStr << char1 << char2
+	end
+	diff = (length longer) - (length shorter)
+	newStr << (slice longer, (length shorter), diff)
+	return newStr
+end
+
 ###############################
 # Testing!!
 
 puts (myCount "Hello world!", "l")
 
+puts (startsWith "Hello world!", "He")
+puts (startsWith "Hello world!", "he")
+
 puts (countSubstring "Mississipi", "issi")
+
+puts (myRev "monkey")
+
+puts (expand "Fred")
+
+puts (alternating "cow", "buffalo")
+puts (alternating "buffalo", "cow")
