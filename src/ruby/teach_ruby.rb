@@ -84,12 +84,9 @@ module TeachRuby
       if (not obj.nil?) and (obj.respond_to? method)
 	__v(obj.send(method, *rest, &block))
 
-#	I don't think we need this, all these methods end up in Kernel anyway
-#      elsif self.respond_to? method, true
-#        __v(self.send(method, *args, &block))
+      elsif self.respond_to? method, true
+        __v(self.send(method, *args, &block))
 
-      elsif Kernel.respond_to? method, true
-        __v(Kernel.send(method, *args, &block))
       else
 	raise "TeachRuby: no such method " << method.to_s
       end
