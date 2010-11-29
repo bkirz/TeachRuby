@@ -1,0 +1,23 @@
+puts "Enter 10 numbers:"
+a = new Array
+for i in (0..9)
+	a[i] = to_i gets
+end
+
+for i in (0..9)
+	for j in (0..9)
+		if a[i] < a[j]
+			temp = a[i]
+			a[i] = a[j]
+			a[j] = temp
+
+			# ZOMG I broke RIL!
+			#a[i], a[j] = a[j], a[i]
+		end
+	end
+end
+
+puts "Sorted:"
+for i in (0..9)
+	puts a[i]
+end
