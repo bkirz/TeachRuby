@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+if ARGV.length < 1
+  puts "usage: #{$0} path/to/file.trb"
+  exit 1
+end
+
+trb_file = ARGV[0]
+ril_file = trb_file.gsub '.trb', '.ril'
+
+system "./teach_ruby #{trb_file} > #{ril_file}" 
+
+system "ruby #{ril_file}"
