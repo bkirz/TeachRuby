@@ -1,7 +1,7 @@
 module TeachRuby
   module Config
     DEFAULT_FILENAME = 'teachruby.yml'.freeze
-    KEYS = %w{class_whitelist class_blacklist method_blacklist}.freeze
+    KEYS = %w{ruby_libraries class_whitelist class_blacklist method_blacklist}.freeze
     CONFIG = Hash.new
 
     def self.read_config_file(filename = DEFAULT_FILENAME)
@@ -14,7 +14,7 @@ module TeachRuby
     def self.process_config(hash)
       extra_keys = hash.keys - KEYS
       raise "Invalid config keys: #{extra_keys.join(', ')}" unless extra_keys.empty?
-
+      
       process_classlist hash
       # Read class whitelist/blacklist from hash
       if hash.has_key? 'class_whitelist'
@@ -28,14 +28,14 @@ module TeachRuby
 
       # Read method blacklist
       CONFIG[:method_blacklist] = hash['method_blacklist'].map(&:to_sym)
-
+     
       # Load external libraries
       CONFIG[:ruby_libraries] = hash['ruby_libraries']
       CONFIG[:ruby_libraries].each { |lib| require lib }
       
       hash.freeze
     end
-
+    
     def self.value_forbidden?(value)
       class_listed = !((CONFIG[:classes] & value.class.ancestors.map(&:to_s)).empty?)
       (CONFIG[:class_validation_mode] == :whitelist) ^ class_listed
