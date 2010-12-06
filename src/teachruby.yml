@@ -1,5 +1,5 @@
 ---
-whitelist: # can also be a blacklist
+class_whitelist: # can also be a blacklist
  - Fixnum
  - Float
  - String
@@ -9,7 +9,7 @@ whitelist: # can also be a blacklist
  - Symbol
  - Array
  - Hash
-method_blacklist:
+method_blacklist: # you probably don't want to make this a whitelist
  - send
  - eval
  - require

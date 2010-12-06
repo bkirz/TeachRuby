@@ -1,7 +1,7 @@
 module TeachRuby
   module Config
     DEFAULT_FILENAME = 'teachruby.yml'.freeze
-    KEYS = %w{whitelist blacklist method_blacklist}.freeze
+    KEYS = %w{class_whitelist class_blacklist method_blacklist}.freeze
     CONFIG = Hash.new
 
     def self.read_config_file(filename = DEFAULT_FILENAME)
@@ -16,13 +16,13 @@ module TeachRuby
       raise "Invalid config keys: #{extra_keys.join(', ')}" unless extra_keys.empty?
 
       # Read class whitelist/blacklist from hash
-      if hash.has_key? 'whitelist'
+      if hash.has_key? 'class_whitelist'
         raise "Config can only have one of blacklist and whitelist" if hash.has_key? 'blacklist'
         CONFIG[:class_validation_mode] = :whitelist
-        CONFIG[:classes] = hash['whitelist']
+        CONFIG[:classes] = hash['class_whitelist']
       elsif hash.has_key? 'blacklist'
         CONFIG[:class_validation_mode] = :blacklist
-        CONFIG[:classes] = hash['blacklist']
+        CONFIG[:classes] = hash['class_blacklist']
       else
         # TODO: Default whitelist
       end
