@@ -1,7 +1,7 @@
 module TeachRuby
   module Config
     DEFAULT_FILENAME = 'teachruby.yml'.freeze
-    KEYS = %w{whitelist blacklist}.freeze
+    KEYS = %w{whitelist blacklist method_blacklist}.freeze
     CONFIG = Hash.new
 
     def self.read_config_file(filename = DEFAULT_FILENAME)
@@ -14,6 +14,8 @@ module TeachRuby
     def self.process_config(hash)
       extra_keys = hash.keys - KEYS
       raise "Invalid config keys: #{extra_keys.join(', ')}" unless extra_keys.empty?
+
+      # Read class whitelist/blacklist from hash
       if hash.has_key? 'whitelist'
         raise "Config can only have one of blacklist and whitelist" if hash.has_key? 'blacklist'
         CONFIG[:class_validation_mode] = :whitelist
@@ -24,12 +26,20 @@ module TeachRuby
       else
         # TODO: Default whitelist
       end
-      hash
+
+      # Read method blacklist
+      CONFIG[:method_blacklist] = hash['method_blacklist'].map(&:to_sym)
+      
+      hash.freeze
     end
 
     def self.value_forbidden?(value)
       class_listed = !((CONFIG[:classes] & value.class.ancestors.map(&:to_s)).empty?)
       (CONFIG[:class_validation_mode] == :whitelist) ^ class_listed
+    end
+
+    def self.method_forbidden?(value)
+      CONFIG[:method_blacklist].include? value
     end
   end
 
@@ -46,53 +56,22 @@ module TeachRuby
 
     alias_method :__v, :__value_forbidden_check
 
-    # Used to intelligently dispatch procedural-style method calls.
-    #
-    # If called in a context where an implicit method call would succeed,
-    # the method call is invoked as:
-    # 
-    #       self.method(*args, &block)
-    #
-    # If an implicit Kernel method call is made, the following method 
-    # is invoked: 
-    #
-    #       Kernel.method(*args, &block)
-    #
-    # If an implicit call would fail, use the first argument of the method
-    # call as the callee, removing it from the list of arguments.  That is,
-    # if args = [arg0, arg1, arg2, ...], the following method is invoked:
-    #
-    #       arg0.method(arg1, arg2, ..., &block)
+    # Dispatches procedural-style method calls.
     def __procedural_function_call(method, *args, &block)
-      if self.respond_to? method
-        __v(self.send(method, *args, &block))
-      elsif Kernel.respond_to? method
-        __v(Kernel.send(method, *args, &block))
-      else
-        obj, rest = args[0], args[1..-1]
-        if obj.nil?
-          # TODO: Better error reporting
-          raise ArgumentError, "Oh noes!"
-        else
-          __v(obj.send(method, *rest, &block))
-        end
-      end
-    end
-
-    def __reverse_procedural_function_call(method, *args, &block)
+      raise "Function call forbidden: #{method}" if Config.method_forbidden?(method)
+      
       obj, rest = args[0], args[1..-1]
       if (not obj.nil?) and (obj.respond_to? method)
-	__v(obj.send(method, *rest, &block))
-
+	      __v(obj.send(method, *rest, &block))
       elsif self.respond_to? method, true
         __v(self.send(method, *args, &block))
 
       else
-	raise "TeachRuby: no such method " << method.to_s
+        raise "TeachRuby: no such function " << method.to_s
       end
     end
 
-    alias_method :__p, :__reverse_procedural_function_call
+    alias_method :__p, :__procedural_function_call
 
   end
 end
