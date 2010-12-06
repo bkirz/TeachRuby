@@ -2,8 +2,8 @@ open Ast
 
 let get_meth_atom e = match e with
 	| E_Identifier(ID_Lowercase, s, p) -> 
-		if (s = "eval") then (failwith "Thou shalt not eval!") else (E_Literal(Lit_Atom([StrChars(s)]), Lexing.dummy_pos))
-	| _ -> failwith "get_meth_atom error"
+		(E_Literal(Lit_Atom([StrChars(s)]), Lexing.dummy_pos))
+  | _ -> failwith "get_meth_atom error"
 
 let change_meth_calls e = match e with
 	(* special stuff for array accesses *)

@@ -9,3 +9,13 @@ whitelist: # can also be a blacklist
  - Symbol
  - Array
  - Hash
+method_blacklist:
+ - send
+ - eval
+ - require
+ - class_eval
+ - instance_eval
+ - define_method
+ - undef_method
+ - method_defined
+ - method_missing
