@@ -15,7 +15,6 @@ module TeachRuby
       extra_keys = hash.keys - KEYS
       raise "Invalid config keys: #{extra_keys.join(', ')}" unless extra_keys.empty?
       
-      process_classlist hash
       # Read class whitelist/blacklist from hash
       if hash.has_key? 'class_whitelist'
         raise "Config can only have one of blacklist and whitelist" if hash.has_key? 'class_blacklist'
