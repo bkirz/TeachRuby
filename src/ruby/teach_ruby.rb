@@ -15,20 +15,23 @@ module TeachRuby
       extra_keys = hash.keys - KEYS
       raise "Invalid config keys: #{extra_keys.join(', ')}" unless extra_keys.empty?
 
+      process_classlist hash
       # Read class whitelist/blacklist from hash
       if hash.has_key? 'class_whitelist'
-        raise "Config can only have one of blacklist and whitelist" if hash.has_key? 'blacklist'
+        raise "Config can only have one of blacklist and whitelist" if hash.has_key? 'class_blacklist'
         CONFIG[:class_validation_mode] = :whitelist
         CONFIG[:classes] = hash['class_whitelist']
-      elsif hash.has_key? 'blacklist'
+      elsif hash.has_key? 'class_blacklist'
         CONFIG[:class_validation_mode] = :blacklist
         CONFIG[:classes] = hash['class_blacklist']
-      else
-        # TODO: Default whitelist
       end
 
       # Read method blacklist
       CONFIG[:method_blacklist] = hash['method_blacklist'].map(&:to_sym)
+
+      # Load external libraries
+      CONFIG[:ruby_libraries] = hash['ruby_libraries']
+      CONFIG[:ruby_libraries].each { |lib| require lib }
       
       hash.freeze
     end

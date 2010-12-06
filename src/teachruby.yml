@@ -9,7 +9,7 @@ class_whitelist: # can also be a blacklist
  - Symbol
  - Array
  - Hash
-method_blacklist: # you probably don't want to make this a whitelist
+method_blacklist: # only blacklists are supported right now
  - send
  - eval
  - require
@@ -19,3 +19,4 @@ method_blacklist: # you probably don't want to make this a whitelist
  - undef_method
  - method_defined
  - method_missing
+ruby_libraries: [] # Contains paths to external ruby libraries loaded before the TeachRuby script
